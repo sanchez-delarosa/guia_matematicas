@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "36",
+    "titulo": "Hipérbola",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "36.1",
+        "nombre": "Definición y elementos"
+      },
+      {
+        "codigo": "36.2",
+        "nombre": "Formas ordinarias"
+      },
+      {
+        "codigo": "36.3",
+        "nombre": "Centro en el origen"
+      },
+      {
+        "codigo": "36.4",
+        "nombre": "Centro fuera del origen"
+      },
+      {
+        "codigo": "36.5",
+        "nombre": "Rectángulo auxiliar y asíntotas"
+      },
+      {
+        "codigo": "36.6",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      {
+        "codigo": "36.7",
+        "nombre": "Procedimiento rápido"
+      },
+      {
+        "codigo": "36.8",
+        "nombre": "Resumen"
+      },
+      {
+        "codigo": "36.9",
+        "nombre": "Errores frecuentes"
+      }
+    ],
+    "criterio_de_inclusion": "Secciones 36.1 a 36.9 conforme al temario del capítulo.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-36-1-01",
+      "pregunta": "Una hipérbola es el conjunto de puntos para los cuales el valor absoluto de la diferencia de distancias a dos puntos fijos es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Constante",
+        "B": "Cero para todos los puntos",
+        "C": "La suma de las distancias",
+        "D": "Variable sin restricción"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-1-02",
+      "pregunta": "Los puntos fijos de una hipérbola se llaman:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Vértices",
+        "B": "Centros",
+        "C": "Directrices",
+        "D": "Focos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-1-03",
+      "pregunta": "El punto medio de los focos es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Un covértice",
+        "B": "Una asíntota",
+        "C": "El centro",
+        "D": "Un vértice"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-1-04",
+      "pregunta": "El eje que contiene focos y vértices es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "La directriz",
+        "B": "El eje transverso",
+        "C": "El eje conjugado",
+        "D": "El lado recto"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-1-05",
+      "pregunta": "Los extremos del eje transverso son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Los vértices",
+        "B": "Los focos",
+        "C": "Los covértices",
+        "D": "Las asíntotas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-1-06",
+      "pregunta": "Las rectas a las que se aproximan las ramas son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Las directrices",
+        "B": "Las tangentes focales",
+        "C": "Los radios",
+        "D": "Las asíntotas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-1-07",
+      "pregunta": "Una hipérbola no degenerada tiene:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Tres ramas",
+        "B": "Una región cerrada",
+        "C": "Dos ramas",
+        "D": "Una rama"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-1-08",
+      "pregunta": "La relación entre sus parámetros es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "$c=a-b$",
+        "B": "$c^2=a^2+b^2$",
+        "C": "$c^2=a^2-b^2$",
+        "D": "$a^2=b^2+c^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-1-09",
+      "pregunta": "La excentricidad de una hipérbola es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "$e=\\frac ca$",
+        "B": "$e=\\frac ac$",
+        "C": "$e=\\frac ba$",
+        "D": "$e=c-a$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-1-10",
+      "pregunta": "En una hipérbola no degenerada se cumple:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "$0<e<1$",
+        "B": "$e=1$",
+        "C": "$e=0$",
+        "D": "$e>1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-2-01",
+      "pregunta": "La forma ordinaria horizontal es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(x-h)^2}{a^2}+\\frac{(y-k)^2}{b^2}=1$",
+        "B": "$(x-h)^2+(y-k)^2=1$",
+        "C": "$\\frac{(x-h)^2}{a^2}-\\frac{(y-k)^2}{b^2}=1$",
+        "D": "$\\frac{(y-k)^2}{a^2}-\\frac{(x-h)^2}{b^2}=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-2-02",
+      "pregunta": "La forma ordinaria vertical es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(y-k)^2=4p(x-h)$",
+        "B": "$\\frac{(y-k)^2}{a^2}-\\frac{(x-h)^2}{b^2}=1$",
+        "C": "$\\frac{(x-h)^2}{a^2}-\\frac{(y-k)^2}{b^2}=1$",
+        "D": "$\\frac{(x-h)^2}{a^2}+\\frac{(y-k)^2}{b^2}=1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-2-03",
+      "pregunta": "El centro en ambas formas es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h,k)$",
+        "B": "$(-h,-k)$",
+        "C": "$(a,b)$",
+        "D": "$(c,0)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-2-04",
+      "pregunta": "El término positivo identifica:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "El centro",
+        "B": "La distancia focal",
+        "C": "La constante del lado derecho",
+        "D": "La dirección de apertura"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-2-05",
+      "pregunta": "En una hipérbola horizontal, los vértices son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h\\pm c,k)$",
+        "B": "$(h,k\\pm b)$",
+        "C": "$(h\\pm a,k)$",
+        "D": "$(h,k\\pm a)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-2-06",
+      "pregunta": "En una hipérbola vertical, los vértices son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h\\pm b,k)$",
+        "B": "$(h,k\\pm a)$",
+        "C": "$(h\\pm a,k)$",
+        "D": "$(h,k\\pm c)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-2-07",
+      "pregunta": "Los focos de una hipérbola horizontal son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h\\pm c,k)$",
+        "B": "$(h,k\\pm c)$",
+        "C": "$(h\\pm a,k)$",
+        "D": "$(h,k\\pm b)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-2-08",
+      "pregunta": "Los focos de una hipérbola vertical son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h\\pm c,k)$",
+        "B": "$(h,k\\pm a)$",
+        "C": "$(h\\pm b,k)$",
+        "D": "$(h,k\\pm c)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-2-09",
+      "pregunta": "En la forma ordinaria siempre se cumple:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$c=a$",
+        "B": "$c=0$",
+        "C": "$c>a$",
+        "D": "$c<a$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-2-10",
+      "pregunta": "La distancia entre vértices es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$2c$",
+        "B": "$2a$",
+        "C": "$a$",
+        "D": "$2b$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-3-01",
+      "pregunta": "En $\\frac{x^2}{9}-\\frac{y^2}{16}=1$, $a=$",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$9$",
+        "C": "$4$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-3-02",
+      "pregunta": "En esa hipérbola, $b=$",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$3$",
+        "C": "$5$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-3-03",
+      "pregunta": "En esa hipérbola, $c=$",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$25$",
+        "C": "$5$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-3-04",
+      "pregunta": "Sus vértices son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,\\pm4)$",
+        "B": "$(\\pm3,0)$",
+        "C": "$(0,\\pm3)$",
+        "D": "$(\\pm5,0)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-3-05",
+      "pregunta": "Sus focos son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(\\pm5,0)$",
+        "B": "$(0,\\pm5)$",
+        "C": "$(\\pm3,0)$",
+        "D": "$(0,\\pm4)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-3-06",
+      "pregunta": "Las asíntotas de $\\frac{x^2}{9}-\\frac{y^2}{16}=1$ son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$y=\\pm\\frac34x$",
+        "B": "$y=\\pm5x$",
+        "C": "$x=\\pm3$",
+        "D": "$y=\\pm\\frac43x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-3-07",
+      "pregunta": "En $\\frac{y^2}{25}-\\frac{x^2}{144}=1$, la apertura es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "Circular",
+        "B": "Oblicua",
+        "C": "Vertical",
+        "D": "Horizontal"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-3-08",
+      "pregunta": "Para esa hipérbola, $c=$",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$169$",
+        "B": "$13$",
+        "C": "$7$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-3-09",
+      "pregunta": "Sus vértices son: (sección 36.3)",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,\\pm5)$",
+        "B": "$(\\pm5,0)$",
+        "C": "$(0,\\pm13)$",
+        "D": "$(\\pm12,0)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-3-10",
+      "pregunta": "Sus asíntotas son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$y=\\pm\\frac{12}{5}x$",
+        "B": "$x=\\pm5$",
+        "C": "$y=\\pm13x$",
+        "D": "$y=\\pm\\frac5{12}x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-4-01",
+      "pregunta": "El centro de $\\frac{(x-2)^2}{16}-\\frac{(y+3)^2}{9}=1$ es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,3)$",
+        "B": "$(-3,2)$",
+        "C": "$(2,-3)$",
+        "D": "$(-2,3)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-4-02",
+      "pregunta": "Los vértices de esa hipérbola son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,-3\\pm3)$",
+        "B": "$(2\\pm4,-3)$",
+        "C": "$(2,-3\\pm4)$",
+        "D": "$(2\\pm5,-3)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-4-03",
+      "pregunta": "Los focos de esa hipérbola son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(2\\pm5,-3)$",
+        "B": "$(2,-3\\pm5)$",
+        "C": "$(2\\pm4,-3)$",
+        "D": "$(2,-3\\pm3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-4-04",
+      "pregunta": "Sus asíntotas son: (sección 36.4)",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$y-3=\\pm\\frac43(x+2)$",
+        "B": "$y+3=\\pm\\frac43(x-2)$",
+        "C": "$x-2=\\pm3$",
+        "D": "$y+3=\\pm\\frac34(x-2)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-4-05",
+      "pregunta": "El centro de $\\frac{(y-1)^2}{9}-\\frac{(x+4)^2}{16}=1$ es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(-4,-1)$",
+        "B": "$(1,-4)$",
+        "C": "$(-4,1)$",
+        "D": "$(4,-1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-4-06",
+      "pregunta": "La apertura de esa hipérbola es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "Hacia la derecha únicamente",
+        "B": "Vertical",
+        "C": "Horizontal",
+        "D": "Circular"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-4-07",
+      "pregunta": "Sus vértices son: (sección 36.4)",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(-4,1\\pm3)$",
+        "B": "$(-4\\pm3,1)$",
+        "C": "$(-4,1\\pm5)$",
+        "D": "$(-4\\pm4,1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-4-08",
+      "pregunta": "Sus focos son: (sección 36.4)",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(-4\\pm5,1)$",
+        "B": "$(-4,1\\pm3)$",
+        "C": "$(-4\\pm4,1)$",
+        "D": "$(-4,1\\pm5)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-4-09",
+      "pregunta": "Las asíntotas de esa hipérbola son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$y-1=\\pm\\frac43(x+4)$",
+        "B": "$x+4=\\pm3$",
+        "C": "$y-1=\\pm\\frac34(x+4)$",
+        "D": "$y+1=\\pm\\frac43(x-4)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-4-10",
+      "pregunta": "La distancia entre focos de esa hipérbola es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$10$",
+        "C": "$5$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-5-01",
+      "pregunta": "El rectángulo auxiliar de una hipérbola horizontal tiene semidimensiones:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.5",
+        "nombre": "Rectángulo auxiliar y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "$a$ horizontal y $b$ vertical",
+        "B": "$b$ horizontal y $a$ vertical",
+        "C": "$c$ en ambas direcciones",
+        "D": "$a+b$ en ambas direcciones"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-5-02",
+      "pregunta": "Para una hipérbola vertical, el rectángulo auxiliar tiene semidimensiones:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.5",
+        "nombre": "Rectángulo auxiliar y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "$a$ horizontal y $b$ vertical",
+        "B": "$c$ horizontal y $a$ vertical",
+        "C": "$b$ en ambas direcciones",
+        "D": "$b$ horizontal y $a$ vertical"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-5-03",
+      "pregunta": "Las asíntotas pasan por:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.5",
+        "nombre": "Rectángulo auxiliar y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "Los vértices únicamente",
+        "B": "Los covértices",
+        "C": "El centro",
+        "D": "Los focos únicamente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-5-04",
+      "pregunta": "Las asíntotas de la forma horizontal son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.5",
+        "nombre": "Rectángulo auxiliar y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "$y-k=\\pm b$",
+        "B": "$y-k=\\pm\\frac ba(x-h)$",
+        "C": "$y-k=\\pm\\frac ab(x-h)$",
+        "D": "$x-h=\\pm a$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-5-05",
+      "pregunta": "Las asíntotas de la forma vertical son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.5",
+        "nombre": "Rectángulo auxiliar y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "$y-k=\\pm\\frac ab(x-h)$",
+        "B": "$y-k=\\pm\\frac ba(x-h)$",
+        "C": "$x-h=\\pm b$",
+        "D": "$y-k=\\pm a$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-5-06",
+      "pregunta": "Para $\\frac{x^2}{25}-\\frac{y^2}{4}=1$, la pendiente de las asíntotas es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.5",
+        "nombre": "Rectángulo auxiliar y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pm\\frac52$",
+        "B": "$\\pm5$",
+        "C": "$\\pm2$",
+        "D": "$\\pm\\frac25$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-5-07",
+      "pregunta": "Para $\\frac{y^2}{16}-\\frac{x^2}{9}=1$, la pendiente de las asíntotas es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.5",
+        "nombre": "Rectángulo auxiliar y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pm4$",
+        "B": "$\\pm3$",
+        "C": "$\\pm\\frac43$",
+        "D": "$\\pm\\frac34$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-5-08",
+      "pregunta": "El rectángulo auxiliar de $\\frac{x^2}{36}-\\frac{y^2}{16}=1$ mide:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.5",
+        "nombre": "Rectángulo auxiliar y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "$10$ por $10$",
+        "B": "$12$ por $8$",
+        "C": "$6$ por $4$",
+        "D": "$36$ por $16$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-5-09",
+      "pregunta": "Las ramas de una hipérbola:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.5",
+        "nombre": "Rectángulo auxiliar y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "Se aproximan a las asíntotas sin coincidir con ellas",
+        "B": "Cruzan siempre ambas asíntotas",
+        "C": "Forman una región cerrada",
+        "D": "Terminan en los focos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-5-10",
+      "pregunta": "El rectángulo auxiliar sirve para:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.5",
+        "nombre": "Rectángulo auxiliar y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "Calcular el área encerrada",
+        "B": "Encontrar un radio",
+        "C": "Convertirla en parábola",
+        "D": "Trazar las asíntotas y orientar el bosquejo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-6-01",
+      "pregunta": "Transforme $9x^2-16y^2-54x-64y-127=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.6",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(x-3)^2}{9}-\\frac{(y+2)^2}{16}=1$",
+        "B": "$\\frac{x^2}{16}-\\frac{y^2}{9}=1$",
+        "C": "$\\frac{(x-3)^2}{16}-\\frac{(y+2)^2}{9}=1$",
+        "D": "$\\frac{(x+3)^2}{16}-\\frac{(y-2)^2}{9}=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-6-02",
+      "pregunta": "Transforme $4x^2-9y^2+8x+36y-68=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.6",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x^2}{9}-\\frac{y^2}{4}=1$",
+        "B": "$\\frac{(x+1)^2}{9}-\\frac{(y-2)^2}{4}=1$",
+        "C": "$\\frac{(x-1)^2}{9}-\\frac{(y+2)^2}{4}=1$",
+        "D": "$\\frac{(y-2)^2}{4}-\\frac{(x+1)^2}{9}=1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-6-03",
+      "pregunta": "Transforme $16y^2-9x^2-64y-54x-161=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.6",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(y-2)^2}{9}-\\frac{(x+3)^2}{16}=1$",
+        "B": "$\\frac{(y+2)^2}{9}-\\frac{(x-3)^2}{16}=1$",
+        "C": "$\\frac{(x+3)^2}{16}-\\frac{(y-2)^2}{9}=1$",
+        "D": "$\\frac{y^2}{9}-\\frac{x^2}{16}=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-6-04",
+      "pregunta": "Para convertir la forma general, primero se deben:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.6",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "Eliminar los cuadrados",
+        "B": "Multiplicar por cero",
+        "C": "Intercambiar siempre $x$ y $y$",
+        "D": "Agrupar términos de la misma variable"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-6-05",
+      "pregunta": "Después de agrupar se debe:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.6",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "Derivar",
+        "B": "Tomar logaritmos",
+        "C": "Completar cuadrados",
+        "D": "Aplicar Pitágoras"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-6-06",
+      "pregunta": "Al completar $x^2+6x$, resulta:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.6",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+3)^2+9$",
+        "B": "$(x+3)^2-9$",
+        "C": "$(x+6)^2-36$",
+        "D": "$(x-3)^2+9$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-6-07",
+      "pregunta": "Al completar $y^2-8y$, resulta:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.6",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(y-4)^2-16$",
+        "B": "$(y-8)^2-64$",
+        "C": "$(y+4)^2+16$",
+        "D": "$(y-4)^2+16$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-6-08",
+      "pregunta": "Antes de identificar $a^2$ y $b^2$, el lado derecho debe ser:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.6",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$-1$ siempre",
+        "C": "$a^2+b^2$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-6-09",
+      "pregunta": "En la forma ordinaria, $a^2$ está bajo:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.6",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "La variable $x$ siempre",
+        "B": "La variable $y$ siempre",
+        "C": "El término positivo",
+        "D": "El término negativo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-6-10",
+      "pregunta": "Los signos opuestos de los términos cuadrados indican:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.6",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "Una parábola",
+        "B": "Una hipérbola no rotada",
+        "C": "Una elipse",
+        "D": "Una circunferencia"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-7-01",
+      "pregunta": "Primer paso del procedimiento rápido:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.7",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Identificar el centro y el término positivo",
+        "B": "Calcular el área",
+        "C": "Buscar un radio",
+        "D": "Sumar denominadores"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-7-02",
+      "pregunta": "El término positivo determina:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.7",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "El centro",
+        "B": "La excentricidad por sí solo",
+        "C": "El número de focos",
+        "D": "La orientación de la hipérbola"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-7-03",
+      "pregunta": "El valor de $a$ se obtiene de:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.7",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "La suma de denominadores",
+        "B": "El centro",
+        "C": "La raíz del denominador del término positivo",
+        "D": "La raíz del denominador negativo siempre mayor"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-7-04",
+      "pregunta": "El valor de $b$ se obtiene de:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.7",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "La excentricidad",
+        "B": "La raíz del denominador del término negativo",
+        "C": "La raíz del término positivo",
+        "D": "La diferencia de coordenadas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-7-05",
+      "pregunta": "Para hallar $c$ se usa:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.7",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$c=\\sqrt{a^2+b^2}$",
+        "B": "$c=\\sqrt{a^2-b^2}$",
+        "C": "$c=a-b$",
+        "D": "$c=ab$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-7-06",
+      "pregunta": "Los vértices se localizan a:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.7",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$b$ unidades sobre el eje conjugado",
+        "B": "$c$ unidades sobre una asíntota",
+        "C": "$a+b$ unidades en diagonal",
+        "D": "$a$ unidades del centro sobre el eje transverso"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-7-07",
+      "pregunta": "Los focos se localizan a:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.7",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$b$ unidades sobre una asíntota",
+        "B": "$c$ unidades sobre el eje conjugado",
+        "C": "$c$ unidades del centro sobre el eje transverso",
+        "D": "$a$ unidades sobre el eje conjugado"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-7-08",
+      "pregunta": "Una comprobación numérica útil es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.7",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$a=b$",
+        "B": "$c^2=a^2+b^2$",
+        "C": "$a^2=b^2+c^2$",
+        "D": "$c=a+b$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-7-09",
+      "pregunta": "Después de hallar el rectángulo auxiliar se trazan:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.7",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Sus diagonales como asíntotas",
+        "B": "Sus lados como focos",
+        "C": "Dos circunferencias",
+        "D": "Los radios"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-7-10",
+      "pregunta": "La revisión final debe verificar que:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.7",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Las ramas formen una curva cerrada",
+        "B": "Los focos estén sobre las asíntotas",
+        "C": "El centro sea un vértice",
+        "D": "Las ramas abran en la dirección del término positivo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-8-01",
+      "pregunta": "La relación fundamental de la hipérbola es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.8",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$a^2=b^2+c^2$",
+        "B": "$c=a-b$",
+        "C": "$c^2=a^2+b^2$",
+        "D": "$c^2=a^2-b^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-8-02",
+      "pregunta": "La excentricidad es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.8",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$e=a+c$",
+        "B": "$e=\\frac ca$",
+        "C": "$e=\\frac ac$",
+        "D": "$e=\\frac ba$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-8-03",
+      "pregunta": "La longitud del eje transverso es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.8",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$2a$",
+        "B": "$a$",
+        "C": "$2b$",
+        "D": "$2c$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-8-04",
+      "pregunta": "La distancia entre focos es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.8",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$c$",
+        "B": "$2a$",
+        "C": "$2b$",
+        "D": "$2c$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-8-05",
+      "pregunta": "Una hipérbola horizontal abre:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.8",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "En una sola dirección",
+        "B": "En forma cerrada",
+        "C": "A la izquierda y a la derecha",
+        "D": "Hacia arriba y abajo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-8-06",
+      "pregunta": "Una hipérbola vertical abre:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.8",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "En forma cerrada",
+        "B": "Hacia arriba y hacia abajo",
+        "C": "A izquierda y derecha",
+        "D": "En diagonal únicamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-8-07",
+      "pregunta": "Las asíntotas de una hipérbola horizontal tienen pendientes:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.8",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pm\\frac ba$",
+        "B": "$\\pm\\frac ab$",
+        "C": "$\\pm a$",
+        "D": "$\\pm b$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-8-08",
+      "pregunta": "Las asíntotas de una hipérbola vertical tienen pendientes:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.8",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pm\\frac ba$",
+        "B": "$\\pm a$",
+        "C": "$\\pm b$",
+        "D": "$\\pm\\frac ab$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-8-09",
+      "pregunta": "Si $a=b$, la hipérbola se llama:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.8",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Degenerada necesariamente",
+        "B": "Parabólica",
+        "C": "Equilátera o rectangular",
+        "D": "Circular"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-8-10",
+      "pregunta": "En una hipérbola equilátera no rotada, las asíntotas son:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.8",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Horizontales ambas",
+        "B": "Perpendiculares",
+        "C": "Paralelas",
+        "D": "Coincidentes"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-9-01",
+      "pregunta": "Usar $c^2=a^2-b^2$ en una hipérbola es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.9",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Incorrecto; en la hipérbola se suman los cuadrados",
+        "B": "Correcto siempre",
+        "C": "Correcto si es vertical",
+        "D": "Correcto si el centro es el origen"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-9-02",
+      "pregunta": "En $\\frac{(x+2)^2}{25}-\\frac{(y-3)^2}{9}=1$, el centro es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.9",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,-3)$",
+        "B": "$(2,3)$",
+        "C": "$(-2,-3)$",
+        "D": "$(-2,3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-9-03",
+      "pregunta": "Tomar el denominador mayor como $a^2$ siempre es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.9",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Correcto solo si es vertical",
+        "B": "Correcto cuando $h=0$",
+        "C": "Incorrecto; $a^2$ corresponde al término positivo",
+        "D": "Correcto"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-9-04",
+      "pregunta": "Confundir el término positivo con el negativo produce:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.9",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Una circunferencia equivalente",
+        "B": "Una orientación equivocada",
+        "C": "Solo un cambio de área",
+        "D": "El mismo bosquejo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-9-05",
+      "pregunta": "En una hipérbola horizontal, colocar los focos variando $y$ es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.9",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Incorrecto",
+        "B": "Correcto",
+        "C": "Correcto si $c>a$",
+        "D": "Irrelevante"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-9-06",
+      "pregunta": "En una hipérbola vertical, usar pendientes $\\pm b/a$ para las asíntotas es:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.9",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Correcto siempre",
+        "B": "Correcto si $a=b$ únicamente como regla general",
+        "C": "Correcto si el centro es el origen",
+        "D": "Incorrecto; se usa $\\pm a/b$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-9-07",
+      "pregunta": "Olvidar trasladar las asíntotas al centro $(h,k)$ produce:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.9",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "La misma hipérbola",
+        "B": "Una elipse",
+        "C": "Rectas que pasan por el origen en lugar del centro",
+        "D": "Focos correctos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-9-08",
+      "pregunta": "Si se obtiene $c<a$, entonces:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.9",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Los focos coinciden",
+        "B": "Hay un error de cálculo para una hipérbola real",
+        "C": "La hipérbola es válida",
+        "D": "La curva es equilátera"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-9-09",
+      "pregunta": "Cambiar el signo del centro al leer $(x-h)$ o $(y-k)$ causa:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.9",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Un centro incorrecto",
+        "B": "Una excentricidad igual",
+        "C": "Solo cambia $b$",
+        "D": "No afecta la gráfica"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-36-9-10",
+      "pregunta": "Al completar cuadrados, añadir una cantidad a un solo miembro:",
+      "tema": {
+        "codigo": "36",
+        "nombre": "Hipérbola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "36.9",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "No altera la ecuación",
+        "B": "Siempre ayuda",
+        "C": "Convierte la hipérbola en elipse",
+        "D": "Rompe la igualdad"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar hipérbolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

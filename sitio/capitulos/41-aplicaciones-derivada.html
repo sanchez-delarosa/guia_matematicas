@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>41. Aplicaciones de la derivada · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte VII: Cálculo diferencial</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#recta-tangente-y-recta-normal"><span class="num">41.1</span> Recta tangente y recta normal</a></li><li class="nivel-2"><a href="#velocidad-y-aceleracion"><span class="num">41.2</span> Velocidad y aceleración</a></li><li class="nivel-2"><a href="#crecimiento-y-decrecimiento"><span class="num">41.3</span> Crecimiento y decrecimiento</a></li><li class="nivel-2"><a href="#maximos-y-minimos-relativos"><span class="num">41.4</span> Máximos y mínimos relativos</a></li><li class="nivel-3"><a href="#criterio-de-la-primera-derivada"><span class="num">41.4.1</span> Criterio de la primera derivada</a></li><li class="nivel-3"><a href="#criterio-de-la-segunda-derivada"><span class="num">41.4.2</span> Criterio de la segunda derivada</a></li><li class="nivel-2"><a href="#extremos-absolutos-en-un-intervalo-cerrado"><span class="num">41.5</span> Extremos absolutos en un intervalo cerrado</a></li><li class="nivel-2"><a href="#concavidad-y-puntos-de-inflexion"><span class="num">41.6</span> Concavidad y puntos de inflexión</a></li><li class="nivel-2"><a href="#problemas-de-optimizacion"><span class="num">41.7</span> Problemas de optimización</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">41.8</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#tangente-y-normal">Tangente y normal</a></li><li class="nivel-3"><a href="#maximos-y-minimos">Máximos y mínimos</a></li><li class="nivel-3"><a href="#concavidad">Concavidad</a></li><li class="nivel-3"><a href="#optimizacion">Optimización</a></li><li class="nivel-2"><a href="#resumen"><span class="num">41.9</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">41.10</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">41.11</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 41</p><h1>Aplicaciones de la derivada</h1></header>
+<p><span id="cap-aplicaciones-derivada" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span> <span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>La derivada permite estudiar el comportamiento de una función y resolver problemas de cambio y optimización.</p>
+<p>Sus principales aplicaciones son:</p>
+<ul><li>calcular rectas tangentes y normales;</li><li>determinar velocidad y aceleración;</li><li>localizar máximos y mínimos;</li><li>estudiar crecimiento y concavidad;</li><li>resolver problemas de optimización.</li></ul>
+<h2 id="recta-tangente-y-recta-normal"><span class="num">41.1</span> Recta tangente y recta normal<a class="enlace-seccion" href="#recta-tangente-y-recta-normal" aria-label="Enlace a esta sección">#</a></h2>
+<p>Sea:</p>
+<div class="mate"><span class="mate-bloque">\[P(x_0,f(x_0))\]</span></div>
+<p>un punto de la gráfica de \(f\).</p>
+<p>La pendiente de la recta tangente es:</p>
+<div class="mate"><span class="mate-bloque">\[m_t=f'(x_0).\]</span></div>
+<p>Su ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[y-f(x_0) = f'(x_0)(x-x_0).\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x_0)\neq0,\]</span></div>
+<p>la pendiente de la recta normal es:</p>
+<div class="mate"><span class="mate-bloque">\[m_n = -\frac{1}{f'(x_0)}.\]</span></div>
+<p>Su ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[y-f(x_0) = -\frac{1}{f'(x_0)}(x-x_0).\]</span></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La recta normal es perpendicular a la recta tangente. Por ello, cuando ambas pendientes están definidas:</p>
+<div class="mate"><span class="mate-bloque">\[m_t m_n=-1.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-41-1"><div class="caja-titulo">Ejemplo 41.1</div><div class="caja-cuerpo"><p>Encuentra las rectas tangente y normal a:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2\]</span></div>
+<p>en:</p>
+<div class="mate"><span class="mate-bloque">\[x_0=1.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos el punto de tangencia:</p>
+<div class="mate"><span class="mate-bloque">\[f(1)=1.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(1,1).\]</span></div>
+<p>Derivamos:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=2x.\]</span></div>
+<p>La pendiente de la tangente es:</p>
+<div class="mate"><span class="mate-bloque">\[m_t=f'(1)=2.\]</span></div>
+<p>Su ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[y-1=2(x-1).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[y=2x-1.\]</span></div>
+<p>La pendiente de la normal es:</p>
+<div class="mate"><span class="mate-bloque">\[m_n=-\frac12.\]</span></div>
+<p>Su ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[y-1 = -\frac12(x-1).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[y = -\frac12x+\frac32.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-e5bb7c81100e.svg" alt="Figura 41.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="velocidad-y-aceleracion"><span class="num">41.2</span> Velocidad y aceleración<a class="enlace-seccion" href="#velocidad-y-aceleracion" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si la posición de un objeto está dada por:</p>
+<div class="mate"><span class="mate-bloque">\[s(t),\]</span></div>
+<p>entonces su velocidad instantánea es:</p>
+<div class="mate"><span class="mate-bloque">\[v(t)=s'(t).\]</span></div>
+<p>La aceleración es:</p>
+<div class="mate"><span class="mate-bloque">\[a(t)=v'(t)=s''(t).\]</span></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El signo de la velocidad indica la dirección del movimiento:</p>
+<ul><li>si \(v(t)&gt;0\), la posición aumenta;</li><li>si \(v(t)&lt;0\), la posición disminuye;</li><li>si \(v(t)=0\), el objeto está momentáneamente en reposo.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-41-2"><div class="caja-titulo">Ejemplo 41.2</div><div class="caja-cuerpo"><p>La posición de una partícula está dada por:</p>
+<div class="mate"><span class="mate-bloque">\[s(t)=t^3-6t^2+9t,\]</span></div>
+<p>donde \(s\) se mide en metros y \(t\) en segundos.</p>
+<p>Encuentra la velocidad y la aceleración en:</p>
+<div class="mate"><span class="mate-bloque">\[t=2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Derivamos la posición:</p>
+<div class="mate"><span class="mate-bloque">\[v(t) = s'(t) = 3t^2-12t+9.\]</span></div>
+<p>Derivamos la velocidad:</p>
+<div class="mate"><span class="mate-bloque">\[a(t) = v'(t) = 6t-12.\]</span></div>
+<p>Evaluamos en \(t=2\):</p>
+<div class="mate"><span class="mate-bloque">\[v(2) = 3(2)^2-12(2)+9.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[v(2) = 12-24+9 = -3.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[v(2)=-3\ \text{m/s}.\]</span></div>
+<p>Para la aceleración:</p>
+<div class="mate"><span class="mate-bloque">\[a(2) = 6(2)-12 = 0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[a(2)=0\ \text{m/s}^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-41-3"><div class="caja-titulo">Ejemplo 41.3</div><div class="caja-cuerpo"><p>La posición de un objeto en caída está dada por:</p>
+<div class="mate"><span class="mate-bloque">\[s(t)=4.9t^2.\]</span></div>
+<p>Encuentra su velocidad en:</p>
+<div class="mate"><span class="mate-bloque">\[t=3.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Derivamos:</p>
+<div class="mate"><span class="mate-bloque">\[v(t)=s'(t)=9.8t.\]</span></div>
+<p>Evaluamos:</p>
+<div class="mate"><span class="mate-bloque">\[v(3) = 9.8(3) = 29.4.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[v(3)=29.4\ \text{m/s}.\]</span></div></div></details></div></section>
+<h2 id="crecimiento-y-decrecimiento"><span class="num">41.3</span> Crecimiento y decrecimiento<a class="enlace-seccion" href="#crecimiento-y-decrecimiento" aria-label="Enlace a esta sección">#</a></h2>
+<p>El signo de la primera derivada permite determinar si una función crece o decrece.</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|c} \text{Signo de }f'(x) &amp; \text{Comportamiento de }f \\ \hline f'(x)&gt;0 &amp; \text{La función es creciente} \\ f'(x)&lt;0 &amp; \text{La función es decreciente} \\ f'(x)=0 &amp; \text{Puede existir un punto crítico} \end{array}\]</span></div>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un número \(x_0\) del dominio de \(f\) es un <strong>número crítico</strong> si:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x_0)=0\]</span></div>
+<p>o si:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x_0)\]</span></div>
+<p>no existe.</p></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>No todo número crítico corresponde a un máximo o a un mínimo.</p>
+<p>Es necesario analizar el cambio de signo de la primera derivada o utilizar el criterio de la segunda derivada.</p></div></section>
+<h2 id="maximos-y-minimos-relativos"><span class="num">41.4</span> Máximos y mínimos relativos<a class="enlace-seccion" href="#maximos-y-minimos-relativos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una función tiene un <strong>máximo relativo</strong> en \(x_0\) si \(f(x_0)\) es mayor o igual que los valores cercanos.</p>
+<p>Tiene un <strong>mínimo relativo</strong> en \(x_0\) si \(f(x_0)\) es menor o igual que los valores cercanos.</p></div></section>
+<h3 id="criterio-de-la-primera-derivada"><span class="num">41.4.1</span> Criterio de la primera derivada<a class="enlace-seccion" href="#criterio-de-la-primera-derivada" aria-label="Enlace a esta sección">#</a></h3>
+<p>Sea \(x_0\) un número crítico.</p>
+<ul><li>Si \(f'\) cambia de positiva a negativa, existe un máximo relativo.</li><li>Si \(f'\) cambia de negativa a positiva, existe un mínimo relativo.</li><li>Si \(f'\) no cambia de signo, no existe un extremo relativo.</li></ul>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|c|c} \text{Signo antes} &amp; \text{Signo después} &amp; \text{Conclusión} \\ \hline + &amp; - &amp; \text{máximo} \\ - &amp; + &amp; \text{mínimo} \\ + &amp; + &amp; \text{no hay extremo} \\ - &amp; - &amp; \text{no hay extremo} \end{array}\]</span></div>
+<h3 id="criterio-de-la-segunda-derivada"><span class="num">41.4.2</span> Criterio de la segunda derivada<a class="enlace-seccion" href="#criterio-de-la-segunda-derivada" aria-label="Enlace a esta sección">#</a></h3>
+<p>Sea \(x_0\) un punto crítico en el que:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x_0)=0.\]</span></div>
+<p>Entonces:</p>
+<ul><li>si: <span class="mate-bloque">\[f''(x_0)&lt;0,\]</span> existe un máximo relativo;</li><li>si: <span class="mate-bloque">\[f''(x_0)&gt;0,\]</span> existe un mínimo relativo;</li><li>si: <span class="mate-bloque">\[f''(x_0)=0,\]</span> el criterio no permite concluir.</li></ul>
+<section class="caja caja-ejemplo" id="ejemplo-41-4"><div class="caja-titulo">Ejemplo 41.4</div><div class="caja-cuerpo"><p>Encuentra los extremos relativos de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^3-3x^2+1.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos la primera derivada:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = 3x^2-6x.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = 3x(x-2).\]</span></div>
+<p>Igualamos a cero:</p>
+<div class="mate"><span class="mate-bloque">\[3x(x-2)=0.\]</span></div>
+<p>Los números críticos son:</p>
+<div class="mate"><span class="mate-bloque">\[x=0 \qquad\text{y}\qquad x=2.\]</span></div>
+<p>Calculamos la segunda derivada:</p>
+<div class="mate"><span class="mate-bloque">\[f''(x)=6x-6.\]</span></div>
+<p>Evaluamos en \(x=0\):</p>
+<div class="mate"><span class="mate-bloque">\[f''(0)=-6&lt;0.\]</span></div>
+<p>Por tanto, existe un máximo relativo en \(x=0\).</p>
+<div class="mate"><span class="mate-bloque">\[f(0)=1.\]</span></div>
+<p>El máximo relativo es:</p>
+<div class="mate"><span class="mate-bloque">\[(0,1).\]</span></div>
+<p>Evaluamos en \(x=2\):</p>
+<div class="mate"><span class="mate-bloque">\[f''(2)=6&gt;0.\]</span></div>
+<p>Por tanto, existe un mínimo relativo en \(x=2\).</p>
+<div class="mate"><span class="mate-bloque">\[f(2)=8-12+1=-3.\]</span></div>
+<p>El mínimo relativo es:</p>
+<div class="mate"><span class="mate-bloque">\[(2,-3).\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-d5ac71ee3757.svg" alt="Figura 41.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="extremos-absolutos-en-un-intervalo-cerrado"><span class="num">41.5</span> Extremos absolutos en un intervalo cerrado<a class="enlace-seccion" href="#extremos-absolutos-en-un-intervalo-cerrado" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Teorema del valor extremo</div><div class="caja-cuerpo"><p>Si una función es continua en un intervalo cerrado:</p>
+<div class="mate"><span class="mate-bloque">\[[a,b],\]</span></div>
+<p>entonces alcanza un valor máximo absoluto y un valor mínimo absoluto en ese intervalo.</p></div></section>
+<p>Para encontrar los extremos absolutos:</p>
+<ol><li>calcula los números críticos dentro de: <span class="mate-bloque">\[(a,b);\]</span></li><li>evalúa la función en los números críticos;</li><li>evalúa la función en los extremos: <span class="mate-bloque">\[a \qquad\text{y}\qquad b;\]</span></li><li>compara todos los valores obtenidos.</li></ol>
+<section class="caja caja-ejemplo" id="ejemplo-41-5"><div class="caja-titulo">Ejemplo 41.5</div><div class="caja-cuerpo"><p>Encuentra los extremos absolutos de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^3-3x^2+1\]</span></div>
+<p>en:</p>
+<div class="mate"><span class="mate-bloque">\[[0,3].\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La primera derivada es:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=3x(x-2).\]</span></div>
+<p>Los números críticos son:</p>
+<div class="mate"><span class="mate-bloque">\[x=0 \qquad\text{y}\qquad x=2.\]</span></div>
+<p>Dentro del intervalo abierto \((0,3)\) solo se encuentra:</p>
+<div class="mate"><span class="mate-bloque">\[x=2.\]</span></div>
+<p>Evaluamos en el punto crítico y en los extremos:</p>
+<div class="mate"><span class="mate-bloque">\[f(0)=1,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[f(2)=-3,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[f(3)=1.\]</span></div>
+<p>El máximo absoluto es:</p>
+<div class="mate"><span class="mate-bloque">\[1,\]</span></div>
+<p>y se alcanza en:</p>
+<div class="mate"><span class="mate-bloque">\[x=0 \qquad\text{y}\qquad x=3.\]</span></div>
+<p>El mínimo absoluto es:</p>
+<div class="mate"><span class="mate-bloque">\[-3,\]</span></div>
+<p>y se alcanza en:</p>
+<div class="mate"><span class="mate-bloque">\[x=2.\]</span></div></div></details></div></section>
+<h2 id="concavidad-y-puntos-de-inflexion"><span class="num">41.6</span> Concavidad y puntos de inflexión<a class="enlace-seccion" href="#concavidad-y-puntos-de-inflexion" aria-label="Enlace a esta sección">#</a></h2>
+<p>La segunda derivada permite estudiar la concavidad.</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|c} \text{Signo de }f''(x) &amp; \text{Concavidad} \\ \hline f''(x)&gt;0 &amp; \text{cóncava hacia arriba} \\ f''(x)&lt;0 &amp; \text{cóncava hacia abajo} \end{array}\]</span></div>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>punto de inflexión</strong> es un punto de la gráfica en el que la concavidad cambia.</p></div></section>
+<p>Los candidatos a puntos de inflexión se encuentran donde:</p>
+<div class="mate"><span class="mate-bloque">\[f''(x)=0\]</span></div>
+<p>o donde \(f''(x)\) no existe.</p>
+<p>Para confirmar un punto de inflexión, la segunda derivada debe cambiar de signo.</p>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La condición:</p>
+<div class="mate"><span class="mate-bloque">\[f''(x_0)=0\]</span></div>
+<p>no garantiza por sí sola que exista un punto de inflexión.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-41-6"><div class="caja-titulo">Ejemplo 41.6</div><div class="caja-cuerpo"><p>Encuentra los intervalos de concavidad y el punto de inflexión de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^3-6x^2+3.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos las derivadas:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=3x^2-12x,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[f''(x)=6x-12.\]</span></div>
+<p>Buscamos candidatos:</p>
+<div class="mate"><span class="mate-bloque">\[6x-12=0.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[x=2.\]</span></div>
+<p>Analizamos el signo de la segunda derivada.</p>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[x&lt;2,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[f''(x)&lt;0.\]</span></div>
+<p>Por tanto, la función es cóncava hacia abajo en:</p>
+<div class="mate"><span class="mate-bloque">\[(-\infty,2).\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[x&gt;2,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[f''(x)&gt;0.\]</span></div>
+<p>Por tanto, la función es cóncava hacia arriba en:</p>
+<div class="mate"><span class="mate-bloque">\[(2,\infty).\]</span></div>
+<p>La concavidad cambia en \(x=2\), así que existe un punto de inflexión.</p>
+<p>Calculamos:</p>
+<div class="mate"><span class="mate-bloque">\[f(2) = 2^3-6(2)^2+3.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[f(2) = 8-24+3 = -13.\]</span></div>
+<p>El punto de inflexión es:</p>
+<div class="mate"><span class="mate-bloque">\[(2,-13).\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-f0767babea8c.svg" alt="Figura 41.3" loading="lazy" decoding="async"></figure></div>
+<h2 id="problemas-de-optimizacion"><span class="num">41.7</span> Problemas de optimización<a class="enlace-seccion" href="#problemas-de-optimizacion" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para resolver un problema de optimización:</p>
+<ol><li>identifica la cantidad que se desea maximizar o minimizar;</li><li>escribe una función de una sola variable;</li><li>determina el dominio físico del problema;</li><li>calcula los números críticos;</li><li>identifica el máximo o el mínimo;</li><li>interpreta el resultado y escribe las unidades.</li></ol>
+<section class="caja caja-ejemplo" id="ejemplo-41-7"><div class="caja-titulo">Ejemplo 41.7</div><div class="caja-cuerpo"><p>Encuentra dos números cuya suma sea \(20\) y cuyo producto sea máximo.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sean los números:</p>
+<div class="mate"><span class="mate-bloque">\[x \qquad\text{y}\qquad 20-x.\]</span></div>
+<p>El producto es:</p>
+<div class="mate"><span class="mate-bloque">\[P(x) = x(20-x).\]</span></div>
+<p>Desarrollamos:</p>
+<div class="mate"><span class="mate-bloque">\[P(x) = 20x-x^2.\]</span></div>
+<p>Derivamos:</p>
+<div class="mate"><span class="mate-bloque">\[P'(x) = 20-2x.\]</span></div>
+<p>Igualamos a cero:</p>
+<div class="mate"><span class="mate-bloque">\[20-2x=0.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[x=10.\]</span></div>
+<p>El segundo número es:</p>
+<div class="mate"><span class="mate-bloque">\[20-10=10.\]</span></div>
+<p>Además:</p>
+<div class="mate"><span class="mate-bloque">\[P''(x)=-2&lt;0,\]</span></div>
+<p>por lo que el producto es máximo.</p>
+<p>Los números son:</p>
+<div class="mate"><span class="mate-bloque">\[10 \qquad\text{y}\qquad 10.\]</span></div>
+<p>El producto máximo es:</p>
+<div class="mate"><span class="mate-bloque">\[100.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-7c6283d4e7aa.svg" alt="Figura 41.4" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-41-8"><div class="caja-titulo">Ejemplo 41.8</div><div class="caja-cuerpo"><p>Se construye una caja sin tapa a partir de una lámina cuadrada de \(12\) cm de lado.</p>
+<p>Se recortan cuadrados de lado \(x\) en las cuatro esquinas y se doblan los lados. Encuentra el valor de \(x\) que produce el volumen máximo.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Las dimensiones de la caja son:</p>
+<div class="mate"><span class="mate-bloque">\[\text{largo}=12-2x,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{ancho}=12-2x,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{altura}=x.\]</span></div>
+<p>El volumen es:</p>
+<div class="mate"><span class="mate-bloque">\[V(x) = x(12-2x)^2.\]</span></div>
+<p>El dominio físico es:</p>
+<div class="mate"><span class="mate-bloque">\[0&lt;x&lt;6.\]</span></div>
+<p>Desarrollamos:</p>
+<div class="mate"><span class="mate-bloque">\[V(x) = 4x^3-48x^2+144x.\]</span></div>
+<p>Derivamos:</p>
+<div class="mate"><span class="mate-bloque">\[V'(x) = 12x^2-96x+144.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[V'(x) = 12(x^2-8x+12).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[V'(x) = 12(x-2)(x-6).\]</span></div>
+<p>Los candidatos son:</p>
+<div class="mate"><span class="mate-bloque">\[x=2 \qquad\text{y}\qquad x=6.\]</span></div>
+<p>El valor \(x=6\) no es válido porque la base se anula.</p>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x=2.\]</span></div>
+<p>Verificamos con la segunda derivada:</p>
+<div class="mate"><span class="mate-bloque">\[V''(x) = 24x-96.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[V''(2) = 48-96 = -48&lt;0.\]</span></div>
+<p>Por tanto, el volumen es máximo cuando:</p>
+<div class="mate"><span class="mate-bloque">\[x=2\ \text{cm}.\]</span></div>
+<p>Las dimensiones de la caja son:</p>
+<div class="mate"><span class="mate-bloque">\[8\ \text{cm} \times 8\ \text{cm} \times 2\ \text{cm}.\]</span></div>
+<p>El volumen máximo es:</p>
+<div class="mate"><span class="mate-bloque">\[V(2) = 2(8)^2 = 128\ \text{cm}^3.\]</span></div></div></details></div></section>
+<h2 id="procedimiento-rapido"><span class="num">41.8</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="tangente-y-normal">Tangente y normal<a class="enlace-seccion" href="#tangente-y-normal" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Calcula el punto: <span class="mate-bloque">\[P(x_0,f(x_0)).\]</span></li><li>Obtén: <span class="mate-bloque">\[f'(x).\]</span></li><li>Evalúa: <span class="mate-bloque">\[m_t=f'(x_0).\]</span></li><li>Usa la forma punto-pendiente.</li><li>Para la normal, calcula: <span class="mate-bloque">\[m_n=-\frac{1}{m_t}.\]</span></li></ol>
+<h3 id="maximos-y-minimos">Máximos y mínimos<a class="enlace-seccion" href="#maximos-y-minimos" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Calcula: <span class="mate-bloque">\[f'(x).\]</span></li><li>Busca los números críticos.</li><li>Usa el cambio de signo de \(f'\) o calcula \(f''\).</li><li>Evalúa la función para obtener los puntos.</li></ol>
+<h3 id="concavidad">Concavidad<a class="enlace-seccion" href="#concavidad" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Calcula: <span class="mate-bloque">\[f''(x).\]</span></li><li>Resuelve: <span class="mate-bloque">\[f''(x)=0.\]</span></li><li>Analiza el signo de \(f''\) en cada intervalo.</li><li>Confirma si la concavidad cambia.</li></ol>
+<h3 id="optimizacion">Optimización<a class="enlace-seccion" href="#optimizacion" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Define la variable.</li><li>Escribe la función objetivo.</li><li>Reduce la función a una variable.</li><li>Determina el dominio físico.</li><li>Calcula los números críticos.</li><li>Selecciona el resultado válido.</li><li>Escribe la respuesta con unidades.</li></ol>
+<h2 id="resumen"><span class="num">41.9</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Pendiente tangente:</p>
+<div class="mate"><span class="mate-bloque">\[m_t=f'(x_0).\]</span></div>
+<p>Pendiente normal:</p>
+<div class="mate"><span class="mate-bloque">\[m_n=-\frac{1}{f'(x_0)}.\]</span></div>
+<p>Movimiento:</p>
+<div class="mate"><span class="mate-bloque">\[v(t)=s'(t),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a(t)=s''(t).\]</span></div>
+<p>Crecimiento:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)&gt;0 \quad\Longrightarrow\quad f\text{ es creciente}.\]</span></div>
+<p>Decrecimiento:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)&lt;0 \quad\Longrightarrow\quad f\text{ es decreciente}.\]</span></div>
+<p>Concavidad:</p>
+<div class="mate"><span class="mate-bloque">\[f''(x)&gt;0 \quad\Longrightarrow\quad \text{cóncava hacia arriba}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[f''(x)&lt;0 \quad\Longrightarrow\quad \text{cóncava hacia abajo}.\]</span></div>
+<p>Criterio de la segunda derivada:</p>
+<div class="mate"><span class="mate-bloque">\[f''(x_0)&lt;0 \quad\Longrightarrow\quad \text{máximo relativo}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[f''(x_0)&gt;0 \quad\Longrightarrow\quad \text{mínimo relativo}.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">41.10</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>La pendiente tangente debe evaluarse en el punto: <span class="mate-bloque">\[f'(x_0).\]</span></li><li>La pendiente normal es el recíproco negativo, no solamente el negativo de la pendiente tangente.</li><li>Un número crítico también puede aparecer donde la derivada no existe.</li><li>La condición: <span class="mate-bloque">\[f'(x_0)=0\]</span> no garantiza por sí sola un máximo o un mínimo.</li><li>Si: <span class="mate-bloque">\[f''(x_0)=0,\]</span> el criterio de la segunda derivada no permite concluir.</li><li>Para confirmar un punto de inflexión debe cambiar la concavidad.</li><li>En un intervalo cerrado deben evaluarse los puntos críticos y los extremos del intervalo.</li><li>En optimización debe considerarse el dominio físico del problema.</li><li>La respuesta final debe incluir unidades cuando corresponda.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">41.11</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-41-1"><div class="caja-titulo">Ejercicio 41.1</div><div class="caja-cuerpo"><p>Encuentra la recta tangente a:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2-3x+1\]</span></div>
+<p>en:</p>
+<div class="mate"><span class="mate-bloque">\[x_0=2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El punto es \((2,-1)\). La derivada es \(f'(x)=2x-3\), por lo que la pendiente tangente es \(m_t=f'(2)=1\). La ecuación de la recta tangente es \(y-(-1)=1(x-2)\), es decir, \(y=x-3\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-41-2"><div class="caja-titulo">Ejercicio 41.2</div><div class="caja-cuerpo"><p>Encuentra la recta normal a:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2-3x+1\]</span></div>
+<p>en:</p>
+<div class="mate"><span class="mate-bloque">\[x_0=2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El punto es \((2,-1)\) y la pendiente tangente es \(1\). La pendiente normal es \(m_n=-1\). La ecuación de la recta normal es \(y-(-1)=-1(x-2)\), es decir, \(y=-x+1\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-41-3"><div class="caja-titulo">Ejercicio 41.3</div><div class="caja-cuerpo"><p>La posición de un objeto es:</p>
+<div class="mate"><span class="mate-bloque">\[s(t)=2t^3-6t^2+4t.\]</span></div>
+<p>Encuentra la velocidad y la aceleración en:</p>
+<div class="mate"><span class="mate-bloque">\[t=2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La velocidad es \(v(t)=s'(t)=6t^2-12t+4\). Evaluando en \(t=2\): <span class="mate-bloque">\[v(2)=6(2)^2-12(2)+4=24-24+4=4.\]</span> La aceleración es \(a(t)=v'(t)=12t-12\). Evaluando en \(t=2\): <span class="mate-bloque">\[a(2)=12(2)-12=24-12=12.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-41-4"><div class="caja-titulo">Ejercicio 41.4</div><div class="caja-cuerpo"><p>Determina los intervalos en los que la función es creciente o decreciente:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^3-3x+2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Derivamos: \(f'(x)=3x^2-3=3(x^2-1)\). Igualando a cero, los números críticos son \(x=-1\) y \(x=1\). Para \(x&lt;-1\), \(f'(x)&gt;0\) (creciente). Para \(-1&lt;x&lt;1\), \(f'(x)&lt;0\) (decreciente). Para \(x&gt;1\), \(f'(x)&gt;0\) (creciente). Por tanto, la función es creciente en \((-\infty,-1)\cup(1,\infty)\) y decreciente en \((-1,1)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-41-5"><div class="caja-titulo">Ejercicio 41.5</div><div class="caja-cuerpo"><p>Encuentra los máximos y mínimos relativos de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^3-3x+2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Del ejercicio anterior, \(x=-1\) y \(x=1\) son números críticos. La segunda derivada es \(f''(x)=6x\). \(f''(-1)=-6&lt;0\), por lo que en \(x=-1\) hay un máximo. \(f(-1)=-1+3+2=4\), punto máximo relativo: \((-1,4)\). \(f''(1)=6&gt;0\), por lo que en \(x=1\) hay un mínimo. \(f(1)=1-3+2=0\), punto mínimo relativo: \((1,0)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-41-6"><div class="caja-titulo">Ejercicio 41.6</div><div class="caja-cuerpo"><p>Encuentra los extremos absolutos de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^3-3x+2\]</span></div>
+<p>en el intervalo:</p>
+<div class="mate"><span class="mate-bloque">\[[-2,2].\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los números críticos son \(x=-1\) y \(x=1\), que pertenecen al intervalo \([-2,2]\). Evaluamos la función en los números críticos y en los extremos del intervalo: \(f(-2)=-8+6+2=0\). \(f(-1)=4\). \(f(1)=0\). \(f(2)=8-6+2=4\). El máximo absoluto es \(4\) (en \(x=-1\) y \(x=2\)) y el mínimo absoluto es \(0\) (en \(x=-2\) y \(x=1\)).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-41-7"><div class="caja-titulo">Ejercicio 41.7</div><div class="caja-cuerpo"><p>Determina los intervalos de concavidad y los puntos de inflexión de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^3-3x^2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primera derivada: \(f'(x)=3x^2-6x\). Segunda derivada: \(f''(x)=6x-6\). Igualando a cero: \(6x-6=0 \implies x=1\). Para \(x&lt;1\), \(f''(x)&lt;0\), es cóncava hacia abajo en \((-\infty,1)\). Para \(x&gt;1\), \(f''(x)&gt;0\), es cóncava hacia arriba en \((1,\infty)\). Como hay cambio de concavidad, en \(x=1\) existe un punto de inflexión. \(f(1)=1-3=-2\), el punto es \((1,-2)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-41-8"><div class="caja-titulo">Ejercicio 41.8</div><div class="caja-cuerpo"><p>Encuentra dos números cuya suma sea \(30\) y cuyo producto sea máximo.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sean los números \(x\) y \(30-x\). El producto es \(P(x)=x(30-x)=30x-x^2\). Derivamos: \(P'(x)=30-2x\). Igualando a cero: \(30-2x=0 \implies x=15\). La segunda derivada es \(P''(x)=-2&lt;0\), por lo que es un máximo. Los números son \(15\) y \(15\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-41-9"><div class="caja-titulo">Ejercicio 41.9</div><div class="caja-cuerpo"><p>Un rectángulo tiene un perímetro de \(40\) cm. Encuentra las dimensiones que producen el área máxima.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Si el perímetro es \(40\), entonces \(2x+2y=40 \implies y=20-x\). El área es \(A(x)=x(20-x)=20x-x^2\). Igualando la derivada a cero: \(20-2x=0 \implies x=10\). Las dimensiones que producen el área máxima son \(10\) cm \(\times\) \(10\) cm.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-41-10"><div class="caja-titulo">Ejercicio 41.10</div><div class="caja-cuerpo"><p>Una ventana rectangular tiene un perímetro de \(8\) m. Encuentra las dimensiones que maximizan su área.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Si el perímetro es \(8\), \(2x+2y=8 \implies y=4-x\). El área es \(A(x)=x(4-x)=4x-x^2\). Igualando la derivada a cero: \(4-2x=0 \implies x=2\). Las dimensiones son \(2\) m \(\times\) \(2\) m.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-41-11"><div class="caja-titulo">Ejercicio 41.11</div><div class="caja-cuerpo"><p>Se construye una caja sin tapa a partir de una lámina cuadrada de \(18\) cm de lado. Se recortan cuadrados iguales en las esquinas.</p>
+<p>Determina el lado del cuadrado que debe recortarse para maximizar el volumen.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La caja tiene base de dimensiones \((18-2x)\) por \((18-2x)\) y altura \(x\). El volumen es \(V(x)=x(18-2x)^2\). Derivando: \(V'(x)=(18-2x)^2 - 4x(18-2x) = (18-2x)(18-6x)\). Igualando a cero: \(x=9\) (no válido) o \(x=3\). Por tanto, se debe recortar un cuadrado de \(3\) cm de lado.</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="40-la-derivada.html"><span>← Anterior</span>40. La derivada</a><a class="nav-siguiente" href="42-la-integral.html"><span>Siguiente →</span>42. La integral</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

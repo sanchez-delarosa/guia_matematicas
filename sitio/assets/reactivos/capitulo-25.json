@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "25",
+    "titulo": "Razones trigonométricas",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "25.1",
+        "nombre": "Triángulo rectángulo"
+      },
+      {
+        "codigo": "25.2",
+        "nombre": "Lados relativos a un ángulo"
+      },
+      {
+        "codigo": "25.3",
+        "nombre": "Definición de las razones trigonométricas"
+      },
+      {
+        "codigo": "25.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      {
+        "codigo": "25.5",
+        "nombre": "Triángulos notables"
+      },
+      {
+        "codigo": "25.6",
+        "nombre": "Valores de los ángulos notables"
+      },
+      {
+        "codigo": "25.7",
+        "nombre": "Funciones trigonométricas inversas"
+      },
+      {
+        "codigo": "25.8",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      {
+        "codigo": "25.9",
+        "nombre": "Ángulos de elevación y depresión"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas 25.1 a 25.9; se omitieron síntesis y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-25-1-01",
+      "pregunta": "Un triángulo rectángulo tiene:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.1",
+        "nombre": "Triángulo rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Un ángulo de $90^\\circ$",
+        "B": "Dos ángulos rectos",
+        "C": "Tres ángulos iguales",
+        "D": "Un ángulo de $180^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-1-02",
+      "pregunta": "El lado opuesto al ángulo recto se llama:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.1",
+        "nombre": "Triángulo rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Cateto adyacente",
+        "B": "Cateto opuesto",
+        "C": "Altura",
+        "D": "Hipotenusa"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-1-03",
+      "pregunta": "La hipotenusa es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.1",
+        "nombre": "Triángulo rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Cualquier cateto",
+        "B": "La suma de los catetos",
+        "C": "El lado más largo del triángulo rectángulo",
+        "D": "El lado más corto siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-1-04",
+      "pregunta": "Los otros dos lados de un triángulo rectángulo se llaman:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.1",
+        "nombre": "Triángulo rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Secantes",
+        "B": "Catetos",
+        "C": "Radios",
+        "D": "Diagonales"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-1-05",
+      "pregunta": "Si los catetos miden $3$ y $4$, la hipotenusa mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.1",
+        "nombre": "Triángulo rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$6$",
+        "C": "$7$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-1-06",
+      "pregunta": "Si la hipotenusa mide $13$ y un cateto $5$, el otro cateto mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.1",
+        "nombre": "Triángulo rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$18$",
+        "C": "$10$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-1-07",
+      "pregunta": "En todo triángulo rectángulo, los ángulos agudos son:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.1",
+        "nombre": "Triángulo rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Iguales siempre",
+        "B": "Opuestos por el vértice",
+        "C": "Complementarios",
+        "D": "Suplementarios"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-1-08",
+      "pregunta": "Si un ángulo agudo mide $37^\\circ$, el otro mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.1",
+        "nombre": "Triángulo rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$127^\\circ$",
+        "B": "$53^\\circ$",
+        "C": "$143^\\circ$",
+        "D": "$37^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-1-09",
+      "pregunta": "La relación pitagórica correcta es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.1",
+        "nombre": "Triángulo rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$a^2+b^2=c^2$",
+        "B": "$a+b=c$",
+        "C": "$a^2-b^2=c^2$",
+        "D": "$a^2+b^2=2c$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-1-10",
+      "pregunta": "¿Cuál terna forma un triángulo rectángulo?",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.1",
+        "nombre": "Triángulo rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$5,6,7$",
+        "B": "$4,5,8$",
+        "C": "$3,3,6$",
+        "D": "$8,15,17$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-2-01",
+      "pregunta": "Respecto de un ángulo agudo $\\theta$, el cateto opuesto es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.2",
+        "nombre": "Lados relativos a un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "El cateto que forma $\\theta$ con la hipotenusa",
+        "B": "El lado opuesto al ángulo recto",
+        "C": "El cateto que no toca a $\\theta$",
+        "D": "La hipotenusa"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-2-02",
+      "pregunta": "Respecto de $\\theta$, el cateto adyacente es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.2",
+        "nombre": "Lados relativos a un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "El lado mayor sin excepción",
+        "B": "El cateto que toca a $\\theta$ y no es la hipotenusa",
+        "C": "El lado que no toca a $\\theta$",
+        "D": "La hipotenusa"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-2-03",
+      "pregunta": "Al cambiar del ángulo agudo $A$ al otro ángulo agudo $B$:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.2",
+        "nombre": "Lados relativos a un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Los catetos opuesto y adyacente intercambian sus papeles",
+        "B": "La hipotenusa cambia",
+        "C": "Todos los lados cambian de longitud",
+        "D": "Nada cambia en la denominación"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-2-04",
+      "pregunta": "La hipotenusa respecto de cualquiera de los ángulos agudos:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.2",
+        "nombre": "Lados relativos a un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Pasa a ser cateto opuesto",
+        "B": "Pasa a ser cateto adyacente",
+        "C": "Desaparece",
+        "D": "Es la misma"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-2-05",
+      "pregunta": "Si un cateto está frente a $\\theta$, dicho cateto es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.2",
+        "nombre": "Lados relativos a un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Hipotenusa",
+        "B": "Bisectriz",
+        "C": "Opuesto",
+        "D": "Adyacente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-2-06",
+      "pregunta": "Si un cateto forma el ángulo $\\theta$ junto con la hipotenusa, dicho cateto es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.2",
+        "nombre": "Lados relativos a un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Exterior",
+        "B": "Adyacente",
+        "C": "Opuesto",
+        "D": "Hipotenusa"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-2-07",
+      "pregunta": "En un triángulo rectángulo $ABC$ con ángulo recto en $C$, la hipotenusa es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.2",
+        "nombre": "Lados relativos a un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$AB$",
+        "B": "$AC$",
+        "C": "$BC$",
+        "D": "$C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-2-08",
+      "pregunta": "En el mismo triángulo, respecto de $A$, el cateto opuesto es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.2",
+        "nombre": "Lados relativos a un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$AC$",
+        "B": "$AB$",
+        "C": "$CB+AC$",
+        "D": "$BC$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-2-09",
+      "pregunta": "En el mismo triángulo, respecto de $A$, el cateto adyacente es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.2",
+        "nombre": "Lados relativos a un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$AB$",
+        "B": "$AB+BC$",
+        "C": "$AC$",
+        "D": "$BC$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-2-10",
+      "pregunta": "Respecto de $B$ en ese triángulo, el cateto opuesto es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.2",
+        "nombre": "Lados relativos a un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$AB+AC$",
+        "B": "$AC$",
+        "C": "$BC$",
+        "D": "$AB$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-3-01",
+      "pregunta": "La definición de seno es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.3",
+        "nombre": "Definición de las razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin\\theta=\\frac{\\text{opuesto}}{\\text{hipotenusa}}$",
+        "B": "$\\frac{\\text{adyacente}}{\\text{hipotenusa}}$",
+        "C": "$\\frac{\\text{opuesto}}{\\text{adyacente}}$",
+        "D": "$\\frac{\\text{hipotenusa}}{\\text{opuesto}}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-3-02",
+      "pregunta": "La definición de coseno es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.3",
+        "nombre": "Definición de las razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\text{opuesto}}{\\text{hipotenusa}}$",
+        "B": "$\\frac{\\text{opuesto}}{\\text{adyacente}}$",
+        "C": "$\\frac{\\text{hipotenusa}}{\\text{adyacente}}$",
+        "D": "$\\cos\\theta=\\frac{\\text{adyacente}}{\\text{hipotenusa}}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-3-03",
+      "pregunta": "La definición de tangente es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.3",
+        "nombre": "Definición de las razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\text{opuesto}}{\\text{hipotenusa}}$",
+        "B": "$\\frac{\\text{hipotenusa}}{\\text{adyacente}}$",
+        "C": "$\\tan\\theta=\\frac{\\text{opuesto}}{\\text{adyacente}}$",
+        "D": "$\\frac{\\text{adyacente}}{\\text{opuesto}}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-3-04",
+      "pregunta": "La cosecante es el recíproco de:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.3",
+        "nombre": "Definición de las razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "La cotangente",
+        "B": "El seno",
+        "C": "El coseno",
+        "D": "La tangente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-3-05",
+      "pregunta": "La secante es el recíproco de:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.3",
+        "nombre": "Definición de las razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "El coseno",
+        "B": "El seno",
+        "C": "La tangente",
+        "D": "La cosecante"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-3-06",
+      "pregunta": "La cotangente es el recíproco de:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.3",
+        "nombre": "Definición de las razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "El seno",
+        "B": "El coseno",
+        "C": "La secante",
+        "D": "La tangente"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-3-07",
+      "pregunta": "En un triángulo $3$-$4$-$5$, si el opuesto a $\\theta$ mide $3$, $\\sin\\theta=$",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.3",
+        "nombre": "Definición de las razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac34$",
+        "B": "$\\frac53$",
+        "C": "$\\frac35$",
+        "D": "$\\frac45$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-3-08",
+      "pregunta": "En el mismo triángulo, si el adyacente mide $4$, $\\cos\\theta=$",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.3",
+        "nombre": "Definición de las razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac54$",
+        "B": "$\\frac45$",
+        "C": "$\\frac35$",
+        "D": "$\\frac34$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-3-09",
+      "pregunta": "En el mismo triángulo, $\\tan\\theta=$",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.3",
+        "nombre": "Definición de las razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac34$",
+        "B": "$\\frac43$",
+        "C": "$\\frac35$",
+        "D": "$\\frac45$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-3-10",
+      "pregunta": "Si $\\sin\\theta=\\frac5{13}$, entonces $\\csc\\theta=$",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.3",
+        "nombre": "Definición de las razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac5{13}$",
+        "B": "$\\frac{12}{13}$",
+        "C": "$\\frac{13}{12}$",
+        "D": "$\\frac{13}{5}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-4-01",
+      "pregunta": "La identidad pitagórica fundamental es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan^2\\theta+1=0$",
+        "B": "$\\sin^2\\theta-\\cos^2\\theta=1$",
+        "C": "$\\sin^2\\theta+\\cos^2\\theta=1$",
+        "D": "$\\sin\\theta+\\cos\\theta=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-4-02",
+      "pregunta": "Una identidad equivalente es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan^2\\theta=\\sec\\theta$",
+        "B": "$1+\\tan^2\\theta=\\sec^2\\theta$",
+        "C": "$1-\\tan^2\\theta=\\sec^2\\theta$",
+        "D": "$1+\\sec^2\\theta=\\tan^2\\theta$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-4-03",
+      "pregunta": "Otra identidad pitagórica es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$1+\\cot^2\\theta=\\csc^2\\theta$",
+        "B": "$1-\\cot^2\\theta=\\csc^2\\theta$",
+        "C": "$1+\\csc^2\\theta=\\cot^2\\theta$",
+        "D": "$\\cot^2\\theta=\\csc\\theta$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-4-04",
+      "pregunta": "Si $\\sin\\theta=\\frac35$ y $\\theta$ es agudo, entonces $\\cos\\theta=$",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac25$",
+        "B": "$\\frac34$",
+        "C": "$\\frac54$",
+        "D": "$\\frac45$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-4-05",
+      "pregunta": "Si $\\cos\\theta=\\frac{12}{13}$ y $\\theta$ es agudo, entonces $\\sin\\theta=$",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{12}{5}$",
+        "B": "$\\frac{13}{5}$",
+        "C": "$\\frac5{13}$",
+        "D": "$\\frac1{13}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-4-06",
+      "pregunta": "Si $\\tan\\theta=\\frac34$, entonces $\\sec^2\\theta=$",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac9{16}$",
+        "B": "$\\frac{25}{16}$",
+        "C": "$\\frac7{4}$",
+        "D": "$\\frac{16}{25}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-4-07",
+      "pregunta": "Si $\\cot\\theta=2$, entonces $\\csc^2\\theta=$",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$3$",
+        "C": "$4$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-4-08",
+      "pregunta": "Simplifique $1-\\sin^2\\theta$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin^2\\theta$",
+        "B": "$\\tan^2\\theta$",
+        "C": "$1$",
+        "D": "$\\cos^2\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-4-09",
+      "pregunta": "Simplifique $\\sec^2\\theta-1$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cot^2\\theta$",
+        "B": "$\\sin^2\\theta$",
+        "C": "$\\tan^2\\theta$",
+        "D": "$\\cos^2\\theta$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-4-10",
+      "pregunta": "Simplifique $\\csc^2\\theta-\\cot^2\\theta$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sec^2\\theta$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$\\sin^2\\theta$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-5-01",
+      "pregunta": "En un triángulo $45^\\circ$-$45^\\circ$-$90^\\circ$, la razón de lados es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.5",
+        "nombre": "Triángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$1:1:\\sqrt2$",
+        "B": "$1:\\sqrt3:2$",
+        "C": "$1:2:3$",
+        "D": "$1:1:2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-5-02",
+      "pregunta": "Si un cateto de un triángulo $45$-$45$-$90$ mide $6$, el otro mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.5",
+        "nombre": "Triángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$6\\sqrt2$",
+        "C": "$12$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-5-03",
+      "pregunta": "En ese caso, la hipotenusa mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.5",
+        "nombre": "Triángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$3\\sqrt2$",
+        "C": "$6\\sqrt2$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-5-04",
+      "pregunta": "En un triángulo $30^\\circ$-$60^\\circ$-$90^\\circ$, la razón de lados es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.5",
+        "nombre": "Triángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$1:\\sqrt2:2$",
+        "B": "$1:\\sqrt3:2$",
+        "C": "$1:1:\\sqrt2$",
+        "D": "$1:2:3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-5-05",
+      "pregunta": "En un triángulo $30$-$60$-$90$, el lado opuesto a $30^\\circ$ es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.5",
+        "nombre": "Triángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "La mitad de la hipotenusa",
+        "B": "Igual a la hipotenusa",
+        "C": "El mayor cateto",
+        "D": "El doble de la hipotenusa"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-5-06",
+      "pregunta": "Si el cateto menor mide $5$, la hipotenusa mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.5",
+        "nombre": "Triángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$5\\sqrt3$",
+        "B": "$5\\sqrt2$",
+        "C": "$15$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-5-07",
+      "pregunta": "Si el cateto menor mide $4$, el cateto mayor mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.5",
+        "nombre": "Triángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$4\\sqrt2$",
+        "B": "$2\\sqrt3$",
+        "C": "$4\\sqrt3$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-5-08",
+      "pregunta": "Si la hipotenusa de un $30$-$60$-$90$ mide $18$, el cateto menor mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.5",
+        "nombre": "Triángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$18\\sqrt3$",
+        "B": "$9$",
+        "C": "$6$",
+        "D": "$9\\sqrt3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-5-09",
+      "pregunta": "Si la hipotenusa de un $45$-$45$-$90$ mide $10\\sqrt2$, cada cateto mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.5",
+        "nombre": "Triángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$5$",
+        "C": "$20$",
+        "D": "$10\\sqrt2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-5-10",
+      "pregunta": "Un triángulo rectángulo isósceles tiene ángulos agudos de:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.5",
+        "nombre": "Triángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$ y $60^\\circ$",
+        "B": "$40^\\circ$ y $50^\\circ$",
+        "C": "$60^\\circ$ y $60^\\circ$",
+        "D": "$45^\\circ$ y $45^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-6-01",
+      "pregunta": "Calcule $\\sin30^\\circ$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.6",
+        "nombre": "Valores de los ángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$\\sqrt3$",
+        "C": "$\\frac12$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "recordar valores exactos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-6-02",
+      "pregunta": "Calcule $\\cos30^\\circ$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.6",
+        "nombre": "Valores de los ángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$\\frac{\\sqrt3}{2}$",
+        "C": "$0$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "recordar valores exactos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-6-03",
+      "pregunta": "Calcule $\\tan30^\\circ$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.6",
+        "nombre": "Valores de los ángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\sqrt3}{3}$",
+        "B": "$0$",
+        "C": "$\\frac12$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "recordar valores exactos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-6-04",
+      "pregunta": "Calcule $\\sin45^\\circ$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.6",
+        "nombre": "Valores de los ángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\frac12$",
+        "C": "$2$",
+        "D": "$\\frac{\\sqrt2}{2}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "recordar valores exactos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-6-05",
+      "pregunta": "Calcule $\\cos45^\\circ$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.6",
+        "nombre": "Valores de los ángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac12$",
+        "B": "$2$",
+        "C": "$\\frac{\\sqrt2}{2}$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "recordar valores exactos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-6-06",
+      "pregunta": "Calcule $\\tan45^\\circ$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.6",
+        "nombre": "Valores de los ángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt3$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "recordar valores exactos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-6-07",
+      "pregunta": "Calcule $\\sin60^\\circ$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.6",
+        "nombre": "Valores de los ángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\sqrt3}{2}$",
+        "B": "$0$",
+        "C": "$\\frac12$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "recordar valores exactos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-6-08",
+      "pregunta": "Calcule $\\cos60^\\circ$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.6",
+        "nombre": "Valores de los ángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$\\sqrt3$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "recordar valores exactos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-6-09",
+      "pregunta": "Calcule $\\tan60^\\circ$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.6",
+        "nombre": "Valores de los ángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac12$",
+        "B": "$2$",
+        "C": "$\\sqrt3$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "recordar valores exactos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-6-10",
+      "pregunta": "Calcule $\\cos0^\\circ$.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.6",
+        "nombre": "Valores de los ángulos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt3$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "recordar valores exactos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-7-01",
+      "pregunta": "Si $\\sin\\theta=\\frac12$ y $\\theta$ es agudo, entonces $\\theta=$",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.7",
+        "nombre": "Funciones trigonométricas inversas"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$60^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-7-02",
+      "pregunta": "Si $\\cos\\theta=\\frac12$ y $\\theta$ es agudo, entonces $\\theta=$",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.7",
+        "nombre": "Funciones trigonométricas inversas"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$90^\\circ$",
+        "D": "$60^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-7-03",
+      "pregunta": "Si $\\tan\\theta=1$ y $\\theta$ es agudo, entonces $\\theta=$",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.7",
+        "nombre": "Funciones trigonométricas inversas"
+      },
+      "respuestas_posibles": {
+        "A": "$60^\\circ$",
+        "B": "$90^\\circ$",
+        "C": "$45^\\circ$",
+        "D": "$30^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-7-04",
+      "pregunta": "La expresión $\\sin^{-1}(x)$ representa:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.7",
+        "nombre": "Funciones trigonométricas inversas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin(x^{-1})$",
+        "B": "El arco seno de $x$",
+        "C": "El recíproco de $\\sin x$",
+        "D": "$1-\\sin x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-7-05",
+      "pregunta": "Para hallar un ángulo con razón opuesto/hipotenusa se usa:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.7",
+        "nombre": "Funciones trigonométricas inversas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin^{-1}$",
+        "B": "$\\cos^{-1}$",
+        "C": "$\\tan^{-1}$",
+        "D": "$\\sec$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-7-06",
+      "pregunta": "Para hallar un ángulo con razón adyacente/hipotenusa se usa:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.7",
+        "nombre": "Funciones trigonométricas inversas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin^{-1}$",
+        "B": "$\\tan^{-1}$",
+        "C": "$\\csc$",
+        "D": "$\\cos^{-1}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-7-07",
+      "pregunta": "Para hallar un ángulo con razón opuesto/adyacente se usa:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.7",
+        "nombre": "Funciones trigonométricas inversas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos^{-1}$",
+        "B": "$\\cot$",
+        "C": "$\\tan^{-1}$",
+        "D": "$\\sin^{-1}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-7-08",
+      "pregunta": "Calcule $\\tan^{-1}(\\sqrt3)$ en grados.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.7",
+        "nombre": "Funciones trigonométricas inversas"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$60^\\circ$",
+        "C": "$30^\\circ$",
+        "D": "$45^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-7-09",
+      "pregunta": "Calcule $\\cos^{-1}(\\frac{\\sqrt2}{2})$ en grados.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.7",
+        "nombre": "Funciones trigonométricas inversas"
+      },
+      "respuestas_posibles": {
+        "A": "$45^\\circ$",
+        "B": "$30^\\circ$",
+        "C": "$60^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-7-10",
+      "pregunta": "Calcule $\\sin^{-1}(1)$ en grados.",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.7",
+        "nombre": "Funciones trigonométricas inversas"
+      },
+      "respuestas_posibles": {
+        "A": "$0^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$180^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-8-01",
+      "pregunta": "En un triángulo rectángulo, $c=10$ y $A=30^\\circ$. El cateto opuesto a $A$ mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.8",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$10\\sqrt3$",
+        "C": "$5$",
+        "D": "$5\\sqrt3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-8-02",
+      "pregunta": "Con los mismos datos, el cateto adyacente a $A$ mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.8",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$10\\sqrt3$",
+        "B": "$5\\sqrt3$",
+        "C": "$5$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-8-03",
+      "pregunta": "Si el cateto opuesto a $45^\\circ$ mide $8$, el adyacente mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.8",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$4$",
+        "C": "$8\\sqrt2$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-8-04",
+      "pregunta": "Si el cateto adyacente a $60^\\circ$ mide $6$, la hipotenusa mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.8",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$6\\sqrt3$",
+        "B": "$3$",
+        "C": "$12\\sqrt3$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-8-05",
+      "pregunta": "Una hipotenusa mide $13$ y un cateto $5$. El otro cateto mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.8",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$18$",
+        "B": "$10$",
+        "C": "$12$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-8-06",
+      "pregunta": "Los catetos miden $7$ y $24$. La hipotenusa mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.8",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$168$",
+        "B": "$25$",
+        "C": "$31$",
+        "D": "$17$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-8-07",
+      "pregunta": "Si $\\tan A=\\frac34$ y el cateto adyacente mide $8$, el opuesto mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.8",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$10$",
+        "C": "$12$",
+        "D": "$\\frac{32}{3}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-8-08",
+      "pregunta": "Si $\\sin A=\\frac5{13}$ y la hipotenusa mide $26$, el opuesto mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.8",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$20$",
+        "C": "$24$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-8-09",
+      "pregunta": "Si $\\cos A=\\frac45$ y el adyacente mide $12$, la hipotenusa mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.8",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$20$",
+        "C": "$15$",
+        "D": "$9.6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-8-10",
+      "pregunta": "Resolver un triángulo rectángulo significa determinar:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.8",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Únicamente el ángulo recto",
+        "B": "Todos sus lados y ángulos desconocidos",
+        "C": "Solo el perímetro",
+        "D": "Solo la hipotenusa"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-9-01",
+      "pregunta": "El ángulo de elevación se mide desde la horizontal:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.9",
+        "nombre": "Ángulos de elevación y depresión"
+      },
+      "respuestas_posibles": {
+        "A": "Hacia arriba",
+        "B": "Hacia abajo",
+        "C": "En sentido vertical únicamente",
+        "D": "Desde la hipotenusa hacia el suelo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-9-02",
+      "pregunta": "El ángulo de depresión se mide desde la horizontal:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.9",
+        "nombre": "Ángulos de elevación y depresión"
+      },
+      "respuestas_posibles": {
+        "A": "Hacia arriba",
+        "B": "Desde el suelo hacia el observador",
+        "C": "Solo en radianes",
+        "D": "Hacia abajo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-9-03",
+      "pregunta": "Una persona observa la cima de una torre con ángulo de elevación $45^\\circ$ desde $20$ m. Sin considerar la altura de los ojos, la torre mide:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.9",
+        "nombre": "Ángulos de elevación y depresión"
+      },
+      "respuestas_posibles": {
+        "A": "$20\\sqrt2$ m",
+        "B": "$40$ m",
+        "C": "$20$ m",
+        "D": "$10$ m"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-9-04",
+      "pregunta": "Una escalera de $10$ m forma $30^\\circ$ con el suelo. La altura alcanzada es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.9",
+        "nombre": "Ángulos de elevación y depresión"
+      },
+      "respuestas_posibles": {
+        "A": "$20$ m",
+        "B": "$5$ m",
+        "C": "$5\\sqrt3$ m",
+        "D": "$10$ m"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-9-05",
+      "pregunta": "Un cable de $20$ m forma $60^\\circ$ con el suelo. La altura vertical es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.9",
+        "nombre": "Ángulos de elevación y depresión"
+      },
+      "respuestas_posibles": {
+        "A": "$10\\sqrt3$ m",
+        "B": "$10$ m",
+        "C": "$20\\sqrt3$ m",
+        "D": "$40$ m"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-9-06",
+      "pregunta": "Desde un punto a $30$ m de un edificio, el ángulo de elevación es $30^\\circ$. La altura es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.9",
+        "nombre": "Ángulos de elevación y depresión"
+      },
+      "respuestas_posibles": {
+        "A": "$15$ m",
+        "B": "$30\\sqrt3$ m",
+        "C": "$60$ m",
+        "D": "$10\\sqrt3$ m"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-9-07",
+      "pregunta": "Desde la parte alta de un faro se observa un barco con ángulo de depresión $45^\\circ$. Si la altura es $25$ m, la distancia horizontal es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.9",
+        "nombre": "Ángulos de elevación y depresión"
+      },
+      "respuestas_posibles": {
+        "A": "$25\\sqrt2$ m",
+        "B": "$50$ m",
+        "C": "$25$ m",
+        "D": "$12.5$ m"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-9-08",
+      "pregunta": "Los ángulos de elevación y depresión asociados a horizontales paralelas son:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.9",
+        "nombre": "Ángulos de elevación y depresión"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre de $45^\\circ$",
+        "B": "Iguales por ser alternos internos",
+        "C": "Complementarios",
+        "D": "Suplementarios"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-9-09",
+      "pregunta": "Para relacionar altura y distancia horizontal directamente se usa con frecuencia:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.9",
+        "nombre": "Ángulos de elevación y depresión"
+      },
+      "respuestas_posibles": {
+        "A": "La tangente",
+        "B": "El seno sin hipotenusa",
+        "C": "El coseno sin hipotenusa",
+        "D": "La cosecante"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-25-9-10",
+      "pregunta": "Una sombra mide $8$ m y el ángulo de elevación del Sol es $45^\\circ$. La altura del objeto es:",
+      "tema": {
+        "codigo": "25",
+        "nombre": "Razones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "25.9",
+        "nombre": "Ángulos de elevación y depresión"
+      },
+      "respuestas_posibles": {
+        "A": "$4$ m",
+        "B": "$8\\sqrt2$ m",
+        "C": "$16$ m",
+        "D": "$8$ m"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>25. Razones trigonométricas · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte V: Trigonometría</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#triangulo-rectangulo"><span class="num">25.1</span> Triángulo rectángulo</a></li><li class="nivel-2"><a href="#lados-relativos-a-un-angulo"><span class="num">25.2</span> Lados relativos a un ángulo</a></li><li class="nivel-2"><a href="#definicion-de-las-razones-trigonometricas"><span class="num">25.3</span> Definición de las razones trigonométricas</a></li><li class="nivel-2"><a href="#identidades-pitagoricas"><span class="num">25.4</span> Identidades pitagóricas</a></li><li class="nivel-2"><a href="#triangulos-notables"><span class="num">25.5</span> Triángulos notables</a></li><li class="nivel-3"><a href="#triangulo-de"><span class="num">25.5.1</span> Triángulo de ––</a></li><li class="nivel-3"><a href="#triangulo-de-2"><span class="num">25.5.2</span> Triángulo de ––</a></li><li class="nivel-2"><a href="#valores-de-los-angulos-notables"><span class="num">25.6</span> Valores de los ángulos notables</a></li><li class="nivel-2"><a href="#funciones-trigonometricas-inversas"><span class="num">25.7</span> Funciones trigonométricas inversas</a></li><li class="nivel-2"><a href="#resolucion-de-triangulos-rectangulos"><span class="num">25.8</span> Resolución de triángulos rectángulos</a></li><li class="nivel-2"><a href="#angulos-de-elevacion-y-depresion"><span class="num">25.9</span> Ángulos de elevación y depresión</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">25.10</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 25</p><h1>Razones trigonométricas</h1></header>
+<p><span id="cap-razones-trigonometricas" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Las razones trigonométricas relacionan las longitudes de los lados de un triángulo rectángulo con las medidas de sus ángulos agudos. Estas relaciones permiten calcular alturas, distancias y ángulos que no pueden medirse directamente. En este capítulo estudiarás las seis razones trigonométricas, los valores de los ángulos notables y los procedimientos para resolver triángulos rectángulos.</p>
+<h2 id="triangulo-rectangulo"><span class="num">25.1</span> Triángulo rectángulo<a class="enlace-seccion" href="#triangulo-rectangulo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>triángulo rectángulo</strong> es un triángulo que tiene un ángulo interior de:</p>
+<div class="mate"><span class="mate-bloque">\[90^\circ.\]</span></div>
+<p>Los lados que forman el ángulo recto se denominan <strong>catetos</strong>. El lado opuesto al ángulo recto se denomina <strong>hipotenusa</strong>.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Teorema de Pitágoras</div><div class="caja-cuerpo"><p>En todo triángulo rectángulo, el cuadrado de la longitud de la hipotenusa es igual a la suma de los cuadrados de las longitudes de los catetos:</p>
+<div class="mate"><span class="mate-bloque">\[c^2=a^2+b^2,\]</span></div>
+<p>donde \(c\) representa la hipotenusa y \(a\) y \(b\) representan los catetos.</p></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La hipotenusa siempre es:</p>
+<ul><li>el lado opuesto al ángulo recto;</li><li>el lado de mayor longitud del triángulo.</li></ul></div></section>
+<p>La siguiente figura muestra un triángulo rectángulo y un ángulo agudo de referencia \(\theta\):</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-3637fd900d93.svg" alt="Figura 25.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="lados-relativos-a-un-angulo"><span class="num">25.2</span> Lados relativos a un ángulo<a class="enlace-seccion" href="#lados-relativos-a-un-angulo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Respecto de un ángulo agudo \(\theta\) de un triángulo rectángulo, los lados reciben los siguientes nombres:</p>
+<ul><li>El <strong>cateto opuesto</strong> es el cateto que se encuentra frente al ángulo \(\theta\).</li><li>El <strong>cateto adyacente</strong> es el cateto que forma parte del ángulo \(\theta\).</li><li>La <strong>hipotenusa</strong> es el lado opuesto al ángulo recto.</li></ul></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Los nombres “opuesto” y “adyacente” dependen del ángulo de referencia.</p>
+<p>En un mismo triángulo, el cateto que es opuesto respecto de un ángulo agudo es adyacente respecto del otro. La hipotenusa, en cambio, no cambia.</p></div></section>
+<h2 id="definicion-de-las-razones-trigonometricas"><span class="num">25.3</span> Definición de las razones trigonométricas<a class="enlace-seccion" href="#definicion-de-las-razones-trigonometricas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Dado un ángulo agudo \(\theta\) en un triángulo rectángulo, se definen las seis razones trigonométricas de la siguiente manera:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sen\theta &amp;= \frac{\text{cateto opuesto}} {\text{hipotenusa}},\\[0.6em] \cos\theta &amp;= \frac{\text{cateto adyacente}} {\text{hipotenusa}},\\[0.6em] \tan\theta &amp;= \frac{\text{cateto opuesto}} {\text{cateto adyacente}},\\[0.6em] \csc\theta &amp;= \frac{\text{hipotenusa}} {\text{cateto opuesto}},\\[0.6em] \sec\theta &amp;= \frac{\text{hipotenusa}} {\text{cateto adyacente}},\\[0.6em] \cot\theta &amp;= \frac{\text{cateto adyacente}} {\text{cateto opuesto}}. \end{aligned}\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Una forma habitual de recordar las tres razones principales es:</p>
+<div class="mate"><span class="mate-bloque">\[\text{SOH} \qquad \text{CAH} \qquad \text{TOA}.\]</span></div>
+<p>Estas letras corresponden a:</p>
+<div class="mate"><span class="mate-bloque">\[\text{Seno} = \frac{\text{Opuesto}}{\text{Hipotenusa}},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{Coseno} = \frac{\text{Adyacente}}{\text{Hipotenusa}},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{Tangente} = \frac{\text{Opuesto}}{\text{Adyacente}}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Identidades recíprocas</div><div class="caja-cuerpo"><p>Las funciones cosecante, secante y cotangente son los recíprocos del seno, coseno y tangente, respectivamente:</p>
+<div class="mate"><span class="mate-bloque">\[\csc\theta = \frac{1}{\sen\theta},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sec\theta = \frac{1}{\cos\theta},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cot\theta = \frac{1}{\tan\theta}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Identidades de cociente</div><div class="caja-cuerpo"><p>La tangente y la cotangente pueden expresarse mediante el seno y el coseno:</p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta = \frac{\sen\theta}{\cos\theta},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cot\theta = \frac{\cos\theta}{\sen\theta}.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Las razones que contienen una división solo están definidas cuando su denominador es distinto de cero. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta = \frac{\sen\theta}{\cos\theta}\]</span></div>
+<p>no está definida cuando:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta=0.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-25-1"><div class="caja-titulo">Ejemplo 25.1</div><div class="caja-cuerpo"><p>En un triángulo rectángulo, el cateto opuesto a un ángulo \(\theta\) mide \(3\ \text{cm}\) y la hipotenusa mide \(5\ \text{cm}\). Encuentra las seis razones trigonométricas de \(\theta\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primero calculamos el cateto adyacente mediante el teorema de Pitágoras. Sea \(a\) su longitud:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} a^2+3^2 &amp;=5^2,\\ a^2+9 &amp;=25,\\ a^2 &amp;=16,\\ a &amp;=4. \end{aligned}\]</span></div>
+<p>Como se trata de una longitud, conservamos la raíz positiva.</p>
+<p>Ahora tenemos:</p>
+<div class="mate"><span class="mate-bloque">\[\text{opuesto}=3, \qquad \text{adyacente}=4, \qquad \text{hipotenusa}=5.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sen\theta &amp;=\frac{3}{5},&amp; \cos\theta &amp;=\frac{4}{5},&amp; \tan\theta &amp;=\frac{3}{4},\\[0.6em] \csc\theta &amp;=\frac{5}{3},&amp; \sec\theta &amp;=\frac{5}{4},&amp; \cot\theta &amp;=\frac{4}{3}. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="identidades-pitagoricas"><span class="num">25.4</span> Identidades pitagóricas<a class="enlace-seccion" href="#identidades-pitagoricas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Identidad trigonométrica fundamental</div><div class="caja-cuerpo"><p>Para todo ángulo \(\theta\) para el que estén definidas las razones correspondientes:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta+\cos^2\theta=1.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Identidades pitagóricas derivadas</div><div class="caja-cuerpo"><p>A partir de la identidad fundamental pueden obtenerse:</p>
+<div class="mate"><span class="mate-bloque">\[1+\tan^2\theta = \sec^2\theta\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[1+\cot^2\theta = \csc^2\theta.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La notación:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta\]</span></div>
+<p>significa:</p>
+<div class="mate"><span class="mate-bloque">\[(\sen\theta)^2,\]</span></div>
+<p>no:</p>
+<div class="mate"><span class="mate-bloque">\[\sen(\theta^2).\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-25-2"><div class="caja-titulo">Ejemplo 25.2</div><div class="caja-cuerpo"><p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta=\frac{3}{5}\]</span></div>
+<p>y \(\theta\) es un ángulo agudo, encuentra \(\cos\theta\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la identidad fundamental:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta+\cos^2\theta=1.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \left(\frac{3}{5}\right)^2+\cos^2\theta &amp;=1,\\ \frac{9}{25}+\cos^2\theta &amp;=1,\\ \cos^2\theta &amp;=\frac{16}{25}. \end{aligned}\]</span></div>
+<p>Como \(\theta\) es agudo, el coseno es positivo:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta=\frac{4}{5}.\]</span></div></div></details></div></section>
+<h2 id="triangulos-notables"><span class="num">25.5</span> Triángulos notables<a class="enlace-seccion" href="#triangulos-notables" aria-label="Enlace a esta sección">#</a></h2>
+<p>Los valores exactos de las razones trigonométricas de \(30^\circ\), \(45^\circ\) y \(60^\circ\) pueden obtenerse a partir de dos triángulos especiales.</p>
+<h3 id="triangulo-de"><span class="num">25.5.1</span> Triángulo de \(45^\circ\)–\(45^\circ\)–\(90^\circ\)<a class="enlace-seccion" href="#triangulo-de" aria-label="Enlace a esta sección">#</a></h3>
+<p>Un triángulo rectángulo isósceles tiene dos ángulos de \(45^\circ\). Si cada cateto mide \(1\), el teorema de Pitágoras permite calcular la hipotenusa:</p>
+<div class="mate"><span class="mate-bloque">\[c^2=1^2+1^2=2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[c=\sqrt{2}.\]</span></div>
+<h3 id="triangulo-de-2"><span class="num">25.5.2</span> Triángulo de \(30^\circ\)–\(60^\circ\)–\(90^\circ\)<a class="enlace-seccion" href="#triangulo-de-2" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si se divide un triángulo equilátero de lado \(2\) mediante una altura, se obtienen dos triángulos rectángulos con:</p>
+<div class="mate"><span class="mate-bloque">\[\text{hipotenusa}=2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{cateto menor}=1,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{cateto mayor}=\sqrt{3}.\]</span></div>
+<p>Los dos triángulos especiales pueden compararse en figuras uniformes:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-dd53ff9b8f9f.svg" alt="Figura 25.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="valores-de-los-angulos-notables"><span class="num">25.6</span> Valores de los ángulos notables<a class="enlace-seccion" href="#valores-de-los-angulos-notables" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Valores exactos</div><div class="caja-cuerpo"><p>Los valores exactos de las tres razones trigonométricas principales son:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sen 30^\circ &amp;=\frac{1}{2},&amp; \cos 30^\circ &amp;=\frac{\sqrt{3}}{2},&amp; \tan 30^\circ &amp;=\frac{\sqrt{3}}{3},\\[0.8em] \sen 45^\circ &amp;=\frac{\sqrt{2}}{2},&amp; \cos 45^\circ &amp;=\frac{\sqrt{2}}{2},&amp; \tan 45^\circ &amp;=1,\\[0.8em] \sen 60^\circ &amp;=\frac{\sqrt{3}}{2},&amp; \cos 60^\circ &amp;=\frac{1}{2},&amp; \tan 60^\circ &amp;=\sqrt{3}. \end{aligned}\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Los valores del seno y del coseno de \(30^\circ\) y \(60^\circ\) están intercambiados:</p>
+<div class="mate"><span class="mate-bloque">\[\sen30^\circ=\cos60^\circ=\frac{1}{2},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sen60^\circ=\cos30^\circ=\frac{\sqrt{3}}{2}.\]</span></div>
+<p>Además:</p>
+<div class="mate"><span class="mate-bloque">\[\tan45^\circ=1,\]</span></div>
+<p>porque en un triángulo de \(45^\circ\)–\(45^\circ\)–\(90^\circ\) los dos catetos tienen la misma longitud.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Valores de las razones recíprocas</div><div class="caja-cuerpo"><p>A partir de los valores anteriores se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \csc30^\circ &amp;=2,&amp; \sec30^\circ &amp;=\frac{2\sqrt{3}}{3},&amp; \cot30^\circ &amp;=\sqrt{3},\\[0.8em] \csc45^\circ &amp;=\sqrt{2},&amp; \sec45^\circ &amp;=\sqrt{2},&amp; \cot45^\circ &amp;=1,\\[0.8em] \csc60^\circ &amp;=\frac{2\sqrt{3}}{3},&amp; \sec60^\circ &amp;=2,&amp; \cot60^\circ &amp;=\frac{\sqrt{3}}{3}. \end{aligned}\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-25-3"><div class="caja-titulo">Ejemplo 25.3</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\sen30^\circ+\cos60^\circ.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos los valores notables:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sen30^\circ+\cos60^\circ &amp;= \frac{1}{2}+\frac{1}{2}\\ &amp;=1. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-25-4"><div class="caja-titulo">Ejemplo 25.4</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\tan45^\circ\cos30^\circ.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \tan45^\circ\cos30^\circ &amp;= (1)\left(\frac{\sqrt{3}}{2}\right)\\ &amp;= \frac{\sqrt{3}}{2}. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="funciones-trigonometricas-inversas"><span class="num">25.7</span> Funciones trigonométricas inversas<a class="enlace-seccion" href="#funciones-trigonometricas-inversas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Las funciones trigonométricas inversas permiten encontrar un ángulo cuando se conoce el valor de una razón trigonométrica:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \theta &amp;=\arcsen(u),\\ \theta &amp;=\arccos(u),\\ \theta &amp;=\arctan(u). \end{aligned}\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En muchas calculadoras se utilizan las notaciones:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^{-1}, \qquad \cos^{-1}, \qquad \tan^{-1}.\]</span></div>
+<p>En este contexto, el exponente \(-1\) indica la función inversa, no el recíproco. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\tan^{-1}(1) = 45^\circ,\]</span></div>
+<p>mientras que:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{\tan45^\circ} = 1.\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Antes de calcular un ángulo, debe verificarse si la calculadora está configurada en grados o en radianes.</p>
+<p>Si el problema expresa los ángulos mediante el símbolo \({}^\circ\), la calculadora debe estar en modo de grados.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-25-5"><div class="caja-titulo">Ejemplo 25.5</div><div class="caja-cuerpo"><p>En un triángulo rectángulo, el cateto opuesto a \(\theta\) mide \(3\ \text{cm}\) y el cateto adyacente mide \(4\ \text{cm}\). Encuentra el ángulo \(\theta\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos la tangente:</p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta=\frac{3}{4}.\]</span></div>
+<p>Aplicamos la función inversa:</p>
+<div class="mate"><span class="mate-bloque">\[\theta = \arctan\left(\frac{3}{4}\right).\]</span></div>
+<p>En grados:</p>
+<div class="mate"><span class="mate-bloque">\[\theta\approx36.87^\circ.\]</span></div></div></details></div></section>
+<h2 id="resolucion-de-triangulos-rectangulos"><span class="num">25.8</span> Resolución de triángulos rectángulos<a class="enlace-seccion" href="#resolucion-de-triangulos-rectangulos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p><strong>Resolver un triángulo</strong> significa determinar las longitudes de todos sus lados y las medidas de todos sus ángulos.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Estrategia de resolución</div><div class="caja-cuerpo"><p>Para resolver un triángulo rectángulo:</p>
+<ol><li>identifica el ángulo recto y la hipotenusa;</li><li>selecciona uno de los ángulos agudos como referencia;</li><li>identifica el cateto opuesto y el cateto adyacente respecto de ese ángulo;</li><li>anota los datos conocidos y la incógnita;</li><li>elige la razón trigonométrica que relacione directamente esos datos;</li><li>plantea y resuelve la ecuación;</li><li>utiliza el teorema de Pitágoras o la relación: <span class="mate-bloque">\[\alpha+\beta=90^\circ\]</span> para determinar los datos restantes;</li><li>comprueba que la hipotenusa sea el lado de mayor longitud.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-25-6"><div class="caja-titulo">Ejemplo 25.6</div><div class="caja-cuerpo"><p>En un triángulo rectángulo, el cateto opuesto a un ángulo de \(30^\circ\) mide \(8\ \text{cm}\). Encuentra la hipotenusa.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(c\) la hipotenusa. Utilizamos el seno:</p>
+<div class="mate"><span class="mate-bloque">\[\sen30^\circ = \frac{8}{c}.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[\sen30^\circ=\frac{1}{2},\]</span></div>
+<p>se tiene:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{1}{2} &amp;=\frac{8}{c},\\ c &amp;=16. \end{aligned}\]</span></div>
+<p>La hipotenusa mide:</p>
+<div class="mate"><span class="mate-bloque">\[16\ \text{cm}.\]</span></div></div></details></div></section>
+<h2 id="angulos-de-elevacion-y-depresion"><span class="num">25.9</span> Ángulos de elevación y depresión<a class="enlace-seccion" href="#angulos-de-elevacion-y-depresion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>ángulo de elevación</strong> es el ángulo formado entre una línea horizontal y una línea de visión dirigida hacia un objeto situado por encima del observador.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>ángulo de depresión</strong> es el ángulo formado entre una línea horizontal y una línea de visión dirigida hacia un objeto situado por debajo del observador.</p></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La línea horizontal del observador y el suelo suelen ser paralelos. Por esta razón, el ángulo de depresión y el ángulo de elevación correspondiente tienen la misma medida, pues son ángulos alternos internos.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-25-7"><div class="caja-titulo">Ejemplo 25.7</div><div class="caja-cuerpo"><p>Un árbol proyecta una sombra de \(12\ \text{m}\) cuando el ángulo de elevación del Sol es de \(60^\circ\). Encuentra la altura del árbol.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Representamos la situación mediante un triángulo rectángulo:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-bb7ef301dd9b.svg" alt="Figura 25.3" loading="lazy" decoding="async"></figure></div>
+<p>La altura es el cateto opuesto y la sombra es el cateto adyacente. Utilizamos la tangente:</p>
+<div class="mate"><span class="mate-bloque">\[\tan60^\circ = \frac{h}{12}.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[\tan60^\circ=\sqrt{3},\]</span></div>
+<p>se tiene:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sqrt{3} &amp;=\frac{h}{12},\\ h &amp;=12\sqrt{3}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[h=12\sqrt{3}\ \text{m}.\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[h\approx20.78\ \text{m}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-25-8"><div class="caja-titulo">Ejemplo 25.8</div><div class="caja-cuerpo"><p>Una escalera de \(5\ \text{m}\) se apoya contra una pared y forma un ángulo de \(60^\circ\) con el suelo. ¿A qué altura llega la escalera?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La escalera es la hipotenusa y la altura es el cateto opuesto al ángulo de \(60^\circ\). Utilizamos el seno:</p>
+<div class="mate"><span class="mate-bloque">\[\sen60^\circ = \frac{h}{5}.\]</span></div>
+<p>Sustituimos el valor notable:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sqrt{3}}{2} = \frac{h}{5}.\]</span></div>
+<p>Despejamos:</p>
+<div class="mate"><span class="mate-bloque">\[h = \frac{5\sqrt{3}}{2}\ \text{m}.\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[h\approx4.33\ \text{m}.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En problemas de aplicación, la figura debe interpretarse antes de elegir una razón trigonométrica.</p>
+<p>No debe suponerse que una medida corresponde al cateto opuesto o adyacente sin identificar primero el ángulo de referencia.</p></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">25.10</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-25-1"><div class="caja-titulo">Ejercicio 25.1</div><div class="caja-cuerpo"><p>En un triángulo rectángulo, el cateto opuesto a \(\theta\) mide \(6\ \text{cm}\) y la hipotenusa mide \(10\ \text{cm}\). Encuentra:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta, \qquad \cos\theta \qquad\text{y}\qquad \tan\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Cateto adyacente: \(b^2 = 10^2 - 6^2 = 64\), entonces \(b = 8\). <span class="mate-bloque">\[\sen\theta = \frac{6}{10} = \frac{3}{5}, \quad \cos\theta = \frac{8}{10} = \frac{4}{5}, \quad \tan\theta = \frac{6}{8} = \frac{3}{4}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-25-2"><div class="caja-titulo">Ejercicio 25.2</div><div class="caja-cuerpo"><p>En un triángulo rectángulo, el cateto adyacente a \(\theta\) mide \(8\ \text{cm}\) y el cateto opuesto mide \(15\ \text{cm}\). Encuentra:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta, \qquad \cos\theta \qquad\text{y}\qquad \tan\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Hipotenusa: \(c^2 = 8^2 + 15^2 = 64 + 225 = 289\), entonces \(c = 17\). <span class="mate-bloque">\[\sen\theta = \frac{15}{17}, \quad \cos\theta = \frac{8}{17}, \quad \tan\theta = \frac{15}{8}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-25-3"><div class="caja-titulo">Ejercicio 25.3</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\sen60^\circ+\cos30^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\sen 60^\circ + \cos 30^\circ = \frac{\sqrt{3}}{2} + \frac{\sqrt{3}}{2} = \sqrt{3}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-25-4"><div class="caja-titulo">Ejercicio 25.4</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\tan30^\circ\tan60^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\tan 30^\circ \cdot \tan 60^\circ = \frac{\sqrt{3}}{3} \cdot \sqrt{3} = 1.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-25-5"><div class="caja-titulo">Ejercicio 25.5</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sen45^\circ}{\cos45^\circ}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{\sen 45^\circ}{\cos 45^\circ} = \tan 45^\circ = 1.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-25-6"><div class="caja-titulo">Ejercicio 25.6</div><div class="caja-cuerpo"><p>Un poste proyecta una sombra de \(8\ \text{m}\) cuando el ángulo de elevación del Sol es de \(45^\circ\). ¿Cuál es la altura del poste?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\tan 45^\circ = \frac{h}{8} \Longrightarrow h = 8 \text{ m}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-25-7"><div class="caja-titulo">Ejercicio 25.7</div><div class="caja-cuerpo"><p>Un edificio de \(30\ \text{m}\) proyecta una sombra de \(10\ \text{m}\). Encuentra el ángulo de elevación del Sol.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\tan\theta = \frac{30}{10} = 3 \Longrightarrow \theta = \arctan(3) \approx 71.6^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-25-8"><div class="caja-titulo">Ejercicio 25.8</div><div class="caja-cuerpo"><p>Una rampa de \(6\ \text{m}\) de longitud forma un ángulo de \(30^\circ\) con el suelo. ¿A qué altura llega la rampa?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\sen 30^\circ = \frac{h}{6} \Longrightarrow \frac{1}{2} = \frac{h}{6} \Longrightarrow h = 3 \text{ m}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-25-9"><div class="caja-titulo">Ejercicio 25.9</div><div class="caja-cuerpo"><p>Un cable de \(20\ \text{m}\) sujeta una antena y forma un ángulo de \(60^\circ\) con el suelo. ¿A qué altura de la antena está sujeto el cable?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\sen 60^\circ = \frac{h}{20} \Longrightarrow \frac{\sqrt{3}}{2} = \frac{h}{20} \Longrightarrow h = 10\sqrt{3} \approx 17.3 \text{ m}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-25-10"><div class="caja-titulo">Ejercicio 25.10</div><div class="caja-cuerpo"><p>En un triángulo rectángulo, la hipotenusa mide \(10\ \text{cm}\) y uno de los ángulos agudos mide \(30^\circ\). Encuentra la longitud del cateto opuesto a ese ángulo.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\sen 30^\circ = \frac{x}{10} \Longrightarrow \frac{1}{2} = \frac{x}{10} \Longrightarrow x = 5 \text{ cm}.\]</span></div></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="24-medida-angulos.html"><span>← Anterior</span>24. Medida de ángulos</a><a class="nav-siguiente" href="26-ley-senos-cosenos.html"><span>Siguiente →</span>26. Ley de senos y ley de cosenos</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

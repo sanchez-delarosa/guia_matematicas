@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "22",
+    "titulo": "Circunferencia y círculo",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "22.1",
+        "nombre": "Circunferencia y círculo"
+      },
+      {
+        "codigo": "22.2",
+        "nombre": "Elementos de una circunferencia"
+      },
+      {
+        "codigo": "22.3",
+        "nombre": "Longitud de la circunferencia y área del círculo"
+      },
+      {
+        "codigo": "22.4",
+        "nombre": "Arcos y ángulos centrales"
+      },
+      {
+        "codigo": "22.5",
+        "nombre": "Ángulos inscritos"
+      },
+      {
+        "codigo": "22.6",
+        "nombre": "Ángulo inscrito en una semicircunferencia"
+      },
+      {
+        "codigo": "22.7",
+        "nombre": "Longitud de arco"
+      },
+      {
+        "codigo": "22.8",
+        "nombre": "Sector circular"
+      },
+      {
+        "codigo": "22.9",
+        "nombre": "Rectas tangentes"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas 22.1 a 22.9; se omitieron síntesis y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-22-1-01",
+      "pregunta": "La circunferencia es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.1",
+        "nombre": "Circunferencia y círculo"
+      },
+      "respuestas_posibles": {
+        "A": "El conjunto de puntos del plano equidistantes de un centro",
+        "B": "La región interior limitada por una curva",
+        "C": "Un segmento que pasa por el centro",
+        "D": "Una parte de una recta"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-1-02",
+      "pregunta": "El círculo es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.1",
+        "nombre": "Circunferencia y círculo"
+      },
+      "respuestas_posibles": {
+        "A": "Solo la línea curva exterior",
+        "B": "Un arco menor",
+        "C": "Una cuerda cerrada",
+        "D": "La región del plano limitada por una circunferencia"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-1-03",
+      "pregunta": "¿Cuál es una diferencia correcta?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.1",
+        "nombre": "Circunferencia y círculo"
+      },
+      "respuestas_posibles": {
+        "A": "El círculo no tiene centro",
+        "B": "La circunferencia contiene todos los puntos interiores",
+        "C": "La circunferencia es una línea y el círculo incluye la región interior",
+        "D": "Ambos términos significan únicamente área"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-1-04",
+      "pregunta": "Un punto cuya distancia al centro es menor que el radio está:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.1",
+        "nombre": "Circunferencia y círculo"
+      },
+      "respuestas_posibles": {
+        "A": "En una tangente",
+        "B": "En el interior del círculo",
+        "C": "Sobre la circunferencia",
+        "D": "En el exterior"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-1-05",
+      "pregunta": "Un punto cuya distancia al centro es igual al radio está:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.1",
+        "nombre": "Circunferencia y círculo"
+      },
+      "respuestas_posibles": {
+        "A": "Sobre la circunferencia",
+        "B": "En el centro",
+        "C": "En el exterior",
+        "D": "En el interior sin tocar el borde"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-1-06",
+      "pregunta": "Un punto cuya distancia al centro es mayor que el radio está:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.1",
+        "nombre": "Circunferencia y círculo"
+      },
+      "respuestas_posibles": {
+        "A": "Sobre la circunferencia",
+        "B": "En el interior",
+        "C": "En un diámetro necesariamente",
+        "D": "En el exterior del círculo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-1-07",
+      "pregunta": "La circunferencia de centro $O$ y radio $r$ contiene puntos $P$ que cumplen:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.1",
+        "nombre": "Circunferencia y círculo"
+      },
+      "respuestas_posibles": {
+        "A": "$OP>r$",
+        "B": "$OP=2r$",
+        "C": "$OP=r$",
+        "D": "$OP<r$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-1-08",
+      "pregunta": "¿Qué magnitud bidimensional se asocia con el círculo?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.1",
+        "nombre": "Circunferencia y círculo"
+      },
+      "respuestas_posibles": {
+        "A": "La pendiente",
+        "B": "El área",
+        "C": "La longitud de arco únicamente",
+        "D": "El diámetro como región"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-1-09",
+      "pregunta": "¿Qué magnitud lineal se asocia con la circunferencia completa?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.1",
+        "nombre": "Circunferencia y círculo"
+      },
+      "respuestas_posibles": {
+        "A": "La longitud o perímetro",
+        "B": "El volumen",
+        "C": "El área interior",
+        "D": "La apotema"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-1-10",
+      "pregunta": "Si el radio se duplica, el diámetro:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.1",
+        "nombre": "Circunferencia y círculo"
+      },
+      "respuestas_posibles": {
+        "A": "Se reduce a la mitad",
+        "B": "No cambia",
+        "C": "Se cuadruplica",
+        "D": "También se duplica"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-2-01",
+      "pregunta": "El segmento que une el centro con un punto de la circunferencia es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.2",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Cuerda",
+        "B": "Secante",
+        "C": "Radio",
+        "D": "Diámetro"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-2-02",
+      "pregunta": "La cuerda que pasa por el centro es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.2",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Tangente",
+        "B": "Diámetro",
+        "C": "Radio",
+        "D": "Arco"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-2-03",
+      "pregunta": "Un segmento cuyos extremos están en la circunferencia es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.2",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Cuerda",
+        "B": "Radio",
+        "C": "Secante",
+        "D": "Sector"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-2-04",
+      "pregunta": "Una porción de la circunferencia entre dos puntos es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.2",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Sector",
+        "B": "Cuerda",
+        "C": "Radio",
+        "D": "Arco"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-2-05",
+      "pregunta": "Una recta que corta la circunferencia en dos puntos es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.2",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Radio",
+        "B": "Diámetro",
+        "C": "Secante",
+        "D": "Tangente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-2-06",
+      "pregunta": "Una recta que toca la circunferencia en un solo punto es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.2",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Arco",
+        "B": "Tangente",
+        "C": "Secante",
+        "D": "Cuerda"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-2-07",
+      "pregunta": "Si el radio mide $7$ cm, el diámetro mide:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.2",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$14$ cm",
+        "B": "$7$ cm",
+        "C": "$3.5$ cm",
+        "D": "$49$ cm"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-2-08",
+      "pregunta": "Si el diámetro mide $18$ cm, el radio mide:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.2",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$36$ cm",
+        "B": "$18$ cm",
+        "C": "$6$ cm",
+        "D": "$9$ cm"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-2-09",
+      "pregunta": "La cuerda de mayor longitud de una circunferencia es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.2",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "La tangente",
+        "B": "El arco menor",
+        "C": "El diámetro",
+        "D": "Cualquier radio"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-2-10",
+      "pregunta": "La región limitada por dos radios y su arco es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.2",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Corona circular",
+        "B": "Sector circular",
+        "C": "Segmento circular",
+        "D": "Semicircunferencia"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-3-01",
+      "pregunta": "Calcule la longitud de una circunferencia de radio $2$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.3",
+        "nombre": "Longitud de la circunferencia y área del círculo"
+      },
+      "respuestas_posibles": {
+        "A": "$4\\pi$",
+        "B": "$2\\pi$",
+        "C": "$8\\pi$",
+        "D": "$\\text{opción 4}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular longitud",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-3-02",
+      "pregunta": "Calcule la longitud de una circunferencia de radio $3$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.3",
+        "nombre": "Longitud de la circunferencia y área del círculo"
+      },
+      "respuestas_posibles": {
+        "A": "$3\\pi$",
+        "B": "$9\\pi$",
+        "C": "$12\\pi$",
+        "D": "$6\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular longitud",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-3-03",
+      "pregunta": "Calcule la longitud de una circunferencia de radio $4$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.3",
+        "nombre": "Longitud de la circunferencia y área del círculo"
+      },
+      "respuestas_posibles": {
+        "A": "$16\\pi$",
+        "B": "$\\text{opción 4}$",
+        "C": "$8\\pi$",
+        "D": "$4\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular longitud",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-3-04",
+      "pregunta": "Calcule la longitud de una circunferencia de radio $5$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.3",
+        "nombre": "Longitud de la circunferencia y área del círculo"
+      },
+      "respuestas_posibles": {
+        "A": "$20\\pi$",
+        "B": "$10\\pi$",
+        "C": "$5\\pi$",
+        "D": "$25\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular longitud",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-3-05",
+      "pregunta": "Calcule la longitud de una circunferencia de radio $6$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.3",
+        "nombre": "Longitud de la circunferencia y área del círculo"
+      },
+      "respuestas_posibles": {
+        "A": "$12\\pi$",
+        "B": "$6\\pi$",
+        "C": "$36\\pi$",
+        "D": "$24\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular longitud",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-3-06",
+      "pregunta": "Calcule el área de un círculo de radio $2$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.3",
+        "nombre": "Longitud de la circunferencia y área del círculo"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\pi$",
+        "B": "$8\\pi$",
+        "C": "$\\text{opción 4}$",
+        "D": "$4\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular área",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-3-07",
+      "pregunta": "Calcule el área de un círculo de radio $3$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.3",
+        "nombre": "Longitud de la circunferencia y área del círculo"
+      },
+      "respuestas_posibles": {
+        "A": "$3\\pi$",
+        "B": "$18\\pi$",
+        "C": "$9\\pi$",
+        "D": "$6\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular área",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-3-08",
+      "pregunta": "Calcule el área de un círculo de radio $5$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.3",
+        "nombre": "Longitud de la circunferencia y área del círculo"
+      },
+      "respuestas_posibles": {
+        "A": "$50\\pi$",
+        "B": "$25\\pi$",
+        "C": "$10\\pi$",
+        "D": "$5\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular área",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-3-09",
+      "pregunta": "Calcule el área de un círculo de radio $7$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.3",
+        "nombre": "Longitud de la circunferencia y área del círculo"
+      },
+      "respuestas_posibles": {
+        "A": "$49\\pi$",
+        "B": "$14\\pi$",
+        "C": "$7\\pi$",
+        "D": "$98\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular área",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-3-10",
+      "pregunta": "Calcule el área de un círculo de radio $10$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.3",
+        "nombre": "Longitud de la circunferencia y área del círculo"
+      },
+      "respuestas_posibles": {
+        "A": "$20\\pi$",
+        "B": "$10\\pi$",
+        "C": "$200\\pi$",
+        "D": "$100\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular área",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-4-01",
+      "pregunta": "Un ángulo central mide $30^\\circ$. ¿Cuánto mide el arco que intercepta?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.4",
+        "nombre": "Arcos y ángulos centrales"
+      },
+      "respuestas_posibles": {
+        "A": "$60^\\circ$",
+        "B": "$330^\\circ$",
+        "C": "$30^\\circ$",
+        "D": "$15^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "relacionar ángulo central y arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-4-02",
+      "pregunta": "Un ángulo central mide $45^\\circ$. ¿Cuánto mide el arco que intercepta?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.4",
+        "nombre": "Arcos y ángulos centrales"
+      },
+      "respuestas_posibles": {
+        "A": "$315^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$22.5^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "relacionar ángulo central y arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-4-03",
+      "pregunta": "Un ángulo central mide $60^\\circ$. ¿Cuánto mide el arco que intercepta?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.4",
+        "nombre": "Arcos y ángulos centrales"
+      },
+      "respuestas_posibles": {
+        "A": "$60^\\circ$",
+        "B": "$30^\\circ$",
+        "C": "$120^\\circ$",
+        "D": "$300^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "relacionar ángulo central y arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-4-04",
+      "pregunta": "Un ángulo central mide $75^\\circ$. ¿Cuánto mide el arco que intercepta?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.4",
+        "nombre": "Arcos y ángulos centrales"
+      },
+      "respuestas_posibles": {
+        "A": "$37.5^\\circ$",
+        "B": "$150^\\circ$",
+        "C": "$285^\\circ$",
+        "D": "$75^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "relacionar ángulo central y arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-4-05",
+      "pregunta": "Un ángulo central mide $90^\\circ$. ¿Cuánto mide el arco que intercepta?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.4",
+        "nombre": "Arcos y ángulos centrales"
+      },
+      "respuestas_posibles": {
+        "A": "$180^\\circ$",
+        "B": "$270^\\circ$",
+        "C": "$90^\\circ$",
+        "D": "$45^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "relacionar ángulo central y arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-4-06",
+      "pregunta": "Un ángulo central mide $120^\\circ$. ¿Cuánto mide el arco que intercepta?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.4",
+        "nombre": "Arcos y ángulos centrales"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opción 4}$",
+        "B": "$120^\\circ$",
+        "C": "$60^\\circ$",
+        "D": "$240^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "relacionar ángulo central y arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-4-07",
+      "pregunta": "Un ángulo central mide $135^\\circ$. ¿Cuánto mide el arco que intercepta?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.4",
+        "nombre": "Arcos y ángulos centrales"
+      },
+      "respuestas_posibles": {
+        "A": "$135^\\circ$",
+        "B": "$67.5^\\circ$",
+        "C": "$270^\\circ$",
+        "D": "$225^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "relacionar ángulo central y arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-4-08",
+      "pregunta": "Un ángulo central mide $180^\\circ$. ¿Cuánto mide el arco que intercepta?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.4",
+        "nombre": "Arcos y ángulos centrales"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$360^\\circ$",
+        "C": "$\\text{opción 4}$",
+        "D": "$180^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "relacionar ángulo central y arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-4-09",
+      "pregunta": "Un ángulo central mide $240^\\circ$. ¿Cuánto mide el arco que intercepta?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.4",
+        "nombre": "Arcos y ángulos centrales"
+      },
+      "respuestas_posibles": {
+        "A": "$480^\\circ$",
+        "B": "$\\text{opción 4}$",
+        "C": "$240^\\circ$",
+        "D": "$120^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "relacionar ángulo central y arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-4-10",
+      "pregunta": "Un ángulo central mide $300^\\circ$. ¿Cuánto mide el arco que intercepta?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.4",
+        "nombre": "Arcos y ángulos centrales"
+      },
+      "respuestas_posibles": {
+        "A": "$60^\\circ$",
+        "B": "$300^\\circ$",
+        "C": "$150^\\circ$",
+        "D": "$600^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "relacionar ángulo central y arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-5-01",
+      "pregunta": "Un ángulo inscrito intercepta un arco de $40^\\circ$. ¿Cuánto mide el ángulo?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.5",
+        "nombre": "Ángulos inscritos"
+      },
+      "respuestas_posibles": {
+        "A": "$20^\\circ$",
+        "B": "$40^\\circ$",
+        "C": "$80^\\circ$",
+        "D": "$160^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del ángulo inscrito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-5-02",
+      "pregunta": "Un ángulo inscrito intercepta un arco de $60^\\circ$. ¿Cuánto mide el ángulo?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.5",
+        "nombre": "Ángulos inscritos"
+      },
+      "respuestas_posibles": {
+        "A": "$60^\\circ$",
+        "B": "$120^\\circ$",
+        "C": "$150^\\circ$",
+        "D": "$30^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del ángulo inscrito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-5-03",
+      "pregunta": "Un ángulo inscrito intercepta un arco de $80^\\circ$. ¿Cuánto mide el ángulo?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.5",
+        "nombre": "Ángulos inscritos"
+      },
+      "respuestas_posibles": {
+        "A": "$160^\\circ$",
+        "B": "$140^\\circ$",
+        "C": "$40^\\circ$",
+        "D": "$80^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del ángulo inscrito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-5-04",
+      "pregunta": "Un ángulo inscrito intercepta un arco de $100^\\circ$. ¿Cuánto mide el ángulo?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.5",
+        "nombre": "Ángulos inscritos"
+      },
+      "respuestas_posibles": {
+        "A": "$130^\\circ$",
+        "B": "$50^\\circ$",
+        "C": "$100^\\circ$",
+        "D": "$200^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del ángulo inscrito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-5-05",
+      "pregunta": "Un ángulo inscrito intercepta un arco de $120^\\circ$. ¿Cuánto mide el ángulo?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.5",
+        "nombre": "Ángulos inscritos"
+      },
+      "respuestas_posibles": {
+        "A": "$60^\\circ$",
+        "B": "$120^\\circ$",
+        "C": "$240^\\circ$",
+        "D": "$\\text{opción 4}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del ángulo inscrito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-5-06",
+      "pregunta": "Un ángulo inscrito intercepta un arco de $140^\\circ$. ¿Cuánto mide el ángulo?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.5",
+        "nombre": "Ángulos inscritos"
+      },
+      "respuestas_posibles": {
+        "A": "$140^\\circ$",
+        "B": "$280^\\circ$",
+        "C": "$110^\\circ$",
+        "D": "$70^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del ángulo inscrito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-5-07",
+      "pregunta": "Un ángulo inscrito intercepta un arco de $160^\\circ$. ¿Cuánto mide el ángulo?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.5",
+        "nombre": "Ángulos inscritos"
+      },
+      "respuestas_posibles": {
+        "A": "$320^\\circ$",
+        "B": "$100^\\circ$",
+        "C": "$80^\\circ$",
+        "D": "$160^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del ángulo inscrito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-5-08",
+      "pregunta": "Un ángulo inscrito intercepta un arco de $200^\\circ$. ¿Cuánto mide el ángulo?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.5",
+        "nombre": "Ángulos inscritos"
+      },
+      "respuestas_posibles": {
+        "A": "$80^\\circ$",
+        "B": "$100^\\circ$",
+        "C": "$200^\\circ$",
+        "D": "$400^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del ángulo inscrito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-5-09",
+      "pregunta": "Un ángulo inscrito intercepta un arco de $240^\\circ$. ¿Cuánto mide el ángulo?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.5",
+        "nombre": "Ángulos inscritos"
+      },
+      "respuestas_posibles": {
+        "A": "$120^\\circ$",
+        "B": "$240^\\circ$",
+        "C": "$480^\\circ$",
+        "D": "$60^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del ángulo inscrito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-5-10",
+      "pregunta": "Un ángulo inscrito intercepta un arco de $300^\\circ$. ¿Cuánto mide el ángulo?",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.5",
+        "nombre": "Ángulos inscritos"
+      },
+      "respuestas_posibles": {
+        "A": "$300^\\circ$",
+        "B": "$600^\\circ$",
+        "C": "$30^\\circ$",
+        "D": "$150^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del ángulo inscrito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-6-01",
+      "pregunta": "Un ángulo inscrito que intercepta un diámetro mide:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.6",
+        "nombre": "Ángulo inscrito en una semicircunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$180^\\circ$",
+        "B": "$60^\\circ$",
+        "C": "$90^\\circ$",
+        "D": "$45^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-6-02",
+      "pregunta": "Si $AB$ es diámetro y $C$ está en la circunferencia, $\\angle ACB$ mide:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.6",
+        "nombre": "Ángulo inscrito en una semicircunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$180^\\circ$",
+        "B": "$90^\\circ$",
+        "C": "$30^\\circ$",
+        "D": "$60^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-6-03",
+      "pregunta": "El triángulo formado por los extremos de un diámetro y otro punto de la circunferencia es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.6",
+        "nombre": "Ángulo inscrito en una semicircunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Rectángulo",
+        "B": "Equilátero",
+        "C": "Obtusángulo siempre",
+        "D": "Isósceles siempre"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-6-04",
+      "pregunta": "En una semicircunferencia, el arco determinado por el diámetro mide:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.6",
+        "nombre": "Ángulo inscrito en una semicircunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$360^\\circ$",
+        "C": "$120^\\circ$",
+        "D": "$180^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-6-05",
+      "pregunta": "Si un ángulo inscrito mide $90^\\circ$, el arco interceptado mide:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.6",
+        "nombre": "Ángulo inscrito en una semicircunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$45^\\circ$",
+        "B": "$360^\\circ$",
+        "C": "$180^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-6-06",
+      "pregunta": "Un triángulo inscrito tiene un lado que es diámetro. El ángulo opuesto a ese lado es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.6",
+        "nombre": "Ángulo inscrito en una semicircunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Cóncavo",
+        "B": "Recto",
+        "C": "Agudo necesariamente",
+        "D": "Llano"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-6-07",
+      "pregunta": "Si los ángulos agudos del triángulo inscrito en una semicircunferencia son $x$ y $2x$, entonces $x=$",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.6",
+        "nombre": "Ángulo inscrito en una semicircunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$60^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-6-08",
+      "pregunta": "Un ángulo inscrito de $90^\\circ$ subtiende:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.6",
+        "nombre": "Ángulo inscrito en una semicircunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Un radio únicamente",
+        "B": "Una tangente",
+        "C": "Un arco de $90^\\circ$",
+        "D": "Un diámetro"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-6-09",
+      "pregunta": "Si un triángulo inscrito tiene diámetro como hipotenusa y un ángulo agudo de $35^\\circ$, el otro mide:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.6",
+        "nombre": "Ángulo inscrito en una semicircunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$145^\\circ$",
+        "B": "$90^\\circ$",
+        "C": "$55^\\circ$",
+        "D": "$35^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-6-10",
+      "pregunta": "El teorema de Tales para una semicircunferencia establece que:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.6",
+        "nombre": "Ángulo inscrito en una semicircunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Todo arco mide $90^\\circ$",
+        "B": "El ángulo inscrito que abarca el diámetro es recto",
+        "C": "Todo radio es tangente",
+        "D": "Toda cuerda es diámetro"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-7-01",
+      "pregunta": "Calcule la longitud del arco de radio $6$ y ángulo central $30^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.7",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$1\\pi$",
+        "B": "$180\\pi$",
+        "C": "$12\\pi$",
+        "D": "$36\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-7-02",
+      "pregunta": "Calcule la longitud del arco de radio $4$ y ángulo central $90^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.7",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$360\\pi$",
+        "B": "$8\\pi$",
+        "C": "$16\\pi$",
+        "D": "$2\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-7-03",
+      "pregunta": "Calcule la longitud del arco de radio $10$ y ángulo central $180^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.7",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$20\\pi$",
+        "B": "$100\\pi$",
+        "C": "$10\\pi$",
+        "D": "$1800\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-7-04",
+      "pregunta": "Calcule la longitud del arco de radio $9$ y ángulo central $120^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.7",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$81\\pi$",
+        "B": "$6\\pi$",
+        "C": "$1080\\pi$",
+        "D": "$18\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-7-05",
+      "pregunta": "Calcule la longitud del arco de radio $12$ y ángulo central $60^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.7",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$4\\pi$",
+        "B": "$720\\pi$",
+        "C": "$24\\pi$",
+        "D": "$144\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-7-06",
+      "pregunta": "Calcule la longitud del arco de radio $5$ y ángulo central $144^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.7",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$720\\pi$",
+        "B": "$10\\pi$",
+        "C": "$25\\pi$",
+        "D": "$4\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-7-07",
+      "pregunta": "Calcule la longitud del arco de radio $8$ y ángulo central $225^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.7",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$16\\pi$",
+        "B": "$64\\pi$",
+        "C": "$10\\pi$",
+        "D": "$1800\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-7-08",
+      "pregunta": "Calcule la longitud del arco de radio $7$ y ángulo central $90^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.7",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$49\\pi$",
+        "B": "$\\frac{7\\pi}{2}$",
+        "C": "$630\\pi$",
+        "D": "$14\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-7-09",
+      "pregunta": "Calcule la longitud del arco de radio $15$ y ángulo central $72^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.7",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$6\\pi$",
+        "B": "$1080\\pi$",
+        "C": "$30\\pi$",
+        "D": "$225\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-7-10",
+      "pregunta": "Calcule la longitud del arco de radio $3$ y ángulo central $240^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.7",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$720\\pi$",
+        "B": "$6\\pi$",
+        "C": "$9\\pi$",
+        "D": "$4\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-8-01",
+      "pregunta": "Calcule el área del sector de radio $6$ y ángulo central $90^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.8",
+        "nombre": "Sector circular"
+      },
+      "respuestas_posibles": {
+        "A": "$36\\pi$",
+        "B": "$12\\pi$",
+        "C": "$9\\pi$",
+        "D": "$540\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular área de sector",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-8-02",
+      "pregunta": "Calcule el área del sector de radio $4$ y ángulo central $180^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.8",
+        "nombre": "Sector circular"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opción 4}$",
+        "B": "$8\\pi$",
+        "C": "$720\\pi$",
+        "D": "$16\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular área de sector",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-8-03",
+      "pregunta": "Calcule el área del sector de radio $10$ y ángulo central $36^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.8",
+        "nombre": "Sector circular"
+      },
+      "respuestas_posibles": {
+        "A": "$10\\pi$",
+        "B": "$360\\pi$",
+        "C": "$100\\pi$",
+        "D": "$20\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular área de sector",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-8-04",
+      "pregunta": "Calcule el área del sector de radio $9$ y ángulo central $120^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.8",
+        "nombre": "Sector circular"
+      },
+      "respuestas_posibles": {
+        "A": "$1080\\pi$",
+        "B": "$81\\pi$",
+        "C": "$18\\pi$",
+        "D": "$27\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular área de sector",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-8-05",
+      "pregunta": "Calcule el área del sector de radio $12$ y ángulo central $60^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.8",
+        "nombre": "Sector circular"
+      },
+      "respuestas_posibles": {
+        "A": "$144\\pi$",
+        "B": "$\\text{opción 4}$",
+        "C": "$24\\pi$",
+        "D": "$720\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular área de sector",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-8-06",
+      "pregunta": "Calcule el área del sector de radio $5$ y ángulo central $144^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.8",
+        "nombre": "Sector circular"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opción 4}$",
+        "B": "$10\\pi$",
+        "C": "$720\\pi$",
+        "D": "$25\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular área de sector",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-8-07",
+      "pregunta": "Calcule el área del sector de radio $8$ y ángulo central $225^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.8",
+        "nombre": "Sector circular"
+      },
+      "respuestas_posibles": {
+        "A": "$40\\pi$",
+        "B": "$1800\\pi$",
+        "C": "$64\\pi$",
+        "D": "$16\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular área de sector",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-8-08",
+      "pregunta": "Calcule el área del sector de radio $7$ y ángulo central $180^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.8",
+        "nombre": "Sector circular"
+      },
+      "respuestas_posibles": {
+        "A": "$1260\\pi$",
+        "B": "$49\\pi$",
+        "C": "$14\\pi$",
+        "D": "$\\frac{49\\pi}{2}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular área de sector",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-8-09",
+      "pregunta": "Calcule el área del sector de radio $15$ y ángulo central $72^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.8",
+        "nombre": "Sector circular"
+      },
+      "respuestas_posibles": {
+        "A": "$225\\pi$",
+        "B": "$30\\pi$",
+        "C": "$45\\pi$",
+        "D": "$1080\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular área de sector",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-8-10",
+      "pregunta": "Calcule el área del sector de radio $3$ y ángulo central $240^\\circ$.",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.8",
+        "nombre": "Sector circular"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opción 4}$",
+        "B": "$6\\pi$",
+        "C": "$720\\pi$",
+        "D": "$9\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular área de sector",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-9-01",
+      "pregunta": "El radio trazado al punto de tangencia es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.9",
+        "nombre": "Rectas tangentes"
+      },
+      "respuestas_posibles": {
+        "A": "Perpendicular a la tangente",
+        "B": "Paralelo a la tangente",
+        "C": "Igual a la tangente",
+        "D": "Una secante"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-9-02",
+      "pregunta": "Desde un punto exterior, los dos segmentos tangentes a una circunferencia tienen longitudes:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.9",
+        "nombre": "Rectas tangentes"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre diferentes",
+        "B": "Proporcionales al radio $2:1$",
+        "C": "Nulas",
+        "D": "Iguales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-9-03",
+      "pregunta": "Si desde $P$ se trazan tangentes $PA$ y $PB$ y $PA=12$, entonces $PB=$",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.9",
+        "nombre": "Rectas tangentes"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "No se puede determinar",
+        "C": "$12$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-9-04",
+      "pregunta": "Una tangente y una circunferencia tienen en común:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.9",
+        "nombre": "Rectas tangentes"
+      },
+      "respuestas_posibles": {
+        "A": "Todos los puntos",
+        "B": "Un solo punto",
+        "C": "Dos puntos",
+        "D": "Ningún punto"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-9-05",
+      "pregunta": "El ángulo entre un radio y la tangente en el punto de tangencia mide:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.9",
+        "nombre": "Rectas tangentes"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$60^\\circ$",
+        "D": "$180^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-9-06",
+      "pregunta": "Si una recta corta la circunferencia en dos puntos, no es tangente sino:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.9",
+        "nombre": "Rectas tangentes"
+      },
+      "respuestas_posibles": {
+        "A": "Radio",
+        "B": "Arco",
+        "C": "Diámetro como segmento",
+        "D": "Secante"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-9-07",
+      "pregunta": "Una tangente está a una distancia del centro igual a:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.9",
+        "nombre": "Rectas tangentes"
+      },
+      "respuestas_posibles": {
+        "A": "Cero",
+        "B": "El doble del diámetro",
+        "C": "El radio",
+        "D": "El diámetro"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-9-08",
+      "pregunta": "Si la distancia del centro a una recta es mayor que el radio, la recta:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.9",
+        "nombre": "Rectas tangentes"
+      },
+      "respuestas_posibles": {
+        "A": "Es diámetro",
+        "B": "No corta la circunferencia",
+        "C": "Es tangente",
+        "D": "Es secante"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-9-09",
+      "pregunta": "Si la distancia del centro a una recta es menor que el radio, la recta es:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.9",
+        "nombre": "Rectas tangentes"
+      },
+      "respuestas_posibles": {
+        "A": "Secante",
+        "B": "Tangente",
+        "C": "Exterior sin intersección",
+        "D": "Radio"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-22-9-10",
+      "pregunta": "Dos tangentes desde un punto exterior y los dos radios a los puntos de tangencia forman:",
+      "tema": {
+        "codigo": "22",
+        "nombre": "Circunferencia y círculo",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "22.9",
+        "nombre": "Rectas tangentes"
+      },
+      "respuestas_posibles": {
+        "A": "Un triángulo equilátero",
+        "B": "Dos círculos",
+        "C": "Un pentágono regular",
+        "D": "Dos triángulos rectángulos congruentes"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades de circunferencia y círculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

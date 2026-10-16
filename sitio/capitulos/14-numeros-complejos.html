@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>14. Números complejos · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte II: Álgebra</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#unidad-imaginaria"><span class="num">14.1</span> Unidad imaginaria</a></li><li class="nivel-2"><a href="#potencias-de-la-unidad-imaginaria"><span class="num">14.2</span> Potencias de la unidad imaginaria</a></li><li class="nivel-2"><a href="#numeros-imaginarios-puros"><span class="num">14.3</span> Números imaginarios puros</a></li><li class="nivel-2"><a href="#forma-algebraica-de-un-numero-complejo"><span class="num">14.4</span> Forma algebraica de un número complejo</a></li><li class="nivel-2"><a href="#representacion-en-el-plano-complejo"><span class="num">14.5</span> Representación en el plano complejo</a></li><li class="nivel-2"><a href="#igualdad-de-numeros-complejos"><span class="num">14.6</span> Igualdad de números complejos</a></li><li class="nivel-2"><a href="#suma-y-resta-de-numeros-complejos"><span class="num">14.7</span> Suma y resta de números complejos</a></li><li class="nivel-2"><a href="#multiplicacion-de-numeros-complejos"><span class="num">14.8</span> Multiplicación de números complejos</a></li><li class="nivel-2"><a href="#conjugado-de-un-numero-complejo"><span class="num">14.9</span> Conjugado de un número complejo</a></li><li class="nivel-2"><a href="#division-de-numeros-complejos"><span class="num">14.10</span> División de números complejos</a></li><li class="nivel-2"><a href="#ecuaciones-cuadraticas-con-soluciones-complejas"><span class="num">14.11</span> Ecuaciones cuadráticas con soluciones complejas</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">14.12</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 14</p><h1>Números complejos</h1></header>
+<p><span id="cap-numeros-complejos" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Algunas ecuaciones, como</p>
+<div class="mate"><span class="mate-bloque">\[x^2+1=0,\]</span></div>
+<p>no tienen solución en el conjunto de los números reales. Para resolverlas se introduce la unidad imaginaria \(i\) y se amplía el sistema numérico al conjunto de los números complejos, denotado por \(\C\). En este capítulo estudiarás la forma algebraica de un número complejo, sus principales operaciones, su representación en el plano y el uso del conjugado para efectuar divisiones.</p>
+<h2 id="unidad-imaginaria"><span class="num">14.1</span> Unidad imaginaria<a class="enlace-seccion" href="#unidad-imaginaria" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>unidad imaginaria</strong>, denotada por \(i\), es el número que satisface:</p>
+<div class="mate"><span class="mate-bloque">\[i^2=-1.\]</span></div>
+<p>De manera convencional, puede escribirse:</p>
+<div class="mate"><span class="mate-bloque">\[i=\sqrt{-1}.\]</span></div>
+<p>Gracias a esta definición, si \(a\) es un número real no negativo, entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{-a} = i\sqrt{a}.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En los números reales no existe ningún número cuyo cuadrado sea \(-1\), pues el cuadrado de todo número real es mayor o igual que cero. La introducción de \(i\) permite resolver ecuaciones que no tienen soluciones reales.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+1=0\]</span></div>
+<p>equivale a:</p>
+<div class="mate"><span class="mate-bloque">\[x^2=-1.\]</span></div>
+<p>Por tanto, sus soluciones complejas son:</p>
+<div class="mate"><span class="mate-bloque">\[x=\pm i.\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Las propiedades de los radicales utilizadas en los números reales no deben aplicarse sin cuidado a cantidades negativas.</p>
+<p>Por ejemplo, el razonamiento:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{(-1)(-1)} = \sqrt{-1}\sqrt{-1} = i^2 = -1\]</span></div>
+<p>es incorrecto, porque el lado izquierdo es:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{1}=1.\]</span></div>
+<p>La propiedad</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{ab} = \sqrt{a}\sqrt{b}\]</span></div>
+<p>se aplica directamente en los números reales cuando los radicandos son no negativos.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-1"><div class="caja-titulo">Ejemplo 14.1</div><div class="caja-cuerpo"><p>Expresa las siguientes raíces mediante la unidad imaginaria:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{-81}, \qquad \sqrt{-4}, \qquad \sqrt{-27}, \qquad \sqrt{-\frac{64}{9}}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos cada radicando negativo como el producto de \(-1\) por una cantidad positiva:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sqrt{-81} &amp;=i\sqrt{81} =9i,\\ \sqrt{-4} &amp;=i\sqrt{4} =2i,\\ \sqrt{-27} &amp;=i\sqrt{27} =i\sqrt{9\cdot 3} =3\sqrt{3}\,i,\\ \sqrt{-\frac{64}{9}} &amp;=i\sqrt{\frac{64}{9}} =\frac{8}{3}i. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="potencias-de-la-unidad-imaginaria"><span class="num">14.2</span> Potencias de la unidad imaginaria<a class="enlace-seccion" href="#potencias-de-la-unidad-imaginaria" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Potencias de la unidad imaginaria</div><div class="caja-cuerpo"><p>Las potencias de \(i\) siguen un ciclo de periodo \(4\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} i^0&amp;=1,\\ i^1&amp;=i,\\ i^2&amp;=-1,\\ i^3&amp;=-i,\\ i^4&amp;=1. \end{aligned}\]</span></div>
+<p>A partir de \(i^4\), los resultados se repiten:</p>
+<div class="mate"><span class="mate-bloque">\[i^{n+4}=i^n.\]</span></div>
+<p>Para calcular \(i^n\), se divide el exponente entre \(4\) y se utiliza el residuo:</p>
+<ul><li>residuo \(0\): <span class="mate-bloque">\[i^n=1;\]</span></li><li>residuo \(1\): <span class="mate-bloque">\[i^n=i;\]</span></li><li>residuo \(2\): <span class="mate-bloque">\[i^n=-1;\]</span></li><li>residuo \(3\): <span class="mate-bloque">\[i^n=-i.\]</span></li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-2"><div class="caja-titulo">Ejemplo 14.2</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[i^{27}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Dividimos \(27\) entre \(4\):</p>
+<div class="mate"><span class="mate-bloque">\[27=4(6)+3.\]</span></div>
+<p>El residuo es \(3\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[i^{27} = i^3 = -i.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-3"><div class="caja-titulo">Ejemplo 14.3</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[i^{100}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[100=4(25),\]</span></div>
+<p>el residuo de dividir \(100\) entre \(4\) es \(0\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[i^{100} = 1.\]</span></div></div></details></div></section>
+<h2 id="numeros-imaginarios-puros"><span class="num">14.3</span> Números imaginarios puros<a class="enlace-seccion" href="#numeros-imaginarios-puros" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un número de la forma</p>
+<div class="mate"><span class="mate-bloque">\[bi, \qquad b\in\R,\]</span></div>
+<p>se denomina <strong>número imaginario puro</strong>. Para operar con varios números imaginarios puros, sus coeficientes se combinan como términos semejantes.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Suma y resta de imaginarios puros</div><div class="caja-cuerpo"><p>Si \(a\), \(b\) y \(c\) son números reales, entonces:</p>
+<div class="mate"><span class="mate-bloque">\[ai+bi-ci = (a+b-c)i.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-4"><div class="caja-titulo">Ejemplo 14.4</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[4i-7i+6i.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sumamos y restamos los coeficientes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 4i-7i+6i &amp;=(4-7+6)i\\ &amp;=3i. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-5"><div class="caja-titulo">Ejemplo 14.5</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[5i+\frac{1}{2}i-i.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} 5i+\frac{1}{2}i-i &amp;= \left( 5+\frac{1}{2}-1 \right)i\\ &amp;= \frac{9}{2}i. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-6"><div class="caja-titulo">Ejemplo 14.6</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{-20}-4\sqrt{5}\,i-\sqrt{-45}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Expresamos las raíces negativas mediante \(i\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sqrt{-20} &amp;=i\sqrt{20} =2\sqrt{5}\,i,\\ \sqrt{-45} &amp;=i\sqrt{45} =3\sqrt{5}\,i. \end{aligned}\]</span></div>
+<p>Sustituimos y reducimos los términos semejantes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sqrt{-20}-4\sqrt{5}\,i-\sqrt{-45} &amp;= 2\sqrt{5}\,i -4\sqrt{5}\,i -3\sqrt{5}\,i\\ &amp;= (2-4-3)\sqrt{5}\,i\\ &amp;= -5\sqrt{5}\,i. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="forma-algebraica-de-un-numero-complejo"><span class="num">14.4</span> Forma algebraica de un número complejo<a class="enlace-seccion" href="#forma-algebraica-de-un-numero-complejo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>número complejo</strong> es una expresión de la forma:</p>
+<div class="mate"><span class="mate-bloque">\[z=a+bi,\]</span></div>
+<p>donde \(a,b\in\R\) e \(i^2=-1\).</p>
+<p>El número \(a\) se denomina <strong>parte real</strong> de \(z\) y el número \(b\) se denomina <strong>parte imaginaria</strong> de \(z\). Se escriben:</p>
+<div class="mate"><span class="mate-bloque">\[\operatorname{Re}(z)=a, \qquad \operatorname{Im}(z)=b.\]</span></div>
+<p>La parte imaginaria es el coeficiente \(b\), no el término completo \(bi\).</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un número complejo puede escribirse mediante:</p>
+<ul><li>su <strong>forma algebraica</strong>: <span class="mate-bloque">\[z=a+bi;\]</span></li><li>su representación como <strong>par ordenado</strong>: <span class="mate-bloque">\[z=(a,b).\]</span></li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-7"><div class="caja-titulo">Ejemplo 14.7</div><div class="caja-cuerpo"><p>Expresa los siguientes números complejos como pares ordenados:</p>
+<div class="mate"><span class="mate-bloque">\[6-8i, \qquad 4+5i, \qquad -3, \qquad 7i.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><ul><li>Para \(z=6-8i\): <span class="mate-bloque">\[\operatorname{Re}(z)=6, \qquad \operatorname{Im}(z)=-8.\]</span> Por tanto: <span class="mate-bloque">\[z=(6,-8).\]</span></li><li>Para \(z=4+5i\): <span class="mate-bloque">\[z=(4,5).\]</span></li><li>El número real \(-3\) puede escribirse como: <span class="mate-bloque">\[-3=-3+0i.\]</span> Por tanto: <span class="mate-bloque">\[z=(-3,0).\]</span></li><li>El número imaginario puro \(7i\) puede escribirse como: <span class="mate-bloque">\[7i=0+7i.\]</span> Por tanto: <span class="mate-bloque">\[z=(0,7).\]</span></li></ul></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Todo número real es también un número complejo cuya parte imaginaria es cero:</p>
+<div class="mate"><span class="mate-bloque">\[a=a+0i.\]</span></div>
+<p>Por esta razón:</p>
+<div class="mate"><span class="mate-bloque">\[\R\subset\C.\]</span></div>
+<p>Un número complejo es imaginario puro cuando su parte real es cero y su parte imaginaria es distinta de cero.</p></div></section>
+<h2 id="representacion-en-el-plano-complejo"><span class="num">14.5</span> Representación en el plano complejo<a class="enlace-seccion" href="#representacion-en-el-plano-complejo" aria-label="Enlace a esta sección">#</a></h2>
+<p>Un número complejo</p>
+<div class="mate"><span class="mate-bloque">\[z=a+bi\]</span></div>
+<p>puede representarse mediante el punto \((a,b)\) en el plano complejo. El eje horizontal representa la parte real y el eje vertical representa la parte imaginaria.</p>
+<section class="caja caja-ejemplo" id="ejemplo-14-8"><div class="caja-titulo">Ejemplo 14.8</div><div class="caja-cuerpo"><p>Representa el número complejo:</p>
+<div class="mate"><span class="mate-bloque">\[z=3+2i.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La parte real es \(3\) y la parte imaginaria es \(2\). Por tanto, el número corresponde al punto \((3,2)\).</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-9f9f4d301c41.svg" alt="Figura 14.1" loading="lazy" decoding="async"></figure></div></div></details></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>módulo</strong> de un número complejo</p>
+<div class="mate"><span class="mate-bloque">\[z=a+bi\]</span></div>
+<p>es su distancia al origen en el plano complejo. Se define mediante:</p>
+<div class="mate"><span class="mate-bloque">\[|z| = \sqrt{a^2+b^2}.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-9"><div class="caja-titulo">Ejemplo 14.9</div><div class="caja-cuerpo"><p>Calcula el módulo de:</p>
+<div class="mate"><span class="mate-bloque">\[z=5-12i.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La parte real es \(5\) y la parte imaginaria es \(-12\). Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} |z| &amp;=\sqrt{5^2+(-12)^2}\\ &amp;=\sqrt{25+144}\\ &amp;=\sqrt{169}\\ &amp;=13. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="igualdad-de-numeros-complejos"><span class="num">14.6</span> Igualdad de números complejos<a class="enlace-seccion" href="#igualdad-de-numeros-complejos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Igualdad de números complejos</div><div class="caja-cuerpo"><p>Dos números complejos son iguales si y solo si sus partes reales son iguales y sus partes imaginarias son iguales.</p>
+<p>Es decir:</p>
+<div class="mate"><span class="mate-bloque">\[a+bi=c+di\]</span></div>
+<p>si y solo si:</p>
+<div class="mate"><span class="mate-bloque">\[a=c \qquad\text{y}\qquad b=d.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-10"><div class="caja-titulo">Ejemplo 14.10</div><div class="caja-cuerpo"><p>Determina los valores de \(x\) y \(y\) si:</p>
+<div class="mate"><span class="mate-bloque">\[(2x-1)+(y+3)i = 5+7i.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Igualamos las partes reales:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2x-1 &amp;=5,\\ 2x &amp;=6,\\ x &amp;=3. \end{aligned}\]</span></div>
+<p>Igualamos las partes imaginarias:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} y+3 &amp;=7,\\ y &amp;=4. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x=3, \qquad y=4.\]</span></div></div></details></div></section>
+<h2 id="suma-y-resta-de-numeros-complejos"><span class="num">14.7</span> Suma y resta de números complejos<a class="enlace-seccion" href="#suma-y-resta-de-numeros-complejos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Suma y resta</div><div class="caja-cuerpo"><p>Para sumar dos números complejos, se suman por separado sus partes reales y sus partes imaginarias:</p>
+<div class="mate"><span class="mate-bloque">\[(a+bi)+(c+di) = (a+c)+(b+d)i.\]</span></div>
+<p>Para restarlos:</p>
+<div class="mate"><span class="mate-bloque">\[(a+bi)-(c+di) = (a-c)+(b-d)i.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-11"><div class="caja-titulo">Ejemplo 14.11</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[z=4+2i \qquad\text{y}\qquad w=-5+3i.\]</span></div>
+<p>Calcula \(z+w\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} z+w &amp;=(4+2i)+(-5+3i)\\ &amp;=[4+(-5)]+(2+3)i\\ &amp;=-1+5i. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-12"><div class="caja-titulo">Ejemplo 14.12</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[z=-1+4i \qquad\text{y}\qquad w=7-6i.\]</span></div>
+<p>Calcula \(z-w\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} z-w &amp;=(-1+4i)-(7-6i)\\ &amp;=(-1-7)+[4-(-6)]i\\ &amp;=-8+10i. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="multiplicacion-de-numeros-complejos"><span class="num">14.8</span> Multiplicación de números complejos<a class="enlace-seccion" href="#multiplicacion-de-numeros-complejos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Multiplicación</div><div class="caja-cuerpo"><p>Para multiplicar dos números complejos, se aplica la propiedad distributiva y se utiliza la igualdad \(i^2=-1\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (a+bi)(c+di) &amp;=ac+adi+bci+bdi^2\\ &amp;=(ac-bd)+(ad+bc)i. \end{aligned}\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-13"><div class="caja-titulo">Ejemplo 14.13</div><div class="caja-cuerpo"><p>Multiplica:</p>
+<div class="mate"><span class="mate-bloque">\[(2+3i)(-1+4i).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la propiedad distributiva:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (2+3i)(-1+4i) &amp;=2(-1)+2(4i)+3i(-1)+3i(4i)\\ &amp;=-2+8i-3i+12i^2. \end{aligned}\]</span></div>
+<p>Como \(i^2=-1\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} -2+8i-3i+12i^2 &amp;=-2+5i-12\\ &amp;=-14+5i. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-14"><div class="caja-titulo">Ejemplo 14.14</div><div class="caja-cuerpo"><p>Multiplica:</p>
+<div class="mate"><span class="mate-bloque">\[(5-i)(4+2i).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} (5-i)(4+2i) &amp;=20+10i-4i-2i^2\\ &amp;=20+6i+2\\ &amp;=22+6i. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="conjugado-de-un-numero-complejo"><span class="num">14.9</span> Conjugado de un número complejo<a class="enlace-seccion" href="#conjugado-de-un-numero-complejo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>conjugado</strong> del número complejo</p>
+<div class="mate"><span class="mate-bloque">\[z=a+bi\]</span></div>
+<p>se denota por \(\overline{z}\) y se define como:</p>
+<div class="mate"><span class="mate-bloque">\[\overline{z} = a-bi.\]</span></div>
+<p>El conjugado conserva la parte real y cambia el signo de la parte imaginaria.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades del conjugado</div><div class="caja-cuerpo"><p>Si \(z=a+bi\), entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} z+\overline{z} &amp;=2a,\\ z-\overline{z} &amp;=2bi,\\ z\overline{z} &amp;=a^2+b^2,\\ z\overline{z} &amp;=|z|^2. \end{aligned}\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-15"><div class="caja-titulo">Ejemplo 14.15</div><div class="caja-cuerpo"><p>Escribe el conjugado de cada número complejo:</p>
+<div class="mate"><span class="mate-bloque">\[4-3i, \qquad -2+5i, \qquad 6, \qquad -7i.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} \overline{4-3i} &amp;=4+3i,\\ \overline{-2+5i} &amp;=-2-5i,\\ \overline{6} &amp;=6,\\ \overline{-7i} &amp;=7i. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="division-de-numeros-complejos"><span class="num">14.10</span> División de números complejos<a class="enlace-seccion" href="#division-de-numeros-complejos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> División</div><div class="caja-cuerpo"><p>Para dividir dos números complejos, se multiplica el numerador y el denominador por el conjugado del denominador.</p>
+<p>Si \(c+di\neq 0\), entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a+bi}{c+di} = \frac{(a+bi)(c-di)} {(c+di)(c-di)}.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[(c+di)(c-di) = c^2+d^2,\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a+bi}{c+di} = \frac{(ac+bd)+(bc-ad)i}{c^2+d^2}.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-14-16"><div class="caja-titulo">Ejemplo 14.16</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2-4i}{-4+3i}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El conjugado del denominador es \(-4-3i\). Multiplicamos el numerador y el denominador por este número:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2-4i}{-4+3i} \cdot \frac{-4-3i}{-4-3i}.\]</span></div>
+<p>Calculamos el numerador:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (2-4i)(-4-3i) &amp;=-8-6i+16i+12i^2\\ &amp;=-8+10i-12\\ &amp;=-20+10i. \end{aligned}\]</span></div>
+<p>Calculamos el denominador:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (-4+3i)(-4-3i) &amp;=(-4)^2+3^2\\ &amp;=16+9\\ &amp;=25. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{2-4i}{-4+3i} &amp;= \frac{-20+10i}{25}\\ &amp;= -\frac{4}{5} +\frac{2}{5}i. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La división entre números complejos solo está definida cuando el denominador es distinto de cero.</p>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[c+di\neq 0,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[c^2+d^2&gt;0.\]</span></div>
+<p>Por ello, el producto del denominador por su conjugado es un número real positivo y permite eliminar la unidad imaginaria del denominador.</p></div></section>
+<h2 id="ecuaciones-cuadraticas-con-soluciones-complejas"><span class="num">14.11</span> Ecuaciones cuadráticas con soluciones complejas<a class="enlace-seccion" href="#ecuaciones-cuadraticas-con-soluciones-complejas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-14-17"><div class="caja-titulo">Ejemplo 14.17</div><div class="caja-cuerpo"><p>Resuelve en \(\C\):</p>
+<div class="mate"><span class="mate-bloque">\[x^2+4x+13=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[a=1, \qquad b=4, \qquad c=13.\]</span></div>
+<p>Calculamos el discriminante:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \Delta &amp;=b^2-4ac\\ &amp;=4^2-4(1)(13)\\ &amp;=16-52\\ &amp;=-36. \end{aligned}\]</span></div>
+<p>Aplicamos la fórmula general:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x &amp;= \frac{-4\pm\sqrt{-36}}{2}\\ &amp;= \frac{-4\pm 6i}{2}\\ &amp;= -2\pm 3i. \end{aligned}\]</span></div>
+<p>Las soluciones son:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=-2+3i, \qquad x_2=-2-3i.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Cuando una ecuación cuadrática tiene coeficientes reales y discriminante negativo, sus soluciones complejas aparecen en pares conjugados:</p>
+<div class="mate"><span class="mate-bloque">\[a+bi \qquad\text{y}\qquad a-bi.\]</span></div></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">14.12</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-14-1"><div class="caja-titulo">Ejercicio 14.1</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{-49}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\sqrt{-49} = \sqrt{49} \cdot \sqrt{-1} = 7i.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-14-2"><div class="caja-titulo">Ejercicio 14.2</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[i^{35}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(35 = 4(8) + 3\), entonces \(i^{35} = i^3 = -i\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-14-3"><div class="caja-titulo">Ejercicio 14.3</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[3i-8i+5i.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(3 - 8 + 5)i = 0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-14-4"><div class="caja-titulo">Ejercicio 14.4</div><div class="caja-cuerpo"><p>Si</p>
+<div class="mate"><span class="mate-bloque">\[z=6+3i \qquad\text{y}\qquad w=-3-7i,\]</span></div>
+<p>calcula \(z+w\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(6 - 3) + (3 - 7)i = 3 - 4i.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-14-5"><div class="caja-titulo">Ejercicio 14.5</div><div class="caja-cuerpo"><p>Si</p>
+<div class="mate"><span class="mate-bloque">\[z=-1-2i \qquad\text{y}\qquad w=8-i,\]</span></div>
+<p>calcula \(z+w\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(-1 + 8) + (-2 - 1)i = 7 - 3i.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-14-6"><div class="caja-titulo">Ejercicio 14.6</div><div class="caja-cuerpo"><p>Multiplica:</p>
+<div class="mate"><span class="mate-bloque">\[(5-2i)(2+i).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} (5 - 2i)(2 + i) &amp;= 10 + 5i - 4i - 2i^2 \\ &amp;= 10 + i + 2 = 12 + i. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-14-7"><div class="caja-titulo">Ejercicio 14.7</div><div class="caja-cuerpo"><p>Calcula el módulo de:</p>
+<div class="mate"><span class="mate-bloque">\[z=6+8i.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[|6 + 8i| = \sqrt{36 + 64} = \sqrt{100} = 10.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-14-8"><div class="caja-titulo">Ejercicio 14.8</div><div class="caja-cuerpo"><p>Si</p>
+<div class="mate"><span class="mate-bloque">\[z=6-i \qquad\text{y}\qquad w=2-i,\]</span></div>
+<p>calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{z}{w}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos por el conjugado del denominador, \(2 + i\): <span class="mate-bloque">\[\frac{(6 - i)(2 + i)}{(2 - i)(2 + i)}.\]</span> Numerador: \(12 + 6i - 2i - i^2 = 12 + 4i + 1 = 13 + 4i\). Denominador: \(4 + 1 = 5\). <span class="mate-bloque">\[\frac{13 + 4i}{5} = \frac{13}{5} + \frac{4}{5} i.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-14-9"><div class="caja-titulo">Ejercicio 14.9</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[(-6+i)+(i^2-2i).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Recordamos \(i^2 = -1\): <span class="mate-bloque">\[(-6 + i) + (-1 - 2i) = -7 - i.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-14-10"><div class="caja-titulo">Ejercicio 14.10</div><div class="caja-cuerpo"><p>Simplifica el cociente:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1-i}{1+i}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos por el conjugado del denominador, \(1 - i\): <span class="mate-bloque">\[\frac{(1 - i)(1 - i)}{(1 + i)(1 - i)} = \frac{(1 - i)^2}{1^2 + 1^2}.\]</span> Numerador: \(1 - 2i + i^2 = 1 - 2i - 1 = -2i\). Denominador: \(2\). <span class="mate-bloque">\[\frac{-2i}{2} = -i.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="13-sistemas-ecuaciones.html"><span>← Anterior</span>13. Sistemas de ecuaciones</a><a class="nav-siguiente" href="15-concepto-funcion.html"><span>Siguiente →</span>15. Concepto de función</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

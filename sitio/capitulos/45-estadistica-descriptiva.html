@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>45. Estadística descriptiva · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte IX: Probabilidad y estadística</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#poblacion-y-muestra"><span class="num">45.1</span> Población y muestra</a></li><li class="nivel-2"><a href="#parametro-y-estadistico"><span class="num">45.2</span> Parámetro y estadístico</a></li><li class="nivel-2"><a href="#variables-estadisticas"><span class="num">45.3</span> Variables estadísticas</a></li><li class="nivel-3"><a href="#variables-cualitativas"><span class="num">45.3.1</span> Variables cualitativas</a></li><li class="nivel-3"><a href="#variables-cuantitativas-discretas"><span class="num">45.3.2</span> Variables cuantitativas discretas</a></li><li class="nivel-3"><a href="#variables-cuantitativas-continuas"><span class="num">45.3.3</span> Variables cuantitativas continuas</a></li><li class="nivel-2"><a href="#tablas-de-frecuencias"><span class="num">45.4</span> Tablas de frecuencias</a></li><li class="nivel-3"><a href="#frecuencia-absoluta"><span class="num">45.4.1</span> Frecuencia absoluta</a></li><li class="nivel-3"><a href="#frecuencia-relativa"><span class="num">45.4.2</span> Frecuencia relativa</a></li><li class="nivel-3"><a href="#porcentaje"><span class="num">45.4.3</span> Porcentaje</a></li><li class="nivel-3"><a href="#frecuencia-acumulada"><span class="num">45.4.4</span> Frecuencia acumulada</a></li><li class="nivel-2"><a href="#tabla-para-datos-no-agrupados"><span class="num">45.5</span> Tabla para datos no agrupados</a></li><li class="nivel-2"><a href="#datos-agrupados-en-intervalos"><span class="num">45.6</span> Datos agrupados en intervalos</a></li><li class="nivel-2"><a href="#representaciones-graficas"><span class="num">45.7</span> Representaciones gráficas</a></li><li class="nivel-3"><a href="#grafica-de-barras"><span class="num">45.7.1</span> Gráfica de barras</a></li><li class="nivel-3"><a href="#grafica-circular"><span class="num">45.7.2</span> Gráfica circular</a></li><li class="nivel-3"><a href="#histograma"><span class="num">45.7.3</span> Histograma</a></li><li class="nivel-3"><a href="#poligono-de-frecuencias"><span class="num">45.7.4</span> Polígono de frecuencias</a></li><li class="nivel-3"><a href="#ojiva"><span class="num">45.7.5</span> Ojiva</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">45.8</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#para-construir-una-tabla-de-frecuencias">Para construir una tabla de frecuencias</a></li><li class="nivel-3"><a href="#para-agrupar-datos-continuos">Para agrupar datos continuos</a></li><li class="nivel-3"><a href="#para-elegir-una-grafica">Para elegir una gráfica</a></li><li class="nivel-2"><a href="#resumen"><span class="num">45.9</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">45.10</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">45.11</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 45</p><h1>Estadística descriptiva</h1></header>
+<p><span id="cap-estadistica-descriptiva" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>La estadística descriptiva permite organizar, resumir y representar datos.</p>
+<p>En este capítulo aprenderás a identificar poblaciones y muestras, clasificar variables, construir tablas de frecuencias y elegir la gráfica más adecuada.</p>
+<h2 id="poblacion-y-muestra"><span class="num">45.1</span> Población y muestra<a class="enlace-seccion" href="#poblacion-y-muestra" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>población</strong> es el conjunto completo de individuos u objetos que se desean estudiar.</p>
+<p>Una <strong>muestra</strong> es un subconjunto de la población.</p>
+<p>Cada elemento de la población se denomina <strong>individuo</strong> o <strong>unidad estadística</strong>.</p></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-322e37f4fdef.svg" alt="Figura 45.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-45-1"><div class="caja-titulo">Ejemplo 45.1</div><div class="caja-cuerpo"><p>Una preparatoria tiene \(1200\) estudiantes. Para estimar la estatura promedio, se eligen al azar \(80\) estudiantes.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><ul><li>Población: <span class="mate-bloque">\[1200\text{ estudiantes}.\]</span></li><li>Muestra: <span class="mate-bloque">\[80\text{ estudiantes}.\]</span></li><li>Individuo: <span class="mate-bloque">\[\text{cada estudiante}.\]</span></li><li>Variable: <span class="mate-bloque">\[\text{estatura}.\]</span></li></ul></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Una muestra debe ser suficientemente grande y representativa.</p>
+<p>Si ciertos grupos tienen mayor o menor probabilidad de ser elegidos, puede aparecer un <strong>sesgo de selección</strong>.</p></div></section>
+<h2 id="parametro-y-estadistico"><span class="num">45.2</span> Parámetro y estadístico<a class="enlace-seccion" href="#parametro-y-estadistico" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>parámetro</strong> es una medida numérica que describe una población.</p>
+<p>Un <strong>estadístico</strong> es una medida numérica calculada a partir de una muestra.</p></div></section>
+<p>Por ejemplo:</p>
+<ul><li>la estatura promedio de los \(1200\) estudiantes es un parámetro;</li><li>la estatura promedio de los \(80\) estudiantes seleccionados es un estadístico.</li></ul>
+<p>El estadístico se utiliza para estimar el parámetro.</p>
+<h2 id="variables-estadisticas"><span class="num">45.3</span> Variables estadísticas<a class="enlace-seccion" href="#variables-estadisticas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>variable estadística</strong> es una característica observada o medida en cada individuo.</p>
+<p>Las variables pueden ser cualitativas o cuantitativas.</p></div></section>
+<h3 id="variables-cualitativas"><span class="num">45.3.1</span> Variables cualitativas<a class="enlace-seccion" href="#variables-cualitativas" aria-label="Enlace a esta sección">#</a></h3>
+<p>Describen cualidades, categorías o atributos.</p>
+<p>Ejemplos:</p>
+<ul><li>color favorito;</li><li>tipo de sangre;</li><li>estado civil;</li><li>medio de transporte.</li></ul>
+<h3 id="variables-cuantitativas-discretas"><span class="num">45.3.2</span> Variables cuantitativas discretas<a class="enlace-seccion" href="#variables-cuantitativas-discretas" aria-label="Enlace a esta sección">#</a></h3>
+<p>Se obtienen generalmente mediante un conteo y toman valores separados.</p>
+<p>Ejemplos:</p>
+<ul><li>número de hermanos;</li><li>cantidad de libros;</li><li>número de llamadas;</li><li>materias aprobadas.</li></ul>
+<h3 id="variables-cuantitativas-continuas"><span class="num">45.3.3</span> Variables cuantitativas continuas<a class="enlace-seccion" href="#variables-cuantitativas-continuas" aria-label="Enlace a esta sección">#</a></h3>
+<p>Se obtienen mediante una medición y pueden tomar cualquier valor dentro de un intervalo.</p>
+<p>Ejemplos:</p>
+<ul><li>estatura;</li><li>peso;</li><li>temperatura;</li><li>tiempo;</li><li>distancia.</li></ul>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-5eeb2f6b80ab.svg" alt="Figura 45.2" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-45-2"><div class="caja-titulo">Ejemplo 45.2</div><div class="caja-cuerpo"><p>Clasifica las siguientes variables:</p>
+<ol><li>Color de ojos.</li><li>Número de materias aprobadas.</li><li>Peso de un recién nacido.</li><li>Tipo de sangre.</li></ol><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><ol><li>Cualitativa.</li><li>Cuantitativa discreta.</li><li>Cuantitativa continua.</li><li>Cualitativa.</li></ol></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Que una variable se represente con números no significa necesariamente que sea cuantitativa.</p>
+<p>Por ejemplo, un número telefónico o un código postal funciona como identificador, no como cantidad.</p></div></section>
+<h2 id="tablas-de-frecuencias"><span class="num">45.4</span> Tablas de frecuencias<a class="enlace-seccion" href="#tablas-de-frecuencias" aria-label="Enlace a esta sección">#</a></h2>
+<p>Sea:</p>
+<div class="mate"><span class="mate-bloque">\[n\]</span></div>
+<p>el número total de datos.</p>
+<p>Para cada valor o categoría \(x_i\) se definen las siguientes frecuencias.</p>
+<h3 id="frecuencia-absoluta"><span class="num">45.4.1</span> Frecuencia absoluta<a class="enlace-seccion" href="#frecuencia-absoluta" aria-label="Enlace a esta sección">#</a></h3>
+<p>La frecuencia absoluta:</p>
+<div class="mate"><span class="mate-bloque">\[f_i\]</span></div>
+<p>es el número de veces que aparece el valor o categoría.</p>
+<h3 id="frecuencia-relativa"><span class="num">45.4.2</span> Frecuencia relativa<a class="enlace-seccion" href="#frecuencia-relativa" aria-label="Enlace a esta sección">#</a></h3>
+<p>La frecuencia relativa es:</p>
+<div class="mate"><span class="mate-bloque">\[fr_i = \frac{f_i}{n}.\]</span></div>
+<h3 id="porcentaje"><span class="num">45.4.3</span> Porcentaje<a class="enlace-seccion" href="#porcentaje" aria-label="Enlace a esta sección">#</a></h3>
+<p>El porcentaje es:</p>
+<div class="mate"><span class="mate-bloque">\[p_i = fr_i(100\%).\]</span></div>
+<p>También puede calcularse directamente:</p>
+<div class="mate"><span class="mate-bloque">\[p_i = \frac{f_i}{n}(100\%).\]</span></div>
+<h3 id="frecuencia-acumulada"><span class="num">45.4.4</span> Frecuencia acumulada<a class="enlace-seccion" href="#frecuencia-acumulada" aria-label="Enlace a esta sección">#</a></h3>
+<p>La frecuencia acumulada es:</p>
+<div class="mate"><span class="mate-bloque">\[F_i = f_1+f_2+\cdots+f_i.\]</span></div>
+<p>Siempre debe cumplirse:</p>
+<div class="mate"><span class="mate-bloque">\[\sum f_i=n,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sum fr_i=1\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\sum p_i=100\%.\]</span></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La frecuencia acumulada tiene interpretación natural cuando los valores o intervalos poseen un orden.</p>
+<p>En variables cualitativas sin orden, puede calcularse, pero generalmente aporta poca información.</p></div></section>
+<h2 id="tabla-para-datos-no-agrupados"><span class="num">45.5</span> Tabla para datos no agrupados<a class="enlace-seccion" href="#tabla-para-datos-no-agrupados" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-45-3"><div class="caja-titulo">Ejemplo 45.3</div><div class="caja-cuerpo"><p>Se preguntó a \(30\) estudiantes por su deporte favorito.</p>
+<p>Los resultados fueron:</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Deporte</strong></th><th style="text-align:right"><strong>\(f_i\)</strong></th><th style="text-align:right"><strong>\(fr_i\)</strong></th><th style="text-align:right"><strong>Porcentaje</strong></th><th style="text-align:right"><strong>\(F_i\)</strong></th></tr></thead><tbody><tr><td style="text-align:left">Fútbol</td><td style="text-align:right">12</td><td style="text-align:right">0.400</td><td style="text-align:right">40.0%</td><td style="text-align:right">12</td></tr><tr><td style="text-align:left">Básquetbol</td><td style="text-align:right">8</td><td style="text-align:right">0.267</td><td style="text-align:right">26.7%</td><td style="text-align:right">20</td></tr><tr><td style="text-align:left">Natación</td><td style="text-align:right">6</td><td style="text-align:right">0.200</td><td style="text-align:right">20.0%</td><td style="text-align:right">26</td></tr><tr><td style="text-align:left">Otro</td><td style="text-align:right">4</td><td style="text-align:right">0.133</td><td style="text-align:right">13.3%</td><td style="text-align:right">30</td></tr><tr><td style="text-align:left"><strong>Total</strong></td><td style="text-align:right"><strong>30</strong></td><td style="text-align:right"><strong>1.000</strong></td><td style="text-align:right"><strong>100%</strong></td><td style="text-align:right"></td></tr></tbody></table></div></div>
+<p>Por ejemplo, para fútbol:</p>
+<div class="mate"><span class="mate-bloque">\[fr_i = \frac{12}{30} = 0.4.\]</span></div>
+<p>El porcentaje es:</p>
+<div class="mate"><span class="mate-bloque">\[0.4(100\%)=40\%.\]</span></div></div></section>
+<h2 id="datos-agrupados-en-intervalos"><span class="num">45.6</span> Datos agrupados en intervalos<a class="enlace-seccion" href="#datos-agrupados-en-intervalos" aria-label="Enlace a esta sección">#</a></h2>
+<p>Cuando una variable continua tiene muchos valores diferentes, puede organizarse en intervalos o clases.</p>
+<p>Los conceptos principales son:</p>
+<ul><li><strong>Límite inferior</strong>: menor valor de una clase.</li><li><strong>Límite superior</strong>: mayor frontera de una clase.</li><li><strong>Amplitud</strong>: diferencia entre los límites de la clase.</li><li><strong>Marca de clase</strong>: punto medio del intervalo.</li></ul>
+<p>La marca de clase se calcula mediante:</p>
+<div class="mate"><span class="mate-bloque">\[x_i = \frac{ \text{límite inferior} + \text{límite superior} }{2}.\]</span></div>
+<p>El rango es:</p>
+<div class="mate"><span class="mate-bloque">\[R = x_{\max}-x_{\min}.\]</span></div>
+<p>La amplitud aproximada puede calcularse con:</p>
+<div class="mate"><span class="mate-bloque">\[A \approx \frac{R}{k},\]</span></div>
+<p>donde \(k\) es el número de clases.</p>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La cantidad de clases puede elegirse según el tamaño y la naturaleza de los datos.</p>
+<p>La regla de Sturges proporciona una orientación:</p>
+<div class="mate"><span class="mate-bloque">\[k \approx 1+3.322\log_{10}(n).\]</span></div>
+<p>No es obligatorio que todas las tablas utilicen esta regla.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-45-4"><div class="caja-titulo">Ejemplo 45.4</div><div class="caja-cuerpo"><p>Las estaturas, en centímetros, de \(20\) estudiantes son:</p>
+<div class="mate"><span class="mate-bloque">\[160,\ 165,\ 170,\ 172,\ 168,\ 175,\ 180,\ 162,\ 166,\ 171,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[173,\ 169,\ 167,\ 164,\ 176,\ 178,\ 174,\ 163,\ 172,\ 170.\]</span></div>
+<p>Una posible tabla agrupada es:</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:center"><strong>Intervalo</strong></th><th style="text-align:right"><strong>Marca</strong></th><th style="text-align:right"><strong>\(f_i\)</strong></th><th style="text-align:right"><strong>\(fr_i\)</strong></th><th style="text-align:right"><strong>\(F_i\)</strong></th></tr></thead><tbody><tr><td style="text-align:center">\([160,164)\)</td><td style="text-align:right">162</td><td style="text-align:right">3</td><td style="text-align:right">0.15</td><td style="text-align:right">3</td></tr><tr><td style="text-align:center">\([164,168)\)</td><td style="text-align:right">166</td><td style="text-align:right">4</td><td style="text-align:right">0.20</td><td style="text-align:right">7</td></tr><tr><td style="text-align:center">\([168,172)\)</td><td style="text-align:right">170</td><td style="text-align:right">5</td><td style="text-align:right">0.25</td><td style="text-align:right">12</td></tr><tr><td style="text-align:center">\([172,176)\)</td><td style="text-align:right">174</td><td style="text-align:right">5</td><td style="text-align:right">0.25</td><td style="text-align:right">17</td></tr><tr><td style="text-align:center">\([176,180]\)</td><td style="text-align:right">178</td><td style="text-align:right">3</td><td style="text-align:right">0.15</td><td style="text-align:right">20</td></tr><tr><td style="text-align:center"><strong>Total</strong></td><td style="text-align:right"></td><td style="text-align:right"><strong>20</strong></td><td style="text-align:right"><strong>1.00</strong></td><td style="text-align:right"></td></tr></tbody></table></div></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En intervalos como:</p>
+<div class="mate"><span class="mate-bloque">\[[160,164),\]</span></div>
+<p>el valor \(160\) sí pertenece al intervalo, pero el valor \(164\) no.</p>
+<p>El valor \(164\) pertenece al siguiente intervalo:</p>
+<div class="mate"><span class="mate-bloque">\[[164,168).\]</span></div>
+<p>Esta convención evita contar un dato dos veces.</p></div></section>
+<h2 id="representaciones-graficas"><span class="num">45.7</span> Representaciones gráficas<a class="enlace-seccion" href="#representaciones-graficas" aria-label="Enlace a esta sección">#</a></h2>
+<p>La gráfica debe elegirse según el tipo de variable.</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Tipo de información</strong></th><th style="text-align:left"><strong>Gráfica recomendada</strong></th></tr></thead><tbody><tr><td style="text-align:left">Categorías</td><td style="text-align:left">Barras o gráfica circular</td></tr><tr><td style="text-align:left">Valores cuantitativos discretos</td><td style="text-align:left">Barras</td></tr><tr><td style="text-align:left">Datos continuos agrupados</td><td style="text-align:left">Histograma</td></tr><tr><td style="text-align:left">Frecuencias cuantitativas ordenadas</td><td style="text-align:left">Polígono de frecuencias</td></tr><tr><td style="text-align:left">Frecuencias acumuladas</td><td style="text-align:left">Ojiva</td></tr></tbody></table></div></div>
+<h3 id="grafica-de-barras"><span class="num">45.7.1</span> Gráfica de barras<a class="enlace-seccion" href="#grafica-de-barras" aria-label="Enlace a esta sección">#</a></h3>
+<p>La gráfica de barras se utiliza con variables cualitativas o cuantitativas discretas.</p>
+<p>Las barras están separadas porque representan categorías o valores individuales.</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-403bb2c21953.svg" alt="Figura 45.3" loading="lazy" decoding="async"></figure></div>
+<h3 id="grafica-circular"><span class="num">45.7.2</span> Gráfica circular<a class="enlace-seccion" href="#grafica-circular" aria-label="Enlace a esta sección">#</a></h3>
+<p>La gráfica circular divide un círculo en sectores proporcionales a las frecuencias relativas.</p>
+<p>El ángulo de cada sector es:</p>
+<div class="mate"><span class="mate-bloque">\[\alpha_i = fr_i(360^\circ).\]</span></div>
+<p>Para fútbol:</p>
+<div class="mate"><span class="mate-bloque">\[\alpha = 0.4(360^\circ) = 144^\circ.\]</span></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-e4663a4a2050.svg" alt="Figura 45.4" loading="lazy" decoding="async"></figure></div>
+<h3 id="histograma"><span class="num">45.7.3</span> Histograma<a class="enlace-seccion" href="#histograma" aria-label="Enlace a esta sección">#</a></h3>
+<p>El histograma representa datos cuantitativos continuos agrupados en intervalos.</p>
+<p>Las barras son contiguas porque los intervalos también lo son.</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-b2af52f6ce1c.svg" alt="Figura 45.5" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>No debe confundirse un histograma con una gráfica de barras.</p>
+<ul><li>En las barras, las columnas están separadas.</li><li>En el histograma, las columnas están unidas.</li></ul></div></section>
+<h3 id="poligono-de-frecuencias"><span class="num">45.7.4</span> Polígono de frecuencias<a class="enlace-seccion" href="#poligono-de-frecuencias" aria-label="Enlace a esta sección">#</a></h3>
+<p>El polígono de frecuencias se construye colocando un punto sobre cada marca de clase a la altura de su frecuencia.</p>
+<p>Después, los puntos se unen mediante segmentos.</p>
+<p>Para la tabla de estaturas, los puntos principales son:</p>
+<div class="mate"><span class="mate-bloque">\[(162,3), \quad (166,4), \quad (170,5), \quad (174,5), \quad (178,3).\]</span></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-c07813344d43.svg" alt="Figura 45.6" loading="lazy" decoding="async"></figure></div>
+<h3 id="ojiva"><span class="num">45.7.5</span> Ojiva<a class="enlace-seccion" href="#ojiva" aria-label="Enlace a esta sección">#</a></h3>
+<p>La ojiva representa las frecuencias acumuladas.</p>
+<p>Los puntos se colocan usando los límites superiores de las clases y las frecuencias acumuladas:</p>
+<div class="mate"><span class="mate-bloque">\[(164,3), \quad (168,7), \quad (172,12), \quad (176,17), \quad (180,20).\]</span></div>
+<p>La ojiva siempre es creciente o permanece constante.</p>
+<h2 id="procedimiento-rapido"><span class="num">45.8</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="para-construir-una-tabla-de-frecuencias">Para construir una tabla de frecuencias<a class="enlace-seccion" href="#para-construir-una-tabla-de-frecuencias" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Ordena los datos o identifica las categorías.</li><li>Cuenta cada valor: <span class="mate-bloque">\[f_i.\]</span></li><li>Calcula: <span class="mate-bloque">\[fr_i=\frac{f_i}{n}.\]</span></li><li>Calcula el porcentaje: <span class="mate-bloque">\[p_i=fr_i(100\%).\]</span></li><li>Suma progresivamente para obtener: <span class="mate-bloque">\[F_i.\]</span></li><li>Verifica los totales.</li></ol>
+<h3 id="para-agrupar-datos-continuos">Para agrupar datos continuos<a class="enlace-seccion" href="#para-agrupar-datos-continuos" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Encuentra el mínimo y el máximo.</li><li>Calcula el rango: <span class="mate-bloque">\[R=x_{\max}-x_{\min}.\]</span></li><li>Elige el número de clases.</li><li>Calcula una amplitud conveniente.</li><li>Construye intervalos sin traslapes.</li><li>Cuenta los datos de cada intervalo.</li><li>Calcula las marcas de clase.</li></ol>
+<h3 id="para-elegir-una-grafica">Para elegir una gráfica<a class="enlace-seccion" href="#para-elegir-una-grafica" aria-label="Enlace a esta sección">#</a></h3>
+<ul><li>Categorías: <span class="mate-bloque">\[\text{barras o circular}.\]</span></li><li>Datos discretos: <span class="mate-bloque">\[\text{barras}.\]</span></li><li>Datos continuos agrupados: <span class="mate-bloque">\[\text{histograma}.\]</span></li><li>Frecuencias acumuladas: <span class="mate-bloque">\[\text{ojiva}.\]</span></li></ul>
+<h2 id="resumen"><span class="num">45.9</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Frecuencia relativa:</p>
+<div class="mate"><span class="mate-bloque">\[fr_i = \frac{f_i}{n}.\]</span></div>
+<p>Porcentaje:</p>
+<div class="mate"><span class="mate-bloque">\[p_i = \frac{f_i}{n}(100\%).\]</span></div>
+<p>Frecuencia acumulada:</p>
+<div class="mate"><span class="mate-bloque">\[F_i = f_1+f_2+\cdots+f_i.\]</span></div>
+<p>Marca de clase:</p>
+<div class="mate"><span class="mate-bloque">\[x_i = \frac{ \text{límite inferior} + \text{límite superior} }{2}.\]</span></div>
+<p>Rango:</p>
+<div class="mate"><span class="mate-bloque">\[R = x_{\max}-x_{\min}.\]</span></div>
+<p>Totales:</p>
+<div class="mate"><span class="mate-bloque">\[\sum f_i=n,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sum fr_i=1,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sum p_i=100\%.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">45.10</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>La población es el conjunto completo y la muestra es solo una parte.</li><li>Una muestra grande no garantiza que sea representativa.</li><li>Las variables discretas proceden generalmente de conteos.</li><li>Las variables continuas proceden generalmente de mediciones.</li><li>La frecuencia relativa se calcula dividiendo entre el total: <span class="mate-bloque">\[fr_i=\frac{f_i}{n}.\]</span></li><li>Los porcentajes deben sumar aproximadamente: <span class="mate-bloque">\[100\%.\]</span></li><li>Una pequeña diferencia puede deberse al redondeo.</li><li>Los intervalos no deben traslaparse.</li><li>Las barras de un histograma deben estar juntas.</li><li>Las barras de categorías deben estar separadas.</li><li>El polígono de frecuencias se utiliza con valores cuantitativos ordenados, no con categorías sin orden.</li><li>Antes de interpretar una gráfica deben revisarse la escala, las unidades y el tamaño de la muestra.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">45.11</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-45-1"><div class="caja-titulo">Ejercicio 45.1</div><div class="caja-cuerpo"><p>Clasifica las siguientes variables como cualitativas, cuantitativas discretas o cuantitativas continuas:</p>
+<ol><li>Número de libros leídos en un año.</li><li>Temperatura corporal.</li><li>Color favorito.</li><li>Número de hermanos.</li><li>Estatura.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>1. Cuantitativa discreta. 2. Cuantitativa continua. 3. Cualitativa. 4. Cuantitativa discreta. 5. Cuantitativa continua.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-45-2"><div class="caja-titulo">Ejercicio 45.2</div><div class="caja-cuerpo"><p>Se estudia el tiempo semanal dedicado al ejercicio por los estudiantes de una universidad.</p>
+<p>Se encuesta a \(150\) estudiantes de una población de \(5000\).</p>
+<p>Identifica:</p>
+<ol><li>la población;</li><li>la muestra;</li><li>el individuo;</li><li>la variable;</li><li>el tipo de variable.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>1. Población: los \(5000\) estudiantes de la universidad. 2. Muestra: los \(150\) estudiantes encuestados. 3. Individuo: cada estudiante de la universidad. 4. Variable: tiempo semanal dedicado al ejercicio. 5. Tipo de variable: Cuantitativa continua.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-45-3"><div class="caja-titulo">Ejercicio 45.3</div><div class="caja-cuerpo"><p>En una agencia se vendieron \(40\) automóviles durante un mes.</p>
+<p>Completa la tabla:</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Color</strong></th><th style="text-align:right"><strong>\(f_i\)</strong></th><th style="text-align:right"><strong>\(fr_i\)</strong></th><th style="text-align:right"><strong>Porcentaje</strong></th></tr></thead><tbody><tr><td style="text-align:left">Rojo</td><td style="text-align:right">12</td><td style="text-align:right"></td><td style="text-align:right"></td></tr><tr><td style="text-align:left">Blanco</td><td style="text-align:right">15</td><td style="text-align:right"></td><td style="text-align:right"></td></tr><tr><td style="text-align:left">Negro</td><td style="text-align:right">8</td><td style="text-align:right"></td><td style="text-align:right"></td></tr><tr><td style="text-align:left">Azul</td><td style="text-align:right">5</td><td style="text-align:right"></td><td style="text-align:right"></td></tr><tr><td style="text-align:left"><strong>Total</strong></td><td style="text-align:right"><strong>40</strong></td><td style="text-align:right"><strong>1.000</strong></td><td style="text-align:right"><strong>100%</strong></td></tr></tbody></table></div></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Total de datos \(n = 40\). Rojo: \(fr_i = 12/40 = 0.300\), porcentaje \(30.0\%\). Blanco: \(fr_i = 15/40 = 0.375\), porcentaje \(37.5\%\). Negro: \(fr_i = 8/40 = 0.200\), porcentaje \(20.0\%\). Azul: \(fr_i = 5/40 = 0.125\), porcentaje \(12.5\%\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-45-4"><div class="caja-titulo">Ejercicio 45.4</div><div class="caja-cuerpo"><p>Las calificaciones de \(15\) estudiantes son:</p>
+<div class="mate"><span class="mate-bloque">\[7,\ 8,\ 6,\ 9,\ 10,\ 7,\ 5,\ 8,\ 7,\ 6,\ 9,\ 8,\ 7,\ 10,\ 6.\]</span></div>
+<p>Construye una tabla con:</p>
+<div class="mate"><span class="mate-bloque">\[f_i, \qquad fr_i, \qquad F_i\]</span></div>
+<p>y porcentaje.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Ordenando las calificaciones (\(n=15\)) obtenemos la siguiente tabla:</p>
+<ul><li>Calificación 5: \(f_i = 1\), \(fr_i \approx 0.067\), \(6.7\%\), \(F_i = 1\).</li><li>Calificación 6: \(f_i = 3\), \(fr_i = 0.200\), \(20.0\%\), \(F_i = 4\).</li><li>Calificación 7: \(f_i = 4\), \(fr_i \approx 0.267\), \(26.7\%\), \(F_i = 8\).</li><li>Calificación 8: \(f_i = 3\), \(fr_i = 0.200\), \(20.0\%\), \(F_i = 11\).</li><li>Calificación 9: \(f_i = 2\), \(fr_i \approx 0.133\), \(13.3\%\), \(F_i = 13\).</li><li>Calificación 10: \(f_i = 2\), \(fr_i \approx 0.133\), \(13.3\%\), \(F_i = 15\).</li></ul></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-45-5"><div class="caja-titulo">Ejercicio 45.5</div><div class="caja-cuerpo"><p>Los medios de transporte habituales de un grupo son:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|c} \text{Medio} &amp; f_i\\ \hline \text{Automóvil} &amp; 20\\ \text{Camión} &amp; 15\\ \text{Metro} &amp; 10\\ \text{Bicicleta} &amp; 5 \end{array}\]</span></div>
+<p>Calcula la frecuencia relativa y el porcentaje correspondiente al metro.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El total de la muestra es \(20 + 15 + 10 + 5 = 50\). Para el metro, \(fr_i = 10 / 50 = 0.20\). El porcentaje es \(0.20(100\%) = 20\%\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-45-6"><div class="caja-titulo">Ejercicio 45.6</div><div class="caja-cuerpo"><p>Las frecuencias de cuatro categorías son:</p>
+<div class="mate"><span class="mate-bloque">\[A=8, \qquad B=12, \qquad C=6, \qquad D=4.\]</span></div>
+<p>Determina qué categoría representa el \(40\%\) del total.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El total es \(n = 8 + 12 + 6 + 4 = 30\). El \(40\%\) de \(30\) es \(30(0.40) = 12\). Esta frecuencia corresponde a la categoría B.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-45-7"><div class="caja-titulo">Ejercicio 45.7</div><div class="caja-cuerpo"><p>En una muestra de \(50\) personas, la frecuencia relativa de quienes prefieren té es:</p>
+<div class="mate"><span class="mate-bloque">\[0.24.\]</span></div>
+<p>¿Cuántas personas prefieren té?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La frecuencia absoluta es \(f_i = n \times fr_i = 50 \times 0.24 = 12\). Por tanto, \(12\) personas prefieren té.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-45-8"><div class="caja-titulo">Ejercicio 45.8</div><div class="caja-cuerpo"><p>En una tabla se tiene:</p>
+<div class="mate"><span class="mate-bloque">\[f_1=4, \qquad f_2=7, \qquad f_3=5, \qquad f_4=4.\]</span></div>
+<p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[F_1,\quad F_2,\quad F_3,\quad F_4.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(F_1 = 4\). \(F_2 = 4 + 7 = 11\). \(F_3 = 11 + 5 = 16\). \(F_4 = 16 + 4 = 20\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-45-9"><div class="caja-titulo">Ejercicio 45.9</div><div class="caja-cuerpo"><p>¿Qué gráfica es más adecuada para representar la distribución de las estaturas de \(100\) personas?</p>
+<p>Justifica la respuesta</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Un histograma es la gráfica más adecuada, ya que la estatura es una variable cuantitativa continua y conviene agrupar los datos en intervalos de clase.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-45-10"><div class="caja-titulo">Ejercicio 45.10</div><div class="caja-cuerpo"><p>Las frecuencias absolutas de cinco intervalos son:</p>
+<div class="mate"><span class="mate-bloque">\[6,\ 9,\ 12,\ 8,\ 5.\]</span></div>
+<p>Calcula la frecuencia relativa y el porcentaje de cada intervalo. Verifica que las frecuencias relativas sumen \(1\) y que los porcentajes sumen \(100\%\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Total \(n = 6 + 9 + 12 + 8 + 5 = 40\). Frecuencias relativas: \(6/40 = 0.15\); \(9/40 = 0.225\); \(12/40 = 0.30\); \(8/40 = 0.20\); \(5/40 = 0.125\). La suma es \(0.15 + 0.225 + 0.30 + 0.20 + 0.125 = 1.00\). Porcentajes: \(15\%\), \(22.5\%\), \(30\%\), \(20\%\), \(12.5\%\). La suma es \(15 + 22.5 + 30 + 20 + 12.5 = 100\%\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-45-11"><div class="caja-titulo">Ejercicio 45.11</div><div class="caja-cuerpo"><p>Construye un histograma con los siguientes datos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|c} \text{Intervalo} &amp; f_i\\ \hline {[0,10)}  &amp; 4\\ {[10,20)} &amp; 7\\ {[20,30)} &amp; 10\\ {[30,40)} &amp; 6\\ {[40,50]} &amp; 3 \end{array}\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Se dibuja un plano cartesiano donde el eje horizontal representa los intervalos de clase (\([0,10)\), \([10,20)\), etc.) y el eje vertical representa la frecuencia absoluta \(f_i\). Sobre cada intervalo se traza un rectángulo adyacente al anterior con alturas \(4\), \(7\), \(10\), \(6\) y \(3\), respectivamente.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-45-12"><div class="caja-titulo">Ejercicio 45.12</div><div class="caja-cuerpo"><p>Una gráfica circular representa cuatro categorías con las siguientes frecuencias:</p>
+<div class="mate"><span class="mate-bloque">\[18,\ 12,\ 6,\ 4.\]</span></div>
+<p>Calcula:</p>
+<ol><li>el número total de datos;</li><li>la frecuencia relativa de cada categoría;</li><li>el porcentaje de cada categoría;</li><li>el ángulo central de cada sector.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>1. Número total: \(n = 18 + 12 + 6 + 4 = 40\). 2. Frecuencias relativas: \(18/40 = 0.45\); \(12/40 = 0.30\); \(6/40 = 0.15\); \(4/40 = 0.10\). 3. Porcentajes: \(45\%\), \(30\%\), \(15\%\), \(10\%\). 4. Ángulo central (multiplicando \(fr_i \times 360^\circ\)): \(162^\circ\), \(108^\circ\), \(54^\circ\), \(36^\circ\).</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="44-integral-definida.html"><span>← Anterior</span>44. Integral definida y aplicaciones</a><a class="nav-siguiente" href="46-medidas-estadisticas.html"><span>Siguiente →</span>46. Medidas estadísticas</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

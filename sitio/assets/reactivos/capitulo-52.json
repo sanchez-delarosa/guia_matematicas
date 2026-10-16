@@ -1,0 +1,3984 @@
+{
+  "metadata": {
+    "capitulo": "52",
+    "titulo": "Interés simple",
+    "version": "6.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 15,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 150,
+    "secciones_incluidas": [
+      {
+        "codigo": "52.1",
+        "nombre": "Elementos del interés simple"
+      },
+      {
+        "codigo": "52.2",
+        "nombre": "Fórmula del interés simple"
+      },
+      {
+        "codigo": "52.3",
+        "nombre": "Despejes de la fórmula"
+      },
+      {
+        "codigo": "52.4",
+        "nombre": "Cálculo del capital"
+      },
+      {
+        "codigo": "52.5",
+        "nombre": "Cálculo de la tasa"
+      },
+      {
+        "codigo": "52.6",
+        "nombre": "Cálculo del tiempo"
+      },
+      {
+        "codigo": "52.7",
+        "nombre": "Conversión del tiempo"
+      },
+      {
+        "codigo": "52.8",
+        "nombre": "Valor presente y valor futuro"
+      },
+      {
+        "codigo": "52.9",
+        "nombre": "Ecuaciones de valor"
+      },
+      {
+        "codigo": "52.10",
+        "nombre": "Descuento comercial"
+      },
+      {
+        "codigo": "52.11",
+        "nombre": "Despejes del descuento comercial"
+      },
+      {
+        "codigo": "52.12",
+        "nombre": "Interés ordinario e interés exacto"
+      },
+      {
+        "codigo": "52.13",
+        "nombre": "Conteo de días"
+      },
+      {
+        "codigo": "52.14",
+        "nombre": "Comparación con el interés compuesto"
+      },
+      {
+        "codigo": "52.15",
+        "nombre": "Crecimiento del monto"
+      }
+    ],
+    "secciones_editoriales_omitidas": [
+      "52.16 Procedimiento rápido",
+      "52.17 Resumen",
+      "52.18 Errores frecuentes",
+      "52.19 Ejercicios propuestos"
+    ],
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_validado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-52-1-01",
+      "pregunta": "En interés simple, el capital $C$ representa:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.1",
+        "nombre": "Elementos del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "La cantidad inicial invertida o prestada",
+        "B": "El interés acumulado",
+        "C": "La tasa anual",
+        "D": "El plazo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "elementos del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-1-02",
+      "pregunta": "El interés $I$ es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.1",
+        "nombre": "Elementos del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "El capital inicial",
+        "B": "El número de periodos",
+        "C": "El valor nominal",
+        "D": "La cantidad pagada o ganada por usar el capital"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "elementos del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-1-03",
+      "pregunta": "La tasa $i$ debe expresarse en la fórmula como:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.1",
+        "nombre": "Elementos del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "Cantidad monetaria",
+        "B": "Número de días",
+        "C": "Número decimal",
+        "D": "Porcentaje entero"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "elementos del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-1-04",
+      "pregunta": "El tiempo $t$ debe ser compatible con:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.1",
+        "nombre": "Elementos del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "El capital",
+        "B": "El periodo de la tasa",
+        "C": "El monto únicamente",
+        "D": "La moneda"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "elementos del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-1-05",
+      "pregunta": "El monto $M$ se relaciona mediante:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.1",
+        "nombre": "Elementos del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$M=C+I$",
+        "B": "$M=C-I$",
+        "C": "$M=CI$",
+        "D": "$M=I/C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "elementos del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-1-06",
+      "pregunta": "En interés simple, el interés por periodo es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.1",
+        "nombre": "Elementos del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "Creciente",
+        "B": "Decreciente",
+        "C": "Compuesto",
+        "D": "Constante si no cambian capital ni tasa"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "elementos del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-1-07",
+      "pregunta": "La tasa del $9\\%$ en decimal es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.1",
+        "nombre": "Elementos del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$0.9$",
+        "B": "$0.009$",
+        "C": "$0.09$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "elementos del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-1-08",
+      "pregunta": "Una tasa anual y un plazo en meses requieren:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.1",
+        "nombre": "Elementos del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "Sumar tasa y tiempo",
+        "B": "Convertir el tiempo a años o la tasa a mensual",
+        "C": "Multiplicar ambos por $12$",
+        "D": "No hacer conversión"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "elementos del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-1-09",
+      "pregunta": "El valor futuro bajo interés simple es sinónimo de:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.1",
+        "nombre": "Elementos del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "Monto",
+        "B": "Capital",
+        "C": "Tasa",
+        "D": "Descuento"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "elementos del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-1-10",
+      "pregunta": "Si la tasa es cero, el monto:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.1",
+        "nombre": "Elementos del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "Es cero",
+        "B": "Se duplica",
+        "C": "No existe",
+        "D": "Es igual al capital"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "elementos del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-2-01",
+      "pregunta": "Calcule el interés simple de $2{,}000.00$ pesos al $6\\%$ anual durante $2$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.2",
+        "nombre": "Fórmula del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}240.00$ pesos",
+        "B": "$480.00$ pesos",
+        "C": "$240.00$ pesos",
+        "D": "$120.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "fórmula del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-2-02",
+      "pregunta": "Calcule el interés simple de $3{,}500.00$ pesos al $8\\%$ anual durante $1.5$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.2",
+        "nombre": "Fórmula del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$840.00$ pesos",
+        "B": "$420.00$ pesos",
+        "C": "$280.00$ pesos",
+        "D": "$3{,}920.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "fórmula del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-2-03",
+      "pregunta": "Calcule el interés simple de $5{,}000.00$ pesos al $9\\%$ anual durante $3$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.2",
+        "nombre": "Fórmula del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}350.00$ pesos",
+        "B": "$450.00$ pesos",
+        "C": "$6{,}350.00$ pesos",
+        "D": "$2{,}700.00$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "fórmula del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-2-04",
+      "pregunta": "Calcule el interés simple de $7{,}200.00$ pesos al $5\\%$ anual durante $2.5$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.2",
+        "nombre": "Fórmula del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$360.00$ pesos",
+        "B": "$8{,}100.00$ pesos",
+        "C": "$1{,}800.00$ pesos",
+        "D": "$900.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "fórmula del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-2-05",
+      "pregunta": "Calcule el interés simple de $10{,}000.00$ pesos al $12\\%$ anual durante $0.75$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.2",
+        "nombre": "Fórmula del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$10{,}900.00$ pesos",
+        "B": "$1{,}800.00$ pesos",
+        "C": "$900.00$ pesos",
+        "D": "$1{,}200.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "fórmula del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-2-06",
+      "pregunta": "Calcule el interés simple de $4{,}800.00$ pesos al $7.5\\%$ anual durante $4$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.2",
+        "nombre": "Fórmula del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}880.00$ pesos",
+        "B": "$1{,}440.00$ pesos",
+        "C": "$360.00$ pesos",
+        "D": "$6{,}240.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "fórmula del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-2-07",
+      "pregunta": "Calcule el interés simple de $12{,}500.00$ pesos al $4\\%$ anual durante $5$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.2",
+        "nombre": "Fórmula del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}500.00$ pesos",
+        "B": "$500.00$ pesos",
+        "C": "$15{,}000.00$ pesos",
+        "D": "$5{,}000.00$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "fórmula del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-2-08",
+      "pregunta": "Calcule el interés simple de $6{,}400.00$ pesos al $10\\%$ anual durante $1.25$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.2",
+        "nombre": "Fórmula del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$640.00$ pesos",
+        "B": "$7{,}200.00$ pesos",
+        "C": "$1{,}600.00$ pesos",
+        "D": "$800.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "fórmula del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-2-09",
+      "pregunta": "Calcule el interés simple de $9{,}000.00$ pesos al $6.5\\%$ anual durante $2$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.2",
+        "nombre": "Fórmula del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$10{,}170.00$ pesos",
+        "B": "$2{,}340.00$ pesos",
+        "C": "$1{,}170.00$ pesos",
+        "D": "$585.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "fórmula del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-2-10",
+      "pregunta": "Calcule el interés simple de $15{,}000.00$ pesos al $3\\%$ anual durante $6$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.2",
+        "nombre": "Fórmula del interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$5{,}400.00$ pesos",
+        "B": "$2{,}700.00$ pesos",
+        "C": "$450.00$ pesos",
+        "D": "$17{,}700.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "fórmula del interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-3-01",
+      "pregunta": "Despeje $C$ de $I=Cit$.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.3",
+        "nombre": "Despejes de la fórmula"
+      },
+      "respuestas_posibles": {
+        "A": "$C=\\frac{I}{it}$",
+        "B": "$C=Iit$",
+        "C": "$C=\\frac{i}{It}$",
+        "D": "$C=I-i-t$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "despejes de la fórmula",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-3-02",
+      "pregunta": "Despeje $i$ de $I=Cit$.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.3",
+        "nombre": "Despejes de la fórmula"
+      },
+      "respuestas_posibles": {
+        "A": "$i=\\frac{C}{It}$",
+        "B": "$i=ICt$",
+        "C": "$i=I-Ct$",
+        "D": "$i=\\frac{I}{Ct}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "despejes de la fórmula",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-3-03",
+      "pregunta": "Despeje $t$ de $I=Cit$.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.3",
+        "nombre": "Despejes de la fórmula"
+      },
+      "respuestas_posibles": {
+        "A": "$t=ICi$",
+        "B": "$t=I-Ci$",
+        "C": "$t=\\frac{I}{Ci}$",
+        "D": "$t=\\frac{C}{Ii}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "despejes de la fórmula",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-3-04",
+      "pregunta": "Despeje $C$ de $M=C(1+it)$.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.3",
+        "nombre": "Despejes de la fórmula"
+      },
+      "respuestas_posibles": {
+        "A": "$C=\\frac{1+it}{M}$",
+        "B": "$C=\\frac{M}{1+it}$",
+        "C": "$C=M(1+it)$",
+        "D": "$C=M-it$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "despejes de la fórmula",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-3-05",
+      "pregunta": "Despeje $i$ de $M=C(1+it)$.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.3",
+        "nombre": "Despejes de la fórmula"
+      },
+      "respuestas_posibles": {
+        "A": "$i=\\frac{M/C-1}{t}$",
+        "B": "$i=\\frac{M-C}{t}$",
+        "C": "$i=\\frac{M}{Ct}$",
+        "D": "$i=\\frac{C/M-1}{t}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "despejes de la fórmula",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-3-06",
+      "pregunta": "Despeje $t$ de $M=C(1+it)$.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.3",
+        "nombre": "Despejes de la fórmula"
+      },
+      "respuestas_posibles": {
+        "A": "$t=\\frac{M-C}{i}$",
+        "B": "$t=\\frac{M}{Ci}$",
+        "C": "$t=\\frac{C/M-1}{i}$",
+        "D": "$t=\\frac{M/C-1}{i}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "despejes de la fórmula",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-3-07",
+      "pregunta": "Si se conoce monto y capital, el interés es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.3",
+        "nombre": "Despejes de la fórmula"
+      },
+      "respuestas_posibles": {
+        "A": "$I=MC$",
+        "B": "$I=C-M$",
+        "C": "$I=M-C$",
+        "D": "$I=M+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "despejes de la fórmula",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-3-08",
+      "pregunta": "Para despejar correctamente una tasa porcentual, el resultado decimal debe:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.3",
+        "nombre": "Despejes de la fórmula"
+      },
+      "respuestas_posibles": {
+        "A": "Elevarse al tiempo",
+        "B": "Multiplicarse por $100$ para expresarlo en porcentaje",
+        "C": "Dividirse otra vez entre $100$",
+        "D": "Sumarse al capital"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "despejes de la fórmula",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-3-09",
+      "pregunta": "En $I=Cit$, si $I,C,t>0$, aumentar $C$ manteniendo lo demás hace que $i$:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.3",
+        "nombre": "Despejes de la fórmula"
+      },
+      "respuestas_posibles": {
+        "A": "Disminuya para conservar el mismo interés",
+        "B": "Aumente",
+        "C": "No cambie",
+        "D": "Sea cero"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "despejes de la fórmula",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-3-10",
+      "pregunta": "En $I=Cit$, las unidades de $t$ deben:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.3",
+        "nombre": "Despejes de la fórmula"
+      },
+      "respuestas_posibles": {
+        "A": "Ser siempre días",
+        "B": "Ser siempre años",
+        "C": "Ignorarse",
+        "D": "Coincidir con el periodo de $i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "despejes de la fórmula",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-4-01",
+      "pregunta": "¿Qué capital genera $600.00$ pesos de interés al $6\\%$ anual en $2$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.4",
+        "nombre": "Cálculo del capital"
+      },
+      "respuestas_posibles": {
+        "A": "$300.00$ pesos",
+        "B": "$5{,}600.00$ pesos",
+        "C": "$5{,}000.00$ pesos",
+        "D": "$10{,}000.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "cálculo del capital",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-4-02",
+      "pregunta": "¿Qué capital genera $900.00$ pesos de interés al $7.5\\%$ anual en $3$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.4",
+        "nombre": "Cálculo del capital"
+      },
+      "respuestas_posibles": {
+        "A": "$4{,}900.00$ pesos",
+        "B": "$4{,}000.00$ pesos",
+        "C": "$12{,}000.00$ pesos",
+        "D": "$300.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "cálculo del capital",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-4-03",
+      "pregunta": "¿Qué capital genera $1{,}200.00$ pesos de interés al $8\\%$ anual en $2.5$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.4",
+        "nombre": "Cálculo del capital"
+      },
+      "respuestas_posibles": {
+        "A": "$6{,}000.00$ pesos",
+        "B": "$15{,}000.00$ pesos",
+        "C": "$480.00$ pesos",
+        "D": "$7{,}200.00$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "cálculo del capital",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-4-04",
+      "pregunta": "¿Qué capital genera $450.00$ pesos de interés al $5\\%$ anual en $1.5$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.4",
+        "nombre": "Cálculo del capital"
+      },
+      "respuestas_posibles": {
+        "A": "$9{,}000.00$ pesos",
+        "B": "$300.00$ pesos",
+        "C": "$6{,}450.00$ pesos",
+        "D": "$6{,}000.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "cálculo del capital",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-4-05",
+      "pregunta": "¿Qué capital genera $1{,}800.00$ pesos de interés al $12\\%$ anual en $2$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.4",
+        "nombre": "Cálculo del capital"
+      },
+      "respuestas_posibles": {
+        "A": "$900.00$ pesos",
+        "B": "$9{,}300.00$ pesos",
+        "C": "$7{,}500.00$ pesos",
+        "D": "$15{,}000.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "cálculo del capital",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-4-06",
+      "pregunta": "¿Qué capital genera $1{,}000.00$ pesos de interés al $10\\%$ anual en $4$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.4",
+        "nombre": "Cálculo del capital"
+      },
+      "respuestas_posibles": {
+        "A": "$3{,}500.00$ pesos",
+        "B": "$2{,}500.00$ pesos",
+        "C": "$10{,}000.00$ pesos",
+        "D": "$250.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "cálculo del capital",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-4-07",
+      "pregunta": "¿Qué capital genera $525.00$ pesos de interés al $7\\%$ anual en $1.5$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.4",
+        "nombre": "Cálculo del capital"
+      },
+      "respuestas_posibles": {
+        "A": "$5{,}000.00$ pesos",
+        "B": "$7{,}500.00$ pesos",
+        "C": "$350.00$ pesos",
+        "D": "$5{,}525.00$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "cálculo del capital",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-4-08",
+      "pregunta": "¿Qué capital genera $2{,}400.00$ pesos de interés al $6\\%$ anual en $5$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.4",
+        "nombre": "Cálculo del capital"
+      },
+      "respuestas_posibles": {
+        "A": "$40{,}000.00$ pesos",
+        "B": "$480.00$ pesos",
+        "C": "$10{,}400.00$ pesos",
+        "D": "$8{,}000.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "cálculo del capital",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-4-09",
+      "pregunta": "¿Qué capital genera $360.00$ pesos de interés al $4\\%$ anual en $2$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.4",
+        "nombre": "Cálculo del capital"
+      },
+      "respuestas_posibles": {
+        "A": "$180.00$ pesos",
+        "B": "$4{,}860.00$ pesos",
+        "C": "$4{,}500.00$ pesos",
+        "D": "$9{,}000.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "cálculo del capital",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-4-10",
+      "pregunta": "¿Qué capital genera $2{,}100.00$ pesos de interés al $14\\%$ anual en $3$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.4",
+        "nombre": "Cálculo del capital"
+      },
+      "respuestas_posibles": {
+        "A": "$7{,}100.00$ pesos",
+        "B": "$5{,}000.00$ pesos",
+        "C": "$15{,}000.00$ pesos",
+        "D": "$700.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "cálculo del capital",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-5-01",
+      "pregunta": "Un capital de $5{,}000.00$ pesos genera $750.00$ pesos en $2.5$ años. ¿Cuál es la tasa simple anual?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.5",
+        "nombre": "Cálculo de la tasa"
+      },
+      "respuestas_posibles": {
+        "A": "$6\\%$ anual",
+        "B": "$15\\%$ total",
+        "C": "$0.06\\%$ anual",
+        "D": "$12\\%$ anual"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "cálculo de la tasa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-5-02",
+      "pregunta": "Un capital de $8{,}000.00$ pesos genera $960.00$ pesos en $2$ años. ¿Cuál es la tasa simple anual?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.5",
+        "nombre": "Cálculo de la tasa"
+      },
+      "respuestas_posibles": {
+        "A": "$12\\%$ total",
+        "B": "$0.06\\%$ anual",
+        "C": "$12\\%$ anual",
+        "D": "$6\\%$ anual"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "cálculo de la tasa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-5-03",
+      "pregunta": "Un capital de $12{,}000.00$ pesos genera $2{,}160.00$ pesos en $3$ años. ¿Cuál es la tasa simple anual?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.5",
+        "nombre": "Cálculo de la tasa"
+      },
+      "respuestas_posibles": {
+        "A": "$0.06\\%$ anual",
+        "B": "$12\\%$ anual",
+        "C": "$6\\%$ anual",
+        "D": "$18\\%$ total"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "cálculo de la tasa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-5-04",
+      "pregunta": "Un capital de $4{,}500.00$ pesos genera $540.00$ pesos en $1.5$ años. ¿Cuál es la tasa simple anual?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.5",
+        "nombre": "Cálculo de la tasa"
+      },
+      "respuestas_posibles": {
+        "A": "$16\\%$ anual",
+        "B": "$8\\%$ anual",
+        "C": "$12\\%$ total",
+        "D": "$0.08\\%$ anual"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "cálculo de la tasa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-5-05",
+      "pregunta": "Un capital de $10{,}000.00$ pesos genera $2{,}500.00$ pesos en $5$ años. ¿Cuál es la tasa simple anual?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.5",
+        "nombre": "Cálculo de la tasa"
+      },
+      "respuestas_posibles": {
+        "A": "$5\\%$ anual",
+        "B": "$25\\%$ total",
+        "C": "$0.05\\%$ anual",
+        "D": "$10\\%$ anual"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "cálculo de la tasa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-5-06",
+      "pregunta": "Un capital de $6{,}000.00$ pesos genera $900.00$ pesos en $2$ años. ¿Cuál es la tasa simple anual?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.5",
+        "nombre": "Cálculo de la tasa"
+      },
+      "respuestas_posibles": {
+        "A": "$15\\%$ total",
+        "B": "$0.075\\%$ anual",
+        "C": "$15\\%$ anual",
+        "D": "$7.5\\%$ anual"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "cálculo de la tasa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-5-07",
+      "pregunta": "Un capital de $7{,}500.00$ pesos genera $1{,}350.00$ pesos en $3$ años. ¿Cuál es la tasa simple anual?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.5",
+        "nombre": "Cálculo de la tasa"
+      },
+      "respuestas_posibles": {
+        "A": "$0.06\\%$ anual",
+        "B": "$12\\%$ anual",
+        "C": "$6\\%$ anual",
+        "D": "$18\\%$ total"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "cálculo de la tasa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-5-08",
+      "pregunta": "Un capital de $20{,}000.00$ pesos genera $3{,}200.00$ pesos en $4$ años. ¿Cuál es la tasa simple anual?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.5",
+        "nombre": "Cálculo de la tasa"
+      },
+      "respuestas_posibles": {
+        "A": "$8\\%$ anual",
+        "B": "$4\\%$ anual",
+        "C": "$16\\%$ total",
+        "D": "$0.04\\%$ anual"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "cálculo de la tasa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-5-09",
+      "pregunta": "Un capital de $3{,}600.00$ pesos genera $432.00$ pesos en $2$ años. ¿Cuál es la tasa simple anual?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.5",
+        "nombre": "Cálculo de la tasa"
+      },
+      "respuestas_posibles": {
+        "A": "$6\\%$ anual",
+        "B": "$12\\%$ total",
+        "C": "$0.06\\%$ anual",
+        "D": "$12\\%$ anual"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "cálculo de la tasa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-5-10",
+      "pregunta": "Un capital de $15{,}000.00$ pesos genera $1{,}575.00$ pesos en $1.5$ años. ¿Cuál es la tasa simple anual?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.5",
+        "nombre": "Cálculo de la tasa"
+      },
+      "respuestas_posibles": {
+        "A": "$10.5\\%$ total",
+        "B": "$0.07\\%$ anual",
+        "C": "$14\\%$ anual",
+        "D": "$7\\%$ anual"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "cálculo de la tasa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-6-01",
+      "pregunta": "¿Durante cuánto tiempo debe invertirse $5{,}000.00$ pesos al $8\\%$ anual para generar $1{,}200.00$ pesos?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.6",
+        "nombre": "Cálculo del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$4$ años",
+        "B": "$2$ años",
+        "C": "$3$ años",
+        "D": "$36$ meses"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "cálculo del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-6-02",
+      "pregunta": "¿Durante cuánto tiempo debe invertirse $8{,}000.00$ pesos al $6\\%$ anual para generar $1{,}440.00$ pesos?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.6",
+        "nombre": "Cálculo del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$2$ años",
+        "B": "$3$ años",
+        "C": "$36$ meses",
+        "D": "$4$ años"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "cálculo del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-6-03",
+      "pregunta": "¿Durante cuánto tiempo debe invertirse $10{,}000.00$ pesos al $5\\%$ anual para generar $2{,}500.00$ pesos?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.6",
+        "nombre": "Cálculo del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$5$ años",
+        "B": "$60$ meses",
+        "C": "$6$ años",
+        "D": "$4$ años"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "cálculo del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-6-04",
+      "pregunta": "¿Durante cuánto tiempo debe invertirse $6{,}000.00$ pesos al $10\\%$ anual para generar $1{,}800.00$ pesos?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.6",
+        "nombre": "Cálculo del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$36$ meses",
+        "B": "$4$ años",
+        "C": "$2$ años",
+        "D": "$3$ años"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "cálculo del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-6-05",
+      "pregunta": "¿Durante cuánto tiempo debe invertirse $12{,}000.00$ pesos al $7.5\\%$ anual para generar $2{,}700.00$ pesos?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.6",
+        "nombre": "Cálculo del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$4$ años",
+        "B": "$2$ años",
+        "C": "$3$ años",
+        "D": "$36$ meses"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "cálculo del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-6-06",
+      "pregunta": "¿Durante cuánto tiempo debe invertirse $4{,}000.00$ pesos al $12\\%$ anual para generar $960.00$ pesos?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.6",
+        "nombre": "Cálculo del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$1$ años",
+        "B": "$2$ años",
+        "C": "$24$ meses",
+        "D": "$3$ años"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "cálculo del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-6-07",
+      "pregunta": "¿Durante cuánto tiempo debe invertirse $15{,}000.00$ pesos al $4\\%$ anual para generar $3{,}000.00$ pesos?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.6",
+        "nombre": "Cálculo del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$5$ años",
+        "B": "$60$ meses",
+        "C": "$6$ años",
+        "D": "$4$ años"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "cálculo del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-6-08",
+      "pregunta": "¿Durante cuánto tiempo debe invertirse $9{,}000.00$ pesos al $9\\%$ anual para generar $1{,}620.00$ pesos?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.6",
+        "nombre": "Cálculo del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$24$ meses",
+        "B": "$3$ años",
+        "C": "$1$ años",
+        "D": "$2$ años"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "cálculo del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-6-09",
+      "pregunta": "¿Durante cuánto tiempo debe invertirse $7{,}500.00$ pesos al $8\\%$ anual para generar $2{,}400.00$ pesos?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.6",
+        "nombre": "Cálculo del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$5$ años",
+        "B": "$3$ años",
+        "C": "$4$ años",
+        "D": "$48$ meses"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "cálculo del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-6-10",
+      "pregunta": "¿Durante cuánto tiempo debe invertirse $20{,}000.00$ pesos al $3\\%$ anual para generar $1{,}800.00$ pesos?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.6",
+        "nombre": "Cálculo del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$2$ años",
+        "B": "$3$ años",
+        "C": "$36$ meses",
+        "D": "$4$ años"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "cálculo del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-7-01",
+      "pregunta": "Convierta $7$ meses a años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.7",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{7}{12}$ años",
+        "B": "$0.7$ años",
+        "C": "$7$ años",
+        "D": "$\\frac{12}{7}$ años"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-7-02",
+      "pregunta": "Convierta $15$ meses a años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.7",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$1.5$ años",
+        "B": "$0.8$ años",
+        "C": "$15$ años",
+        "D": "$1.25$ años"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-7-03",
+      "pregunta": "Convierta $21$ meses a años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.7",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$1.5$ años",
+        "B": "$0.21$ años",
+        "C": "$1.75$ años",
+        "D": "$2.1$ años"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-7-04",
+      "pregunta": "Convierta $75$ días a años comerciales.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.7",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$2.5$ años",
+        "B": "$\\frac{5}{24}$ años",
+        "C": "$0.75$ años",
+        "D": "$\\frac{75}{365}$ años"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-7-05",
+      "pregunta": "Convierta $120$ días a años comerciales.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.7",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac13$ año",
+        "B": "$0.12$ años",
+        "C": "$\\frac{12}{36}$ días",
+        "D": "$3$ años"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-7-06",
+      "pregunta": "Convierta $45$ días a meses comerciales.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.7",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$1.45$ meses",
+        "B": "$0.5$ meses",
+        "C": "$15$ meses",
+        "D": "$1.5$ meses"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-7-07",
+      "pregunta": "Convierta $2.5$ años a meses.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.7",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$24$ meses",
+        "B": "$36$ meses",
+        "C": "$30$ meses",
+        "D": "$25$ meses"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-7-08",
+      "pregunta": "Convierta $7$ trimestres a años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.7",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$1.5$ años",
+        "B": "$1.75$ años",
+        "C": "$2.1$ años",
+        "D": "$7$ años"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-7-09",
+      "pregunta": "Convierta $9$ bimestres a meses.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.7",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$18$ meses",
+        "B": "$9$ meses",
+        "C": "$27$ meses",
+        "D": "$4.5$ meses"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-7-10",
+      "pregunta": "Convierta $3$ semestres a años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.7",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$3$ años",
+        "B": "$6$ años",
+        "C": "$0.5$ años",
+        "D": "$1.5$ años"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-8-01",
+      "pregunta": "El valor futuro simple de $C$ es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.8",
+        "nombre": "Valor presente y valor futuro"
+      },
+      "respuestas_posibles": {
+        "A": "$M=Cit$",
+        "B": "$M=C/(1+it)$",
+        "C": "$M=C(1+it)$",
+        "D": "$M=C(1+i)^t$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "valor presente y valor futuro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-8-02",
+      "pregunta": "El valor presente de un monto simple es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.8",
+        "nombre": "Valor presente y valor futuro"
+      },
+      "respuestas_posibles": {
+        "A": "$C=\\frac{1+it}{M}$",
+        "B": "$C=\\frac{M}{1+it}$",
+        "C": "$C=M(1+it)$",
+        "D": "$C=M-Cit$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "valor presente y valor futuro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-8-03",
+      "pregunta": "Calcule el valor presente de $5{,}600.00$ pesos pagadero en $2$ años a interés simple de $6\\%$ anual.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.8",
+        "nombre": "Valor presente y valor futuro"
+      },
+      "respuestas_posibles": {
+        "A": "$5{,}000.00$ pesos",
+        "B": "$6{,}272.00$ pesos",
+        "C": "$600.00$ pesos",
+        "D": "Valor incorrecto 4"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "valor presente y valor futuro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-8-04",
+      "pregunta": "Calcule el valor presente de $6{,}900.00$ pesos pagadero en $3$ años a interés simple de $5\\%$ anual.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.8",
+        "nombre": "Valor presente y valor futuro"
+      },
+      "respuestas_posibles": {
+        "A": "$7{,}935.00$ pesos",
+        "B": "$900.00$ pesos",
+        "C": "$6{,}272.73$ pesos",
+        "D": "$6{,}000.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "valor presente y valor futuro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-8-05",
+      "pregunta": "Calcule el valor presente de $12{,}400.00$ pesos pagadero en $3$ años a interés simple de $8\\%$ anual.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.8",
+        "nombre": "Valor presente y valor futuro"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}400.00$ pesos",
+        "B": "$10{,}689.66$ pesos",
+        "C": "$10{,}000.00$ pesos",
+        "D": "$15{,}376.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "valor presente y valor futuro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-8-06",
+      "pregunta": "Calcule el valor presente de $10{,}300.00$ pesos pagadero en $1$ años a interés simple de $3\\%$ anual.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.8",
+        "nombre": "Valor presente y valor futuro"
+      },
+      "respuestas_posibles": {
+        "A": "$9{,}716.98$ pesos",
+        "B": "$10{,}000.00$ pesos",
+        "C": "$10{,}609.00$ pesos",
+        "D": "$300.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "valor presente y valor futuro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-8-07",
+      "pregunta": "Calcule el valor presente de $15{,}000.00$ pesos pagadero en $2$ años a interés simple de $10\\%$ anual.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.8",
+        "nombre": "Valor presente y valor futuro"
+      },
+      "respuestas_posibles": {
+        "A": "$12{,}500.00$ pesos",
+        "B": "$18{,}000.00$ pesos",
+        "C": "$2{,}500.00$ pesos",
+        "D": "Valor incorrecto 4"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "valor presente y valor futuro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-8-08",
+      "pregunta": "Calcule el valor presente de $8{,}400.00$ pesos pagadero en $1.25$ años a interés simple de $4\\%$ anual.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.8",
+        "nombre": "Valor presente y valor futuro"
+      },
+      "respuestas_posibles": {
+        "A": "$8{,}820.00$ pesos",
+        "B": "$400.00$ pesos",
+        "C": "$7{,}777.78$ pesos",
+        "D": "$8{,}000.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "valor presente y valor futuro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-8-09",
+      "pregunta": "Calcule el valor presente de $18{,}000.00$ pesos pagadero en $4$ años a interés simple de $5\\%$ anual.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.8",
+        "nombre": "Valor presente y valor futuro"
+      },
+      "respuestas_posibles": {
+        "A": "$3{,}000.00$ pesos",
+        "B": "$16{,}363.64$ pesos",
+        "C": "$15{,}000.00$ pesos",
+        "D": "$21{,}600.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "valor presente y valor futuro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-8-10",
+      "pregunta": "Calcule el valor presente de $9{,}450.00$ pesos pagadero en $2$ años a interés simple de $7\\%$ anual.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.8",
+        "nombre": "Valor presente y valor futuro"
+      },
+      "respuestas_posibles": {
+        "A": "Valor incorrecto 4",
+        "B": "$8{,}289.47$ pesos",
+        "C": "$10{,}773.00$ pesos",
+        "D": "$1{,}160.53$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "valor presente y valor futuro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-9-01",
+      "pregunta": "Una ecuación de valor compara cantidades:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.9",
+        "nombre": "Ecuaciones de valor"
+      },
+      "respuestas_posibles": {
+        "A": "En una misma fecha focal",
+        "B": "En fechas distintas sin ajuste",
+        "C": "Solo al presente",
+        "D": "Solo al futuro"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "ecuaciones de valor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-9-02",
+      "pregunta": "Para trasladar una deuda hacia el futuro con interés simple se:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.9",
+        "nombre": "Ecuaciones de valor"
+      },
+      "respuestas_posibles": {
+        "A": "Divide entre $1+it$",
+        "B": "Resta la tasa",
+        "C": "Eleva a una potencia",
+        "D": "Multiplica por $1+it$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "ecuaciones de valor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-9-03",
+      "pregunta": "Para trasladar una deuda hacia el pasado con interés simple se:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.9",
+        "nombre": "Ecuaciones de valor"
+      },
+      "respuestas_posibles": {
+        "A": "Suma el tiempo",
+        "B": "Eleva a una potencia",
+        "C": "Divide entre $1+it$",
+        "D": "Multiplica por $1+it$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "ecuaciones de valor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-9-04",
+      "pregunta": "La fecha focal sirve para:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.9",
+        "nombre": "Ecuaciones de valor"
+      },
+      "respuestas_posibles": {
+        "A": "Calcular impuestos",
+        "B": "Hacer equivalentes los flujos en un mismo momento",
+        "C": "Cambiar la tasa",
+        "D": "Eliminar deudas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "ecuaciones de valor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-9-05",
+      "pregunta": "Dos obligaciones son equivalentes si:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.9",
+        "nombre": "Ecuaciones de valor"
+      },
+      "respuestas_posibles": {
+        "A": "Tienen el mismo valor en la fecha focal",
+        "B": "Tienen igual valor nominal siempre",
+        "C": "Vencen el mismo día necesariamente",
+        "D": "Usan monedas distintas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "ecuaciones de valor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-9-06",
+      "pregunta": "Una deuda de $2{,}000.00$ pesos vence hoy. ¿Qué pago equivalente vence en $2$ años con tasa simple de $5\\%$?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.9",
+        "nombre": "Ecuaciones de valor"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}000.00$ pesos",
+        "B": "$200.00$ pesos",
+        "C": "$2{,}205.00$ pesos",
+        "D": "$2{,}200.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "ecuaciones de valor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-9-07",
+      "pregunta": "Una deuda de $3{,}500.00$ pesos vence hoy. ¿Qué pago equivalente vence en $1$ años con tasa simple de $8\\%$?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.9",
+        "nombre": "Ecuaciones de valor"
+      },
+      "respuestas_posibles": {
+        "A": "$280.00$ pesos",
+        "B": "Valor incorrecto 4",
+        "C": "$3{,}780.00$ pesos",
+        "D": "$3{,}500.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "ecuaciones de valor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-9-08",
+      "pregunta": "Una deuda de $5{,}000.00$ pesos vence hoy. ¿Qué pago equivalente vence en $3$ años con tasa simple de $6\\%$?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.9",
+        "nombre": "Ecuaciones de valor"
+      },
+      "respuestas_posibles": {
+        "A": "$5{,}955.08$ pesos",
+        "B": "$5{,}900.00$ pesos",
+        "C": "$5{,}000.00$ pesos",
+        "D": "$900.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "ecuaciones de valor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-9-09",
+      "pregunta": "Una deuda de $8{,}000.00$ pesos vence hoy. ¿Qué pago equivalente vence en $2.5$ años con tasa simple de $4\\%$?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.9",
+        "nombre": "Ecuaciones de valor"
+      },
+      "respuestas_posibles": {
+        "A": "$8{,}800.00$ pesos",
+        "B": "$8{,}000.00$ pesos",
+        "C": "$800.00$ pesos",
+        "D": "$8{,}824.16$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "ecuaciones de valor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-9-10",
+      "pregunta": "Una deuda de $12{,}000.00$ pesos vence hoy. ¿Qué pago equivalente vence en $0.5$ años con tasa simple de $10\\%$?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.9",
+        "nombre": "Ecuaciones de valor"
+      },
+      "respuestas_posibles": {
+        "A": "$12{,}000.00$ pesos",
+        "B": "$600.00$ pesos",
+        "C": "$12{,}585.71$ pesos",
+        "D": "$12{,}600.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "ecuaciones de valor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-10-01",
+      "pregunta": "Calcule el descuento comercial de un documento nominal de $5{,}000.00$ pesos, con tasa de descuento $8\\%$ anual y plazo $0.5$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.10",
+        "nombre": "Descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$400.00$ pesos",
+        "B": "$5{,}200.00$ pesos",
+        "C": "$200.00$ pesos",
+        "D": "$4{,}800.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-10-02",
+      "pregunta": "Calcule el descuento comercial de un documento nominal de $8{,}000.00$ pesos, con tasa de descuento $10\\%$ anual y plazo $0.75$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.10",
+        "nombre": "Descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$8{,}600.00$ pesos",
+        "B": "$600.00$ pesos",
+        "C": "$7{,}400.00$ pesos",
+        "D": "$800.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-10-03",
+      "pregunta": "Calcule el descuento comercial de un documento nominal de $12{,}000.00$ pesos, con tasa de descuento $6\\%$ anual y plazo $1$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.10",
+        "nombre": "Descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$720.00$ pesos",
+        "B": "$11{,}280.00$ pesos",
+        "C": "$12{,}720.00$ pesos",
+        "D": "Valor incorrecto 4"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-10-04",
+      "pregunta": "Calcule el descuento comercial de un documento nominal de $15{,}000.00$ pesos, con tasa de descuento $12\\%$ anual y plazo $0.25$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.10",
+        "nombre": "Descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$14{,}550.00$ pesos",
+        "B": "$1{,}800.00$ pesos",
+        "C": "$15{,}450.00$ pesos",
+        "D": "$450.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-10-05",
+      "pregunta": "Calcule el descuento comercial de un documento nominal de $20{,}000.00$ pesos, con tasa de descuento $9\\%$ anual y plazo $0.5$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.10",
+        "nombre": "Descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}800.00$ pesos",
+        "B": "$20{,}900.00$ pesos",
+        "C": "$900.00$ pesos",
+        "D": "$19{,}100.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-10-06",
+      "pregunta": "Calcule el descuento comercial de un documento nominal de $6{,}000.00$ pesos, con tasa de descuento $5\\%$ anual y plazo $2$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.10",
+        "nombre": "Descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$6{,}600.00$ pesos",
+        "B": "$600.00$ pesos",
+        "C": "$5{,}400.00$ pesos",
+        "D": "$300.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-10-07",
+      "pregunta": "Calcule el descuento comercial de un documento nominal de $10{,}000.00$ pesos, con tasa de descuento $7\\%$ anual y plazo $1.5$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.10",
+        "nombre": "Descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}050.00$ pesos",
+        "B": "$8{,}950.00$ pesos",
+        "C": "$700.00$ pesos",
+        "D": "$11{,}050.00$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-10-08",
+      "pregunta": "Calcule el descuento comercial de un documento nominal de $25{,}000.00$ pesos, con tasa de descuento $4\\%$ anual y plazo $0.75$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.10",
+        "nombre": "Descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$24{,}250.00$ pesos",
+        "B": "$1{,}000.00$ pesos",
+        "C": "$25{,}750.00$ pesos",
+        "D": "$750.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-10-09",
+      "pregunta": "Calcule el descuento comercial de un documento nominal de $9{,}000.00$ pesos, con tasa de descuento $11\\%$ anual y plazo $0.5$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.10",
+        "nombre": "Descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$990.00$ pesos",
+        "B": "$9{,}495.00$ pesos",
+        "C": "$495.00$ pesos",
+        "D": "$8{,}505.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-10-10",
+      "pregunta": "Calcule el descuento comercial de un documento nominal de $18{,}000.00$ pesos, con tasa de descuento $8\\%$ anual y plazo $1.25$ años.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.10",
+        "nombre": "Descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$19{,}800.00$ pesos",
+        "B": "$1{,}800.00$ pesos",
+        "C": "$16{,}200.00$ pesos",
+        "D": "$1{,}440.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-11-01",
+      "pregunta": "Despeje $N$ de $D=Ndt$.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.11",
+        "nombre": "Despejes del descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$N=\\frac{D}{dt}$",
+        "B": "$N=Ddt$",
+        "C": "$N=\\frac d{Dt}$",
+        "D": "$N=D-d-t$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "despejes del descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-11-02",
+      "pregunta": "Despeje $d$ de $D=Ndt$.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.11",
+        "nombre": "Despejes del descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$d=DNt$",
+        "B": "$d=\\frac N{Dt}$",
+        "C": "$d=D-Nt$",
+        "D": "$d=\\frac{D}{Nt}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "despejes del descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-11-03",
+      "pregunta": "Despeje $t$ de $D=Ndt$.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.11",
+        "nombre": "Despejes del descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$t=\\frac N{Dd}$",
+        "B": "$t=D-Nd$",
+        "C": "$t=\\frac{D}{Nd}$",
+        "D": "$t=DNd$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "despejes del descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-11-04",
+      "pregunta": "El valor efectivo de un documento descontado es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.11",
+        "nombre": "Despejes del descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$E=D-N$",
+        "B": "$E=N-D$",
+        "C": "$E=N+D$",
+        "D": "$E=ND$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "despejes del descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-11-05",
+      "pregunta": "Despeje $N$ de $E=N(1-dt)$.",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.11",
+        "nombre": "Despejes del descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$N=\\frac{E}{1-dt}$",
+        "B": "$N=E(1-dt)$",
+        "C": "$N=E-dt$",
+        "D": "$N=\\frac{1-dt}{E}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "despejes del descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-11-06",
+      "pregunta": "¿Qué valor nominal produce un descuento comercial de $400.00$ pesos a $8\\%$ anual durante $0.5$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.11",
+        "nombre": "Despejes del descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$5{,}000.00$ pesos",
+        "B": "$800.00$ pesos",
+        "C": "$9{,}600.00$ pesos",
+        "D": "$10{,}000.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "despejes del descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-11-07",
+      "pregunta": "¿Qué valor nominal produce un descuento comercial de $900.00$ pesos a $10\\%$ anual durante $0.75$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.11",
+        "nombre": "Despejes del descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}200.00$ pesos",
+        "B": "$11{,}100.00$ pesos",
+        "C": "$12{,}000.00$ pesos",
+        "D": "$9{,}000.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "despejes del descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-11-08",
+      "pregunta": "¿Qué valor nominal produce un descuento comercial de $720.00$ pesos a $6\\%$ anual durante $1$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.11",
+        "nombre": "Despejes del descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "Valor incorrecto 4",
+        "B": "$12{,}000.00$ pesos",
+        "C": "$720.00$ pesos",
+        "D": "$11{,}280.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "despejes del descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-11-09",
+      "pregunta": "¿Qué valor nominal produce un descuento comercial de $450.00$ pesos a $12\\%$ anual durante $0.25$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.11",
+        "nombre": "Despejes del descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$15{,}000.00$ pesos",
+        "B": "$3{,}750.00$ pesos",
+        "C": "$1{,}800.00$ pesos",
+        "D": "$14{,}550.00$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "despejes del descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-11-10",
+      "pregunta": "¿Qué valor nominal produce un descuento comercial de $900.00$ pesos a $9\\%$ anual durante $0.5$ años?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.11",
+        "nombre": "Despejes del descuento comercial"
+      },
+      "respuestas_posibles": {
+        "A": "$10{,}000.00$ pesos",
+        "B": "$1{,}800.00$ pesos",
+        "C": "$19{,}100.00$ pesos",
+        "D": "$20{,}000.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "despejes del descuento comercial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-12-01",
+      "pregunta": "El interés ordinario usa un año de:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.12",
+        "nombre": "Interés ordinario e interés exacto"
+      },
+      "respuestas_posibles": {
+        "A": "$366$ días",
+        "B": "$300$ días",
+        "C": "$360$ días",
+        "D": "$365$ días"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "interés ordinario e interés exacto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-12-02",
+      "pregunta": "El interés exacto usa normalmente un año de:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.12",
+        "nombre": "Interés ordinario e interés exacto"
+      },
+      "respuestas_posibles": {
+        "A": "$12$ días",
+        "B": "$365$ días",
+        "C": "$360$ días",
+        "D": "$300$ días"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "interés ordinario e interés exacto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-12-03",
+      "pregunta": "Con iguales datos y menos de un año, el interés ordinario suele ser:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.12",
+        "nombre": "Interés ordinario e interés exacto"
+      },
+      "respuestas_posibles": {
+        "A": "Mayor que el exacto",
+        "B": "Menor que el exacto",
+        "C": "Igual siempre",
+        "D": "Cero"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interés ordinario e interés exacto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-12-04",
+      "pregunta": "Para $n$ días, el tiempo ordinario es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.12",
+        "nombre": "Interés ordinario e interés exacto"
+      },
+      "respuestas_posibles": {
+        "A": "$t=\\frac n{365}$",
+        "B": "$t=360n$",
+        "C": "$t=\\frac{360}{n}$",
+        "D": "$t=\\frac n{360}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "interés ordinario e interés exacto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-12-05",
+      "pregunta": "Para $n$ días, el tiempo exacto es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.12",
+        "nombre": "Interés ordinario e interés exacto"
+      },
+      "respuestas_posibles": {
+        "A": "$t=365n$",
+        "B": "$t=\\frac{365}{n}$",
+        "C": "$t=\\frac n{365}$",
+        "D": "$t=\\frac n{360}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "interés ordinario e interés exacto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-12-06",
+      "pregunta": "Para $10{,}000.00$ pesos al $9\\%$ anual durante $90$ días, ¿cuál es el interés ordinario?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.12",
+        "nombre": "Interés ordinario e interés exacto"
+      },
+      "respuestas_posibles": {
+        "A": "$10{,}225.00$ pesos",
+        "B": "$225.00$ pesos",
+        "C": "$221.92$ pesos",
+        "D": "$900.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "interés ordinario e interés exacto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-12-07",
+      "pregunta": "Para $8{,}000.00$ pesos al $12\\%$ anual durante $60$ días, ¿cuál es el interés ordinario?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.12",
+        "nombre": "Interés ordinario e interés exacto"
+      },
+      "respuestas_posibles": {
+        "A": "$160.00$ pesos",
+        "B": "$157.81$ pesos",
+        "C": "$960.00$ pesos",
+        "D": "$8{,}160.00$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interés ordinario e interés exacto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-12-08",
+      "pregunta": "Para $15{,}000.00$ pesos al $8\\%$ anual durante $120$ días, ¿cuál es el interés ordinario?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.12",
+        "nombre": "Interés ordinario e interés exacto"
+      },
+      "respuestas_posibles": {
+        "A": "$394.52$ pesos",
+        "B": "$1{,}200.00$ pesos",
+        "C": "$15{,}400.00$ pesos",
+        "D": "$400.00$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "interés ordinario e interés exacto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-12-09",
+      "pregunta": "Para $5{,}000.00$ pesos al $10\\%$ anual durante $45$ días, ¿cuál es el interés ordinario?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.12",
+        "nombre": "Interés ordinario e interés exacto"
+      },
+      "respuestas_posibles": {
+        "A": "$500.00$ pesos",
+        "B": "$5{,}062.50$ pesos",
+        "C": "$62.50$ pesos",
+        "D": "$61.64$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "interés ordinario e interés exacto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-12-10",
+      "pregunta": "Para $20{,}000.00$ pesos al $6\\%$ anual durante $150$ días, ¿cuál es el interés ordinario?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.12",
+        "nombre": "Interés ordinario e interés exacto"
+      },
+      "respuestas_posibles": {
+        "A": "$20{,}500.00$ pesos",
+        "B": "$500.00$ pesos",
+        "C": "$493.15$ pesos",
+        "D": "$1{,}200.00$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "interés ordinario e interés exacto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-13-01",
+      "pregunta": "En tiempo aproximado, cada mes se considera de:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.13",
+        "nombre": "Conteo de días"
+      },
+      "respuestas_posibles": {
+        "A": "$30$ días",
+        "B": "$28$ días",
+        "C": "$31$ días",
+        "D": "$365$ días"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conteo de días",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-13-02",
+      "pregunta": "El tiempo exacto cuenta:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.13",
+        "nombre": "Conteo de días"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre meses de $30$ días",
+        "B": "Solo días hábiles",
+        "C": "Doce periodos iguales",
+        "D": "Los días calendario reales entre fechas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conteo de días",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-13-03",
+      "pregunta": "En conteo usual de interés se excluye:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.13",
+        "nombre": "Conteo de días"
+      },
+      "respuestas_posibles": {
+        "A": "Todos los domingos",
+        "B": "El último mes",
+        "C": "El día inicial",
+        "D": "El día final"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "conteo de días",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-13-04",
+      "pregunta": "De 1 de marzo a 31 de marzo, excluyendo el inicial, transcurren:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.13",
+        "nombre": "Conteo de días"
+      },
+      "respuestas_posibles": {
+        "A": "$1$ día",
+        "B": "$30$ días",
+        "C": "$31$ días",
+        "D": "$29$ días"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "conteo de días",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-13-05",
+      "pregunta": "De 15 de abril a 15 de mayo, con tiempo aproximado, transcurren:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.13",
+        "nombre": "Conteo de días"
+      },
+      "respuestas_posibles": {
+        "A": "$30$ días",
+        "B": "$31$ días",
+        "C": "$29$ días",
+        "D": "$60$ días"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conteo de días",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-13-06",
+      "pregunta": "De 10 de enero a 25 de febrero, con tiempo aproximado, transcurren:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.13",
+        "nombre": "Conteo de días"
+      },
+      "respuestas_posibles": {
+        "A": "$46$ días",
+        "B": "$35$ días",
+        "C": "$55$ días",
+        "D": "$45$ días"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conteo de días",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-13-07",
+      "pregunta": "El conteo exacto depende de:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.13",
+        "nombre": "Conteo de días"
+      },
+      "respuestas_posibles": {
+        "A": "La tasa",
+        "B": "El capital",
+        "C": "La longitud real de cada mes",
+        "D": "Una convención fija de $30$ días"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "conteo de días",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-13-08",
+      "pregunta": "Febrero tiene en un año no bisiesto:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.13",
+        "nombre": "Conteo de días"
+      },
+      "respuestas_posibles": {
+        "A": "$31$ días",
+        "B": "$28$ días",
+        "C": "$29$ días",
+        "D": "$30$ días"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "conteo de días",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-13-09",
+      "pregunta": "Un año bisiesto tiene:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.13",
+        "nombre": "Conteo de días"
+      },
+      "respuestas_posibles": {
+        "A": "$366$ días",
+        "B": "$365$ días",
+        "C": "$360$ días",
+        "D": "$364$ días"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conteo de días",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-13-10",
+      "pregunta": "Para evitar ambigüedad en conteo de días se debe:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.13",
+        "nombre": "Conteo de días"
+      },
+      "respuestas_posibles": {
+        "A": "Elegir siempre $360$",
+        "B": "Ignorar fechas",
+        "C": "Redondear al año",
+        "D": "Indicar la convención utilizada"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conteo de días",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-14-01",
+      "pregunta": "En un periodo, con igual capital y tasa, los montos simple y compuesto:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.14",
+        "nombre": "Comparación con el interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "El simple es mayor",
+        "B": "El compuesto es cero",
+        "C": "Son iguales",
+        "D": "Siempre difieren"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "comparación con el interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-14-02",
+      "pregunta": "En más de un periodo con tasa positiva, normalmente:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.14",
+        "nombre": "Comparación con el interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "Ambos disminuyen",
+        "B": "El monto compuesto supera al simple",
+        "C": "El simple supera al compuesto",
+        "D": "Son iguales siempre"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "comparación con el interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-14-03",
+      "pregunta": "El monto simple crece:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.14",
+        "nombre": "Comparación con el interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "Linealmente con el tiempo",
+        "B": "Exponencialmente",
+        "C": "De forma cuadrática",
+        "D": "Decrecientemente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "comparación con el interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-14-04",
+      "pregunta": "El monto compuesto crece:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.14",
+        "nombre": "Comparación con el interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "Linealmente",
+        "B": "De forma constante",
+        "C": "Negativamente",
+        "D": "Exponencialmente por periodos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "comparación con el interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-14-05",
+      "pregunta": "En interés simple, cada periodo genera interés sobre:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.14",
+        "nombre": "Comparación con el interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "El interés anterior",
+        "B": "El monto final",
+        "C": "El capital inicial",
+        "D": "El saldo acumulado"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "comparación con el interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-14-06",
+      "pregunta": "En interés compuesto, cada periodo genera interés sobre:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.14",
+        "nombre": "Comparación con el interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "El tiempo",
+        "B": "El saldo acumulado",
+        "C": "Solo el capital inicial",
+        "D": "La tasa"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "comparación con el interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-14-07",
+      "pregunta": "Para $1{,}000.00$ pesos, tasa de $10\\%$ y $2$ periodos, ¿cuál es la diferencia monto compuesto menos monto simple?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.14",
+        "nombre": "Comparación con el interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$10.00$ pesos",
+        "B": "$1{,}200.00$ pesos",
+        "C": "$1{,}210.00$ pesos",
+        "D": "$200.00$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "comparación con el interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-14-08",
+      "pregunta": "Para $2{,}000.00$ pesos, tasa de $5\\%$ y $3$ periodos, ¿cuál es la diferencia monto compuesto menos monto simple?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.14",
+        "nombre": "Comparación con el interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}300.00$ pesos",
+        "B": "$2{,}315.25$ pesos",
+        "C": "$300.00$ pesos",
+        "D": "$15.25$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "comparación con el interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-14-09",
+      "pregunta": "Para $5{,}000.00$ pesos, tasa de $8\\%$ y $2$ periodos, ¿cuál es la diferencia monto compuesto menos monto simple?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.14",
+        "nombre": "Comparación con el interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$5{,}832.00$ pesos",
+        "B": "$800.00$ pesos",
+        "C": "$32.00$ pesos",
+        "D": "$5{,}800.00$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "comparación con el interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-14-10",
+      "pregunta": "Para $8{,}000.00$ pesos, tasa de $6\\%$ y $4$ periodos, ¿cuál es la diferencia monto compuesto menos monto simple?",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.14",
+        "nombre": "Comparación con el interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}920.00$ pesos",
+        "B": "$179.82$ pesos",
+        "C": "$9{,}920.00$ pesos",
+        "D": "$10{,}099.82$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "comparación con el interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-15-01",
+      "pregunta": "La gráfica del monto simple contra el tiempo es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.15",
+        "nombre": "Crecimiento del monto"
+      },
+      "respuestas_posibles": {
+        "A": "Una recta",
+        "B": "Una parábola",
+        "C": "Una exponencial",
+        "D": "Una circunferencia"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "crecimiento del monto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-15-02",
+      "pregunta": "En $M=C(1+it)$, la ordenada al origen es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.15",
+        "nombre": "Crecimiento del monto"
+      },
+      "respuestas_posibles": {
+        "A": "$Ci$",
+        "B": "$i$",
+        "C": "$0$",
+        "D": "$C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "crecimiento del monto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-15-03",
+      "pregunta": "La pendiente del monto simple respecto al tiempo es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.15",
+        "nombre": "Crecimiento del monto"
+      },
+      "respuestas_posibles": {
+        "A": "$C/i$",
+        "B": "$M$",
+        "C": "$Ci$",
+        "D": "$C+i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "crecimiento del monto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-15-04",
+      "pregunta": "Si se duplica el capital, manteniendo tasa y tiempo, el interés:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.15",
+        "nombre": "Crecimiento del monto"
+      },
+      "respuestas_posibles": {
+        "A": "Se reduce a la mitad",
+        "B": "Se duplica",
+        "C": "Se cuadruplica",
+        "D": "No cambia"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "crecimiento del monto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-15-05",
+      "pregunta": "Si se duplica la tasa, manteniendo capital y tiempo, el interés:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.15",
+        "nombre": "Crecimiento del monto"
+      },
+      "respuestas_posibles": {
+        "A": "Se duplica",
+        "B": "No cambia",
+        "C": "Se cuadruplica",
+        "D": "Se reduce"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "crecimiento del monto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-15-06",
+      "pregunta": "Si se duplica el tiempo, manteniendo capital y tasa, el interés:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.15",
+        "nombre": "Crecimiento del monto"
+      },
+      "respuestas_posibles": {
+        "A": "Se eleva al cuadrado",
+        "B": "No cambia",
+        "C": "Se reduce",
+        "D": "Se duplica"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "crecimiento del monto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-15-07",
+      "pregunta": "El monto simple al tiempo $t=0$ es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.15",
+        "nombre": "Crecimiento del monto"
+      },
+      "respuestas_posibles": {
+        "A": "$I$",
+        "B": "$Ci$",
+        "C": "$C$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "crecimiento del monto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-15-08",
+      "pregunta": "Con tasa positiva, el monto simple es una función:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.15",
+        "nombre": "Crecimiento del monto"
+      },
+      "respuestas_posibles": {
+        "A": "Periódica",
+        "B": "Creciente del tiempo",
+        "C": "Decreciente",
+        "D": "Constante"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "crecimiento del monto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-15-09",
+      "pregunta": "La expresión $M(t)=5000+400t$ tiene capital inicial:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.15",
+        "nombre": "Crecimiento del monto"
+      },
+      "respuestas_posibles": {
+        "A": "$5{,}000$",
+        "B": "$400$",
+        "C": "$5{,}400$",
+        "D": "$12.5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "crecimiento del monto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-52-15-10",
+      "pregunta": "En la misma expresión, el interés generado por año es:",
+      "tema": {
+        "codigo": "52",
+        "nombre": "Interés simple",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "52.15",
+        "nombre": "Crecimiento del monto"
+      },
+      "respuestas_posibles": {
+        "A": "$5{,}000$",
+        "B": "$5{,}400$",
+        "C": "$0.08$",
+        "D": "$400$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "crecimiento del monto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

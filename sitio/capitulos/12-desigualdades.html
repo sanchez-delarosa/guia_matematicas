@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>12. Desigualdades · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte II: Álgebra</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#concepto-de-desigualdad"><span class="num">12.1</span> Concepto de desigualdad</a></li><li class="nivel-2"><a href="#propiedades-de-las-desigualdades"><span class="num">12.2</span> Propiedades de las desigualdades</a></li><li class="nivel-2"><a href="#intervalos"><span class="num">12.3</span> Intervalos</a></li><li class="nivel-2"><a href="#representacion-en-la-recta-numerica"><span class="num">12.4</span> Representación en la recta numérica</a></li><li class="nivel-2"><a href="#desigualdades-de-primer-grado"><span class="num">12.5</span> Desigualdades de primer grado</a></li><li class="nivel-2"><a href="#clasificacion-segun-el-conjunto-solucion"><span class="num">12.6</span> Clasificación según el conjunto solución</a></li><li class="nivel-2"><a href="#desigualdades-de-segundo-grado"><span class="num">12.7</span> Desigualdades de segundo grado</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">12.8</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 12</p><h1>Desigualdades</h1></header>
+<p><span id="cap-desigualdades" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Una desigualdad compara dos expresiones mediante una relación de orden. A diferencia de una ecuación, su conjunto solución suele contener un intervalo o una unión de intervalos. En este capítulo estudiarás las propiedades de las desigualdades, la notación de intervalos y los procedimientos para resolver desigualdades de primer y segundo grado.</p>
+<h2 id="concepto-de-desigualdad"><span class="num">12.1</span> Concepto de desigualdad<a class="enlace-seccion" href="#concepto-de-desigualdad" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>desigualdad</strong> es una relación de orden entre dos expresiones matemáticas. Los símbolos utilizados son:</p>
+<ul><li>\(&lt;\) significa <strong>menor que</strong>;</li><li>\(&gt;\) significa <strong>mayor que</strong>;</li><li>\(\leq\) significa <strong>menor o igual que</strong>;</li><li>\(\geq\) significa <strong>mayor o igual que</strong>.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-12-1"><div class="caja-titulo">Ejemplo 12.1</div><div class="caja-cuerpo"><p>Interpreta las siguientes desigualdades:</p>
+<div class="mate"><span class="mate-bloque">\[4&lt;6, \qquad -3&gt;-5, \qquad x\leq 2, \qquad -6\leq x, \qquad 3&lt;x&lt;7.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><ul><li>\(4&lt;6\) se lee: “cuatro es menor que seis”.</li><li>\(-3&gt;-5\) se lee: “menos tres es mayor que menos cinco”.</li><li>\(x\leq 2\) significa que \(x\) puede tomar cualquier valor menor o igual que \(2\).</li><li>\(-6\leq x\) equivale a \(x\geq -6\).</li><li>\(3&lt;x&lt;7\) significa que \(x\) es mayor que \(3\) y menor que \(7\).</li></ul></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Los símbolos \(&lt;\) y \(&gt;\) representan desigualdades <strong>estrictas</strong>, porque no incluyen la igualdad. Los símbolos \(\leq\) y \(\geq\) representan desigualdades <strong>no estrictas</strong>, porque sí incluyen la igualdad.</p></div></section>
+<h2 id="propiedades-de-las-desigualdades"><span class="num">12.2</span> Propiedades de las desigualdades<a class="enlace-seccion" href="#propiedades-de-las-desigualdades" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades básicas</div><div class="caja-cuerpo"><p>Sean \(a,b,c\in\R\).</p>
+<ul><li><p><strong>Propiedad transitiva</strong></p>
+<p>Si \(a&gt;b\) y \(b&gt;c\), entonces: <span class="mate-bloque">\[a&gt;c.\]</span></p></li><li><p><strong>Propiedad aditiva</strong></p>
+<p>Si \(a&gt;b\), entonces: <span class="mate-bloque">\[a+c&gt;b+c.\]</span></p>
+<p>Restar una misma cantidad en ambos miembros tampoco cambia el sentido de la desigualdad: <span class="mate-bloque">\[a-c&gt;b-c.\]</span></p></li><li><p><strong>Multiplicación o división por un número positivo</strong></p>
+<p>Si \(a&gt;b\) y \(c&gt;0\), entonces: <span class="mate-bloque">\[ac&gt;bc\]</span> y <span class="mate-bloque">\[\frac{a}{c}&gt;\frac{b}{c}.\]</span></p></li><li><p><strong>Multiplicación o división por un número negativo</strong></p>
+<p>Si \(a&gt;b\) y \(c&lt;0\), entonces: <span class="mate-bloque">\[ac&lt;bc\]</span> y <span class="mate-bloque">\[\frac{a}{c}&lt;\frac{b}{c}.\]</span></p></li></ul></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al multiplicar o dividir ambos miembros de una desigualdad por un número negativo, el sentido de la desigualdad debe invertirse.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} -2x &amp;&lt;6,\\ x &amp;&gt;-3. \end{aligned}\]</span></div>
+<p>La segunda desigualdad se obtiene al dividir ambos miembros entre \(-2\). Como el divisor es negativo, el símbolo \(&lt;\) cambia a \(&gt;\).</p></div></section>
+<h2 id="intervalos"><span class="num">12.3</span> Intervalos<a class="enlace-seccion" href="#intervalos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>intervalo</strong> es un subconjunto de los números reales comprendido entre uno o dos extremos.</p>
+<p>En la notación de intervalos:</p>
+<ul><li>los paréntesis indican que el extremo no está incluido;</li><li>los corchetes indican que el extremo sí está incluido;</li><li>los símbolos \(-\infty\) e \(\infty\) siempre se escriben entre paréntesis.</li></ul></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Intervalos no acotados</div><div class="caja-cuerpo"><p>Las desigualdades que se extienden indefinidamente hacia uno de los lados de la recta numérica se representan de la siguiente manera:</p>
+<ul><li>Si <span class="mate-bloque">\[x&gt;a,\]</span> entonces: <span class="mate-bloque">\[x\in(a,\infty).\]</span></li><li>Si <span class="mate-bloque">\[x\geq a,\]</span> entonces: <span class="mate-bloque">\[x\in[a,\infty).\]</span></li><li>Si <span class="mate-bloque">\[x&lt;a,\]</span> entonces: <span class="mate-bloque">\[x\in(-\infty,a).\]</span></li><li>Si <span class="mate-bloque">\[x\leq a,\]</span> entonces: <span class="mate-bloque">\[x\in(-\infty,a].\]</span></li></ul></div></section>
+<p>Las cuatro situaciones anteriores pueden compararse en las siguientes rectas numéricas:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-264cb564bcce.svg" alt="Figura 12.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Intervalos acotados</div><div class="caja-cuerpo"><p>Si \(a&lt;b\), las desigualdades dobles se representan mediante:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} a&lt;x&lt;b &amp;\quad\Longleftrightarrow\quad x\in(a,b),\\ a\leq x\leq b &amp;\quad\Longleftrightarrow\quad x\in[a,b],\\ a&lt;x\leq b &amp;\quad\Longleftrightarrow\quad x\in(a,b],\\ a\leq x&lt;b &amp;\quad\Longleftrightarrow\quad x\in[a,b). \end{aligned}\]</span></div></div></section>
+<p>La inclusión o exclusión de los extremos puede visualizarse así:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-8cf1f411290a.svg" alt="Figura 12.2" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En una recta numérica:</p>
+<ul><li>un círculo vacío representa un extremo excluido;</li><li>un círculo relleno representa un extremo incluido;</li><li>una flecha indica que el conjunto continúa indefinidamente.</li></ul>
+<p>Los símbolos \(-\infty\) y \(\infty\) no representan números reales. Por ello, nunca se consideran extremos incluidos y siempre se escriben entre paréntesis.</p></div></section>
+<h2 id="representacion-en-la-recta-numerica"><span class="num">12.4</span> Representación en la recta numérica<a class="enlace-seccion" href="#representacion-en-la-recta-numerica" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-12-2"><div class="caja-titulo">Ejemplo 12.2</div><div class="caja-cuerpo"><p>Representa la desigualdad</p>
+<div class="mate"><span class="mate-bloque">\[x&gt;-1\]</span></div>
+<p>en notación de intervalo y en la recta numérica.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como \(-1\) no está incluido, utilizamos un paréntesis:</p>
+<div class="mate"><span class="mate-bloque">\[x\in(-1,\infty).\]</span></div>
+<p>En la recta numérica se coloca un círculo vacío en \(-1\) y se traza una semirrecta hacia la derecha:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-92ee5dedc376.svg" alt="Figura 12.3" loading="lazy" decoding="async"></figure></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-12-3"><div class="caja-titulo">Ejemplo 12.3</div><div class="caja-cuerpo"><p>Representa la desigualdad</p>
+<div class="mate"><span class="mate-bloque">\[-2\leq x&lt;2\]</span></div>
+<p>en notación de intervalo y en la recta numérica.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El extremo \(-2\) está incluido y el extremo \(2\) está excluido. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x\in[-2,2).\]</span></div>
+<p>En la recta numérica se utiliza un círculo relleno en \(-2\) y un círculo vacío en \(2\):</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-79d5c019293b.svg" alt="Figura 12.4" loading="lazy" decoding="async"></figure></div></div></details></div></section>
+<h2 id="desigualdades-de-primer-grado"><span class="num">12.5</span> Desigualdades de primer grado<a class="enlace-seccion" href="#desigualdades-de-primer-grado" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Procedimiento general</div><div class="caja-cuerpo"><p>Para resolver una desigualdad de primer grado:</p>
+<ol><li>elimina los signos de agrupación;</li><li>elimina los denominadores, si los hay, utilizando un multiplicador común positivo;</li><li>reduce los términos semejantes en cada miembro;</li><li>reúne los términos con la variable en un miembro y los términos constantes en el otro;</li><li>despeja la variable;</li><li>si multiplicas o divides entre un número negativo, invierte el sentido de la desigualdad;</li><li>expresa el conjunto solución mediante una desigualdad, un intervalo o una gráfica.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-12-4"><div class="caja-titulo">Ejemplo 12.4</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[3x-4\geq 8.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sumamos \(4\) en ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x &amp;\geq 12. \end{aligned}\]</span></div>
+<p>Dividimos entre \(3\). Como es un número positivo, el sentido de la desigualdad no cambia:</p>
+<div class="mate"><span class="mate-bloque">\[x\geq 4.\]</span></div>
+<p>El conjunto solución es:</p>
+<div class="mate"><span class="mate-bloque">\[[4,\infty).\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-12-5"><div class="caja-titulo">Ejemplo 12.5</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[3x+5&gt;2x+7.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Restamos \(2x\) y \(5\) en ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x-2x &amp;&gt;7-5,\\ x &amp;&gt;2. \end{aligned}\]</span></div>
+<p>El conjunto solución es:</p>
+<div class="mate"><span class="mate-bloque">\[(2,\infty).\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-12-6"><div class="caja-titulo">Ejemplo 12.6</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x-1}{2} &lt; \frac{3x+4}{3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos ambos miembros por \(6\). Como \(6\) es positivo, el sentido de la desigualdad no cambia:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3(x-1) &amp;&lt;2(3x+4),\\ 3x-3 &amp;&lt;6x+8. \end{aligned}\]</span></div>
+<p>Reunimos los términos con \(x\) en el primer miembro:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x-6x &amp;&lt;8+3,\\ -3x &amp;&lt;11. \end{aligned}\]</span></div>
+<p>Dividimos entre \(-3\) e invertimos el sentido de la desigualdad:</p>
+<div class="mate"><span class="mate-bloque">\[x&gt;-\frac{11}{3}.\]</span></div>
+<p>El conjunto solución es:</p>
+<div class="mate"><span class="mate-bloque">\[\left(-\frac{11}{3},\infty\right).\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-12-7"><div class="caja-titulo">Ejemplo 12.7</div><div class="caja-cuerpo"><p>Traduce el enunciado “Tengo a lo más $300” a una desigualdad.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La expresión “a lo más” indica una cantidad máxima que sí puede alcanzarse. Si \(x\) representa la cantidad de dinero, entonces:</p>
+<div class="mate"><span class="mate-bloque">\[x\leq 300.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Algunas expresiones frecuentes se traducen de la siguiente manera:</p>
+<ul><li>“a lo más”, “como máximo” y “cuando mucho” indican: <span class="mate-bloque">\[\leq;\]</span></li><li>“al menos”, “como mínimo” y “por lo menos” indican: <span class="mate-bloque">\[\geq;\]</span></li><li>“más de” indica: <span class="mate-bloque">\[&gt;;\]</span></li><li>“menos de” indica: <span class="mate-bloque">\[&lt;.\]</span></li></ul></div></section>
+<h2 id="clasificacion-segun-el-conjunto-solucion"><span class="num">12.6</span> Clasificación según el conjunto solución<a class="enlace-seccion" href="#clasificacion-segun-el-conjunto-solucion" aria-label="Enlace a esta sección">#</a></h2>
+<p>Al simplificar una desigualdad, la variable puede eliminarse. La relación resultante permite determinar el conjunto solución.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Desigualdad siempre verdadera o siempre falsa</div><div class="caja-cuerpo"><p>Después de simplificar pueden presentarse los siguientes casos:</p>
+<ul><li>Si se obtiene una desigualdad verdadera, como <span class="mate-bloque">\[0&lt;5,\]</span> todos los números reales satisfacen la desigualdad.</li><li>Si se obtiene una desigualdad falsa, como <span class="mate-bloque">\[4&lt;1,\]</span> la desigualdad no tiene solución.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-12-8"><div class="caja-titulo">Ejemplo 12.8</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[2(x+1)&gt;2x-3.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la propiedad distributiva:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2x+2 &amp;&gt;2x-3. \end{aligned}\]</span></div>
+<p>Restamos \(2x\) en ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[2&gt;-3.\]</span></div>
+<p>La desigualdad es verdadera para todo número real. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x\in\R.\]</span></div></div></details></div></section>
+<h2 id="desigualdades-de-segundo-grado"><span class="num">12.7</span> Desigualdades de segundo grado<a class="enlace-seccion" href="#desigualdades-de-segundo-grado" aria-label="Enlace a esta sección">#</a></h2>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Una desigualdad cuadrática compara un polinomio de segundo grado con cero. Para resolverla se determinan los puntos en los que el polinomio vale cero y se analiza su signo en los intervalos que estos puntos producen.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Método de análisis de signos</div><div class="caja-cuerpo"><p>Para resolver una desigualdad de la forma:</p>
+<div class="mate"><span class="mate-bloque">\[ax^2+bx+c&gt;0,\]</span></div>
+<p>o con cualquiera de los símbolos \(&lt;\), \(\geq\) o \(\leq\):</p>
+<ol><li>se escribe la desigualdad con cero en uno de los miembros;</li><li>se resuelve la ecuación asociada: <span class="mate-bloque">\[ax^2+bx+c=0;\]</span></li><li>se ordenan las raíces reales y se divide la recta numérica en intervalos;</li><li>se determina el signo del polinomio en cada intervalo;</li><li>se seleccionan los intervalos que satisfacen la desigualdad;</li><li>si la desigualdad contiene \(\leq\) o \(\geq\), se incluyen las raíces; si contiene \(&lt;\) o \(&gt;\), se excluyen.</li></ol></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Signo de un trinomio con dos raíces</div><div class="caja-cuerpo"><p>Supongamos que el polinomio</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=ax^2+bx+c\]</span></div>
+<p>tiene dos raíces reales distintas:</p>
+<div class="mate"><span class="mate-bloque">\[x_1&lt;x_2.\]</span></div>
+<p>Si \(a&gt;0\), entonces:</p>
+<ul><li>\(f(x)&gt;0\) en <span class="mate-bloque">\[(-\infty,x_1)\cup(x_2,\infty);\]</span></li><li>\(f(x)&lt;0\) en <span class="mate-bloque">\[(x_1,x_2).\]</span></li></ul>
+<p>Si \(a&lt;0\), los signos se invierten:</p>
+<ul><li>\(f(x)&lt;0\) fuera de las raíces;</li><li>\(f(x)&gt;0\) entre las raíces.</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El patrón anterior supone que existen dos raíces reales distintas.</p>
+<p>Si la ecuación asociada tiene una raíz doble, el polinomio no cambia de signo al atravesarla. Si no tiene raíces reales, el polinomio conserva el signo de su coeficiente cuadrático para todo número real.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-12-9"><div class="caja-titulo">Ejemplo 12.9</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-4&gt;0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-4 = (x-2)(x+2).\]</span></div>
+<p>Las raíces son:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=-2, \qquad x_2=2.\]</span></div>
+<p>Como el coeficiente de \(x^2\) es positivo, el trinomio es positivo fuera del intervalo comprendido entre las raíces. Como la desigualdad es estricta, las raíces no se incluyen:</p>
+<div class="mate"><span class="mate-bloque">\[x\in(-\infty,-2)\cup(2,\infty).\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-12-10"><div class="caja-titulo">Ejemplo 12.10</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+11x\leq 12.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos cero en el segundo miembro:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+11x-12\leq 0.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x+12)(x-1)\leq 0.\]</span></div>
+<p>Las raíces son:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=-12, \qquad x_2=1.\]</span></div>
+<p>Como el coeficiente cuadrático es positivo, el polinomio es menor que cero entre las raíces. La desigualdad incluye la igualdad, por lo que se incluyen ambos extremos:</p>
+<div class="mate"><span class="mate-bloque">\[x\in[-12,1].\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-12-11"><div class="caja-titulo">Ejemplo 12.11</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[9-x^2\geq 0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Podemos factorizar directamente:</p>
+<div class="mate"><span class="mate-bloque">\[9-x^2 = (3-x)(3+x).\]</span></div>
+<p>Las raíces son:</p>
+<div class="mate"><span class="mate-bloque">\[x=-3 \qquad\text{y}\qquad x=3.\]</span></div>
+<p>El coeficiente de \(x^2\) es negativo, por lo que el polinomio es positivo entre las raíces. Como la desigualdad contiene la igualdad, los extremos se incluyen:</p>
+<div class="mate"><span class="mate-bloque">\[x\in[-3,3].\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-12-12"><div class="caja-titulo">Ejemplo 12.12</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-6x+9\leq 0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos el trinomio:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-6x+9 = (x-3)^2.\]</span></div>
+<p>Todo cuadrado es mayor o igual que cero. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[(x-3)^2\leq 0\]</span></div>
+<p>solo se cumple cuando:</p>
+<div class="mate"><span class="mate-bloque">\[(x-3)^2=0.\]</span></div>
+<p>De aquí:</p>
+<div class="mate"><span class="mate-bloque">\[x=3.\]</span></div>
+<p>El conjunto solución es:</p>
+<div class="mate"><span class="mate-bloque">\[\{3\}.\]</span></div></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">12.8</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-12-1"><div class="caja-titulo">Ejercicio 12.1</div><div class="caja-cuerpo"><p>Resuelve y expresa la solución como intervalo:</p>
+<div class="mate"><span class="mate-bloque">\[10x-8&gt;12x-2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[10x - 12x &gt; -2 + 8 \Longrightarrow -2x &gt; 6 \Longrightarrow x &lt; -3.\]</span> Conjunto solución: \((-\infty, -3)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-12-2"><div class="caja-titulo">Ejercicio 12.2</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[8x-3+4x&lt;6x+21.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[12x - 3 &lt; 6x + 21 \Longrightarrow 6x &lt; 24 \Longrightarrow x &lt; 4.\]</span> Conjunto solución: \((-\infty, 4)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-12-3"><div class="caja-titulo">Ejercicio 12.3</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2x}{3} - \frac{5}{2} &gt; \frac{3x}{2} - \frac{7}{3}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>mcm\((3, 2) = 6\). Multiplicamos: <span class="mate-bloque">\[4x - 15 &gt; 9x - 14 \Longrightarrow 4x - 9x &gt; -14 + 15 \Longrightarrow -5x &gt; 1 \Longrightarrow x &lt; -\frac{1}{5}.\]</span> Conjunto solución: \(\left(-\infty, -\dfrac{1}{5}\right)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-12-4"><div class="caja-titulo">Ejercicio 12.4</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[3x-10+6x\geq 12x+8.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[9x - 10 \geq 12x + 8 \Longrightarrow -3x \geq 18 \Longrightarrow x \leq -6.\]</span> Conjunto solución: \((-\infty, -6]\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-12-5"><div class="caja-titulo">Ejercicio 12.5</div><div class="caja-cuerpo"><p>Traduce el siguiente enunciado a una desigualdad:</p>
+<blockquote><p>Tengo al menos $200.</p></blockquote><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(x \geq 200\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-12-6"><div class="caja-titulo">Ejercicio 12.6</div><div class="caja-cuerpo"><p>Traduce el siguiente enunciado a una desigualdad:</p>
+<blockquote><p>La temperatura está entre \(20^\circ\text{C}\) y \(30^\circ\text{C}\).</p></blockquote>
+<p>Considera que ambos valores están incluidos.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(20 \leq x \leq 30\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-12-7"><div class="caja-titulo">Ejercicio 12.7</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-5x-6&gt;0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Raíces: \((x - 6)(x + 1) = 0\), \(x_1 = -1\), \(x_2 = 6\). Como \(a &gt; 0\) y la desigualdad es \(&gt; 0\): <span class="mate-bloque">\[(-\infty, -1) \cup (6, \infty).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-12-8"><div class="caja-titulo">Ejercicio 12.8</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[3x^2-x-2\leq 0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos \(3x^2 - x - 2 = (3x + 2)(x - 1) = 0\). Raíces: \(x_1 = -\frac{2}{3}\), \(x_2 = 1\). Como \(a &gt; 0\) y la desigualdad es \(\leq 0\): <span class="mate-bloque">\[\left[-\frac{2}{3}, 1\right].\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-12-9"><div class="caja-titulo">Ejercicio 12.9</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-36\geq 0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Raíces: \(x^2 = 36\), \(x_1 = -6\), \(x_2 = 6\). Como \(a &gt; 0\) y la desigualdad es \(\geq 0\): <span class="mate-bloque">\[(-\infty, -6] \cup [6, \infty).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-12-10"><div class="caja-titulo">Ejercicio 12.10</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-7x+10\leq 0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos: \((x - 5)(x - 2) = 0\). Raíces: \(x_1 = 2\), \(x_2 = 5\). Como \(a &gt; 0\) y la desigualdad es \(\leq 0\): <span class="mate-bloque">\[[2, 5].\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="11-ecuaciones-segundo-grado.html"><span>← Anterior</span>11. Ecuaciones de segundo grado</a><a class="nav-siguiente" href="13-sistemas-ecuaciones.html"><span>Siguiente →</span>13. Sistemas de ecuaciones</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

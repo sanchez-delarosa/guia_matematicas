@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>28. Identidades trigonométricas · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte V: Trigonometría</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#identidades-y-ecuaciones-trigonometricas"><span class="num">28.1</span> Identidades y ecuaciones trigonométricas</a></li><li class="nivel-2"><a href="#identidades-reciprocas"><span class="num">28.2</span> Identidades recíprocas</a></li><li class="nivel-2"><a href="#identidades-de-cociente"><span class="num">28.3</span> Identidades de cociente</a></li><li class="nivel-2"><a href="#identidades-pitagoricas"><span class="num">28.4</span> Identidades pitagóricas</a></li><li class="nivel-2"><a href="#obtencion-de-las-identidades-pitagoricas"><span class="num">28.5</span> Obtención de las identidades pitagóricas</a></li><li class="nivel-2"><a href="#equivalencias-utiles"><span class="num">28.6</span> Equivalencias útiles</a></li><li class="nivel-2"><a href="#expresion-de-funciones-en-terminos-de-seno-y-coseno"><span class="num">28.7</span> Expresión de funciones en términos de seno y coseno</a></li><li class="nivel-2"><a href="#expresion-de-una-funcion-en-terminos-de-otra"><span class="num">28.8</span> Expresión de una función en términos de otra</a></li><li class="nivel-2"><a href="#simplificacion-de-expresiones"><span class="num">28.9</span> Simplificación de expresiones</a></li><li class="nivel-2"><a href="#uso-de-conjugados"><span class="num">28.10</span> Uso de conjugados</a></li><li class="nivel-2"><a href="#demostracion-de-identidades"><span class="num">28.11</span> Demostración de identidades</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">28.12</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#resumen-de-identidades-fundamentales"><span class="num">28.13</span> Resumen de identidades fundamentales</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">28.14</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 28</p><h1>Identidades trigonométricas</h1></header>
+<p><span id="cap-identidades-trigonometricas" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span> <span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Una identidad trigonométrica es una igualdad entre expresiones trigonométricas que se cumple para todos los valores del ángulo para los que ambas expresiones están definidas.</p>
+<p>Las identidades permiten simplificar expresiones, transformar unas funciones trigonométricas en otras, demostrar igualdades y resolver ecuaciones. En este capítulo estudiarás las identidades recíprocas, de cociente y pitagóricas, así como las principales estrategias para simplificar expresiones y demostrar identidades.</p>
+<h2 id="identidades-y-ecuaciones-trigonometricas"><span class="num">28.1</span> Identidades y ecuaciones trigonométricas<a class="enlace-seccion" href="#identidades-y-ecuaciones-trigonometricas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>identidad trigonométrica</strong> es una igualdad que se cumple para todos los valores de la variable que pertenecen al dominio de ambos miembros.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta+\cos^2\theta=1\]</span></div>
+<p>es una identidad porque se cumple para todo número real \(\theta\).</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>ecuación trigonométrica</strong> es una igualdad que se cumple solamente para determinados valores de la variable.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta=\frac{1}{2}\]</span></div>
+<p>no es una identidad, pues únicamente se cumple para ciertos valores de \(\theta\).</p></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Una identidad no debe confundirse con una ecuación.</p>
+<p>En una ecuación se buscan los valores que hacen verdadera la igualdad. En una identidad se demuestra que ambos miembros representan la misma expresión dentro de su dominio común.</p></div></section>
+<h2 id="identidades-reciprocas"><span class="num">28.2</span> Identidades recíprocas<a class="enlace-seccion" href="#identidades-reciprocas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Identidades recíprocas</div><div class="caja-cuerpo"><p>Las funciones cosecante, secante y cotangente son los recíprocos del seno, coseno y tangente, respectivamente:</p>
+<div class="mate"><span class="mate-bloque">\[\csc\theta = \frac{1}{\sen\theta}, \qquad \sen\theta\neq0;\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sec\theta = \frac{1}{\cos\theta}, \qquad \cos\theta\neq0;\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cot\theta = \frac{1}{\tan\theta},\]</span></div>
+<p>para los valores de \(\theta\) en los que ambas expresiones estén definidas.</p></div></section>
+<p>Las identidades también pueden expresarse en la dirección contraria:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta = \frac{1}{\csc\theta},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cos\theta = \frac{1}{\sec\theta},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\tan\theta = \frac{1}{\cot\theta}.\]</span></div>
+<p>En forma de producto:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta\csc\theta=1,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cos\theta\sec\theta=1,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\tan\theta\cot\theta=1,\]</span></div>
+<p>siempre que las funciones involucradas estén definidas.</p>
+<section class="caja caja-ejemplo" id="ejemplo-28-1"><div class="caja-titulo">Ejemplo 28.1</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta\csc\theta.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos la identidad recíproca:</p>
+<div class="mate"><span class="mate-bloque">\[\csc\theta = \frac{1}{\sen\theta}.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sen\theta\csc\theta &amp;= \sen\theta \left( \frac{1}{\sen\theta} \right)\\ &amp;=1. \end{aligned}\]</span></div>
+<p>La simplificación es válida cuando:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta\neq0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-2"><div class="caja-titulo">Ejemplo 28.2</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta\sec\theta+\sen\theta\csc\theta.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos las identidades recíprocas:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta\sec\theta=1\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta\csc\theta=1.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \cos\theta\sec\theta+\sen\theta\csc\theta &amp;=1+1\\ &amp;=2. \end{aligned}\]</span></div>
+<p>La expresión original requiere:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta\neq0 \qquad\text{y}\qquad \cos\theta\neq0.\]</span></div></div></details></div></section>
+<h2 id="identidades-de-cociente"><span class="num">28.3</span> Identidades de cociente<a class="enlace-seccion" href="#identidades-de-cociente" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Identidades de cociente</div><div class="caja-cuerpo"><p>La tangente y la cotangente pueden expresarse como cocientes de seno y coseno:</p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta = \frac{\sen\theta}{\cos\theta}, \qquad \cos\theta\neq0;\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cot\theta = \frac{\cos\theta}{\sen\theta}, \qquad \sen\theta\neq0.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Las identidades de cociente explican los signos de la tangente y la cotangente.</p>
+<p>Cuando el seno y el coseno tienen el mismo signo:</p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta&gt;0.\]</span></div>
+<p>Cuando tienen signos distintos:</p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta&lt;0.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-3"><div class="caja-titulo">Ejemplo 28.3</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sen\theta}{\cos\theta}\cot\theta.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Reconocemos que:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sen\theta}{\cos\theta} = \tan\theta.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{\sen\theta}{\cos\theta}\cot\theta &amp;= \tan\theta\cot\theta\\ &amp;=1. \end{aligned}\]</span></div>
+<p>La expresión original requiere:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta\neq0 \qquad\text{y}\qquad \cos\theta\neq0.\]</span></div></div></details></div></section>
+<h2 id="identidades-pitagoricas"><span class="num">28.4</span> Identidades pitagóricas<a class="enlace-seccion" href="#identidades-pitagoricas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Identidad pitagórica fundamental</div><div class="caja-cuerpo"><p>Para todo número real \(\theta\):</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta+\cos^2\theta=1.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La notación:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta\]</span></div>
+<p>significa:</p>
+<div class="mate"><span class="mate-bloque">\[(\sen\theta)^2.\]</span></div>
+<p>No significa:</p>
+<div class="mate"><span class="mate-bloque">\[\sen(\theta^2).\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Identidades pitagóricas derivadas</div><div class="caja-cuerpo"><p>Para los valores de \(\theta\) en los que las expresiones estén definidas:</p>
+<div class="mate"><span class="mate-bloque">\[1+\tan^2\theta=\sec^2\theta\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[1+\cot^2\theta=\csc^2\theta.\]</span></div></div></section>
+<h2 id="obtencion-de-las-identidades-pitagoricas"><span class="num">28.5</span> Obtención de las identidades pitagóricas<a class="enlace-seccion" href="#obtencion-de-las-identidades-pitagoricas" aria-label="Enlace a esta sección">#</a></h2>
+<p>Las identidades derivadas pueden obtenerse a partir de:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta+\cos^2\theta=1.\]</span></div>
+<p>Si dividimos todos los términos entre \(\cos^2\theta\), con \(\cos\theta\neq0\), obtenemos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sen^2\theta}{\cos^2\theta} + \frac{\cos^2\theta}{\cos^2\theta} = \frac{1}{\cos^2\theta}.\]</span></div>
+<p>Esto produce:</p>
+<div class="mate"><span class="mate-bloque">\[\tan^2\theta+1=\sec^2\theta.\]</span></div>
+<p>Si dividimos la identidad fundamental entre \(\sen^2\theta\), con \(\sen\theta\neq0\), obtenemos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sen^2\theta}{\sen^2\theta} + \frac{\cos^2\theta}{\sen^2\theta} = \frac{1}{\sen^2\theta}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[1+\cot^2\theta=\csc^2\theta.\]</span></div>
+<h2 id="equivalencias-utiles"><span class="num">28.6</span> Equivalencias útiles<a class="enlace-seccion" href="#equivalencias-utiles" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Despejes de la identidad fundamental</div><div class="caja-cuerpo"><p>A partir de:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta+\cos^2\theta=1\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta = 1-\cos^2\theta\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\cos^2\theta = 1-\sen^2\theta.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Despejes de las identidades derivadas</div><div class="caja-cuerpo"><p>A partir de:</p>
+<div class="mate"><span class="mate-bloque">\[1+\tan^2\theta=\sec^2\theta\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[\tan^2\theta = \sec^2\theta-1\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\sec^2\theta-\tan^2\theta=1.\]</span></div>
+<p>A partir de:</p>
+<div class="mate"><span class="mate-bloque">\[1+\cot^2\theta=\csc^2\theta\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[\cot^2\theta = \csc^2\theta-1\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\csc^2\theta-\cot^2\theta=1.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Estas formas despejadas son especialmente útiles cuando una expresión contiene una diferencia como:</p>
+<div class="mate"><span class="mate-bloque">\[1-\sen^2\theta,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1-\cos^2\theta,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sec^2\theta-\tan^2\theta\]</span></div>
+<p>o:</p>
+<div class="mate"><span class="mate-bloque">\[\csc^2\theta-\cot^2\theta.\]</span></div></div></section>
+<h2 id="expresion-de-funciones-en-terminos-de-seno-y-coseno"><span class="num">28.7</span> Expresión de funciones en términos de seno y coseno<a class="enlace-seccion" href="#expresion-de-funciones-en-terminos-de-seno-y-coseno" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Conversión a seno y coseno</div><div class="caja-cuerpo"><p>Todas las funciones trigonométricas básicas pueden expresarse mediante el seno y el coseno:</p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta = \frac{\sen\theta}{\cos\theta},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cot\theta = \frac{\cos\theta}{\sen\theta},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sec\theta = \frac{1}{\cos\theta},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\csc\theta = \frac{1}{\sen\theta}.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Convertir todas las funciones a seno y coseno suele facilitar la simplificación porque permite trabajar con fracciones algebraicas y utilizar directamente:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta+\cos^2\theta=1.\]</span></div></div></section>
+<h2 id="expresion-de-una-funcion-en-terminos-de-otra"><span class="num">28.8</span> Expresión de una función en términos de otra<a class="enlace-seccion" href="#expresion-de-una-funcion-en-terminos-de-otra" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-28-4"><div class="caja-titulo">Ejemplo 28.4</div><div class="caja-cuerpo"><p>Expresa \(\sen\theta\) en términos de \(\cos\theta\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Partimos de:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta+\cos^2\theta=1.\]</span></div>
+<p>Despejamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sen^2\theta &amp;=1-\cos^2\theta. \end{aligned}\]</span></div>
+<p>Aplicamos raíz cuadrada:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta = \pm\sqrt{1-\cos^2\theta}.\]</span></div>
+<p>El signo depende del cuadrante en el que se encuentre \(\theta\).</p></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>De:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta = 1-\cos^2\theta\]</span></div>
+<p>no puede concluirse únicamente:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta = \sqrt{1-\cos^2\theta}.\]</span></div>
+<p>Al aplicar raíz cuadrada deben considerarse ambos signos:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta = \pm\sqrt{1-\cos^2\theta}.\]</span></div>
+<p>El cuadrante determina el signo correcto.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-5"><div class="caja-titulo">Ejemplo 28.5</div><div class="caja-cuerpo"><p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta=\frac{4}{5}\]</span></div>
+<p>y \(\theta\) se encuentra en el primer cuadrante, encuentra \(\sen\theta\) y \(\tan\theta\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos la identidad fundamental:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta+\cos^2\theta=1.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sen^2\theta &amp;= 1-\cos^2\theta\\ &amp;= 1-\left(\frac{4}{5}\right)^2\\ &amp;= 1-\frac{16}{25}\\ &amp;= \frac{9}{25}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta = \pm\frac{3}{5}.\]</span></div>
+<p>Como \(\theta\) se encuentra en el primer cuadrante, el seno es positivo:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta = \frac{3}{5}.\]</span></div>
+<p>Ahora calculamos la tangente:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \tan\theta &amp;= \frac{\sen\theta}{\cos\theta}\\ &amp;= \frac{\frac{3}{5}}{\frac{4}{5}}\\ &amp;= \frac{3}{4}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-6"><div class="caja-titulo">Ejemplo 28.6</div><div class="caja-cuerpo"><p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta=\frac{5}{13}\]</span></div>
+<p>y \(\theta\) está en el segundo cuadrante, encuentra \(\cos\theta\) y \(\tan\theta\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la identidad fundamental:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \cos^2\theta &amp;= 1-\sen^2\theta\\ &amp;= 1-\left(\frac{5}{13}\right)^2\\ &amp;= 1-\frac{25}{169}\\ &amp;= \frac{144}{169}. \end{aligned}\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta = \pm\frac{12}{13}.\]</span></div>
+<p>En el segundo cuadrante, el coseno es negativo:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta = -\frac{12}{13}.\]</span></div>
+<p>Calculamos la tangente:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \tan\theta &amp;= \frac{\sen\theta}{\cos\theta}\\ &amp;= \frac{\frac{5}{13}}{-\frac{12}{13}}\\ &amp;= -\frac{5}{12}. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="simplificacion-de-expresiones"><span class="num">28.9</span> Simplificación de expresiones<a class="enlace-seccion" href="#simplificacion-de-expresiones" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Estrategia de simplificación</div><div class="caja-cuerpo"><p>Para simplificar una expresión trigonométrica puede seguirse este procedimiento:</p>
+<ol><li>Identificar las identidades que aparecen directamente.</li><li>Sustituir secante, cosecante, tangente y cotangente por expresiones en seno y coseno cuando resulte conveniente.</li><li>Factorizar o buscar un denominador común.</li><li>Aplicar las identidades pitagóricas.</li><li>Cancelar únicamente factores completos.</li><li>Indicar las restricciones del dominio cuando la simplificación elimine algún denominador.</li></ol></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Solo pueden cancelarse factores, no términos separados por una suma o una resta.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sen\theta\cos\theta}{\cos\theta} = \sen\theta\]</span></div>
+<p>cuando \(\cos\theta\neq0\).</p>
+<p>En cambio, no puede cancelarse el coseno en:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sen\theta+\cos\theta}{\cos\theta}.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-7"><div class="caja-titulo">Ejemplo 28.7</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sen^2\theta+\cos^2\theta}{\cos\theta}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta+\cos^2\theta=1.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{\sen^2\theta+\cos^2\theta}{\cos\theta} &amp;= \frac{1}{\cos\theta}\\ &amp;= \sec\theta. \end{aligned}\]</span></div>
+<p>La expresión está definida cuando:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta\neq0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-8"><div class="caja-titulo">Ejemplo 28.8</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta\cos\theta.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Expresamos la tangente mediante seno y coseno:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \tan\theta\cos\theta &amp;= \left( \frac{\sen\theta}{\cos\theta} \right) \cos\theta\\ &amp;= \sen\theta. \end{aligned}\]</span></div>
+<p>Esta equivalencia conserva la restricción original:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta\neq0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-9"><div class="caja-titulo">Ejemplo 28.9</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1-\sen^2\theta}{\cos\theta}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Por la identidad pitagórica:</p>
+<div class="mate"><span class="mate-bloque">\[1-\sen^2\theta = \cos^2\theta.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{1-\sen^2\theta}{\cos\theta} &amp;= \frac{\cos^2\theta}{\cos\theta}\\ &amp;= \cos\theta. \end{aligned}\]</span></div>
+<p>La expresión original requiere:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta\neq0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-10"><div class="caja-titulo">Ejemplo 28.10</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\cos\theta}{\sen\theta} + \frac{\sen\theta}{\cos\theta}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El denominador común es:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta\cos\theta.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{\cos\theta}{\sen\theta} + \frac{\sen\theta}{\cos\theta} &amp;= \frac{\cos^2\theta+\sen^2\theta} {\sen\theta\cos\theta}\\ &amp;= \frac{1}{\sen\theta\cos\theta}\\ &amp;= \csc\theta\sec\theta. \end{aligned}\]</span></div>
+<p>La expresión original requiere:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta\neq0 \qquad\text{y}\qquad \cos\theta\neq0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-11"><div class="caja-titulo">Ejemplo 28.11</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\sec^2\theta-\tan^2\theta.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>De:</p>
+<div class="mate"><span class="mate-bloque">\[1+\tan^2\theta=\sec^2\theta\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[\sec^2\theta-\tan^2\theta=1.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-12"><div class="caja-titulo">Ejemplo 28.12</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sec\theta}{\csc\theta}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos ambas funciones mediante seno y coseno:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{\sec\theta}{\csc\theta} &amp;= \frac{\frac{1}{\cos\theta}} {\frac{1}{\sen\theta}}\\ &amp;= \frac{\sen\theta}{\cos\theta}\\ &amp;= \tan\theta. \end{aligned}\]</span></div>
+<p>La expresión original está definida cuando:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta\neq0 \qquad\text{y}\qquad \cos\theta\neq0.\]</span></div></div></details></div></section>
+<h2 id="uso-de-conjugados"><span class="num">28.10</span> Uso de conjugados<a class="enlace-seccion" href="#uso-de-conjugados" aria-label="Enlace a esta sección">#</a></h2>
+<p>En algunas expresiones aparecen factores como:</p>
+<div class="mate"><span class="mate-bloque">\[1+\sen\theta \qquad\text{y}\qquad 1-\sen\theta.\]</span></div>
+<p>Estos factores son conjugados y satisfacen:</p>
+<div class="mate"><span class="mate-bloque">\[(1+\sen\theta)(1-\sen\theta) = 1-\sen^2\theta = \cos^2\theta.\]</span></div>
+<p>De manera semejante:</p>
+<div class="mate"><span class="mate-bloque">\[(1+\cos\theta)(1-\cos\theta) = 1-\cos^2\theta = \sen^2\theta.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-28-13"><div class="caja-titulo">Ejemplo 28.13</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\cos\theta}{1-\sen\theta}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos el numerador y el denominador por el conjugado:</p>
+<div class="mate"><span class="mate-bloque">\[1+\sen\theta.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{\cos\theta}{1-\sen\theta} &amp;= \frac{\cos\theta(1+\sen\theta)} {(1-\sen\theta)(1+\sen\theta)}\\ &amp;= \frac{\cos\theta(1+\sen\theta)} {1-\sen^2\theta}\\ &amp;= \frac{\cos\theta(1+\sen\theta)} {\cos^2\theta}\\ &amp;= \frac{1+\sen\theta}{\cos\theta}. \end{aligned}\]</span></div>
+<p>También puede escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[\sec\theta+\tan\theta.\]</span></div>
+<p>La igualdad se considera dentro del dominio común de las expresiones.</p></div></details></div></section>
+<h2 id="demostracion-de-identidades"><span class="num">28.11</span> Demostración de identidades<a class="enlace-seccion" href="#demostracion-de-identidades" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Estrategia de demostración</div><div class="caja-cuerpo"><p>Para demostrar una identidad trigonométrica:</p>
+<ol><li>identifica el miembro más complicado;</li><li>transforma solamente ese miembro mediante operaciones algebraicas válidas e identidades conocidas;</li><li>evita asumir como verdadera la igualdad que se pretende demostrar;</li><li>no pases términos de un miembro a otro como si estuvieras resolviendo una ecuación;</li><li>continúa hasta obtener exactamente el otro miembro;</li><li>considera siempre el dominio común de ambas expresiones.</li></ol></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>También es válido transformar ambos miembros por separado hasta obtener una misma expresión intermedia.</p>
+<p>Sin embargo, en demostraciones elementales suele ser más claro trabajar únicamente con el miembro más complicado.</p></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Comprobar una igualdad para uno o varios valores de \(\theta\) no demuestra que sea una identidad.</p>
+<p>Una identidad debe justificarse mediante transformaciones algebraicas válidas para todos los valores de su dominio.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-14"><div class="caja-titulo">Ejemplo 28.14</div><div class="caja-cuerpo"><p>Demuestra que:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sen\theta}{\csc\theta} + \frac{\cos\theta}{\sec\theta} = 1.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Trabajamos con el miembro izquierdo:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{\sen\theta}{\csc\theta} + \frac{\cos\theta}{\sec\theta} &amp;= \frac{\sen\theta} {\frac{1}{\sen\theta}} + \frac{\cos\theta} {\frac{1}{\cos\theta}}\\ &amp;= \sen^2\theta+\cos^2\theta\\ &amp;=1. \end{aligned}\]</span></div>
+<p>Por tanto, la identidad queda demostrada dentro del dominio de la expresión original.</p></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-15"><div class="caja-titulo">Ejemplo 28.15</div><div class="caja-cuerpo"><p>Demuestra que:</p>
+<div class="mate"><span class="mate-bloque">\[(\sen\theta+\cos\theta)^2 = 1+2\sen\theta\cos\theta.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Desarrollamos el miembro izquierdo:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (\sen\theta+\cos\theta)^2 &amp;= \sen^2\theta + 2\sen\theta\cos\theta + \cos^2\theta\\ &amp;= \left( \sen^2\theta+\cos^2\theta \right) + 2\sen\theta\cos\theta\\ &amp;= 1+2\sen\theta\cos\theta. \end{aligned}\]</span></div>
+<p>Por tanto, la identidad queda demostrada.</p></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-28-16"><div class="caja-titulo">Ejemplo 28.16</div><div class="caja-cuerpo"><p>Demuestra que:</p>
+<div class="mate"><span class="mate-bloque">\[\sec\theta-\cos\theta = \tan\theta\sen\theta.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Trabajamos con el miembro izquierdo:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sec\theta-\cos\theta &amp;= \frac{1}{\cos\theta}-\cos\theta\\ &amp;= \frac{1-\cos^2\theta}{\cos\theta}\\ &amp;= \frac{\sen^2\theta}{\cos\theta}\\ &amp;= \left( \frac{\sen\theta}{\cos\theta} \right) \sen\theta\\ &amp;= \tan\theta\sen\theta. \end{aligned}\]</span></div>
+<p>Por tanto, la identidad queda demostrada cuando:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta\neq0.\]</span></div></div></details></div></section>
+<h2 id="errores-frecuentes"><span class="num">28.12</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al trabajar con identidades trigonométricas, evita los siguientes errores:</p>
+<ul><li>Confundir: <span class="mate-bloque">\[\sen^2\theta\]</span> con: <span class="mate-bloque">\[\sen(\theta^2).\]</span></li><li>Suponer incorrectamente: <span class="mate-bloque">\[\sen(\alpha+\beta) = \sen\alpha+\sen\beta.\]</span></li><li>Suponer incorrectamente: <span class="mate-bloque">\[\cos(\alpha+\beta) = \cos\alpha+\cos\beta.\]</span></li><li>Cancelar términos que no son factores.</li><li>Omitir el signo negativo al aplicar: <span class="mate-bloque">\[\sqrt{u^2}=|u|.\]</span></li><li>Dividir entre una expresión que puede ser cero sin indicar la restricción correspondiente.</li><li>Verificar únicamente un valor numérico y considerar que eso demuestra una identidad.</li></ul></div></section>
+<h2 id="resumen-de-identidades-fundamentales"><span class="num">28.13</span> Resumen de identidades fundamentales<a class="enlace-seccion" href="#resumen-de-identidades-fundamentales" aria-label="Enlace a esta sección">#</a></h2>
+<p>Las identidades principales del capítulo son:</p>
+<ul><li><p><strong>Recíprocas</strong></p>
+<div class="mate"><span class="mate-bloque">\[\csc\theta = \frac{1}{\sen\theta},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sec\theta = \frac{1}{\cos\theta},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cot\theta = \frac{1}{\tan\theta}.\]</span></div></li><li><p><strong>De cociente</strong></p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta = \frac{\sen\theta}{\cos\theta},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cot\theta = \frac{\cos\theta}{\sen\theta}.\]</span></div></li><li><p><strong>Pitagóricas</strong></p>
+<div class="mate"><span class="mate-bloque">\[\sen^2\theta+\cos^2\theta=1,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1+\tan^2\theta=\sec^2\theta,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1+\cot^2\theta=\csc^2\theta.\]</span></div></li></ul>
+<h2 id="ejercicios-propuestos"><span class="num">28.14</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-28-1"><div class="caja-titulo">Ejercicio 28.1</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta\cos\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\tan\theta \cdot \cos\theta = \frac{\sin\theta}{\cos\theta} \cdot \cos\theta = \sin\theta.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-28-2"><div class="caja-titulo">Ejercicio 28.2</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\cot\theta\sen\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\cot\theta \cdot \sin\theta = \frac{\cos\theta}{\sin\theta} \cdot \sin\theta = \cos\theta.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-28-3"><div class="caja-titulo">Ejercicio 28.3</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta\sec\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\sin\theta \cdot \sec\theta = \sin\theta \cdot \frac{1}{\cos\theta} = \frac{\sin\theta}{\cos\theta} = \tan\theta.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-28-4"><div class="caja-titulo">Ejercicio 28.4</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1-\cos^2\theta}{\sen\theta}.\]</span></div>
+<p>Indica las restricciones de la expresión original.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como \(1 - \cos^2\theta = \sin^2\theta\): <span class="mate-bloque">\[\frac{\sin^2\theta}{\sin\theta} = \sin\theta.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-28-5"><div class="caja-titulo">Ejercicio 28.5</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sen^2\theta+\cos^2\theta}{\sen\theta}.\]</span></div>
+<p>Indica las restricciones de la expresión original.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El numerador es 1: <span class="mate-bloque">\[\frac{1}{\sin\theta} = \csc\theta.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-28-6"><div class="caja-titulo">Ejercicio 28.6</div><div class="caja-cuerpo"><p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta=\frac{3}{5}\]</span></div>
+<p>y \(\theta\) se encuentra en el primer cuadrante, encuentra:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta \qquad\text{y}\qquad \tan\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[\cos^2\theta = 1 - \sin^2\theta = 1 - \frac{9}{25} = \frac{16}{25}.\]</span> Primer cuadrante: \(\cos\theta = \dfrac{4}{5}\). <span class="mate-bloque">\[\tan\theta = \frac{3/5}{4/5} = \frac{3}{4}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-28-7"><div class="caja-titulo">Ejercicio 28.7</div><div class="caja-cuerpo"><p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta=\frac{5}{13}\]</span></div>
+<p>y \(\theta\) se encuentra en el cuarto cuadrante, encuentra:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta \qquad\text{y}\qquad \tan\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[\sin^2\theta = 1 - \cos^2\theta = 1 - \frac{25}{169} = \frac{144}{169}.\]</span> Cuarto cuadrante: \(\sin\theta = -\dfrac{12}{13}\). <span class="mate-bloque">\[\tan\theta = \frac{-12/13}{5/13} = -\frac{12}{5}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-28-8"><div class="caja-titulo">Ejercicio 28.8</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\csc^2\theta-\cot^2\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Por la identidad pitagórica: <span class="mate-bloque">\[\csc^2\theta - \cot^2\theta = 1.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-28-9"><div class="caja-titulo">Ejercicio 28.9</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sec\theta}{\tan\theta}.\]</span></div>
+<p>Indica las restricciones de la expresión original.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{\sec\theta}{\tan\theta} = \frac{1/\cos\theta}{\sin\theta/\cos\theta} = \frac{1}{\sin\theta} = \csc\theta.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-28-10"><div class="caja-titulo">Ejercicio 28.10</div><div class="caja-cuerpo"><p>Demuestra que:</p>
+<div class="mate"><span class="mate-bloque">\[1+\tan^2\theta=\sec^2\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Partimos de la identidad pitagórica: <span class="mate-bloque">\[\sin^2\theta + \cos^2\theta = 1.\]</span> Dividimos entre \(\cos^2\theta\): <span class="mate-bloque">\[\frac{\sin^2\theta}{\cos^2\theta} + 1 = \frac{1}{\cos^2\theta},\]</span> <span class="mate-bloque">\[\tan^2\theta + 1 = \sec^2\theta. \quad \checkmark\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-28-11"><div class="caja-titulo">Ejercicio 28.11</div><div class="caja-cuerpo"><p>Demuestra que:</p>
+<div class="mate"><span class="mate-bloque">\[\cot^2\theta+1=\csc^2\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>De la identidad pitagórica, dividimos entre \(\sin^2\theta\): <span class="mate-bloque">\[1 + \frac{\cos^2\theta}{\sin^2\theta} = \frac{1}{\sin^2\theta},\]</span> <span class="mate-bloque">\[1 + \cot^2\theta = \csc^2\theta. \quad \checkmark\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-28-12"><div class="caja-titulo">Ejercicio 28.12</div><div class="caja-cuerpo"><p>Demuestra que:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta\cot\theta=\cos\theta.\]</span></div>
+<p>Considera únicamente los valores para los que la expresión original está definida.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\sin\theta \cdot \cot\theta = \sin\theta \cdot \frac{\cos\theta}{\sin\theta} = \cos\theta. \quad \checkmark\]</span></div></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="27-circulo-trigonometrico.html"><span>← Anterior</span>27. Círculo trigonométrico</a><a class="nav-siguiente" href="29-funciones-trigonometricas.html"><span>Siguiente →</span>29. Funciones trigonométricas</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

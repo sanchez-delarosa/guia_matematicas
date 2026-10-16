@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>51. Elementos financieros básicos · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte XI: Matemáticas financieras</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#conceptos-fundamentales"><span class="num">51.1</span> Conceptos fundamentales</a></li><li class="nivel-2"><a href="#porcentajes-y-factores-multiplicativos"><span class="num">51.2</span> Porcentajes y factores multiplicativos</a></li><li class="nivel-3"><a href="#aumento-porcentual"><span class="num">51.2.1</span> Aumento porcentual</a></li><li class="nivel-3"><a href="#descuento-porcentual"><span class="num">51.2.2</span> Descuento porcentual</a></li><li class="nivel-2"><a href="#aumentos-y-descuentos"><span class="num">51.3</span> Aumentos y descuentos</a></li><li class="nivel-3"><a href="#cantidad-aumentada-o-descontada"><span class="num">51.3.1</span> Cantidad aumentada o descontada</a></li><li class="nivel-2"><a href="#porcentajes-sucesivos"><span class="num">51.4</span> Porcentajes sucesivos</a></li><li class="nivel-2"><a href="#cambio-porcentual"><span class="num">51.5</span> Cambio porcentual</a></li><li class="nivel-2"><a href="#impuestos"><span class="num">51.6</span> Impuestos</a></li><li class="nivel-2"><a href="#ganancia-y-perdida"><span class="num">51.7</span> Ganancia y pérdida</a></li><li class="nivel-3"><a href="#precio-de-venta-con-ganancia"><span class="num">51.7.1</span> Precio de venta con ganancia</a></li><li class="nivel-3"><a href="#precio-de-venta-con-perdida"><span class="num">51.7.2</span> Precio de venta con pérdida</a></li><li class="nivel-2"><a href="#interes-simple"><span class="num">51.8</span> Interés simple</a></li><li class="nivel-2"><a href="#interes-compuesto"><span class="num">51.9</span> Interés compuesto</a></li><li class="nivel-2"><a href="#interes-simple-e-interes-compuesto"><span class="num">51.10</span> Interés simple e interés compuesto</a></li><li class="nivel-2"><a href="#conversion-del-tiempo"><span class="num">51.11</span> Conversión del tiempo</a></li><li class="nivel-2"><a href="#conversion-proporcional-de-tasas"><span class="num">51.12</span> Conversión proporcional de tasas</a></li><li class="nivel-2"><a href="#calculo-del-valor-original"><span class="num">51.13</span> Cálculo del valor original</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">51.14</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#aumentos-y-descuentos-2">Aumentos y descuentos</a></li><li class="nivel-3"><a href="#valor-original">Valor original</a></li><li class="nivel-3"><a href="#interes-simple-2">Interés simple</a></li><li class="nivel-3"><a href="#interes-compuesto-2">Interés compuesto</a></li><li class="nivel-2"><a href="#resumen"><span class="num">51.15</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">51.16</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">51.17</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 51</p><h1>Elementos financieros básicos</h1></header>
+<p><span id="cap-elementos-financieros" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Las matemáticas financieras estudian el valor del dinero a través del tiempo.</p>
+<p>En este capítulo aprenderás a:</p>
+<ul><li>calcular aumentos y descuentos;</li><li>determinar precios antes y después de impuestos;</li><li>calcular ganancias y pérdidas;</li><li>identificar los elementos de una operación financiera;</li><li>distinguir entre interés simple e interés compuesto;</li><li>convertir tasas y periodos de tiempo.</li></ul>
+<h2 id="conceptos-fundamentales"><span class="num">51.1</span> Conceptos fundamentales<a class="enlace-seccion" href="#conceptos-fundamentales" aria-label="Enlace a esta sección">#</a></h2>
+<p>En una operación financiera aparecen los siguientes elementos:</p>
+<ul><li><strong>Capital \(C\)</strong>: cantidad inicial de dinero invertida, prestada o adeudada.</li><li><strong>Interés \(I\)</strong>: ganancia obtenida o costo pagado por utilizar el capital.</li><li><strong>Tasa de interés \(i\)</strong>: proporción del capital que se genera como interés en cada periodo.</li><li><strong>Tiempo \(t\)</strong>: duración de la operación.</li><li><strong>Monto \(M\)</strong>: cantidad acumulada al final de la operación.</li></ul>
+<p>La relación entre capital, interés y monto es:</p>
+<div class="mate"><span class="mate-bloque">\[M=C+I.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[I=M-C\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[C=M-I.\]</span></div>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:center"><strong>Símbolo</strong></th><th style="text-align:left"><strong>Concepto</strong></th><th style="text-align:left"><strong>Ejemplo</strong></th></tr></thead><tbody><tr><td style="text-align:center">\(C\)</td><td style="text-align:left">Capital inicial</td><td style="text-align:left">Dinero invertido</td></tr><tr><td style="text-align:center">\(I\)</td><td style="text-align:left">Interés</td><td style="text-align:left">Ganancia o costo</td></tr><tr><td style="text-align:center">\(i\)</td><td style="text-align:left">Tasa de interés</td><td style="text-align:left">\(8\%\) anual</td></tr><tr><td style="text-align:center">\(t\)</td><td style="text-align:left">Tiempo</td><td style="text-align:left">\(3\) años</td></tr><tr><td style="text-align:center">\(M\)</td><td style="text-align:left">Monto final</td><td style="text-align:left">Capital más interés</td></tr></tbody></table></div></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La tasa y el tiempo deben expresarse en la misma unidad.</p>
+<p>Si la tasa es anual, el tiempo debe expresarse en años. Si la tasa es mensual, el tiempo debe expresarse en meses.</p></div></section>
+<h2 id="porcentajes-y-factores-multiplicativos"><span class="num">51.2</span> Porcentajes y factores multiplicativos<a class="enlace-seccion" href="#porcentajes-y-factores-multiplicativos" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para utilizar un porcentaje en una fórmula debe convertirse a decimal.</p>
+<div class="mate"><span class="mate-bloque">\[p\% = \frac{p}{100}.\]</span></div>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[15\% = \frac{15}{100} = 0.15,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[8\% = \frac{8}{100} = 0.08,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[2.5\% = \frac{2.5}{100} = 0.025.\]</span></div>
+<h3 id="aumento-porcentual"><span class="num">51.2.1</span> Aumento porcentual<a class="enlace-seccion" href="#aumento-porcentual" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si una cantidad \(C\) aumenta \(p\%\), el valor final es:</p>
+<div class="mate"><span class="mate-bloque">\[C_{\text{final}} = C \left( 1+\frac{p}{100} \right).\]</span></div>
+<p>El factor:</p>
+<div class="mate"><span class="mate-bloque">\[1+\frac{p}{100}\]</span></div>
+<p>se denomina factor de aumento.</p>
+<h3 id="descuento-porcentual"><span class="num">51.2.2</span> Descuento porcentual<a class="enlace-seccion" href="#descuento-porcentual" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si una cantidad \(C\) disminuye \(p\%\), el valor final es:</p>
+<div class="mate"><span class="mate-bloque">\[C_{\text{final}} = C \left( 1-\frac{p}{100} \right).\]</span></div>
+<p>El factor:</p>
+<div class="mate"><span class="mate-bloque">\[1-\frac{p}{100}\]</span></div>
+<p>se denomina factor de descuento.</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Operación</strong></th><th style="text-align:left"><strong>Factor</strong></th><th style="text-align:left"><strong>Ejemplo</strong></th></tr></thead><tbody><tr><td style="text-align:left">Aumento del \(15\%\)</td><td style="text-align:left">\(1+0.15\)</td><td style="text-align:left">\(1.15\)</td></tr><tr><td style="text-align:left">Descuento del \(20\%\)</td><td style="text-align:left">\(1-0.20\)</td><td style="text-align:left">\(0.80\)</td></tr><tr><td style="text-align:left">Aumento del \(8\%\)</td><td style="text-align:left">\(1+0.08\)</td><td style="text-align:left">\(1.08\)</td></tr><tr><td style="text-align:left">Descuento del \(35\%\)</td><td style="text-align:left">\(1-0.35\)</td><td style="text-align:left">\(0.65\)</td></tr></tbody></table></div></div>
+<h2 id="aumentos-y-descuentos"><span class="num">51.3</span> Aumentos y descuentos<a class="enlace-seccion" href="#aumentos-y-descuentos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-51-1"><div class="caja-titulo">Ejemplo 51.1</div><div class="caja-cuerpo"><p>Un artículo cuesta:</p>
+<div class="mate"><span class="mate-bloque">\[\$800.\]</span></div>
+<p>Si su precio aumenta un \(15\%\), determina el nuevo precio.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El factor de aumento es:</p>
+<div class="mate"><span class="mate-bloque">\[1+0.15=1.15.\]</span></div>
+<p>Multiplicamos:</p>
+<div class="mate"><span class="mate-bloque">\[800(1.15)=920.\]</span></div>
+<p>Por tanto, el nuevo precio es:</p>
+<div class="mate"><span class="mate-bloque">\[\$920.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-51-2"><div class="caja-titulo">Ejemplo 51.2</div><div class="caja-cuerpo"><p>Una camisa cuesta:</p>
+<div class="mate"><span class="mate-bloque">\[\$450.\]</span></div>
+<p>Si tiene un descuento del \(20\%\), determina el precio final.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El factor de descuento es:</p>
+<div class="mate"><span class="mate-bloque">\[1-0.20=0.80.\]</span></div>
+<p>Multiplicamos:</p>
+<div class="mate"><span class="mate-bloque">\[450(0.80)=360.\]</span></div>
+<p>Por tanto, el precio final es:</p>
+<div class="mate"><span class="mate-bloque">\[\$360.\]</span></div></div></details></div></section>
+<h3 id="cantidad-aumentada-o-descontada"><span class="num">51.3.1</span> Cantidad aumentada o descontada<a class="enlace-seccion" href="#cantidad-aumentada-o-descontada" aria-label="Enlace a esta sección">#</a></h3>
+<p>El valor del aumento es:</p>
+<div class="mate"><span class="mate-bloque">\[A = C \left( \frac{p}{100} \right).\]</span></div>
+<p>El valor del descuento es:</p>
+<div class="mate"><span class="mate-bloque">\[D = C \left( \frac{p}{100} \right).\]</span></div>
+<p>Después se suma o se resta, según corresponda.</p>
+<section class="caja caja-ejemplo" id="ejemplo-51-3"><div class="caja-titulo">Ejemplo 51.3</div><div class="caja-cuerpo"><p>Calcula el descuento y el precio final de un artículo de:</p>
+<div class="mate"><span class="mate-bloque">\[\$1{,}200\]</span></div>
+<p>con descuento del \(25\%\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El descuento es:</p>
+<div class="mate"><span class="mate-bloque">\[D = 1200(0.25) = 300.\]</span></div>
+<p>El precio final es:</p>
+<div class="mate"><span class="mate-bloque">\[1200-300=900.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[D=\$300\]</span></div>
+<p>y el precio final es:</p>
+<div class="mate"><span class="mate-bloque">\[\$900.\]</span></div></div></details></div></section>
+<h2 id="porcentajes-sucesivos"><span class="num">51.4</span> Porcentajes sucesivos<a class="enlace-seccion" href="#porcentajes-sucesivos" aria-label="Enlace a esta sección">#</a></h2>
+<p>Cuando se aplican varios aumentos o descuentos, deben multiplicarse los factores correspondientes.</p>
+<p>No deben sumarse directamente los porcentajes.</p>
+<section class="caja caja-ejemplo" id="ejemplo-51-4"><div class="caja-titulo">Ejemplo 51.4</div><div class="caja-cuerpo"><p>Una cantidad aumenta \(20\%\) y después disminuye \(20\%\).</p>
+<p>Determina el cambio total.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El factor de aumento es:</p>
+<div class="mate"><span class="mate-bloque">\[1.20.\]</span></div>
+<p>El factor de descuento es:</p>
+<div class="mate"><span class="mate-bloque">\[0.80.\]</span></div>
+<p>El factor total es:</p>
+<div class="mate"><span class="mate-bloque">\[1.20(0.80)=0.96.\]</span></div>
+<p>La cantidad final representa el:</p>
+<div class="mate"><span class="mate-bloque">\[96\%\]</span></div>
+<p>de la cantidad inicial.</p>
+<p>Por tanto, existe una disminución total del:</p>
+<div class="mate"><span class="mate-bloque">\[4\%.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-51-5"><div class="caja-titulo">Ejemplo 51.5</div><div class="caja-cuerpo"><p>Una tienda aplica un descuento del \(30\%\) y después otro descuento del \(10\%\) sobre el precio rebajado.</p>
+<p>Determina el descuento total equivalente.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los factores de descuento son:</p>
+<div class="mate"><span class="mate-bloque">\[0.70\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[0.90.\]</span></div>
+<p>El factor total es:</p>
+<div class="mate"><span class="mate-bloque">\[0.70(0.90)=0.63.\]</span></div>
+<p>El precio final es el \(63\%\) del precio original.</p>
+<p>Por tanto, el descuento equivalente es:</p>
+<div class="mate"><span class="mate-bloque">\[100\%-63\%=37\%.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Dos descuentos del \(20\%\) no equivalen a un descuento del \(40\%\).</p>
+<p>El factor total es:</p>
+<div class="mate"><span class="mate-bloque">\[0.80(0.80)=0.64,\]</span></div>
+<p>por lo que el descuento equivalente es del:</p>
+<div class="mate"><span class="mate-bloque">\[36\%.\]</span></div></div></section>
+<h2 id="cambio-porcentual"><span class="num">51.5</span> Cambio porcentual<a class="enlace-seccion" href="#cambio-porcentual" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si una cantidad cambia de un valor inicial \(V_i\) a un valor final \(V_f\), el cambio porcentual es:</p>
+<div class="mate"><span class="mate-bloque">\[\text{Cambio porcentual} = \frac{V_f-V_i}{V_i} (100\%).\]</span></div>
+<p>Si el resultado es positivo, existe un aumento.</p>
+<p>Si el resultado es negativo, existe una disminución.</p>
+<section class="caja caja-ejemplo" id="ejemplo-51-6"><div class="caja-titulo">Ejemplo 51.6</div><div class="caja-cuerpo"><p>El precio de un producto cambia de:</p>
+<div class="mate"><span class="mate-bloque">\[\$500\]</span></div>
+<p>a:</p>
+<div class="mate"><span class="mate-bloque">\[\$575.\]</span></div>
+<p>Calcula el aumento porcentual.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El aumento es:</p>
+<div class="mate"><span class="mate-bloque">\[575-500=75.\]</span></div>
+<p>Dividimos entre el valor inicial:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{75}{500}=0.15.\]</span></div>
+<p>Convertimos a porcentaje:</p>
+<div class="mate"><span class="mate-bloque">\[0.15(100\%)=15\%.\]</span></div>
+<p>Por tanto, el precio aumentó:</p>
+<div class="mate"><span class="mate-bloque">\[15\%.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El cambio porcentual siempre se calcula respecto del valor inicial, no respecto del valor final.</p></div></section>
+<h2 id="impuestos"><span class="num">51.6</span> Impuestos<a class="enlace-seccion" href="#impuestos" aria-label="Enlace a esta sección">#</a></h2>
+<p>En los ejercicios de este capítulo se utiliza una tasa de IVA del:</p>
+<div class="mate"><span class="mate-bloque">\[16\%.\]</span></div>
+<p>Si \(P\) es el precio antes del impuesto, el importe del IVA es:</p>
+<div class="mate"><span class="mate-bloque">\[IVA = P(0.16).\]</span></div>
+<p>El precio final es:</p>
+<div class="mate"><span class="mate-bloque">\[P_{\text{final}} = P+IVA.\]</span></div>
+<p>Equivalentemente:</p>
+<div class="mate"><span class="mate-bloque">\[P_{\text{final}} = P(1.16).\]</span></div>
+<p>Para recuperar el precio antes del impuesto:</p>
+<div class="mate"><span class="mate-bloque">\[P = \frac{P_{\text{final}}}{1.16}.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-51-7"><div class="caja-titulo">Ejemplo 51.7</div><div class="caja-cuerpo"><p>Un producto cuesta:</p>
+<div class="mate"><span class="mate-bloque">\[\$580\]</span></div>
+<p>antes del IVA.</p>
+<p>Calcula el importe del IVA y el precio final.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El importe del IVA es:</p>
+<div class="mate"><span class="mate-bloque">\[580(0.16)=92.80.\]</span></div>
+<p>El precio final es:</p>
+<div class="mate"><span class="mate-bloque">\[580+92.80=672.80.\]</span></div>
+<p>También puede obtenerse directamente:</p>
+<div class="mate"><span class="mate-bloque">\[580(1.16)=672.80.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[IVA=\$92.80\]</span></div>
+<p>y el precio final es:</p>
+<div class="mate"><span class="mate-bloque">\[\$672.80.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-51-8"><div class="caja-titulo">Ejemplo 51.8</div><div class="caja-cuerpo"><p>El precio de un artículo con IVA incluido es:</p>
+<div class="mate"><span class="mate-bloque">\[\$1{,}044.\]</span></div>
+<p>Calcula el precio antes del impuesto.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Dividimos entre el factor:</p>
+<div class="mate"><span class="mate-bloque">\[P = \frac{1044}{1.16}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[P=900.\]</span></div>
+<p>Por tanto, el precio antes del IVA es:</p>
+<div class="mate"><span class="mate-bloque">\[\$900.\]</span></div>
+<p>El importe del impuesto es:</p>
+<div class="mate"><span class="mate-bloque">\[1044-900=144.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[IVA=\$144.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Para eliminar un impuesto incluido no debe restarse directamente el porcentaje al precio final.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[1044(0.84)\]</span></div>
+<p>no produce el precio original. El procedimiento correcto es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1044}{1.16}.\]</span></div></div></section>
+<h2 id="ganancia-y-perdida"><span class="num">51.7</span> Ganancia y pérdida<a class="enlace-seccion" href="#ganancia-y-perdida" aria-label="Enlace a esta sección">#</a></h2>
+<p>La ganancia es la diferencia entre el precio de venta y el costo:</p>
+<div class="mate"><span class="mate-bloque">\[G = V-C.\]</span></div>
+<p>La pérdida es:</p>
+<div class="mate"><span class="mate-bloque">\[L = C-V.\]</span></div>
+<p>Si la ganancia se calcula como porcentaje del costo:</p>
+<div class="mate"><span class="mate-bloque">\[\text{Porcentaje de ganancia} = \frac{G}{C}(100\%).\]</span></div>
+<p>Si la pérdida se calcula como porcentaje del costo:</p>
+<div class="mate"><span class="mate-bloque">\[\text{Porcentaje de pérdida} = \frac{L}{C}(100\%).\]</span></div>
+<h3 id="precio-de-venta-con-ganancia"><span class="num">51.7.1</span> Precio de venta con ganancia<a class="enlace-seccion" href="#precio-de-venta-con-ganancia" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si se desea una ganancia del \(p\%\) sobre el costo:</p>
+<div class="mate"><span class="mate-bloque">\[V = C \left( 1+\frac{p}{100} \right).\]</span></div>
+<h3 id="precio-de-venta-con-perdida"><span class="num">51.7.2</span> Precio de venta con pérdida<a class="enlace-seccion" href="#precio-de-venta-con-perdida" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si se vende con una pérdida del \(p\%\) sobre el costo:</p>
+<div class="mate"><span class="mate-bloque">\[V = C \left( 1-\frac{p}{100} \right).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-51-9"><div class="caja-titulo">Ejemplo 51.9</div><div class="caja-cuerpo"><p>Un comerciante compra un producto en:</p>
+<div class="mate"><span class="mate-bloque">\[\$450\]</span></div>
+<p>y desea obtener una ganancia del \(30\%\) sobre el costo.</p>
+<p>Calcula el precio de venta.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El factor de aumento es:</p>
+<div class="mate"><span class="mate-bloque">\[1.30.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[V = 450(1.30).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[V=585.\]</span></div>
+<p>Por tanto, el precio de venta es:</p>
+<div class="mate"><span class="mate-bloque">\[\$585.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-51-10"><div class="caja-titulo">Ejemplo 51.10</div><div class="caja-cuerpo"><p>Un producto se vende en:</p>
+<div class="mate"><span class="mate-bloque">\[\$690\]</span></div>
+<p>con una ganancia del \(15\%\) sobre el costo.</p>
+<p>Calcula el costo.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(C\) el costo.</p>
+<div class="mate"><span class="mate-bloque">\[1.15C=690.\]</span></div>
+<p>Despejamos:</p>
+<div class="mate"><span class="mate-bloque">\[C = \frac{690}{1.15}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[C=600.\]</span></div>
+<p>Por tanto, el costo fue:</p>
+<div class="mate"><span class="mate-bloque">\[\$600.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La ganancia puede calcularse respecto del costo o respecto del precio de venta.</p>
+<p>Estas bases producen porcentajes diferentes. Debe identificarse claramente la base indicada en el problema.</p></div></section>
+<h2 id="interes-simple"><span class="num">51.8</span> Interés simple<a class="enlace-seccion" href="#interes-simple" aria-label="Enlace a esta sección">#</a></h2>
+<p>En el interés simple, el interés de cada periodo se calcula siempre sobre el capital inicial.</p>
+<p>La fórmula es:</p>
+<div class="mate"><span class="mate-bloque">\[I = Cit.\]</span></div>
+<p>El monto final es:</p>
+<div class="mate"><span class="mate-bloque">\[M = C+I.\]</span></div>
+<p>Sustituyendo la fórmula del interés:</p>
+<div class="mate"><span class="mate-bloque">\[M = C+Cit.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[M = C(1+it).\]</span></div>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:center"><strong>Variable</strong></th><th style="text-align:left"><strong>Significado</strong></th></tr></thead><tbody><tr><td style="text-align:center">\(C\)</td><td style="text-align:left">Capital inicial</td></tr><tr><td style="text-align:center">\(i\)</td><td style="text-align:left">Tasa por periodo en forma decimal</td></tr><tr><td style="text-align:center">\(t\)</td><td style="text-align:left">Número de periodos</td></tr><tr><td style="text-align:center">\(I\)</td><td style="text-align:left">Interés generado</td></tr><tr><td style="text-align:center">\(M\)</td><td style="text-align:left">Monto final</td></tr></tbody></table></div></div>
+<section class="caja caja-ejemplo" id="ejemplo-51-11"><div class="caja-titulo">Ejemplo 51.11</div><div class="caja-cuerpo"><p>Se invierten:</p>
+<div class="mate"><span class="mate-bloque">\[\$5{,}000\]</span></div>
+<p>al \(8\%\) anual durante \(3\) años con interés simple.</p>
+<p>Calcula el interés y el monto.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[C=5000, \qquad i=0.08, \qquad t=3.\]</span></div>
+<p>Calculamos el interés:</p>
+<div class="mate"><span class="mate-bloque">\[I = 5000(0.08)(3).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[I=1200.\]</span></div>
+<p>El monto es:</p>
+<div class="mate"><span class="mate-bloque">\[M=C+I.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[M=5000+1200.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[I=\$1{,}200\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[M=\$6{,}200.\]</span></div></div></details></div></section>
+<h2 id="interes-compuesto"><span class="num">51.9</span> Interés compuesto<a class="enlace-seccion" href="#interes-compuesto" aria-label="Enlace a esta sección">#</a></h2>
+<p>En el interés compuesto, los intereses se agregan al capital y también generan intereses en los periodos siguientes.</p>
+<p>El monto es:</p>
+<div class="mate"><span class="mate-bloque">\[M = C(1+i)^t.\]</span></div>
+<p>El interés total se obtiene mediante:</p>
+<div class="mate"><span class="mate-bloque">\[I = M-C.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-51-12"><div class="caja-titulo">Ejemplo 51.12</div><div class="caja-cuerpo"><p>Se invierten:</p>
+<div class="mate"><span class="mate-bloque">\[\$5{,}000\]</span></div>
+<p>al \(8\%\) anual durante \(3\) años con interés compuesto.</p>
+<p>Calcula el monto y el interés.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[C=5000, \qquad i=0.08, \qquad t=3.\]</span></div>
+<p>Calculamos:</p>
+<div class="mate"><span class="mate-bloque">\[M = 5000(1.08)^3.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[M = 5000(1.259712).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[M=6298.56.\]</span></div>
+<p>El interés es:</p>
+<div class="mate"><span class="mate-bloque">\[I = 6298.56-5000.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[I=1298.56.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[M=\$6{,}298.56\]</span></div>
+<p>e:</p>
+<div class="mate"><span class="mate-bloque">\[I=\$1{,}298.56.\]</span></div></div></details></div></section>
+<h2 id="interes-simple-e-interes-compuesto"><span class="num">51.10</span> Interés simple e interés compuesto<a class="enlace-seccion" href="#interes-simple-e-interes-compuesto" aria-label="Enlace a esta sección">#</a></h2>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Característica</strong></th><th style="text-align:left"><strong>Interés simple</strong></th><th style="text-align:left"><strong>Interés compuesto</strong></th></tr></thead><tbody><tr><td style="text-align:left">Base del interés</td><td style="text-align:left">Capital inicial</td><td style="text-align:left">Monto acumulado</td></tr><tr><td style="text-align:left">Crecimiento</td><td style="text-align:left">Lineal</td><td style="text-align:left">Exponencial</td></tr><tr><td style="text-align:left">Interés</td><td style="text-align:left">\(I=Cit\)</td><td style="text-align:left">\(I=M-C\)</td></tr><tr><td style="text-align:left">Monto</td><td style="text-align:left">\(M=C(1+it)\)</td><td style="text-align:left">\(M=C(1+i)^t\)</td></tr><tr><td style="text-align:left">Capitalización</td><td style="text-align:left">No</td><td style="text-align:left">Sí</td></tr></tbody></table></div></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-944e2cf133e2.svg" alt="Figura 51.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Durante un solo periodo, el interés simple y el compuesto producen el mismo resultado si utilizan el mismo capital y la misma tasa.</p>
+<p>La diferencia aparece después de la primera capitalización.</p></div></section>
+<h2 id="conversion-del-tiempo"><span class="num">51.11</span> Conversión del tiempo<a class="enlace-seccion" href="#conversion-del-tiempo" aria-label="Enlace a esta sección">#</a></h2>
+<p>La unidad del tiempo debe coincidir con la unidad de la tasa.</p>
+<p>Las conversiones más frecuentes son:</p>
+<div class="mate"><span class="mate-bloque">\[1\text{ año} = 12\text{ meses},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1\text{ año comercial} = 360\text{ días},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1\text{ mes comercial} = 30\text{ días}.\]</span></div>
+<p>Si la tasa es anual y el tiempo está en meses:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{\text{número de meses}}{12}.\]</span></div>
+<p>Si el tiempo está en días y se utiliza año comercial:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{\text{número de días}}{360}.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-51-13"><div class="caja-titulo">Ejemplo 51.13</div><div class="caja-cuerpo"><p>Un capital se invierte con una tasa anual durante \(5\) meses.</p>
+<p>Expresa el tiempo en años.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[t = \frac{5}{12}.\]</span></div>
+<p>Por tanto, deben utilizarse:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{5}{12}\]</span></div>
+<p>de año en la fórmula.</p></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La convención de \(360\) días debe utilizarse únicamente cuando el problema indique año comercial o cuando sea la convención declarada para el ejercicio.</p>
+<p>Si se indica año calendario, se utilizan \(365\) días.</p></div></section>
+<h2 id="conversion-proporcional-de-tasas"><span class="num">51.12</span> Conversión proporcional de tasas<a class="enlace-seccion" href="#conversion-proporcional-de-tasas" aria-label="Enlace a esta sección">#</a></h2>
+<p>En problemas de interés simple, las tasas pueden convertirse proporcionalmente.</p>
+<p>Si una tasa anual es:</p>
+<div class="mate"><span class="mate-bloque">\[i_a,\]</span></div>
+<p>la tasa mensual proporcional es:</p>
+<div class="mate"><span class="mate-bloque">\[i_m = \frac{i_a}{12}.\]</span></div>
+<p>La tasa diaria comercial es:</p>
+<div class="mate"><span class="mate-bloque">\[i_d = \frac{i_a}{360}.\]</span></div>
+<p>Por el contrario:</p>
+<div class="mate"><span class="mate-bloque">\[i_a = 12i_m\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[i_a = 360i_d.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-51-14"><div class="caja-titulo">Ejemplo 51.14</div><div class="caja-cuerpo"><p>Una tasa anual del \(18\%\) se aplica durante \(5\) meses.</p>
+<p>Calcula la tasa proporcional correspondiente al periodo.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La tasa mensual es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{18\%}{12} = 1.5\%.\]</span></div>
+<p>Para \(5\) meses:</p>
+<div class="mate"><span class="mate-bloque">\[1.5\%(5)=7.5\%.\]</span></div>
+<p>Por tanto, la tasa correspondiente al periodo es:</p>
+<div class="mate"><span class="mate-bloque">\[7.5\%.\]</span></div>
+<p>Equivalentemente:</p>
+<div class="mate"><span class="mate-bloque">\[18\% \left( \frac{5}{12} \right) = 7.5\%.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La conversión proporcional de tasas se utiliza directamente en interés simple.</p>
+<p>En interés compuesto, una tasa efectiva equivalente requiere considerar la capitalización y no siempre se obtiene dividiendo o multiplicando por el número de periodos.</p></div></section>
+<h2 id="calculo-del-valor-original"><span class="num">51.13</span> Cálculo del valor original<a class="enlace-seccion" href="#calculo-del-valor-original" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si se conoce el valor después de un aumento del \(p\%\):</p>
+<div class="mate"><span class="mate-bloque">\[V_f = V_i \left( 1+\frac{p}{100} \right),\]</span></div>
+<p>por lo que:</p>
+<div class="mate"><span class="mate-bloque">\[V_i = \frac{V_f}{ 1+\frac{p}{100} }.\]</span></div>
+<p>Si se conoce el valor después de un descuento del \(p\%\):</p>
+<div class="mate"><span class="mate-bloque">\[V_f = V_i \left( 1-\frac{p}{100} \right),\]</span></div>
+<p>por lo que:</p>
+<div class="mate"><span class="mate-bloque">\[V_i = \frac{V_f}{ 1-\frac{p}{100} }.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-51-15"><div class="caja-titulo">Ejemplo 51.15</div><div class="caja-cuerpo"><p>Después de un descuento del \(20\%\), un artículo cuesta:</p>
+<div class="mate"><span class="mate-bloque">\[\$640.\]</span></div>
+<p>Calcula el precio original.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Después del descuento se conserva el:</p>
+<div class="mate"><span class="mate-bloque">\[80\%\]</span></div>
+<p>del precio original.</p>
+<p>Sea \(P\) el precio original:</p>
+<div class="mate"><span class="mate-bloque">\[0.80P=640.\]</span></div>
+<p>Despejamos:</p>
+<div class="mate"><span class="mate-bloque">\[P = \frac{640}{0.80}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[P=800.\]</span></div>
+<p>Por tanto, el precio original era:</p>
+<div class="mate"><span class="mate-bloque">\[\$800.\]</span></div></div></details></div></section>
+<h2 id="procedimiento-rapido"><span class="num">51.14</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="aumentos-y-descuentos-2">Aumentos y descuentos<a class="enlace-seccion" href="#aumentos-y-descuentos-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Convierte el porcentaje a decimal.</li><li>Utiliza: <span class="mate-bloque">\[1+p\]</span> para un aumento.</li><li>Utiliza: <span class="mate-bloque">\[1-p\]</span> para un descuento.</li><li>Multiplica por la cantidad inicial.</li></ol>
+<h3 id="valor-original">Valor original<a class="enlace-seccion" href="#valor-original" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica el factor aplicado.</li><li>Divide el valor final entre ese factor.</li></ol>
+<h3 id="interes-simple-2">Interés simple<a class="enlace-seccion" href="#interes-simple-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica: <span class="mate-bloque">\[C,\quad i,\quad t.\]</span></li><li>Convierte la tasa a decimal.</li><li>Iguala las unidades de \(i\) y \(t\).</li><li>Calcula: <span class="mate-bloque">\[I=Cit.\]</span></li><li>Calcula: <span class="mate-bloque">\[M=C+I.\]</span></li></ol>
+<h3 id="interes-compuesto-2">Interés compuesto<a class="enlace-seccion" href="#interes-compuesto-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica: <span class="mate-bloque">\[C,\quad i,\quad t.\]</span></li><li>Convierte la tasa a decimal.</li><li>Verifica el periodo de capitalización.</li><li>Calcula: <span class="mate-bloque">\[M=C(1+i)^t.\]</span></li><li>Si se solicita el interés, calcula: <span class="mate-bloque">\[I=M-C.\]</span></li></ol>
+<h2 id="resumen"><span class="num">51.15</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Monto:</p>
+<div class="mate"><span class="mate-bloque">\[M=C+I.\]</span></div>
+<p>Aumento:</p>
+<div class="mate"><span class="mate-bloque">\[V_f = V_i \left( 1+\frac{p}{100} \right).\]</span></div>
+<p>Descuento:</p>
+<div class="mate"><span class="mate-bloque">\[V_f = V_i \left( 1-\frac{p}{100} \right).\]</span></div>
+<p>Cambio porcentual:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{V_f-V_i}{V_i} (100\%).\]</span></div>
+<p>Precio con impuesto del \(16\%\):</p>
+<div class="mate"><span class="mate-bloque">\[P_{\text{final}} = 1.16P.\]</span></div>
+<p>Precio antes del impuesto:</p>
+<div class="mate"><span class="mate-bloque">\[P = \frac{P_{\text{final}}}{1.16}.\]</span></div>
+<p>Ganancia:</p>
+<div class="mate"><span class="mate-bloque">\[G=V-C.\]</span></div>
+<p>Interés simple:</p>
+<div class="mate"><span class="mate-bloque">\[I=Cit.\]</span></div>
+<p>Monto con interés simple:</p>
+<div class="mate"><span class="mate-bloque">\[M=C(1+it).\]</span></div>
+<p>Monto con interés compuesto:</p>
+<div class="mate"><span class="mate-bloque">\[M=C(1+i)^t.\]</span></div>
+<p>Interés compuesto generado:</p>
+<div class="mate"><span class="mate-bloque">\[I=M-C.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">51.16</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>Un porcentaje debe convertirse a decimal antes de utilizarse en una fórmula.</li><li>Un aumento utiliza: <span class="mate-bloque">\[1+p.\]</span></li><li>Un descuento utiliza: <span class="mate-bloque">\[1-p.\]</span></li><li>Los porcentajes sucesivos no se suman directamente.</li><li>Para recuperar un valor inicial debe dividirse entre el factor aplicado.</li><li>La ganancia porcentual debe calcularse respecto de la base indicada.</li><li>La tasa y el tiempo deben encontrarse en la misma unidad.</li><li>En interés simple, el interés se calcula sobre el capital inicial.</li><li>En interés compuesto, los intereses se capitalizan.</li><li>Una tasa del \(8\%\) debe escribirse: <span class="mate-bloque">\[0.08,\]</span> no \(8\).</li><li>La conversión proporcional de tasas no debe confundirse con una tasa efectiva equivalente de interés compuesto.</li><li>Los resultados monetarios deben redondearse generalmente a dos cifras decimales.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">51.17</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-51-1"><div class="caja-titulo">Ejercicio 51.1</div><div class="caja-cuerpo"><p>Un artículo cuesta:</p>
+<div class="mate"><span class="mate-bloque">\[\$1{,}200.\]</span></div>
+<p>Si su precio aumenta un \(25\%\), calcula el nuevo precio.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\$1{,}200 \times 1.25 = \$1{,}500.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-2"><div class="caja-titulo">Ejercicio 51.2</div><div class="caja-cuerpo"><p>Un teléfono cuesta:</p>
+<div class="mate"><span class="mate-bloque">\[\$8{,}500.\]</span></div>
+<p>Si tiene un descuento del \(18\%\), calcula el descuento y el precio final.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Descuento: \(\$8{,}500 \times 0.18 = \$1{,}530\). Precio final: \(\$8{,}500 - \$1{,}530 = \$6{,}970\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-3"><div class="caja-titulo">Ejercicio 51.3</div><div class="caja-cuerpo"><p>Un producto cuesta:</p>
+<div class="mate"><span class="mate-bloque">\[\$750\]</span></div>
+<p>antes del impuesto. En este ejercicio se aplica una tasa del \(16\%\).</p>
+<p>Calcula el impuesto y el precio final.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Impuesto: \(\$750 \times 0.16 = \$120\). Precio final: \(\$750 + \$120 = \$870\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-4"><div class="caja-titulo">Ejercicio 51.4</div><div class="caja-cuerpo"><p>El precio final de un artículo, después de aplicar una tasa del \(16\%\), es:</p>
+<div class="mate"><span class="mate-bloque">\[\$2{,}088.\]</span></div>
+<p>Calcula el precio antes del impuesto.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) el precio antes de impuestos. <span class="mate-bloque">\[x \times 1.16 = \$2{,}088 \implies x = \frac{\$2{,}088}{1.16} = \$1{,}800.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-5"><div class="caja-titulo">Ejercicio 51.5</div><div class="caja-cuerpo"><p>Un comerciante compra un producto en:</p>
+<div class="mate"><span class="mate-bloque">\[\$450\]</span></div>
+<p>y lo vende con una ganancia del \(30\%\) sobre el costo.</p>
+<p>Calcula el precio de venta.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\$450 \times 1.30 = \$585.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-6"><div class="caja-titulo">Ejercicio 51.6</div><div class="caja-cuerpo"><p>Un artículo se vende en:</p>
+<div class="mate"><span class="mate-bloque">\[\$1{,}035\]</span></div>
+<p>con una ganancia del \(15\%\) sobre el costo.</p>
+<p>Calcula el costo original.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) el costo original. <span class="mate-bloque">\[x \times 1.15 = \$1{,}035 \implies x = \frac{\$1{,}035}{1.15} = \$900.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-7"><div class="caja-titulo">Ejercicio 51.7</div><div class="caja-cuerpo"><p>Después de un descuento del \(25\%\), un producto cuesta:</p>
+<div class="mate"><span class="mate-bloque">\[\$900.\]</span></div>
+<p>Calcula su precio original.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[x \times 0.75 = \$900 \implies x = \frac{\$900}{0.75} = \$1{,}200.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-8"><div class="caja-titulo">Ejercicio 51.8</div><div class="caja-cuerpo"><p>El precio de un producto aumenta de:</p>
+<div class="mate"><span class="mate-bloque">\[\$640\]</span></div>
+<p>a:</p>
+<div class="mate"><span class="mate-bloque">\[\$736.\]</span></div>
+<p>Calcula el aumento porcentual.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{736 - 640}{640} = \frac{96}{640} = 0.15 = 15\%.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-9"><div class="caja-titulo">Ejercicio 51.9</div><div class="caja-cuerpo"><p>Se invierten:</p>
+<div class="mate"><span class="mate-bloque">\[\$10{,}000\]</span></div>
+<p>al \(6\%\) anual durante \(4\) años con interés simple.</p>
+<p>Calcula el interés y el monto final.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Interés: \(\$10{,}000 \times 0.06 \times 4 = \$2{,}400\). Monto final: \(\$10{,}000 + \$2{,}400 = \$12{,}400\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-10"><div class="caja-titulo">Ejercicio 51.10</div><div class="caja-cuerpo"><p>Se invierten:</p>
+<div class="mate"><span class="mate-bloque">\[\$10{,}000\]</span></div>
+<p>al \(6\%\) anual durante \(4\) años con interés compuesto.</p>
+<p>Calcula el monto final y el interés generado.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Monto final: \(\$10{,}000 \times (1.06)^4 \approx \$12{,}624.77\). Interés generado: \(\$12{,}624.77 - \$10{,}000 = \$2{,}624.77\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-11"><div class="caja-titulo">Ejercicio 51.11</div><div class="caja-cuerpo"><p>Una tasa anual simple del \(24\%\) se aplica durante \(8\) meses.</p>
+<p>Calcula la tasa proporcional correspondiente al periodo.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{24\%}{12} \times 8 = 2\% \times 8 = 16\%.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-12"><div class="caja-titulo">Ejercicio 51.12</div><div class="caja-cuerpo"><p>Se invierten:</p>
+<div class="mate"><span class="mate-bloque">\[\$15{,}000\]</span></div>
+<p>al \(12\%\) anual simple durante \(150\) días.</p>
+<p>Utiliza un año comercial de \(360\) días y calcula el interés.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[I = \$15{,}000 \times 0.12 \times \frac{150}{360} = \$750.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-13"><div class="caja-titulo">Ejercicio 51.13</div><div class="caja-cuerpo"><p>Una tienda aplica un descuento del \(15\%\) y después otro descuento del \(20\%\) sobre el precio rebajado.</p>
+<p>Calcula el descuento total equivalente.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El precio final equivale a \((1-0.15)(1-0.20) = 0.85 \times 0.80 = 0.68\) del original. El descuento total es \(1 - 0.68 = 0.32\), es decir, <strong>32%</strong>.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-51-14"><div class="caja-titulo">Ejercicio 51.14</div><div class="caja-cuerpo"><p>Un producto aumenta su precio un \(10\%\) y después aumenta otro \(20\%\).</p>
+<p>Calcula el aumento total equivalente.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El precio final equivale a \((1+0.10)(1+0.20) = 1.10 \times 1.20 = 1.32\) del original. El aumento total es <strong>32%</strong>.</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="50-razonamiento-espacial.html"><span>← Anterior</span>50. Razonamiento espacial</a><a class="nav-siguiente" href="52-interes-simple.html"><span>Siguiente →</span>52. Interés simple</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

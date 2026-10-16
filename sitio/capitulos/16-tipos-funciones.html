@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>16. Tipos de funciones · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte III: Funciones</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#funcion-constante"><span class="num">16.1</span> Función constante</a></li><li class="nivel-2"><a href="#funcion-afin"><span class="num">16.2</span> Función afín</a></li><li class="nivel-2"><a href="#funcion-cuadratica"><span class="num">16.3</span> Función cuadrática</a></li><li class="nivel-2"><a href="#funcion-racional"><span class="num">16.4</span> Función racional</a></li><li class="nivel-2"><a href="#funcion-raiz-cuadrada"><span class="num">16.5</span> Función raíz cuadrada</a></li><li class="nivel-2"><a href="#funciones-explicitas-y-relaciones-implicitas"><span class="num">16.6</span> Funciones explícitas y relaciones implícitas</a></li><li class="nivel-2"><a href="#funciones-crecientes-y-decrecientes"><span class="num">16.7</span> Funciones crecientes y decrecientes</a></li><li class="nivel-2"><a href="#funciones-continuas-y-discontinuas"><span class="num">16.8</span> Funciones continuas y discontinuas</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">16.9</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 16</p><h1>Tipos de funciones</h1></header>
+<p><span id="cap-tipos-funciones" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Las funciones pueden agruparse en familias que comparten determinadas propiedades algebraicas y gráficas. Reconocer la forma de una función permite anticipar su dominio, su rango, su comportamiento y algunas características de su gráfica. En este capítulo estudiarás funciones constantes, afines, cuadráticas, racionales y radicales, así como los conceptos de crecimiento, decrecimiento y continuidad.</p>
+<h2 id="funcion-constante"><span class="num">16.1</span> Función constante<a class="enlace-seccion" href="#funcion-constante" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>función constante</strong> tiene la forma:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=c, \qquad c\in\R.\]</span></div>
+<p>Esta función asigna el mismo valor \(c\) a todos los elementos de su dominio. Su gráfica es una recta horizontal.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de la función constante</div><div class="caja-cuerpo"><p>Si</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=c,\]</span></div>
+<p>entonces:</p>
+<ul><li>su dominio es: <span class="mate-bloque">\[D_f=\R;\]</span></li><li>su rango es: <span class="mate-bloque">\[R_f=\{c\};\]</span></li><li>su gráfica interseca el eje \(y\) en el punto: <span class="mate-bloque">\[(0,c);\]</span></li><li>no es estrictamente creciente ni estrictamente decreciente.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-16-1"><div class="caja-titulo">Ejemplo 16.1</div><div class="caja-cuerpo"><p>Analiza la función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=3.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La función asigna el valor \(3\) a cualquier número real:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=3\]</span></div>
+<p>para todo \(x\in\R\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[D_f=\R \qquad\text{y}\qquad R_f=\{3\}.\]</span></div>
+<p>Su gráfica es la recta horizontal \(y=3\):</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-2bd4b9fb478b.svg" alt="Figura 16.1" loading="lazy" decoding="async"></figure></div></div></details></div></section>
+<h2 id="funcion-afin"><span class="num">16.2</span> Función afín<a class="enlace-seccion" href="#funcion-afin" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>función afín</strong> tiene la forma:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=ax+b,\]</span></div>
+<p>donde \(a,b\in\R\).</p>
+<p>El número \(a\) es la <strong>pendiente</strong> de la recta y \(b\) es la <strong>ordenada al origen</strong>.</p></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En algunos materiales escolares se utiliza el nombre <strong>función lineal</strong> para toda expresión de la forma:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=ax+b.\]</span></div>
+<p>En sentido estricto, una función lineal tiene la forma:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=ax\]</span></div>
+<p>y pasa por el origen. En esta guía se utilizará el término <strong>función afín</strong> para la forma general \(f(x)=ax+b\).</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de la función afín</div><div class="caja-cuerpo"><p>Si</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=ax+b\]</span></div>
+<p>y \(a\neq 0\), entonces:</p>
+<ul><li>su dominio es: <span class="mate-bloque">\[D_f=\R;\]</span></li><li>su rango es: <span class="mate-bloque">\[R_f=\R;\]</span></li><li>es estrictamente creciente si: <span class="mate-bloque">\[a&gt;0;\]</span></li><li>es estrictamente decreciente si: <span class="mate-bloque">\[a&lt;0;\]</span></li><li>interseca el eje \(y\) en: <span class="mate-bloque">\[(0,b);\]</span></li><li>interseca el eje \(x\) en: <span class="mate-bloque">\[\left(-\frac{b}{a},0\right).\]</span></li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-16-2"><div class="caja-titulo">Ejemplo 16.2</div><div class="caja-cuerpo"><p>Analiza la función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=2x-3.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La pendiente es:</p>
+<div class="mate"><span class="mate-bloque">\[a=2,\]</span></div>
+<p>y la ordenada al origen es:</p>
+<div class="mate"><span class="mate-bloque">\[b=-3.\]</span></div>
+<p>Como \(a&gt;0\), la función es creciente. La gráfica interseca el eje \(y\) en:</p>
+<div class="mate"><span class="mate-bloque">\[(0,-3).\]</span></div>
+<p>Para encontrar la intersección con el eje \(x\), resolvemos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2x-3 &amp;=0,\\ 2x &amp;=3,\\ x &amp;=\frac{3}{2}. \end{aligned}\]</span></div>
+<p>Por tanto, la intersección con el eje \(x\) es:</p>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{3}{2},0\right).\]</span></div>
+<p>La gráfica es:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-8b2addbfe69e.svg" alt="Figura 16.2" loading="lazy" decoding="async"></figure></div></div></details></div></section>
+<h2 id="funcion-cuadratica"><span class="num">16.3</span> Función cuadrática<a class="enlace-seccion" href="#funcion-cuadratica" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>función cuadrática</strong> tiene la forma:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=ax^2+bx+c, \qquad a\neq 0.\]</span></div>
+<p>Su gráfica es una parábola con eje de simetría vertical.</p>
+<ul><li>Si \(a&gt;0\), la parábola abre hacia arriba.</li><li>Si \(a&lt;0\), la parábola abre hacia abajo.</li></ul></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Vértice y eje de simetría</div><div class="caja-cuerpo"><p>El vértice de la parábola:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=ax^2+bx+c\]</span></div>
+<p>es el punto:</p>
+<div class="mate"><span class="mate-bloque">\[V(x_v,y_v),\]</span></div>
+<p>donde:</p>
+<div class="mate"><span class="mate-bloque">\[x_v=-\frac{b}{2a}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[y_v=f(x_v) = \frac{4ac-b^2}{4a}.\]</span></div>
+<p>El eje de simetría es la recta vertical:</p>
+<div class="mate"><span class="mate-bloque">\[x=-\frac{b}{2a}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Dominio y rango</div><div class="caja-cuerpo"><p>Toda función cuadrática tiene dominio:</p>
+<div class="mate"><span class="mate-bloque">\[D_f=\R.\]</span></div>
+<p>Si \(a&gt;0\), el vértice contiene el valor mínimo de la función y:</p>
+<div class="mate"><span class="mate-bloque">\[R_f=[y_v,\infty).\]</span></div>
+<p>Si \(a&lt;0\), el vértice contiene el valor máximo y:</p>
+<div class="mate"><span class="mate-bloque">\[R_f=(-\infty,y_v].\]</span></div></div></section>
+<p>Las dos orientaciones posibles de una parábola pueden compararse en planos con la misma escala:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-553c84404561.svg" alt="Figura 16.3" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-16-3"><div class="caja-titulo">Ejemplo 16.3</div><div class="caja-cuerpo"><p>Encuentra el vértice, el eje de simetría y el rango de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2+4x+8.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[a=1, \qquad b=4, \qquad c=8.\]</span></div>
+<p>Calculamos la coordenada horizontal del vértice:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x_v &amp;=-\frac{b}{2a}\\ &amp;=-\frac{4}{2(1)}\\ &amp;=-2. \end{aligned}\]</span></div>
+<p>Calculamos la coordenada vertical:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} y_v &amp;=f(-2)\\ &amp;=(-2)^2+4(-2)+8\\ &amp;=4-8+8\\ &amp;=4. \end{aligned}\]</span></div>
+<p>Por tanto, el vértice es:</p>
+<div class="mate"><span class="mate-bloque">\[V(-2,4).\]</span></div>
+<p>El eje de simetría es:</p>
+<div class="mate"><span class="mate-bloque">\[x=-2.\]</span></div>
+<p>Como \(a&gt;0\), la parábola abre hacia arriba y el vértice contiene el valor mínimo. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[R_f=[4,\infty).\]</span></div></div></details></div></section>
+<h2 id="funcion-racional"><span class="num">16.4</span> Función racional<a class="enlace-seccion" href="#funcion-racional" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>función racional</strong> es una función de la forma:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{P(x)}{Q(x)},\]</span></div>
+<p>donde \(P(x)\) y \(Q(x)\) son polinomios y:</p>
+<div class="mate"><span class="mate-bloque">\[Q(x)\neq 0.\]</span></div>
+<p>Su dominio excluye los valores que anulan el denominador.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una recta vertical:</p>
+<div class="mate"><span class="mate-bloque">\[x=x_0\]</span></div>
+<p>es una <strong>asíntota vertical</strong> de una función si los valores de \(f(x)\) crecen o decrecen sin límite cuando \(x\) se aproxima a \(x_0\) por alguno de sus lados.</p></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La condición \(Q(x_0)=0\) permite identificar valores que no pertenecen al dominio, pero no garantiza por sí sola una asíntota vertical.</p>
+<p>Si el factor que produce \(Q(x_0)=0\) se cancela con un factor del numerador, la gráfica puede presentar un hueco en lugar de una asíntota vertical.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x^2-1}{x-1} = x+1, \qquad x\neq 1.\]</span></div>
+<p>Esta función tiene un hueco en \(x=1\), no una asíntota vertical.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-16-4"><div class="caja-titulo">Ejemplo 16.4</div><div class="caja-cuerpo"><p>Analiza la función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{x+2}{x-1}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El denominador se anula cuando:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x-1 &amp;=0,\\ x &amp;=1. \end{aligned}\]</span></div>
+<p>Como el numerador no se anula en \(x=1\):</p>
+<div class="mate"><span class="mate-bloque">\[1+2=3\neq 0,\]</span></div>
+<p>la recta:</p>
+<div class="mate"><span class="mate-bloque">\[x=1\]</span></div>
+<p>es una asíntota vertical.</p>
+<p>Para determinar la asíntota horizontal, escribimos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x+2}{x-1} = 1+\frac{3}{x-1}.\]</span></div>
+<p>Cuando \(x\) aumenta o disminuye sin límite, el término \(\frac{3}{x-1}\) se aproxima a cero. Por tanto, la asíntota horizontal es:</p>
+<div class="mate"><span class="mate-bloque">\[y=1.\]</span></div>
+<p>El dominio es:</p>
+<div class="mate"><span class="mate-bloque">\[D_f=\R\setminus\{1\}.\]</span></div>
+<p>La gráfica es:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-32269383f208.svg" alt="Figura 16.4" loading="lazy" decoding="async"></figure></div></div></details></div></section>
+<h2 id="funcion-raiz-cuadrada"><span class="num">16.5</span> Función raíz cuadrada<a class="enlace-seccion" href="#funcion-raiz-cuadrada" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>función raíz cuadrada</strong> tiene la forma:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{g(x)}.\]</span></div>
+<p>Para que sus valores sean reales, debe cumplirse:</p>
+<div class="mate"><span class="mate-bloque">\[g(x)\geq 0.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Función raíz cuadrada básica</div><div class="caja-cuerpo"><p>La función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{x}\]</span></div>
+<p>tiene:</p>
+<div class="mate"><span class="mate-bloque">\[D_f=[0,\infty)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[R_f=[0,\infty).\]</span></div>
+<p>Su gráfica comienza en el origen y es creciente en todo su dominio.</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-12820fcb9b24.svg" alt="Figura 16.5" loading="lazy" decoding="async"></figure></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-16-5"><div class="caja-titulo">Ejemplo 16.5</div><div class="caja-cuerpo"><p>Encuentra el dominio y el punto inicial de la gráfica de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{x-2}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El radicando debe ser mayor o igual que cero:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x-2 &amp;\geq 0,\\ x &amp;\geq 2. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[D_f=[2,\infty).\]</span></div>
+<p>La gráfica comienza cuando \(x=2\):</p>
+<div class="mate"><span class="mate-bloque">\[f(2) = \sqrt{2-2} = 0.\]</span></div>
+<p>El punto inicial es:</p>
+<div class="mate"><span class="mate-bloque">\[(2,0).\]</span></div></div></details></div></section>
+<h2 id="funciones-explicitas-y-relaciones-implicitas"><span class="num">16.6</span> Funciones explícitas y relaciones implícitas<a class="enlace-seccion" href="#funciones-explicitas-y-relaciones-implicitas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una función se encuentra en <strong>forma explícita</strong> cuando la variable dependiente está despejada en términos de la variable independiente:</p>
+<div class="mate"><span class="mate-bloque">\[y=f(x).\]</span></div>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[y=2x+3\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[y=x^2-1.\]</span></div></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una relación se encuentra en <strong>forma implícita</strong> cuando la relación entre las variables se expresa mediante:</p>
+<div class="mate"><span class="mate-bloque">\[F(x,y)=0\]</span></div>
+<p>y la variable \(y\) no necesariamente está despejada.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=1\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[xy=4.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Toda función explícita puede escribirse como una relación implícita. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[y=2x+3\]</span></div>
+<p>puede escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[2x-y+3=0.\]</span></div>
+<p>Sin embargo, una relación implícita no siempre representa una única función de \(x\). Por ejemplo, de:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=1\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[y=\pm\sqrt{1-x^2}.\]</span></div>
+<p>Para algunos valores de \(x\) aparecen dos valores distintos de \(y\). Por tanto, la circunferencia completa no representa una función de \(x\).</p></div></section>
+<h2 id="funciones-crecientes-y-decrecientes"><span class="num">16.7</span> Funciones crecientes y decrecientes<a class="enlace-seccion" href="#funciones-crecientes-y-decrecientes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una función \(f\) es <strong>estrictamente creciente</strong> en un intervalo si, para cualesquiera \(x_1\) y \(x_2\) del intervalo:</p>
+<div class="mate"><span class="mate-bloque">\[x_1&lt;x_2 \quad\Longrightarrow\quad f(x_1)&lt;f(x_2).\]</span></div>
+<p>Esto significa que, al aumentar el valor de entrada, también aumenta el valor de salida.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una función \(f\) es <strong>estrictamente decreciente</strong> en un intervalo si, para cualesquiera \(x_1\) y \(x_2\) del intervalo:</p>
+<div class="mate"><span class="mate-bloque">\[x_1&lt;x_2 \quad\Longrightarrow\quad f(x_1)&gt;f(x_2).\]</span></div>
+<p>Esto significa que, al aumentar el valor de entrada, disminuye el valor de salida.</p></div></section>
+<p>Las dos situaciones pueden compararse mediante gráficas construidas con la misma escala:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-354c2199572c.svg" alt="Figura 16.6" loading="lazy" decoding="async"></figure></div>
+<p>Una función no tiene que mantener el mismo comportamiento en todo su dominio. Puede ser decreciente en un intervalo y creciente en otro.</p>
+<p>Por ejemplo, considera la función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2.\]</span></div>
+<p>Cuando \(x\) se aproxima a \(0\) desde la izquierda, los valores de la función disminuyen. Después del vértice, cuando \(x\) aumenta desde \(0\), los valores de la función también aumentan.</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-5f9a1c56a74a.svg" alt="Figura 16.7" loading="lazy" decoding="async"></figure></div>
+<p>Por tanto, la función \(f(x)=x^2\) es:</p>
+<div class="mate"><span class="mate-bloque">\[\text{decreciente en }(-\infty,0)\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[\text{creciente en }(0,\infty).\]</span></div>
+<p>El punto</p>
+<div class="mate"><span class="mate-bloque">\[V(0,0)\]</span></div>
+<p>separa ambos intervalos de monotonía y corresponde al mínimo de la función.</p>
+<section class="caja caja-ejemplo" id="ejemplo-16-6"><div class="caja-titulo">Ejemplo 16.6</div><div class="caja-cuerpo"><p>Determina si la función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=2x+5\]</span></div>
+<p>es creciente o decreciente en \(\R\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sean \(x_1\) y \(x_2\) dos números reales tales que:</p>
+<div class="mate"><span class="mate-bloque">\[x_1&lt;x_2.\]</span></div>
+<p>Multiplicamos por \(2\), que es positivo:</p>
+<div class="mate"><span class="mate-bloque">\[2x_1&lt;2x_2.\]</span></div>
+<p>Sumamos \(5\) en ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[2x_1+5&lt;2x_2+5.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f(x_1)&lt;f(x_2).\]</span></div>
+<p>La función es estrictamente creciente en \(\R\).</p>
+<p>También puede reconocerse este comportamiento porque su pendiente es positiva:</p>
+<div class="mate"><span class="mate-bloque">\[a=2&gt;0.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Evaluar una función solamente en dos puntos puede sugerir su comportamiento, pero no demuestra que sea creciente o decreciente en todo un intervalo. La definición debe cumplirse para cualquier par de puntos \(x_1&lt;x_2\) del intervalo considerado.</p></div></section>
+<h2 id="funciones-continuas-y-discontinuas"><span class="num">16.8</span> Funciones continuas y discontinuas<a class="enlace-seccion" href="#funciones-continuas-y-discontinuas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>De manera intuitiva, una función es <strong>continua</strong> en un intervalo si su gráfica puede trazarse sin levantar el lápiz dentro de ese intervalo.</p>
+<p>Una función es continua en un punto \(x_0\) si:</p>
+<ul><li>\(f(x_0)\) está definida;</li><li>existe el límite de \(f(x)\) cuando \(x\) se aproxima a \(x_0\);</li><li>dicho límite es igual a \(f(x_0)\).</li></ul>
+<p>En símbolos:</p>
+<div class="mate"><span class="mate-bloque">\[\lim_{x\to x_0}f(x) = f(x_0).\]</span></div></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una función presenta una <strong>discontinuidad</strong> en \(x_0\) cuando no cumple alguna de las condiciones de continuidad.</p>
+<p>Gráficamente, una discontinuidad puede manifestarse mediante:</p>
+<ul><li>un hueco;</li><li>un salto;</li><li>una asíntota vertical;</li><li>una oscilación que impide la existencia del límite.</li></ul></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Continuidad de las funciones racionales</div><div class="caja-cuerpo"><p>Una función racional:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{P(x)}{Q(x)}\]</span></div>
+<p>es continua en todos los puntos de su dominio. Por tanto, puede presentar discontinuidades únicamente en los valores que anulan el denominador:</p>
+<div class="mate"><span class="mate-bloque">\[Q(x)=0.\]</span></div></div></section>
+<p>Las siguientes gráficas comparan una función continua con una función que presenta un hueco. Ambas utilizan la misma escala:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-f5e95df6bb05.svg" alt="Figura 16.8" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-16-7"><div class="caja-titulo">Ejemplo 16.7</div><div class="caja-cuerpo"><p>Determina dónde es discontinua la función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{4}{x+3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La función es racional y, por tanto, es continua en todos los puntos de su dominio. El denominador se anula cuando:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x+3 &amp;=0,\\ x &amp;=-3. \end{aligned}\]</span></div>
+<p>Como el numerador no se anula en \(x=-3\), la recta:</p>
+<div class="mate"><span class="mate-bloque">\[x=-3\]</span></div>
+<p>es una asíntota vertical. Por tanto, la función es discontinua en:</p>
+<div class="mate"><span class="mate-bloque">\[x=-3.\]</span></div></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">16.9</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-16-1"><div class="caja-titulo">Ejercicio 16.1</div><div class="caja-cuerpo"><p>Clasifica las siguientes funciones como constante, afín, cuadrática, racional o raíz cuadrada:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=3, \qquad g(x)=-2x+5, \qquad h(x)=x^2-4,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[k(x)=\frac{1}{x}, \qquad m(x)=\sqrt{x+3}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(f(x)\) es constante, \(g(x)\) es afín, \(h(x)\) es cuadrática, \(k(x)\) es racional y \(m(x)\) es una función raíz cuadrada.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-16-2"><div class="caja-titulo">Ejercicio 16.2</div><div class="caja-cuerpo"><p>Encuentra el vértice y el eje de simetría de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2-6x+5.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La coordenada \(x\) del vértice es \(x_v = -\frac{-6}{2(1)} = 3\). Evaluando: \(y_v = (3)^2 - 6(3) + 5 = -4\). El vértice es \(V(3, -4)\). El eje de simetría es \(x = 3\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-16-3"><div class="caja-titulo">Ejercicio 16.3</div><div class="caja-cuerpo"><p>Encuentra el rango de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2-2x-8.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La coordenada \(x\) del vértice es \(x_v = -\frac{-2}{2(1)} = 1\). Evaluando: \(y_v = (1)^2 - 2(1) - 8 = -9\). Como la parábola abre hacia arriba (\(a=1&gt;0\)), el rango es \([-9, \infty)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-16-4"><div class="caja-titulo">Ejercicio 16.4</div><div class="caja-cuerpo"><p>Encuentra el dominio y la asíntota vertical de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{2x+1}{x-4}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El denominador se anula en \(x=4\) y el numerador no se anula en ese valor (\(2(4)+1=9\neq 0\)). El dominio es \(\R \setminus \{4\}\). La asíntota vertical es la recta \(x = 4\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-16-5"><div class="caja-titulo">Ejercicio 16.5</div><div class="caja-cuerpo"><p>Encuentra el dominio de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{x+1}{x^2-5x-6}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El denominador se factoriza como \(x^2-5x-6 = (x-6)(x+1)\). Se anula en \(x=6\) y \(x=-1\). Por tanto, el dominio es \(\R \setminus \{-1, 6\}\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-16-6"><div class="caja-titulo">Ejercicio 16.6</div><div class="caja-cuerpo"><p>Encuentra el dominio de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{4-2x}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Para que la raíz esté definida en los reales, el radicando debe ser no negativo: <span class="mate-bloque">\[4 - 2x \geq 0 \implies -2x \geq -4 \implies x \leq 2.\]</span> El dominio es \((-\infty, 2]\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-16-7"><div class="caja-titulo">Ejercicio 16.7</div><div class="caja-cuerpo"><p>Determina si la función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=-3x+1\]</span></div>
+<p>es creciente o decreciente.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La función es afín con pendiente \(a = -3 &lt; 0\), por lo que es estrictamente decreciente.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-16-8"><div class="caja-titulo">Ejercicio 16.8</div><div class="caja-cuerpo"><p>Determina si:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2\]</span></div>
+<p>es creciente o decreciente en cada uno de los siguientes intervalos:</p>
+<div class="mate"><span class="mate-bloque">\[(0,\infty) \qquad\text{y}\qquad (-\infty,0).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Para \(x&gt;0\), a medida que \(x\) aumenta, \(x^2\) aumenta, luego es creciente en \((0, \infty)\). Para \(x&lt;0\), a medida que \(x\) aumenta (se vuelve menos negativo), \(x^2\) disminuye, luego es decreciente en \((-\infty, 0)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-16-9"><div class="caja-titulo">Ejercicio 16.9</div><div class="caja-cuerpo"><p>Encuentra el valor en el que es discontinua la función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{2x+1}{x-5}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La función es racional y su denominador se anula en \(x=5\). Por tanto, es discontinua en \(x=5\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-16-10"><div class="caja-titulo">Ejercicio 16.10</div><div class="caja-cuerpo"><p>Clasifica las siguientes expresiones como explícitas o implícitas:</p>
+<div class="mate"><span class="mate-bloque">\[y=3x-7, \qquad x^2+y^2=25, \qquad 2x+3y=6.\]</span></div>
+<p>Cuando sea posible, despeja \(y\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(y = 3x-7\) es explícita. \(x^2+y^2=25\) es implícita. Al despejar se obtiene \(y = \pm\sqrt{25-x^2}\). \(2x+3y=6\) es implícita. Al despejar se obtiene \(y = \frac{6-2x}{3} = 2 - \frac{2}{3}x\).</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="15-concepto-funcion.html"><span>← Anterior</span>15. Concepto de función</a><a class="nav-siguiente" href="17-algebra-funciones.html"><span>Siguiente →</span>17. Álgebra de funciones</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

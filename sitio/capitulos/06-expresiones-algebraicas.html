@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>6. Expresiones algebraicas · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte II: Álgebra</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#terminos-algebraicos"><span class="num">6.1</span> Términos algebraicos</a></li><li class="nivel-2"><a href="#lenguaje-algebraico"><span class="num">6.2</span> Lenguaje algebraico</a></li><li class="nivel-2"><a href="#terminos-semejantes"><span class="num">6.3</span> Términos semejantes</a></li><li class="nivel-2"><a href="#valor-numerico"><span class="num">6.4</span> Valor numérico</a></li><li class="nivel-2"><a href="#polinomios"><span class="num">6.5</span> Polinomios</a></li><li class="nivel-2"><a href="#suma-y-resta-de-polinomios"><span class="num">6.6</span> Suma y resta de polinomios</a></li><li class="nivel-2"><a href="#multiplicacion-de-polinomios"><span class="num">6.7</span> Multiplicación de polinomios</a></li><li class="nivel-2"><a href="#division-entre-monomios"><span class="num">6.8</span> División entre monomios</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">6.9</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 6</p><h1>Expresiones algebraicas</h1></header>
+<p><span id="cap-expresiones-algebraicas" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>El álgebra utiliza letras para representar cantidades conocidas, desconocidas o variables. Una expresión algebraica combina números, variables y operaciones para describir relaciones matemáticas de manera general. En este capítulo aprenderás a identificar los elementos de una expresión algebraica, traducir enunciados al lenguaje algebraico, reducir términos semejantes, calcular valores numéricos y realizar operaciones básicas con polinomios.</p>
+<h2 id="terminos-algebraicos"><span class="num">6.1</span> Términos algebraicos<a class="enlace-seccion" href="#terminos-algebraicos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>término algebraico</strong> es una expresión formada por el producto de un coeficiente y una parte literal. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[4x^2y^3.\]</span></div>
+<p>En este término, \(4\) es el <strong>coeficiente</strong> y \(x^2y^3\) es la <strong>parte literal</strong>. Las letras \(x\) y \(y\) son las variables, mientras que \(2\) y \(3\) son sus exponentes respectivos.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-1"><div class="caja-titulo">Ejemplo 6.1</div><div class="caja-cuerpo"><p>Identifica el coeficiente y la parte literal de los siguientes términos:</p>
+<div class="mate"><span class="mate-bloque">\[4x^2y^3, \qquad -3mn, \qquad \frac{2}{5}a^4b^2c, \qquad 7, \qquad -x.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><ul><li>En \(4x^2y^3\), el coeficiente es \(4\) y la parte literal es \(x^2y^3\). Los exponentes de \(x\) y \(y\) son \(2\) y \(3\), respectivamente.</li><li>En \(-3mn\), el coeficiente es \(-3\) y la parte literal es \(mn\). Los exponentes de \(m\) y \(n\) son ambos iguales a \(1\).</li><li>En \(\dfrac{2}{5}a^4b^2c\), el coeficiente es \(\dfrac{2}{5}\) y la parte literal es \(a^4b^2c\). Los exponentes de \(a\), \(b\) y \(c\) son \(4\), \(2\) y \(1\), respectivamente.</li><li>En \(7\), el coeficiente es \(7\) y no hay parte literal. Este término se denomina <strong>término constante</strong>.</li><li>En \(-x\), el coeficiente es \(-1\) y la parte literal es \(x\). El exponente de \(x\) es \(1\).</li></ul></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Cuando el coeficiente es \(1\) o \(-1\), normalmente no se escribe:</p>
+<div class="mate"><span class="mate-bloque">\[x=1x, \qquad -x=(-1)x.\]</span></div>
+<p>De manera similar, cuando una variable tiene exponente \(1\), este exponente se omite:</p>
+<div class="mate"><span class="mate-bloque">\[x^1=x.\]</span></div></div></section>
+<h2 id="lenguaje-algebraico"><span class="num">6.2</span> Lenguaje algebraico<a class="enlace-seccion" href="#lenguaje-algebraico" aria-label="Enlace a esta sección">#</a></h2>
+<p>Traducir un enunciado al lenguaje algebraico consiste en representar las cantidades desconocidas mediante variables y expresar las relaciones entre ellas con operaciones matemáticas.</p>
+<p>Algunas traducciones frecuentes son las siguientes:</p>
+<ul><li>un número cualquiera: <span class="mate-bloque">\[x;\]</span></li><li>el doble de un número: <span class="mate-bloque">\[2x;\]</span></li><li>el triple de un número: <span class="mate-bloque">\[3x;\]</span></li><li>la mitad de un número: <span class="mate-bloque">\[\frac{x}{2};\]</span></li><li>la tercera parte de un número: <span class="mate-bloque">\[\frac{x}{3};\]</span></li><li>la suma de dos números: <span class="mate-bloque">\[x+y;\]</span></li><li>la diferencia entre dos números: <span class="mate-bloque">\[x-y;\]</span></li><li>el producto de dos números: <span class="mate-bloque">\[xy;\]</span></li><li>el cociente de dos números: <span class="mate-bloque">\[\frac{x}{y}, \qquad y\neq 0;\]</span></li><li>el cuadrado de un número: <span class="mate-bloque">\[x^2;\]</span></li><li>el cubo de un número: <span class="mate-bloque">\[x^3;\]</span></li><li>la suma de los cuadrados de dos números: <span class="mate-bloque">\[x^2+y^2;\]</span></li><li>el cuadrado de la suma de dos números: <span class="mate-bloque">\[(x+y)^2;\]</span></li><li>un número aumentado en \(5\): <span class="mate-bloque">\[x+5;\]</span></li><li>un número disminuido en \(3\): <span class="mate-bloque">\[x-3;\]</span></li><li>el doble de un número, aumentado en \(4\): <span class="mate-bloque">\[2x+4.\]</span></li></ul>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La posición de los signos de agrupación puede cambiar por completo el significado de una expresión. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[2x+4\]</span></div>
+<p>representa el doble de un número, aumentado en \(4\). En cambio,</p>
+<div class="mate"><span class="mate-bloque">\[2(x+4)\]</span></div>
+<p>representa el doble de la suma de un número y \(4\).</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-2"><div class="caja-titulo">Ejemplo 6.2</div><div class="caja-cuerpo"><p>Traduce los siguientes enunciados al lenguaje algebraico:</p>
+<ol><li>El triple de un número, disminuido en \(7\).</li><li>La suma de dos números enteros consecutivos.</li><li>El cuadrado de la diferencia entre dos números.</li><li>La mitad de un número más su tercera parte.</li></ol><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><ol><li>Si el número es \(x\): <span class="mate-bloque">\[3x-7.\]</span></li><li>Si el primer número es \(x\), el siguiente es \(x+1\): <span class="mate-bloque">\[x+(x+1).\]</span></li><li>Si los números son \(x\) y \(y\): <span class="mate-bloque">\[(x-y)^2.\]</span></li><li>Si el número es \(x\): <span class="mate-bloque">\[\frac{x}{2}+\frac{x}{3}.\]</span></li></ol></div></details></div></section>
+<h2 id="terminos-semejantes"><span class="num">6.3</span> Términos semejantes<a class="enlace-seccion" href="#terminos-semejantes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Dos o más términos son <strong>semejantes</strong> si tienen exactamente la misma parte literal, es decir, las mismas variables elevadas a los mismos exponentes. Los términos semejantes solo pueden diferir en sus coeficientes.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-3"><div class="caja-titulo">Ejemplo 6.3</div><div class="caja-cuerpo"><p>Identifica los términos semejantes en la siguiente lista:</p>
+<div class="mate"><span class="mate-bloque">\[3x^2, \qquad -5x^2, \qquad 4xy, \qquad 2x, \qquad 7x^2y, \qquad -8x^2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los términos</p>
+<div class="mate"><span class="mate-bloque">\[3x^2, \qquad -5x^2 \qquad\text{y}\qquad -8x^2\]</span></div>
+<p>son semejantes porque tienen la misma parte literal, \(x^2\).</p>
+<p>Los términos \(4xy\), \(2x\) y \(7x^2y\) no son semejantes a los anteriores ni entre sí, pues sus partes literales son distintas.</p></div></details></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Reducción de términos semejantes</div><div class="caja-cuerpo"><p>Para reducir términos semejantes, se suman o restan sus coeficientes y se conserva la parte literal:</p>
+<div class="mate"><span class="mate-bloque">\[ax^n+bx^n-cx^n = (a+b-c)x^n.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-4"><div class="caja-titulo">Ejemplo 6.4</div><div class="caja-cuerpo"><p>Reduce las siguientes expresiones:</p>
+<div class="mate"><span class="mate-bloque">\[4x-9x,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[-3mn+7mn-2mn,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{2}a^2b -\frac{2}{3}a^2b +\frac{5}{6}a^2b.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>En cada caso, sumamos o restamos los coeficientes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 4x-9x &amp;=(4-9)x\\ &amp;=-5x, \\[0.6em] -3mn+7mn-2mn &amp;=(-3+7-2)mn\\ &amp;=2mn. \end{aligned}\]</span></div>
+<p>Para la tercera expresión:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{1}{2}a^2b -\frac{2}{3}a^2b +\frac{5}{6}a^2b &amp;= \left( \frac{1}{2} -\frac{2}{3} +\frac{5}{6} \right)a^2b\\ &amp;= \left( \frac{3}{6} -\frac{4}{6} +\frac{5}{6} \right)a^2b\\ &amp;= \frac{4}{6}a^2b\\ &amp;= \frac{2}{3}a^2b. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Solo pueden reducirse términos semejantes. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[3x+2x=5x,\]</span></div>
+<p>pero</p>
+<div class="mate"><span class="mate-bloque">\[3x+2x^2\]</span></div>
+<p>no puede reducirse, porque \(x\) y \(x^2\) tienen exponentes distintos.</p></div></section>
+<h2 id="valor-numerico"><span class="num">6.4</span> Valor numérico<a class="enlace-seccion" href="#valor-numerico" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>valor numérico</strong> de una expresión algebraica es el número que se obtiene al sustituir cada variable por un valor determinado y realizar las operaciones indicadas.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-5"><div class="caja-titulo">Ejemplo 6.5</div><div class="caja-cuerpo"><p>Calcula el valor numérico de</p>
+<div class="mate"><span class="mate-bloque">\[3x^2y\]</span></div>
+<p>si \(x=2\) y \(y=-3\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos las variables por los valores correspondientes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x^2y &amp;=3(2)^2(-3)\\ &amp;=3(4)(-3)\\ &amp;=-36. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-6"><div class="caja-titulo">Ejemplo 6.6</div><div class="caja-cuerpo"><p>Calcula el valor numérico de</p>
+<div class="mate"><span class="mate-bloque">\[2m^2+5mn+n^2\]</span></div>
+<p>si \(m=-2\) y \(n=-1\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos los valores entre paréntesis:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2m^2+5mn+n^2 &amp;=2(-2)^2+5(-2)(-1)+(-1)^2\\ &amp;=2(4)+10+1\\ &amp;=8+10+1\\ &amp;=19. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al sustituir una variable por un número negativo, el número debe escribirse entre paréntesis. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[-2^2 = -(2^2) = -4,\]</span></div>
+<p>mientras que</p>
+<div class="mate"><span class="mate-bloque">\[(-2)^2 = 4.\]</span></div>
+<p>Los paréntesis indican que el signo negativo forma parte de la base.</p></div></section>
+<h2 id="polinomios"><span class="num">6.5</span> Polinomios<a class="enlace-seccion" href="#polinomios" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>polinomio</strong> en una o varias variables es una suma finita de términos cuyos exponentes son números enteros no negativos.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[3x^2-5x+4\]</span></div>
+<p>es un polinomio en la variable \(x\).</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Según su número de términos no nulos, un polinomio puede recibir los siguientes nombres:</p>
+<ul><li><strong>Monomio</strong>: tiene un término. <span class="mate-bloque">\[5x^2.\]</span></li><li><strong>Binomio</strong>: tiene dos términos. <span class="mate-bloque">\[3x+2.\]</span></li><li><strong>Trinomio</strong>: tiene tres términos. <span class="mate-bloque">\[x^2-4x+1.\]</span></li></ul>
+<p>La palabra <strong>polinomio</strong> se utiliza de manera general para expresiones con uno o más términos. No se reserva únicamente para las expresiones de cuatro o más términos.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>grado de un término</strong> es la suma de los exponentes de las variables que forman su parte literal. El grado de un polinomio es el mayor grado entre sus términos no nulos.</p>
+<p>Por ejemplo, en el término</p>
+<div class="mate"><span class="mate-bloque">\[4x^2y^3,\]</span></div>
+<p>el grado es</p>
+<div class="mate"><span class="mate-bloque">\[2+3=5.\]</span></div>
+<p>El polinomio</p>
+<div class="mate"><span class="mate-bloque">\[3x^4-2x^2+7\]</span></div>
+<p>tiene grado \(4\).</p></div></section>
+<h2 id="suma-y-resta-de-polinomios"><span class="num">6.6</span> Suma y resta de polinomios<a class="enlace-seccion" href="#suma-y-resta-de-polinomios" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para sumar polinomios, se agrupan y reducen los términos semejantes. Para restarlos, se suma el opuesto del segundo polinomio.</p>
+<section class="caja caja-ejemplo" id="ejemplo-6-7"><div class="caja-titulo">Ejemplo 6.7</div><div class="caja-cuerpo"><p>Suma los polinomios:</p>
+<div class="mate"><span class="mate-bloque">\[(3x^2-5x+4)+(2x^2+7x-1).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Agrupamos los términos semejantes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} &amp;(3x^2-5x+4)+(2x^2+7x-1)\\ &amp;\qquad =3x^2+2x^2-5x+7x+4-1\\ &amp;\qquad =5x^2+2x+3. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-8"><div class="caja-titulo">Ejemplo 6.8</div><div class="caja-cuerpo"><p>Resta los polinomios:</p>
+<div class="mate"><span class="mate-bloque">\[(5a^3-2a^2+4a-3) - (2a^3+a^2-6a+5).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Distribuimos el signo negativo a todos los términos del segundo polinomio:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} &amp;(5a^3-2a^2+4a-3) - (2a^3+a^2-6a+5) \\ &amp;\qquad =5a^3-2a^2+4a-3 -2a^3-a^2+6a-5. \end{aligned}\]</span></div>
+<p>Después reducimos los términos semejantes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 5a^3-2a^3 &amp;=3a^3,\\ -2a^2-a^2 &amp;=-3a^2,\\ 4a+6a &amp;=10a,\\ -3-5 &amp;=-8. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[(5a^3-2a^2+4a-3) - (2a^3+a^2-6a+5) = 3a^3-3a^2+10a-8.\]</span></div></div></details></div></section>
+<h2 id="multiplicacion-de-polinomios"><span class="num">6.7</span> Multiplicación de polinomios<a class="enlace-seccion" href="#multiplicacion-de-polinomios" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Multiplicación de monomios</div><div class="caja-cuerpo"><p>Para multiplicar monomios, se multiplican sus coeficientes y se suman los exponentes de las variables iguales. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[(ax^m)(bx^n) = abx^{m+n}.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-9"><div class="caja-titulo">Ejemplo 6.9</div><div class="caja-cuerpo"><p>Multiplica:</p>
+<div class="mate"><span class="mate-bloque">\[(-4x^2y^3)(-2x^4y^5).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos los coeficientes y sumamos los exponentes correspondientes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (-4x^2y^3)(-2x^4y^5) &amp;=(-4)(-2)x^{2+4}y^{3+5}\\ &amp;=8x^6y^8. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Monomio por polinomio</div><div class="caja-cuerpo"><p>Para multiplicar un monomio por un polinomio, se aplica la propiedad distributiva. El monomio se multiplica por cada término del polinomio:</p>
+<div class="mate"><span class="mate-bloque">\[a(b+c+d) = ab+ac+ad.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-10"><div class="caja-titulo">Ejemplo 6.10</div><div class="caja-cuerpo"><p>Multiplica:</p>
+<div class="mate"><span class="mate-bloque">\[3x^2(2x^3-5x+4).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Distribuimos el monomio entre los tres términos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x^2(2x^3-5x+4) &amp;=3x^2(2x^3)+3x^2(-5x)+3x^2(4)\\ &amp;=6x^5-15x^3+12x^2. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Polinomio por polinomio</div><div class="caja-cuerpo"><p>Para multiplicar dos polinomios, cada término del primer polinomio se multiplica por cada término del segundo. Finalmente, se reducen los términos semejantes.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-11"><div class="caja-titulo">Ejemplo 6.11</div><div class="caja-cuerpo"><p>Multiplica:</p>
+<div class="mate"><span class="mate-bloque">\[(3x-2)(2x+5).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la propiedad distributiva:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (3x-2)(2x+5) &amp;=3x(2x)+3x(5)-2(2x)-2(5)\\ &amp;=6x^2+15x-4x-10\\ &amp;=6x^2+11x-10. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="division-entre-monomios"><span class="num">6.8</span> División entre monomios<a class="enlace-seccion" href="#division-entre-monomios" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Monomio entre monomio</div><div class="caja-cuerpo"><p>Para dividir dos monomios, se dividen sus coeficientes y se restan los exponentes de las variables iguales:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{ax^m}{bx^n} = \frac{a}{b}x^{m-n},\]</span></div>
+<p>siempre que el monomio del denominador sea distinto de cero.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-12"><div class="caja-titulo">Ejemplo 6.12</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{-18x^3y^5}{9x^2y^3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Dividimos los coeficientes y restamos los exponentes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{-18x^3y^5}{9x^2y^3} &amp;= \frac{-18}{9}x^{3-2}y^{5-3}\\ &amp;=-2xy^2. \end{aligned}\]</span></div>
+<p>La simplificación es válida para \(x\neq 0\) y \(y\neq 0\), pues ambas variables aparecen en el denominador original.</p></div></details></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Polinomio entre monomio</div><div class="caja-cuerpo"><p>Para dividir un polinomio entre un monomio, se divide cada término del polinomio entre el monomio:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a+b+c}{m} = \frac{a}{m} + \frac{b}{m} + \frac{c}{m}, \qquad m\neq 0.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-6-13"><div class="caja-titulo">Ejemplo 6.13</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{15x^4y^5-10x^3y^6}{-5x^2y^2}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Dividimos cada término del numerador entre el monomio:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{15x^4y^5-10x^3y^6}{-5x^2y^2} &amp;= \frac{15x^4y^5}{-5x^2y^2} + \frac{-10x^3y^6}{-5x^2y^2}\\ &amp;=-3x^{4-2}y^{5-2} +2x^{3-2}y^{6-2}\\ &amp;=-3x^2y^3+2xy^4. \end{aligned}\]</span></div>
+<p>La simplificación es válida para \(x\neq 0\) y \(y\neq 0\).</p></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La división de un polinomio entre otro polinomio se estudiará en el capítulo dedicado a las fracciones algebraicas.</p></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">6.9</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-6-1"><div class="caja-titulo">Ejercicio 6.1</div><div class="caja-cuerpo"><p>Identifica el coeficiente, la parte literal y el grado del término:</p>
+<div class="mate"><span class="mate-bloque">\[-7a^3b^2c.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Coeficiente: \(-7\). Parte literal: \(a^3 b^2 c\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-6-2"><div class="caja-titulo">Ejercicio 6.2</div><div class="caja-cuerpo"><p>Traduce al lenguaje algebraico:</p>
+<blockquote><p>El cuádruple de un número, aumentado en el doble de otro número.</p></blockquote><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(4x + 2y\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-6-3"><div class="caja-titulo">Ejercicio 6.3</div><div class="caja-cuerpo"><p>Reduce los términos semejantes:</p>
+<div class="mate"><span class="mate-bloque">\[8x-3x+2x-5x.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[8x - 3x + 2x - 5x = (8 - 3 + 2 - 5)x = 2x.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-6-4"><div class="caja-titulo">Ejercicio 6.4</div><div class="caja-cuerpo"><p>Reduce:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{3}{4}m^2n -\frac{1}{2}m^2n +\frac{5}{8}m^2n.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{3}{4}m^2 n - \frac{1}{2}m^2 n + \frac{5}{8}m^2 n = \left(\frac{6 - 4 + 5}{8}\right)m^2 n = \frac{7}{8}m^2 n.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-6-5"><div class="caja-titulo">Ejercicio 6.5</div><div class="caja-cuerpo"><p>Calcula el valor numérico de</p>
+<div class="mate"><span class="mate-bloque">\[x^2-3xy+2y^2\]</span></div>
+<p>para \(x=3\) y \(y=-2\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(3)^2 - 3(3)(-2) + 2(-2)^2 = 9 + 18 + 8 = 35.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-6-6"><div class="caja-titulo">Ejercicio 6.6</div><div class="caja-cuerpo"><p>Suma los polinomios:</p>
+<div class="mate"><span class="mate-bloque">\[(2x^3-4x^2+5x-1) + (-x^3+3x^2-2x+4).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} &amp;(2x^3 - 4x^2 + 5x - 1) + (-x^3 + 3x^2 - 2x + 4) \\ &amp;= (2-1)x^3 + (-4+3)x^2 + (5-2)x + (-1+4) \\ &amp;= x^3 - x^2 + 3x + 3. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-6-7"><div class="caja-titulo">Ejercicio 6.7</div><div class="caja-cuerpo"><p>Resta los polinomios:</p>
+<div class="mate"><span class="mate-bloque">\[(4m^2-3mn+n^2) - (2m^2+5mn-3n^2).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} &amp;(4m^2 - 3mn + n^2) - (2m^2 + 5mn - 3n^2) \\ &amp;= 4m^2 - 3mn + n^2 - 2m^2 - 5mn + 3n^2 \\ &amp;= 2m^2 - 8mn + 4n^2. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-6-8"><div class="caja-titulo">Ejercicio 6.8</div><div class="caja-cuerpo"><p>Multiplica:</p>
+<div class="mate"><span class="mate-bloque">\[(2x-3)(x^2+4x-1).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} (2x - 3)(x^2 + 4x - 1) &amp;= 2x \cdot x^2 + 2x \cdot 4x + 2x \cdot (-1) \\ &amp;\quad - 3 \cdot x^2 - 3 \cdot 4x - 3 \cdot (-1) \\ &amp;= 2x^3 + 8x^2 - 2x - 3x^2 - 12x + 3 \\ &amp;= 2x^3 + 5x^2 - 14x + 3. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-6-9"><div class="caja-titulo">Ejercicio 6.9</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{12a^5b^4-8a^3b^2+4a^2b}{4a^2b}.\]</span></div>
+<p>Indica las restricciones necesarias sobre las variables.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{12a^5 b^4}{4a^2 b} - \frac{8a^3 b^2}{4a^2 b} + \frac{4a^2 b}{4a^2 b} = 3a^3 b^3 - 2ab + 1.\]</span></div></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="05-razones-proporciones.html"><span>← Anterior</span>5. Razones, proporciones y porcentajes</a><a class="nav-siguiente" href="07-productos-notables.html"><span>Siguiente →</span>7. Productos notables</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

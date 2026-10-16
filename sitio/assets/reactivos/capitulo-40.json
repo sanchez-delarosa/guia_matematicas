@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "40",
+    "titulo": "La derivada",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "40.1",
+        "nombre": "Concepto de derivada"
+      },
+      {
+        "codigo": "40.2",
+        "nombre": "Interpretación del signo"
+      },
+      {
+        "codigo": "40.3",
+        "nombre": "Reglas básicas de derivación"
+      },
+      {
+        "codigo": "40.4",
+        "nombre": "Producto y cociente"
+      },
+      {
+        "codigo": "40.5",
+        "nombre": "Regla de la cadena"
+      },
+      {
+        "codigo": "40.6",
+        "nombre": "Derivadas trigonométricas"
+      },
+      {
+        "codigo": "40.7",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      {
+        "codigo": "40.8",
+        "nombre": "Resumen de reglas"
+      },
+      {
+        "codigo": "40.9",
+        "nombre": "Derivación implícita"
+      }
+    ],
+    "criterio_de_inclusion": "Secciones 40.1 a 40.9 conforme al temario del capítulo.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-40-1-01",
+      "pregunta": "La derivada de $f$ en $x=a$ se define como:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.1",
+        "nombre": "Concepto de derivada"
+      },
+      "respuestas_posibles": {
+        "A": "$f'(a)=\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}$",
+        "B": "$f'(a)=f(a+h)-f(a)$",
+        "C": "$f'(a)=\\frac{f(a)}a$",
+        "D": "$f'(a)=\\int f(a)\\,da$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-1-02",
+      "pregunta": "Geométricamente, $f'(a)$ representa:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.1",
+        "nombre": "Concepto de derivada"
+      },
+      "respuestas_posibles": {
+        "A": "El área bajo la curva",
+        "B": "La ordenada al origen",
+        "C": "La longitud de la gráfica",
+        "D": "La pendiente de la recta tangente a la gráfica en $x=a$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-1-03",
+      "pregunta": "En una situación de movimiento, la derivada de la posición respecto del tiempo es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.1",
+        "nombre": "Concepto de derivada"
+      },
+      "respuestas_posibles": {
+        "A": "La distancia total siempre",
+        "B": "La aceleración media",
+        "C": "La velocidad instantánea",
+        "D": "La posición inicial"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-1-04",
+      "pregunta": "El cociente $\\frac{f(a+h)-f(a)}h$ representa:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.1",
+        "nombre": "Concepto de derivada"
+      },
+      "respuestas_posibles": {
+        "A": "Una asíntota",
+        "B": "Una razón de cambio promedio",
+        "C": "Una integral definida",
+        "D": "Un valor máximo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-1-05",
+      "pregunta": "Al hacer $h\\to0$, la razón de cambio promedio tiende a:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.1",
+        "nombre": "Concepto de derivada"
+      },
+      "respuestas_posibles": {
+        "A": "La razón de cambio instantánea",
+        "B": "La función inversa",
+        "C": "El área total",
+        "D": "El dominio"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-1-06",
+      "pregunta": "La notación de Leibniz para la derivada de $y$ respecto de $x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.1",
+        "nombre": "Concepto de derivada"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{dx}{dy}$",
+        "B": "$\\int y\\,dx$",
+        "C": "$\\Delta y$",
+        "D": "$\\frac{dy}{dx}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-1-07",
+      "pregunta": "Otra notación para la derivada de $f$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.1",
+        "nombre": "Concepto de derivada"
+      },
+      "respuestas_posibles": {
+        "A": "$|f(x)|$",
+        "B": "$\\bar f(x)$",
+        "C": "$f'(x)$",
+        "D": "$f^{-1}(x)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-1-08",
+      "pregunta": "Si una función es derivable en un punto, entonces es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.1",
+        "nombre": "Concepto de derivada"
+      },
+      "respuestas_posibles": {
+        "A": "Periódica",
+        "B": "Continua en ese punto",
+        "C": "Discontinua en ese punto",
+        "D": "Constante en todo su dominio"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-1-09",
+      "pregunta": "La continuidad en un punto:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.1",
+        "nombre": "Concepto de derivada"
+      },
+      "respuestas_posibles": {
+        "A": "No garantiza por sí sola la derivabilidad",
+        "B": "Garantiza siempre derivabilidad",
+        "C": "Implica pendiente cero",
+        "D": "Implica un máximo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-1-10",
+      "pregunta": "La derivada puede no existir en un punto con:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.1",
+        "nombre": "Concepto de derivada"
+      },
+      "respuestas_posibles": {
+        "A": "Una recta suave",
+        "B": "Un polinomio",
+        "C": "Una constante",
+        "D": "Una esquina o cúspide"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-2-01",
+      "pregunta": "Si $f'(x)>0$ en un intervalo, $f$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.2",
+        "nombre": "Interpretación del signo"
+      },
+      "respuestas_posibles": {
+        "A": "Constante",
+        "B": "Discontinua",
+        "C": "Creciente en ese intervalo",
+        "D": "Decreciente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-2-02",
+      "pregunta": "Si $f'(x)<0$ en un intervalo, $f$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.2",
+        "nombre": "Interpretación del signo"
+      },
+      "respuestas_posibles": {
+        "A": "Periódica",
+        "B": "Decreciente en ese intervalo",
+        "C": "Creciente",
+        "D": "Constante"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-2-03",
+      "pregunta": "Si $f'(x)=0$ en un punto, la tangente es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.2",
+        "nombre": "Interpretación del signo"
+      },
+      "respuestas_posibles": {
+        "A": "Horizontal",
+        "B": "Vertical",
+        "C": "Oblicua con pendiente uno",
+        "D": "Inexistente siempre"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-2-04",
+      "pregunta": "Un punto donde $f'(c)=0$ se denomina:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.2",
+        "nombre": "Interpretación del signo"
+      },
+      "respuestas_posibles": {
+        "A": "Asíntota",
+        "B": "Punto de inflexión necesariamente",
+        "C": "Polo",
+        "D": "Punto crítico o estacionario"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-2-05",
+      "pregunta": "El cambio de signo de $f'$ de positivo a negativo indica:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.2",
+        "nombre": "Interpretación del signo"
+      },
+      "respuestas_posibles": {
+        "A": "Crecimiento permanente",
+        "B": "Una asíntota vertical",
+        "C": "Un máximo local",
+        "D": "Un mínimo local"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-2-06",
+      "pregunta": "El cambio de signo de $f'$ de negativo a positivo indica:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.2",
+        "nombre": "Interpretación del signo"
+      },
+      "respuestas_posibles": {
+        "A": "Una recta vertical",
+        "B": "Un mínimo local",
+        "C": "Un máximo local",
+        "D": "Una discontinuidad removible"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-2-07",
+      "pregunta": "Si $f'$ no cambia de signo al pasar por un punto crítico:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.2",
+        "nombre": "Interpretación del signo"
+      },
+      "respuestas_posibles": {
+        "A": "Puede no haber extremo local",
+        "B": "Siempre hay máximo",
+        "C": "Siempre hay mínimo",
+        "D": "La función no existe"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-2-08",
+      "pregunta": "Una derivada grande y positiva indica:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.2",
+        "nombre": "Interpretación del signo"
+      },
+      "respuestas_posibles": {
+        "A": "Decrecimiento rápido",
+        "B": "Pendiente nula",
+        "C": "Área negativa",
+        "D": "Crecimiento rápido"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-2-09",
+      "pregunta": "Una derivada muy negativa indica:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.2",
+        "nombre": "Interpretación del signo"
+      },
+      "respuestas_posibles": {
+        "A": "Tangente horizontal",
+        "B": "Función constante",
+        "C": "Decrecimiento pronunciado",
+        "D": "Crecimiento pronunciado"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-2-10",
+      "pregunta": "Si la posición tiene derivada negativa, el objeto:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.2",
+        "nombre": "Interpretación del signo"
+      },
+      "respuestas_posibles": {
+        "A": "Se mueve siempre más rápido",
+        "B": "Se mueve en el sentido negativo del eje",
+        "C": "Está necesariamente detenido",
+        "D": "Tiene aceleración cero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-3-01",
+      "pregunta": "La derivada de una constante $c$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.3",
+        "nombre": "Reglas básicas de derivación"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$c$",
+        "C": "$1$",
+        "D": "$x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-3-02",
+      "pregunta": "La derivada de $x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.3",
+        "nombre": "Reglas básicas de derivación"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$x$",
+        "C": "$2x$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-3-03",
+      "pregunta": "La regla de la potencia establece que $\\frac d{dx}x^n=$",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.3",
+        "nombre": "Reglas básicas de derivación"
+      },
+      "respuestas_posibles": {
+        "A": "$n x^n$",
+        "B": "$x^{n+1}/(n+1)$",
+        "C": "$nx^{n-1}$",
+        "D": "$x^{n-1}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-3-04",
+      "pregunta": "Derive $x^5$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.3",
+        "nombre": "Reglas básicas de derivación"
+      },
+      "respuestas_posibles": {
+        "A": "$4x^5$",
+        "B": "$5x^4$",
+        "C": "$x^4$",
+        "D": "$5x^5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-3-05",
+      "pregunta": "Derive $3x^4$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.3",
+        "nombre": "Reglas básicas de derivación"
+      },
+      "respuestas_posibles": {
+        "A": "$12x^3$",
+        "B": "$3x^3$",
+        "C": "$12x^4$",
+        "D": "$7x^3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-3-06",
+      "pregunta": "Derive $7x^2-4x+9$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.3",
+        "nombre": "Reglas básicas de derivación"
+      },
+      "respuestas_posibles": {
+        "A": "$7x-4$",
+        "B": "$14x+9$",
+        "C": "$2x-4$",
+        "D": "$14x-4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-3-07",
+      "pregunta": "Derive $x^{-2}$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.3",
+        "nombre": "Reglas básicas de derivación"
+      },
+      "respuestas_posibles": {
+        "A": "$-2x^{-2}$",
+        "B": "$x^{-3}$",
+        "C": "$-2x^{-3}$",
+        "D": "$2x^{-1}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-3-08",
+      "pregunta": "Derive $\\sqrt{x}=x^{1/2}$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.3",
+        "nombre": "Reglas básicas de derivación"
+      },
+      "respuestas_posibles": {
+        "A": "$x^{-2}$",
+        "B": "$\\frac1{2\\sqrt{x}}$",
+        "C": "$2\\sqrt{x}$",
+        "D": "$\\frac{\\sqrt{x}}2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-3-09",
+      "pregunta": "La derivada de una suma es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.3",
+        "nombre": "Reglas básicas de derivación"
+      },
+      "respuestas_posibles": {
+        "A": "La suma de las derivadas",
+        "B": "El producto de las derivadas",
+        "C": "El cociente de las derivadas",
+        "D": "Siempre cero"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-3-10",
+      "pregunta": "Derive $5x^3-2x^2+x-8$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.3",
+        "nombre": "Reglas básicas de derivación"
+      },
+      "respuestas_posibles": {
+        "A": "$15x^2-2x+1$",
+        "B": "$5x^2-4x$",
+        "C": "$15x^3-4x^2+1$",
+        "D": "$15x^2-4x+1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-4-01",
+      "pregunta": "La regla del producto es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.4",
+        "nombre": "Producto y cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$(uv)'=u/v$",
+        "B": "$(uv)'=u'+v'$",
+        "C": "$(uv)'=u'v+uv'$",
+        "D": "$(uv)'=u'v'$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-4-02",
+      "pregunta": "La regla del cociente es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.4",
+        "nombre": "Producto y cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{uv'-u'v}{v}$",
+        "B": "$\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}$",
+        "C": "$\\frac{u'v+uv'}{v^2}$",
+        "D": "$\\frac{u'}{v'}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-4-03",
+      "pregunta": "Derive $x^2(x+1)$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.4",
+        "nombre": "Producto y cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^2+2x$",
+        "B": "$2x(x+1)$",
+        "C": "$3x+1$",
+        "D": "$x^3+x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-4-04",
+      "pregunta": "Derive $(x^2+1)(x-3)$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.4",
+        "nombre": "Producto y cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$2x^2-6x$",
+        "B": "$3x^2+1$",
+        "C": "$x^2-3$",
+        "D": "$3x^2-6x+1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-4-05",
+      "pregunta": "Derive $\\frac{x^2+1}{x}$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.4",
+        "nombre": "Producto y cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$\\frac{2x}{x}$",
+        "C": "$1-\\frac1{x^2}$",
+        "D": "$1+\\frac1{x^2}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-4-06",
+      "pregunta": "Derive $\\frac{x}{x+1}$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.4",
+        "nombre": "Producto y cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac1{x+1}$",
+        "B": "$\\frac1{(x+1)^2}$",
+        "C": "$\\frac{x}{(x+1)^2}$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-4-07",
+      "pregunta": "Derive $\\frac{2x+3}{x-1}$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.4",
+        "nombre": "Producto y cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac5{(x-1)^2}$",
+        "B": "$\\frac5{(x-1)^2}$",
+        "C": "$\\frac2{x-1}$",
+        "D": "$-\\frac1{(x-1)^2}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-4-08",
+      "pregunta": "Al usar la regla del cociente, el denominador final es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.4",
+        "nombre": "Producto y cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$v$",
+        "B": "$u^2$",
+        "C": "$u-v$",
+        "D": "$v^2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-4-09",
+      "pregunta": "Derive $(3x-1)(x^2+2)$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.4",
+        "nombre": "Producto y cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^2-2x+2$",
+        "B": "$9x-2$",
+        "C": "$9x^2-2x+6$",
+        "D": "$6x^2+5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-4-10",
+      "pregunta": "Derive $\\frac{x^2}{x+2}$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.4",
+        "nombre": "Producto y cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x}{(x+2)^2}$",
+        "B": "$\\frac{x^2+4x}{(x+2)^2}$",
+        "C": "$\\frac{2x}{x+2}$",
+        "D": "$\\frac{x^2-4x}{(x+2)^2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-5-01",
+      "pregunta": "La regla de la cadena para $y=f(g(x))$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.5",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "$y'=f'(g(x))g'(x)$",
+        "B": "$y'=f'(x)+g'(x)$",
+        "C": "$y'=f'(x)g(x)$",
+        "D": "$y'=f(x)g'(x)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-5-02",
+      "pregunta": "Derive $(3x+1)^4$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.5",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "$4(3x+1)^3$",
+        "B": "$12(3x+1)^4$",
+        "C": "$(3x+1)^3$",
+        "D": "$12(3x+1)^3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-5-03",
+      "pregunta": "Derive $(x^2+2)^5$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.5",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "$10x(x^2+2)^5$",
+        "B": "$5x(x^2+2)^4$",
+        "C": "$10x(x^2+2)^4$",
+        "D": "$5(x^2+2)^4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-5-04",
+      "pregunta": "Derive $\\sqrt{2x+5}$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.5",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt{2x+5}$",
+        "B": "$\\frac1{\\sqrt{2x+5}}$",
+        "C": "$\\frac1{2\\sqrt{2x+5}}$",
+        "D": "$2\\sqrt{2x+5}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-5-05",
+      "pregunta": "Derive $(5-x)^{-2}$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.5",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "$2(5-x)^{-3}$",
+        "B": "$-2(5-x)^{-3}$",
+        "C": "$2(5-x)^{-2}$",
+        "D": "$-2(5-x)^{-1}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-5-06",
+      "pregunta": "Derive $\\sin(4x)$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.5",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos(4x)$",
+        "B": "$-4\\sin(4x)$",
+        "C": "$4\\sin(4x)$",
+        "D": "$4\\cos(4x)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-5-07",
+      "pregunta": "Derive $e^{3x}$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.5",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "$3xe^{3x}$",
+        "B": "$e^3$",
+        "C": "$3e^{3x}$",
+        "D": "$e^{3x}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-5-08",
+      "pregunta": "Derive $\\ln(x^2+1)$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.5",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x}{x^2+1}$",
+        "B": "$\\frac{2x}{x^2+1}$",
+        "C": "$\\frac1{x^2+1}$",
+        "D": "$2x\\ln(x^2+1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-5-09",
+      "pregunta": "En una función compuesta, la derivada interna:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.5",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplica a la derivada externa",
+        "B": "Se suma siempre",
+        "C": "Se elimina",
+        "D": "Va al denominador siempre"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-5-10",
+      "pregunta": "Derive $(2x^3-x)^6$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.5",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "$6(2x^3-x)^5$",
+        "B": "$(2x^3-x)^6(6x^2-1)$",
+        "C": "$5(2x^3-x)^4$",
+        "D": "$6(2x^3-x)^5(6x^2-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-6-01",
+      "pregunta": "La derivada de $\\sin x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.6",
+        "nombre": "Derivadas trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\cos x$",
+        "B": "$\\tan x$",
+        "C": "$\\cos x$",
+        "D": "$-\\sin x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-6-02",
+      "pregunta": "La derivada de $\\cos x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.6",
+        "nombre": "Derivadas trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sec^2x$",
+        "B": "$-\\sin x$",
+        "C": "$\\sin x$",
+        "D": "$-\\cos x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-6-03",
+      "pregunta": "La derivada de $\\tan x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.6",
+        "nombre": "Derivadas trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sec^2x$",
+        "B": "$\\csc^2x$",
+        "C": "$\\sin x$",
+        "D": "$-\\sec^2x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-6-04",
+      "pregunta": "La derivada de $\\cot x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.6",
+        "nombre": "Derivadas trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\csc^2x$",
+        "B": "$-\\sec^2x$",
+        "C": "$\\cos x$",
+        "D": "$-\\csc^2x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-6-05",
+      "pregunta": "La derivada de $\\sec x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.6",
+        "nombre": "Derivadas trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\sec x\\tan x$",
+        "B": "$\\csc x\\cot x$",
+        "C": "$\\sec x\\tan x$",
+        "D": "$\\sec^2x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-6-06",
+      "pregunta": "La derivada de $\\csc x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.6",
+        "nombre": "Derivadas trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sec x\\tan x$",
+        "B": "$-\\csc x\\cot x$",
+        "C": "$\\csc x\\cot x$",
+        "D": "$-\\csc^2x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-6-07",
+      "pregunta": "Derive $3\\sin x-2\\cos x$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.6",
+        "nombre": "Derivadas trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$3\\cos x+2\\sin x$",
+        "B": "$3\\cos x-2\\sin x$",
+        "C": "$3\\sin x+2\\cos x$",
+        "D": "$-3\\sin x+2\\cos x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-6-08",
+      "pregunta": "Derive $\\tan(2x)$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.6",
+        "nombre": "Derivadas trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sec^2(2x)$",
+        "B": "$2\\tan(2x)$",
+        "C": "$-2\\csc^2(2x)$",
+        "D": "$2\\sec^2(2x)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-6-09",
+      "pregunta": "Derive $\\cos(x^2)$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.6",
+        "nombre": "Derivadas trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\sin(x^2)$",
+        "B": "$2x\\sin(x^2)$",
+        "C": "$-2x\\sin(x^2)$",
+        "D": "$2x\\cos(x^2)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-6-10",
+      "pregunta": "Las fórmulas trigonométricas de derivación suponen ángulos medidos en:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.6",
+        "nombre": "Derivadas trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Metros",
+        "B": "Radianes",
+        "C": "Grados",
+        "D": "Porcentajes"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-7-01",
+      "pregunta": "La derivada de $e^x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.7",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$e^x$",
+        "B": "$xe^{x-1}$",
+        "C": "$1/x$",
+        "D": "$e$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-7-02",
+      "pregunta": "La derivada de $a^x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.7",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$xa^{x-1}$",
+        "B": "$a^{x-1}$",
+        "C": "$\\ln x$",
+        "D": "$a^x\\ln a$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-7-03",
+      "pregunta": "La derivada de $\\ln x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.7",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x$",
+        "B": "$e^x$",
+        "C": "$1/x$",
+        "D": "$\\ln x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-7-04",
+      "pregunta": "La derivada de $\\log_a x$ es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.7",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\ln a}x$",
+        "B": "$\\frac1{x\\ln a}$",
+        "C": "$\\frac ax$",
+        "D": "$a^x\\ln a$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-7-05",
+      "pregunta": "Derive $e^{2x+1}$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.7",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$2e^{2x+1}$",
+        "B": "$e^{2x+1}$",
+        "C": "$(2x+1)e^{2x}$",
+        "D": "$2e^x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-7-06",
+      "pregunta": "Derive $3^x$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.7",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x3^{x-1}$",
+        "B": "$3^{x-1}$",
+        "C": "$3^x$",
+        "D": "$3^x\\ln3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-7-07",
+      "pregunta": "Derive $\\ln(5x)$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.7",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$5/x$",
+        "B": "$\\ln5$",
+        "C": "$1/x$",
+        "D": "$1/(5x)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-7-08",
+      "pregunta": "Derive $\\ln(x^2)$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.7",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x/2$",
+        "B": "$2/x$",
+        "C": "$1/x^2$",
+        "D": "$2\\ln x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-7-09",
+      "pregunta": "Derive $xe^x$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.7",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$e^x(x+1)$",
+        "B": "$xe^x$",
+        "C": "$e^x$",
+        "D": "$e^x(x-1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-7-10",
+      "pregunta": "Derive $\\frac{e^x}{x}$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.7",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{e^x(x+1)}{x^2}$",
+        "B": "$e^x/x^2$",
+        "C": "$e^x$",
+        "D": "$\\frac{e^x(x-1)}{x^2}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-8-01",
+      "pregunta": "La regla para una constante multiplicativa es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.8",
+        "nombre": "Resumen de reglas"
+      },
+      "respuestas_posibles": {
+        "A": "$D(cf)=c+D(f)$",
+        "B": "$D(cf)=D(f)/c$",
+        "C": "$D(cf)=cD(f)$",
+        "D": "$D(cf)=D(c)f$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-8-02",
+      "pregunta": "La regla de suma es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.8",
+        "nombre": "Resumen de reglas"
+      },
+      "respuestas_posibles": {
+        "A": "$D(f+g)=0$",
+        "B": "$D(f+g)=D(f)+D(g)$",
+        "C": "$D(f+g)=D(f)D(g)$",
+        "D": "$D(f+g)=f+g$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-8-03",
+      "pregunta": "La regla de diferencia es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.8",
+        "nombre": "Resumen de reglas"
+      },
+      "respuestas_posibles": {
+        "A": "$D(f-g)=D(f)-D(g)$",
+        "B": "$D(f-g)=D(g)-D(f)$",
+        "C": "$D(f-g)=D(f)D(g)$",
+        "D": "$D(f-g)=f-g$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-8-04",
+      "pregunta": "Para $y=u^n$, la regla de cadena da:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.8",
+        "nombre": "Resumen de reglas"
+      },
+      "respuestas_posibles": {
+        "A": "$dy/dx=nu^{n-1}$",
+        "B": "$dy/dx=u^{n-1}du/dx$",
+        "C": "$dy/dx=n^u$",
+        "D": "$dy/dx=nu^{n-1}du/dx$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-8-05",
+      "pregunta": "Para $y=\\sin u$, se tiene:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.8",
+        "nombre": "Resumen de reglas"
+      },
+      "respuestas_posibles": {
+        "A": "$dy/dx=-\\sin(u)du/dx$",
+        "B": "$dy/dx=\\cos u$",
+        "C": "$dy/dx=\\cos(u)du/dx$",
+        "D": "$dy/dx=\\sin(u)du/dx$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-8-06",
+      "pregunta": "Para $y=\\ln u$, se tiene:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.8",
+        "nombre": "Resumen de reglas"
+      },
+      "respuestas_posibles": {
+        "A": "$dy/dx=\\ln(du/dx)$",
+        "B": "$dy/dx=(du/dx)/u$",
+        "C": "$dy/dx=1/(du/dx)$",
+        "D": "$dy/dx=u/(du/dx)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-8-07",
+      "pregunta": "Para $y=e^u$, se tiene:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.8",
+        "nombre": "Resumen de reglas"
+      },
+      "respuestas_posibles": {
+        "A": "$dy/dx=e^u du/dx$",
+        "B": "$dy/dx=e^{du/dx}$",
+        "C": "$dy/dx=ue^u$",
+        "D": "$dy/dx=e^u$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-8-08",
+      "pregunta": "Antes de derivar una expresión compleja conviene:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.8",
+        "nombre": "Resumen de reglas"
+      },
+      "respuestas_posibles": {
+        "A": "Expandir siempre todo",
+        "B": "Integrar primero",
+        "C": "Sustituir $x=0$",
+        "D": "Identificar su estructura: suma, producto, cociente o composición"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-8-09",
+      "pregunta": "Después de derivar conviene:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.8",
+        "nombre": "Resumen de reglas"
+      },
+      "respuestas_posibles": {
+        "A": "Cambiar la variable",
+        "B": "Añadir una constante",
+        "C": "Simplificar y comprobar signos y factores",
+        "D": "Eliminar todos los exponentes"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-8-10",
+      "pregunta": "La derivada de segundo orden se escribe:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.8",
+        "nombre": "Resumen de reglas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int f(x)dx$",
+        "B": "$f^{\\prime\\prime}(x)$ o $\\frac{d^2y}{dx^2}$",
+        "C": "$f^2(x)$",
+        "D": "$\\frac{dy}{dx^2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-9-01",
+      "pregunta": "La derivación implícita se usa cuando:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.9",
+        "nombre": "Derivación implícita"
+      },
+      "respuestas_posibles": {
+        "A": "$y$ no está despejada explícitamente como función de $x$",
+        "B": "La ecuación es siempre lineal",
+        "C": "No aparece $y$",
+        "D": "La función es constante"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-9-02",
+      "pregunta": "Al derivar $y$ respecto de $x$, se obtiene:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.9",
+        "nombre": "Derivación implícita"
+      },
+      "respuestas_posibles": {
+        "A": "$1$ siempre",
+        "B": "$y$",
+        "C": "$dx/dy$",
+        "D": "$dy/dx$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-9-03",
+      "pregunta": "Derive implícitamente $x^2+y^2=25$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.9",
+        "nombre": "Derivación implícita"
+      },
+      "respuestas_posibles": {
+        "A": "$x+y y'=25$",
+        "B": "$2x+2y'=0$",
+        "C": "$2x+2y y'=0$",
+        "D": "$2x+2y=0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-9-04",
+      "pregunta": "Para $x^2+y^2=25$, $y'=$",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.9",
+        "nombre": "Derivación implícita"
+      },
+      "respuestas_posibles": {
+        "A": "$x+y$",
+        "B": "$-x/y$",
+        "C": "$x/y$",
+        "D": "$-y/x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-9-05",
+      "pregunta": "Derive $xy=6$ implícitamente.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.9",
+        "nombre": "Derivación implícita"
+      },
+      "respuestas_posibles": {
+        "A": "$xy'+y=0$",
+        "B": "$x+y'=0$",
+        "C": "$xy'=6$",
+        "D": "$x'y+xy=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-9-06",
+      "pregunta": "Para $xy=6$, $y'=$",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.9",
+        "nombre": "Derivación implícita"
+      },
+      "respuestas_posibles": {
+        "A": "$-x/y$",
+        "B": "$y/x$",
+        "C": "$1/x$",
+        "D": "$-y/x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-9-07",
+      "pregunta": "Derive $x^3+y^3=9$.",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.9",
+        "nombre": "Derivación implícita"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2y'=9$",
+        "B": "$3x+3yy'=0$",
+        "C": "$3x^2+3y^2y'=0$",
+        "D": "$3x^2+3y^2=0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-9-08",
+      "pregunta": "Para $x^3+y^3=9$, $y'=$",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.9",
+        "nombre": "Derivación implícita"
+      },
+      "respuestas_posibles": {
+        "A": "$-x/y$",
+        "B": "$-x^2/y^2$",
+        "C": "$-y^2/x^2$",
+        "D": "$x^2/y^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-9-09",
+      "pregunta": "Al derivar $\\sin y$ respecto de $x$, resulta:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.9",
+        "nombre": "Derivación implícita"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos y\\,y'$",
+        "B": "$\\cos y$",
+        "C": "$-\\sin y\\,y'$",
+        "D": "$\\sin y\\,y'$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-40-9-10",
+      "pregunta": "En la ecuación $x^2+xy+y^2=7$, la derivada es:",
+      "tema": {
+        "codigo": "40",
+        "nombre": "La derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "40.9",
+        "nombre": "Derivación implícita"
+      },
+      "respuestas_posibles": {
+        "A": "$2x+y+2y=0$",
+        "B": "$2x+xy'+2y=0$",
+        "C": "$x^2+y^2=0$",
+        "D": "$2x+y+xy'+2yy'=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar derivadas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

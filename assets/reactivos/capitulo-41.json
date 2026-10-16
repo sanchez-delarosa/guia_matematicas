@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "41",
+    "titulo": "Aplicaciones de la derivada",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "41.1",
+        "nombre": "Recta tangente y recta normal"
+      },
+      {
+        "codigo": "41.2",
+        "nombre": "Velocidad y aceleración"
+      },
+      {
+        "codigo": "41.3",
+        "nombre": "Crecimiento y decrecimiento"
+      },
+      {
+        "codigo": "41.4",
+        "nombre": "Máximos y mínimos relativos"
+      },
+      {
+        "codigo": "41.5",
+        "nombre": "Extremos absolutos en un intervalo cerrado"
+      },
+      {
+        "codigo": "41.6",
+        "nombre": "Concavidad y puntos de inflexión"
+      },
+      {
+        "codigo": "41.7",
+        "nombre": "Problemas de optimización"
+      },
+      {
+        "codigo": "41.8",
+        "nombre": "Procedimiento rápido"
+      },
+      {
+        "codigo": "41.9",
+        "nombre": "Resumen"
+      }
+    ],
+    "criterio_de_inclusion": "Secciones 41.1 a 41.9 conforme al temario del capítulo.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-41-1-01",
+      "pregunta": "La pendiente de la recta tangente a $y=f(x)$ en $x=a$ es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.1",
+        "nombre": "Recta tangente y recta normal"
+      },
+      "respuestas_posibles": {
+        "A": "$f'(a)$",
+        "B": "$f(a)$",
+        "C": "$-1/f(a)$",
+        "D": "$f''(a)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-1-02",
+      "pregunta": "La ecuación de la tangente en $(a,f(a))$ es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.1",
+        "nombre": "Recta tangente y recta normal"
+      },
+      "respuestas_posibles": {
+        "A": "$y=f(a)x+a$",
+        "B": "$y-a=f(a)(x-f(a))$",
+        "C": "$y=f'(a)$",
+        "D": "$y-f(a)=f'(a)(x-a)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-1-03",
+      "pregunta": "Si la pendiente tangente es $m\\ne0$, la pendiente normal es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.1",
+        "nombre": "Recta tangente y recta normal"
+      },
+      "respuestas_posibles": {
+        "A": "$1/m$",
+        "B": "$-m$",
+        "C": "$-1/m$",
+        "D": "$m$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-1-04",
+      "pregunta": "Para $f(x)=x^2$, la pendiente tangente en $x=2$ es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.1",
+        "nombre": "Recta tangente y recta normal"
+      },
+      "respuestas_posibles": {
+        "A": "$1/4$",
+        "B": "$4$",
+        "C": "$2$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-1-05",
+      "pregunta": "La tangente a $y=x^2$ en $(2,4)$ es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.1",
+        "nombre": "Recta tangente y recta normal"
+      },
+      "respuestas_posibles": {
+        "A": "$y=4x-4$",
+        "B": "$y=2x$",
+        "C": "$y=-\\frac14x+\\frac92$",
+        "D": "$y=4x+4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-1-06",
+      "pregunta": "La normal a $y=x^2$ en $(2,4)$ es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.1",
+        "nombre": "Recta tangente y recta normal"
+      },
+      "respuestas_posibles": {
+        "A": "$y-4=4(x-2)$",
+        "B": "$y=2x$",
+        "C": "$y-2=-4(x-4)$",
+        "D": "$y-4=-\\frac14(x-2)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-1-07",
+      "pregunta": "Para $f(x)=x^3$, la tangente en $x=1$ tiene pendiente:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.1",
+        "nombre": "Recta tangente y recta normal"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$0$",
+        "C": "$3$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-1-08",
+      "pregunta": "Si $f'(a)=0$, la recta tangente es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.1",
+        "nombre": "Recta tangente y recta normal"
+      },
+      "respuestas_posibles": {
+        "A": "Paralela a la normal",
+        "B": "Horizontal",
+        "C": "Vertical",
+        "D": "De pendiente uno"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-1-09",
+      "pregunta": "Si la tangente es horizontal, la normal es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.1",
+        "nombre": "Recta tangente y recta normal"
+      },
+      "respuestas_posibles": {
+        "A": "Vertical",
+        "B": "Horizontal",
+        "C": "De pendiente cero",
+        "D": "Paralela a la tangente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-1-10",
+      "pregunta": "La recta normal es perpendicular a:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.1",
+        "nombre": "Recta tangente y recta normal"
+      },
+      "respuestas_posibles": {
+        "A": "El eje $x$ siempre",
+        "B": "La curva completa",
+        "C": "El eje $y$ siempre",
+        "D": "La recta tangente"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-2-01",
+      "pregunta": "Si $s(t)$ es la posición, la velocidad es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.2",
+        "nombre": "Velocidad y aceleración"
+      },
+      "respuestas_posibles": {
+        "A": "$v(t)=s''(t)$",
+        "B": "$v(t)=\\int s(t)dt$",
+        "C": "$v(t)=s'(t)$",
+        "D": "$v(t)=s(t)/t$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-2-02",
+      "pregunta": "La aceleración se obtiene como:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.2",
+        "nombre": "Velocidad y aceleración"
+      },
+      "respuestas_posibles": {
+        "A": "$a(t)=v(t)t$",
+        "B": "$a(t)=v'(t)=s''(t)$",
+        "C": "$a(t)=s'(t)$",
+        "D": "$a(t)=s(t)/t^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-2-03",
+      "pregunta": "Para $s(t)=t^2+3t$, $v(t)=$",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.2",
+        "nombre": "Velocidad y aceleración"
+      },
+      "respuestas_posibles": {
+        "A": "$2t+3$",
+        "B": "$t+3$",
+        "C": "$2$",
+        "D": "$t^2+3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-2-04",
+      "pregunta": "Para la misma posición, $a(t)=$",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.2",
+        "nombre": "Velocidad y aceleración"
+      },
+      "respuestas_posibles": {
+        "A": "$2t+3$",
+        "B": "$t$",
+        "C": "$0$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-2-05",
+      "pregunta": "Si $v(t)>0$, la posición:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.2",
+        "nombre": "Velocidad y aceleración"
+      },
+      "respuestas_posibles": {
+        "A": "Es cero",
+        "B": "Tiene aceleración negativa necesariamente",
+        "C": "Aumenta en ese instante",
+        "D": "Disminuye"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-2-06",
+      "pregunta": "Si $v(t)<0$, el móvil se desplaza:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.2",
+        "nombre": "Velocidad y aceleración"
+      },
+      "respuestas_posibles": {
+        "A": "Con rapidez cero",
+        "B": "En el sentido negativo del eje",
+        "C": "En el sentido positivo",
+        "D": "Con aceleración cero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-2-07",
+      "pregunta": "La rapidez es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.2",
+        "nombre": "Velocidad y aceleración"
+      },
+      "respuestas_posibles": {
+        "A": "$|v(t)|$",
+        "B": "$v(t)$ siempre",
+        "C": "$a(t)$",
+        "D": "$s(t)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-2-08",
+      "pregunta": "Un móvil está momentáneamente en reposo cuando:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.2",
+        "nombre": "Velocidad y aceleración"
+      },
+      "respuestas_posibles": {
+        "A": "$a(t)=0$",
+        "B": "$s(t)=0$",
+        "C": "$v(t)=1$",
+        "D": "$v(t)=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-2-09",
+      "pregunta": "Para $s(t)=t^3-6t^2+9t$, $v(1)=$",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.2",
+        "nombre": "Velocidad y aceleración"
+      },
+      "respuestas_posibles": {
+        "A": "$-3$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-2-10",
+      "pregunta": "Para esa función, $a(t)=$",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.2",
+        "nombre": "Velocidad y aceleración"
+      },
+      "respuestas_posibles": {
+        "A": "$t-12$",
+        "B": "$6t-12$",
+        "C": "$3t^2-12t+9$",
+        "D": "$6t-6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-3-01",
+      "pregunta": "Una función crece donde:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.3",
+        "nombre": "Crecimiento y decrecimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$f'(x)>0$",
+        "B": "$f'(x)<0$",
+        "C": "$f''(x)>0$",
+        "D": "$f(x)=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-3-02",
+      "pregunta": "Una función decrece donde:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.3",
+        "nombre": "Crecimiento y decrecimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$f'(x)>0$",
+        "B": "$f''(x)<0$",
+        "C": "$f(x)>0$",
+        "D": "$f'(x)<0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-3-03",
+      "pregunta": "Los números críticos ocurren donde:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.3",
+        "nombre": "Crecimiento y decrecimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$f''(x)=0$ únicamente",
+        "B": "$x=0$ siempre",
+        "C": "$f'(x)=0$ o $f'$ no existe",
+        "D": "$f(x)=1$ únicamente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-3-04",
+      "pregunta": "Para $f(x)=x^2$, la función decrece en:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.3",
+        "nombre": "Crecimiento y decrecimiento"
+      },
+      "respuestas_posibles": {
+        "A": "Todo $\\mathbb R$",
+        "B": "$(-\\infty,0)$",
+        "C": "$(0,\\infty)$",
+        "D": "$(-1,1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-3-05",
+      "pregunta": "Para $f(x)=x^2$, la función crece en:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.3",
+        "nombre": "Crecimiento y decrecimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,\\infty)$",
+        "B": "$(-\\infty,0)$",
+        "C": "Todo $\\mathbb R$",
+        "D": "$(-1,1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-3-06",
+      "pregunta": "Para $f(x)=x^3-3x$, los críticos son:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.3",
+        "nombre": "Crecimiento y decrecimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "$x=\\pm3$",
+        "C": "$x=1$ únicamente",
+        "D": "$x=\\pm1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-3-07",
+      "pregunta": "En $f(x)=x^3-3x$, la función crece en:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.3",
+        "nombre": "Crecimiento y decrecimiento"
+      },
+      "respuestas_posibles": {
+        "A": "Todo $\\mathbb R$",
+        "B": "$(-\\infty,1)$",
+        "C": "$(-\\infty,-1)\\cup(1,\\infty)$",
+        "D": "$(-1,1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-3-08",
+      "pregunta": "En esa función, decrece en:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.3",
+        "nombre": "Crecimiento y decrecimiento"
+      },
+      "respuestas_posibles": {
+        "A": "Todo $\\mathbb R$",
+        "B": "$(-1,1)$",
+        "C": "$(1,\\infty)$",
+        "D": "$(-\\infty,-1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-3-09",
+      "pregunta": "Una tabla de signos de $f'$ sirve para:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.3",
+        "nombre": "Crecimiento y decrecimiento"
+      },
+      "respuestas_posibles": {
+        "A": "Determinar intervalos de crecimiento y decrecimiento",
+        "B": "Calcular el área exacta",
+        "C": "Encontrar asíntotas únicamente",
+        "D": "Integrar la función"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-3-10",
+      "pregunta": "El signo de $f$ por sí solo:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.3",
+        "nombre": "Crecimiento y decrecimiento"
+      },
+      "respuestas_posibles": {
+        "A": "Determina siempre crecimiento",
+        "B": "Determina siempre concavidad",
+        "C": "Equivale al signo de $f'$",
+        "D": "No determina crecimiento o decrecimiento"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-4-01",
+      "pregunta": "Si $f'$ cambia de positivo a negativo en $c$, hay:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.4",
+        "nombre": "Máximos y mínimos relativos"
+      },
+      "respuestas_posibles": {
+        "A": "Punto de inflexión necesariamente",
+        "B": "Asíntota",
+        "C": "Máximo relativo",
+        "D": "Mínimo relativo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-4-02",
+      "pregunta": "Si $f'$ cambia de negativo a positivo en $c$, hay:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.4",
+        "nombre": "Máximos y mínimos relativos"
+      },
+      "respuestas_posibles": {
+        "A": "Tangente vertical siempre",
+        "B": "Mínimo relativo",
+        "C": "Máximo relativo",
+        "D": "Discontinuidad"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-4-03",
+      "pregunta": "El criterio de la segunda derivada afirma que si $f'(c)=0$ y $f''(c)>0$, hay:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.4",
+        "nombre": "Máximos y mínimos relativos"
+      },
+      "respuestas_posibles": {
+        "A": "Mínimo relativo",
+        "B": "Máximo relativo",
+        "C": "Ningún extremo siempre",
+        "D": "Asíntota"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-4-04",
+      "pregunta": "Si $f'(c)=0$ y $f''(c)<0$, hay:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.4",
+        "nombre": "Máximos y mínimos relativos"
+      },
+      "respuestas_posibles": {
+        "A": "Mínimo relativo",
+        "B": "Punto de inflexión",
+        "C": "Crecimiento global",
+        "D": "Máximo relativo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-4-05",
+      "pregunta": "Si $f''(c)=0$, el criterio de la segunda derivada:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.4",
+        "nombre": "Máximos y mínimos relativos"
+      },
+      "respuestas_posibles": {
+        "A": "Garantiza mínimo",
+        "B": "Impide derivar",
+        "C": "Es inconcluso",
+        "D": "Garantiza máximo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-4-06",
+      "pregunta": "Para $f(x)=x^2-4x+1$, el punto crítico es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.4",
+        "nombre": "Máximos y mínimos relativos"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$",
+        "B": "$x=2$",
+        "C": "$x=-2$",
+        "D": "$x=4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-4-07",
+      "pregunta": "La función anterior tiene en $x=2$:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.4",
+        "nombre": "Máximos y mínimos relativos"
+      },
+      "respuestas_posibles": {
+        "A": "Un mínimo relativo",
+        "B": "Un máximo relativo",
+        "C": "Un punto de inflexión",
+        "D": "Una asíntota"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-4-08",
+      "pregunta": "Para $f(x)=-x^2+6x$, el máximo ocurre en:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.4",
+        "nombre": "Máximos y mínimos relativos"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-3$",
+        "B": "$x=6$",
+        "C": "$x=0$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-4-09",
+      "pregunta": "Un extremo relativo compara valores:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.4",
+        "nombre": "Máximos y mínimos relativos"
+      },
+      "respuestas_posibles": {
+        "A": "Solo en los extremos del dominio",
+        "B": "Solo cuando $f=0$",
+        "C": "En una vecindad del punto",
+        "D": "En todo el dominio obligatoriamente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-4-10",
+      "pregunta": "Un punto crítico:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.4",
+        "nombre": "Máximos y mínimos relativos"
+      },
+      "respuestas_posibles": {
+        "A": "Nunca es extremo",
+        "B": "No necesariamente es un extremo",
+        "C": "Siempre es máximo",
+        "D": "Siempre es mínimo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-5-01",
+      "pregunta": "Para hallar extremos absolutos en $[a,b]$ se evalúa:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.5",
+        "nombre": "Extremos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "En críticos interiores y extremos $a,b$",
+        "B": "Solo en $a$",
+        "C": "Solo donde $f'=0$",
+        "D": "Solo en $b$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-5-02",
+      "pregunta": "El mayor valor evaluado es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.5",
+        "nombre": "Extremos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "El mínimo absoluto",
+        "B": "Un punto crítico",
+        "C": "La derivada máxima",
+        "D": "El máximo absoluto"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-5-03",
+      "pregunta": "El menor valor evaluado es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.5",
+        "nombre": "Extremos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "La pendiente mínima",
+        "B": "Una asíntota",
+        "C": "El mínimo absoluto",
+        "D": "El máximo absoluto"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-5-04",
+      "pregunta": "El teorema del valor extremo exige una función:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.5",
+        "nombre": "Extremos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "Impar",
+        "B": "Continua en un intervalo cerrado",
+        "C": "Derivable en todo $\\mathbb R$",
+        "D": "Discontinua"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-5-05",
+      "pregunta": "Para $f(x)=x^2$ en $[-1,2]$, el mínimo absoluto es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.5",
+        "nombre": "Extremos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$4$",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-5-06",
+      "pregunta": "Para la misma función, el máximo absoluto es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.5",
+        "nombre": "Extremos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$2$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-5-07",
+      "pregunta": "Para $f(x)=x^2-2x$ en $[0,3]$, el crítico interior es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.5",
+        "nombre": "Extremos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2$",
+        "B": "$x=3$",
+        "C": "$x=1$",
+        "D": "$x=0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-5-08",
+      "pregunta": "El mínimo absoluto de esa función es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.5",
+        "nombre": "Extremos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$-1$",
+        "C": "$0$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-5-09",
+      "pregunta": "El máximo absoluto de esa función en $[0,3]$ es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.5",
+        "nombre": "Extremos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$-1$",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-5-10",
+      "pregunta": "Omitir los extremos del intervalo puede causar:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.5",
+        "nombre": "Extremos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "Mejorar el resultado",
+        "B": "Encontrar más críticos",
+        "C": "Eliminar continuidad",
+        "D": "Perder un extremo absoluto"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-6-01",
+      "pregunta": "La gráfica es cóncava hacia arriba donde:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.6",
+        "nombre": "Concavidad y puntos de inflexión"
+      },
+      "respuestas_posibles": {
+        "A": "$f'(x)>0$",
+        "B": "$f(x)>0$",
+        "C": "$f''(x)>0$",
+        "D": "$f''(x)<0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-6-02",
+      "pregunta": "La gráfica es cóncava hacia abajo donde:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.6",
+        "nombre": "Concavidad y puntos de inflexión"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)<0$",
+        "B": "$f''(x)<0$",
+        "C": "$f''(x)>0$",
+        "D": "$f'(x)<0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-6-03",
+      "pregunta": "Un punto de inflexión requiere:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.6",
+        "nombre": "Concavidad y puntos de inflexión"
+      },
+      "respuestas_posibles": {
+        "A": "Cambio de concavidad",
+        "B": "Solo $f''=0$",
+        "C": "Un máximo absoluto",
+        "D": "Una asíntota"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-6-04",
+      "pregunta": "Que $f''(c)=0$:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.6",
+        "nombre": "Concavidad y puntos de inflexión"
+      },
+      "respuestas_posibles": {
+        "A": "Garantiza inflexión",
+        "B": "Garantiza máximo",
+        "C": "Garantiza mínimo",
+        "D": "No basta para garantizar inflexión"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-6-05",
+      "pregunta": "Para $f(x)=x^3$, $f''(x)=$",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.6",
+        "nombre": "Concavidad y puntos de inflexión"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$x$",
+        "C": "$6x$",
+        "D": "$3x^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-6-06",
+      "pregunta": "La función $x^3$ cambia de concavidad en:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.6",
+        "nombre": "Concavidad y puntos de inflexión"
+      },
+      "respuestas_posibles": {
+        "A": "Nunca",
+        "B": "$x=0$",
+        "C": "$x=1$",
+        "D": "$x=-1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-6-07",
+      "pregunta": "Para $f(x)=x^4$, $f''(x)=$",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.6",
+        "nombre": "Concavidad y puntos de inflexión"
+      },
+      "respuestas_posibles": {
+        "A": "$12x^2$",
+        "B": "$4x^3$",
+        "C": "$12x$",
+        "D": "$4x^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-6-08",
+      "pregunta": "Aunque $f''(0)=0$ para $x^4$, en $0$:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.6",
+        "nombre": "Concavidad y puntos de inflexión"
+      },
+      "respuestas_posibles": {
+        "A": "Hay inflexión",
+        "B": "Hay máximo",
+        "C": "La función no existe",
+        "D": "No hay cambio de concavidad"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-6-09",
+      "pregunta": "Si $f'$ aumenta, usualmente $f''$ es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.6",
+        "nombre": "Concavidad y puntos de inflexión"
+      },
+      "respuestas_posibles": {
+        "A": "Cero siempre",
+        "B": "Indefinida",
+        "C": "Positiva",
+        "D": "Negativa"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-6-10",
+      "pregunta": "La concavidad describe:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.6",
+        "nombre": "Concavidad y puntos de inflexión"
+      },
+      "respuestas_posibles": {
+        "A": "La longitud de arco",
+        "B": "Cómo cambia la pendiente de la gráfica",
+        "C": "El signo de la función únicamente",
+        "D": "El dominio"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-7-01",
+      "pregunta": "El primer paso en optimización es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.7",
+        "nombre": "Problemas de optimización"
+      },
+      "respuestas_posibles": {
+        "A": "Definir variables y la cantidad a optimizar",
+        "B": "Derivar sin modelo",
+        "C": "Elegir una respuesta",
+        "D": "Integrar"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-7-02",
+      "pregunta": "Después se debe:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.7",
+        "nombre": "Problemas de optimización"
+      },
+      "respuestas_posibles": {
+        "A": "Eliminar restricciones",
+        "B": "Suponer el resultado",
+        "C": "Igualar todas las variables a cero",
+        "D": "Expresar la función objetivo en una variable"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-7-03",
+      "pregunta": "Las restricciones sirven para:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.7",
+        "nombre": "Problemas de optimización"
+      },
+      "respuestas_posibles": {
+        "A": "Garantizar máximo siempre",
+        "B": "Calcular derivadas parciales necesariamente",
+        "C": "Relacionar las variables",
+        "D": "Eliminar la función objetivo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-7-04",
+      "pregunta": "Para un rectángulo de perímetro fijo, el área máxima ocurre cuando es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.7",
+        "nombre": "Problemas de optimización"
+      },
+      "respuestas_posibles": {
+        "A": "De ancho cero",
+        "B": "Un cuadrado",
+        "C": "Muy alargado",
+        "D": "Un triángulo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-7-05",
+      "pregunta": "Con perímetro $20$, el rectángulo de área máxima tiene lados:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.7",
+        "nombre": "Problemas de optimización"
+      },
+      "respuestas_posibles": {
+        "A": "$5$ y $5$",
+        "B": "$1$ y $9$",
+        "C": "$2$ y $8$",
+        "D": "$4$ y $6$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-7-06",
+      "pregunta": "El área máxima anterior es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.7",
+        "nombre": "Problemas de optimización"
+      },
+      "respuestas_posibles": {
+        "A": "$20$",
+        "B": "$16$",
+        "C": "$50$",
+        "D": "$25$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-7-07",
+      "pregunta": "Si $x+y=10$, el producto $xy$ es máximo cuando:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.7",
+        "nombre": "Problemas de optimización"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2,y=8$",
+        "B": "$x=1,y=9$",
+        "C": "$x=y=5$",
+        "D": "$x=0,y=10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-7-08",
+      "pregunta": "Para minimizar material en un problema geométrico se optimiza normalmente:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.7",
+        "nombre": "Problemas de optimización"
+      },
+      "respuestas_posibles": {
+        "A": "La derivada segunda",
+        "B": "Área superficial",
+        "C": "Volumen siempre",
+        "D": "Perímetro sin restricciones"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-7-09",
+      "pregunta": "Tras encontrar candidatos se debe:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.7",
+        "nombre": "Problemas de optimización"
+      },
+      "respuestas_posibles": {
+        "A": "Verificar que satisfagan el dominio y las restricciones",
+        "B": "Aceptar cualquier raíz",
+        "C": "Ignorar unidades",
+        "D": "Eliminar extremos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-7-10",
+      "pregunta": "La respuesta final de optimización debe incluir:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.7",
+        "nombre": "Problemas de optimización"
+      },
+      "respuestas_posibles": {
+        "A": "Solo la derivada",
+        "B": "Solo el número crítico",
+        "C": "Únicamente una gráfica",
+        "D": "Valor, unidades e interpretación"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-8-01",
+      "pregunta": "Para analizar una función, primero se determina:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.8",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "El área bajo la curva",
+        "B": "La función inversa",
+        "C": "Dominio y derivadas necesarias",
+        "D": "Solo el valor en cero"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-8-02",
+      "pregunta": "Luego se resuelve $f'(x)=0$ para hallar:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.8",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Interceptos siempre",
+        "B": "Números críticos",
+        "C": "Puntos de inflexión únicamente",
+        "D": "Asíntotas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-8-03",
+      "pregunta": "Una tabla de signos de $f'$ determina:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.8",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Crecimiento, decrecimiento y extremos",
+        "B": "Concavidad únicamente",
+        "C": "Área exacta",
+        "D": "Periodo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-8-04",
+      "pregunta": "Para estudiar concavidad se analiza:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.8",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)$ únicamente",
+        "B": "$f'(x)$ únicamente",
+        "C": "$1/f(x)$",
+        "D": "$f''(x)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-8-05",
+      "pregunta": "Los candidatos a inflexión aparecen donde:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.8",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$f'(x)>0$",
+        "B": "$x=1$",
+        "C": "$f''(x)=0$ o no existe",
+        "D": "$f(x)=0$ siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-8-06",
+      "pregunta": "Después de hallar candidatos a inflexión se debe:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.8",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Integrar",
+        "B": "Comprobar cambio de concavidad",
+        "C": "Declararlos todos inflexiones",
+        "D": "Evaluar solo $f'$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-8-07",
+      "pregunta": "En intervalo cerrado, además de críticos se revisan:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.8",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Los extremos del intervalo",
+        "B": "Solo asíntotas",
+        "C": "Puntos fuera del dominio",
+        "D": "Únicamente ceros"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-8-08",
+      "pregunta": "Para una tangente se necesita el punto y:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.8",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "La segunda derivada",
+        "B": "El área",
+        "C": "El máximo absoluto",
+        "D": "La pendiente $f'(a)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-8-09",
+      "pregunta": "En problemas físicos conviene revisar:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.8",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "La periodicidad",
+        "B": "La paridad",
+        "C": "Unidades y sentido del resultado",
+        "D": "Solo signos algebraicos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-8-10",
+      "pregunta": "Una comprobación final útil es:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.8",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Redondear antes de calcular",
+        "B": "Sustituir candidatos y comparar valores",
+        "C": "Descartar extremos",
+        "D": "Cambiar la restricción"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-9-01",
+      "pregunta": "La derivada primera informa principalmente sobre:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.9",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Pendiente y variación",
+        "B": "Área acumulada",
+        "C": "Volumen",
+        "D": "Longitud de arco"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-9-02",
+      "pregunta": "La derivada segunda informa sobre:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.9",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Valor inicial únicamente",
+        "B": "Dominio",
+        "C": "Interceptos",
+        "D": "Concavidad y cambio de pendiente"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-9-03",
+      "pregunta": "Los extremos relativos pueden identificarse mediante:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.9",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Solo $f''=0$",
+        "B": "El área",
+        "C": "Cambios de signo de $f'$",
+        "D": "Solo ceros de $f$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-9-04",
+      "pregunta": "Los extremos absolutos en $[a,b]$ se obtienen al:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.9",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Ignorar $a$ y $b$",
+        "B": "Comparar valores en críticos y extremos",
+        "C": "Resolver solo $f=0$",
+        "D": "Usar solo $f''$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-9-05",
+      "pregunta": "La velocidad es la derivada de:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.9",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "La posición",
+        "B": "La aceleración",
+        "C": "La rapidez",
+        "D": "El tiempo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-9-06",
+      "pregunta": "La aceleración es la derivada de:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.9",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "La posición sin derivar",
+        "B": "La distancia total",
+        "C": "El dominio",
+        "D": "La velocidad"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-9-07",
+      "pregunta": "La pendiente normal es el recíproco negativo de:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.9",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "La función",
+        "B": "La aceleración",
+        "C": "La pendiente tangente",
+        "D": "La segunda derivada"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-9-08",
+      "pregunta": "Un punto de inflexión se confirma por:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.9",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Máximo absoluto",
+        "B": "Cambio de concavidad",
+        "C": "Pendiente cero únicamente",
+        "D": "Valor funcional cero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-9-09",
+      "pregunta": "La optimización usa la derivada para:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.9",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Localizar candidatos a valores óptimos",
+        "B": "Eliminar restricciones",
+        "C": "Evitar construir modelos",
+        "D": "Garantizar una sola solución"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-41-9-10",
+      "pregunta": "Una aplicación correcta de derivadas debe combinar:",
+      "tema": {
+        "codigo": "41",
+        "nombre": "Aplicaciones de la derivada",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "41.9",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Solo memorización",
+        "B": "Solo gráfica",
+        "C": "Solo sustitución",
+        "D": "Modelo, cálculo y verificación"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar la derivada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

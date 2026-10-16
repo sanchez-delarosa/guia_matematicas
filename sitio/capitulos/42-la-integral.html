@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>42. La integral · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte VIII: Cálculo integral</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#antiderivada-o-primitiva"><span class="num">42.1</span> Antiderivada o primitiva</a></li><li class="nivel-2"><a href="#derivacion-e-integracion"><span class="num">42.2</span> Derivación e integración</a></li><li class="nivel-2"><a href="#propiedades-de-la-integral-indefinida"><span class="num">42.3</span> Propiedades de la integral indefinida</a></li><li class="nivel-3"><a href="#multiplo-constante"><span class="num">42.3.1</span> Múltiplo constante</a></li><li class="nivel-3"><a href="#suma"><span class="num">42.3.2</span> Suma</a></li><li class="nivel-3"><a href="#resta"><span class="num">42.3.3</span> Resta</a></li><li class="nivel-2"><a href="#integrales-inmediatas"><span class="num">42.4</span> Integrales inmediatas</a></li><li class="nivel-3"><a href="#constantes-y-potencias"><span class="num">42.4.1</span> Constantes y potencias</a></li><li class="nivel-3"><a href="#funciones-exponenciales"><span class="num">42.4.2</span> Funciones exponenciales</a></li><li class="nivel-3"><a href="#funciones-trigonometricas"><span class="num">42.4.3</span> Funciones trigonométricas</a></li><li class="nivel-2"><a href="#regla-de-la-potencia"><span class="num">42.5</span> Regla de la potencia</a></li><li class="nivel-2"><a href="#raices-y-potencias-negativas"><span class="num">42.6</span> Raíces y potencias negativas</a></li><li class="nivel-2"><a href="#ejemplos-de-integrales-inmediatas"><span class="num">42.7</span> Ejemplos de integrales inmediatas</a></li><li class="nivel-2"><a href="#sustitucion-simple"><span class="num">42.8</span> Sustitución simple</a></li><li class="nivel-2"><a href="#verificacion-de-una-integral"><span class="num">42.9</span> Verificación de una integral</a></li><li class="nivel-2"><a href="#condiciones-iniciales"><span class="num">42.10</span> Condiciones iniciales</a></li><li class="nivel-2"><a href="#aplicacion-al-movimiento"><span class="num">42.11</span> Aplicación al movimiento</a></li><li class="nivel-2"><a href="#integral-definida"><span class="num">42.12</span> Integral definida</a></li><li class="nivel-2"><a href="#teorema-fundamental-del-calculo"><span class="num">42.13</span> Teorema fundamental del cálculo</a></li><li class="nivel-2"><a href="#propiedades-de-la-integral-definida"><span class="num">42.14</span> Propiedades de la integral definida</a></li><li class="nivel-2"><a href="#area-entre-una-curva-y-el-eje"><span class="num">42.15</span> Área entre una curva y el eje</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">42.16</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#integral-indefinida">Integral indefinida</a></li><li class="nivel-3"><a href="#sustitucion">Sustitución</a></li><li class="nivel-3"><a href="#integral-definida-2">Integral definida</a></li><li class="nivel-2"><a href="#resumen"><span class="num">42.17</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">42.18</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">42.19</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 42</p><h1>La integral</h1></header>
+<p><span id="cap-la-integral" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span> <span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>La integración permite recuperar una función a partir de su derivada y calcular cantidades acumuladas.</p>
+<p>Sus aplicaciones principales incluyen:</p>
+<ul><li>encontrar antiderivadas;</li><li>recuperar una función a partir de su razón de cambio;</li><li>calcular desplazamientos;</li><li>calcular áreas bajo una curva;</li><li>resolver problemas de acumulación.</li></ul>
+<h2 id="antiderivada-o-primitiva"><span class="num">42.1</span> Antiderivada o primitiva<a class="enlace-seccion" href="#antiderivada-o-primitiva" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una función \(F\) es una <strong>antiderivada</strong> o <strong>primitiva</strong> de \(f\) si:</p>
+<div class="mate"><span class="mate-bloque">\[F'(x)=f(x).\]</span></div></div></section>
+<p>Por ejemplo, como:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(x^2)=2x,\]</span></div>
+<p>una antiderivada de \(2x\) es:</p>
+<div class="mate"><span class="mate-bloque">\[x^2.\]</span></div>
+<p>Sin embargo, también se cumple:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(x^2+3)=2x\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(x^2-7)=2x.\]</span></div>
+<p>Esto ocurre porque la derivada de cualquier constante es cero.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Familia de antiderivadas</div><div class="caja-cuerpo"><p>Si \(F\) es una antiderivada de \(f\), entonces todas las antiderivadas de \(f\) tienen la forma:</p>
+<div class="mate"><span class="mate-bloque">\[F(x)+C,\]</span></div>
+<p>donde \(C\) es una constante real.</p></div></section>
+<p>La integral indefinida se escribe:</p>
+<div class="mate"><span class="mate-bloque">\[\int f(x)\,dx = F(x)+C.\]</span></div>
+<p>En esta expresión:</p>
+<ul><li>\(\displaystyle\int\) es el signo de integral;</li><li>\(f(x)\) es el integrando;</li><li>\(dx\) indica la variable de integración;</li><li>\(C\) es la constante de integración.</li></ul>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En una integral indefinida siempre debe escribirse la constante:</p>
+<div class="mate"><span class="mate-bloque">\[+C.\]</span></div>
+<p>Omitirla significa escribir solo una antiderivada, no la familia completa.</p></div></section>
+<h2 id="derivacion-e-integracion"><span class="num">42.2</span> Derivación e integración<a class="enlace-seccion" href="#derivacion-e-integracion" aria-label="Enlace a esta sección">#</a></h2>
+<p>La derivación y la integración son operaciones inversas.</p>
+<div class="mate"><span class="mate-bloque">\[F(x) \quad \xrightarrow{\text{derivar}} \quad f(x)\]</span></div>
+<div class="mate"><span class="mate-bloque">\[f(x) \quad \xrightarrow{\text{integrar}} \quad F(x)+C\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx} \left[ \int f(x)\,dx \right] = f(x).\]</span></div>
+<p>También:</p>
+<div class="mate"><span class="mate-bloque">\[\int F'(x)\,dx = F(x)+C.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-42-1"><div class="caja-titulo">Ejemplo 42.1</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int 2x\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Buscamos una función cuya derivada sea \(2x\).</p>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(x^2)=2x,\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[\int 2x\,dx = x^2+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-42-2"><div class="caja-titulo">Ejemplo 42.2</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int \cos x\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(\sen x)=\cos x,\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[\int \cos x\,dx = \sen x+C.\]</span></div></div></details></div></section>
+<h2 id="propiedades-de-la-integral-indefinida"><span class="num">42.3</span> Propiedades de la integral indefinida<a class="enlace-seccion" href="#propiedades-de-la-integral-indefinida" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="multiplo-constante"><span class="num">42.3.1</span> Múltiplo constante<a class="enlace-seccion" href="#multiplo-constante" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\int kf(x)\,dx = k\int f(x)\,dx.\]</span></div>
+<h3 id="suma"><span class="num">42.3.2</span> Suma<a class="enlace-seccion" href="#suma" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\int \left[ f(x)+g(x) \right]dx = \int f(x)\,dx + \int g(x)\,dx.\]</span></div>
+<h3 id="resta"><span class="num">42.3.3</span> Resta<a class="enlace-seccion" href="#resta" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\int \left[ f(x)-g(x) \right]dx = \int f(x)\,dx - \int g(x)\,dx.\]</span></div>
+<p>Estas propiedades permiten integrar término a término.</p>
+<h2 id="integrales-inmediatas"><span class="num">42.4</span> Integrales inmediatas<a class="enlace-seccion" href="#integrales-inmediatas" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="constantes-y-potencias"><span class="num">42.4.1</span> Constantes y potencias<a class="enlace-seccion" href="#constantes-y-potencias" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \int k\,dx &amp;=kx+C,\\[4pt] \int x^n\,dx &amp;= \frac{x^{n+1}}{n+1}+C, \qquad n\neq-1,\\[4pt] \int \frac{1}{x}\,dx &amp;= \ln|x|+C. \end{aligned}\]</span></div>
+<h3 id="funciones-exponenciales"><span class="num">42.4.2</span> Funciones exponenciales<a class="enlace-seccion" href="#funciones-exponenciales" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \int e^x\,dx &amp;=e^x+C,\\[4pt] \int a^x\,dx &amp;= \frac{a^x}{\ln a}+C, \qquad a&gt;0,\quad a\neq1. \end{aligned}\]</span></div>
+<h3 id="funciones-trigonometricas"><span class="num">42.4.3</span> Funciones trigonométricas<a class="enlace-seccion" href="#funciones-trigonometricas" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \int \sen x\,dx &amp;=-\cos x+C,\\[4pt] \int \cos x\,dx &amp;=\sen x+C,\\[4pt] \int \sec^2x\,dx &amp;=\tan x+C,\\[4pt] \int \csc^2x\,dx &amp;=-\cot x+C,\\[4pt] \int \sec x\tan x\,dx &amp;=\sec x+C,\\[4pt] \int \csc x\cot x\,dx &amp;=-\csc x+C. \end{aligned}\]</span></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La regla de la potencia no puede utilizarse directamente cuando:</p>
+<div class="mate"><span class="mate-bloque">\[n=-1.\]</span></div>
+<p>En ese caso:</p>
+<div class="mate"><span class="mate-bloque">\[\int x^{-1}\,dx = \int\frac{1}{x}\,dx = \ln|x|+C.\]</span></div></div></section>
+<h2 id="regla-de-la-potencia"><span class="num">42.5</span> Regla de la potencia<a class="enlace-seccion" href="#regla-de-la-potencia" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para integrar una potencia:</p>
+<ol><li>aumenta el exponente en una unidad;</li><li>divide entre el nuevo exponente;</li><li>agrega la constante de integración.</li></ol>
+<div class="mate"><span class="mate-bloque">\[x^n \quad\longrightarrow\quad \frac{x^{n+1}}{n+1}+C.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-42-3"><div class="caja-titulo">Ejemplo 42.3</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int 5x^3\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la regla de la potencia:</p>
+<div class="mate"><span class="mate-bloque">\[\int 5x^3\,dx = 5\int x^3\,dx.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 5\left( \frac{x^4}{4} \right)+C.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int 5x^3\,dx = \frac{5x^4}{4}+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-42-4"><div class="caja-titulo">Ejemplo 42.4</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 3x^2-4x+7 \right)dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Integramos término a término:</p>
+<div class="mate"><span class="mate-bloque">\[\int3x^2\,dx - \int4x\,dx + \int7\,dx.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= x^3-2x^2+7x+C.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 3x^2-4x+7 \right)dx = x^3-2x^2+7x+C.\]</span></div></div></details></div></section>
+<h2 id="raices-y-potencias-negativas"><span class="num">42.6</span> Raíces y potencias negativas<a class="enlace-seccion" href="#raices-y-potencias-negativas" aria-label="Enlace a esta sección">#</a></h2>
+<p>Antes de integrar, conviene escribir las raíces y fracciones como potencias.</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{x}=x^{1/2},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sqrt[3]{x^2}=x^{2/3},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{x^n}=x^{-n}.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-42-5"><div class="caja-titulo">Ejemplo 42.5</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int\sqrt{x}\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{x}=x^{1/2}.\]</span></div>
+<p>Aplicamos la regla de la potencia:</p>
+<div class="mate"><span class="mate-bloque">\[\int x^{1/2}\,dx = \frac{x^{3/2}}{3/2}+C.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int\sqrt{x}\,dx = \frac{2}{3}x^{3/2}+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-42-6"><div class="caja-titulo">Ejemplo 42.6</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{1}{x^3}\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{x^3}=x^{-3}.\]</span></div>
+<p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[\int x^{-3}\,dx = \frac{x^{-2}}{-2}+C.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{1}{x^3}\,dx = -\frac{1}{2x^2}+C.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La constante de integración se escribe una sola vez al final.</p>
+<p>No es necesario escribir una constante diferente después de cada término.</p></div></section>
+<h2 id="ejemplos-de-integrales-inmediatas"><span class="num">42.7</span> Ejemplos de integrales inmediatas<a class="enlace-seccion" href="#ejemplos-de-integrales-inmediatas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-42-7"><div class="caja-titulo">Ejemplo 42.7</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( \frac{1}{x}+e^x \right)dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Integramos término a término:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{1}{x}\,dx + \int e^x\,dx.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( \frac{1}{x}+e^x \right)dx = \ln|x|+e^x+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-42-8"><div class="caja-titulo">Ejemplo 42.8</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 2\sen x-3\cos x \right)dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[2\int\sen x\,dx - 3\int\cos x\,dx.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 2\sen x-3\cos x \right)dx = -2\cos x-3\sen x+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-42-9"><div class="caja-titulo">Ejemplo 42.9</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 3e^x-2\sec^2x \right)dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[3\int e^x\,dx - 2\int\sec^2x\,dx.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 3e^x-2\sec^2x \right)dx = 3e^x-2\tan x+C.\]</span></div></div></details></div></section>
+<h2 id="sustitucion-simple"><span class="num">42.8</span> Sustitución simple<a class="enlace-seccion" href="#sustitucion-simple" aria-label="Enlace a esta sección">#</a></h2>
+<p>La sustitución permite integrar una función compuesta cuando aparece una expresión y también su derivada.</p>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[u=g(x),\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=g'(x)\,dx.\]</span></div>
+<p>La integral:</p>
+<div class="mate"><span class="mate-bloque">\[\int f(g(x))g'(x)\,dx\]</span></div>
+<p>se transforma en:</p>
+<div class="mate"><span class="mate-bloque">\[\int f(u)\,du.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-42-10"><div class="caja-titulo">Ejemplo 42.10</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int 2x(x^2+1)^3\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=x^2+1.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=2x\,dx.\]</span></div>
+<p>La integral se transforma en:</p>
+<div class="mate"><span class="mate-bloque">\[\int u^3\,du.\]</span></div>
+<p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[\int u^3\,du = \frac{u^4}{4}+C.\]</span></div>
+<p>Regresamos a la variable original:</p>
+<div class="mate"><span class="mate-bloque">\[\int 2x(x^2+1)^3\,dx = \frac{(x^2+1)^4}{4}+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-42-11"><div class="caja-titulo">Ejemplo 42.11</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int 3e^{3x}\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=3x.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=3\,dx.\]</span></div>
+<p>La integral queda:</p>
+<div class="mate"><span class="mate-bloque">\[\int e^u\,du.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int 3e^{3x}\,dx = e^{3x}+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-42-12"><div class="caja-titulo">Ejemplo 42.12</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{2x}{x^2+4}\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=x^2+4.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=2x\,dx.\]</span></div>
+<p>La integral queda:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{1}{u}\,du.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{2x}{x^2+4}\,dx = \ln|x^2+4|+C.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+4&gt;0,\]</span></div>
+<p>también puede escribirse:</p>
+<div class="mate"><span class="mate-bloque">\[\ln(x^2+4)+C.\]</span></div></div></details></div></section>
+<h2 id="verificacion-de-una-integral"><span class="num">42.9</span> Verificación de una integral<a class="enlace-seccion" href="#verificacion-de-una-integral" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una integral indefinida puede comprobarse derivando el resultado.</p>
+<section class="caja caja-ejemplo" id="ejemplo-42-13"><div class="caja-titulo">Ejemplo 42.13</div><div class="caja-cuerpo"><p>Comprueba:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 6x^2-4x \right)dx = 2x^3-2x^2+C.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Derivamos el resultado:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx} \left( 2x^3-2x^2+C \right) = 6x^2-4x.\]</span></div>
+<p>La derivada coincide con el integrando, por lo que el resultado es correcto.</p></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La verificación mediante derivación es una forma rápida de detectar errores en exponentes, signos y constantes.</p></div></section>
+<h2 id="condiciones-iniciales"><span class="num">42.10</span> Condiciones iniciales<a class="enlace-seccion" href="#condiciones-iniciales" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si se conoce:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)\]</span></div>
+<p>y un valor:</p>
+<div class="mate"><span class="mate-bloque">\[f(x_0)=y_0,\]</span></div>
+<p>la condición inicial permite encontrar la constante \(C\).</p>
+<section class="caja caja-ejemplo" id="ejemplo-42-14"><div class="caja-titulo">Ejemplo 42.14</div><div class="caja-cuerpo"><p>Encuentra \(f\) si:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=3x^2-2x\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[f(1)=4.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[f(x) = \int \left( 3x^2-2x \right)dx.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[f(x) = x^3-x^2+C.\]</span></div>
+<p>Usamos la condición:</p>
+<div class="mate"><span class="mate-bloque">\[f(1)=4.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1^3-1^2+C=4.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[C=4.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f(x) = x^3-x^2+4.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-42-15"><div class="caja-titulo">Ejemplo 42.15</div><div class="caja-cuerpo"><p>Encuentra \(f\) si:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=\sen x+1\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[f(0)=2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[f(x) = -\cos x+x+C.\]</span></div>
+<p>Usamos la condición inicial:</p>
+<div class="mate"><span class="mate-bloque">\[-\cos0+0+C=2.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[-1+C=2.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[C=3.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f(x) = -\cos x+x+3.\]</span></div></div></details></div></section>
+<h2 id="aplicacion-al-movimiento"><span class="num">42.11</span> Aplicación al movimiento<a class="enlace-seccion" href="#aplicacion-al-movimiento" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si la aceleración es:</p>
+<div class="mate"><span class="mate-bloque">\[a(t),\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[v(t)=\int a(t)\,dt.\]</span></div>
+<p>Si la velocidad es:</p>
+<div class="mate"><span class="mate-bloque">\[v(t),\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[s(t)=\int v(t)\,dt.\]</span></div>
+<p>Las condiciones iniciales permiten determinar las constantes.</p>
+<section class="caja caja-ejemplo" id="ejemplo-42-16"><div class="caja-titulo">Ejemplo 42.16</div><div class="caja-cuerpo"><p>La aceleración de una partícula es:</p>
+<div class="mate"><span class="mate-bloque">\[a(t)=6t.\]</span></div>
+<p>Además:</p>
+<div class="mate"><span class="mate-bloque">\[v(0)=2\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[s(0)=0.\]</span></div>
+<p>Encuentra la velocidad y la posición.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[a(t)=v'(t),\]</span></div>
+<p>integramos:</p>
+<div class="mate"><span class="mate-bloque">\[v(t) = \int6t\,dt.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[v(t) = 3t^2+C_1.\]</span></div>
+<p>Usamos:</p>
+<div class="mate"><span class="mate-bloque">\[v(0)=2.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[C_1=2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[v(t)=3t^2+2.\]</span></div>
+<p>Ahora:</p>
+<div class="mate"><span class="mate-bloque">\[s'(t)=v(t).\]</span></div>
+<p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[s(t) = \int \left( 3t^2+2 \right)dt.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[s(t) = t^3+2t+C_2.\]</span></div>
+<p>Usamos:</p>
+<div class="mate"><span class="mate-bloque">\[s(0)=0.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[C_2=0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[s(t)=t^3+2t.\]</span></div></div></details></div></section>
+<h2 id="integral-definida"><span class="num">42.12</span> Integral definida<a class="enlace-seccion" href="#integral-definida" aria-label="Enlace a esta sección">#</a></h2>
+<p>La integral definida se escribe:</p>
+<div class="mate"><span class="mate-bloque">\[\int_a^b f(x)\,dx.\]</span></div>
+<p>Los números \(a\) y \(b\) son los límites de integración.</p>
+<p>La integral definida representa una acumulación neta entre:</p>
+<div class="mate"><span class="mate-bloque">\[x=a\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[x=b.\]</span></div>
+<p>Geométricamente:</p>
+<ul><li>las regiones sobre el eje \(x\) aportan área positiva;</li><li>las regiones debajo del eje \(x\) aportan área negativa.</li></ul>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-a7964e892168.svg" alt="Figura 42.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="teorema-fundamental-del-calculo"><span class="num">42.13</span> Teorema fundamental del cálculo<a class="enlace-seccion" href="#teorema-fundamental-del-calculo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Evaluación de una integral definida</div><div class="caja-cuerpo"><p>Si \(F\) es una antiderivada de \(f\), entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\int_a^b f(x)\,dx = F(b)-F(a).\]</span></div></div></section>
+<p>También se utiliza la notación:</p>
+<div class="mate"><span class="mate-bloque">\[\left[ F(x) \right]_a^b = F(b)-F(a).\]</span></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En una integral definida no se escribe la constante \(C\), porque se cancela:</p>
+<div class="mate"><span class="mate-bloque">\[[F(b)+C]-[F(a)+C] = F(b)-F(a).\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-42-17"><div class="caja-titulo">Ejemplo 42.17</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int_0^2 3x^2\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Una antiderivada de \(3x^2\) es:</p>
+<div class="mate"><span class="mate-bloque">\[F(x)=x^3.\]</span></div>
+<p>Evaluamos:</p>
+<div class="mate"><span class="mate-bloque">\[\int_0^2 3x^2\,dx = \left[ x^3 \right]_0^2.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 2^3-0^3.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int_0^2 3x^2\,dx = 8.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-42-18"><div class="caja-titulo">Ejemplo 42.18</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int_1^3 \left( 2x+1 \right)dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 2x+1 \right)dx = x^2+x.\]</span></div>
+<p>Evaluamos:</p>
+<div class="mate"><span class="mate-bloque">\[\int_1^3 \left( 2x+1 \right)dx = \left[ x^2+x \right]_1^3.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= (3^2+3)-(1^2+1).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 12-2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int_1^3 \left( 2x+1 \right)dx = 10.\]</span></div></div></details></div></section>
+<h2 id="propiedades-de-la-integral-definida"><span class="num">42.14</span> Propiedades de la integral definida<a class="enlace-seccion" href="#propiedades-de-la-integral-definida" aria-label="Enlace a esta sección">#</a></h2>
+<div class="mate"><span class="mate-bloque">\[\int_a^a f(x)\,dx=0.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\int_a^b f(x)\,dx = -\int_b^a f(x)\,dx.\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[a&lt;c&lt;b,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\int_a^b f(x)\,dx = \int_a^c f(x)\,dx + \int_c^b f(x)\,dx.\]</span></div>
+<p>También:</p>
+<div class="mate"><span class="mate-bloque">\[\int_a^b \left[ f(x)+g(x) \right]dx = \int_a^b f(x)\,dx + \int_a^b g(x)\,dx.\]</span></div>
+<h2 id="area-entre-una-curva-y-el-eje"><span class="num">42.15</span> Área entre una curva y el eje<a class="enlace-seccion" href="#area-entre-una-curva-y-el-eje" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)\geq0\]</span></div>
+<p>en \([a,b]\), entonces el área es:</p>
+<div class="mate"><span class="mate-bloque">\[A = \int_a^b f(x)\,dx.\]</span></div>
+<p>Si la función cambia de signo, el área geométrica debe calcularse separando los intervalos o utilizando:</p>
+<div class="mate"><span class="mate-bloque">\[A = \int_a^b |f(x)|\,dx.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-42-19"><div class="caja-titulo">Ejemplo 42.19</div><div class="caja-cuerpo"><p>Calcula el área limitada por:</p>
+<div class="mate"><span class="mate-bloque">\[y=x,\]</span></div>
+<p>el eje \(x\) y las rectas:</p>
+<div class="mate"><span class="mate-bloque">\[x=0, \qquad x=3.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[x\geq0\]</span></div>
+<p>en \([0,3]\), el área es:</p>
+<div class="mate"><span class="mate-bloque">\[A = \int_0^3 x\,dx.\]</span></div>
+<p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[A = \left[ \frac{x^2}{2} \right]_0^3.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[A = \frac{9}{2}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[A = \frac{9}{2}\]</span></div>
+<p>unidades cuadradas.</p></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La integral definida representa área neta. El área geométrica siempre se expresa como una cantidad no negativa.</p></div></section>
+<h2 id="procedimiento-rapido"><span class="num">42.16</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="integral-indefinida">Integral indefinida<a class="enlace-seccion" href="#integral-indefinida" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Simplifica el integrando.</li><li>Separa sumas y restas.</li><li>Saca las constantes fuera de la integral.</li><li>Identifica la fórmula correspondiente.</li><li>Integra cada término.</li><li>Agrega: <span class="mate-bloque">\[+C.\]</span></li><li>Comprueba derivando el resultado.</li></ol>
+<h3 id="sustitucion">Sustitución<a class="enlace-seccion" href="#sustitucion" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Elige: <span class="mate-bloque">\[u=g(x).\]</span></li><li>Calcula: <span class="mate-bloque">\[du=g'(x)\,dx.\]</span></li><li>Reescribe toda la integral en términos de \(u\).</li><li>Integra.</li><li>Regresa a la variable original.</li></ol>
+<h3 id="integral-definida-2">Integral definida<a class="enlace-seccion" href="#integral-definida-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Encuentra una antiderivada \(F\).</li><li>Evalúa el límite superior: <span class="mate-bloque">\[F(b).\]</span></li><li>Evalúa el límite inferior: <span class="mate-bloque">\[F(a).\]</span></li><li>Calcula: <span class="mate-bloque">\[F(b)-F(a).\]</span></li></ol>
+<h2 id="resumen"><span class="num">42.17</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Integral indefinida:</p>
+<div class="mate"><span class="mate-bloque">\[\int f(x)\,dx = F(x)+C.\]</span></div>
+<p>Relación con la derivada:</p>
+<div class="mate"><span class="mate-bloque">\[F'(x)=f(x).\]</span></div>
+<p>Regla de la potencia:</p>
+<div class="mate"><span class="mate-bloque">\[\int x^n\,dx = \frac{x^{n+1}}{n+1}+C, \qquad n\neq-1.\]</span></div>
+<p>Caso logarítmico:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{1}{x}\,dx = \ln|x|+C.\]</span></div>
+<p>Integral definida:</p>
+<div class="mate"><span class="mate-bloque">\[\int_a^b f(x)\,dx = F(b)-F(a).\]</span></div>
+<p>Movimiento:</p>
+<div class="mate"><span class="mate-bloque">\[v(t) = \int a(t)\,dt,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[s(t) = \int v(t)\,dt.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">42.18</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>En una integral indefinida debe escribirse: <span class="mate-bloque">\[+C.\]</span></li><li>En la regla de la potencia primero se aumenta el exponente y después se divide entre el nuevo exponente.</li><li>La regla de la potencia no se utiliza con: <span class="mate-bloque">\[n=-1.\]</span></li><li>Se cumple: <span class="mate-bloque">\[\int\frac{1}{x}\,dx = \ln|x|+C.\]</span></li><li>Se cumple: <span class="mate-bloque">\[\int\sen x\,dx = -\cos x+C.\]</span></li><li>La constante \(C\) se escribe una sola vez.</li><li>En una integral definida no se agrega \(C\).</li><li>La evaluación correcta es: <span class="mate-bloque">\[F(b)-F(a),\]</span> no \(F(a)-F(b)\).</li><li>La integral definida representa área neta, no siempre área geométrica.</li><li>El resultado puede comprobarse derivando.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">42.19</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-42-1"><div class="caja-titulo">Ejercicio 42.1</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int4x^5\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Por la regla de la potencia: <span class="mate-bloque">\[\int4x^5\,dx=\frac{4x^6}{6}+C=\frac{2}{3}x^6+C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-2"><div class="caja-titulo">Ejercicio 42.2</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 2x^3-5x+3 \right)dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Integramos término a término: <span class="mate-bloque">\[\int(2x^3-5x+3)\,dx=\frac{2x^4}{4}-\frac{5x^2}{2}+3x+C=\frac{1}{2}x^4-\frac{5}{2}x^2+3x+C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-3"><div class="caja-titulo">Ejercicio 42.3</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 3\sqrt{x}+\frac{2}{x} \right)dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribiendo en forma de potencias: <span class="mate-bloque">\[\int\left(3x^{1/2}+\frac{2}{x}\right)dx=\frac{3x^{3/2}}{3/2}+2\ln|x|+C=2x^{3/2}+2\ln|x|+C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-4"><div class="caja-titulo">Ejercicio 42.4</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{1}{x^4}\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos como potencia negativa: <span class="mate-bloque">\[\int x^{-4}\,dx=\frac{x^{-3}}{-3}+C=-\frac{1}{3x^3}+C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-5"><div class="caja-titulo">Ejercicio 42.5</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 5\sen x+2\cos x \right)dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Integramos término a término: <span class="mate-bloque">\[\int(5\sen x+2\cos x)\,dx=-5\cos x+2\sen x+C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-6"><div class="caja-titulo">Ejercicio 42.6</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int \left( 3e^x-\sec^2x \right)dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Integramos término a término: <span class="mate-bloque">\[\int(3e^x-\sec^2x)\,dx=3e^x-\tan x+C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-7"><div class="caja-titulo">Ejercicio 42.7</div><div class="caja-cuerpo"><p>Calcula mediante sustitución:</p>
+<div class="mate"><span class="mate-bloque">\[\int2x(x^2+3)^4\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(u=x^2+3\), entonces \(du=2x\,dx\). <span class="mate-bloque">\[\int(x^2+3)^4(2x\,dx)=\int u^4\,du=\frac{u^5}{5}+C=\frac{(x^2+3)^5}{5}+C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-8"><div class="caja-titulo">Ejercicio 42.8</div><div class="caja-cuerpo"><p>Calcula mediante sustitución:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{3x^2}{x^3+1}\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(u=x^3+1\), entonces \(du=3x^2\,dx\). <span class="mate-bloque">\[\int\frac{3x^2}{x^3+1}\,dx=\int\frac{1}{u}\,du=\ln|u|+C=\ln|x^3+1|+C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-9"><div class="caja-titulo">Ejercicio 42.9</div><div class="caja-cuerpo"><p>Encuentra \(f\) si:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=4x-3\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[f(2)=5.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Integramos la derivada: <span class="mate-bloque">\[f(x)=\int(4x-3)\,dx=2x^2-3x+C.\]</span> Usamos la condición inicial \(f(2)=5\): <span class="mate-bloque">\[2(2)^2-3(2)+C=5 \implies 8-6+C=5 \implies C=3.\]</span> Por tanto, \(f(x)=2x^2-3x+3\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-10"><div class="caja-titulo">Ejercicio 42.10</div><div class="caja-cuerpo"><p>Encuentra \(f\) si:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=\cos x\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[f\left(\frac{\pi}{2}\right)=3.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Integramos la derivada: <span class="mate-bloque">\[f(x)=\int\cos x\,dx=\sen x+C.\]</span> Usamos la condición inicial \(f\left(\frac{\pi}{2}\right)=3\): <span class="mate-bloque">\[\sen\left(\frac{\pi}{2}\right)+C=3 \implies 1+C=3 \implies C=2.\]</span> Por tanto, \(f(x)=\sen x+2\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-11"><div class="caja-titulo">Ejercicio 42.11</div><div class="caja-cuerpo"><p>La velocidad de un móvil es:</p>
+<div class="mate"><span class="mate-bloque">\[v(t)=4t+1.\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[s(0)=2,\]</span></div>
+<p>encuentra \(s(t)\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La posición es la integral de la velocidad: <span class="mate-bloque">\[s(t)=\int(4t+1)\,dt=2t^2+t+C.\]</span> Usamos la condición inicial \(s(0)=2\): <span class="mate-bloque">\[s(0)=C=2.\]</span> Por tanto, \(s(t)=2t^2+t+2\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-12"><div class="caja-titulo">Ejercicio 42.12</div><div class="caja-cuerpo"><p>La aceleración de un objeto es:</p>
+<div class="mate"><span class="mate-bloque">\[a(t)=-10.\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[v(0)=0\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[s(0)=100,\]</span></div>
+<p>encuentra \(v(t)\) y \(s(t)\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La velocidad es la integral de la aceleración: <span class="mate-bloque">\[v(t)=\int(-10)\,dt=-10t+C_1.\]</span> Como \(v(0)=0\), entonces \(C_1=0\), por lo que \(v(t)=-10t\). La posición es la integral de la velocidad: <span class="mate-bloque">\[s(t)=\int(-10t)\,dt=-5t^2+C_2.\]</span> Como \(s(0)=100\), entonces \(C_2=100\). Por tanto, \(v(t)=-10t\) y \(s(t)=-5t^2+100\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-13"><div class="caja-titulo">Ejercicio 42.13</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int_0^2 \left( 3x^2+1 \right)dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Buscamos una antiderivada y evaluamos: <span class="mate-bloque">\[\int_0^2(3x^2+1)\,dx=[x^3+x]_0^2=(2^3+2)-(0^3+0)=8+2=10.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-14"><div class="caja-titulo">Ejercicio 42.14</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int_1^4\sqrt{x}\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Buscamos una antiderivada y evaluamos: <span class="mate-bloque">\[\int_1^4 x^{1/2}\,dx=\left[\frac{2}{3}x^{3/2}\right]_1^4=\frac{2}{3}(4^{3/2}-1^{3/2})=\frac{2}{3}(8-1)=\frac{14}{3}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-42-15"><div class="caja-titulo">Ejercicio 42.15</div><div class="caja-cuerpo"><p>Calcula el área bajo la recta:</p>
+<div class="mate"><span class="mate-bloque">\[y=2x+1\]</span></div>
+<p>entre:</p>
+<div class="mate"><span class="mate-bloque">\[x=0 \qquad\text{y}\qquad x=3.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos la integral definida: <span class="mate-bloque">\[A=\int_0^3(2x+1)\,dx=[x^2+x]_0^3=(3^2+3)-(0^2+0)=9+3=12.\]</span> El área es de \(12\) unidades cuadradas.</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="41-aplicaciones-derivada.html"><span>← Anterior</span>41. Aplicaciones de la derivada</a><a class="nav-siguiente" href="43-metodos-integracion.html"><span>Siguiente →</span>43. Métodos de integración</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

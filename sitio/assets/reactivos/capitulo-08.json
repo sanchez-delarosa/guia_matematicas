@@ -1,0 +1,2131 @@
+{
+  "metadata": {
+    "capitulo": "8",
+    "titulo": "Factorización",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 8,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 80,
+    "secciones_incluidas": [
+      {
+        "codigo": "8.1",
+        "nombre": "Factor común"
+      },
+      {
+        "codigo": "8.2",
+        "nombre": "Diferencia de cuadrados"
+      },
+      {
+        "codigo": "8.3",
+        "nombre": "Trinomio cuadrado perfecto"
+      },
+      {
+        "codigo": "8.4",
+        "nombre": "Trinomio de la forma $x^2+bx+c$"
+      },
+      {
+        "codigo": "8.5",
+        "nombre": "Trinomio de la forma $ax^2+bx+c$"
+      },
+      {
+        "codigo": "8.6",
+        "nombre": "Suma y diferencia de cubos"
+      },
+      {
+        "codigo": "8.7",
+        "nombre": "Teoremas del residuo y del factor"
+      },
+      {
+        "codigo": "8.8",
+        "nombre": "Estrategia general de factorización"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Reactivos distintos, específicos por subtema e inspirados en ejemplos de la guía.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-8-1-01",
+      "pregunta": "Factorice $3x^2+6x$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Factor común"
+      },
+      "respuestas_posibles": {
+        "A": "$3x(x+2)$",
+        "B": "$3(x^2+2x)$",
+        "C": "$x(3x+6x)$",
+        "D": "$3x(x+6)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "extraer factor común monomial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-1-02",
+      "pregunta": "Factorice $24m^3+16m^2-4m$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Factor común"
+      },
+      "respuestas_posibles": {
+        "A": "$4(6m^3+4m^2-m)$",
+        "B": "$4m(6m^2+4m-4)$",
+        "C": "$m(24m^2+16m-4m)$",
+        "D": "$4m(6m^2+4m-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "extraer máximo factor común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-1-03",
+      "pregunta": "Factorice $3a^2b+6ab^2-9ab$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Factor común"
+      },
+      "respuestas_posibles": {
+        "A": "$3a(ab+2b^2-3b)$",
+        "B": "$ab(3a+6b-9ab)$",
+        "C": "$3ab(a+2b-3)$",
+        "D": "$3ab(a+2b-9)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "extraer factores numéricos y literales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-1-04",
+      "pregunta": "Factorice $5x^3-15x^2+10x$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Factor común"
+      },
+      "respuestas_posibles": {
+        "A": "$x(5x^2-15x+10x)$",
+        "B": "$5x(x^2-3x+2)$",
+        "C": "$5(x^3-3x^2+2x)$",
+        "D": "$5x(x^2-15x+10)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "extraer factor común y dejar polinomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-1-05",
+      "pregunta": "Factorice por agrupación $m^2+mp+mx+px$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Factor común"
+      },
+      "respuestas_posibles": {
+        "A": "$(m+p)(m+x)$",
+        "B": "$(m+p)(m-x)$",
+        "C": "$(m+x)(m+px)$",
+        "D": "$m(m+p+x)+px$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "agrupar para obtener binomio común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-1-06",
+      "pregunta": "Factorice por agrupación $7x-1-7xy+y$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Factor común"
+      },
+      "respuestas_posibles": {
+        "A": "$(1+y)(7x-1)$",
+        "B": "$(1-y)(7x+1)$",
+        "C": "$7x(1-y)+(y-1)$",
+        "D": "$(1-y)(7x-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "reordenar y agrupar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-1-07",
+      "pregunta": "Factorice $2x^2+2xy+3x+3y$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Factor común"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+y)(2x-3)$",
+        "B": "$(2x+2y)(x+3)$",
+        "C": "$(x+y)(2x+3)$",
+        "D": "$(x-y)(2x+3)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "factor común por agrupación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-1-08",
+      "pregunta": "¿Cuál es el máximo factor común de $18x^4y^2$ y $30x^2y^5$?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Factor común"
+      },
+      "respuestas_posibles": {
+        "A": "$12x^2y^2$",
+        "B": "$6x^2y^2$",
+        "C": "$3x^2y^2$",
+        "D": "$6x^4y^5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular máximo factor común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-1-09",
+      "pregunta": "Factorice $-8p^3+12p^2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Factor común"
+      },
+      "respuestas_posibles": {
+        "A": "$-4p^2(2p-3)$",
+        "B": "$4p^2(-2p+3)$",
+        "C": "$-4p(2p^2-3p)$",
+        "D": "$-4p^2(2p+3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "extraer factor común negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-1-10",
+      "pregunta": "¿Cuál factorización está completa para $6x^3-12x^2+6x$?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Factor común"
+      },
+      "respuestas_posibles": {
+        "A": "$6x(x^2-2x+1)$",
+        "B": "$3x(2x^2-4x+2)$",
+        "C": "$6(x^3-2x^2+x)$",
+        "D": "$6x(x-1)^2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "continuar factorización tras extraer factor común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-2-01",
+      "pregunta": "Factorice $4x^2-9$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Diferencia de cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$(2x-3)^2$",
+        "B": "$(2x+3)^2$",
+        "C": "$(2x-3)(2x+3)$",
+        "D": "$(4x-9)(4x+9)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "factorizar diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-2-02",
+      "pregunta": "Factorice $m^2-\\frac{n^2}{4}$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Diferencia de cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$\\left(m-\\frac n2\\right)^2$",
+        "B": "$\\left(m-\\frac n2\\right)\\left(m+\\frac n2\\right)$",
+        "C": "$\\left(m-\\frac n4\\right)\\left(m+\\frac n4\\right)$",
+        "D": "$(m-n)(m+n)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "factorizar diferencia con fracción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-2-03",
+      "pregunta": "Factorice $25a^2-49b^2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Diferencia de cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$(5a-7b)(5a+7b)$",
+        "B": "$(25a-49b)(25a+49b)$",
+        "C": "$(5a-7b)^2$",
+        "D": "$(5a+7b)^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "reconocer cuadrados perfectos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-2-04",
+      "pregunta": "Factorice $81x^4-y^6$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Diferencia de cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$(9x^2-y^3)^2$",
+        "B": "$(81x^2-y^3)(x^2+y^3)$",
+        "C": "$(9x-y^3)(9x+y^3)$",
+        "D": "$(9x^2-y^3)(9x^2+y^3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "factorizar potencias pares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-2-05",
+      "pregunta": "¿Cuál expresión no es una diferencia de cuadrados en los reales?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Diferencia de cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$9x^2-25$",
+        "B": "$a^4-b^2$",
+        "C": "$x^2+16$",
+        "D": "$x^2-16$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "distinguir suma de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-2-06",
+      "pregunta": "Factorice completamente $x^4-16$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Diferencia de cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-2)^2(x+2)^2$",
+        "B": "$(x-2)(x+2)(x^2+4)$",
+        "C": "$(x^2-4)(x^2+4)$",
+        "D": "$(x-4)(x+4)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "repetir diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-2-07",
+      "pregunta": "Factorice $100-p^2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Diferencia de cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$(10-p)(10+p)$",
+        "B": "$(100-p)(100+p)$",
+        "C": "$(10-p)^2$",
+        "D": "$(p-10)(p+10)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conservar signo de diferencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-2-08",
+      "pregunta": "Factorice $16r^6-121s^2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Diferencia de cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$(8r^3-11s)(2r^3+11s)$",
+        "B": "$(4r^3-11s)^2$",
+        "C": "$(16r^3-121s)(r^3+s)$",
+        "D": "$(4r^3-11s)(4r^3+11s)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "factorizar monomios cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-2-09",
+      "pregunta": "Al multiplicar $(3x-5)(3x+5)$ se obtiene:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Diferencia de cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$9x^2-30x+25$",
+        "B": "$6x^2-25$",
+        "C": "$9x^2-25$",
+        "D": "$9x^2+25$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "verificar diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-2-10",
+      "pregunta": "Factorice $49u^2v^4-1$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Diferencia de cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$(7uv^2-1)^2$",
+        "B": "$(7uv^2-1)(7uv^2+1)$",
+        "C": "$(49uv^2-1)(uv^2+1)$",
+        "D": "$(7uv-1)(7uv+1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "identificar raíz cuadrada monomial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-3-01",
+      "pregunta": "Factorice $m^2+12m+36$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.3",
+        "nombre": "Trinomio cuadrado perfecto"
+      },
+      "respuestas_posibles": {
+        "A": "$(m+6)^2$",
+        "B": "$(m+3)^2$",
+        "C": "$(m-6)^2$",
+        "D": "$(m+4)(m+9)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer trinomio cuadrado perfecto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-3-02",
+      "pregunta": "Factorice $m^2-18mn+81n^2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.3",
+        "nombre": "Trinomio cuadrado perfecto"
+      },
+      "respuestas_posibles": {
+        "A": "$(m+9n)^2$",
+        "B": "$(m-81n)^2$",
+        "C": "$(m-9n)(m+9n)$",
+        "D": "$(m-9n)^2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "factorizar TCP bivariado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-3-03",
+      "pregunta": "Factorice $4m^2-12mn+9n^2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.3",
+        "nombre": "Trinomio cuadrado perfecto"
+      },
+      "respuestas_posibles": {
+        "A": "$(4m-9n)^2$",
+        "B": "$(2m-3n)(2m+3n)$",
+        "C": "$(2m-3n)^2$",
+        "D": "$(2m+3n)^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "reconocer doble producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-3-04",
+      "pregunta": "¿Cuál término completa $x^2+14x+\\_\\_\\_$ para formar un cuadrado perfecto?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.3",
+        "nombre": "Trinomio cuadrado perfecto"
+      },
+      "respuestas_posibles": {
+        "A": "$196$",
+        "B": "$49$",
+        "C": "$14$",
+        "D": "$28$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "completar cuadrado perfecto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-3-05",
+      "pregunta": "Factorice $9x^2+30xy+25y^2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.3",
+        "nombre": "Trinomio cuadrado perfecto"
+      },
+      "respuestas_posibles": {
+        "A": "$(3x+5y)^2$",
+        "B": "$(9x+25y)^2$",
+        "C": "$(3x-5y)^2$",
+        "D": "$(3x+5y)(3x-5y)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "factorizar TCP con dos variables",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-3-06",
+      "pregunta": "¿Cuál trinomio es cuadrado perfecto?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.3",
+        "nombre": "Trinomio cuadrado perfecto"
+      },
+      "respuestas_posibles": {
+        "A": "$a^2-10a+20$",
+        "B": "$a^2+5a+25$",
+        "C": "$a^2-25$",
+        "D": "$a^2-10a+25$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar TCP",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-3-07",
+      "pregunta": "Factorice $16p^4+24p^2q+9q^2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.3",
+        "nombre": "Trinomio cuadrado perfecto"
+      },
+      "respuestas_posibles": {
+        "A": "$(8p^2+3q)^2$",
+        "B": "$(4p^2-3q)^2$",
+        "C": "$(4p^2+3q)^2$",
+        "D": "$(4p+3q)^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "factorizar TCP con potencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-3-08",
+      "pregunta": "El término medio de $a^2+2ab+b^2$ es:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.3",
+        "nombre": "Trinomio cuadrado perfecto"
+      },
+      "respuestas_posibles": {
+        "A": "$a+b$",
+        "B": "$2ab$",
+        "C": "$ab$",
+        "D": "$a^2b^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "reconocer doble producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-3-09",
+      "pregunta": "Factorice $\\frac14x^2-xy+y^2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.3",
+        "nombre": "Trinomio cuadrado perfecto"
+      },
+      "respuestas_posibles": {
+        "A": "$\\left(\\frac x2-y\\right)^2$",
+        "B": "$\\left(\\frac x4-y\\right)^2$",
+        "C": "$\\left(\\frac x2+y\\right)^2$",
+        "D": "$(x-y)^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "factorizar TCP con fracción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-3-10",
+      "pregunta": "Verifique la factorización de $x^2-6x+9$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.3",
+        "nombre": "Trinomio cuadrado perfecto"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+3)^2$",
+        "B": "$(x-9)(x+1)$",
+        "C": "$(x-3)(x+3)$",
+        "D": "$(x-3)^2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "relacionar producto notable y factorización",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-4-01",
+      "pregunta": "Factorice $x^2+7x+12$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.4",
+        "nombre": "Trinomio de la forma $x^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-3)(x-4)$",
+        "B": "$(x+1)(x+12)$",
+        "C": "$(x+3)(x+4)$",
+        "D": "$(x+2)(x+6)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "buscar suma y producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-4-02",
+      "pregunta": "Factorice $x^2-5x-24$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.4",
+        "nombre": "Trinomio de la forma $x^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-12)(x+2)$",
+        "B": "$(x-8)(x+3)$",
+        "C": "$(x-6)(x+4)$",
+        "D": "$(x+8)(x-3)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "factorizar trinomio con signos opuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-4-03",
+      "pregunta": "Factorice $x^2+8x+15$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.4",
+        "nombre": "Trinomio de la forma $x^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+3)(x+5)$",
+        "B": "$(x+1)(x+15)$",
+        "C": "$(x-3)(x-5)$",
+        "D": "$(x+2)(x+6)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "factorizar trinomio mónico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-4-04",
+      "pregunta": "Factorice $x^2-3x-40$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.4",
+        "nombre": "Trinomio de la forma $x^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-5)(x+8)$",
+        "B": "$(x-10)(x+4)$",
+        "C": "$(x+8)(x+5)$",
+        "D": "$(x-8)(x+5)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "seleccionar enteros con producto negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-4-05",
+      "pregunta": "Factorice $y^2-11y+24$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.4",
+        "nombre": "Trinomio de la forma $x^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(y-4)(y-6)$",
+        "B": "$(y-2)(y-12)$",
+        "C": "$(y-3)(y-8)$",
+        "D": "$(y+3)(y+8)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "usar suma negativa y producto positivo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-4-06",
+      "pregunta": "Factorice $t^2+t-20$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.4",
+        "nombre": "Trinomio de la forma $x^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(t-20)(t+1)$",
+        "B": "$(t+5)(t-4)$",
+        "C": "$(t-5)(t+4)$",
+        "D": "$(t+10)(t-2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "factorizar con coeficiente lineal uno",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-4-07",
+      "pregunta": "¿Qué números se buscan para factorizar $x^2+bx+c$?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.4",
+        "nombre": "Trinomio de la forma $x^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "Dos números cuya suma sea $b$ y cuyo producto sea $c$",
+        "B": "Dos números cuya suma sea $c$ y producto $b$",
+        "C": "Las raíces cuadradas de $b$ y $c$",
+        "D": "Dos números cuyo cociente sea $b$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "explicar método suma-producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-4-08",
+      "pregunta": "Factorice $z^2-13z+36$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.4",
+        "nombre": "Trinomio de la forma $x^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(z+4)(z+9)$",
+        "B": "$(z-3)(z-12)$",
+        "C": "$(z-6)^2$",
+        "D": "$(z-4)(z-9)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "factorizar producto positivo con suma negativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-4-09",
+      "pregunta": "Factorice $a^2-16a+63$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.4",
+        "nombre": "Trinomio de la forma $x^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(a-3)(a-21)$",
+        "B": "$(a-8)^2$",
+        "C": "$(a-7)(a-9)$",
+        "D": "$(a+7)(a+9)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "seleccionar pareja suma-producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-4-10",
+      "pregunta": "Factorice $x^4+5x^2+6$ considerando $x^2$ como término común.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.4",
+        "nombre": "Trinomio de la forma $x^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(x^2+1)(x^2+6)$",
+        "B": "$(x^2+2)(x^2+3)$",
+        "C": "$(x^2-2)(x^2-3)$",
+        "D": "$(x+2)(x+3)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "sustituir variable auxiliar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-5-01",
+      "pregunta": "Factorice $2x^2+3x+1$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.5",
+        "nombre": "Trinomio de la forma $ax^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(2x+1)(x+1)$",
+        "B": "$(2x-1)(x-1)$",
+        "C": "$(2x+1)(x+2)$",
+        "D": "$(x+1)(x+1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "factorizar trinomio no mónico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-5-02",
+      "pregunta": "Factorice $6x^2-11x-35$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.5",
+        "nombre": "Trinomio de la forma $ax^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(3x-5)(2x+7)$",
+        "B": "$(6x+5)(x-7)$",
+        "C": "$(3x-7)(2x+5)$",
+        "D": "$(3x+5)(2x-7)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "usar método producto ac",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-5-03",
+      "pregunta": "Factorice $3x^2+7x+2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.5",
+        "nombre": "Trinomio de la forma $ax^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(3x-1)(x-2)$",
+        "B": "$(x+1)(x+2)$",
+        "C": "$(3x+1)(x+2)$",
+        "D": "$(3x+2)(x+1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "descomponer término medio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-5-04",
+      "pregunta": "Factorice $2x^2-5x-12$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.5",
+        "nombre": "Trinomio de la forma $ax^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+3)(2x-4)$",
+        "B": "$(2x+3)(x-4)$",
+        "C": "$(2x-3)(x+4)$",
+        "D": "$(2x+4)(x-3)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "factorizar con producto negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-5-05",
+      "pregunta": "Factorice $4y^2+12y+5$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.5",
+        "nombre": "Trinomio de la forma $ax^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(2y+1)(2y+5)$",
+        "B": "$(4y+1)(y+5)$",
+        "C": "$(2y-1)(2y-5)$",
+        "D": "$(2y+3)^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "factorizar trinomio no mónico positivo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-5-06",
+      "pregunta": "Factorice $5a^2-13a+6$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.5",
+        "nombre": "Trinomio de la forma $ax^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(5a+3)(a+2)$",
+        "B": "$(5a-2)(a-3)$",
+        "C": "$(a-3)(a-2)$",
+        "D": "$(5a-3)(a-2)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "factorizar con términos negativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-5-07",
+      "pregunta": "En el método $ac$ para $6x^2+7x+2$, el producto buscado es:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.5",
+        "nombre": "Trinomio de la forma $ax^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$15$",
+        "C": "$12$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular producto ac",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-5-08",
+      "pregunta": "Factorice $8m^2-2m-3$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.5",
+        "nombre": "Trinomio de la forma $ax^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(2m-3)(4m+1)$",
+        "B": "$(4m-3)(2m+1)$",
+        "C": "$(4m+3)(2m-1)$",
+        "D": "$(8m-3)(m+1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "factorizar coeficiente principal compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-5-09",
+      "pregunta": "Factorice $12p^2+11p-5$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.5",
+        "nombre": "Trinomio de la forma $ax^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(3p-1)(4p+5)$",
+        "B": "$(3p+1)(4p-5)$",
+        "C": "$(6p-5)(2p+1)$",
+        "D": "$(12p-1)(p+5)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "factorizar por descomposición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-5-10",
+      "pregunta": "Factorice $6x^2+x-2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.5",
+        "nombre": "Trinomio de la forma $ax^2+bx+c$"
+      },
+      "respuestas_posibles": {
+        "A": "$(3x-2)(2x+1)$",
+        "B": "$(6x-1)(x+2)$",
+        "C": "$(2x+2)(3x-1)$",
+        "D": "$(3x+2)(2x-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "verificar producto de binomios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-6-01",
+      "pregunta": "Factorice $a^3+8$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.6",
+        "nombre": "Suma y diferencia de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$(a-2)(a^2+2a+4)$",
+        "B": "$(a+8)(a^2-8a+64)$",
+        "C": "$(a+2)(a^2-2a+4)$",
+        "D": "$(a+2)(a^2+2a+4)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "factorizar suma de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-6-02",
+      "pregunta": "Factorice $a^3-27$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.6",
+        "nombre": "Suma y diferencia de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$(a-27)(a^2+27a+729)$",
+        "B": "$(a-3)(a^2+3a+9)$",
+        "C": "$(a-3)(a^2-3a+9)$",
+        "D": "$(a+3)(a^2-3a+9)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "factorizar diferencia de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-6-03",
+      "pregunta": "Factorice $8x^3+125$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.6",
+        "nombre": "Suma y diferencia de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$(2x+5)(4x^2-10x+25)$",
+        "B": "$(2x+5)(4x^2+10x+25)$",
+        "C": "$(2x-5)(4x^2+10x+25)$",
+        "D": "$(8x+125)(x^2-5x+25)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "reconocer cubos perfectos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-6-04",
+      "pregunta": "Factorice $m^6-27$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.6",
+        "nombre": "Suma y diferencia de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$(m^3-3)(m^3+9)$",
+        "B": "$(m^2-3)(m^4-3m^2+9)$",
+        "C": "$(m^2+3)(m^4-3m^2+9)$",
+        "D": "$(m^2-3)(m^4+3m^2+9)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "interpretar potencia como cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-6-05",
+      "pregunta": "¿Cuál es la identidad de suma de cubos?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.6",
+        "nombre": "Suma y diferencia de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$a^3+b^3=(a-b)(a^2+ab+b^2)$",
+        "B": "$a^3+b^3=(a+b)^3$",
+        "C": "$a^3+b^3=(a+b)(a^2-ab+b^2)$",
+        "D": "$a^3+b^3=(a+b)(a^2+ab+b^2)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer identidad de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-6-06",
+      "pregunta": "Factorice $27p^3-q^3$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.6",
+        "nombre": "Suma y diferencia de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$(27p-q)(p^2+pq+q^2)$",
+        "B": "$(3p-q)(9p^2+3pq+q^2)$",
+        "C": "$(3p-q)(9p^2-3pq+q^2)$",
+        "D": "$(3p+q)(9p^2-3pq+q^2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "factorizar diferencia bivariada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-6-07",
+      "pregunta": "Factorice $64+r^9$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.6",
+        "nombre": "Suma y diferencia de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$(4+r^3)(16-4r^3+r^6)$",
+        "B": "$(4-r^3)(16+4r^3+r^6)$",
+        "C": "$(8+r^3)(8-r^3+r^6)$",
+        "D": "$(4+r^3)(16+4r^3+r^6)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "factorizar suma de cubos compuesta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-6-08",
+      "pregunta": "En la diferencia de cubos, el trinomio factor tiene signos:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.6",
+        "nombre": "Suma y diferencia de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "Alternados $+,-,+$",
+        "B": "Todos negativos",
+        "C": "Solo el término central negativo",
+        "D": "Todos positivos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "controlar signos de identidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-6-09",
+      "pregunta": "Factorice $x^3-1$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.6",
+        "nombre": "Suma y diferencia de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+1)(x^2-x+1)$",
+        "B": "$(x-1)^3$",
+        "C": "$(x-1)(x^2+x+1)$",
+        "D": "$(x-1)(x^2-x+1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "usar cubo unitario",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-6-10",
+      "pregunta": "Factorice $125u^6+216v^3$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.6",
+        "nombre": "Suma y diferencia de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$(125u^2+216v)(u^4-u^2v+v^2)$",
+        "B": "$(5u^2+6v)(25u^4-30u^2v+36v^2)$",
+        "C": "$(5u^2+6v)(25u^4+30u^2v+36v^2)$",
+        "D": "$(5u^2-6v)(25u^4+30u^2v+36v^2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "factorizar cubos con coeficientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-7-01",
+      "pregunta": "Para $f(x)=x^3+3x^2+3x+1$, ¿cuál es el residuo al dividir entre $x+1$?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.7",
+        "nombre": "Teoremas del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$-1$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del residuo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-7-02",
+      "pregunta": "Si $f(2)=0$, entonces ¿cuál es factor de $f(x)$?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.7",
+        "nombre": "Teoremas del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "$x+2$",
+        "B": "$2x-1$",
+        "C": "$x-1$",
+        "D": "$x-2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar teorema del factor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-7-03",
+      "pregunta": "Calcule el residuo de $f(x)=x^2+2x+5$ al dividir entre $x-1$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.7",
+        "nombre": "Teoremas del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$0$",
+        "C": "$8$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "evaluar f(a)",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-7-04",
+      "pregunta": "¿Es $x+3$ factor de $f(x)=x^2+5x+6$?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.7",
+        "nombre": "Teoremas del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "No, porque el grado es $2$",
+        "B": "Sí, porque $f(-3)=0$",
+        "C": "Sí, porque $f(3)=0$",
+        "D": "No, porque $f(-3)=6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "verificar factor por evaluación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-7-05",
+      "pregunta": "El residuo de dividir $P(x)$ entre $x-a$ es:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.7",
+        "nombre": "Teoremas del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "$P(a)$",
+        "B": "$P(-a)$",
+        "C": "$aP(x)$",
+        "D": "$P(x-a)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "enunciar teorema del residuo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-7-06",
+      "pregunta": "Si el residuo al dividir $P(x)$ entre $x-4$ es $7$, entonces:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.7",
+        "nombre": "Teoremas del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "$P(-4)=7$",
+        "B": "$P(7)=4$",
+        "C": "$P(4)=0$",
+        "D": "$P(4)=7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "interpretar residuo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-7-07",
+      "pregunta": "Para $P(x)=2x^3-x^2-8x+4$, determine si $x-2$ es factor.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.7",
+        "nombre": "Teoremas del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, porque $P(-2)=0$",
+        "B": "No, porque $2$ no es raíz",
+        "C": "Sí, porque $P(2)=0$",
+        "D": "No, porque $P(2)=4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "probar divisibilidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-7-08",
+      "pregunta": "¿Cuál binomio es factor de $x^2-9$ según sus ceros?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.7",
+        "nombre": "Teoremas del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "$x-9$",
+        "B": "$x-3$",
+        "C": "$x-2$",
+        "D": "$x+1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "relacionar cero y factor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-7-09",
+      "pregunta": "Calcule el residuo de $x^3-4x+1$ entre $x+2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.7",
+        "nombre": "Teoremas del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$-1$",
+        "C": "$7$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "evaluar en número negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-7-10",
+      "pregunta": "Si $x-1$ y $x+2$ son factores de un polinomio cuadrático mónico, el polinomio es:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.7",
+        "nombre": "Teoremas del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2-x+2$",
+        "B": "$x^2-3x+2$",
+        "C": "$x^2+x+2$",
+        "D": "$x^2+x-2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "construir polinomio desde factores",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-8-01",
+      "pregunta": "Factorice completamente $6x^3-12x^2+6x$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.8",
+        "nombre": "Estrategia general de factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$3x(2x^2-4x+2)$",
+        "B": "$6(x^3-2x^2+x)$",
+        "C": "$6x(x-1)^2$",
+        "D": "$6x(x^2-2x+1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "combinar factor común y TCP",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-8-02",
+      "pregunta": "Factorice completamente $2x^3-18x$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.8",
+        "nombre": "Estrategia general de factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$2x(x-9)(x+1)$",
+        "B": "$2x(x-3)(x+3)$",
+        "C": "$2x(x^2-9)$",
+        "D": "$2(x^3-9x)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "combinar factor común y diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-8-03",
+      "pregunta": "Factorice completamente $x^4-5x^2+4$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.8",
+        "nombre": "Estrategia general de factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-1)(x+1)(x-2)(x+2)$",
+        "B": "$(x^2-1)(x^2-4)$",
+        "C": "$(x^2-2)^2$",
+        "D": "$(x-1)(x-4)(x+1)(x+4)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "usar sustitución y diferencias de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-8-04",
+      "pregunta": "¿Cuál debe ser el primer paso al factorizar $12x^4+18x^3$?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.8",
+        "nombre": "Estrategia general de factorización"
+      },
+      "respuestas_posibles": {
+        "A": "Buscar dos números con suma $18$",
+        "B": "Aplicar suma de cubos",
+        "C": "Usar teorema del residuo",
+        "D": "Extraer el factor común $6x^3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "elegir técnica inicial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-8-05",
+      "pregunta": "Factorice completamente $3x^3+24$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.8",
+        "nombre": "Estrategia general de factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$(3x+6)(x^2-2x+4)$",
+        "B": "$3(x-2)(x^2+2x+4)$",
+        "C": "$3(x+2)(x^2-2x+4)$",
+        "D": "$3(x^3+8)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "combinar factor común y suma de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-8-06",
+      "pregunta": "Factorice completamente $4x^3-12x^2+9x$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.8",
+        "nombre": "Estrategia general de factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$x(2x-3)(2x+3)$",
+        "B": "$x(2x-3)^2$",
+        "C": "$x(4x^2-12x+9)$",
+        "D": "$4x(x^2-3x+9)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "combinar factor común y TCP",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-8-07",
+      "pregunta": "¿Por qué $x^2-16=(x-4)(x+4)$ está completamente factorizado en los reales?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.8",
+        "nombre": "Estrategia general de factorización"
+      },
+      "respuestas_posibles": {
+        "A": "Porque ambos factores son lineales irreducibles",
+        "B": "Porque $x^2-16$ no tiene raíces",
+        "C": "Porque la suma de factores es cero",
+        "D": "Porque solo se permite un paso"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "verificar factorización completa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-8-08",
+      "pregunta": "Factorice completamente $x^5-x^3$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.8",
+        "nombre": "Estrategia general de factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$x^3(x^2-1)$",
+        "B": "$x(x^4-x^2)$",
+        "C": "$x^3(x-1)^2$",
+        "D": "$x^3(x-1)(x+1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "extraer factor común y diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-8-09",
+      "pregunta": "Al revisar una factorización, ¿qué procedimiento confirma el resultado?",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.8",
+        "nombre": "Estrategia general de factorización"
+      },
+      "respuestas_posibles": {
+        "A": "Igualar cada factor a uno",
+        "B": "Derivar cada factor",
+        "C": "Multiplicar los factores y recuperar el polinomio original",
+        "D": "Sumar los factores"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "verificar por multiplicación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-8-8-10",
+      "pregunta": "Factorice completamente $2x^4+4x^3-6x^2$.",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Factorización",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "8.8",
+        "nombre": "Estrategia general de factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$2x^2(x+1)(x-3)$",
+        "B": "$2x^2(x-1)(x+3)$",
+        "C": "$2x^2(x^2+2x-3)$",
+        "D": "$2x(x^3+2x^2-3x)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "combinar factor común y trinomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

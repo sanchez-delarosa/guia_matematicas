@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1. Números reales · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte I: Aritmética</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#clasificacion-de-los-numeros"><span class="num">1.1</span> Clasificación de los números</a></li><li class="nivel-2"><a href="#propiedades-de-los-numeros-reales"><span class="num">1.2</span> Propiedades de los números reales</a></li><li class="nivel-2"><a href="#propiedades-de-orden"><span class="num">1.3</span> Propiedades de orden</a></li><li class="nivel-2"><a href="#ejemplos-resueltos"><span class="num">1.4</span> Ejemplos resueltos</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">1.5</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 1</p><h1>Números reales</h1></header>
+<p><span id="cap-numeros-reales" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Los números reales constituyen la base de gran parte de las matemáticas que estudiarás en el bachillerato y la universidad. Antes de trabajar con expresiones algebraicas, funciones o cálculo, es necesario comprender qué son, cómo se clasifican y cuáles son sus principales propiedades. En este capítulo estudiarás los conjuntos numéricos, las propiedades algebraicas de los números reales y las reglas fundamentales de orden.</p>
+<h2 id="clasificacion-de-los-numeros"><span class="num">1.1</span> Clasificación de los números<a class="enlace-seccion" href="#clasificacion-de-los-numeros" aria-label="Enlace a esta sección">#</a></h2>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-34c6081009d2.svg" alt="Figura 1.1" loading="lazy" decoding="async"></figure>
+<p>Cada recuadro representa un conjunto numérico. La flecha acompañada del símbolo \(\subset\) indica que un conjunto está contenido en otro.</p></div>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Los <strong>números reales</strong>, representados por \(\R\), son todos los números que pueden ubicarse en la recta numérica. El conjunto de los números reales está formado por los números racionales y los números irracionales.</p></div></section>
+<p>La siguiente tabla resume los principales conjuntos numéricos:</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:center"><strong>Símbolo</strong></th><th style="text-align:left"><strong>Conjunto</strong></th><th style="text-align:left"><strong>Ejemplos</strong></th></tr></thead><tbody><tr><td style="text-align:center">\(\N\)</td><td style="text-align:left">Naturales</td><td style="text-align:left">\(1, 2, 3, 4, \ldots\)</td></tr><tr><td style="text-align:center">\(\Z\)</td><td style="text-align:left">Enteros</td><td style="text-align:left">\(\ldots, -2, -1, 0, 1, 2, \ldots\)</td></tr><tr><td style="text-align:center">\(\Q\)</td><td style="text-align:left">Racionales</td><td style="text-align:left">\(\dfrac{3}{4},\ -2,\ 0.5,\ \sqrt{4}\)</td></tr><tr><td style="text-align:center">\(\R \setminus \Q\)</td><td style="text-align:left">Irracionales</td><td style="text-align:left">\(\pi,\ \sqrt{2},\ e\)</td></tr><tr><td style="text-align:center">\(\R\)</td><td style="text-align:left">Reales</td><td style="text-align:left">Todos los anteriores</td></tr></tbody></table></div></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En esta guía se utiliza la convención <span class="mate-bloque">\[\N=\{1,2,3,\ldots\},\]</span> por lo que el cero no se considera un número natural.</p>
+<p>Además, se cumple la cadena de inclusiones <span class="mate-bloque">\[\N \subset \Z \subset \Q \subset \R, \qquad \R \setminus \Q \subset \R.\]</span> Esto significa que todo número natural es entero, todo entero es racional y todo racional es real. Las inclusiones no funcionan necesariamente en el sentido contrario.</p></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La presencia de un radical no implica que un número sea irracional. Por ejemplo, <span class="mate-bloque">\[\sqrt{4}=2,\]</span> por lo que \(\sqrt{4}\) es un número natural, entero, racional y real. En cambio, \(\sqrt{2}\) es irracional porque su representación decimal es infinita y no periódica.</p></div></section>
+<h2 id="propiedades-de-los-numeros-reales"><span class="num">1.2</span> Propiedades de los números reales<a class="enlace-seccion" href="#propiedades-de-los-numeros-reales" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para cualesquiera \(a,b,c\in\R\), se cumplen las siguientes propiedades algebraicas:</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades algebraicas</div><div class="caja-cuerpo"><ol><li><strong>Cerradura:</strong> <span class="mate-bloque">\[a+b\in\R \qquad\text{y}\qquad ab\in\R.\]</span></li><li><strong>Conmutatividad:</strong> <span class="mate-bloque">\[a+b=b+a \qquad\text{y}\qquad ab=ba.\]</span></li><li><strong>Asociatividad:</strong> <span class="mate-bloque">\[(a+b)+c=a+(b+c)\]</span> y <span class="mate-bloque">\[(ab)c=a(bc).\]</span></li><li><strong>Distributividad:</strong> <span class="mate-bloque">\[a(b+c)=ab+ac.\]</span></li><li><strong>Elementos neutros:</strong> <span class="mate-bloque">\[a+0=a \qquad\text{y}\qquad a\cdot 1=a.\]</span></li><li><strong>Inversos:</strong> <span class="mate-bloque">\[a+(-a)=0\]</span> y, si \(a\neq 0\), <span class="mate-bloque">\[a\cdot\frac{1}{a}=1.\]</span></li></ol></div></section>
+<h2 id="propiedades-de-orden"><span class="num">1.3</span> Propiedades de orden<a class="enlace-seccion" href="#propiedades-de-orden" aria-label="Enlace a esta sección">#</a></h2>
+<p>Los números reales pueden compararse y ordenarse sobre la recta numérica. Las siguientes propiedades permiten trabajar con igualdades y desigualdades.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Tricotomía</div><div class="caja-cuerpo"><p>Para cualesquiera \(a,b\in\R\), se cumple exactamente una de las siguientes condiciones: <span class="mate-bloque">\[a&lt;b, \qquad a=b, \qquad a&gt;b.\]</span></p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Transitividad</div><div class="caja-cuerpo"><p>Si \(a&lt;b\) y \(b&lt;c\), entonces <span class="mate-bloque">\[a&lt;c.\]</span></p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de las desigualdades</div><div class="caja-cuerpo"><p>Sean \(a,b,c\in\R\).</p>
+<ul><li>Si \(a&lt;b\), entonces <span class="mate-bloque">\[a+c&lt;b+c.\]</span></li><li>Si \(a&lt;b\) y \(c&gt;0\), entonces <span class="mate-bloque">\[ac&lt;bc.\]</span></li><li>Si \(a&lt;b\) y \(c&lt;0\), entonces <span class="mate-bloque">\[ac&gt;bc.\]</span> En este caso, el sentido de la desigualdad se invierte.</li></ul></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al multiplicar o dividir ambos miembros de una desigualdad por un número negativo, el sentido de la desigualdad debe invertirse. Por ejemplo: <span class="mate-bloque">\[-2x&lt;6 \quad\Longrightarrow\quad x&gt;-3.\]</span> Olvidar este cambio de sentido es un error frecuente al resolver desigualdades.</p></div></section>
+<h2 id="ejemplos-resueltos"><span class="num">1.4</span> Ejemplos resueltos<a class="enlace-seccion" href="#ejemplos-resueltos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-1-1"><div class="caja-titulo">Ejemplo 1.1</div><div class="caja-cuerpo"><p>Clasifica los siguientes números en todos los conjuntos numéricos a los que pertenecen: <span class="mate-bloque">\[-3, \quad \frac{5}{2}, \quad \sqrt{9}, \quad \sqrt{3}, \quad 0, \quad 2.5.\]</span></p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><ul><li>\(-3\) es entero, racional y real.</li><li>\(\dfrac{5}{2}\) es racional y real.</li><li>\(\sqrt{9}=3\) es natural, entero, racional y real.</li><li>\(\sqrt{3}\) es irracional y real.</li><li>\(0\) es entero, racional y real. De acuerdo con la convención utilizada en esta guía, no es natural.</li><li>\(2.5=\dfrac{5}{2}\) es racional y real.</li></ul></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-1-2"><div class="caja-titulo">Ejemplo 1.2</div><div class="caja-cuerpo"><p>Determina si el número <span class="mate-bloque">\[\sqrt{25}+\sqrt{2}\]</span> es racional o irracional.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como <span class="mate-bloque">\[\sqrt{25}=5,\]</span> la expresión puede escribirse como <span class="mate-bloque">\[5+\sqrt{2}.\]</span> El número \(5\) es racional y \(\sqrt{2}\) es irracional. La suma de un número racional y un número irracional es irracional. Por lo tanto, <span class="mate-bloque">\[\sqrt{25}+\sqrt{2}=5+\sqrt{2}\]</span> es irracional.</p></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-1-3"><div class="caja-titulo">Ejemplo 1.3</div><div class="caja-cuerpo"><p>Resuelve la desigualdad <span class="mate-bloque">\[-3x+4&gt;10.\]</span></p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} -3x+4 &amp;&gt; 10, \\ -3x   &amp;&gt; 10-4, \\ -3x   &amp;&gt; 6, \\ x     &amp;&lt; \frac{6}{-3}, \\ x     &amp;&lt; -2. \end{aligned}\]</span></div>
+<p>En el penúltimo paso se invirtió el sentido de la desigualdad porque ambos miembros se dividieron entre \(-3\).</p>
+<p>El conjunto solución es <span class="mate-bloque">\[(-\infty,-2).\]</span></p></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-1-4"><div class="caja-titulo">Ejemplo 1.4</div><div class="caja-cuerpo"><p>Ubica en la recta numérica los números <span class="mate-bloque">\[-2, \quad 0, \quad \frac{3}{4} \quad\text{y}\quad \sqrt{2}.\]</span></p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como <span class="mate-bloque">\[\frac{3}{4}=0.75 \qquad\text{y}\qquad \sqrt{2}\approx 1.41,\]</span> los números se ordenan de la siguiente manera: <span class="mate-bloque">\[-2&lt;0&lt;\frac{3}{4}&lt;\sqrt{2}.\]</span></p>
+<p>Su ubicación aproximada en la recta numérica es:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-f6dce449abdd.svg" alt="Figura 1.2" loading="lazy" decoding="async"></figure></div></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">1.5</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-1-1"><div class="caja-titulo">Ejercicio 1.1</div><div class="caja-cuerpo"><p>Clasifica cada número en todos los conjuntos numéricos a los que pertenece: <span class="mate-bloque">\[3, \quad -\frac{1}{2}, \quad \sqrt{2}, \quad \pi, \quad \sqrt{4}.\]</span></p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><ul><li>\(3 \in \N, \Z, \Q, \R\). (Natural, entero, racional, real)</li><li>\(-\frac{1}{2} \in \Q, \R\). (Racional, real)</li><li>\(\sqrt{2} \in \R \setminus \Q, \R\). (Irracional, real)</li><li>\(\pi \in \R \setminus \Q, \R\). (Irracional, real)</li><li>\(\sqrt{4} = 2 \in \N, \Z, \Q, \R\). (Natural, entero, racional, real)</li></ul></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-1-2"><div class="caja-titulo">Ejercicio 1.2</div><div class="caja-cuerpo"><p>Determina si el siguiente número es racional o irracional: <span class="mate-bloque">\[\sqrt{16}+\sqrt{5}.\]</span> Justifica tu respuesta.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(\sqrt{16}+\sqrt{5} = 4+\sqrt{5}\). Como 4 es racional y \(\sqrt{5}\) es irracional, su suma es un número <strong>irracional</strong>.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-1-3"><div class="caja-titulo">Ejercicio 1.3</div><div class="caja-cuerpo"><p>Resuelve la desigualdad <span class="mate-bloque">\[2x-5\leq 7\]</span> y expresa el conjunto solución en notación de intervalo.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(2x-5 \leq 7 \implies 2x \leq 12 \implies x \leq 6\). <br> En notación de intervalo: \((-\infty, 6]\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-1-4"><div class="caja-titulo">Ejercicio 1.4</div><div class="caja-cuerpo"><p>Resuelve la desigualdad <span class="mate-bloque">\[-4x&gt;12\]</span> y expresa el conjunto solución en notación de intervalo.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(-4x &gt; 12 \implies x &lt; \frac{12}{-4} \implies x &lt; -3\). <br> Recuerda que al dividir entre un número negativo, la desigualdad se invierte. <br> En notación de intervalo: \((-\infty, -3)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-1-5"><div class="caja-titulo">Ejercicio 1.5</div><div class="caja-cuerpo"><p>Ordena de menor a mayor los siguientes números: <span class="mate-bloque">\[-3, \quad \frac{1}{2}, \quad \sqrt{5}, \quad 0, \quad -1.5.\]</span></p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Convertimos a decimales para aproximar: \(\frac{1}{2} = 0.5\) y \(\sqrt{5} \approx 2.236\). <br> Por lo tanto, ordenados de menor a mayor: <span class="mate-bloque">\[-3 &lt; -1.5 &lt; 0 &lt; \frac{1}{2} &lt; \sqrt{5}\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><span></span><a class="nav-siguiente" href="02-operaciones-basicas.html"><span>Siguiente →</span>2. Operaciones básicas con números reales</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

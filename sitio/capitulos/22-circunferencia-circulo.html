@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>22. Circunferencia y círculo · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte IV: Geometría euclidiana</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#circunferencia-y-circulo"><span class="num">22.1</span> Circunferencia y círculo</a></li><li class="nivel-2"><a href="#elementos-de-una-circunferencia"><span class="num">22.2</span> Elementos de una circunferencia</a></li><li class="nivel-2"><a href="#longitud-de-la-circunferencia-y-area-del-circulo"><span class="num">22.3</span> Longitud de la circunferencia y área del círculo</a></li><li class="nivel-2"><a href="#arcos-y-angulos-centrales"><span class="num">22.4</span> Arcos y ángulos centrales</a></li><li class="nivel-2"><a href="#angulos-inscritos"><span class="num">22.5</span> Ángulos inscritos</a></li><li class="nivel-2"><a href="#angulo-inscrito-en-una-semicircunferencia"><span class="num">22.6</span> Ángulo inscrito en una semicircunferencia</a></li><li class="nivel-2"><a href="#longitud-de-arco"><span class="num">22.7</span> Longitud de arco</a></li><li class="nivel-2"><a href="#sector-circular"><span class="num">22.8</span> Sector circular</a></li><li class="nivel-2"><a href="#rectas-tangentes"><span class="num">22.9</span> Rectas tangentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">22.10</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 22</p><h1>Circunferencia y círculo</h1></header>
+<p><span id="cap-circunferencia-circulo" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>La circunferencia y el círculo aparecen en numerosos problemas de longitudes, áreas y relaciones angulares. Aunque ambos conceptos están estrechamente relacionados, no representan el mismo objeto: la circunferencia es una curva cerrada, mientras que el círculo incluye también la región interior. En este capítulo estudiarás sus elementos principales, las relaciones entre ángulos y arcos, las fórmulas de longitud y área, y las propiedades de las rectas tangentes.</p>
+<h2 id="circunferencia-y-circulo"><span class="num">22.1</span> Circunferencia y círculo<a class="enlace-seccion" href="#circunferencia-y-circulo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>circunferencia</strong> es el conjunto de todos los puntos del plano que se encuentran a una misma distancia de un punto fijo llamado <strong>centro</strong>.</p>
+<p>La distancia constante entre el centro y cualquier punto de la circunferencia se denomina <strong>radio</strong>.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>círculo</strong> es la región del plano formada por la circunferencia y todos sus puntos interiores.</p>
+<p>Por tanto:</p>
+<ul><li>la circunferencia es el borde;</li><li>el círculo es la región completa, incluido el borde.</li></ul></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>No deben confundirse la longitud de la circunferencia y el área del círculo.</p>
+<p>La longitud de la circunferencia se expresa en unidades lineales, como centímetros o metros. El área del círculo se expresa en unidades cuadradas, como centímetros cuadrados o metros cuadrados.</p></div></section>
+<h2 id="elementos-de-una-circunferencia"><span class="num">22.2</span> Elementos de una circunferencia<a class="enlace-seccion" href="#elementos-de-una-circunferencia" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Los principales elementos relacionados con una circunferencia son:</p>
+<ul><li>El <strong>centro</strong> es el punto fijo que se encuentra a la misma distancia de todos los puntos de la circunferencia.</li><li>Un <strong>radio</strong> es un segmento que une el centro con un punto de la circunferencia.</li><li>Un <strong>diámetro</strong> es una cuerda que pasa por el centro. Su longitud es igual al doble del radio: <span class="mate-bloque">\[d=2r.\]</span></li><li>Una <strong>cuerda</strong> es un segmento cuyos extremos pertenecen a la circunferencia.</li><li>Un <strong>arco</strong> es una porción de la circunferencia comprendida entre dos puntos.</li><li>Una <strong>recta secante</strong> interseca la circunferencia en dos puntos distintos.</li><li>Una <strong>recta tangente</strong> tiene exactamente un punto en común con la circunferencia. Este punto se denomina <strong>punto de tangencia</strong>.</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Todo diámetro es una cuerda, pero no toda cuerda es un diámetro. El diámetro es la cuerda de mayor longitud que puede trazarse en una circunferencia.</p></div></section>
+<p>Los principales elementos pueden observarse en la siguiente figura:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-b4d8c48aa419.svg" alt="Figura 22.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="longitud-de-la-circunferencia-y-area-del-circulo"><span class="num">22.3</span> Longitud de la circunferencia y área del círculo<a class="enlace-seccion" href="#longitud-de-la-circunferencia-y-area-del-circulo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fórmulas fundamentales</div><div class="caja-cuerpo"><p>Para una circunferencia de radio \(r\) y diámetro \(d=2r\), su longitud es:</p>
+<div class="mate"><span class="mate-bloque">\[L=2\pi r.\]</span></div>
+<p>También puede calcularse mediante:</p>
+<div class="mate"><span class="mate-bloque">\[L=\pi d.\]</span></div>
+<p>El área del círculo correspondiente es:</p>
+<div class="mate"><span class="mate-bloque">\[A=\pi r^2.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-22-1"><div class="caja-titulo">Ejemplo 22.1</div><div class="caja-cuerpo"><p>Encuentra la longitud de la circunferencia y el área del círculo de radio:</p>
+<div class="mate"><span class="mate-bloque">\[r=5\ \text{cm}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos la longitud:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} L &amp;=2\pi r\\ &amp;=2\pi(5)\\ &amp;=10\pi\ \text{cm}. \end{aligned}\]</span></div>
+<p>Utilizando \(\pi\approx3.1416\):</p>
+<div class="mate"><span class="mate-bloque">\[L\approx31.42\ \text{cm}.\]</span></div>
+<p>Calculamos el área:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} A &amp;=\pi r^2\\ &amp;=\pi(5)^2\\ &amp;=25\pi\ \text{cm}^2. \end{aligned}\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[A\approx78.54\ \text{cm}^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-22-2"><div class="caja-titulo">Ejemplo 22.2</div><div class="caja-cuerpo"><p>El diámetro de una circunferencia mide:</p>
+<div class="mate"><span class="mate-bloque">\[12\ \text{cm}.\]</span></div>
+<p>Encuentra su longitud.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Podemos utilizar directamente:</p>
+<div class="mate"><span class="mate-bloque">\[L=\pi d.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} L &amp;=\pi(12)\\ &amp;=12\pi\ \text{cm}. \end{aligned}\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[L\approx37.70\ \text{cm}.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Cuando no se solicita una aproximación decimal, es preferible conservar el resultado exacto en términos de \(\pi\).</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[L=12\pi\ \text{cm}\]</span></div>
+<p>es un valor exacto, mientras que:</p>
+<div class="mate"><span class="mate-bloque">\[L\approx37.70\ \text{cm}\]</span></div>
+<p>es una aproximación.</p></div></section>
+<h2 id="arcos-y-angulos-centrales"><span class="num">22.4</span> Arcos y ángulos centrales<a class="enlace-seccion" href="#arcos-y-angulos-centrales" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>ángulo central</strong> tiene su vértice en el centro de la circunferencia y sus lados son dos radios.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Medida del arco</div><div class="caja-cuerpo"><p>La medida en grados de un arco menor es igual a la medida de su ángulo central correspondiente.</p>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[m\angle AOB=\theta,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[m\widehat{AB}=\theta.\]</span></div></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-bece4ffc28b9.svg" alt="Figura 22.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="angulos-inscritos"><span class="num">22.5</span> Ángulos inscritos<a class="enlace-seccion" href="#angulos-inscritos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>ángulo inscrito</strong> tiene su vértice sobre la circunferencia y sus lados contienen cuerdas de la circunferencia.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Medida de un ángulo inscrito</div><div class="caja-cuerpo"><p>La medida de un ángulo inscrito es igual a la mitad de la medida del arco que intercepta:</p>
+<div class="mate"><span class="mate-bloque">\[m\angle APB = \frac{1}{2}m\widehat{AB}.\]</span></div>
+<p>Si un ángulo central y un ángulo inscrito interceptan el mismo arco, entonces:</p>
+<div class="mate"><span class="mate-bloque">\[m\angle APB = \frac{1}{2}m\angle AOB.\]</span></div></div></section>
+<p>La siguiente figura muestra un ángulo central y un ángulo inscrito que interceptan el mismo arco \(\widehat{AB}\):</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-c9b9206f62b4.svg" alt="Figura 22.3" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-22-3"><div class="caja-titulo">Ejemplo 22.3</div><div class="caja-cuerpo"><p>Un ángulo inscrito intercepta un arco de:</p>
+<div class="mate"><span class="mate-bloque">\[100^\circ.\]</span></div>
+<p>¿Cuánto mide el ángulo?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos el teorema del ángulo inscrito:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} m\angle &amp;=\frac{100^\circ}{2}\\ &amp;=50^\circ. \end{aligned}\]</span></div>
+<p>El ángulo inscrito mide:</p>
+<div class="mate"><span class="mate-bloque">\[50^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-22-4"><div class="caja-titulo">Ejemplo 22.4</div><div class="caja-cuerpo"><p>Un ángulo central mide:</p>
+<div class="mate"><span class="mate-bloque">\[80^\circ.\]</span></div>
+<p>¿Cuánto mide un ángulo inscrito que intercepta el mismo arco?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El ángulo inscrito mide la mitad del ángulo central:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} m\angle_{\text{inscrito}} &amp;=\frac{80^\circ}{2}\\ &amp;=40^\circ. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="angulo-inscrito-en-una-semicircunferencia"><span class="num">22.6</span> Ángulo inscrito en una semicircunferencia<a class="enlace-seccion" href="#angulo-inscrito-en-una-semicircunferencia" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Teorema de Tales</div><div class="caja-cuerpo"><p>Todo ángulo inscrito que intercepta un diámetro mide:</p>
+<div class="mate"><span class="mate-bloque">\[90^\circ.\]</span></div>
+<p>De manera equivalente, todo triángulo inscrito en una semicircunferencia cuyo lado coincide con el diámetro es un triángulo rectángulo.</p></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-3dece961d06e.svg" alt="Figura 22.4" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En la figura anterior, el vértice del ángulo recto es \(P\), que se encuentra sobre la semicircunferencia. El lado opuesto al ángulo recto es el diámetro \(\overline{AB}\).</p></div></section>
+<h2 id="longitud-de-arco"><span class="num">22.7</span> Longitud de arco<a class="enlace-seccion" href="#longitud-de-arco" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Longitud de un arco</div><div class="caja-cuerpo"><p>Sea una circunferencia de radio \(r\). Si un arco corresponde a un ángulo central de \(\theta\) grados, su longitud es:</p>
+<div class="mate"><span class="mate-bloque">\[s = \frac{\theta}{360^\circ}(2\pi r).\]</span></div>
+<p>De manera equivalente:</p>
+<div class="mate"><span class="mate-bloque">\[s = \frac{\pi r\theta}{180^\circ}.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La longitud del arco representa la fracción:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\theta}{360^\circ}\]</span></div>
+<p>de la longitud total de la circunferencia.</p></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-27b3ee2db92f.svg" alt="Figura 22.5" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-22-5"><div class="caja-titulo">Ejemplo 22.5</div><div class="caja-cuerpo"><p>Encuentra la longitud de un arco de \(60^\circ\) en una circunferencia de radio:</p>
+<div class="mate"><span class="mate-bloque">\[6\ \text{cm}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} s &amp;= \frac{60^\circ}{360^\circ} \bigl(2\pi(6)\bigr)\\ &amp;= \frac{1}{6}(12\pi)\\ &amp;=2\pi\ \text{cm}. \end{aligned}\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[s\approx6.28\ \text{cm}.\]</span></div></div></details></div></section>
+<h2 id="sector-circular"><span class="num">22.8</span> Sector circular<a class="enlace-seccion" href="#sector-circular" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>sector circular</strong> es la región del círculo limitada por dos radios y el arco comprendido entre ellos.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Área de un sector circular</div><div class="caja-cuerpo"><p>Si un sector de radio \(r\) corresponde a un ángulo central de \(\theta\) grados, su área es:</p>
+<div class="mate"><span class="mate-bloque">\[A_{\text{sector}} = \frac{\theta}{360^\circ}\pi r^2.\]</span></div></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-fc0a6bbdfc2d.svg" alt="Figura 22.6" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-22-6"><div class="caja-titulo">Ejemplo 22.6</div><div class="caja-cuerpo"><p>Encuentra el área de un sector circular de radio:</p>
+<div class="mate"><span class="mate-bloque">\[4\ \text{cm}\]</span></div>
+<p>y ángulo central:</p>
+<div class="mate"><span class="mate-bloque">\[90^\circ.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} A_{\text{sector}} &amp;= \frac{90^\circ}{360^\circ}\pi(4)^2\\ &amp;= \frac{1}{4}(16\pi)\\ &amp;=4\pi\ \text{cm}^2. \end{aligned}\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[A_{\text{sector}} \approx12.57\ \text{cm}^2.\]</span></div></div></details></div></section>
+<h2 id="rectas-tangentes"><span class="num">22.9</span> Rectas tangentes<a class="enlace-seccion" href="#rectas-tangentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Radio y recta tangente</div><div class="caja-cuerpo"><p>El radio trazado hasta el punto de tangencia es perpendicular a la recta tangente.</p>
+<p>Si \(T\) es el punto de tangencia, entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\overline{OT}\perp t.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Segmentos tangentes desde un punto exterior</div><div class="caja-cuerpo"><p>Si desde un mismo punto exterior \(P\) se trazan dos segmentos tangentes a una circunferencia y sus puntos de tangencia son \(A\) y \(B\), entonces:</p>
+<div class="mate"><span class="mate-bloque">\[PA=PB.\]</span></div></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-243f78fbf95f.svg" alt="Figura 22.7" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-22-7"><div class="caja-titulo">Ejemplo 22.7</div><div class="caja-cuerpo"><p>El radio de una circunferencia mide \(10\ \text{cm}\). Desde un punto exterior \(P\) se traza un segmento tangente, y la distancia entre \(P\) y el centro es:</p>
+<div class="mate"><span class="mate-bloque">\[OP=26\ \text{cm}.\]</span></div>
+<p>Encuentra la longitud del segmento tangente.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(T\) el punto de tangencia. Como el radio \(\overline{OT}\) es perpendicular a la tangente \(\overline{PT}\), el triángulo \(\triangle OPT\) es rectángulo.</p>
+<p>La hipotenusa mide:</p>
+<div class="mate"><span class="mate-bloque">\[OP=26\ \text{cm},\]</span></div>
+<p>y uno de los catetos mide:</p>
+<div class="mate"><span class="mate-bloque">\[OT=10\ \text{cm}.\]</span></div>
+<p>Aplicamos el teorema de Pitágoras:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} OP^2 &amp;=OT^2+PT^2,\\ 26^2 &amp;=10^2+PT^2,\\ 676 &amp;=100+PT^2,\\ PT^2 &amp;=576,\\ PT &amp;=24. \end{aligned}\]</span></div>
+<p>El segmento tangente mide:</p>
+<div class="mate"><span class="mate-bloque">\[24\ \text{cm}.\]</span></div></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">22.10</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-22-1"><div class="caja-titulo">Ejercicio 22.1</div><div class="caja-cuerpo"><p>Encuentra la longitud de la circunferencia y el área del círculo de radio:</p>
+<div class="mate"><span class="mate-bloque">\[7\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[L = 2\pi(7) = 14\pi \approx 44 \text{ cm}, \quad A = \pi(7)^2 = 49\pi \approx 154 \text{ cm}^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-22-2"><div class="caja-titulo">Ejercicio 22.2</div><div class="caja-cuerpo"><p>El diámetro de una circunferencia mide:</p>
+<div class="mate"><span class="mate-bloque">\[20\ \text{cm}.\]</span></div>
+<p>Encuentra su longitud.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(r = 10\) cm. <span class="mate-bloque">\[L = 2\pi(10) = 20\pi \approx 62.8 \text{ cm}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-22-3"><div class="caja-titulo">Ejercicio 22.3</div><div class="caja-cuerpo"><p>Encuentra el radio de un círculo cuya área es:</p>
+<div class="mate"><span class="mate-bloque">\[36\pi\ \text{cm}^2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(\pi r^2 = 36\pi\), entonces \(r^2 = 36\), \(r = 6\) cm.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-22-4"><div class="caja-titulo">Ejercicio 22.4</div><div class="caja-cuerpo"><p>Un ángulo inscrito intercepta un arco de:</p>
+<div class="mate"><span class="mate-bloque">\[140^\circ.\]</span></div>
+<p>¿Cuánto mide el ángulo?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\angle = \frac{140^\circ}{2} = 70^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-22-5"><div class="caja-titulo">Ejercicio 22.5</div><div class="caja-cuerpo"><p>Un ángulo central mide:</p>
+<div class="mate"><span class="mate-bloque">\[120^\circ.\]</span></div>
+<p>¿Cuánto mide un ángulo inscrito que intercepta el mismo arco?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\angle = \frac{120^\circ}{2} = 60^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-22-6"><div class="caja-titulo">Ejercicio 22.6</div><div class="caja-cuerpo"><p>Encuentra la longitud de un arco de \(90^\circ\) en una circunferencia de radio:</p>
+<div class="mate"><span class="mate-bloque">\[8\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[S = \frac{2\pi(8) \cdot 90^\circ}{360^\circ} = \frac{16\pi}{4} = 4\pi \approx 12.6 \text{ cm}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-22-7"><div class="caja-titulo">Ejercicio 22.7</div><div class="caja-cuerpo"><p>Encuentra el área de un sector circular de radio:</p>
+<div class="mate"><span class="mate-bloque">\[6\ \text{cm}\]</span></div>
+<p>y ángulo central:</p>
+<div class="mate"><span class="mate-bloque">\[120^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[A = \frac{\pi(6)^2 \cdot 120^\circ}{360^\circ} = \frac{36\pi}{3} = 12\pi \approx 37.7 \text{ cm}^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-22-8"><div class="caja-titulo">Ejercicio 22.8</div><div class="caja-cuerpo"><p>El radio de una circunferencia mide \(8\ \text{cm}\). Desde un punto exterior \(P\) se traza un segmento tangente. Si la distancia de \(P\) al centro es:</p>
+<div class="mate"><span class="mate-bloque">\[17\ \text{cm},\]</span></div>
+<p>¿cuánto mide el segmento tangente?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[t^2 = 17^2 - 8^2 = 289 - 64 = 225 \Longrightarrow t = 15 \text{ cm}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-22-9"><div class="caja-titulo">Ejercicio 22.9</div><div class="caja-cuerpo"><p>Un triángulo está inscrito en una semicircunferencia y uno de sus lados coincide con el diámetro. ¿Dónde se encuentra el vértice del ángulo recto?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El vértice del ángulo recto está sobre la circunferencia (es el punto donde el ángulo inscrito subtiende el diámetro).</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="21-cuadrilateros-poligonos.html"><span>← Anterior</span>21. Cuadriláteros y polígonos</a><a class="nav-siguiente" href="23-perimetros-areas-volumenes.html"><span>Siguiente →</span>23. Perímetros, áreas y volúmenes</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

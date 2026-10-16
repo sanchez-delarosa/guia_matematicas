@@ -1,0 +1,1867 @@
+{
+  "metadata": {
+    "capitulo": "5",
+    "titulo": "Razones, proporciones y porcentajes",
+    "version": "4.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 7,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 70,
+    "secciones_incluidas": [
+      {
+        "codigo": "5.1",
+        "nombre": "Razones"
+      },
+      {
+        "codigo": "5.2",
+        "nombre": "Proporciones"
+      },
+      {
+        "codigo": "5.3",
+        "nombre": "Proporcionalidad directa"
+      },
+      {
+        "codigo": "5.4",
+        "nombre": "Proporcionalidad inversa"
+      },
+      {
+        "codigo": "5.5",
+        "nombre": "Porcentajes"
+      },
+      {
+        "codigo": "5.6",
+        "nombre": "Aumentos y descuentos"
+      },
+      {
+        "codigo": "5.7",
+        "nombre": "Cambios porcentuales sucesivos"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_y_revisado_matematicamente"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-5-1-01",
+      "pregunta": "En un grupo hay $12$ estudiantes que practican fútbol y $8$ que practican básquetbol. ¿Cuál es la razón fútbol:básquetbol en su forma simplificada?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.1",
+        "nombre": "Razones"
+      },
+      "respuestas_posibles": {
+        "A": "$3:2$",
+        "B": "$2:3$",
+        "C": "$12:20$",
+        "D": "$4:3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "simplificar razones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-1-02",
+      "pregunta": "Una mezcla contiene $15\\,\\text{mL}$ de concentrado y $45\\,\\text{mL}$ de agua. ¿Cuál es la razón concentrado:agua?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.1",
+        "nombre": "Razones"
+      },
+      "respuestas_posibles": {
+        "A": "$3:1$",
+        "B": "$1:4$",
+        "C": "$2:3$",
+        "D": "$1:3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "interpretar razones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-1-03",
+      "pregunta": "Un rectángulo mide $18\\,\\text{cm}$ de largo y $12\\,\\text{cm}$ de ancho. ¿Cuál es la razón largo:ancho simplificada?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.1",
+        "nombre": "Razones"
+      },
+      "respuestas_posibles": {
+        "A": "$3:1$",
+        "B": "$18:30$",
+        "C": "$3:2$",
+        "D": "$2:3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "formar razones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-1-04",
+      "pregunta": "La razón entre dos números es $5:7$. Si el primero es $20$, ¿cuál es el segundo?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.1",
+        "nombre": "Razones"
+      },
+      "respuestas_posibles": {
+        "A": "$35$",
+        "B": "$28$",
+        "C": "$14$",
+        "D": "$25$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "usar una razón para hallar un término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-1-05",
+      "pregunta": "En una escala, $2\\,\\text{cm}$ representan $50\\,\\text{km}$. ¿Cuál es la razón en kilómetros por centímetro?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.1",
+        "nombre": "Razones"
+      },
+      "respuestas_posibles": {
+        "A": "$25\\,\\text{km/cm}$",
+        "B": "$20\\,\\text{km/cm}$",
+        "C": "$48\\,\\text{km/cm}$",
+        "D": "$100\\,\\text{km/cm}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular tasa unitaria",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-1-06",
+      "pregunta": "Un automóvil recorre $360\\,\\text{km}$ con $30\\,\\text{L}$. ¿Cuál es su rendimiento?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.1",
+        "nombre": "Razones"
+      },
+      "respuestas_posibles": {
+        "A": "$10\\,\\text{km/L}$",
+        "B": "$30\\,\\text{km/L}$",
+        "C": "$390\\,\\text{km/L}$",
+        "D": "$12\\,\\text{km/L}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular razón unitaria",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-1-07",
+      "pregunta": "Una receta usa harina y azúcar en razón $4:1$. Si se usan $600\\,\\text{g}$ de harina, ¿cuánta azúcar se requiere?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.1",
+        "nombre": "Razones"
+      },
+      "respuestas_posibles": {
+        "A": "$200\\,\\text{g}$",
+        "B": "$2400\\,\\text{g}$",
+        "C": "$150\\,\\text{g}$",
+        "D": "$100\\,\\text{g}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar razón parte a parte",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-1-08",
+      "pregunta": "La razón de libros de ciencia a novelas es $7:5$. Si hay $48$ libros en total, ¿cuántos son de ciencia?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.1",
+        "nombre": "Razones"
+      },
+      "respuestas_posibles": {
+        "A": "$35$",
+        "B": "$28$",
+        "C": "$20$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "repartir un total según una razón",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-1-09",
+      "pregunta": "Dos segmentos están en razón $3:8$ y el mayor mide $40\\,\\text{cm}$. ¿Cuánto mide el menor?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.1",
+        "nombre": "Razones"
+      },
+      "respuestas_posibles": {
+        "A": "$15\\,\\text{cm}$",
+        "B": "$12\\,\\text{cm}$",
+        "C": "$24\\,\\text{cm}$",
+        "D": "$35\\,\\text{cm}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "hallar magnitud a partir de razón",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-1-10",
+      "pregunta": "En una caja, la razón de piezas defectuosas a piezas correctas es $1:24$. ¿Qué fracción del total es defectuosa?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.1",
+        "nombre": "Razones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{1}{24}$",
+        "B": "$\\frac{24}{25}$",
+        "C": "$\\frac{1}{23}$",
+        "D": "$\\frac{1}{25}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "convertir razón parte a parte en fracción del total",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-2-01",
+      "pregunta": "Resuelva la proporción $\\frac{3}{5}=\\frac{x}{20}$.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.2",
+        "nombre": "Proporciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x=8$",
+        "B": "$x=15$",
+        "C": "$x=25$",
+        "D": "$x=12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver proporciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-2-02",
+      "pregunta": "Resuelva $\\frac{7}{x}=\\frac{14}{18}$.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.2",
+        "nombre": "Proporciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x=14$",
+        "B": "$x=36$",
+        "C": "$x=9$",
+        "D": "$x=7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver proporciones con incógnita en denominador",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-2-03",
+      "pregunta": "¿Cuál igualdad forma una proporción verdadera?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.2",
+        "nombre": "Proporciones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{5}{8}=\\frac{15}{20}$",
+        "B": "$\\frac{4}{6}=\\frac{10}{15}$",
+        "C": "$\\frac{3}{5}=\\frac{8}{10}$",
+        "D": "$\\frac{2}{7}=\\frac{6}{14}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "reconocer proporciones equivalentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-2-04",
+      "pregunta": "Si $a:b=2:9$ y $b=36$, ¿cuánto vale $a$?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.2",
+        "nombre": "Proporciones"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$4$",
+        "C": "$18$",
+        "D": "$162$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "usar proporción equivalente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-2-05",
+      "pregunta": "Resuelva $\\frac{x+1}{6}=\\frac{5}{3}$.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.2",
+        "nombre": "Proporciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x=4$",
+        "B": "$x=10$",
+        "C": "$x=11$",
+        "D": "$x=9$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver proporción algebraica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-2-06",
+      "pregunta": "En una proporción, los extremos son $6$ y $15$, y uno de los medios es $9$. ¿Cuál es el otro medio?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.2",
+        "nombre": "Proporciones"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$22.5$",
+        "C": "$10$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "usar producto cruzado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-2-07",
+      "pregunta": "Determine $k$ para que $\\frac{8}{12}=\\frac{k}{27}$.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.2",
+        "nombre": "Proporciones"
+      },
+      "respuestas_posibles": {
+        "A": "$k=24$",
+        "B": "$k=18$",
+        "C": "$k=12$",
+        "D": "$k=16$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular cuarto proporcional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-2-08",
+      "pregunta": "Si $\\frac{m}{n}=\\frac{5}{8}$, ¿cuál expresión es equivalente?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.2",
+        "nombre": "Proporciones"
+      },
+      "respuestas_posibles": {
+        "A": "$8m=5n$",
+        "B": "$5m=8n$",
+        "C": "$mn=40$",
+        "D": "$m+n=13$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interpretar producto cruzado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-2-09",
+      "pregunta": "Resuelva $\\frac{2x-1}{5}=\\frac{3}{2}$.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.2",
+        "nombre": "Proporciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x=4$",
+        "B": "$x=\\frac{13}{4}$",
+        "C": "$x=8$",
+        "D": "$x=\\frac{17}{4}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "resolver proporción lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-2-10",
+      "pregunta": "Las razones $6:14$ y $9:21$ forman una proporción porque ambas se simplifican a:",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.2",
+        "nombre": "Proporciones"
+      },
+      "respuestas_posibles": {
+        "A": "$3:5$",
+        "B": "$6:7$",
+        "C": "$3:7$",
+        "D": "$2:7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "verificar proporciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-3-01",
+      "pregunta": "Si $4$ cuadernos cuestan $120$ pesos, ¿cuánto cuestan $7$ cuadernos al mismo precio unitario?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.3",
+        "nombre": "Proporcionalidad directa"
+      },
+      "respuestas_posibles": {
+        "A": "$200$ pesos",
+        "B": "$240$ pesos",
+        "C": "$210$ pesos",
+        "D": "$180$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver proporcionalidad directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-3-02",
+      "pregunta": "Una máquina produce $180$ piezas en $3$ horas. ¿Cuántas produce en $5$ horas al mismo ritmo?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.3",
+        "nombre": "Proporcionalidad directa"
+      },
+      "respuestas_posibles": {
+        "A": "$900$",
+        "B": "$300$",
+        "C": "$108$",
+        "D": "$270$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "escalar producción directamente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-3-03",
+      "pregunta": "Para $6$ personas se requieren $900\\,\\text{g}$ de arroz. ¿Cuánto se requiere para $10$ personas?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.3",
+        "nombre": "Proporcionalidad directa"
+      },
+      "respuestas_posibles": {
+        "A": "$1500\\,\\text{g}$",
+        "B": "$540\\,\\text{g}$",
+        "C": "$1000\\,\\text{g}$",
+        "D": "$1600\\,\\text{g}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "escalar receta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-3-04",
+      "pregunta": "Un vehículo recorre $150\\,\\text{km}$ en $2$ horas a velocidad constante. ¿Cuánto recorre en $3.5$ horas?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.3",
+        "nombre": "Proporcionalidad directa"
+      },
+      "respuestas_posibles": {
+        "A": "$225\\,\\text{km}$",
+        "B": "$250\\,\\text{km}$",
+        "C": "$525\\,\\text{km}$",
+        "D": "$262.5\\,\\text{km}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "usar razón constante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-3-05",
+      "pregunta": "La relación entre $x$ y $y$ es directamente proporcional. Si $y=18$ cuando $x=6$, ¿cuál es la constante de proporcionalidad?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.3",
+        "nombre": "Proporcionalidad directa"
+      },
+      "respuestas_posibles": {
+        "A": "$k=6$",
+        "B": "$k=12$",
+        "C": "$k=3$",
+        "D": "$k=2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "hallar constante de proporcionalidad directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-3-06",
+      "pregunta": "Si $y$ es directamente proporcional a $x$ y $y=35$ cuando $x=5$, calcule $y$ cuando $x=8$.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.3",
+        "nombre": "Proporcionalidad directa"
+      },
+      "respuestas_posibles": {
+        "A": "$64$",
+        "B": "$56$",
+        "C": "$40$",
+        "D": "$43$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "usar modelo $y=kx$",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-3-07",
+      "pregunta": "¿Cuál ecuación representa una proporcionalidad directa?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.3",
+        "nombre": "Proporcionalidad directa"
+      },
+      "respuestas_posibles": {
+        "A": "$y=4x$",
+        "B": "$y=4x+1$",
+        "C": "$y=\\frac{4}{x}$",
+        "D": "$xy=4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar modelo directo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-3-08",
+      "pregunta": "Una fotografía de $12\\,\\text{cm}$ de ancho tiene $8\\,\\text{cm}$ de alto. Si se amplía proporcionalmente a $18\\,\\text{cm}$ de ancho, ¿cuál será la altura?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.3",
+        "nombre": "Proporcionalidad directa"
+      },
+      "respuestas_posibles": {
+        "A": "$10\\,\\text{cm}$",
+        "B": "$14\\,\\text{cm}$",
+        "C": "$27\\,\\text{cm}$",
+        "D": "$12\\,\\text{cm}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "usar escala directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-3-09",
+      "pregunta": "Por $2.5\\,\\text{kg}$ de fruta se pagan $87.50$ pesos. ¿Cuánto costarán $4\\,\\text{kg}$?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.3",
+        "nombre": "Proporcionalidad directa"
+      },
+      "respuestas_posibles": {
+        "A": "$130$ pesos",
+        "B": "$150$ pesos",
+        "C": "$140$ pesos",
+        "D": "$125$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular costo proporcional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-3-10",
+      "pregunta": "Una variable $y$ es directamente proporcional a $x^2$. Si $y=20$ cuando $x=2$, calcule $y$ cuando $x=3$.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.3",
+        "nombre": "Proporcionalidad directa"
+      },
+      "respuestas_posibles": {
+        "A": "$60$",
+        "B": "$45$",
+        "C": "$30$",
+        "D": "$40$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicar proporcionalidad directa cuadrática",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-4-01",
+      "pregunta": "Si $6$ trabajadores terminan una obra en $15$ días, ¿cuántos días tardarán $10$ trabajadores al mismo ritmo?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.4",
+        "nombre": "Proporcionalidad inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$25$ días",
+        "B": "$9$ días",
+        "C": "$6$ días",
+        "D": "$12$ días"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver proporcionalidad inversa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-4-02",
+      "pregunta": "Un viaje dura $8$ horas a $75\\,\\text{km/h}$. ¿Cuánto durará a $100\\,\\text{km/h}$ sobre la misma distancia?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.4",
+        "nombre": "Proporcionalidad inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$6$ horas",
+        "B": "$4$ horas",
+        "C": "$7.5$ horas",
+        "D": "$10.67$ horas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "relacionar velocidad y tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-4-03",
+      "pregunta": "Doce llaves iguales llenan un depósito en $5$ horas. ¿Cuánto tardarán $20$ llaves?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.4",
+        "nombre": "Proporcionalidad inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$2$ horas",
+        "B": "$4$ horas",
+        "C": "$8.33$ horas",
+        "D": "$3$ horas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "escalar trabajo inversamente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-4-04",
+      "pregunta": "Si $y$ es inversamente proporcional a $x$ y $y=10$ cuando $x=4$, ¿cuál es la constante de proporcionalidad?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.4",
+        "nombre": "Proporcionalidad inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$k=6$",
+        "B": "$k=14$",
+        "C": "$k=40$",
+        "D": "$k=2.5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "hallar constante inversa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-4-05",
+      "pregunta": "Si $xy=72$ y $x=9$, calcule $y$.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.4",
+        "nombre": "Proporcionalidad inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$63$",
+        "B": "$8$",
+        "C": "$7$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "usar producto constante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-4-06",
+      "pregunta": "¿Cuál ecuación representa proporcionalidad inversa?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.4",
+        "nombre": "Proporcionalidad inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$y=\\frac{18}{x}$",
+        "B": "$y=18x$",
+        "C": "$y=x+18$",
+        "D": "$y=18-x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar modelo inverso",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-4-07",
+      "pregunta": "Ocho impresoras producen un lote en $6$ horas. Si solo funcionan $3$ impresoras, ¿cuánto tiempo se necesita?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.4",
+        "nombre": "Proporcionalidad inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$9$ horas",
+        "B": "$12$ horas",
+        "C": "$18$ horas",
+        "D": "$16$ horas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver capacidad inversa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-4-08",
+      "pregunta": "Para una distancia fija, la velocidad aumenta de $60$ a $90\\,\\text{km/h}$. Si el tiempo inicial era $3$ horas, ¿cuál es el nuevo tiempo?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.4",
+        "nombre": "Proporcionalidad inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$2.5$ horas",
+        "B": "$4.5$ horas",
+        "C": "$2$ horas",
+        "D": "$1.5$ horas"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "comparar magnitudes inversas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-4-09",
+      "pregunta": "Un grupo de $15$ personas tiene alimento para $24$ días. ¿Cuántos días durará para $18$ personas?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.4",
+        "nombre": "Proporcionalidad inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$28.8$ días",
+        "B": "$20$ días",
+        "C": "$16$ días",
+        "D": "$21.6$ días"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "repartir recurso fijo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-4-10",
+      "pregunta": "Si $y$ es inversamente proporcional a $x^2$ y $y=12$ cuando $x=2$, calcule $y$ cuando $x=4$.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.4",
+        "nombre": "Proporcionalidad inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$6$",
+        "C": "$12$",
+        "D": "$48$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicar proporcionalidad inversa cuadrática",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-5-01",
+      "pregunta": "Calcule el $15\\%$ de $240$.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.5",
+        "nombre": "Porcentajes"
+      },
+      "respuestas_posibles": {
+        "A": "$36$",
+        "B": "$24$",
+        "C": "$30$",
+        "D": "$40$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular porcentaje de una cantidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-5-02",
+      "pregunta": "$45$ es ¿qué porcentaje de $180$?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.5",
+        "nombre": "Porcentajes"
+      },
+      "respuestas_posibles": {
+        "A": "$20\\%$",
+        "B": "$35\\%$",
+        "C": "$40\\%$",
+        "D": "$25\\%$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "hallar porcentaje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-5-03",
+      "pregunta": "El $30\\%$ de una cantidad es $72$. ¿Cuál es la cantidad?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.5",
+        "nombre": "Porcentajes"
+      },
+      "respuestas_posibles": {
+        "A": "$216$",
+        "B": "$2400$",
+        "C": "$240$",
+        "D": "$102$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "hallar valor original",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-5-04",
+      "pregunta": "Convierta $0.375$ a porcentaje.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.5",
+        "nombre": "Porcentajes"
+      },
+      "respuestas_posibles": {
+        "A": "$375\\%$",
+        "B": "$37.5\\%$",
+        "C": "$3.75\\%$",
+        "D": "$37\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "convertir decimal a porcentaje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-5-05",
+      "pregunta": "Convierta $62\\%$ a fracción irreducible.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.5",
+        "nombre": "Porcentajes"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{31}{50}$",
+        "B": "$\\frac{62}{10}$",
+        "C": "$\\frac{6}{2}$",
+        "D": "$\\frac{50}{31}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "convertir porcentaje a fracción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-5-06",
+      "pregunta": "En un examen se respondieron correctamente $42$ de $50$ preguntas. ¿Cuál fue el porcentaje de aciertos?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.5",
+        "nombre": "Porcentajes"
+      },
+      "respuestas_posibles": {
+        "A": "$80\\%$",
+        "B": "$82\\%$",
+        "C": "$92\\%$",
+        "D": "$84\\%$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular porcentaje en contexto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-5-07",
+      "pregunta": "Una población tiene $3200$ habitantes y el $18\\%$ son menores de edad. ¿Cuántos menores hay?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.5",
+        "nombre": "Porcentajes"
+      },
+      "respuestas_posibles": {
+        "A": "$590$",
+        "B": "$640$",
+        "C": "$576$",
+        "D": "$540$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar porcentaje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-5-08",
+      "pregunta": "Un depósito está lleno al $65\\%$ y contiene $520\\,\\text{L}$. ¿Cuál es su capacidad total?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.5",
+        "nombre": "Porcentajes"
+      },
+      "respuestas_posibles": {
+        "A": "$845\\,\\text{L}$",
+        "B": "$800\\,\\text{L}$",
+        "C": "$338\\,\\text{L}$",
+        "D": "$585\\,\\text{L}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "recuperar total desde porcentaje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-5-09",
+      "pregunta": "¿Cuál es mayor?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.5",
+        "nombre": "Porcentajes"
+      },
+      "respuestas_posibles": {
+        "A": "$41\\%$",
+        "B": "$\\frac{2}{5}$",
+        "C": "$0.405$",
+        "D": "$40.8\\%$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "comparar porcentajes fracciones y decimales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-5-10",
+      "pregunta": "De $1250$ personas, $475$ eligieron una opción. ¿Qué porcentaje representa?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.5",
+        "nombre": "Porcentajes"
+      },
+      "respuestas_posibles": {
+        "A": "$35\\%$",
+        "B": "$40\\%$",
+        "C": "$47.5\\%$",
+        "D": "$38\\%$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular porcentaje de frecuencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-6-01",
+      "pregunta": "Un artículo cuesta $800$ pesos y aumenta $12\\%$. ¿Cuál es el nuevo precio?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.6",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$812$ pesos",
+        "B": "$900$ pesos",
+        "C": "$704$ pesos",
+        "D": "$896$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular aumento porcentual",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-6-02",
+      "pregunta": "Un producto de $1500$ pesos tiene descuento de $20\\%$. ¿Cuál es el precio final?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.6",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$1300$ pesos",
+        "B": "$1800$ pesos",
+        "C": "$1200$ pesos",
+        "D": "$300$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular precio con descuento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-6-03",
+      "pregunta": "Después de un aumento de $25\\%$, un salario es de $10000$ pesos. ¿Cuál era el salario original?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.6",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$12500$ pesos",
+        "B": "$8000$ pesos",
+        "C": "$7500$ pesos",
+        "D": "$8500$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "recuperar valor original tras aumento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-6-04",
+      "pregunta": "Después de un descuento de $15\\%$, un artículo cuesta $1020$ pesos. ¿Cuál era su precio original?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.6",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$1200$ pesos",
+        "B": "$867$ pesos",
+        "C": "$1173$ pesos",
+        "D": "$1350$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "recuperar valor original tras descuento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-6-05",
+      "pregunta": "¿Qué factor multiplicativo representa un aumento de $8\\%$?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.6",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$0.08$",
+        "B": "$0.92$",
+        "C": "$1.8$",
+        "D": "$1.08$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar factor de aumento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-6-06",
+      "pregunta": "¿Qué factor multiplicativo representa un descuento de $35\\%$?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.6",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$1.35$",
+        "B": "$0.75$",
+        "C": "$0.65$",
+        "D": "$0.35$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar factor de descuento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-6-07",
+      "pregunta": "El precio de una membresía pasa de $600$ a $690$ pesos. ¿Cuál fue el porcentaje de aumento?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.6",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$18\\%$",
+        "B": "$15\\%$",
+        "C": "$9\\%$",
+        "D": "$13\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular tasa de aumento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-6-08",
+      "pregunta": "Un precio baja de $2400$ a $1800$ pesos. ¿Cuál fue el porcentaje de descuento?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.6",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$25\\%$",
+        "B": "$20\\%$",
+        "C": "$30\\%$",
+        "D": "$33.3\\%$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular tasa de descuento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-6-09",
+      "pregunta": "Una computadora cuesta $18500$ pesos antes de un descuento de $14\\%$. ¿Cuánto se descuenta?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.6",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$1850$ pesos",
+        "B": "$2400$ pesos",
+        "C": "$15910$ pesos",
+        "D": "$2590$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular importe descontado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-6-10",
+      "pregunta": "Una cantidad aumenta $10\\%$ y llega a $363$. ¿Cuál era la cantidad inicial?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.6",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$353$",
+        "B": "$399.3$",
+        "C": "$330$",
+        "D": "$326.7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "usar factor inverso de aumento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-7-01",
+      "pregunta": "Un precio de $1000$ pesos aumenta $10\\%$ y luego aumenta otro $20\\%$. ¿Cuál es el precio final?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.7",
+        "nombre": "Cambios porcentuales sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$1200$ pesos",
+        "B": "$1330$ pesos",
+        "C": "$1320$ pesos",
+        "D": "$1300$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular aumentos sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-7-02",
+      "pregunta": "Un artículo de $2000$ pesos recibe descuentos sucesivos de $10\\%$ y $20\\%$. ¿Cuál es el precio final?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.7",
+        "nombre": "Cambios porcentuales sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$1600$ pesos",
+        "B": "$1440$ pesos",
+        "C": "$1400$ pesos",
+        "D": "$1500$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular descuentos sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-7-03",
+      "pregunta": "Un valor aumenta $25\\%$ y después disminuye $20\\%$. Comparado con el valor inicial, el resultado es:",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.7",
+        "nombre": "Cambios porcentuales sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "Igual al valor inicial",
+        "B": "$5\\%$ mayor",
+        "C": "$5\\%$ menor",
+        "D": "$45\\%$ mayor"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "comparar cambios sucesivos compensatorios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-7-04",
+      "pregunta": "Un precio aumenta $20\\%$ y luego disminuye $20\\%$. ¿Cuál es el cambio neto?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.7",
+        "nombre": "Cambios porcentuales sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "Sin cambio",
+        "B": "$4\\%$ de aumento",
+        "C": "$40\\%$ de disminución",
+        "D": "$4\\%$ de disminución"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular cambio neto sucesivo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-7-05",
+      "pregunta": "¿Cuál es el factor equivalente a dos aumentos sucesivos de $5\\%$?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.7",
+        "nombre": "Cambios porcentuales sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$1.0025$",
+        "B": "$1.25$",
+        "C": "$1.1025$",
+        "D": "$1.10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "multiplicar factores porcentuales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-7-06",
+      "pregunta": "Una población disminuye $10\\%$ cada año durante dos años. Si inicia en $5000$, ¿cuál es la población final?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.7",
+        "nombre": "Cambios porcentuales sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$4900$",
+        "B": "$4050$",
+        "C": "$4000$",
+        "D": "$4500$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "modelar disminuciones sucesivas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-7-07",
+      "pregunta": "Un salario aumenta $8\\%$ y luego $6\\%$. ¿Cuál es el aumento total equivalente?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.7",
+        "nombre": "Cambios porcentuales sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$14.48\\%$",
+        "B": "$14\\%$",
+        "C": "$13.52\\%$",
+        "D": "$48\\%$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "hallar porcentaje equivalente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-7-08",
+      "pregunta": "Un producto recibe descuento de $30\\%$ y después se aplica un impuesto de $16\\%$ sobre el precio descontado. Si costaba $1000$ pesos, ¿cuál es el precio final?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.7",
+        "nombre": "Cambios porcentuales sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$800$ pesos",
+        "B": "$820$ pesos",
+        "C": "$860$ pesos",
+        "D": "$812$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "combinar descuento e impuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-7-09",
+      "pregunta": "Una inversión gana $12\\%$ y después pierde $10\\%$. ¿Cuál es el cambio neto?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.7",
+        "nombre": "Cambios porcentuales sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\%$ de disminución",
+        "B": "$1.2\\%$ de disminución",
+        "C": "$0.8\\%$ de aumento",
+        "D": "$2\\%$ de aumento"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular cambio sucesivo mixto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-5-7-10",
+      "pregunta": "Para regresar exactamente al valor inicial después de un aumento de $25\\%$, se requiere una disminución de:",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Razones, proporciones y porcentajes",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "5.7",
+        "nombre": "Cambios porcentuales sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$31.25\\%$",
+        "B": "$20\\%$",
+        "C": "$25\\%$",
+        "D": "$15\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular porcentaje inverso",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>13. Sistemas de ecuaciones · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte II: Álgebra</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#sistemas-de-dos-ecuaciones-con-dos-incognitas"><span class="num">13.1</span> Sistemas de dos ecuaciones con dos incógnitas</a></li><li class="nivel-2"><a href="#interpretacion-geometrica"><span class="num">13.2</span> Interpretación geométrica</a></li><li class="nivel-2"><a href="#metodo-de-eliminacion"><span class="num">13.3</span> Método de eliminación</a></li><li class="nivel-2"><a href="#metodo-de-sustitucion"><span class="num">13.4</span> Método de sustitución</a></li><li class="nivel-2"><a href="#metodo-de-igualacion"><span class="num">13.5</span> Método de igualación</a></li><li class="nivel-2"><a href="#metodo-de-determinantes"><span class="num">13.6</span> Método de determinantes</a></li><li class="nivel-2"><a href="#eleccion-del-metodo"><span class="num">13.7</span> Elección del método</a></li><li class="nivel-2"><a href="#sistemas-de-tres-ecuaciones-con-tres-incognitas"><span class="num">13.8</span> Sistemas de tres ecuaciones con tres incógnitas</a></li><li class="nivel-2"><a href="#problemas-de-aplicacion"><span class="num">13.9</span> Problemas de aplicación</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">13.10</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 13</p><h1>Sistemas de ecuaciones</h1></header>
+<p><span id="cap-sistemas-ecuaciones" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Un sistema de ecuaciones está formado por dos o más ecuaciones que deben cumplirse simultáneamente. Resolverlo consiste en encontrar los valores de las incógnitas que satisfacen todas las ecuaciones del sistema. En este capítulo estudiarás diferentes métodos para resolver sistemas lineales de dos ecuaciones con dos incógnitas y una introducción a los sistemas de tres ecuaciones con tres incógnitas.</p>
+<h2 id="sistemas-de-dos-ecuaciones-con-dos-incognitas"><span class="num">13.1</span> Sistemas de dos ecuaciones con dos incógnitas<a class="enlace-seccion" href="#sistemas-de-dos-ecuaciones-con-dos-incognitas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>sistema de dos ecuaciones lineales con dos incógnitas</strong> puede escribirse en la forma:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} a_1x+b_1y=c_1,\\ a_2x+b_2y=c_2, \end{cases}\]</span></div>
+<p>donde \(a_1\), \(b_1\), \(a_2\) y \(b_2\) son los coeficientes de las incógnitas, mientras que \(c_1\) y \(c_2\) son los términos independientes.</p>
+<p>Una solución del sistema es un par ordenado \((x,y)\) que satisface simultáneamente ambas ecuaciones.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-13-1"><div class="caja-titulo">Ejemplo 13.1</div><div class="caja-cuerpo"><p>Verifica si el par ordenado \((2,1)\) es solución del sistema:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} x+2y=4,\\ 5x-y=9. \end{cases}\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos \(x=2\) y \(y=1\) en la primera ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[2+2(1)=4.\]</span></div>
+<p>La igualdad es verdadera. Ahora sustituimos en la segunda:</p>
+<div class="mate"><span class="mate-bloque">\[5(2)-1=10-1=9.\]</span></div>
+<p>Como el par \((2,1)\) satisface las dos ecuaciones, sí es solución del sistema.</p></div></details></div></section>
+<h2 id="interpretacion-geometrica"><span class="num">13.2</span> Interpretación geométrica<a class="enlace-seccion" href="#interpretacion-geometrica" aria-label="Enlace a esta sección">#</a></h2>
+<p>Cada ecuación lineal con dos incógnitas representa una recta en el plano cartesiano. Por tanto, resolver un sistema equivale a encontrar los puntos que pertenecen simultáneamente a ambas rectas.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Tipos de solución</div><div class="caja-cuerpo"><p>Un sistema lineal de dos ecuaciones con dos incógnitas puede tener:</p>
+<ul><li><p><strong>Una solución única</strong></p>
+<p>Las rectas se intersecan en un solo punto. El sistema se denomina <strong>compatible determinado</strong>.</p></li><li><p><strong>Infinitas soluciones</strong></p>
+<p>Las dos ecuaciones representan la misma recta. El sistema se denomina <strong>compatible indeterminado</strong>.</p></li><li><p><strong>Ninguna solución</strong></p>
+<p>Las rectas son paralelas y distintas. El sistema se denomina <strong>incompatible</strong>.</p></li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Si las ecuaciones se escriben en la forma:</p>
+<div class="mate"><span class="mate-bloque">\[y=m_1x+b_1 \qquad\text{y}\qquad y=m_2x+b_2,\]</span></div>
+<p>pueden presentarse los siguientes casos:</p>
+<ul><li>si \(m_1\neq m_2\), las rectas se intersecan y existe una solución única;</li><li>si \(m_1=m_2\) y \(b_1=b_2\), las rectas coinciden y existen infinitas soluciones;</li><li>si \(m_1=m_2\) y \(b_1\neq b_2\), las rectas son paralelas y no existe solución.</li></ul></div></section>
+<h2 id="metodo-de-eliminacion"><span class="num">13.3</span> Método de eliminación<a class="enlace-seccion" href="#metodo-de-eliminacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Método de eliminación</div><div class="caja-cuerpo"><p>El método de eliminación, también llamado método de suma y resta, consiste en combinar las ecuaciones para eliminar una de las incógnitas.</p>
+<p>El procedimiento general es:</p>
+<ol><li>ordenar ambas ecuaciones de manera semejante;</li><li>multiplicar una o ambas ecuaciones por constantes adecuadas para obtener coeficientes opuestos en una incógnita;</li><li>sumar las ecuaciones resultantes;</li><li>resolver la ecuación con una incógnita;</li><li>sustituir el valor obtenido en alguna de las ecuaciones originales;</li><li>comprobar el par ordenado en ambas ecuaciones.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-13-2"><div class="caja-titulo">Ejemplo 13.2</div><div class="caja-cuerpo"><p>Resuelve el sistema:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} 3x-2y=-8,\\ x+y=-1. \end{cases}\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos la segunda ecuación por \(2\) para obtener coeficientes opuestos de \(y\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} 3x-2y=-8,\\ 2x+2y=-2. \end{cases}\]</span></div>
+<p>Sumamos ambas ecuaciones:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (3x-2y)+(2x+2y) &amp;=-8+(-2),\\ 5x &amp;=-10,\\ x &amp;=-2. \end{aligned}\]</span></div>
+<p>Sustituimos \(x=-2\) en la ecuación \(x+y=-1\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} -2+y &amp;=-1,\\ y &amp;=1. \end{aligned}\]</span></div>
+<p>Por tanto, la solución es:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y)=(-2,1).\]</span></div>
+<p>Comprobamos en la primera ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[3(-2)-2(1) = -6-2 = -8.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-13-3"><div class="caja-titulo">Ejemplo 13.3</div><div class="caja-cuerpo"><p>Resuelve el sistema:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} 5x+2y=23,\\ 3x+4y=25. \end{cases}\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos la primera ecuación por \(2\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} 10x+4y=46,\\ 3x+4y=25. \end{cases}\]</span></div>
+<p>Restamos la segunda ecuación de la primera:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (10x+4y)-(3x+4y) &amp;=46-25,\\ 7x &amp;=21,\\ x &amp;=3. \end{aligned}\]</span></div>
+<p>Sustituimos \(x=3\) en la primera ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 5(3)+2y &amp;=23,\\ 15+2y &amp;=23,\\ 2y &amp;=8,\\ y &amp;=4. \end{aligned}\]</span></div>
+<p>La solución es:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y)=(3,4).\]</span></div></div></details></div></section>
+<h2 id="metodo-de-sustitucion"><span class="num">13.4</span> Método de sustitución<a class="enlace-seccion" href="#metodo-de-sustitucion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Método de sustitución</div><div class="caja-cuerpo"><p>El método de sustitución consiste en despejar una incógnita en una de las ecuaciones y sustituir la expresión obtenida en la otra.</p>
+<p>El procedimiento es:</p>
+<ol><li>despejar una incógnita en una de las ecuaciones;</li><li>sustituir la expresión obtenida en la otra ecuación;</li><li>resolver la ecuación resultante;</li><li>sustituir el valor encontrado en el despeje original;</li><li>comprobar el par ordenado.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-13-4"><div class="caja-titulo">Ejemplo 13.4</div><div class="caja-cuerpo"><p>Resuelve el sistema:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} x+2y=4,\\ 5x-y=9. \end{cases}\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Despejamos \(x\) en la primera ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[x=4-2y.\]</span></div>
+<p>Sustituimos esta expresión en la segunda ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 5(4-2y)-y &amp;=9,\\ 20-10y-y &amp;=9,\\ -11y &amp;=-11,\\ y &amp;=1. \end{aligned}\]</span></div>
+<p>Sustituimos \(y=1\) en el despeje de \(x\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x &amp;=4-2(1)\\ &amp;=2. \end{aligned}\]</span></div>
+<p>La solución es:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y)=(2,1).\]</span></div></div></details></div></section>
+<h2 id="metodo-de-igualacion"><span class="num">13.5</span> Método de igualación<a class="enlace-seccion" href="#metodo-de-igualacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Método de igualación</div><div class="caja-cuerpo"><p>El método de igualación consiste en despejar la misma incógnita en las dos ecuaciones e igualar las expresiones obtenidas.</p>
+<p>El procedimiento es:</p>
+<ol><li>despejar la misma incógnita en ambas ecuaciones;</li><li>igualar las dos expresiones resultantes;</li><li>resolver la ecuación con una incógnita;</li><li>sustituir el valor obtenido en alguno de los despejes;</li><li>comprobar la solución.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-13-5"><div class="caja-titulo">Ejemplo 13.5</div><div class="caja-cuerpo"><p>Resuelve el sistema:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} y=5x+3,\\ y=x+7. \end{cases}\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como ambas expresiones son iguales a \(y\), las igualamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 5x+3 &amp;=x+7,\\ 5x-x &amp;=7-3,\\ 4x &amp;=4,\\ x &amp;=1. \end{aligned}\]</span></div>
+<p>Sustituimos \(x=1\) en \(y=x+7\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} y &amp;=1+7\\ &amp;=8. \end{aligned}\]</span></div>
+<p>La solución es:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y)=(1,8).\]</span></div></div></details></div></section>
+<h2 id="metodo-de-determinantes"><span class="num">13.6</span> Método de determinantes<a class="enlace-seccion" href="#metodo-de-determinantes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>determinante de una matriz de orden \(2\)</strong> se calcula mediante:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{vmatrix} a &amp; b\\ c &amp; d \end{vmatrix} = ad-bc.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Regla de Cramer para sistemas de orden dos</div><div class="caja-cuerpo"><p>Considera el sistema:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} a_1x+b_1y=c_1,\\ a_2x+b_2y=c_2. \end{cases}\]</span></div>
+<p>Definimos los determinantes:</p>
+<div class="mate"><span class="mate-bloque">\[\Delta = \begin{vmatrix} a_1 &amp; b_1\\ a_2 &amp; b_2 \end{vmatrix},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\Delta_x = \begin{vmatrix} c_1 &amp; b_1\\ c_2 &amp; b_2 \end{vmatrix}, \qquad \Delta_y = \begin{vmatrix} a_1 &amp; c_1\\ a_2 &amp; c_2 \end{vmatrix}.\]</span></div>
+<p>Si \(\Delta\neq 0\), el sistema tiene una solución única dada por:</p>
+<div class="mate"><span class="mate-bloque">\[x=\frac{\Delta_x}{\Delta}, \qquad y=\frac{\Delta_y}{\Delta}.\]</span></div>
+<p>Si \(\Delta=0\), la regla de Cramer no produce una solución única. El sistema puede tener infinitas soluciones o no tener solución.</p></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Cuando \(\Delta=0\), pueden analizarse también \(\Delta_x\) y \(\Delta_y\):</p>
+<ul><li>si <span class="mate-bloque">\[\Delta=\Delta_x=\Delta_y=0,\]</span> el sistema puede tener infinitas soluciones;</li><li>si \(\Delta=0\) y alguno de los otros determinantes es distinto de cero, el sistema no tiene solución.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-13-6"><div class="caja-titulo">Ejemplo 13.6</div><div class="caja-cuerpo"><p>Resuelve mediante la regla de Cramer:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} 3x-2y=7,\\ 5x+y=3. \end{cases}\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos el determinante principal:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \Delta &amp;= \begin{vmatrix} 3 &amp; -2\\ 5 &amp; 1 \end{vmatrix}\\ &amp;=3(1)-(-2)(5)\\ &amp;=3+10\\ &amp;=13. \end{aligned}\]</span></div>
+<p>Calculamos el determinante correspondiente a \(x\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \Delta_x &amp;= \begin{vmatrix} 7 &amp; -2\\ 3 &amp; 1 \end{vmatrix}\\ &amp;=7(1)-(-2)(3)\\ &amp;=7+6\\ &amp;=13. \end{aligned}\]</span></div>
+<p>Calculamos el determinante correspondiente a \(y\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \Delta_y &amp;= \begin{vmatrix} 3 &amp; 7\\ 5 &amp; 3 \end{vmatrix}\\ &amp;=3(3)-7(5)\\ &amp;=9-35\\ &amp;=-26. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x &amp;=\frac{13}{13} =1,\\ y &amp;=\frac{-26}{13} =-2. \end{aligned}\]</span></div>
+<p>La solución es:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y)=(1,-2).\]</span></div></div></details></div></section>
+<h2 id="eleccion-del-metodo"><span class="num">13.7</span> Elección del método<a class="enlace-seccion" href="#eleccion-del-metodo" aria-label="Enlace a esta sección">#</a></h2>
+<p>Todos los métodos estudiados deben producir la misma solución. La elección depende de la forma del sistema.</p>
+<ul><li>Utiliza <strong>eliminación</strong> cuando los coeficientes de una incógnita sean iguales, opuestos o fáciles de igualar.</li><li>Utiliza <strong>sustitución</strong> cuando una incógnita ya esté despejada o tenga coeficiente \(1\) o \(-1\).</li><li>Utiliza <strong>igualación</strong> cuando sea sencillo despejar la misma incógnita en ambas ecuaciones.</li><li>Utiliza la <strong>regla de Cramer</strong> cuando el determinante principal sea distinto de cero y los cálculos de los determinantes sean manejables.</li></ul>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Una operación realizada sobre una ecuación completa debe aplicarse a todos sus términos. Por ejemplo, al multiplicar:</p>
+<div class="mate"><span class="mate-bloque">\[2x+y=5\]</span></div>
+<p>por \(3\), se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[6x+3y=15,\]</span></div>
+<p>no \(6x+y=5\).</p></div></section>
+<h2 id="sistemas-de-tres-ecuaciones-con-tres-incognitas"><span class="num">13.8</span> Sistemas de tres ecuaciones con tres incógnitas<a class="enlace-seccion" href="#sistemas-de-tres-ecuaciones-con-tres-incognitas" aria-label="Enlace a esta sección">#</a></h2>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>sistema lineal de tres ecuaciones con tres incógnitas</strong> puede escribirse en la forma:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} a_1x+b_1y+c_1z=d_1,\\ a_2x+b_2y+c_2z=d_2,\\ a_3x+b_3y+c_3z=d_3. \end{cases}\]</span></div>
+<p>Una solución es una terna ordenada \((x,y,z)\) que satisface simultáneamente las tres ecuaciones.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Regla de Cramer para sistemas de orden tres</div><div class="caja-cuerpo"><p>Sea \(\Delta\) el determinante de la matriz de coeficientes:</p>
+<div class="mate"><span class="mate-bloque">\[\Delta = \begin{vmatrix} a_1 &amp; b_1 &amp; c_1\\ a_2 &amp; b_2 &amp; c_2\\ a_3 &amp; b_3 &amp; c_3 \end{vmatrix}.\]</span></div>
+<p>Los determinantes \(\Delta_x\), \(\Delta_y\) y \(\Delta_z\) se obtienen sustituyendo, respectivamente, la primera, segunda y tercera columna de la matriz de coeficientes por la columna de términos independientes.</p>
+<p>Si \(\Delta\neq 0\), el sistema tiene una solución única:</p>
+<div class="mate"><span class="mate-bloque">\[x=\frac{\Delta_x}{\Delta}, \qquad y=\frac{\Delta_y}{\Delta}, \qquad z=\frac{\Delta_z}{\Delta}.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Los determinantes de orden \(3\) pueden calcularse mediante la regla de Sarrus o mediante el desarrollo por cofactores. La regla de Sarrus solo se aplica a determinantes de orden \(3\).</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-13-7"><div class="caja-titulo">Ejemplo 13.7</div><div class="caja-cuerpo"><p>Resuelve el sistema:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} 5x+2y-z=-7,\\ x-2y+2z=0,\\ 3y+z=17. \end{cases}\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La matriz de coeficientes es:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{pmatrix} 5 &amp; 2 &amp; -1\\ 1 &amp; -2 &amp; 2\\ 0 &amp; 3 &amp; 1 \end{pmatrix}.\]</span></div>
+<p>Calculamos los determinantes:</p>
+<div class="mate"><span class="mate-bloque">\[\Delta=-45, \qquad \Delta_x=90, \qquad \Delta_y=-180, \qquad \Delta_z=-225.\]</span></div>
+<p>Como \(\Delta\neq 0\), el sistema tiene una solución única:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x &amp;=\frac{\Delta_x}{\Delta} =\frac{90}{-45} =-2,\\ y &amp;=\frac{\Delta_y}{\Delta} =\frac{-180}{-45} =4,\\ z &amp;=\frac{\Delta_z}{\Delta} =\frac{-225}{-45} =5. \end{aligned}\]</span></div>
+<p>La solución es:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y,z)=(-2,4,5).\]</span></div>
+<p>Comprobamos en las tres ecuaciones:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 5(-2)+2(4)-5 &amp;=-10+8-5 =-7,\\ -2-2(4)+2(5) &amp;=-2-8+10 =0,\\ 3(4)+5 &amp;=12+5 =17. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="problemas-de-aplicacion"><span class="num">13.9</span> Problemas de aplicación<a class="enlace-seccion" href="#problemas-de-aplicacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Estrategia de resolución</div><div class="caja-cuerpo"><p>Para utilizar un sistema de ecuaciones en un problema:</p>
+<ol><li>identifica las cantidades desconocidas;</li><li>asigna una variable a cada cantidad;</li><li>traduce cada condición del problema a una ecuación;</li><li>forma el sistema;</li><li>elige un método de solución;</li><li>comprueba la solución en las ecuaciones originales;</li><li>interpreta el resultado en el contexto del problema.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-13-8"><div class="caja-titulo">Ejemplo 13.8</div><div class="caja-cuerpo"><p>La suma de dos números es \(55\) y la diferencia entre el mayor y el menor es \(15\). ¿Cuáles son los números?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sean \(x\) el número mayor y \(y\) el número menor. El sistema es:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} x+y=55,\\ x-y=15. \end{cases}\]</span></div>
+<p>Sumamos ambas ecuaciones:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2x &amp;=70,\\ x &amp;=35. \end{aligned}\]</span></div>
+<p>Sustituimos en la primera ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 35+y &amp;=55,\\ y &amp;=20. \end{aligned}\]</span></div>
+<p>Los números son \(35\) y \(20\).</p></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-13-9"><div class="caja-titulo">Ejemplo 13.9</div><div class="caja-cuerpo"><p>En una granja hay \(44\) animales entre pollos y borregos. Si en total se cuentan \(126\) patas, ¿cuántos pollos y cuántos borregos hay?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) el número de pollos y \(y\) el número de borregos. Cada pollo tiene \(2\) patas y cada borrego tiene \(4\). El sistema es:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} x+y=44,\\ 2x+4y=126. \end{cases}\]</span></div>
+<p>Multiplicamos la primera ecuación por \(-2\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} -2x-2y=-88,\\ 2x+4y=126. \end{cases}\]</span></div>
+<p>Sumamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2y &amp;=38,\\ y &amp;=19. \end{aligned}\]</span></div>
+<p>Sustituimos en \(x+y=44\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x+19 &amp;=44,\\ x &amp;=25. \end{aligned}\]</span></div>
+<p>Hay \(25\) pollos y \(19\) borregos.</p>
+<p>Comprobamos el número de patas:</p>
+<div class="mate"><span class="mate-bloque">\[2(25)+4(19) = 50+76 = 126.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-13-10"><div class="caja-titulo">Ejemplo 13.10</div><div class="caja-cuerpo"><p>En una tienda, \(2\) kg de queso y \(1\) kg de jamón cuestan $140. Por otra parte, \(1\) kg de queso y \(3\) kg de jamón cuestan $270. ¿Cuánto cuesta un kilogramo de jamón?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(q\) el precio de un kilogramo de queso y \(j\) el precio de un kilogramo de jamón. El sistema es:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} 2q+j=140,\\ q+3j=270. \end{cases}\]</span></div>
+<p>Multiplicamos la primera ecuación por \(-1\) y la segunda por \(2\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} -2q-j=-140,\\ 2q+6j=540. \end{cases}\]</span></div>
+<p>Sumamos ambas ecuaciones:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 5j &amp;=400,\\ j &amp;=80. \end{aligned}\]</span></div>
+<p>El precio de un kilogramo de jamón es $80.</p>
+<p>Sustituyendo en la primera ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2q+80 &amp;=140,\\ 2q &amp;=60,\\ q &amp;=30. \end{aligned}\]</span></div>
+<p>La comprobación es:</p>
+<div class="mate"><span class="mate-bloque">\[30+3(80) = 30+240 = 270.\]</span></div></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">13.10</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-13-1"><div class="caja-titulo">Ejercicio 13.1</div><div class="caja-cuerpo"><p>Resuelve por eliminación:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} 5x-2y=-4,\\ 3x-y=-5. \end{cases}\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos la segunda por \(-2\): <span class="mate-bloque">\[\begin{cases} 5x - 2y = -4, \\ -6x + 2y = 10. \end{cases}\]</span> Sumando: \(-x = 6\), entonces \(x = -6\). Sustituyendo en la segunda original: \(3(-6) - y = -5\), entonces \(-18 - y = -5\), \(y = -13\). Solución: \((-6, -13)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-13-2"><div class="caja-titulo">Ejercicio 13.2</div><div class="caja-cuerpo"><p>Resuelve por sustitución:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} 2x+3y=-13,\\ 4x-5y=7. \end{cases}\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>De la primera: \(2x = -13 - 3y\), \(x = \frac{-13 - 3y}{2}\). Sustituyendo en la segunda: <span class="mate-bloque">\[4 \cdot \frac{-13 - 3y}{2} - 5y = 7 \Longrightarrow -26 - 6y - 5y = 7 \Longrightarrow -11y = 33 \Longrightarrow y = -3.\]</span> Entonces \(x = \frac{-13 + 9}{2} = -2\). Solución: \((-2, -3)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-13-3"><div class="caja-titulo">Ejercicio 13.3</div><div class="caja-cuerpo"><p>Resuelve por igualación:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} y=2x+3,\\ y=-x+9. \end{cases}\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Igualamos: \(2x + 3 = -x + 9\), \(3x = 6\), \(x = 2\). Entonces \(y = 2(2) + 3 = 7\). Solución: \((2, 7)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-13-4"><div class="caja-titulo">Ejercicio 13.4</div><div class="caja-cuerpo"><p>Resuelve mediante la regla de Cramer:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} 3x-4y=9,\\ x+y=-4. \end{cases}\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[\Delta = \begin{vmatrix} 3 &amp; -4 \\ 1 &amp; 1 \end{vmatrix} = 3 + 4 = 7,\]</span> <span class="mate-bloque">\[\Delta_x = \begin{vmatrix} 9 &amp; -4 \\ -4 &amp; 1 \end{vmatrix} = 9 - 16 = -7,\]</span> <span class="mate-bloque">\[\Delta_y = \begin{vmatrix} 3 &amp; 9 \\ 1 &amp; -4 \end{vmatrix} = -12 - 9 = -21.\]</span> \(x = -1\), \(y = -3\). Solución: \((-1, -3)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-13-5"><div class="caja-titulo">Ejercicio 13.5</div><div class="caja-cuerpo"><p>Resuelve por el método que consideres más conveniente:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} 5x+2y=-7,\\ 3x-4y=-25. \end{cases}\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos la primera por 2: <span class="mate-bloque">\[\begin{cases} 10x + 4y = -14, \\ 3x - 4y = -25. \end{cases}\]</span> Sumando: \(13x = -39\), \(x = -3\). Sustituyendo: \(5(-3) + 2y = -7\), \(2y = 8\), \(y = 4\). Solución: \((-3, 4)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-13-6"><div class="caja-titulo">Ejercicio 13.6</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Resuelve el sistema:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{cases} x+y-2z=-1,\\ 3x-y+4z=-1,\\ 2x-3y-z=-9. \end{cases}\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicando Cramer o eliminación, el resultado es \(x = -1\), \(y = 2\), \(z = 1\). Solución: \((-1, 2, 1)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-13-7"><div class="caja-titulo">Ejercicio 13.7</div><div class="caja-cuerpo"><p>Un granjero tiene \(22\) animales entre cerdos y gallinas. Si el número total de patas es \(64\), ¿cuántos cerdos tiene?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sean \(c\) cerdos (4 patas) y \(g\) gallinas (2 patas). <span class="mate-bloque">\[\begin{cases} c + g = 22, \\ 4c + 2g = 64. \end{cases}\]</span> De la primera: \(g = 22 - c\). Sustituyendo: \(4c + 2(22 - c) = 64 \Longrightarrow 2c = 20 \Longrightarrow c = 10\). Hay 10 cerdos.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-13-8"><div class="caja-titulo">Ejercicio 13.8</div><div class="caja-cuerpo"><p>En una feria, un grupo de \(10\) personas paga $210 en total. Si el boleto de una persona adulta cuesta $30 y el boleto infantil cuesta $15, ¿cuántas personas adultas hay en el grupo?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sean \(a\) adultos y \(n\) niños. <span class="mate-bloque">\[\begin{cases} a + n = 10, \\ 30a + 15n = 210. \end{cases}\]</span> De la primera: \(n = 10 - a\). Sustituyendo: \(30a + 15(10 - a) = 210 \Longrightarrow 15a = 60 \Longrightarrow a = 4\). Hay 4 adultos.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-13-9"><div class="caja-titulo">Ejercicio 13.9</div><div class="caja-cuerpo"><p>Patricia compró \(3\) blusas y \(2\) pantalones por $1250. Norma compró \(2\) blusas y \(3\) pantalones por $1500. ¿Cuál es el precio de cada pantalón?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sean \(b\) el precio de la blusa y \(p\) el del pantalón. <span class="mate-bloque">\[\begin{cases} 3b + 2p = 1250, \\ 2b + 3p = 1500. \end{cases}\]</span> Multiplicando la primera por 2 y la segunda por 3: <span class="mate-bloque">\[\begin{cases} 6b + 4p = 2500, \\ 6b + 9p = 4500. \end{cases}\]</span> Restando: \(5p = 2000\), entonces \(p = 400\). Cada pantalón cuesta $400.</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="12-desigualdades.html"><span>← Anterior</span>12. Desigualdades</a><a class="nav-siguiente" href="14-numeros-complejos.html"><span>Siguiente →</span>14. Números complejos</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

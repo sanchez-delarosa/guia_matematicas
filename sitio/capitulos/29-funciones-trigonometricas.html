@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>29. Funciones trigonométricas · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte V: Trigonometría</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#funciones-periodicas"><span class="num">29.1</span> Funciones periódicas</a></li><li class="nivel-2"><a href="#funcion-seno"><span class="num">29.2</span> Función seno</a></li><li class="nivel-2"><a href="#funcion-coseno"><span class="num">29.3</span> Función coseno</a></li><li class="nivel-2"><a href="#relacion-entre-el-seno-y-el-coseno"><span class="num">29.4</span> Relación entre el seno y el coseno</a></li><li class="nivel-2"><a href="#funcion-tangente"><span class="num">29.5</span> Función tangente</a></li><li class="nivel-2"><a href="#funciones-secante-cosecante-y-cotangente"><span class="num">29.6</span> Funciones secante, cosecante y cotangente</a></li><li class="nivel-2"><a href="#transformaciones-del-seno-y-el-coseno"><span class="num">29.7</span> Transformaciones del seno y el coseno</a></li><li class="nivel-2"><a href="#puntos-clave-de-una-funcion-sinusoidal"><span class="num">29.8</span> Puntos clave de una función sinusoidal</a></li><li class="nivel-2"><a href="#transformaciones-de-la-tangente"><span class="num">29.9</span> Transformaciones de la tangente</a></li><li class="nivel-2"><a href="#identificacion-de-graficas"><span class="num">29.10</span> Identificación de gráficas</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">29.11</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 29</p><h1>Funciones trigonométricas</h1></header>
+<p><span id="cap-funciones-trigonometricas" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span> <span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Las razones trigonométricas pueden estudiarse como funciones cuyo dominio está formado por números reales que representan medidas angulares en radianes. Este enfoque permite analizar su comportamiento mediante gráficas y describir propiedades como el dominio, el rango, el periodo, la amplitud y las intersecciones con los ejes.</p>
+<p>En este capítulo estudiarás las funciones seno, coseno y tangente, así como las transformaciones producidas al modificar sus parámetros.</p>
+<h2 id="funciones-periodicas"><span class="num">29.1</span> Funciones periódicas<a class="enlace-seccion" href="#funciones-periodicas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una función \(f\) es <strong>periódica</strong> si existe un número positivo \(T\) tal que:</p>
+<div class="mate"><span class="mate-bloque">\[f(x+T)=f(x)\]</span></div>
+<p>para todos los valores de \(x\) para los que ambas expresiones estén definidas.</p>
+<p>El menor valor positivo de \(T\) que cumple esta condición se denomina <strong>periodo fundamental</strong> de la función.</p></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Una función periódica repite su comportamiento después de cada intervalo de longitud \(T\).</p>
+<p>Las funciones seno y coseno tienen periodo fundamental:</p>
+<div class="mate"><span class="mate-bloque">\[2\pi,\]</span></div>
+<p>mientras que las funciones tangente y cotangente tienen periodo fundamental:</p>
+<div class="mate"><span class="mate-bloque">\[\pi.\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En el estudio de las funciones trigonométricas, la variable \(x\) se interpreta normalmente como una medida angular en radianes.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[x=\frac{\pi}{2}\]</span></div>
+<p>representa un ángulo de \(90^\circ\).</p></div></section>
+<h2 id="funcion-seno"><span class="num">29.2</span> Función seno<a class="enlace-seccion" href="#funcion-seno" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>función seno</strong> asigna a cada número real \(x\) la coordenada vertical del punto correspondiente del círculo unitario.</p>
+<p>Se define mediante:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sen x.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de la función seno</div><div class="caja-cuerpo"><p>La función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sen x\]</span></div>
+<p>tiene las siguientes propiedades:</p>
+<ul><li>su dominio es: <span class="mate-bloque">\[D_f=\R;\]</span></li><li>su rango es: <span class="mate-bloque">\[R_f=[-1,1];\]</span></li><li>su periodo fundamental es: <span class="mate-bloque">\[T=2\pi;\]</span></li><li>su amplitud es: <span class="mate-bloque">\[1;\]</span></li><li>es una función impar: <span class="mate-bloque">\[\sen(-x)=-\sen x;\]</span></li><li>sus intersecciones con el eje \(x\) ocurren cuando: <span class="mate-bloque">\[x=n\pi, \qquad n\in\Z;\]</span></li><li>interseca el eje \(y\) en: <span class="mate-bloque">\[(0,0);\]</span></li><li>alcanza su valor máximo, \(1\), cuando: <span class="mate-bloque">\[x=\frac{\pi}{2}+2\pi n, \qquad n\in\Z;\]</span></li><li>alcanza su valor mínimo, \(-1\), cuando: <span class="mate-bloque">\[x=\frac{3\pi}{2}+2\pi n, \qquad n\in\Z.\]</span></li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La función seno es impar, por lo que su gráfica es simétrica respecto del origen:</p>
+<div class="mate"><span class="mate-bloque">\[\sen(-x)=-\sen x.\]</span></div></div></section>
+<p>La gráfica de la función seno en el intervalo \([-2\pi,2\pi]\) es:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-e139d03222fc.svg" alt="Figura 29.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En un periodo completo, desde \(0\) hasta \(2\pi\), la gráfica del seno pasa por los puntos:</p>
+<div class="mate"><span class="mate-bloque">\[(0,0),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{\pi}{2},1\right),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[(\pi,0),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{3\pi}{2},-1\right),\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[(2\pi,0).\]</span></div></div></section>
+<h2 id="funcion-coseno"><span class="num">29.3</span> Función coseno<a class="enlace-seccion" href="#funcion-coseno" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>función coseno</strong> asigna a cada número real \(x\) la coordenada horizontal del punto correspondiente del círculo unitario.</p>
+<p>Se define mediante:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\cos x.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de la función coseno</div><div class="caja-cuerpo"><p>La función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\cos x\]</span></div>
+<p>tiene las siguientes propiedades:</p>
+<ul><li>su dominio es: <span class="mate-bloque">\[D_f=\R;\]</span></li><li>su rango es: <span class="mate-bloque">\[R_f=[-1,1];\]</span></li><li>su periodo fundamental es: <span class="mate-bloque">\[T=2\pi;\]</span></li><li>su amplitud es: <span class="mate-bloque">\[1;\]</span></li><li>es una función par: <span class="mate-bloque">\[\cos(-x)=\cos x;\]</span></li><li>sus intersecciones con el eje \(x\) ocurren cuando: <span class="mate-bloque">\[x=\frac{\pi}{2}+n\pi, \qquad n\in\Z;\]</span></li><li>interseca el eje \(y\) en: <span class="mate-bloque">\[(0,1);\]</span></li><li>alcanza su valor máximo, \(1\), cuando: <span class="mate-bloque">\[x=2\pi n, \qquad n\in\Z;\]</span></li><li>alcanza su valor mínimo, \(-1\), cuando: <span class="mate-bloque">\[x=\pi+2\pi n, \qquad n\in\Z.\]</span></li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La función coseno es par, por lo que su gráfica es simétrica respecto del eje \(y\):</p>
+<div class="mate"><span class="mate-bloque">\[\cos(-x)=\cos x.\]</span></div></div></section>
+<p>La gráfica de la función coseno en el intervalo \([-2\pi,2\pi]\) es:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-5f446d1da752.svg" alt="Figura 29.2" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En un periodo completo, desde \(0\) hasta \(2\pi\), la gráfica del coseno pasa por los puntos:</p>
+<div class="mate"><span class="mate-bloque">\[(0,1),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{\pi}{2},0\right),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[(\pi,-1),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{3\pi}{2},0\right),\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[(2\pi,1).\]</span></div></div></section>
+<h2 id="relacion-entre-el-seno-y-el-coseno"><span class="num">29.4</span> Relación entre el seno y el coseno<a class="enlace-seccion" href="#relacion-entre-el-seno-y-el-coseno" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Desfasamiento entre seno y coseno</div><div class="caja-cuerpo"><p>Las funciones seno y coseno tienen la misma forma. Una puede obtenerse desplazando horizontalmente la otra:</p>
+<div class="mate"><span class="mate-bloque">\[\cos x = \sen\left(x+\frac{\pi}{2}\right)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\sen x = \cos\left(x-\frac{\pi}{2}\right).\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La función coseno está adelantada \(\frac{\pi}{2}\) respecto de la función seno.</p>
+<p>También puede decirse que la función seno está desplazada \(\frac{\pi}{2}\) hacia la derecha respecto de la función coseno.</p></div></section>
+<h2 id="funcion-tangente"><span class="num">29.5</span> Función tangente<a class="enlace-seccion" href="#funcion-tangente" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>función tangente</strong> se define mediante:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\tan x = \frac{\sen x}{\cos x}.\]</span></div>
+<p>La función no está definida cuando:</p>
+<div class="mate"><span class="mate-bloque">\[\cos x=0.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de la función tangente</div><div class="caja-cuerpo"><p>La función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\tan x\]</span></div>
+<p>tiene las siguientes propiedades:</p>
+<ul><li>su dominio es: <span class="mate-bloque">\[D_f = \R \setminus \left\{ \frac{\pi}{2}+n\pi : n\in\Z \right\};\]</span></li><li>su rango es: <span class="mate-bloque">\[R_f=\R;\]</span></li><li>su periodo fundamental es: <span class="mate-bloque">\[T=\pi;\]</span></li><li>no tiene amplitud;</li><li>es una función impar: <span class="mate-bloque">\[\tan(-x)=-\tan x;\]</span></li><li>sus intersecciones con el eje \(x\) ocurren cuando: <span class="mate-bloque">\[x=n\pi, \qquad n\in\Z;\]</span></li><li>tiene asíntotas verticales en: <span class="mate-bloque">\[x=\frac{\pi}{2}+n\pi, \qquad n\in\Z.\]</span></li></ul></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La función tangente no tiene amplitud porque no está acotada entre un valor máximo y un valor mínimo.</p>
+<p>En cada intervalo comprendido entre dos asíntotas consecutivas, la función toma valores arbitrariamente grandes, tanto positivos como negativos.</p></div></section>
+<p>La gráfica de la función tangente puede representarse en la misma ventana horizontal utilizada para el seno y el coseno:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-47efd1a16620.svg" alt="Figura 29.3" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En los puntos:</p>
+<div class="mate"><span class="mate-bloque">\[x=\frac{\pi}{2}+n\pi, \qquad n\in\Z,\]</span></div>
+<p>la tangente no es infinita. La función simplemente no está definida, pues:</p>
+<div class="mate"><span class="mate-bloque">\[\tan x = \frac{\sen x}{\cos x}\]</span></div>
+<p>produciría una división entre cero.</p></div></section>
+<h2 id="funciones-secante-cosecante-y-cotangente"><span class="num">29.6</span> Funciones secante, cosecante y cotangente<a class="enlace-seccion" href="#funciones-secante-cosecante-y-cotangente" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Las funciones trigonométricas recíprocas se definen mediante:</p>
+<div class="mate"><span class="mate-bloque">\[\sec x = \frac{1}{\cos x},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\csc x = \frac{1}{\sen x},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cot x = \frac{1}{\tan x} = \frac{\cos x}{\sen x}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de la secante</div><div class="caja-cuerpo"><p>La función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sec x\]</span></div>
+<p>tiene:</p>
+<ul><li>dominio: <span class="mate-bloque">\[\R \setminus \left\{ \frac{\pi}{2}+n\pi : n\in\Z \right\};\]</span></li><li>rango: <span class="mate-bloque">\[(-\infty,-1]\cup[1,\infty);\]</span></li><li>periodo: <span class="mate-bloque">\[2\pi;\]</span></li><li>asíntotas verticales en: <span class="mate-bloque">\[x=\frac{\pi}{2}+n\pi.\]</span></li></ul></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de la cosecante</div><div class="caja-cuerpo"><p>La función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\csc x\]</span></div>
+<p>tiene:</p>
+<ul><li>dominio: <span class="mate-bloque">\[\R\setminus\{n\pi:n\in\Z\};\]</span></li><li>rango: <span class="mate-bloque">\[(-\infty,-1]\cup[1,\infty);\]</span></li><li>periodo: <span class="mate-bloque">\[2\pi;\]</span></li><li>asíntotas verticales en: <span class="mate-bloque">\[x=n\pi.\]</span></li></ul></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de la cotangente</div><div class="caja-cuerpo"><p>La función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\cot x\]</span></div>
+<p>tiene:</p>
+<ul><li>dominio: <span class="mate-bloque">\[\R\setminus\{n\pi:n\in\Z\};\]</span></li><li>rango: <span class="mate-bloque">\[\R;\]</span></li><li>periodo: <span class="mate-bloque">\[\pi;\]</span></li><li>asíntotas verticales en: <span class="mate-bloque">\[x=n\pi.\]</span></li></ul></div></section>
+<h2 id="transformaciones-del-seno-y-el-coseno"><span class="num">29.7</span> Transformaciones del seno y el coseno<a class="enlace-seccion" href="#transformaciones-del-seno-y-el-coseno" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una función sinusoidal puede escribirse en la forma:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=A\sen(Bx+C)+D\]</span></div>
+<p>o:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=A\cos(Bx+C)+D,\]</span></div>
+<p>donde:</p>
+<div class="mate"><span class="mate-bloque">\[A\neq0 \qquad\text{y}\qquad B\neq0.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Interpretación de los parámetros</div><div class="caja-cuerpo"><p>En las funciones:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=A\sen(Bx+C)+D\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=A\cos(Bx+C)+D,\]</span></div>
+<p>se tienen las siguientes propiedades:</p>
+<ul><li>la amplitud es: <span class="mate-bloque">\[|A|;\]</span></li><li>el periodo es: <span class="mate-bloque">\[T=\frac{2\pi}{|B|};\]</span></li><li>el desplazamiento horizontal es: <span class="mate-bloque">\[h=-\frac{C}{B};\]</span></li><li>el desplazamiento vertical es: <span class="mate-bloque">\[D;\]</span></li><li>la línea media o eje central es: <span class="mate-bloque">\[y=D;\]</span></li><li>el valor máximo es: <span class="mate-bloque">\[D+|A|;\]</span></li><li>el valor mínimo es: <span class="mate-bloque">\[D-|A|;\]</span></li><li>el rango es: <span class="mate-bloque">\[[D-|A|,D+|A|].\]</span></li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Es recomendable factorizar el argumento antes de identificar el desplazamiento horizontal.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[2x-\frac{\pi}{3} = 2\left(x-\frac{\pi}{6}\right).\]</span></div>
+<p>Por tanto, la gráfica se desplaza:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\pi}{6}\]</span></div>
+<p>hacia la derecha.</p></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La amplitud es siempre un número no negativo:</p>
+<div class="mate"><span class="mate-bloque">\[|A|.\]</span></div>
+<p>Si \(A&lt;0\), el signo negativo produce una reflexión respecto de la línea media \(y=D\), pero la amplitud continúa siendo \(|A|\).</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-29-1"><div class="caja-titulo">Ejemplo 29.1</div><div class="caja-cuerpo"><p>Determina la amplitud, el periodo, el desplazamiento horizontal y la línea media de:</p>
+<div class="mate"><span class="mate-bloque">\[y = 3\sen\left( 2x-\frac{\pi}{3} \right).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[A=3, \qquad B=2, \qquad C=-\frac{\pi}{3}, \qquad D=0.\]</span></div>
+<p>La amplitud es:</p>
+<div class="mate"><span class="mate-bloque">\[|A|=3.\]</span></div>
+<p>El periodo es:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} T &amp;= \frac{2\pi}{|B|}\\ &amp;= \frac{2\pi}{2}\\ &amp;=\pi. \end{aligned}\]</span></div>
+<p>El desplazamiento horizontal es:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} h &amp;= -\frac{C}{B}\\ &amp;= -\frac{-\pi/3}{2}\\ &amp;= \frac{\pi}{6}. \end{aligned}\]</span></div>
+<p>La gráfica está desplazada:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\pi}{6}\]</span></div>
+<p>hacia la derecha.</p>
+<p>La línea media es:</p>
+<div class="mate"><span class="mate-bloque">\[y=0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-29-2"><div class="caja-titulo">Ejemplo 29.2</div><div class="caja-cuerpo"><p>Determina la amplitud y el periodo de:</p>
+<div class="mate"><span class="mate-bloque">\[y=-2\cos(4x).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[A=-2 \qquad\text{y}\qquad B=4.\]</span></div>
+<p>La amplitud es:</p>
+<div class="mate"><span class="mate-bloque">\[|A|=2.\]</span></div>
+<p>El periodo es:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} T &amp;= \frac{2\pi}{|4|}\\ &amp;= \frac{\pi}{2}. \end{aligned}\]</span></div>
+<p>El signo negativo produce una reflexión de la gráfica respecto del eje \(x\).</p></div></details></div></section>
+<h2 id="puntos-clave-de-una-funcion-sinusoidal"><span class="num">29.8</span> Puntos clave de una función sinusoidal<a class="enlace-seccion" href="#puntos-clave-de-una-funcion-sinusoidal" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> División de un periodo</div><div class="caja-cuerpo"><p>Para construir un ciclo de una función seno o coseno, el periodo:</p>
+<div class="mate"><span class="mate-bloque">\[T=\frac{2\pi}{|B|}\]</span></div>
+<p>puede dividirse en cuatro partes iguales.</p>
+<p>La distancia entre puntos clave consecutivos es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{T}{4} = \frac{\pi}{2|B|}.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En un ciclo de la función seno básica, los valores siguen el patrón:</p>
+<div class="mate"><span class="mate-bloque">\[0,\quad 1,\quad 0,\quad -1,\quad 0.\]</span></div>
+<p>En un ciclo de la función coseno básica, siguen el patrón:</p>
+<div class="mate"><span class="mate-bloque">\[1,\quad 0,\quad -1,\quad 0,\quad 1.\]</span></div>
+<p>Después se aplican la amplitud, la reflexión y el desplazamiento vertical.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-29-3"><div class="caja-titulo">Ejemplo 29.3</div><div class="caja-cuerpo"><p>Determina cinco puntos clave de:</p>
+<div class="mate"><span class="mate-bloque">\[y=2\sen x+1\]</span></div>
+<p>en el intervalo \([0,2\pi]\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La función básica \(\sen x\) tiene puntos clave en:</p>
+<div class="mate"><span class="mate-bloque">\[0, \qquad \frac{\pi}{2}, \qquad \pi, \qquad \frac{3\pi}{2}, \qquad 2\pi.\]</span></div>
+<p>Sus valores son:</p>
+<div class="mate"><span class="mate-bloque">\[0,\quad1,\quad0,\quad-1,\quad0.\]</span></div>
+<p>Multiplicamos por \(2\) y sumamos \(1\):</p>
+<div class="mate"><span class="mate-bloque">\[1,\quad3,\quad1,\quad-1,\quad1.\]</span></div>
+<p>Por tanto, los puntos clave son:</p>
+<div class="mate"><span class="mate-bloque">\[(0,1),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{\pi}{2},3\right),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[(\pi,1),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{3\pi}{2},-1\right),\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[(2\pi,1).\]</span></div></div></details></div></section>
+<h2 id="transformaciones-de-la-tangente"><span class="num">29.9</span> Transformaciones de la tangente<a class="enlace-seccion" href="#transformaciones-de-la-tangente" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una transformación de la función tangente puede escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=A\tan(Bx+C)+D,\]</span></div>
+<p>donde:</p>
+<div class="mate"><span class="mate-bloque">\[A\neq0 \qquad\text{y}\qquad B\neq0.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Periodo y desplazamientos de la tangente</div><div class="caja-cuerpo"><p>Para:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=A\tan(Bx+C)+D,\]</span></div>
+<p>se tiene:</p>
+<ul><li>periodo: <span class="mate-bloque">\[T=\frac{\pi}{|B|};\]</span></li><li>desplazamiento horizontal: <span class="mate-bloque">\[h=-\frac{C}{B};\]</span></li><li>desplazamiento vertical: <span class="mate-bloque">\[D;\]</span></li><li>línea central: <span class="mate-bloque">\[y=D.\]</span></li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La función tangente no tiene amplitud, porque su rango es \(\R\) y no posee valores máximo ni mínimo.</p></div></section>
+<h2 id="identificacion-de-graficas"><span class="num">29.10</span> Identificación de gráficas<a class="enlace-seccion" href="#identificacion-de-graficas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-29-4"><div class="caja-titulo">Ejemplo 29.4</div><div class="caja-cuerpo"><p>Identifica la función cuya gráfica pasa por \((0,1)\), alcanza un máximo en \(x=0\), cruza el eje \(x\) en \(x=\frac{\pi}{2}\) y alcanza un mínimo en \(x=\pi\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La función coseno básica satisface:</p>
+<div class="mate"><span class="mate-bloque">\[\cos0=1,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cos\left(\frac{\pi}{2}\right)=0,\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\pi=-1.\]</span></div>
+<p>Por tanto, la función es:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\cos x.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-29-5"><div class="caja-titulo">Ejemplo 29.5</div><div class="caja-cuerpo"><p>Identifica la función cuya gráfica pasa por el origen, alcanza un máximo en \(x=\frac{\pi}{2}\) y un mínimo en \(x=\frac{3\pi}{2}\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La función seno básica satisface:</p>
+<div class="mate"><span class="mate-bloque">\[\sen0=0,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sen\left(\frac{\pi}{2}\right)=1,\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\left(\frac{3\pi}{2}\right)=-1.\]</span></div>
+<p>Por tanto, la función es:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sen x.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Para identificar una función trigonométrica a partir de su gráfica, conviene observar:</p>
+<ul><li>el valor de la función cuando \(x=0\);</li><li>sus máximos y mínimos;</li><li>sus intersecciones con el eje \(x\);</li><li>la distancia horizontal entre dos ciclos;</li><li>la presencia de asíntotas verticales;</li><li>la posición de la línea media.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">29.11</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-29-1"><div class="caja-titulo">Ejercicio 29.1</div><div class="caja-cuerpo"><p>Indica el dominio, el rango y el periodo de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sen x.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Dominio: \(\mathbb{R}\). Rango: \([-1,1]\). Periodo: \(2\pi\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-29-2"><div class="caja-titulo">Ejercicio 29.2</div><div class="caja-cuerpo"><p>Indica el dominio, el rango y el periodo de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\cos x.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Dominio: \(\mathbb{R}\). Rango: \([-1,1]\). Periodo: \(2\pi\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-29-3"><div class="caja-titulo">Ejercicio 29.3</div><div class="caja-cuerpo"><p>Indica las asíntotas verticales de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\tan x\]</span></div>
+<p>en el intervalo:</p>
+<div class="mate"><span class="mate-bloque">\[(-2\pi,2\pi).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Las asíntotas verticales son \(x = -\dfrac{3\pi}{2}, \ -\dfrac{\pi}{2}, \ \dfrac{\pi}{2}, \ \dfrac{3\pi}{2}\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-29-4"><div class="caja-titulo">Ejercicio 29.4</div><div class="caja-cuerpo"><p>Determina la amplitud y el periodo de:</p>
+<div class="mate"><span class="mate-bloque">\[y=4\sen(3x).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Amplitud: \(|4| = 4\). Periodo: \(\dfrac{2\pi}{3}\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-29-5"><div class="caja-titulo">Ejercicio 29.5</div><div class="caja-cuerpo"><p>Determina la amplitud y el periodo de:</p>
+<div class="mate"><span class="mate-bloque">\[y=-3\cos\left(\frac{x}{2}\right).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Amplitud: \(|-3| = 3\). Periodo: \(\dfrac{2\pi}{1/2} = 4\pi\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-29-6"><div class="caja-titulo">Ejercicio 29.6</div><div class="caja-cuerpo"><p>Determina el desplazamiento horizontal de:</p>
+<div class="mate"><span class="mate-bloque">\[y = \sen\left( x-\frac{\pi}{4} \right).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Desfasamiento: \(-\dfrac{C}{B} = -\dfrac{-\pi/4}{1} = \dfrac{\pi}{4}\) (desplazada \(\pi/4\) a la derecha).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-29-7"><div class="caja-titulo">Ejercicio 29.7</div><div class="caja-cuerpo"><p>Determina la amplitud, el periodo y el desplazamiento horizontal de:</p>
+<div class="mate"><span class="mate-bloque">\[y = 2\sen(3x+\pi).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Amplitud: \(2\). Periodo: \(\dfrac{2\pi}{3}\). Desfasamiento: \(-\dfrac{\pi}{3}\) (desplazada \(\pi/3\) a la izquierda).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-29-8"><div class="caja-titulo">Ejercicio 29.8</div><div class="caja-cuerpo"><p>Evalúa:</p>
+<div class="mate"><span class="mate-bloque">\[\sen0, \qquad \sen\left(\frac{\pi}{2}\right), \qquad \sen\pi \qquad\text{y}\qquad \sen\left(\frac{3\pi}{2}\right).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(\sin 0 = 0\), \(\sin \dfrac{\pi}{2} = 1\), \(\sin \pi = 0\), \(\sin \dfrac{3\pi}{2} = -1\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-29-9"><div class="caja-titulo">Ejercicio 29.9</div><div class="caja-cuerpo"><p>Evalúa:</p>
+<div class="mate"><span class="mate-bloque">\[\cos0, \qquad \cos\left(\frac{\pi}{2}\right), \qquad \cos\pi \qquad\text{y}\qquad \cos\left(\frac{3\pi}{2}\right).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(\cos 0 = 1\), \(\cos \dfrac{\pi}{2} = 0\), \(\cos \pi = -1\), \(\cos \dfrac{3\pi}{2} = 0\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-29-10"><div class="caja-titulo">Ejercicio 29.10</div><div class="caja-cuerpo"><p>¿En qué valores del intervalo:</p>
+<div class="mate"><span class="mate-bloque">\[[0,2\pi]\]</span></div>
+<p>la función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sen x\]</span></div>
+<p>alcanza su valor máximo? ¿En qué valor alcanza su valor mínimo?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El máximo se alcanza en \(x = \dfrac{\pi}{2}\). El mínimo se alcanza en \(x = \dfrac{3\pi}{2}\).</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="28-identidades-trigonometricas.html"><span>← Anterior</span>28. Identidades trigonométricas</a><a class="nav-siguiente" href="30-conceptos-basicos.html"><span>Siguiente →</span>30. Conceptos básicos de geometría analítica</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

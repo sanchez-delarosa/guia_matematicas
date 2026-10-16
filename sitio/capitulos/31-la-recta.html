@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>31. La recta · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte VI: Geometría analítica</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#elementos-de-una-recta"><span class="num">31.1</span> Elementos de una recta</a></li><li class="nivel-2"><a href="#formas-de-la-ecuacion-de-la-recta"><span class="num">31.2</span> Formas de la ecuación de la recta</a></li><li class="nivel-3"><a href="#forma-punto-pendiente"><span class="num">31.2.1</span> Forma punto-pendiente</a></li><li class="nivel-3"><a href="#forma-pendiente-ordenada-al-origen"><span class="num">31.2.2</span> Forma pendiente-ordenada al origen</a></li><li class="nivel-3"><a href="#forma-de-dos-puntos"><span class="num">31.2.3</span> Forma de dos puntos</a></li><li class="nivel-3"><a href="#forma-simetrica-o-de-interceptos"><span class="num">31.2.4</span> Forma simétrica o de interceptos</a></li><li class="nivel-3"><a href="#forma-general"><span class="num">31.2.5</span> Forma general</a></li><li class="nivel-3"><a href="#rectas-horizontales-y-verticales"><span class="num">31.2.6</span> Rectas horizontales y verticales</a></li><li class="nivel-2"><a href="#determinacion-de-la-ecuacion-de-una-recta"><span class="num">31.3</span> Determinación de la ecuación de una recta</a></li><li class="nivel-2"><a href="#conversion-entre-las-formas-de-una-recta"><span class="num">31.4</span> Conversión entre las formas de una recta</a></li><li class="nivel-2"><a href="#paralelismo-y-perpendicularidad"><span class="num">31.5</span> Paralelismo y perpendicularidad</a></li><li class="nivel-2"><a href="#angulo-entre-dos-rectas"><span class="num">31.6</span> Ángulo entre dos rectas</a></li><li class="nivel-2"><a href="#distancia-de-un-punto-a-una-recta"><span class="num">31.7</span> Distancia de un punto a una recta</a></li><li class="nivel-2"><a href="#distancia-entre-rectas-paralelas"><span class="num">31.8</span> Distancia entre rectas paralelas</a></li><li class="nivel-2"><a href="#resumen-de-formulas"><span class="num">31.9</span> Resumen de fórmulas</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">31.10</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 31</p><h1>La recta</h1></header>
+<p><span id="cap-la-recta" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span> <span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>La recta es una de las figuras fundamentales de la geometría analítica. Su posición en el plano puede describirse mediante una ecuación, mientras que su inclinación se representa mediante la pendiente.</p>
+<p>En este capítulo estudiarás las principales formas de la ecuación de una recta, las condiciones de paralelismo y perpendicularidad, y las fórmulas para calcular la distancia de un punto a una recta y la distancia entre dos rectas paralelas.</p>
+<h2 id="elementos-de-una-recta"><span class="num">31.1</span> Elementos de una recta<a class="enlace-seccion" href="#elementos-de-una-recta" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>recta</strong> es un conjunto infinito de puntos alineados que se extiende indefinidamente en dos direcciones.</p>
+<p>En el plano cartesiano, una recta puede representarse mediante una ecuación de primer grado en las variables \(x\) y \(y\).</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>pendiente</strong> de una recta no vertical mide su inclinación respecto del eje positivo \(x\).</p>
+<p>Si una recta pasa por los puntos:</p>
+<div class="mate"><span class="mate-bloque">\[P_1(x_1,y_1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P_2(x_2,y_2),\]</span></div>
+<p>con \(x_1\neq x_2\), su pendiente es:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{y_2-y_1}{x_2-x_1}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Interpretación de la pendiente</div><div class="caja-cuerpo"><p>El signo de la pendiente describe el comportamiento de la recta:</p>
+<ul><li>si: <span class="mate-bloque">\[m&gt;0,\]</span> la recta es creciente;</li><li>si: <span class="mate-bloque">\[m&lt;0,\]</span> la recta es decreciente;</li><li>si: <span class="mate-bloque">\[m=0,\]</span> la recta es horizontal;</li><li>si la recta es vertical, su pendiente no está definida.</li></ul></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La pendiente de una recta vertical no es infinita.</p>
+<p>En una recta vertical:</p>
+<div class="mate"><span class="mate-bloque">\[x_2-x_1=0,\]</span></div>
+<p>por lo que la fórmula de la pendiente produciría una división entre cero. Por esta razón, la pendiente no está definida.</p></div></section>
+<h2 id="formas-de-la-ecuacion-de-la-recta"><span class="num">31.2</span> Formas de la ecuación de la recta<a class="enlace-seccion" href="#formas-de-la-ecuacion-de-la-recta" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="forma-punto-pendiente"><span class="num">31.2.1</span> Forma punto-pendiente<a class="enlace-seccion" href="#forma-punto-pendiente" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Forma punto-pendiente</div><div class="caja-cuerpo"><p>Si una recta pasa por el punto:</p>
+<div class="mate"><span class="mate-bloque">\[P_1(x_1,y_1)\]</span></div>
+<p>y tiene pendiente \(m\), su ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[y-y_1 = m(x-x_1).\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La forma punto-pendiente es especialmente útil cuando se conoce:</p>
+<ul><li>un punto de la recta;</li><li>la pendiente de la recta.</li></ul></div></section>
+<h3 id="forma-pendiente-ordenada-al-origen"><span class="num">31.2.2</span> Forma pendiente-ordenada al origen<a class="enlace-seccion" href="#forma-pendiente-ordenada-al-origen" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Forma pendiente-ordenada al origen</div><div class="caja-cuerpo"><p>Si una recta no vertical tiene pendiente \(m\) y corta el eje \(y\) en el punto:</p>
+<div class="mate"><span class="mate-bloque">\[(0,b),\]</span></div>
+<p>su ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[y=mx+b.\]</span></div>
+<p>El número \(b\) se denomina <strong>ordenada al origen</strong> o <strong>intersección con el eje \(y\)</strong>.</p></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[y=mx+b,\]</span></div>
+<p>el coeficiente \(m\) determina la inclinación de la recta y el valor \(b\) determina el punto en el que la recta corta el eje \(y\).</p></div></section>
+<h3 id="forma-de-dos-puntos"><span class="num">31.2.3</span> Forma de dos puntos<a class="enlace-seccion" href="#forma-de-dos-puntos" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Recta que pasa por dos puntos</div><div class="caja-cuerpo"><p>La recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[P_1(x_1,y_1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P_2(x_2,y_2),\]</span></div>
+<p>con \(x_1\neq x_2\), tiene pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{y_2-y_1}{x_2-x_1}.\]</span></div>
+<p>Por tanto, su ecuación puede escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[y-y_1 = \frac{y_2-y_1}{x_2-x_1} (x-x_1).\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La fórmula anterior no se utiliza cuando:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=x_2.\]</span></div>
+<p>En ese caso, la recta es vertical y su ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[x=x_1.\]</span></div></div></section>
+<h3 id="forma-simetrica-o-de-interceptos"><span class="num">31.2.4</span> Forma simétrica o de interceptos<a class="enlace-seccion" href="#forma-simetrica-o-de-interceptos" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Forma simétrica</div><div class="caja-cuerpo"><p>Si una recta corta el eje \(x\) en:</p>
+<div class="mate"><span class="mate-bloque">\[(a,0)\]</span></div>
+<p>y el eje \(y\) en:</p>
+<div class="mate"><span class="mate-bloque">\[(0,b),\]</span></div>
+<p>con:</p>
+<div class="mate"><span class="mate-bloque">\[a\neq0 \qquad\text{y}\qquad b\neq0,\]</span></div>
+<p>su ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x}{a} + \frac{y}{b} = 1.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En la forma simétrica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x}{a} + \frac{y}{b} = 1,\]</span></div>
+<p>el valor \(a\) es la intersección con el eje \(x\) y el valor \(b\) es la intersección con el eje \(y\).</p></div></section>
+<h3 id="forma-general"><span class="num">31.2.5</span> Forma general<a class="enlace-seccion" href="#forma-general" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Forma general</div><div class="caja-cuerpo"><p>Toda recta puede escribirse en la forma:</p>
+<div class="mate"><span class="mate-bloque">\[Ax+By+C=0,\]</span></div>
+<p>donde \(A\), \(B\) y \(C\) son constantes reales y:</p>
+<div class="mate"><span class="mate-bloque">\[(A,B)\neq(0,0).\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Pendiente en la forma general</div><div class="caja-cuerpo"><p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[Ax+By+C=0\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B\neq0,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[By=-Ax-C.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[y = -\frac{A}{B}x - \frac{C}{B}.\]</span></div>
+<p>La pendiente es:</p>
+<div class="mate"><span class="mate-bloque">\[m=-\frac{A}{B},\]</span></div>
+<p>y la ordenada al origen es:</p>
+<div class="mate"><span class="mate-bloque">\[b=-\frac{C}{B}.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Si \(B=0\), la ecuación general se reduce a:</p>
+<div class="mate"><span class="mate-bloque">\[Ax+C=0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x=-\frac{C}{A},\]</span></div>
+<p>que representa una recta vertical.</p></div></section>
+<h3 id="rectas-horizontales-y-verticales"><span class="num">31.2.6</span> Rectas horizontales y verticales<a class="enlace-seccion" href="#rectas-horizontales-y-verticales" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Recta horizontal</div><div class="caja-cuerpo"><p>Una recta horizontal tiene pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m=0.\]</span></div>
+<p>Su ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[y=k,\]</span></div>
+<p>donde \(k\) es una constante.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Recta vertical</div><div class="caja-cuerpo"><p>Una recta vertical tiene pendiente no definida.</p>
+<p>Su ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[x=k,\]</span></div>
+<p>donde \(k\) es una constante.</p></div></section>
+<h2 id="determinacion-de-la-ecuacion-de-una-recta"><span class="num">31.3</span> Determinación de la ecuación de una recta<a class="enlace-seccion" href="#determinacion-de-la-ecuacion-de-una-recta" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-31-1"><div class="caja-titulo">Ejemplo 31.1</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[P(2,1)\]</span></div>
+<p>y tiene pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m=2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos la forma punto-pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[y-y_1 = m(x-x_1).\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[y-1 = 2(x-2).\]</span></div>
+<p>Desarrollamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} y-1 &amp;=2x-4,\\ y &amp;=2x-3. \end{aligned}\]</span></div>
+<p>La forma pendiente-ordenada es:</p>
+<div class="mate"><span class="mate-bloque">\[y=2x-3.\]</span></div>
+<p>Pasamos todos los términos al primer miembro:</p>
+<div class="mate"><span class="mate-bloque">\[2x-y-3=0.\]</span></div>
+<p>Por tanto, la forma general es:</p>
+<div class="mate"><span class="mate-bloque">\[2x-y-3=0.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-5b7cbe6f9a23.svg" alt="Figura 31.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-31-2"><div class="caja-titulo">Ejemplo 31.2</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[A(-3,-2)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(3,4).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos la pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} m &amp;= \frac{4-(-2)}{3-(-3)}\\ &amp;= \frac{6}{6}\\ &amp;=1. \end{aligned}\]</span></div>
+<p>Usamos la forma punto-pendiente con \(A(-3,-2)\):</p>
+<div class="mate"><span class="mate-bloque">\[y-(-2) = 1(x-(-3)).\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} y+2 &amp;=x+3,\\ y &amp;=x+1. \end{aligned}\]</span></div>
+<p>La forma pendiente-ordenada es:</p>
+<div class="mate"><span class="mate-bloque">\[y=x+1.\]</span></div>
+<p>La forma general es:</p>
+<div class="mate"><span class="mate-bloque">\[x-y+1=0.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-41597f9c08b6.svg" alt="Figura 31.2" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-31-3"><div class="caja-titulo">Ejemplo 31.3</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la recta con pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m=-2\]</span></div>
+<p>y ordenada al origen:</p>
+<div class="mate"><span class="mate-bloque">\[b=4.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[y=mx+b.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[y=-2x+4.\]</span></div>
+<p>La forma general es:</p>
+<div class="mate"><span class="mate-bloque">\[2x+y-4=0.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-b6cd8d29cd4e.svg" alt="Figura 31.3" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-31-4"><div class="caja-titulo">Ejemplo 31.4</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la recta que corta el eje \(x\) en:</p>
+<div class="mate"><span class="mate-bloque">\[(3,0)\]</span></div>
+<p>y el eje \(y\) en:</p>
+<div class="mate"><span class="mate-bloque">\[(0,-4).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos la forma simétrica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x}{a} + \frac{y}{b} = 1.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x}{3} + \frac{y}{-4} = 1.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x}{3} - \frac{y}{4} = 1.\]</span></div>
+<p>Multiplicamos por \(12\):</p>
+<div class="mate"><span class="mate-bloque">\[4x-3y=12.\]</span></div>
+<p>La forma general es:</p>
+<div class="mate"><span class="mate-bloque">\[4x-3y-12=0.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-d759bdc93ffe.svg" alt="Figura 31.4" loading="lazy" decoding="async"></figure></div>
+<h2 id="conversion-entre-las-formas-de-una-recta"><span class="num">31.4</span> Conversión entre las formas de una recta<a class="enlace-seccion" href="#conversion-entre-las-formas-de-una-recta" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-31-5"><div class="caja-titulo">Ejemplo 31.5</div><div class="caja-cuerpo"><p>Convierte la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[3x-2y+6=0\]</span></div>
+<p>a la forma pendiente-ordenada al origen.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Despejamos \(y\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x-2y+6 &amp;=0,\\ -2y &amp;=-3x-6,\\ y &amp;=\frac{3}{2}x+3. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[m=\frac{3}{2}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[b=3.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-31-6"><div class="caja-titulo">Ejemplo 31.6</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[y=-\frac{2}{5}x+4\]</span></div>
+<p>a la forma general.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos por \(5\):</p>
+<div class="mate"><span class="mate-bloque">\[5y=-2x+20.\]</span></div>
+<p>Pasamos los términos al primer miembro:</p>
+<div class="mate"><span class="mate-bloque">\[2x+5y-20=0.\]</span></div></div></details></div></section>
+<h2 id="paralelismo-y-perpendicularidad"><span class="num">31.5</span> Paralelismo y perpendicularidad<a class="enlace-seccion" href="#paralelismo-y-perpendicularidad" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Rectas paralelas</div><div class="caja-cuerpo"><p>Dos rectas no verticales distintas son paralelas si y solo si tienen la misma pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m_1=m_2.\]</span></div>
+<p>Las rectas verticales también son paralelas entre sí.</p></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Si dos rectas tienen la misma pendiente y la misma ordenada al origen, no son rectas paralelas distintas: son la misma recta.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Rectas perpendiculares</div><div class="caja-cuerpo"><p>Dos rectas no verticales con pendientes distintas de cero son perpendiculares si y solo si:</p>
+<div class="mate"><span class="mate-bloque">\[m_1m_2=-1.\]</span></div>
+<p>De manera equivalente:</p>
+<div class="mate"><span class="mate-bloque">\[m_2=-\frac{1}{m_1}.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Una recta horizontal y una recta vertical son perpendiculares, aunque la pendiente de la recta vertical no esté definida.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-31-7"><div class="caja-titulo">Ejemplo 31.7</div><div class="caja-cuerpo"><p>Encuentra la pendiente de cualquier recta paralela a la que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[A(-3,-1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(4,-3).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos la pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} m &amp;= \frac{-3-(-1)}{4-(-3)}\\ &amp;= \frac{-2}{7}\\ &amp;= -\frac{2}{7}. \end{aligned}\]</span></div>
+<p>Toda recta paralela tiene la misma pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m=-\frac{2}{7}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-31-8"><div class="caja-titulo">Ejemplo 31.8</div><div class="caja-cuerpo"><p>Determina la pendiente de una recta perpendicular a la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[A(-3,1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(3,-3).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La pendiente de la recta dada es:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} m &amp;= \frac{-3-1}{3-(-3)}\\ &amp;= \frac{-4}{6}\\ &amp;= -\frac{2}{3}. \end{aligned}\]</span></div>
+<p>La pendiente perpendicular es el recíproco negativo:</p>
+<div class="mate"><span class="mate-bloque">\[m_{\perp} = -\frac{1}{-\frac{2}{3}} = \frac{3}{2}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[m_{\perp}=\frac{3}{2}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-31-9"><div class="caja-titulo">Ejemplo 31.9</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[(2,-1)\]</span></div>
+<p>y es perpendicular a:</p>
+<div class="mate"><span class="mate-bloque">\[3x-4y-8=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Despejamos \(y\) en la recta dada:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x-4y-8 &amp;=0,\\ -4y &amp;=-3x+8,\\ y &amp;=\frac{3}{4}x-2. \end{aligned}\]</span></div>
+<p>La pendiente de la recta dada es:</p>
+<div class="mate"><span class="mate-bloque">\[m=\frac{3}{4}.\]</span></div>
+<p>Por tanto, la pendiente perpendicular es:</p>
+<div class="mate"><span class="mate-bloque">\[m_{\perp} = -\frac{4}{3}.\]</span></div>
+<p>Utilizamos la forma punto-pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[y-(-1) = -\frac{4}{3}(x-2).\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[y+1 = -\frac{4}{3}(x-2).\]</span></div>
+<p>Multiplicamos por \(3\):</p>
+<div class="mate"><span class="mate-bloque">\[3y+3 = -4x+8.\]</span></div>
+<p>Pasamos todos los términos al primer miembro:</p>
+<div class="mate"><span class="mate-bloque">\[4x+3y-5=0.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-75c1be67d591.svg" alt="Figura 31.5" loading="lazy" decoding="async"></figure></div>
+<h2 id="angulo-entre-dos-rectas"><span class="num">31.6</span> Ángulo entre dos rectas<a class="enlace-seccion" href="#angulo-entre-dos-rectas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ángulo entre rectas</div><div class="caja-cuerpo"><p>Sean dos rectas no verticales con pendientes \(m_1\) y \(m_2\).</p>
+<p>El ángulo agudo \(\theta\) entre ellas satisface:</p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta = \left| \frac{m_2-m_1} {1+m_1m_2} \right|,\]</span></div>
+<p>si:</p>
+<div class="mate"><span class="mate-bloque">\[1+m_1m_2\neq0.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[1+m_1m_2=0,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[m_1m_2=-1.\]</span></div>
+<p>Por tanto, las rectas son perpendiculares y forman un ángulo de:</p>
+<div class="mate"><span class="mate-bloque">\[90^\circ.\]</span></div></div></section>
+<h2 id="distancia-de-un-punto-a-una-recta"><span class="num">31.7</span> Distancia de un punto a una recta<a class="enlace-seccion" href="#distancia-de-un-punto-a-una-recta" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fórmula de distancia de un punto a una recta</div><div class="caja-cuerpo"><p>La distancia del punto:</p>
+<div class="mate"><span class="mate-bloque">\[P(x_0,y_0)\]</span></div>
+<p>a la recta:</p>
+<div class="mate"><span class="mate-bloque">\[Ax+By+C=0\]</span></div>
+<p>es:</p>
+<div class="mate"><span class="mate-bloque">\[d = \frac{ |Ax_0+By_0+C| }{ \sqrt{A^2+B^2} }.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La distancia de un punto a una recta es la longitud del segmento perpendicular trazado desde el punto hasta la recta.</p>
+<p>El valor absoluto del numerador garantiza que la distancia sea no negativa.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-31-10"><div class="caja-titulo">Ejemplo 31.10</div><div class="caja-cuerpo"><p>Calcula la distancia del punto:</p>
+<div class="mate"><span class="mate-bloque">\[P(2,3)\]</span></div>
+<p>a la recta:</p>
+<div class="mate"><span class="mate-bloque">\[3x-4y-9=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[A=3, \qquad B=-4, \qquad C=-9.\]</span></div>
+<p>Sustituimos en la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} d &amp;= \frac{ |3(2)-4(3)-9| }{ \sqrt{3^2+(-4)^2} }\\ &amp;= \frac{ |6-12-9| }{ \sqrt{9+16} }\\ &amp;= \frac{|-15|}{5}\\ &amp;=3. \end{aligned}\]</span></div>
+<p>La distancia es:</p>
+<div class="mate"><span class="mate-bloque">\[3\ \text{unidades}.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-c902cefe24b4.svg" alt="Figura 31.6" loading="lazy" decoding="async"></figure></div>
+<h2 id="distancia-entre-rectas-paralelas"><span class="num">31.8</span> Distancia entre rectas paralelas<a class="enlace-seccion" href="#distancia-entre-rectas-paralelas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Distancia entre rectas paralelas</div><div class="caja-cuerpo"><p>Sean las rectas paralelas:</p>
+<div class="mate"><span class="mate-bloque">\[Ax+By+C_1=0\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[Ax+By+C_2=0.\]</span></div>
+<p>La distancia entre ellas es:</p>
+<div class="mate"><span class="mate-bloque">\[d = \frac{ |C_2-C_1| }{ \sqrt{A^2+B^2} }.\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Antes de aplicar la fórmula, los coeficientes de \(x\) y \(y\) deben ser exactamente iguales en ambas ecuaciones.</p>
+<p>Si las ecuaciones tienen coeficientes proporcionales, primero debe multiplicarse o dividirse una de ellas para igualar los coeficientes.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-31-11"><div class="caja-titulo">Ejemplo 31.11</div><div class="caja-cuerpo"><p>Encuentra la distancia entre las rectas paralelas:</p>
+<div class="mate"><span class="mate-bloque">\[3x+4y-5=0\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[3x+4y+10=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[A=3, \qquad B=4, \qquad C_1=-5, \qquad C_2=10.\]</span></div>
+<p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} d &amp;= \frac{ |C_2-C_1| }{ \sqrt{A^2+B^2} }\\ &amp;= \frac{ |10-(-5)| }{ \sqrt{3^2+4^2} }\\ &amp;= \frac{15}{5}\\ &amp;=3. \end{aligned}\]</span></div>
+<p>La distancia entre las rectas es:</p>
+<div class="mate"><span class="mate-bloque">\[3\ \text{unidades}.\]</span></div></div></details></div></section>
+<p>La distancia debe medirse mediante un segmento perpendicular a ambas rectas:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-91a8773cc755.svg" alt="Figura 31.7" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El segmento de distancia no tiene que ser vertical ni horizontal.</p>
+<p>Debe ser perpendicular a las dos rectas. En el ejemplo, el vector:</p>
+<div class="mate"><span class="mate-bloque">\[(3,4)\]</span></div>
+<p>es normal a ambas rectas, pues coincide con los coeficientes de \(x\) y \(y\).</p></div></section>
+<h2 id="resumen-de-formulas"><span class="num">31.9</span> Resumen de fórmulas<a class="enlace-seccion" href="#resumen-de-formulas" aria-label="Enlace a esta sección">#</a></h2>
+<p>Las fórmulas principales del capítulo son:</p>
+<ul><li><p><strong>Forma punto-pendiente</strong></p>
+<div class="mate"><span class="mate-bloque">\[y-y_1 = m(x-x_1).\]</span></div></li><li><p><strong>Forma pendiente-ordenada</strong></p>
+<div class="mate"><span class="mate-bloque">\[y=mx+b.\]</span></div></li><li><p><strong>Forma de dos puntos</strong></p>
+<div class="mate"><span class="mate-bloque">\[y-y_1 = \frac{y_2-y_1}{x_2-x_1} (x-x_1).\]</span></div></li><li><p><strong>Forma simétrica</strong></p>
+<div class="mate"><span class="mate-bloque">\[\frac{x}{a} + \frac{y}{b} = 1.\]</span></div></li><li><p><strong>Forma general</strong></p>
+<div class="mate"><span class="mate-bloque">\[Ax+By+C=0.\]</span></div></li><li><p><strong>Pendiente de la forma general</strong></p>
+<div class="mate"><span class="mate-bloque">\[m=-\frac{A}{B}, \qquad B\neq0.\]</span></div></li><li><p><strong>Rectas paralelas</strong></p>
+<div class="mate"><span class="mate-bloque">\[m_1=m_2.\]</span></div></li><li><p><strong>Rectas perpendiculares</strong></p>
+<div class="mate"><span class="mate-bloque">\[m_1m_2=-1.\]</span></div></li><li><p><strong>Distancia de un punto a una recta</strong></p>
+<div class="mate"><span class="mate-bloque">\[d = \frac{ |Ax_0+By_0+C| }{ \sqrt{A^2+B^2} }.\]</span></div></li><li><p><strong>Distancia entre rectas paralelas</strong></p>
+<div class="mate"><span class="mate-bloque">\[d = \frac{ |C_2-C_1| }{ \sqrt{A^2+B^2} }.\]</span></div></li></ul>
+<h2 id="ejercicios-propuestos"><span class="num">31.10</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-31-1"><div class="caja-titulo">Ejercicio 31.1</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[(1,6)\]</span></div>
+<p>y tiene pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{2}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[y - 6 = \frac{1}{2}(x - 1) \Longrightarrow 2y - 12 = x - 1 \Longrightarrow x - 2y + 11 = 0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-31-2"><div class="caja-titulo">Ejercicio 31.2</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[A(4,5)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(3,-2).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[m = \frac{-2 - 5}{3 - 4} = \frac{-7}{-1} = 7.\]</span> <span class="mate-bloque">\[y - 5 = 7(x - 4) \Longrightarrow y - 5 = 7x - 28 \Longrightarrow 7x - y - 23 = 0.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-31-3"><div class="caja-titulo">Ejercicio 31.3</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la recta con pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[5\]</span></div>
+<p>y ordenada al origen:</p>
+<div class="mate"><span class="mate-bloque">\[3.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[y = 5x + 3 \Longrightarrow 5x - y + 3 = 0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-31-4"><div class="caja-titulo">Ejercicio 31.4</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la recta que corta el eje \(x\) en:</p>
+<div class="mate"><span class="mate-bloque">\[(6,0)\]</span></div>
+<p>y el eje \(y\) en:</p>
+<div class="mate"><span class="mate-bloque">\[(0,-4).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Forma simétrica con \(a = 6\), \(b = -4\): <span class="mate-bloque">\[\frac{x}{6} - \frac{y}{4} = 1 \Longrightarrow 2x - 3y - 12 = 0.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-31-5"><div class="caja-titulo">Ejercicio 31.5</div><div class="caja-cuerpo"><p>Determina la pendiente de una recta paralela a la que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[A(2,-5)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(3,-4).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[m = \frac{-4 - (-5)}{3 - 2} = 1.\]</span> La paralela tiene la misma pendiente: \(m = 1\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-31-6"><div class="caja-titulo">Ejercicio 31.6</div><div class="caja-cuerpo"><p>Determina la pendiente de una recta perpendicular a la que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[A(-3,11)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(-1,7).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[m = \frac{7 - 11}{-1 - (-3)} = \frac{-4}{2} = -2.\]</span> La perpendicular tiene pendiente \(m_\perp = \dfrac{1}{2}\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-31-7"><div class="caja-titulo">Ejercicio 31.7</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[(2,7)\]</span></div>
+<p>y es paralela a:</p>
+<div class="mate"><span class="mate-bloque">\[3x-5y+15=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(3x - 5y + 15 = 0 \Longrightarrow y = \dfrac{3}{5}x + 3\). La paralela tiene pendiente \(m = \dfrac{3}{5}\): <span class="mate-bloque">\[y - 7 = \frac{3}{5}(x - 2) \Longrightarrow 5y - 35 = 3x - 6 \Longrightarrow 3x - 5y + 29 = 0.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-31-8"><div class="caja-titulo">Ejercicio 31.8</div><div class="caja-cuerpo"><p>Calcula la distancia del punto:</p>
+<div class="mate"><span class="mate-bloque">\[(2,3)\]</span></div>
+<p>a la recta:</p>
+<div class="mate"><span class="mate-bloque">\[3x-4y-9=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[d = \frac{|3(2) - 4(3) - 9|}{\sqrt{9 + 16}} = \frac{|{-15}|}{5} = 3.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-31-9"><div class="caja-titulo">Ejercicio 31.9</div><div class="caja-cuerpo"><p>Calcula la distancia del punto:</p>
+<div class="mate"><span class="mate-bloque">\[(-1,1)\]</span></div>
+<p>a la recta:</p>
+<div class="mate"><span class="mate-bloque">\[-3x+4y-8=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[d = \frac{|-3(-1) + 4(1) - 8|}{\sqrt{9 + 16}} = \frac{|3 + 4 - 8|}{5} = \frac{1}{5} = 0.2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-31-10"><div class="caja-titulo">Ejercicio 31.10</div><div class="caja-cuerpo"><p>Encuentra la distancia entre las rectas paralelas:</p>
+<div class="mate"><span class="mate-bloque">\[2x+3y-6=0\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[2x+3y+4=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Tomamos un punto de la primera recta, por ejemplo \((3, 0)\) (ya que \(2(3) + 3(0) - 6 = 0\)): <span class="mate-bloque">\[d = \frac{|2(3) + 3(0) + 4|}{\sqrt{4 + 9}} = \frac{|{10}|}{\sqrt{13}} = \frac{10}{\sqrt{13}} \approx 2.77.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="30-conceptos-basicos.html"><span>← Anterior</span>30. Conceptos básicos de geometría analítica</a><a class="nav-siguiente" href="32-aplicaciones-de-la-linea-recta.html"><span>Siguiente →</span>32. Aplicaciones de la línea recta</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>33. Circunferencia · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte VI: Geometría analítica</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#definicion-y-elementos"><span class="num">33.1</span> Definición y elementos</a></li><li class="nivel-2"><a href="#deduccion-de-la-ecuacion-de-la-circunferencia"><span class="num">33.2</span> Deducción de la ecuación de la circunferencia</a></li><li class="nivel-2"><a href="#circunferencia-con-centro-en-el-origen"><span class="num">33.3</span> Circunferencia con centro en el origen</a></li><li class="nivel-2"><a href="#circunferencia-con-centro-en"><span class="num">33.4</span> Circunferencia con centro en</a></li><li class="nivel-2"><a href="#interpretacion-como-una-traslacion"><span class="num">33.5</span> Interpretación como una traslación</a></li><li class="nivel-2"><a href="#forma-general-de-la-circunferencia"><span class="num">33.6</span> Forma general de la circunferencia</a></li><li class="nivel-2"><a href="#transformacion-de-la-forma-general-a-la-forma-ordinaria"><span class="num">33.7</span> Transformación de la forma general a la forma ordinaria</a></li><li class="nivel-2"><a href="#existencia-de-la-circunferencia"><span class="num">33.8</span> Existencia de la circunferencia</a></li><li class="nivel-2"><a href="#posicion-de-un-punto-respecto-de-una-circunferencia"><span class="num">33.9</span> Posición de un punto respecto de una circunferencia</a></li><li class="nivel-2"><a href="#circunferencia-determinada-por-los-extremos-de-un-diametro"><span class="num">33.10</span> Circunferencia determinada por los extremos de un diámetro</a></li><li class="nivel-2"><a href="#resumen-de-formulas"><span class="num">33.11</span> Resumen de fórmulas</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">33.12</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">33.13</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 33</p><h1>Circunferencia</h1></header>
+<p><span id="cap-circunferencia-ga" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span> <span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>La circunferencia es uno de los lugares geométricos fundamentales de la geometría analítica. Su ecuación describe todos los puntos del plano que se encuentran a una distancia constante de un punto fijo.</p>
+<p>En este capítulo estudiarás la ecuación de una circunferencia con centro en el origen y con centro fuera del origen. También aprenderás a transformar su ecuación general en forma ordinaria, identificar su centro y su radio, y determinar si una ecuación representa una circunferencia real.</p>
+<h2 id="definicion-y-elementos"><span class="num">33.1</span> Definición y elementos<a class="enlace-seccion" href="#definicion-y-elementos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>circunferencia</strong> es el conjunto de todos los puntos del plano que se encuentran a una distancia constante de un punto fijo.</p>
+<p>El punto fijo se denomina <strong>centro</strong> y la distancia constante recibe el nombre de <strong>radio</strong>.</p></div></section>
+<p>Si el centro es:</p>
+<div class="mate"><span class="mate-bloque">\[C(h,k)\]</span></div>
+<p>y el radio es un número positivo \(r\), entonces la circunferencia puede expresarse como el lugar geométrico:</p>
+<div class="mate"><span class="mate-bloque">\[\mathcal{C} = \left\{ P(x,y) \mid d(P,C)=r \right\}.\]</span></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La circunferencia y el círculo no son exactamente la misma figura.</p>
+<ul><li>La <strong>circunferencia</strong> está formada únicamente por los puntos que se encuentran a distancia \(r\) del centro.</li><li>El <strong>círculo</strong> contiene la circunferencia y todos sus puntos interiores.</li></ul></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Los principales elementos relacionados con una circunferencia son:</p>
+<ul><li><strong>Centro</strong>: punto fijo del que todos los puntos de la circunferencia equidistan.</li><li><strong>Radio</strong>: segmento que une el centro con cualquier punto de la circunferencia.</li><li><strong>Diámetro</strong>: cuerda que pasa por el centro. Su longitud es: <span class="mate-bloque">\[d=2r.\]</span></li><li><strong>Cuerda</strong>: segmento cuyos extremos pertenecen a la circunferencia.</li><li><strong>Secante</strong>: recta que interseca la circunferencia en dos puntos.</li><li><strong>Tangente</strong>: recta que tiene un solo punto en común con la circunferencia.</li><li><strong>Punto de tangencia</strong>: punto común entre la circunferencia y una recta tangente.</li></ul></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Radio y tangente</div><div class="caja-cuerpo"><p>El radio trazado hasta el punto de tangencia es perpendicular a la recta tangente.</p>
+<p>Si \(T\) es el punto de tangencia y \(\ell\) es la recta tangente, entonces:</p>
+<div class="mate"><span class="mate-bloque">\[CT\perp\ell.\]</span></div></div></section>
+<p>Los elementos principales pueden observarse en la siguiente figura:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-bc662809df05.svg" alt="Figura 33.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="deduccion-de-la-ecuacion-de-la-circunferencia"><span class="num">33.2</span> Deducción de la ecuación de la circunferencia<a class="enlace-seccion" href="#deduccion-de-la-ecuacion-de-la-circunferencia" aria-label="Enlace a esta sección">#</a></h2>
+<p>Sea:</p>
+<div class="mate"><span class="mate-bloque">\[C(h,k)\]</span></div>
+<p>el centro de una circunferencia de radio \(r\), y sea:</p>
+<div class="mate"><span class="mate-bloque">\[P(x,y)\]</span></div>
+<p>un punto cualquiera de la circunferencia.</p>
+<p>Por definición:</p>
+<div class="mate"><span class="mate-bloque">\[d(P,C)=r.\]</span></div>
+<p>Utilizamos la fórmula de la distancia:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{ (x-h)^2+(y-k)^2 } = r.\]</span></div>
+<p>Elevamos ambos miembros al cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2+(y-k)^2=r^2.\]</span></div>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ecuación ordinaria</div><div class="caja-cuerpo"><p>La circunferencia con centro:</p>
+<div class="mate"><span class="mate-bloque">\[C(h,k)\]</span></div>
+<p>y radio positivo \(r\) tiene ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2+(y-k)^2=r^2 .\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Los signos de las coordenadas del centro aparecen invertidos dentro de los paréntesis.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[(x+3)^2 = (x-(-3))^2.\]</span></div>
+<p>Por tanto, el centro correspondiente es:</p>
+<div class="mate"><span class="mate-bloque">\[h=-3.\]</span></div></div></section>
+<h2 id="circunferencia-con-centro-en-el-origen"><span class="num">33.3</span> Circunferencia con centro en el origen<a class="enlace-seccion" href="#circunferencia-con-centro-en-el-origen" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Forma canónica</div><div class="caja-cuerpo"><p>Si el centro de la circunferencia es el origen:</p>
+<div class="mate"><span class="mate-bloque">\[C(0,0),\]</span></div>
+<p>la ecuación ordinaria se reduce a:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=r^2.\]</span></div>
+<p>Esta expresión se denomina <strong>forma canónica</strong>.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-33-1"><div class="caja-titulo">Ejemplo 33.1</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la circunferencia cuyo centro es el origen y cuyo radio es:</p>
+<div class="mate"><span class="mate-bloque">\[r=3.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=r^2.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=3^2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=9.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-b6a3069f706e.svg" alt="Figura 33.2" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La circunferencia:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=r^2\]</span></div>
+<p>interseca los ejes coordenados en:</p>
+<div class="mate"><span class="mate-bloque">\[(r,0), \qquad (-r,0), \qquad (0,r), \qquad (0,-r).\]</span></div></div></section>
+<h2 id="circunferencia-con-centro-en"><span class="num">33.4</span> Circunferencia con centro en \((h,k)\)<a class="enlace-seccion" href="#circunferencia-con-centro-en" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-33-2"><div class="caja-titulo">Ejemplo 33.2</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la circunferencia con centro:</p>
+<div class="mate"><span class="mate-bloque">\[C(2,-1)\]</span></div>
+<p>y radio:</p>
+<div class="mate"><span class="mate-bloque">\[r=4.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2+(y-k)^2=r^2.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[(x-2)^2+(y-(-1))^2=4^2.\]</span></div>
+<p>Simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x-2)^2+(y+1)^2=16 .\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-5045d9b1016a.svg" alt="Figura 33.3" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-33-3"><div class="caja-titulo">Ejemplo 33.3</div><div class="caja-cuerpo"><p>Encuentra el centro y el radio de:</p>
+<div class="mate"><span class="mate-bloque">\[(x+3)^2+(y-2)^2=25.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Comparamos con:</p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2+(y-k)^2=r^2.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[x+3=x-(-3),\]</span></div>
+<p>se tiene:</p>
+<div class="mate"><span class="mate-bloque">\[h=-3.\]</span></div>
+<p>Además:</p>
+<div class="mate"><span class="mate-bloque">\[k=2\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[r^2=25.\]</span></div>
+<p>Como el radio es una longitud:</p>
+<div class="mate"><span class="mate-bloque">\[r=\sqrt{25}=5.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[C(-3,2)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[r=5.\]</span></div></div></details></div></section>
+<p>La ventana de la siguiente gráfica se ajusta para mostrar la circunferencia completa:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-ec95c2e6c609.svg" alt="Figura 33.4" loading="lazy" decoding="async"></figure></div>
+<h2 id="interpretacion-como-una-traslacion"><span class="num">33.5</span> Interpretación como una traslación<a class="enlace-seccion" href="#interpretacion-como-una-traslacion" aria-label="Enlace a esta sección">#</a></h2>
+<p>La circunferencia:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=r^2\]</span></div>
+<p>tiene centro en el origen.</p>
+<p>Al sustituir \(x\) por \(x-h\) y \(y\) por \(y-k\), obtenemos:</p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2+(y-k)^2=r^2.\]</span></div>
+<p>Esta transformación desplaza el centro desde:</p>
+<div class="mate"><span class="mate-bloque">\[(0,0)\]</span></div>
+<p>hasta:</p>
+<div class="mate"><span class="mate-bloque">\[(h,k).\]</span></div>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Efecto de los parámetros</div><div class="caja-cuerpo"><p>En la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2+(y-k)^2=r^2,\]</span></div>
+<p>se tiene:</p>
+<ul><li>si \(h&gt;0\), el centro se desplaza hacia la derecha;</li><li>si \(h&lt;0\), el centro se desplaza hacia la izquierda;</li><li>si \(k&gt;0\), el centro se desplaza hacia arriba;</li><li>si \(k&lt;0\), el centro se desplaza hacia abajo;</li><li>el radio continúa siendo \(r\).</li></ul></div></section>
+<h2 id="forma-general-de-la-circunferencia"><span class="num">33.6</span> Forma general de la circunferencia<a class="enlace-seccion" href="#forma-general-de-la-circunferencia" aria-label="Enlace a esta sección">#</a></h2>
+<p>Partimos de la forma ordinaria:</p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2+(y-k)^2=r^2.\]</span></div>
+<p>Desarrollamos los cuadrados:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-2hx+h^2+y^2-2ky+k^2=r^2.\]</span></div>
+<p>Reordenamos:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2-2hx-2ky+h^2+k^2-r^2=0.\]</span></div>
+<p>Si definimos:</p>
+<div class="mate"><span class="mate-bloque">\[D=-2h,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[E=-2k\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[F=h^2+k^2-r^2,\]</span></div>
+<p>obtenemos la forma general.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ecuación general</div><div class="caja-cuerpo"><p>La ecuación general de una circunferencia es:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2+Dx+Ey+F=0 .\]</span></div>
+<p>Los coeficientes de \(x^2\) y \(y^2\) son iguales y no aparece el término \(xy\).</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Centro y radio desde la forma general</div><div class="caja-cuerpo"><p>En la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2+Dx+Ey+F=0,\]</span></div>
+<p>el centro es:</p>
+<div class="mate"><span class="mate-bloque">\[C\left( -\frac{D}{2}, -\frac{E}{2} \right)\]</span></div>
+<p>y el cuadrado del radio es:</p>
+<div class="mate"><span class="mate-bloque">\[r^2 = \frac{D^2+E^2}{4}-F.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[r = \sqrt{ \frac{D^2+E^2}{4}-F } .\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Para identificar una circunferencia en forma general deben cumplirse estas condiciones:</p>
+<ul><li>aparecen los términos \(x^2\) y \(y^2\);</li><li>ambos términos cuadráticos tienen el mismo coeficiente y el mismo signo;</li><li>no aparece un término de la forma \(xy\).</li></ul>
+<p>Si toda la ecuación está multiplicada por una constante distinta de cero, primero puede dividirse entre esa constante.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-33-4"><div class="caja-titulo">Ejemplo 33.4</div><div class="caja-cuerpo"><p>Encuentra el centro y el radio de:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2-6x+4y-12=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[D=-6, \qquad E=4, \qquad F=-12.\]</span></div>
+<p>El centro es:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} h &amp;= -\frac{D}{2} = -\frac{-6}{2} = 3,\\ k &amp;= -\frac{E}{2} = -\frac{4}{2} = -2. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[C(3,-2).\]</span></div>
+<p>Calculamos el radio:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} r &amp;= \sqrt{ \frac{(-6)^2+4^2}{4}-(-12) }\\ &amp;= \sqrt{ \frac{36+16}{4}+12 }\\ &amp;= \sqrt{ 13+12 }\\ &amp;= 5. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[C(3,-2)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[r=5.\]</span></div></div></details></div></section>
+<p>La ventana se adapta para mostrar la circunferencia completa:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-123601ffda5d.svg" alt="Figura 33.5" loading="lazy" decoding="async"></figure></div>
+<h2 id="transformacion-de-la-forma-general-a-la-forma-ordinaria"><span class="num">33.7</span> Transformación de la forma general a la forma ordinaria<a class="enlace-seccion" href="#transformacion-de-la-forma-general-a-la-forma-ordinaria" aria-label="Enlace a esta sección">#</a></h2>
+<p>Aunque las fórmulas anteriores permiten calcular directamente el centro y el radio, completar cuadrados muestra de manera explícita la forma ordinaria de la circunferencia.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Completar el cuadrado</div><div class="caja-cuerpo"><p>Para completar el cuadrado de una expresión:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+bx,\]</span></div>
+<p>se suma:</p>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{b}{2}\right)^2.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+bx+\left(\frac{b}{2}\right)^2 = \left(x+\frac{b}{2}\right)^2.\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Cuando se añade una cantidad a un miembro de una ecuación, debe añadirse la misma cantidad al otro miembro para conservar la igualdad.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-33-5"><div class="caja-titulo">Ejemplo 33.5</div><div class="caja-cuerpo"><p>Transforma la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2+4x-8y+11=0\]</span></div>
+<p>a su forma ordinaria. Determina el centro y el radio.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Agrupamos los términos correspondientes a cada variable:</p>
+<div class="mate"><span class="mate-bloque">\[(x^2+4x)+(y^2-8y)=-11.\]</span></div>
+<p>Para completar el primer cuadrado, calculamos:</p>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{4}{2}\right)^2=4.\]</span></div>
+<p>Para el segundo:</p>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{-8}{2}\right)^2=16.\]</span></div>
+<p>Sumamos estas cantidades a ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[(x^2+4x+4)+(y^2-8y+16) = -11+4+16.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x+2)^2+(y-4)^2=9.\]</span></div>
+<p>Por tanto, la forma ordinaria es:</p>
+<div class="mate"><span class="mate-bloque">\[(x+2)^2+(y-4)^2=9 .\]</span></div>
+<p>El centro es:</p>
+<div class="mate"><span class="mate-bloque">\[C(-2,4)\]</span></div>
+<p>y el radio es:</p>
+<div class="mate"><span class="mate-bloque">\[r=3.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-0cd322ad0b9e.svg" alt="Figura 33.6" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-33-6"><div class="caja-titulo">Ejemplo 33.6</div><div class="caja-cuerpo"><p>Transforma la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2-6x-4y-3=0\]</span></div>
+<p>a su forma ordinaria.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Agrupamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x^2-6x)+(y^2-4y)=3.\]</span></div>
+<p>Completamos cuadrados:</p>
+<div class="mate"><span class="mate-bloque">\[(x^2-6x+9)+(y^2-4y+4) = 3+9+4.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x-3)^2+(y-2)^2=16.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[(x-3)^2+(y-2)^2=16 .\]</span></div>
+<p>El centro es:</p>
+<div class="mate"><span class="mate-bloque">\[C(3,2)\]</span></div>
+<p>y el radio es:</p>
+<div class="mate"><span class="mate-bloque">\[r=4.\]</span></div></div></details></div></section>
+<h2 id="existencia-de-la-circunferencia"><span class="num">33.8</span> Existencia de la circunferencia<a class="enlace-seccion" href="#existencia-de-la-circunferencia" aria-label="Enlace a esta sección">#</a></h2>
+<p>Después de completar cuadrados, una ecuación puede adoptar la forma:</p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2+(y-k)^2=R.\]</span></div>
+<p>El valor de \(R\) determina el tipo de conjunto representado.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Criterio de existencia</div><div class="caja-cuerpo"><p>En la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2+(y-k)^2=R,\]</span></div>
+<p>se presentan tres casos:</p>
+<ul><li>Si: <span class="mate-bloque">\[R&gt;0,\]</span> la ecuación representa una circunferencia real de radio: <span class="mate-bloque">\[r=\sqrt{R}.\]</span></li><li>Si: <span class="mate-bloque">\[R=0,\]</span> la ecuación representa únicamente el punto: <span class="mate-bloque">\[(h,k).\]</span> Este caso se denomina circunferencia degenerada o circunferencia de radio cero.</li><li>Si: <span class="mate-bloque">\[R&lt;0,\]</span> la ecuación no tiene soluciones reales y no representa una circunferencia real.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-33-7"><div class="caja-titulo">Ejemplo 33.7</div><div class="caja-cuerpo"><p>Determina si:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2+2x+4y+10=0\]</span></div>
+<p>representa una circunferencia real.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Agrupamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x^2+2x)+(y^2+4y)=-10.\]</span></div>
+<p>Completamos cuadrados:</p>
+<div class="mate"><span class="mate-bloque">\[(x^2+2x+1)+(y^2+4y+4) = -10+1+4.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[(x+1)^2+(y+2)^2=-5.\]</span></div>
+<p>El miembro izquierdo es una suma de cuadrados y no puede ser negativo para valores reales de \(x\) y \(y\).</p>
+<p>Por tanto, la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[\text{no representa una circunferencia real} .\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En la forma general:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2+Dx+Ey+F=0,\]</span></div>
+<p>el valor:</p>
+<div class="mate"><span class="mate-bloque">\[R = \frac{D^2+E^2}{4}-F\]</span></div>
+<p>cumple la función de \(r^2\).</p>
+<p>La ecuación representa una circunferencia real no degenerada si:</p>
+<div class="mate"><span class="mate-bloque">\[R&gt;0.\]</span></div></div></section>
+<h2 id="posicion-de-un-punto-respecto-de-una-circunferencia"><span class="num">33.9</span> Posición de un punto respecto de una circunferencia<a class="enlace-seccion" href="#posicion-de-un-punto-respecto-de-una-circunferencia" aria-label="Enlace a esta sección">#</a></h2>
+<p>Sea una circunferencia de centro \(C\) y radio \(r\), y sea \(P\) un punto del plano.</p>
+<p>La posición de \(P\) puede determinarse comparando:</p>
+<div class="mate"><span class="mate-bloque">\[d(P,C)\]</span></div>
+<p>con el radio.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Clasificación de un punto</div><div class="caja-cuerpo"><p>Un punto \(P\) es:</p>
+<ul><li><strong>interior</strong> si: <span class="mate-bloque">\[d(P,C)&lt;r;\]</span></li><li><strong>perteneciente a la circunferencia</strong> si: <span class="mate-bloque">\[d(P,C)=r;\]</span></li><li><strong>exterior</strong> si: <span class="mate-bloque">\[d(P,C)&gt;r.\]</span></li></ul></div></section>
+<p>Para evitar raíces cuadradas, también pueden compararse los cuadrados:</p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2+(y-k)^2\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[r^2.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-33-8"><div class="caja-titulo">Ejemplo 33.8</div><div class="caja-cuerpo"><p>Determina la posición del punto:</p>
+<div class="mate"><span class="mate-bloque">\[P(5,3)\]</span></div>
+<p>respecto de la circunferencia:</p>
+<div class="mate"><span class="mate-bloque">\[(x-2)^2+(y+1)^2=25.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos las coordenadas del punto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (5-2)^2+(3+1)^2 &amp;= 3^2+4^2\\ &amp;= 9+16\\ &amp;=25. \end{aligned}\]</span></div>
+<p>Como el resultado es igual a \(r^2\), el punto pertenece a la circunferencia:</p>
+<div class="mate"><span class="mate-bloque">\[P(5,3)\in\mathcal{C}.\]</span></div></div></details></div></section>
+<h2 id="circunferencia-determinada-por-los-extremos-de-un-diametro"><span class="num">33.10</span> Circunferencia determinada por los extremos de un diámetro<a class="enlace-seccion" href="#circunferencia-determinada-por-los-extremos-de-un-diametro" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Centro y radio a partir de un diámetro</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[A(x_1,y_1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(x_2,y_2)\]</span></div>
+<p>los extremos de un diámetro.</p>
+<p>El centro es el punto medio:</p>
+<div class="mate"><span class="mate-bloque">\[C = \left( \frac{x_1+x_2}{2}, \frac{y_1+y_2}{2} \right).\]</span></div>
+<p>El radio es la mitad de la distancia entre los extremos:</p>
+<div class="mate"><span class="mate-bloque">\[r = \frac{1}{2} \sqrt{ (x_2-x_1)^2+(y_2-y_1)^2 }.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-33-9"><div class="caja-titulo">Ejemplo 33.9</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la circunferencia cuyo diámetro tiene extremos:</p>
+<div class="mate"><span class="mate-bloque">\[A(-2,1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(4,5).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos el punto medio:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} C &amp;= \left( \frac{-2+4}{2}, \frac{1+5}{2} \right)\\ &amp;= (1,3). \end{aligned}\]</span></div>
+<p>Calculamos la longitud del diámetro:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} AB &amp;= \sqrt{ (4-(-2))^2+(5-1)^2 }\\ &amp;= \sqrt{ 6^2+4^2 }\\ &amp;= \sqrt{52}\\ &amp;= 2\sqrt{13}. \end{aligned}\]</span></div>
+<p>Por tanto, el radio es:</p>
+<div class="mate"><span class="mate-bloque">\[r=\sqrt{13}.\]</span></div>
+<p>La ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[(x-1)^2+(y-3)^2=13 .\]</span></div></div></details></div></section>
+<h2 id="resumen-de-formulas"><span class="num">33.11</span> Resumen de fórmulas<a class="enlace-seccion" href="#resumen-de-formulas" aria-label="Enlace a esta sección">#</a></h2>
+<p>Las fórmulas principales del capítulo son:</p>
+<ul><li><p><strong>Centro en el origen</strong></p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=r^2.\]</span></div></li><li><p><strong>Centro en \((h,k)\)</strong></p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2+(y-k)^2=r^2.\]</span></div></li><li><p><strong>Forma general</strong></p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2+Dx+Ey+F=0.\]</span></div></li><li><p><strong>Centro desde la forma general</strong></p>
+<div class="mate"><span class="mate-bloque">\[C\left( -\frac{D}{2}, -\frac{E}{2} \right).\]</span></div></li><li><p><strong>Radio desde la forma general</strong></p>
+<div class="mate"><span class="mate-bloque">\[r = \sqrt{ \frac{D^2+E^2}{4}-F }.\]</span></div></li><li><p><strong>Centro a partir de un diámetro</strong></p>
+<div class="mate"><span class="mate-bloque">\[C = \left( \frac{x_1+x_2}{2}, \frac{y_1+y_2}{2} \right).\]</span></div></li><li><p><strong>Radio a partir de un diámetro</strong></p>
+<div class="mate"><span class="mate-bloque">\[r = \frac{1}{2} \sqrt{ (x_2-x_1)^2+(y_2-y_1)^2 }.\]</span></div></li></ul>
+<h2 id="errores-frecuentes"><span class="num">33.12</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al trabajar con ecuaciones de circunferencias, evita los siguientes errores:</p>
+<ul><li>Leer incorrectamente el centro. En: <span class="mate-bloque">\[(x+3)^2+(y-2)^2=25,\]</span> el centro es: <span class="mate-bloque">\[(-3,2),\]</span> no \((3,-2)\).</li><li>Confundir \(r\) con \(r^2\). Si: <span class="mate-bloque">\[r^2=25,\]</span> entonces: <span class="mate-bloque">\[r=5.\]</span></li><li>Omitir cantidades al completar cuadrados.</li><li>Sumar una cantidad a un solo miembro de la ecuación.</li><li>Considerar que una ecuación con \(r^2&lt;0\) representa una circunferencia real.</li><li>Confundir el círculo con la circunferencia.</li><li>Dibujar una circunferencia sin comprobar que la ventana gráfica contiene su centro y sus cuatro puntos extremos.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">33.13</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-33-1"><div class="caja-titulo">Ejercicio 33.1</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la circunferencia con centro en el origen y radio:</p>
+<div class="mate"><span class="mate-bloque">\[4.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[x^2 + y^2 = 16.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-33-2"><div class="caja-titulo">Ejercicio 33.2</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la circunferencia con centro:</p>
+<div class="mate"><span class="mate-bloque">\[C(-2,3)\]</span></div>
+<p>y radio:</p>
+<div class="mate"><span class="mate-bloque">\[5.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(x + 2)^2 + (y - 3)^2 = 25.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-33-3"><div class="caja-titulo">Ejercicio 33.3</div><div class="caja-cuerpo"><p>Encuentra el centro y el radio de:</p>
+<div class="mate"><span class="mate-bloque">\[(x-4)^2+(y+1)^2=36.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Comparando con \((x - h)^2 + (y - k)^2 = r^2\): <span class="mate-bloque">\[h = 4, \quad k = -1, \quad r = 6.\]</span> Centro \(C(4, -1)\), radio \(r = 6\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-33-4"><div class="caja-titulo">Ejercicio 33.4</div><div class="caja-cuerpo"><p>Encuentra el centro y el radio de:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2-8x+2y-8=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(D = -8\), \(E = 2\), \(F = -8\). <span class="mate-bloque">\[h = -\frac{-8}{2} = 4, \qquad k = -\frac{2}{2} = -1.\]</span> <span class="mate-bloque">\[r = \sqrt{4^2 + (-1)^2 - (-8)} = \sqrt{16 + 1 + 8} = \sqrt{25} = 5.\]</span> Centro \(C(4, -1)\), radio \(r = 5\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-33-5"><div class="caja-titulo">Ejercicio 33.5</div><div class="caja-cuerpo"><p>Transforma la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2-6x-4y-3=0\]</span></div>
+<p>a su forma ordinaria y determina su centro y su radio.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Agrupamos y completamos TCP: <span class="mate-bloque">\[(x^2 - 6x) + (y^2 - 4y) = 3.\]</span> <span class="mate-bloque">\[(x^2 - 6x + 9) + (y^2 - 4y + 4) = 3 + 9 + 4.\]</span> <span class="mate-bloque">\[(x - 3)^2 + (y - 2)^2 = 16.\]</span> Centro \(C(3, 2)\), radio \(r = 4\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-33-6"><div class="caja-titulo">Ejercicio 33.6</div><div class="caja-cuerpo"><p>Determina si la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2+2x+4y+10=0\]</span></div>
+<p>representa una circunferencia real. Justifica tu respuesta.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(D = 2\), \(E = 4\), \(F = 10\). <span class="mate-bloque">\[h = -1, \qquad k = -2.\]</span> <span class="mate-bloque">\[h^2 + k^2 - F = 1 + 4 - 10 = -5 &lt; 0.\]</span> Como \(h^2 + k^2 - F\) es negativo, la ecuación <strong>no</strong> representa una circunferencia real.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-33-7"><div class="caja-titulo">Ejercicio 33.7</div><div class="caja-cuerpo"><p>Determina la posición del punto:</p>
+<div class="mate"><span class="mate-bloque">\[P(7,2)\]</span></div>
+<p>respecto de la circunferencia:</p>
+<div class="mate"><span class="mate-bloque">\[(x-3)^2+(y+1)^2=25.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos \(P(7, 2)\) en \((x-3)^2+(y+1)^2\): <span class="mate-bloque">\[(7-3)^2 + (2+1)^2 = 4^2 + 3^2 = 16 + 9 = 25.\]</span> Como el resultado es igual al radio al cuadrado (\(25=25\)), el punto pertenece a la circunferencia.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-33-8"><div class="caja-titulo">Ejercicio 33.8</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la circunferencia cuyo diámetro tiene extremos:</p>
+<div class="mate"><span class="mate-bloque">\[A(-4,-1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(2,7).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El centro es el punto medio del diámetro: <span class="mate-bloque">\[C = \left( \frac{-4+2}{2}, \frac{-1+7}{2} \right) = (-1, 3).\]</span> La longitud del diámetro es: <span class="mate-bloque">\[d = \sqrt{(2 - (-4))^2 + (7 - (-1))^2} = \sqrt{6^2 + 8^2} = \sqrt{36+64} = 10.\]</span> Por lo tanto, el radio es \(r = 5\). La ecuación es: <span class="mate-bloque">\[(x+1)^2 + (y-3)^2 = 25.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="32-aplicaciones-de-la-linea-recta.html"><span>← Anterior</span>32. Aplicaciones de la línea recta</a><a class="nav-siguiente" href="34-parabola.html"><span>Siguiente →</span>34. Parábola</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

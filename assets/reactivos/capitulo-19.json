@@ -1,0 +1,1339 @@
+{
+  "metadata": {
+    "capitulo": "19",
+    "titulo": "Elementos básicos de geometría",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 5,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 50,
+    "secciones_incluidas": [
+      {
+        "codigo": "19.1",
+        "nombre": "Punto, recta y plano"
+      },
+      {
+        "codigo": "19.2",
+        "nombre": "Ángulos"
+      },
+      {
+        "codigo": "19.3",
+        "nombre": "Relaciones entre ángulos"
+      },
+      {
+        "codigo": "19.4",
+        "nombre": "Rectas paralelas, perpendiculares y oblicuas"
+      },
+      {
+        "codigo": "19.5",
+        "nombre": "Paralelas cortadas por una transversal"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió 19.6 Ejercicios propuestos. Reactivos distintos y específicos por subtema, inspirados en la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-19-1-01",
+      "pregunta": "¿Qué elemento geométrico indica únicamente una posición?",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.1",
+        "nombre": "Punto, recta y plano"
+      },
+      "respuestas_posibles": {
+        "A": "El punto",
+        "B": "La recta",
+        "C": "El plano",
+        "D": "El ángulo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer punto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-1-02",
+      "pregunta": "¿Cuántas dimensiones tiene una recta ideal?",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.1",
+        "nombre": "Punto, recta y plano"
+      },
+      "respuestas_posibles": {
+        "A": "Ninguna",
+        "B": "Dos dimensiones",
+        "C": "Tres dimensiones",
+        "D": "Una dimensión"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "distinguir dimensiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-1-03",
+      "pregunta": "Un plano geométrico se extiende:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.1",
+        "nombre": "Punto, recta y plano"
+      },
+      "respuestas_posibles": {
+        "A": "En una dimensión",
+        "B": "En una sola dirección",
+        "C": "Infinitamente en dos dimensiones",
+        "D": "Solo entre dos puntos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "comprender plano",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-1-04",
+      "pregunta": "La notación $\\overline{AB}$ representa:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.1",
+        "nombre": "Punto, recta y plano"
+      },
+      "respuestas_posibles": {
+        "A": "La longitud del plano",
+        "B": "El segmento con extremos $A$ y $B$",
+        "C": "La recta infinita por $A$ y $B$",
+        "D": "La semirrecta con origen $A$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "interpretar segmento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-1-05",
+      "pregunta": "La notación $\\overrightarrow{AB}$ representa:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.1",
+        "nombre": "Punto, recta y plano"
+      },
+      "respuestas_posibles": {
+        "A": "La semirrecta con origen en $A$ que pasa por $B$",
+        "B": "La semirrecta con origen en $B$",
+        "C": "El segmento $AB$",
+        "D": "El plano determinado por $A$ y $B$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "interpretar semirrecta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-1-06",
+      "pregunta": "La notación $\\overleftrightarrow{AB}$ representa:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.1",
+        "nombre": "Punto, recta y plano"
+      },
+      "respuestas_posibles": {
+        "A": "El segmento $AB$",
+        "B": "La semirrecta desde $A$",
+        "C": "La distancia entre $A$ y $B$",
+        "D": "La recta que pasa por $A$ y $B$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "interpretar recta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-1-07",
+      "pregunta": "¿Cuántas rectas distintas pasan por dos puntos diferentes?",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.1",
+        "nombre": "Punto, recta y plano"
+      },
+      "respuestas_posibles": {
+        "A": "Dos",
+        "B": "Infinitas",
+        "C": "Una",
+        "D": "Ninguna"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar postulado básico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-1-08",
+      "pregunta": "Tres puntos no colineales determinan:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.1",
+        "nombre": "Punto, recta y plano"
+      },
+      "respuestas_posibles": {
+        "A": "Una circunferencia obligatoriamente como elemento primitivo",
+        "B": "Un plano",
+        "C": "Una única semirrecta",
+        "D": "Dos puntos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar determinación de plano",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-1-09",
+      "pregunta": "Si $B$ está entre $A$ y $C$, entonces:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.1",
+        "nombre": "Punto, recta y plano"
+      },
+      "respuestas_posibles": {
+        "A": "$AB+BC=AC$",
+        "B": "$AB+AC=BC$",
+        "C": "$AB=AC+BC$",
+        "D": "$AC-AB=AC$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "usar adición de segmentos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-1-10",
+      "pregunta": "Si $AB=7$ y $BC=5$, con $B$ entre $A$ y $C$, entonces $AC=$",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.1",
+        "nombre": "Punto, recta y plano"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$35$",
+        "C": "$7$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular longitud de segmento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-2-01",
+      "pregunta": "Un ángulo está formado por:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.2",
+        "nombre": "Ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Dos segmentos sin punto común",
+        "B": "Un punto y un plano",
+        "C": "Dos semirrectas con el mismo origen",
+        "D": "Dos rectas paralelas"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "definir ángulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-2-02",
+      "pregunta": "En $\\angle ABC$, el vértice es:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.2",
+        "nombre": "Ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$AB$",
+        "B": "$B$",
+        "C": "$A$",
+        "D": "$C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "leer notación angular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-2-03",
+      "pregunta": "Clasifique un ángulo de $35^\\circ$.",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.2",
+        "nombre": "Ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Agudo",
+        "B": "Recto",
+        "C": "Obtuso",
+        "D": "Llano"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "clasificar ángulo agudo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-2-04",
+      "pregunta": "Clasifique un ángulo de $90^\\circ$.",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.2",
+        "nombre": "Ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Agudo",
+        "B": "Obtuso",
+        "C": "Completo",
+        "D": "Recto"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "clasificar ángulo recto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-2-05",
+      "pregunta": "Clasifique un ángulo de $140^\\circ$.",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.2",
+        "nombre": "Ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Llano",
+        "B": "Cóncavo",
+        "C": "Obtuso",
+        "D": "Agudo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "clasificar ángulo obtuso",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-2-06",
+      "pregunta": "Clasifique un ángulo de $180^\\circ$.",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.2",
+        "nombre": "Ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Cóncavo",
+        "B": "Llano",
+        "C": "Recto",
+        "D": "Completo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar ángulo llano",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-2-07",
+      "pregunta": "Clasifique un ángulo de $270^\\circ$.",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.2",
+        "nombre": "Ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Cóncavo o reflejo",
+        "B": "Agudo",
+        "C": "Obtuso",
+        "D": "Llano"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "clasificar ángulo cóncavo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-2-08",
+      "pregunta": "Un ángulo completo mide:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.2",
+        "nombre": "Ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$180^\\circ$",
+        "C": "$270^\\circ$",
+        "D": "$360^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reconocer ángulo completo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-2-09",
+      "pregunta": "Si un ángulo mide $x+20$ grados y vale $65^\\circ$, entonces $x=$",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.2",
+        "nombre": "Ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$65$",
+        "B": "$85$",
+        "C": "$45$",
+        "D": "$35$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver medida angular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-2-10",
+      "pregunta": "Dos ángulos de $45^\\circ$ forman juntos un ángulo:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.2",
+        "nombre": "Ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Completo",
+        "B": "Recto",
+        "C": "Agudo",
+        "D": "Llano"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "sumar medidas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-3-01",
+      "pregunta": "Dos ángulos complementarios suman:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.3",
+        "nombre": "Relaciones entre ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$180^\\circ$",
+        "C": "$360^\\circ$",
+        "D": "$45^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "definir complementarios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-3-02",
+      "pregunta": "Dos ángulos suplementarios suman:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.3",
+        "nombre": "Relaciones entre ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$270^\\circ$",
+        "C": "$360^\\circ$",
+        "D": "$180^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "definir suplementarios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-3-03",
+      "pregunta": "Halle el complemento de $35^\\circ$.",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.3",
+        "nombre": "Relaciones entre ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$65^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$55^\\circ$",
+        "D": "$145^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular complemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-3-04",
+      "pregunta": "Halle el suplemento de $125^\\circ$.",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.3",
+        "nombre": "Relaciones entre ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$235^\\circ$",
+        "B": "$55^\\circ$",
+        "C": "$65^\\circ$",
+        "D": "$125^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular suplemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-3-05",
+      "pregunta": "Los ángulos opuestos por el vértice son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.3",
+        "nombre": "Relaciones entre ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Iguales",
+        "B": "Siempre complementarios",
+        "C": "Siempre adyacentes",
+        "D": "De suma $360^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer propiedad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-3-06",
+      "pregunta": "Si dos ángulos opuestos por el vértice miden $3x-10$ y $x+30$, entonces $x=$",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.3",
+        "nombre": "Relaciones entre ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$30$",
+        "C": "$40$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "plantear igualdad angular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-3-07",
+      "pregunta": "Dos ángulos adyacentes comparten:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.3",
+        "nombre": "Relaciones entre ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Dos lados completos",
+        "B": "Ningún punto",
+        "C": "Vértice y un lado",
+        "D": "Solo medida"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "definir adyacentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-3-08",
+      "pregunta": "Un par lineal está formado por ángulos adyacentes que suman:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.3",
+        "nombre": "Relaciones entre ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$45^\\circ$",
+        "B": "$180^\\circ$",
+        "C": "$90^\\circ$",
+        "D": "$360^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "reconocer par lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-3-09",
+      "pregunta": "Si dos ángulos suplementarios miden $4x+10$ y $2x+20$, entonces $x=$",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.3",
+        "nombre": "Relaciones entre ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$25$",
+        "B": "$20$",
+        "C": "$30$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver ecuación de suplemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-3-10",
+      "pregunta": "Dos ángulos complementarios están en razón $2:3$. El menor mide:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.3",
+        "nombre": "Relaciones entre ángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$54^\\circ$",
+        "B": "$30^\\circ$",
+        "C": "$45^\\circ$",
+        "D": "$36^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "resolver reparto angular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-4-01",
+      "pregunta": "Dos rectas coplanares que no se cortan son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.4",
+        "nombre": "Rectas paralelas, perpendiculares y oblicuas"
+      },
+      "respuestas_posibles": {
+        "A": "Oblicuas",
+        "B": "Coincidentes en un solo punto",
+        "C": "Paralelas",
+        "D": "Perpendiculares"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "clasificar rectas paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-4-02",
+      "pregunta": "Dos rectas que se cortan formando $90^\\circ$ son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.4",
+        "nombre": "Rectas paralelas, perpendiculares y oblicuas"
+      },
+      "respuestas_posibles": {
+        "A": "Secantes no ortogonales",
+        "B": "Perpendiculares",
+        "C": "Paralelas",
+        "D": "Oblicuas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar perpendiculares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-4-03",
+      "pregunta": "Dos rectas que se cortan sin formar ángulos rectos son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.4",
+        "nombre": "Rectas paralelas, perpendiculares y oblicuas"
+      },
+      "respuestas_posibles": {
+        "A": "Oblicuas",
+        "B": "Paralelas",
+        "C": "Perpendiculares",
+        "D": "Coincidentes"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "clasificar oblicuas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-4-04",
+      "pregunta": "La notación $r\\parallel s$ significa que:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.4",
+        "nombre": "Rectas paralelas, perpendiculares y oblicuas"
+      },
+      "respuestas_posibles": {
+        "A": "$r$ es perpendicular a $s$",
+        "B": "$r$ coincide con $s$",
+        "C": "$r$ mide lo mismo que $s$",
+        "D": "$r$ es paralela a $s$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "interpretar paralelismo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-4-05",
+      "pregunta": "La notación $m\\perp n$ significa que:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.4",
+        "nombre": "Rectas paralelas, perpendiculares y oblicuas"
+      },
+      "respuestas_posibles": {
+        "A": "$m$ divide a $n$",
+        "B": "$m$ no es coplanar con $n$",
+        "C": "$m$ es perpendicular a $n$",
+        "D": "$m$ es paralela a $n$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "interpretar perpendicularidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-4-06",
+      "pregunta": "Por un punto exterior a una recta, en geometría euclidiana pasa:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.4",
+        "nombre": "Rectas paralelas, perpendiculares y oblicuas"
+      },
+      "respuestas_posibles": {
+        "A": "Infinitas perpendiculares distintas",
+        "B": "Una sola paralela a la recta dada",
+        "C": "Ninguna paralela",
+        "D": "Dos paralelas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar postulado de paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-4-07",
+      "pregunta": "Si dos rectas son perpendiculares, los cuatro ángulos formados miden:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.4",
+        "nombre": "Rectas paralelas, perpendiculares y oblicuas"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$ cada uno",
+        "B": "$45^\\circ$ cada uno",
+        "C": "$180^\\circ$ cada uno",
+        "D": "Dos de $60^\\circ$ y dos de $120^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "deducir ángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-4-08",
+      "pregunta": "Dos rectas verticales distintas en un plano son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.4",
+        "nombre": "Rectas paralelas, perpendiculares y oblicuas"
+      },
+      "respuestas_posibles": {
+        "A": "Perpendiculares",
+        "B": "Oblicuas",
+        "C": "Coincidentes",
+        "D": "Paralelas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "clasificar por dirección",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-4-09",
+      "pregunta": "Una recta horizontal y una vertical son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.4",
+        "nombre": "Rectas paralelas, perpendiculares y oblicuas"
+      },
+      "respuestas_posibles": {
+        "A": "Oblicuas",
+        "B": "Coincidentes",
+        "C": "Perpendiculares",
+        "D": "Paralelas"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "clasificar orientación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-4-10",
+      "pregunta": "Si una recta forma un ángulo de $60^\\circ$ con otra, las rectas son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.4",
+        "nombre": "Rectas paralelas, perpendiculares y oblicuas"
+      },
+      "respuestas_posibles": {
+        "A": "Coincidentes",
+        "B": "Oblicuas",
+        "C": "Perpendiculares",
+        "D": "Paralelas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar por ángulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-5-01",
+      "pregunta": "Si dos paralelas son cortadas por una transversal, los ángulos correspondientes son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.5",
+        "nombre": "Paralelas cortadas por una transversal"
+      },
+      "respuestas_posibles": {
+        "A": "Iguales",
+        "B": "Suplementarios siempre",
+        "C": "Complementarios",
+        "D": "Nulos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer correspondientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-5-02",
+      "pregunta": "Los ángulos alternos internos entre paralelas son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.5",
+        "nombre": "Paralelas cortadas por una transversal"
+      },
+      "respuestas_posibles": {
+        "A": "Suplementarios",
+        "B": "Complementarios",
+        "C": "Adyacentes siempre",
+        "D": "Iguales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reconocer alternos internos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-5-03",
+      "pregunta": "Los ángulos alternos externos entre paralelas son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.5",
+        "nombre": "Paralelas cortadas por una transversal"
+      },
+      "respuestas_posibles": {
+        "A": "Suplementarios",
+        "B": "Cóncavos",
+        "C": "Iguales",
+        "D": "Siempre rectos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer alternos externos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-5-04",
+      "pregunta": "Los ángulos colaterales internos entre paralelas son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.5",
+        "nombre": "Paralelas cortadas por una transversal"
+      },
+      "respuestas_posibles": {
+        "A": "Opuestos por el vértice",
+        "B": "Suplementarios",
+        "C": "Iguales",
+        "D": "Complementarios"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "reconocer colaterales internos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-5-05",
+      "pregunta": "Si un ángulo correspondiente mide $65^\\circ$, el otro correspondiente mide:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.5",
+        "nombre": "Paralelas cortadas por una transversal"
+      },
+      "respuestas_posibles": {
+        "A": "$65^\\circ$",
+        "B": "$25^\\circ$",
+        "C": "$115^\\circ$",
+        "D": "$295^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "transferir medida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-5-06",
+      "pregunta": "Si un ángulo interior mide $72^\\circ$, su colateral interno mide:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.5",
+        "nombre": "Paralelas cortadas por una transversal"
+      },
+      "respuestas_posibles": {
+        "A": "$72^\\circ$",
+        "B": "$18^\\circ$",
+        "C": "$288^\\circ$",
+        "D": "$108^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular suplemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-5-07",
+      "pregunta": "Dos ángulos correspondientes miden $3x-5$ y $2x+15$. Halle $x$.",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.5",
+        "nombre": "Paralelas cortadas por una transversal"
+      },
+      "respuestas_posibles": {
+        "A": "$15$",
+        "B": "$25$",
+        "C": "$20$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver ecuación de correspondientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-5-08",
+      "pregunta": "Dos ángulos alternos internos miden $5x-15$ y $3x+25$. Halle $x$.",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.5",
+        "nombre": "Paralelas cortadas por una transversal"
+      },
+      "respuestas_posibles": {
+        "A": "$40$",
+        "B": "$20$",
+        "C": "$10$",
+        "D": "$25$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver igualdad de alternos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-5-09",
+      "pregunta": "Dos ángulos colaterales internos miden $4x+10$ y $2x+20$. Halle $x$.",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.5",
+        "nombre": "Paralelas cortadas por una transversal"
+      },
+      "respuestas_posibles": {
+        "A": "$25$",
+        "B": "$20$",
+        "C": "$30$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver suplemento transversal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-19-5-10",
+      "pregunta": "Si los ángulos correspondientes formados por una transversal son iguales, entonces las rectas cortadas son:",
+      "tema": {
+        "codigo": "19",
+        "nombre": "Elementos básicos de geometría",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "19.5",
+        "nombre": "Paralelas cortadas por una transversal"
+      },
+      "respuestas_posibles": {
+        "A": "Perpendiculares",
+        "B": "Oblicuas necesariamente",
+        "C": "Coincidentes necesariamente",
+        "D": "Paralelas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar recíproco del criterio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

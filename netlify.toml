@@ -1,0 +1,6 @@
+[build]
+  # El comando que Netlify ejecutará para construir tu sitio
+  command = "python scripts/build.py --todos"
+  
+  # La carpeta que contiene el sitio ya construido (donde está el index.html)
+  publish = "sitio"

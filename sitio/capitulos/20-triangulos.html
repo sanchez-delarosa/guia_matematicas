@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>20. Triángulos · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte IV: Geometría euclidiana</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#definicion-y-notacion"><span class="num">20.1</span> Definición y notación</a></li><li class="nivel-2"><a href="#clasificacion-de-los-triangulos"><span class="num">20.2</span> Clasificación de los triángulos</a></li><li class="nivel-3"><a href="#clasificacion-por-sus-lados"><span class="num">20.2.1</span> Clasificación por sus lados</a></li><li class="nivel-3"><a href="#clasificacion-por-sus-angulos"><span class="num">20.2.2</span> Clasificación por sus ángulos</a></li><li class="nivel-2"><a href="#propiedades-angulares"><span class="num">20.3</span> Propiedades angulares</a></li><li class="nivel-2"><a href="#angulo-exterior"><span class="num">20.4</span> Ángulo exterior</a></li><li class="nivel-2"><a href="#desigualdad-triangular"><span class="num">20.5</span> Desigualdad triangular</a></li><li class="nivel-2"><a href="#rectas-y-segmentos-notables"><span class="num">20.6</span> Rectas y segmentos notables</a></li><li class="nivel-3"><a href="#mediana-y-baricentro"><span class="num">20.6.1</span> Mediana y baricentro</a></li><li class="nivel-3"><a href="#altura-y-ortocentro"><span class="num">20.6.2</span> Altura y ortocentro</a></li><li class="nivel-3"><a href="#bisectriz-e-incentro"><span class="num">20.6.3</span> Bisectriz e incentro</a></li><li class="nivel-3"><a href="#mediatriz-y-circuncentro"><span class="num">20.6.4</span> Mediatriz y circuncentro</a></li><li class="nivel-3"><a href="#resumen-de-puntos-notables"><span class="num">20.6.5</span> Resumen de puntos notables</a></li><li class="nivel-2"><a href="#teorema-de-pitagoras"><span class="num">20.7</span> Teorema de Pitágoras</a></li><li class="nivel-2"><a href="#congruencia-de-triangulos"><span class="num">20.8</span> Congruencia de triángulos</a></li><li class="nivel-2"><a href="#semejanza-de-triangulos"><span class="num">20.9</span> Semejanza de triángulos</a></li><li class="nivel-3"><a href="#razon-de-semejanza"><span class="num">20.9.1</span> Razón de semejanza</a></li><li class="nivel-2"><a href="#aplicacion-de-la-semejanza"><span class="num">20.10</span> Aplicación de la semejanza</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">20.11</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#problemas-de-angulos">Problemas de ángulos</a></li><li class="nivel-3"><a href="#rectas-notables">Rectas notables</a></li><li class="nivel-3"><a href="#teorema-de-pitagoras-2">Teorema de Pitágoras</a></li><li class="nivel-3"><a href="#semejanza">Semejanza</a></li><li class="nivel-2"><a href="#resumen"><span class="num">20.12</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">20.13</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">20.14</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 20</p><h1>Triángulos</h1></header>
+<p><span id="cap-triangulos" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>El triángulo es un polígono de tres lados. Sus propiedades permiten resolver problemas de ángulos, longitudes, áreas, congruencia y proporcionalidad.</p>
+<p>En este capítulo aprenderás a:</p>
+<ul><li>clasificar triángulos;</li><li>calcular ángulos interiores y exteriores;</li><li>aplicar la desigualdad triangular;</li><li>utilizar el teorema de Pitágoras;</li><li>reconocer las rectas y los puntos notables;</li><li>distinguir congruencia y semejanza.</li></ul>
+<h2 id="definicion-y-notacion"><span class="num">20.1</span> Definición y notación<a class="enlace-seccion" href="#definicion-y-notacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>triángulo</strong> es un polígono formado por tres segmentos que unen tres puntos no colineales.</p>
+<p>El triángulo con vértices \(A\), \(B\) y \(C\) se denota:</p>
+<div class="mate"><span class="mate-bloque">\[\triangle ABC.\]</span></div></div></section>
+<p>Sus lados son:</p>
+<div class="mate"><span class="mate-bloque">\[\overline{AB}, \qquad \overline{BC}, \qquad \overline{CA}.\]</span></div>
+<p>Por convención, cada lado puede representarse con la letra minúscula del vértice opuesto:</p>
+<div class="mate"><span class="mate-bloque">\[a=BC, \qquad b=CA, \qquad c=AB.\]</span></div>
+<p>Así:</p>
+<ul><li>\(a\) es el lado opuesto a \(A\);</li><li>\(b\) es el lado opuesto a \(B\);</li><li>\(c\) es el lado opuesto a \(C\).</li></ul>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-d168d4e4e2b7.svg" alt="Figura 20.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="clasificacion-de-los-triangulos"><span class="num">20.2</span> Clasificación de los triángulos<a class="enlace-seccion" href="#clasificacion-de-los-triangulos" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="clasificacion-por-sus-lados"><span class="num">20.2.1</span> Clasificación por sus lados<a class="enlace-seccion" href="#clasificacion-por-sus-lados" aria-label="Enlace a esta sección">#</a></h3>
+<p>Según sus lados, un triángulo puede ser:</p>
+<ul><li><strong>equilátero</strong>: tiene tres lados iguales;</li><li><strong>isósceles</strong>: tiene dos lados iguales;</li><li><strong>escaleno</strong>: tiene tres lados diferentes.</li></ul>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Tipo</strong></th><th style="text-align:left"><strong>Característica</strong></th></tr></thead><tbody><tr><td style="text-align:left">Equilátero</td><td style="text-align:left">Tres lados iguales</td></tr><tr><td style="text-align:left">Isósceles</td><td style="text-align:left">Dos lados iguales</td></tr><tr><td style="text-align:left">Escaleno</td><td style="text-align:left">Tres lados diferentes</td></tr></tbody></table></div></div>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedad del triángulo isósceles</div><div class="caja-cuerpo"><p>En un triángulo isósceles, los ángulos opuestos a los lados iguales también son iguales.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedad del triángulo equilátero</div><div class="caja-cuerpo"><p>En un triángulo equilátero, cada ángulo interior mide:</p>
+<div class="mate"><span class="mate-bloque">\[60^\circ.\]</span></div></div></section>
+<h3 id="clasificacion-por-sus-angulos"><span class="num">20.2.2</span> Clasificación por sus ángulos<a class="enlace-seccion" href="#clasificacion-por-sus-angulos" aria-label="Enlace a esta sección">#</a></h3>
+<p>Según sus ángulos, un triángulo puede ser:</p>
+<ul><li><strong>acutángulo</strong>: sus tres ángulos son menores que \(90^\circ\);</li><li><strong>rectángulo</strong>: tiene un ángulo de \(90^\circ\);</li><li><strong>obtusángulo</strong>: tiene un ángulo mayor que \(90^\circ\).</li></ul>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Tipo</strong></th><th style="text-align:left"><strong>Característica</strong></th></tr></thead><tbody><tr><td style="text-align:left">Acutángulo</td><td style="text-align:left">Tres ángulos agudos</td></tr><tr><td style="text-align:left">Rectángulo</td><td style="text-align:left">Un ángulo recto</td></tr><tr><td style="text-align:left">Obtusángulo</td><td style="text-align:left">Un ángulo obtuso</td></tr></tbody></table></div></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Un triángulo no puede tener dos ángulos rectos ni dos ángulos obtusos, pues sus ángulos interiores suman \(180^\circ\).</p></div></section>
+<h2 id="propiedades-angulares"><span class="num">20.3</span> Propiedades angulares<a class="enlace-seccion" href="#propiedades-angulares" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Suma de los ángulos interiores</div><div class="caja-cuerpo"><p>La suma de los ángulos interiores de cualquier triángulo es:</p>
+<div class="mate"><span class="mate-bloque">\[A+B+C=180^\circ.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-20-1"><div class="caja-titulo">Ejemplo 20.1</div><div class="caja-cuerpo"><p>Dos ángulos de un triángulo miden:</p>
+<div class="mate"><span class="mate-bloque">\[48^\circ \qquad\text{y}\qquad 67^\circ.\]</span></div>
+<p>Calcula el tercer ángulo.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) el tercer ángulo:</p>
+<div class="mate"><span class="mate-bloque">\[48^\circ+67^\circ+x=180^\circ.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[x = 180^\circ-48^\circ-67^\circ.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x=65^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-20-2"><div class="caja-titulo">Ejemplo 20.2</div><div class="caja-cuerpo"><p>En un triángulo isósceles, el ángulo comprendido entre los lados iguales mide:</p>
+<div class="mate"><span class="mate-bloque">\[40^\circ.\]</span></div>
+<p>Calcula los ángulos de la base.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los ángulos de la base son iguales. Sea \(x\) su medida:</p>
+<div class="mate"><span class="mate-bloque">\[40^\circ+x+x=180^\circ.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[2x=140^\circ.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x=70^\circ.\]</span></div></div></details></div></section>
+<h2 id="angulo-exterior"><span class="num">20.4</span> Ángulo exterior<a class="enlace-seccion" href="#angulo-exterior" aria-label="Enlace a esta sección">#</a></h2>
+<p>Un ángulo exterior se forma al prolongar uno de los lados de un triángulo.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ángulo exterior</div><div class="caja-cuerpo"><p>Un ángulo exterior es igual a la suma de los dos ángulos interiores no adyacentes:</p>
+<div class="mate"><span class="mate-bloque">\[\theta=\alpha+\beta.\]</span></div></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-3ac7437150b6.svg" alt="Figura 20.2" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-20-3"><div class="caja-titulo">Ejemplo 20.3</div><div class="caja-cuerpo"><p>Los ángulos interiores no adyacentes a un ángulo exterior miden:</p>
+<div class="mate"><span class="mate-bloque">\[45^\circ \qquad\text{y}\qquad 70^\circ.\]</span></div>
+<p>Calcula el ángulo exterior.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\theta = 45^\circ+70^\circ.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\theta=115^\circ.\]</span></div></div></details></div></section>
+<h2 id="desigualdad-triangular"><span class="num">20.5</span> Desigualdad triangular<a class="enlace-seccion" href="#desigualdad-triangular" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Desigualdad triangular</div><div class="caja-cuerpo"><p>En todo triángulo, la longitud de cada lado es menor que la suma de los otros dos lados:</p>
+<div class="mate"><span class="mate-bloque">\[a&lt;b+c,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[b&lt;a+c,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[c&lt;a+b.\]</span></div></div></section>
+<p>Si se conocen dos lados \(a\) y \(b\), el tercer lado \(c\) debe cumplir:</p>
+<div class="mate"><span class="mate-bloque">\[|a-b|&lt;c&lt;a+b.\]</span></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Las desigualdades deben ser estrictas.</p>
+<p>Si la suma de dos lados es igual al tercero, no se forma un triángulo.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-20-4"><div class="caja-titulo">Ejemplo 20.4</div><div class="caja-cuerpo"><p>Determina si las longitudes:</p>
+<div class="mate"><span class="mate-bloque">\[4,\qquad6,\qquad9\]</span></div>
+<p>pueden formar un triángulo.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La suma de los dos lados menores es:</p>
+<div class="mate"><span class="mate-bloque">\[4+6=10.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[10&gt;9,\]</span></div>
+<p>las longitudes sí pueden formar un triángulo.</p></div></details></div></section>
+<h2 id="rectas-y-segmentos-notables"><span class="num">20.6</span> Rectas y segmentos notables<a class="enlace-seccion" href="#rectas-y-segmentos-notables" aria-label="Enlace a esta sección">#</a></h2>
+<p>En un triángulo se distinguen cuatro segmentos notables:</p>
+<ul><li>mediana;</li><li>altura;</li><li>bisectriz;</li><li>mediatriz.</li></ul>
+<p>Las tres rectas de cada tipo se cortan en un punto notable.</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Elemento</strong></th><th style="text-align:left"><strong>Definición</strong></th><th style="text-align:left"><strong>Punto de intersección</strong></th></tr></thead><tbody><tr><td style="text-align:left">Medianas</td><td style="text-align:left">Vértice al punto medio del lado opuesto</td><td style="text-align:left">Baricentro</td></tr><tr><td style="text-align:left">Alturas</td><td style="text-align:left">Perpendicular desde un vértice</td><td style="text-align:left">Ortocentro</td></tr><tr><td style="text-align:left">Bisectrices</td><td style="text-align:left">Divide un ángulo en dos partes iguales</td><td style="text-align:left">Incentro</td></tr><tr><td style="text-align:left">Mediatrices</td><td style="text-align:left">Perpendicular por el punto medio de un lado</td><td style="text-align:left">Circuncentro</td></tr></tbody></table></div></div>
+<h3 id="mediana-y-baricentro"><span class="num">20.6.1</span> Mediana y baricentro<a class="enlace-seccion" href="#mediana-y-baricentro" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>mediana</strong> es el segmento que une un vértice con el punto medio del lado opuesto.</p>
+<p>Las tres medianas se cortan en el <strong>baricentro</strong>.</p></div></section>
+<p>El baricentro se representa generalmente mediante:</p>
+<div class="mate"><span class="mate-bloque">\[G.\]</span></div>
+<p>El baricentro divide cada mediana en razón:</p>
+<div class="mate"><span class="mate-bloque">\[2:1.\]</span></div>
+<p>La parte comprendida entre el vértice y el baricentro es el doble de la parte comprendida entre el baricentro y el punto medio.</p>
+<p>Si \(M\) es el punto medio de un lado:</p>
+<div class="mate"><span class="mate-bloque">\[AG:GM=2:1.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[AG=\frac23AM\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[GM=\frac13AM.\]</span></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-30c4aea1c621.svg" alt="Figura 20.3" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El baricentro siempre se encuentra en el interior del triángulo y corresponde a su centro de equilibrio.</p></div></section>
+<h3 id="altura-y-ortocentro"><span class="num">20.6.2</span> Altura y ortocentro<a class="enlace-seccion" href="#altura-y-ortocentro" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>altura</strong> es el segmento perpendicular trazado desde un vértice hasta el lado opuesto o hasta su prolongación.</p>
+<p>Las tres alturas se cortan en el <strong>ortocentro</strong>.</p></div></section>
+<p>El ortocentro se representa generalmente con:</p>
+<div class="mate"><span class="mate-bloque">\[H.\]</span></div>
+<p>Su posición depende del tipo de triángulo:</p>
+<ul><li>en un triángulo acutángulo está en el interior;</li><li>en un triángulo rectángulo está en el vértice del ángulo recto;</li><li>en un triángulo obtusángulo está en el exterior.</li></ul>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La altura no siempre queda completamente dentro del triángulo.</p>
+<p>En un triángulo obtusángulo es necesario prolongar algunos lados.</p></div></section>
+<h3 id="bisectriz-e-incentro"><span class="num">20.6.3</span> Bisectriz e incentro<a class="enlace-seccion" href="#bisectriz-e-incentro" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>bisectriz</strong> divide un ángulo interior en dos ángulos iguales.</p>
+<p>Las tres bisectrices interiores se cortan en el <strong>incentro</strong>.</p></div></section>
+<p>El incentro se representa generalmente mediante:</p>
+<div class="mate"><span class="mate-bloque">\[I.\]</span></div>
+<p>El incentro:</p>
+<ul><li>siempre está en el interior del triángulo;</li><li>se encuentra a la misma distancia de los tres lados;</li><li>es el centro de la circunferencia inscrita.</li></ul>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-985391ef51e7.svg" alt="Figura 20.4" loading="lazy" decoding="async"></figure></div>
+<h3 id="mediatriz-y-circuncentro"><span class="num">20.6.4</span> Mediatriz y circuncentro<a class="enlace-seccion" href="#mediatriz-y-circuncentro" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>mediatriz</strong> de un lado es la recta perpendicular al lado que pasa por su punto medio.</p>
+<p>Las tres mediatrices se cortan en el <strong>circuncentro</strong>.</p></div></section>
+<p>El circuncentro se representa generalmente mediante:</p>
+<div class="mate"><span class="mate-bloque">\[O.\]</span></div>
+<p>El circuncentro:</p>
+<ul><li>se encuentra a la misma distancia de los tres vértices;</li><li>es el centro de la circunferencia circunscrita.</li></ul>
+<p>Su posición depende del tipo de triángulo:</p>
+<ul><li>en un triángulo acutángulo está en el interior;</li><li>en un triángulo rectángulo está en el punto medio de la hipotenusa;</li><li>en un triángulo obtusángulo está en el exterior.</li></ul>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La mediana y la mediatriz no son lo mismo.</p>
+<p>La mediana parte de un vértice y llega al punto medio del lado opuesto.</p>
+<p>La mediatriz es perpendicular a un lado y pasa por su punto medio, pero no necesariamente pasa por un vértice.</p></div></section>
+<h3 id="resumen-de-puntos-notables"><span class="num">20.6.5</span> Resumen de puntos notables<a class="enlace-seccion" href="#resumen-de-puntos-notables" aria-label="Enlace a esta sección">#</a></h3>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Punto</strong></th><th style="text-align:left"><strong>Se forma con</strong></th><th style="text-align:left"><strong>Propiedad</strong></th><th style="text-align:left"><strong>Posición</strong></th></tr></thead><tbody><tr><td style="text-align:left">Baricentro</td><td style="text-align:left">Medianas</td><td style="text-align:left">Centro de equilibrio</td><td style="text-align:left">Siempre interior</td></tr><tr><td style="text-align:left">Ortocentro</td><td style="text-align:left">Alturas</td><td style="text-align:left">Intersección de alturas</td><td style="text-align:left">Interior, vértice o exterior</td></tr><tr><td style="text-align:left">Incentro</td><td style="text-align:left">Bisectrices</td><td style="text-align:left">Equidista de los lados</td><td style="text-align:left">Siempre interior</td></tr><tr><td style="text-align:left">Circuncentro</td><td style="text-align:left">Mediatrices</td><td style="text-align:left">Equidista de los vértices</td><td style="text-align:left">Interior, lado o exterior</td></tr></tbody></table></div></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En un triángulo equilátero, el baricentro, el ortocentro, el incentro y el circuncentro coinciden en un mismo punto.</p></div></section>
+<h2 id="teorema-de-pitagoras"><span class="num">20.7</span> Teorema de Pitágoras<a class="enlace-seccion" href="#teorema-de-pitagoras" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Teorema de Pitágoras</div><div class="caja-cuerpo"><p>En un triángulo rectángulo:</p>
+<div class="mate"><span class="mate-bloque">\[c^2=a^2+b^2,\]</span></div>
+<p>donde \(c\) es la hipotenusa y \(a\) y \(b\) son los catetos.</p></div></section>
+<p>La hipotenusa:</p>
+<ul><li>es opuesta al ángulo recto;</li><li>es el lado más largo.</li></ul>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-b3c57b26c870.svg" alt="Figura 20.5" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-20-5"><div class="caja-titulo">Ejemplo 20.5</div><div class="caja-cuerpo"><p>Los catetos miden:</p>
+<div class="mate"><span class="mate-bloque">\[3\text{ cm} \qquad\text{y}\qquad 4\text{ cm}.\]</span></div>
+<p>Calcula la hipotenusa.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[c^2=3^2+4^2.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[c^2=9+16=25.\]</span></div>
+<p>Como la longitud es positiva:</p>
+<div class="mate"><span class="mate-bloque">\[c=5.\]</span></div>
+<p>La hipotenusa mide:</p>
+<div class="mate"><span class="mate-bloque">\[5\text{ cm}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-20-6"><div class="caja-titulo">Ejemplo 20.6</div><div class="caja-cuerpo"><p>La hipotenusa mide:</p>
+<div class="mate"><span class="mate-bloque">\[13\text{ cm}\]</span></div>
+<p>y un cateto mide:</p>
+<div class="mate"><span class="mate-bloque">\[5\text{ cm}.\]</span></div>
+<p>Calcula el otro cateto.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[13^2=a^2+5^2.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[169=a^2+25.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a^2=144.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[a=12\text{ cm}.\]</span></div></div></details></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Recíproco de Pitágoras</div><div class="caja-cuerpo"><p>Si \(c\) es el lado mayor y se cumple:</p>
+<div class="mate"><span class="mate-bloque">\[c^2=a^2+b^2,\]</span></div>
+<p>entonces el triángulo es rectángulo.</p></div></section>
+<h2 id="congruencia-de-triangulos"><span class="num">20.8</span> Congruencia de triángulos<a class="enlace-seccion" href="#congruencia-de-triangulos" aria-label="Enlace a esta sección">#</a></h2>
+<p>Dos triángulos son congruentes si tienen la misma forma y el mismo tamaño.</p>
+<p>Se escribe:</p>
+<div class="mate"><span class="mate-bloque">\[\triangle ABC \cong \triangle DEF.\]</span></div>
+<p>El orden de las letras indica las correspondencias:</p>
+<div class="mate"><span class="mate-bloque">\[A\leftrightarrow D, \qquad B\leftrightarrow E, \qquad C\leftrightarrow F.\]</span></div>
+<p>Los criterios de congruencia son:</p>
+<ul><li><strong>LLL</strong>: tres lados correspondientes iguales;</li><li><strong>LAL</strong>: dos lados y el ángulo comprendido iguales;</li><li><strong>ALA</strong>: dos ángulos y el lado comprendido iguales;</li><li><strong>AAL</strong>: dos ángulos y un lado correspondiente iguales;</li><li><strong>HC</strong>: en triángulos rectángulos, hipotenusa y un cateto iguales.</li></ul>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El criterio LLA no garantiza, en general, la congruencia.</p>
+<p>Dos lados y un ángulo no comprendido pueden producir dos triángulos diferentes.</p></div></section>
+<h2 id="semejanza-de-triangulos"><span class="num">20.9</span> Semejanza de triángulos<a class="enlace-seccion" href="#semejanza-de-triangulos" aria-label="Enlace a esta sección">#</a></h2>
+<p>Dos triángulos son semejantes si tienen la misma forma, aunque pueden tener diferente tamaño.</p>
+<p>Se escribe:</p>
+<div class="mate"><span class="mate-bloque">\[\triangle ABC \sim \triangle DEF.\]</span></div>
+<p>Sus ángulos correspondientes son iguales y sus lados correspondientes son proporcionales.</p>
+<p>Los criterios de semejanza son:</p>
+<ul><li><strong>AA</strong>: dos ángulos correspondientes iguales;</li><li><strong>LAL</strong>: dos pares de lados proporcionales y el ángulo comprendido igual;</li><li><strong>LLL</strong>: tres pares de lados proporcionales.</li></ul>
+<h3 id="razon-de-semejanza"><span class="num">20.9.1</span> Razón de semejanza<a class="enlace-seccion" href="#razon-de-semejanza" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[\triangle ABC \sim \triangle DEF,\]</span></div>
+<p>la razón de semejanza es:</p>
+<div class="mate"><span class="mate-bloque">\[k = \frac{DE}{AB} = \frac{EF}{BC} = \frac{FD}{CA}.\]</span></div>
+<p>Si la razón de semejanza es \(k\):</p>
+<ul><li>los lados cambian por un factor \(k\);</li><li>los perímetros cambian por un factor \(k\);</li><li>las áreas cambian por un factor \(k^2\).</li></ul>
+<section class="caja caja-ejemplo" id="ejemplo-20-7"><div class="caja-titulo">Ejemplo 20.7</div><div class="caja-cuerpo"><p>Dos triángulos semejantes tienen lados correspondientes de:</p>
+<div class="mate"><span class="mate-bloque">\[4\text{ cm} \qquad\text{y}\qquad 6\text{ cm}.\]</span></div>
+<p>Si el perímetro del menor es:</p>
+<div class="mate"><span class="mate-bloque">\[20\text{ cm},\]</span></div>
+<p>calcula el perímetro del mayor.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La razón del mayor respecto del menor es:</p>
+<div class="mate"><span class="mate-bloque">\[k = \frac64 = \frac32.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[P_{\text{mayor}} = 20 \left( \frac32 \right).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P_{\text{mayor}} = 30\text{ cm}.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Si los lados cambian por un factor \(k\), las áreas cambian por:</p>
+<div class="mate"><span class="mate-bloque">\[k^2.\]</span></div>
+<p>Si los lados se triplican, el área se multiplica por:</p>
+<div class="mate"><span class="mate-bloque">\[3^2=9.\]</span></div></div></section>
+<h2 id="aplicacion-de-la-semejanza"><span class="num">20.10</span> Aplicación de la semejanza<a class="enlace-seccion" href="#aplicacion-de-la-semejanza" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-20-8"><div class="caja-titulo">Ejemplo 20.8</div><div class="caja-cuerpo"><p>Un poste de:</p>
+<div class="mate"><span class="mate-bloque">\[2\text{ m}\]</span></div>
+<p>proyecta una sombra de:</p>
+<div class="mate"><span class="mate-bloque">\[3\text{ m}.\]</span></div>
+<p>En el mismo momento, un edificio proyecta una sombra de:</p>
+<div class="mate"><span class="mate-bloque">\[15\text{ m}.\]</span></div>
+<p>Calcula la altura del edificio.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los triángulos formados por las alturas y las sombras son semejantes.</p>
+<p>Sea \(h\) la altura del edificio:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{h}{15} = \frac23.\]</span></div>
+<p>Multiplicamos en cruz:</p>
+<div class="mate"><span class="mate-bloque">\[3h=30.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[h=10\text{ m}.\]</span></div></div></details></div></section>
+<h2 id="procedimiento-rapido"><span class="num">20.11</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="problemas-de-angulos">Problemas de ángulos<a class="enlace-seccion" href="#problemas-de-angulos" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica los ángulos conocidos.</li><li>Utiliza: <span class="mate-bloque">\[A+B+C=180^\circ.\]</span></li><li>Si es isósceles, iguala los ángulos de la base.</li><li>Si aparece un ángulo exterior, suma los interiores no adyacentes.</li></ol>
+<h3 id="rectas-notables">Rectas notables<a class="enlace-seccion" href="#rectas-notables" aria-label="Enlace a esta sección">#</a></h3>
+<ul><li>Vértice al punto medio: <span class="mate-bloque">\[\text{mediana}.\]</span></li><li>Perpendicular desde un vértice: <span class="mate-bloque">\[\text{altura}.\]</span></li><li>Divide un ángulo en dos: <span class="mate-bloque">\[\text{bisectriz}.\]</span></li><li>Perpendicular por el punto medio: <span class="mate-bloque">\[\text{mediatriz}.\]</span></li></ul>
+<h3 id="teorema-de-pitagoras-2">Teorema de Pitágoras<a class="enlace-seccion" href="#teorema-de-pitagoras-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica la hipotenusa.</li><li>Utiliza: <span class="mate-bloque">\[c^2=a^2+b^2.\]</span></li><li>Despeja la longitud desconocida.</li><li>Elige la raíz positiva.</li></ol>
+<h3 id="semejanza">Semejanza<a class="enlace-seccion" href="#semejanza" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica los lados correspondientes.</li><li>Escribe las proporciones en el mismo orden.</li><li>Calcula la razón de semejanza.</li><li>Para áreas, utiliza el cuadrado de la razón.</li></ol>
+<h2 id="resumen"><span class="num">20.12</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Suma de ángulos interiores:</p>
+<div class="mate"><span class="mate-bloque">\[A+B+C=180^\circ.\]</span></div>
+<p>Ángulo exterior:</p>
+<div class="mate"><span class="mate-bloque">\[\theta=\alpha+\beta.\]</span></div>
+<p>Desigualdad triangular:</p>
+<div class="mate"><span class="mate-bloque">\[|a-b|&lt;c&lt;a+b.\]</span></div>
+<p>Medianas:</p>
+<div class="mate"><span class="mate-bloque">\[\text{se cortan en el baricentro}.\]</span></div>
+<p>Alturas:</p>
+<div class="mate"><span class="mate-bloque">\[\text{se cortan en el ortocentro}.\]</span></div>
+<p>Bisectrices:</p>
+<div class="mate"><span class="mate-bloque">\[\text{se cortan en el incentro}.\]</span></div>
+<p>Mediatrices:</p>
+<div class="mate"><span class="mate-bloque">\[\text{se cortan en el circuncentro}.\]</span></div>
+<p>Teorema de Pitágoras:</p>
+<div class="mate"><span class="mate-bloque">\[c^2=a^2+b^2.\]</span></div>
+<p>Razón de áreas de figuras semejantes:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{A_2}{A_1}=k^2.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">20.13</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>Los ángulos interiores de un triángulo suman: <span class="mate-bloque">\[180^\circ.\]</span></li><li>Los lados iguales están frente a ángulos iguales.</li><li>En la desigualdad triangular no se permite la igualdad.</li><li>La mediana y la mediatriz no son lo mismo.</li><li>La altura debe ser perpendicular al lado opuesto o a su prolongación.</li><li>El incentro se relaciona con los lados.</li><li>El circuncentro se relaciona con los vértices.</li><li>El baricentro divide cada mediana en razón: <span class="mate-bloque">\[2:1.\]</span></li><li>En Pitágoras, \(c\) debe ser la hipotenusa.</li><li>Congruencia significa misma forma y mismo tamaño.</li><li>Semejanza significa misma forma, pero no necesariamente el mismo tamaño.</li><li>Las áreas de figuras semejantes cambian con el cuadrado de la razón.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">20.14</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-20-1"><div class="caja-titulo">Ejercicio 20.1</div><div class="caja-cuerpo"><p>En un triángulo, dos ángulos miden:</p>
+<div class="mate"><span class="mate-bloque">\[52^\circ \qquad\text{y}\qquad 73^\circ.\]</span></div>
+<p>Calcula el tercer ángulo.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La suma de los ángulos interiores es \(180^\circ\). El tercer ángulo es: <span class="mate-bloque">\[180^\circ - 52^\circ - 73^\circ = 55^\circ.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-2"><div class="caja-titulo">Ejercicio 20.2</div><div class="caja-cuerpo"><p>En un triángulo isósceles, cada ángulo de la base mide:</p>
+<div class="mate"><span class="mate-bloque">\[65^\circ.\]</span></div>
+<p>Calcula el ángulo comprendido entre los lados iguales.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los ángulos de la base son iguales. El ángulo comprendido es: <span class="mate-bloque">\[180^\circ - (65^\circ + 65^\circ) = 180^\circ - 130^\circ = 50^\circ.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-3"><div class="caja-titulo">Ejercicio 20.3</div><div class="caja-cuerpo"><p>Clasifica según sus lados el triángulo con longitudes:</p>
+<div class="mate"><span class="mate-bloque">\[5\text{ cm}, \qquad 5\text{ cm}, \qquad 7\text{ cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Tiene dos lados de igual longitud (\(5\text{ cm}\)), por lo que es un triángulo isósceles.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-4"><div class="caja-titulo">Ejercicio 20.4</div><div class="caja-cuerpo"><p>Clasifica según sus ángulos el triángulo cuyos ángulos son:</p>
+<div class="mate"><span class="mate-bloque">\[40^\circ, \qquad 60^\circ, \qquad 80^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Todos sus ángulos son menores a \(90^\circ\), por lo que es un triángulo acutángulo.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-5"><div class="caja-titulo">Ejercicio 20.5</div><div class="caja-cuerpo"><p>Determina si las longitudes:</p>
+<div class="mate"><span class="mate-bloque">\[3,\qquad4,\qquad8\]</span></div>
+<p>pueden formar un triángulo.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>No. Por la desigualdad triangular, la suma de los dos lados menores debe ser mayor que el tercero: \(3+4=7\), lo cual no es mayor que \(8\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-6"><div class="caja-titulo">Ejercicio 20.6</div><div class="caja-cuerpo"><p>Una mediana mide:</p>
+<div class="mate"><span class="mate-bloque">\[18\text{ cm}.\]</span></div>
+<p>Calcula las dos partes en que la divide el baricentro.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El baricentro divide a la mediana en una proporción \(2:1\). Las partes son \(\frac{2}{3}(18) = 12\text{ cm}\) y \(\frac{1}{3}(18) = 6\text{ cm}\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-7"><div class="caja-titulo">Ejercicio 20.7</div><div class="caja-cuerpo"><p>Relaciona cada conjunto de rectas con su punto notable:</p>
+<ol><li>medianas;</li><li>alturas;</li><li>bisectrices;</li><li>mediatrices.</li></ol>
+<p>Utiliza los nombres:</p>
+<div class="mate"><span class="mate-bloque">\[\text{baricentro}, \quad \text{ortocentro}, \quad \text{incentro}, \quad \text{circuncentro}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><ol><li>medianas \(\to\) baricentro;</li><li>alturas \(\to\) ortocentro;</li><li>bisectrices \(\to\) incentro;</li><li>mediatrices \(\to\) circuncentro.</li></ol></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-8"><div class="caja-titulo">Ejercicio 20.8</div><div class="caja-cuerpo"><p>¿En qué punto se encuentra el ortocentro de un triángulo rectángulo?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>En el vértice correspondiente al ángulo recto.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-9"><div class="caja-titulo">Ejercicio 20.9</div><div class="caja-cuerpo"><p>¿En qué parte se encuentra el circuncentro de un triángulo obtusángulo?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>En el exterior del triángulo.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-10"><div class="caja-titulo">Ejercicio 20.10</div><div class="caja-cuerpo"><p>En un triángulo rectángulo, los catetos miden:</p>
+<div class="mate"><span class="mate-bloque">\[5\text{ cm} \qquad\text{y}\qquad 12\text{ cm}.\]</span></div>
+<p>Calcula la hipotenusa.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Por el teorema de Pitágoras: <span class="mate-bloque">\[c = \sqrt{5^2 + 12^2} = \sqrt{25 + 144} = \sqrt{169} = 13\text{ cm}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-11"><div class="caja-titulo">Ejercicio 20.11</div><div class="caja-cuerpo"><p>La hipotenusa mide:</p>
+<div class="mate"><span class="mate-bloque">\[17\text{ cm}\]</span></div>
+<p>y uno de los catetos mide:</p>
+<div class="mate"><span class="mate-bloque">\[8\text{ cm}.\]</span></div>
+<p>Calcula el otro cateto.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Por el teorema de Pitágoras: <span class="mate-bloque">\[a = \sqrt{17^2 - 8^2} = \sqrt{289 - 64} = \sqrt{225} = 15\text{ cm}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-12"><div class="caja-titulo">Ejercicio 20.12</div><div class="caja-cuerpo"><p>Calcula la diagonal de un cuadrado cuyo lado mide:</p>
+<div class="mate"><span class="mate-bloque">\[5\text{ cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La diagonal divide al cuadrado en dos triángulos rectángulos. <span class="mate-bloque">\[d = \sqrt{5^2 + 5^2} = \sqrt{25+25} = \sqrt{50} = 5\sqrt{2}\text{ cm}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-13"><div class="caja-titulo">Ejercicio 20.13</div><div class="caja-cuerpo"><p>Dos triángulos semejantes tienen lados correspondientes de:</p>
+<div class="mate"><span class="mate-bloque">\[3\text{ cm} \qquad\text{y}\qquad 9\text{ cm}.\]</span></div>
+<p>Si el área del triángulo menor es:</p>
+<div class="mate"><span class="mate-bloque">\[10\text{ cm}^2,\]</span></div>
+<p>calcula el área del mayor.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La razón de semejanza de los lados es \(\frac{9}{3} = 3\). Las áreas son proporcionales al cuadrado de la razón de semejanza: \(3^2 = 9\). El área del triángulo mayor es \(10 \times 9 = 90\text{ cm}^2\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-20-14"><div class="caja-titulo">Ejercicio 20.14</div><div class="caja-cuerpo"><p>Un árbol de:</p>
+<div class="mate"><span class="mate-bloque">\[4\text{ m}\]</span></div>
+<p>proyecta una sombra de:</p>
+<div class="mate"><span class="mate-bloque">\[6\text{ m}.\]</span></div>
+<p>Al mismo tiempo, una torre proyecta una sombra de:</p>
+<div class="mate"><span class="mate-bloque">\[24\text{ m}.\]</span></div>
+<p>Calcula la altura de la torre.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los triángulos formados por la altura y la sombra son semejantes. <span class="mate-bloque">\[\frac{h_{\text{torre}}}{4} = \frac{24}{6} \implies \frac{h_{\text{torre}}}{4} = 4 \implies h_{\text{torre}} = 16\text{ m}.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="19-elementos-basicos.html"><span>← Anterior</span>19. Elementos básicos de geometría</a><a class="nav-siguiente" href="21-cuadrilateros-poligonos.html"><span>Siguiente →</span>21. Cuadriláteros y polígonos</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

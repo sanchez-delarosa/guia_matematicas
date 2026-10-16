@@ -1,0 +1,2923 @@
+{
+  "metadata": {
+    "capitulo": "14",
+    "titulo": "Números complejos",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 11,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 110,
+    "secciones_incluidas": [
+      {
+        "codigo": "14.1",
+        "nombre": "Unidad imaginaria"
+      },
+      {
+        "codigo": "14.2",
+        "nombre": "Potencias de la unidad imaginaria"
+      },
+      {
+        "codigo": "14.3",
+        "nombre": "Números imaginarios puros"
+      },
+      {
+        "codigo": "14.4",
+        "nombre": "Forma algebraica de un número complejo"
+      },
+      {
+        "codigo": "14.5",
+        "nombre": "Representación en el plano complejo"
+      },
+      {
+        "codigo": "14.6",
+        "nombre": "Igualdad de números complejos"
+      },
+      {
+        "codigo": "14.7",
+        "nombre": "Suma y resta de números complejos"
+      },
+      {
+        "codigo": "14.8",
+        "nombre": "Multiplicación de números complejos"
+      },
+      {
+        "codigo": "14.9",
+        "nombre": "Conjugado de un número complejo"
+      },
+      {
+        "codigo": "14.10",
+        "nombre": "División de números complejos"
+      },
+      {
+        "codigo": "14.11",
+        "nombre": "Ecuaciones cuadráticas con soluciones complejas"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Reactivos distintos y específicos por subtema, inspirados en la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-14-1-01",
+      "pregunta": "Simplifique $\\sqrt{-49}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$7i$",
+        "B": "$-7i$",
+        "C": "$7$",
+        "D": "$-7$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "convertir raíz negativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-1-02",
+      "pregunta": "Simplifique $\\sqrt{-81}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$-9i$",
+        "B": "$9$",
+        "C": "$-9$",
+        "D": "$9i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "convertir raíz negativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-1-03",
+      "pregunta": "Simplifique $\\sqrt{-121}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$11$",
+        "B": "$-11$",
+        "C": "$11i$",
+        "D": "$-11i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "convertir raíz negativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-1-04",
+      "pregunta": "Simplifique $\\sqrt{-36}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$-6$",
+        "B": "$6i$",
+        "C": "$-6i$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "convertir raíz negativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-1-05",
+      "pregunta": "Simplifique $\\sqrt{-64}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$8i$",
+        "B": "$-8i$",
+        "C": "$8$",
+        "D": "$-8$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "convertir raíz negativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-1-06",
+      "pregunta": "Simplifique $\\sqrt{-100}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$-10i$",
+        "B": "$10$",
+        "C": "$-10$",
+        "D": "$10i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "convertir raíz negativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-1-07",
+      "pregunta": "Simplifique $\\sqrt{-144}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$-12$",
+        "C": "$12i$",
+        "D": "$-12i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "convertir raíz negativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-1-08",
+      "pregunta": "Simplifique $\\sqrt{-25}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$-5$",
+        "B": "$5i$",
+        "C": "$-5i$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "convertir raíz negativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-1-09",
+      "pregunta": "¿Cuál identidad define la unidad imaginaria?",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$i^2=-1$",
+        "B": "$i^2=1$",
+        "C": "$i=-1$",
+        "D": "$i^2=i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer definición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-1-10",
+      "pregunta": "Simplifique $\\sqrt{-18}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$3\\sqrt2$",
+        "B": "$-3\\sqrt2i$",
+        "C": "$9\\sqrt2i$",
+        "D": "$3\\sqrt2i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "simplificar raíz negativa no perfecta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-2-01",
+      "pregunta": "Simplifique $i^{27}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Potencias de la unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$i$",
+        "B": "$-1$",
+        "C": "$-i$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "reducir potencia módulo cuatro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-2-02",
+      "pregunta": "Simplifique $i^{100}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Potencias de la unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$-i$",
+        "B": "$1$",
+        "C": "$i$",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reducir potencia módulo cuatro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-2-03",
+      "pregunta": "Simplifique $i^{35}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Potencias de la unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$-i$",
+        "B": "$1$",
+        "C": "$i$",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "reducir potencia módulo cuatro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-2-04",
+      "pregunta": "Simplifique $i^{42}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Potencias de la unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$i$",
+        "C": "$-i$",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reducir potencia módulo cuatro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-2-05",
+      "pregunta": "Simplifique $i^{57}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Potencias de la unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$-1$",
+        "B": "$-i$",
+        "C": "$i$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "reducir potencia módulo cuatro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-2-06",
+      "pregunta": "Simplifique $i^{68}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Potencias de la unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$-i$",
+        "B": "$1$",
+        "C": "$i$",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reducir potencia módulo cuatro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-2-07",
+      "pregunta": "Simplifique $i^{73}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Potencias de la unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$i$",
+        "B": "$1$",
+        "C": "$-1$",
+        "D": "$-i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "reducir potencia módulo cuatro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-2-08",
+      "pregunta": "Simplifique $i^{86}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Potencias de la unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$i$",
+        "C": "$-i$",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reducir potencia módulo cuatro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-2-09",
+      "pregunta": "Simplifique $i^{91}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Potencias de la unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$i$",
+        "B": "$-1$",
+        "C": "$-i$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "reducir potencia módulo cuatro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-2-10",
+      "pregunta": "Simplifique $i^{124}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Potencias de la unidad imaginaria"
+      },
+      "respuestas_posibles": {
+        "A": "$-i$",
+        "B": "$1$",
+        "C": "$i$",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reducir potencia módulo cuatro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-3-01",
+      "pregunta": "Simplifique $(4i)+(-7i)+(6i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Números imaginarios puros"
+      },
+      "respuestas_posibles": {
+        "A": "$3i$",
+        "B": "$-3i$",
+        "C": "$17i$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "combinar imaginarios puros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-3-02",
+      "pregunta": "Simplifique $(9i)+(2i)+(-5i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Números imaginarios puros"
+      },
+      "respuestas_posibles": {
+        "A": "$-6i$",
+        "B": "$16i$",
+        "C": "$6$",
+        "D": "$6i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "combinar imaginarios puros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-3-03",
+      "pregunta": "Simplifique $(-3i)+(8i)+(4i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Números imaginarios puros"
+      },
+      "respuestas_posibles": {
+        "A": "$15i$",
+        "B": "$9$",
+        "C": "$9i$",
+        "D": "$-9i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "combinar imaginarios puros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-3-04",
+      "pregunta": "Simplifique $(12i)+(-15i)+(2i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Números imaginarios puros"
+      },
+      "respuestas_posibles": {
+        "A": "$-1$",
+        "B": "$-1i$",
+        "C": "$1i$",
+        "D": "$29i$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "combinar imaginarios puros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-3-05",
+      "pregunta": "Simplifique $(7i)+(-2i)+(-11i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Números imaginarios puros"
+      },
+      "respuestas_posibles": {
+        "A": "$-6i$",
+        "B": "$6i$",
+        "C": "$20i$",
+        "D": "$-6$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "combinar imaginarios puros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-3-06",
+      "pregunta": "Simplifique $\\sqrt{-20}-\\sqrt{-45}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Números imaginarios puros"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt5i$",
+        "B": "$0$",
+        "C": "$\\sqrt2$",
+        "D": "$-\\sqrt5i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "operar radicales imaginarios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-3-07",
+      "pregunta": "Simplifique $\\sqrt{-8}-\\sqrt{-18}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Números imaginarios puros"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\sqrt2$",
+        "C": "$-\\sqrt2i$",
+        "D": "$\\sqrt2i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "operar radicales imaginarios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-3-08",
+      "pregunta": "Simplifique $\\sqrt{-12}-\\sqrt{-27}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Números imaginarios puros"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt2$",
+        "B": "$-\\sqrt3i$",
+        "C": "$\\sqrt3i$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "operar radicales imaginarios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-3-09",
+      "pregunta": "Simplifique $\\sqrt{-32}-\\sqrt{-8}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Números imaginarios puros"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\sqrt2i$",
+        "B": "$-2\\sqrt2i$",
+        "C": "$0$",
+        "D": "$\\sqrt2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "operar radicales imaginarios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-3-10",
+      "pregunta": "Simplifique $\\sqrt{-50}-\\sqrt{-8}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Números imaginarios puros"
+      },
+      "respuestas_posibles": {
+        "A": "$-2\\sqrt2i$",
+        "B": "$0$",
+        "C": "$\\sqrt2$",
+        "D": "$3\\sqrt2i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "operar radicales imaginarios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-4-01",
+      "pregunta": "Para $z=6-8i$, identifique $\\operatorname{Re}(z)$ y $\\operatorname{Im}(z)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Forma algebraica de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\operatorname{Re}(z)=6,\\;\\operatorname{Im}(z)=8$",
+        "B": "$\\operatorname{Re}(z)=0,\\;\\operatorname{Im}(z)=-2$",
+        "C": "$\\operatorname{Re}(z)=6,\\;\\operatorname{Im}(z)=-8$",
+        "D": "$\\operatorname{Re}(z)=-8,\\;\\operatorname{Im}(z)=6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar partes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-4-02",
+      "pregunta": "Para $z=0+7i$, identifique $\\operatorname{Re}(z)$ y $\\operatorname{Im}(z)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Forma algebraica de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opcion alternativa 3}$",
+        "B": "$\\operatorname{Re}(z)=0,\\;\\operatorname{Im}(z)=7$",
+        "C": "$\\operatorname{Re}(z)=7,\\;\\operatorname{Im}(z)=0$",
+        "D": "$\\text{opcion alternativa 2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar partes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-4-03",
+      "pregunta": "Para $z=-3+5i$, identifique $\\operatorname{Re}(z)$ y $\\operatorname{Im}(z)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Forma algebraica de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\operatorname{Re}(z)=-3,\\;\\operatorname{Im}(z)=5$",
+        "B": "$\\operatorname{Re}(z)=5,\\;\\operatorname{Im}(z)=-3$",
+        "C": "$\\operatorname{Re}(z)=0,\\;\\operatorname{Im}(z)=2$",
+        "D": "$\\text{opcion alternativa 3}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar partes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-4-04",
+      "pregunta": "Para $z=4$, identifique $\\operatorname{Re}(z)$ y $\\operatorname{Im}(z)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Forma algebraica de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\operatorname{Re}(z)=0,\\;\\operatorname{Im}(z)=4$",
+        "B": "$\\text{opcion alternativa 2}$",
+        "C": "$\\text{opcion alternativa 3}$",
+        "D": "$\\operatorname{Re}(z)=4,\\;\\operatorname{Im}(z)=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar partes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-4-05",
+      "pregunta": "Para $z=-2-9i$, identifique $\\operatorname{Re}(z)$ y $\\operatorname{Im}(z)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Forma algebraica de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\operatorname{Re}(z)=-2,\\;\\operatorname{Im}(z)=9$",
+        "B": "$\\operatorname{Re}(z)=0,\\;\\operatorname{Im}(z)=-11$",
+        "C": "$\\operatorname{Re}(z)=-2,\\;\\operatorname{Im}(z)=-9$",
+        "D": "$\\operatorname{Re}(z)=-9,\\;\\operatorname{Im}(z)=-2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar partes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-4-06",
+      "pregunta": "Escriba el par ordenado correspondiente a $3+4i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Forma algebraica de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opcion alternativa 3}$",
+        "B": "$(3,4)$",
+        "C": "$(4,3)$",
+        "D": "$(7,0)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "convertir a par ordenado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-4-07",
+      "pregunta": "Escriba el par ordenado correspondiente a $-5+2i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Forma algebraica de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$(-5,2)$",
+        "B": "$(2,-5)$",
+        "C": "$(-3,0)$",
+        "D": "$\\text{opcion alternativa 3}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "convertir a par ordenado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-4-08",
+      "pregunta": "Escriba el par ordenado correspondiente a $0-6i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Forma algebraica de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$(-6,0)$",
+        "B": "$(0,6)$",
+        "C": "$\\text{opcion alternativa 3}$",
+        "D": "$(0,-6)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "convertir a par ordenado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-4-09",
+      "pregunta": "Escriba el par ordenado correspondiente a $8+0i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Forma algebraica de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opcion alternativa 2}$",
+        "B": "$\\text{opcion alternativa 3}$",
+        "C": "$(8,0)$",
+        "D": "$(0,8)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "convertir a par ordenado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-4-10",
+      "pregunta": "Escriba el par ordenado correspondiente a $1-7i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Forma algebraica de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$(-6,0)$",
+        "B": "$(1,-7)$",
+        "C": "$(-7,1)$",
+        "D": "$(1,7)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "convertir a par ordenado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-5-01",
+      "pregunta": "Calcule el módulo de $z=3+4i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.5",
+        "nombre": "Representación en el plano complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$7$",
+        "C": "$25$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular módulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-5-02",
+      "pregunta": "Calcule el módulo de $z=-5+12i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.5",
+        "nombre": "Representación en el plano complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$17$",
+        "B": "$169$",
+        "C": "$\\text{opcion alternativa 3}$",
+        "D": "$13$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular módulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-5-03",
+      "pregunta": "Calcule el módulo de $z=6+8i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.5",
+        "nombre": "Representación en el plano complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$100$",
+        "B": "$2$",
+        "C": "$10$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular módulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-5-04",
+      "pregunta": "Calcule el módulo de $z=5-12i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.5",
+        "nombre": "Representación en el plano complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opcion alternativa 3}$",
+        "B": "$13$",
+        "C": "$17$",
+        "D": "$169$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular módulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-5-05",
+      "pregunta": "Calcule el módulo de $z=-8-15i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.5",
+        "nombre": "Representación en el plano complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$17$",
+        "B": "$23$",
+        "C": "$289$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular módulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-5-06",
+      "pregunta": "¿En qué cuadrante se representa $z=3+2i$? ",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.5",
+        "nombre": "Representación en el plano complejo"
+      },
+      "respuestas_posibles": {
+        "A": "segundo cuadrante",
+        "B": "tercer cuadrante",
+        "C": "cuarto cuadrante",
+        "D": "primer cuadrante"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "ubicar en plano complejo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-5-07",
+      "pregunta": "¿En qué cuadrante se representa $z=-4+5i$? ",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.5",
+        "nombre": "Representación en el plano complejo"
+      },
+      "respuestas_posibles": {
+        "A": "tercer cuadrante",
+        "B": "cuarto cuadrante",
+        "C": "segundo cuadrante",
+        "D": "primer cuadrante"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "ubicar en plano complejo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-5-08",
+      "pregunta": "¿En qué cuadrante se representa $z=-2-7i$? ",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.5",
+        "nombre": "Representación en el plano complejo"
+      },
+      "respuestas_posibles": {
+        "A": "cuarto cuadrante",
+        "B": "tercer cuadrante",
+        "C": "primer cuadrante",
+        "D": "segundo cuadrante"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "ubicar en plano complejo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-5-09",
+      "pregunta": "¿En qué cuadrante se representa $z=6-1i$? ",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.5",
+        "nombre": "Representación en el plano complejo"
+      },
+      "respuestas_posibles": {
+        "A": "cuarto cuadrante",
+        "B": "primer cuadrante",
+        "C": "segundo cuadrante",
+        "D": "tercer cuadrante"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "ubicar en plano complejo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-5-10",
+      "pregunta": "¿Qué punto representa al número $-3+5i$?",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.5",
+        "nombre": "Representación en el plano complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,-5)$",
+        "B": "$(-5,3)$",
+        "C": "$(5,-3)$",
+        "D": "$(-3,5)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "representar número complejo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-6-01",
+      "pregunta": "Si $(2x+5)+(-1y+7)i=11+3i$, determine $x$ y $y$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.6",
+        "nombre": "Igualdad de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-3,\\;y=4$",
+        "B": "$x=3,\\;y=-4$",
+        "C": "$x=3,\\;y=4$",
+        "D": "$x=4,\\;y=3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "igualar partes real e imaginaria",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-6-02",
+      "pregunta": "Si $(3x-2)+(1y+6)i=-5+11i$, determine $x$ y $y$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.6",
+        "nombre": "Igualdad de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-1,\\;y=-5$",
+        "B": "$x=-1,\\;y=5$",
+        "C": "$x=5,\\;y=-1$",
+        "D": "$x=1,\\;y=5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "igualar partes real e imaginaria",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-6-03",
+      "pregunta": "Si $(-1x+2)+(4y-3)i=-1-31i$, determine $x$ y $y$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.6",
+        "nombre": "Igualdad de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3,\\;y=-7$",
+        "B": "$x=-7,\\;y=3$",
+        "C": "$x=-3,\\;y=-7$",
+        "D": "$x=3,\\;y=7$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "igualar partes real e imaginaria",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-6-04",
+      "pregunta": "Si $(5x+1)+(-2y+8)i=-9-12i$, determine $x$ y $y$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.6",
+        "nombre": "Igualdad de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$x=10,\\;y=-2$",
+        "B": "$x=2,\\;y=10$",
+        "C": "$x=-2,\\;y=-10$",
+        "D": "$x=-2,\\;y=10$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "igualar partes real e imaginaria",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-6-05",
+      "pregunta": "Si $(4x-5)+(3y+2)i=-41-1i$, determine $x$ y $y$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.6",
+        "nombre": "Igualdad de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$x=9,\\;y=-1$",
+        "B": "$x=-9,\\;y=1$",
+        "C": "$x=-9,\\;y=-1$",
+        "D": "$x=-1,\\;y=-9$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "igualar partes real e imaginaria",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-6-06",
+      "pregunta": "¿Son iguales $3+4i$ y $3+4i$?",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.6",
+        "nombre": "Igualdad de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, porque tienen el mismo módulo únicamente",
+        "B": "Sí, porque sus partes real e imaginaria coinciden",
+        "C": "No, porque solo coincide la parte real",
+        "D": "No, porque solo coincide la parte imaginaria"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "verificar igualdad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-6-07",
+      "pregunta": "¿Son iguales $2-5i$ y $2-5i$?",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.6",
+        "nombre": "Igualdad de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, porque sus partes real e imaginaria coinciden",
+        "B": "No, porque solo coincide la parte real",
+        "C": "No, porque solo coincide la parte imaginaria",
+        "D": "Sí, porque tienen el mismo módulo únicamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "verificar igualdad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-6-08",
+      "pregunta": "¿Son iguales $-1+7i$ y $-1+7i$?",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.6",
+        "nombre": "Igualdad de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "No, porque solo coincide la parte real",
+        "B": "No, porque solo coincide la parte imaginaria",
+        "C": "Sí, porque tienen el mismo módulo únicamente",
+        "D": "Sí, porque sus partes real e imaginaria coinciden"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "verificar igualdad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-6-09",
+      "pregunta": "¿Son iguales $6+0i$ y $6+0i$?",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.6",
+        "nombre": "Igualdad de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "No, porque solo coincide la parte imaginaria",
+        "B": "Sí, porque tienen el mismo módulo únicamente",
+        "C": "Sí, porque sus partes real e imaginaria coinciden",
+        "D": "No, porque solo coincide la parte real"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "verificar igualdad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-6-10",
+      "pregunta": "¿Son iguales $0-3i$ y $0-3i$?",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.6",
+        "nombre": "Igualdad de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, porque tienen el mismo módulo únicamente",
+        "B": "Sí, porque sus partes real e imaginaria coinciden",
+        "C": "No, porque solo coincide la parte real",
+        "D": "No, porque solo coincide la parte imaginaria"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "verificar igualdad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-7-01",
+      "pregunta": "Calcule $(4+2i)+(-5+3i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.7",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$-1+5i$",
+        "B": "$-1-5i$",
+        "C": "$9-1i$",
+        "D": "$-20+6i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sumar o restar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-7-02",
+      "pregunta": "Calcule $(6-3i)-(-3-7i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.7",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$9-4i$",
+        "B": "$3-10i$",
+        "C": "$-18+21i$",
+        "D": "$9+4i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sumar o restar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-7-03",
+      "pregunta": "Calcule $(-2+5i)+(7-1i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.7",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$-9+6i$",
+        "B": "$-14-5i$",
+        "C": "$5+4i$",
+        "D": "$5-4i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sumar o restar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-7-04",
+      "pregunta": "Calcule $(8+4i)-(3-6i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.7",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$24-24i$",
+        "B": "$5+10i$",
+        "C": "$5-10i$",
+        "D": "$11-2i$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sumar o restar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-7-05",
+      "pregunta": "Calcule $(-1-2i)+(-6+1i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.7",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$-7-1i$",
+        "B": "$-7+1i$",
+        "C": "$5-3i$",
+        "D": "$6-2i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sumar o restar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-7-06",
+      "pregunta": "Calcule $(5+0i)+(-2+9i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.7",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$3-9i$",
+        "B": "$7-9i$",
+        "C": "$-10$",
+        "D": "$3+9i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sumar o restar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-7-07",
+      "pregunta": "Calcule $(3+7i)-(4+2i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.7",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$7+9i$",
+        "B": "$12+14i$",
+        "C": "$-1+5i$",
+        "D": "$-1-5i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sumar o restar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-7-08",
+      "pregunta": "Calcule $(-4+6i)+(1-8i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.7",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$-4-48i$",
+        "B": "$-3-2i$",
+        "C": "$-3+2i$",
+        "D": "$-5+14i$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sumar o restar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-7-09",
+      "pregunta": "Calcule $(9-5i)-(-2-3i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.7",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$11-2i$",
+        "B": "$11+2i$",
+        "C": "$7-8i$",
+        "D": "$-18+15i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sumar o restar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-7-10",
+      "pregunta": "Calcule $(2+1i)+(7-4i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.7",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$9+3i$",
+        "B": "$-5+5i$",
+        "C": "$14-4i$",
+        "D": "$9-3i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sumar o restar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-8-01",
+      "pregunta": "Multiplique $(2+3i)(-1+4i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.8",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$10+5i$",
+        "B": "$-14-5i$",
+        "C": "$-14+5i$",
+        "D": "$-2+12i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "multiplicar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-8-02",
+      "pregunta": "Multiplique $(5-2i)(2+1i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.8",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$12-1i$",
+        "B": "$12+1i$",
+        "C": "$10-2i$",
+        "D": "$8+1i$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "multiplicar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-8-03",
+      "pregunta": "Multiplique $(-3+1i)(4-2i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.8",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$-10+10i$",
+        "B": "$-12-2i$",
+        "C": "$-14+10i$",
+        "D": "$-10-10i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "multiplicar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-8-04",
+      "pregunta": "Multiplique $(1+5i)(1-5i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.8",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$1-25i$",
+        "B": "$-24$",
+        "C": "$\\text{opcion alternativa 3}$",
+        "D": "$26$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "multiplicar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-8-05",
+      "pregunta": "Multiplique $(3-4i)(-2-3i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.8",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$6-1i$",
+        "B": "$-18+1i$",
+        "C": "$-18-1i$",
+        "D": "$-6+12i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "multiplicar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-8-06",
+      "pregunta": "Multiplique $(6+1i)(2-2i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.8",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$14+10i$",
+        "B": "$14-10i$",
+        "C": "$12-2i$",
+        "D": "$10-10i$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "multiplicar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-8-07",
+      "pregunta": "Multiplique $(2-1i)(3+5i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.8",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$11+7i$",
+        "B": "$6-5i$",
+        "C": "$1+7i$",
+        "D": "$11-7i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "multiplicar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-8-08",
+      "pregunta": "Multiplique $(-1-3i)(4+1i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.8",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$-4-3i$",
+        "B": "$-7-13i$",
+        "C": "$-1+13i$",
+        "D": "$-1-13i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "multiplicar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-8-09",
+      "pregunta": "Multiplique $(5+2i)(-2+0i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.8",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$-10+4i$",
+        "B": "$\\text{opcion alternativa 3}$",
+        "C": "$-10-4i$",
+        "D": "$-10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "multiplicar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-8-10",
+      "pregunta": "Multiplique $(1+1i)(1+1i)$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.8",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$0-2i$",
+        "B": "$0+2i$",
+        "C": "$1+1i$",
+        "D": "$2+2i$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "multiplicar complejos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-9-01",
+      "pregunta": "Halle el conjugado de $4-3i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.9",
+        "nombre": "Conjugado de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$4+3i$",
+        "B": "$-4-3i$",
+        "C": "$-4+3i$",
+        "D": "$4-3i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "hallar conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-9-02",
+      "pregunta": "Halle el conjugado de $6+5i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.9",
+        "nombre": "Conjugado de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$-6+5i$",
+        "B": "$-6-5i$",
+        "C": "$6+5i$",
+        "D": "$6-5i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "hallar conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-9-03",
+      "pregunta": "Halle el conjugado de $-2+7i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.9",
+        "nombre": "Conjugado de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$2-7i$",
+        "B": "$-2+7i$",
+        "C": "$-2-7i$",
+        "D": "$2+7i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "hallar conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-9-04",
+      "pregunta": "Halle el conjugado de $0-8i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.9",
+        "nombre": "Conjugado de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opcion alternativa 3}$",
+        "B": "$0+8i$",
+        "C": "$0-8i$",
+        "D": "$\\text{opcion alternativa 2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "hallar conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-9-05",
+      "pregunta": "Halle el conjugado de $9+0i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.9",
+        "nombre": "Conjugado de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$-9$",
+        "C": "$\\text{opcion alternativa 2}$",
+        "D": "$\\text{opcion alternativa 3}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "hallar conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-9-06",
+      "pregunta": "Calcule $z\\overline{z}$ para $z=3+4i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.9",
+        "nombre": "Conjugado de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$-7$",
+        "B": "$6$",
+        "C": "$8i$",
+        "D": "$25$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "usar producto con conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-9-07",
+      "pregunta": "Calcule $z\\overline{z}$ para $z=5-12i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.9",
+        "nombre": "Conjugado de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$-24i$",
+        "C": "$169$",
+        "D": "$-119$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "usar producto con conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-9-08",
+      "pregunta": "Calcule $z\\overline{z}$ para $z=-7+2i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.9",
+        "nombre": "Conjugado de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$4i$",
+        "B": "$53$",
+        "C": "$45$",
+        "D": "$-14$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "usar producto con conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-9-09",
+      "pregunta": "Calcule $z\\overline{z}$ para $z=1-6i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.9",
+        "nombre": "Conjugado de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$37$",
+        "B": "$-35$",
+        "C": "$2$",
+        "D": "$-12i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "usar producto con conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-9-10",
+      "pregunta": "Calcule $z\\overline{z}$ para $z=8+15i$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.9",
+        "nombre": "Conjugado de un número complejo"
+      },
+      "respuestas_posibles": {
+        "A": "$-161$",
+        "B": "$16$",
+        "C": "$30i$",
+        "D": "$289$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "usar producto con conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-10-01",
+      "pregunta": "Divida $\\frac{6-1i}{2-1i}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.10",
+        "nombre": "División de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$3+1i$",
+        "B": "$\\frac{11}{5}+\\frac{4}{5}i$",
+        "C": "$\\frac{13}{5}+\\frac{4}{5}i$",
+        "D": "$\\frac{13}{5}-\\frac{4}{5}i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "dividir usando conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-10-02",
+      "pregunta": "Divida $\\frac{1-1i}{1+1i}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.10",
+        "nombre": "División de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opcion alternativa 3}$",
+        "B": "$0-1i$",
+        "C": "$0+1i$",
+        "D": "$1-1i$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "dividir usando conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-10-03",
+      "pregunta": "Divida $\\frac{4+3i}{1-2i}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.10",
+        "nombre": "División de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{-2}{5}+\\frac{11}{5}i$",
+        "B": "$\\frac{-2}{5}-\\frac{11}{5}i$",
+        "C": "$4-\\frac{3}{2}i$",
+        "D": "$2+\\frac{11}{5}i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "dividir usando conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-10-04",
+      "pregunta": "Divida $\\frac{5+5i}{2+1i}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.10",
+        "nombre": "División de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$3-1i$",
+        "B": "$\\frac{5}{2}+5i$",
+        "C": "$1+1i$",
+        "D": "$3+1i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "dividir usando conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-10-05",
+      "pregunta": "Divida $\\frac{-2+6i}{1+1i}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.10",
+        "nombre": "División de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$-2+6i$",
+        "B": "$-4+4i$",
+        "C": "$2+4i$",
+        "D": "$2-4i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "dividir usando conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-10-06",
+      "pregunta": "Divida $\\frac{3-4i}{2+1i}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.10",
+        "nombre": "División de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$2-\\frac{11}{5}i$",
+        "B": "$\\frac{2}{5}-\\frac{11}{5}i$",
+        "C": "$\\frac{2}{5}+\\frac{11}{5}i$",
+        "D": "$\\frac{3}{2}-4i$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "dividir usando conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-10-07",
+      "pregunta": "Divida $\\frac{7+1i}{1-1i}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.10",
+        "nombre": "División de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$3+4i$",
+        "B": "$3-4i$",
+        "C": "$7-1i$",
+        "D": "$4+4i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "dividir usando conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-10-08",
+      "pregunta": "Divida $\\frac{2+8i}{3-1i}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.10",
+        "nombre": "División de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{-1}{5}-\\frac{13}{5}i$",
+        "B": "$\\frac{2}{3}-8i$",
+        "C": "$\\frac{7}{5}+\\frac{13}{5}i$",
+        "D": "$\\frac{-1}{5}+\\frac{13}{5}i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "dividir usando conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-10-09",
+      "pregunta": "Divida $\\frac{5-1i}{2+3i}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.10",
+        "nombre": "División de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{5}{2}-\\frac{1}{3}i$",
+        "B": "$1-\\frac{17}{13}i$",
+        "C": "$\\frac{7}{13}-\\frac{17}{13}i$",
+        "D": "$\\frac{7}{13}+\\frac{17}{13}i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "dividir usando conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-10-10",
+      "pregunta": "Divida $\\frac{1+3i}{-1+2i}$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.10",
+        "nombre": "División de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{-7}{5}-1i$",
+        "B": "$1-1i$",
+        "C": "$1+1i$",
+        "D": "$-1+\\frac{3}{2}i$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "dividir usando conjugado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-11-01",
+      "pregunta": "Resuelva $x^2+4x+13=0$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.11",
+        "nombre": "Ecuaciones cuadráticas con soluciones complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-2\\pm3i$",
+        "B": "$x=2\\pm3i$",
+        "C": "$x=-2\\pm13i$",
+        "D": "$x=-2\\pm\\sqrt{13}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "resolver cuadrática con discriminante negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-11-02",
+      "pregunta": "Resuelva $x^2+6x+13=0$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.11",
+        "nombre": "Ecuaciones cuadráticas con soluciones complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3\\pm2i$",
+        "B": "$x=-3\\pm13i$",
+        "C": "$x=-3\\pm\\sqrt{13}$",
+        "D": "$x=-3\\pm2i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "resolver cuadrática con discriminante negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-11-03",
+      "pregunta": "Resuelva $x^2-2x+5=0$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.11",
+        "nombre": "Ecuaciones cuadráticas con soluciones complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1\\pm5i$",
+        "B": "$x=1\\pm\\sqrt{5}$",
+        "C": "$x=1\\pm2i$",
+        "D": "$x=-1\\pm2i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "resolver cuadrática con discriminante negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-11-04",
+      "pregunta": "Resuelva $x^2+8x+25=0$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.11",
+        "nombre": "Ecuaciones cuadráticas con soluciones complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-4\\pm\\sqrt{25}$",
+        "B": "$x=-4\\pm3i$",
+        "C": "$x=4\\pm3i$",
+        "D": "$x=-4\\pm25i$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "resolver cuadrática con discriminante negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-11-05",
+      "pregunta": "Resuelva $x^2-4x+8=0$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.11",
+        "nombre": "Ecuaciones cuadráticas con soluciones complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2\\pm2i$",
+        "B": "$x=-2\\pm2i$",
+        "C": "$x=2\\pm8i$",
+        "D": "$x=2\\pm\\sqrt{8}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "resolver cuadrática con discriminante negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-11-06",
+      "pregunta": "Resuelva $x^2+2x+10=0$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.11",
+        "nombre": "Ecuaciones cuadráticas con soluciones complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1\\pm3i$",
+        "B": "$x=-1\\pm10i$",
+        "C": "$x=-1\\pm\\sqrt{10}$",
+        "D": "$x=-1\\pm3i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "resolver cuadrática con discriminante negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-11-07",
+      "pregunta": "Resuelva $x^2+10x+34=0$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.11",
+        "nombre": "Ecuaciones cuadráticas con soluciones complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-5\\pm34i$",
+        "B": "$x=-5\\pm\\sqrt{34}$",
+        "C": "$x=-5\\pm3i$",
+        "D": "$x=5\\pm3i$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "resolver cuadrática con discriminante negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-11-08",
+      "pregunta": "Resuelva $x^2-6x+13=0$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.11",
+        "nombre": "Ecuaciones cuadráticas con soluciones complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3\\pm\\sqrt{13}$",
+        "B": "$x=3\\pm2i$",
+        "C": "$x=-3\\pm2i$",
+        "D": "$x=3\\pm13i$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "resolver cuadrática con discriminante negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-11-09",
+      "pregunta": "Resuelva $x^2+12x+40=0$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.11",
+        "nombre": "Ecuaciones cuadráticas con soluciones complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-6\\pm2i$",
+        "B": "$x=6\\pm2i$",
+        "C": "$x=-6\\pm40i$",
+        "D": "$x=-6\\pm\\sqrt{40}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "resolver cuadrática con discriminante negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-14-11-10",
+      "pregunta": "Resuelva $x^2+0x+16=0$.",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Números complejos",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "14.11",
+        "nombre": "Ecuaciones cuadráticas con soluciones complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0\\pm4i$",
+        "B": "$x=0\\pm16i$",
+        "C": "$x=0\\pm\\sqrt{16}$",
+        "D": "$x=\\pm4i$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "resolver cuadrática con discriminante negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>30. Conceptos básicos de geometría analítica · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte VI: Geometría analítica</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#plano-cartesiano"><span class="num">30.1</span> Plano cartesiano</a></li><li class="nivel-2"><a href="#distancia-entre-dos-puntos"><span class="num">30.2</span> Distancia entre dos puntos</a></li><li class="nivel-2"><a href="#punto-medio"><span class="num">30.3</span> Punto medio</a></li><li class="nivel-2"><a href="#division-de-un-segmento-en-una-fraccion-dada"><span class="num">30.4</span> División de un segmento en una fracción dada</a></li><li class="nivel-2"><a href="#division-interna-en-una-razon"><span class="num">30.5</span> División interna en una razón</a></li><li class="nivel-2"><a href="#pendiente-de-una-recta"><span class="num">30.6</span> Pendiente de una recta</a></li><li class="nivel-2"><a href="#comparacion-de-pendientes"><span class="num">30.7</span> Comparación de pendientes</a></li><li class="nivel-2"><a href="#relacion-entre-pendiente-y-angulo-de-inclinacion"><span class="num">30.8</span> Relación entre pendiente y ángulo de inclinación</a></li><li class="nivel-2"><a href="#resumen-de-formulas"><span class="num">30.9</span> Resumen de fórmulas</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">30.10</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 30</p><h1>Conceptos básicos de geometría analítica</h1></header>
+<p><span id="cap-conceptos-basicos-ga" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>La geometría analítica combina el álgebra y la geometría mediante un sistema de coordenadas. Los puntos se representan con pares ordenados, las rectas mediante ecuaciones y las propiedades geométricas pueden estudiarse con procedimientos algebraicos.</p>
+<p>En este capítulo estudiarás el plano cartesiano y cuatro conceptos fundamentales: la distancia entre dos puntos, el punto medio, la división de un segmento en una razón dada y la pendiente de una recta.</p>
+<h2 id="plano-cartesiano"><span class="num">30.1</span> Plano cartesiano<a class="enlace-seccion" href="#plano-cartesiano" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>plano cartesiano</strong> está formado por dos rectas numéricas perpendiculares llamadas <strong>ejes coordenados</strong>:</p>
+<ul><li>el eje horizontal es el <strong>eje \(x\)</strong> o eje de las abscisas;</li><li>el eje vertical es el <strong>eje \(y\)</strong> o eje de las ordenadas.</li></ul>
+<p>Los ejes se intersecan en el punto:</p>
+<div class="mate"><span class="mate-bloque">\[O(0,0),\]</span></div>
+<p>llamado <strong>origen</strong>.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Cada punto del plano se representa mediante un par ordenado:</p>
+<div class="mate"><span class="mate-bloque">\[P(x,y),\]</span></div>
+<p>donde:</p>
+<ul><li>\(x\) es la abscisa o coordenada horizontal;</li><li>\(y\) es la ordenada o coordenada vertical.</li></ul></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El orden de las coordenadas es importante.</p>
+<p>En general:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y)\neq(y,x).\]</span></div>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[(2,3)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[(3,2)\]</span></div>
+<p>representan puntos diferentes.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Los ejes coordenados dividen el plano en cuatro regiones llamadas <strong>cuadrantes</strong>, numeradas en sentido contrario a las manecillas del reloj:</p>
+<ul><li><strong>Cuadrante I</strong> <span class="mate-bloque">\[x&gt;0, \qquad y&gt;0.\]</span></li><li><strong>Cuadrante II</strong> <span class="mate-bloque">\[x&lt;0, \qquad y&gt;0.\]</span></li><li><strong>Cuadrante III</strong> <span class="mate-bloque">\[x&lt;0, \qquad y&lt;0.\]</span></li><li><strong>Cuadrante IV</strong> <span class="mate-bloque">\[x&gt;0, \qquad y&lt;0.\]</span></li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Un punto que se encuentra sobre uno de los ejes no pertenece a ningún cuadrante.</p>
+<ul><li>Si \(y=0\), el punto está sobre el eje \(x\).</li><li>Si \(x=0\), el punto está sobre el eje \(y\).</li><li>Si \(x=0\) y \(y=0\), el punto es el origen.</li></ul></div></section>
+<p>La ubicación de los cuadrantes y de algunos puntos puede observarse en el siguiente plano:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-5277a7881a0c.svg" alt="Figura 30.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="distancia-entre-dos-puntos"><span class="num">30.2</span> Distancia entre dos puntos<a class="enlace-seccion" href="#distancia-entre-dos-puntos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fórmula de la distancia</div><div class="caja-cuerpo"><p>La distancia entre los puntos:</p>
+<div class="mate"><span class="mate-bloque">\[P_1(x_1,y_1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P_2(x_2,y_2)\]</span></div>
+<p>está dada por:</p>
+<div class="mate"><span class="mate-bloque">\[d(P_1,P_2) = \sqrt{ (x_2-x_1)^2 + (y_2-y_1)^2 }.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La fórmula de la distancia proviene del teorema de Pitágoras.</p>
+<p>Las diferencias:</p>
+<div class="mate"><span class="mate-bloque">\[x_2-x_1\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[y_2-y_1\]</span></div>
+<p>representan los cambios horizontal y vertical. Estos cambios forman los catetos de un triángulo rectángulo cuya hipotenusa es la distancia entre los puntos.</p></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-4b6a2c0427d3.svg" alt="Figura 30.2" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-30-1"><div class="caja-titulo">Ejemplo 30.1</div><div class="caja-cuerpo"><p>Encuentra la distancia entre:</p>
+<div class="mate"><span class="mate-bloque">\[A(-3,1) \qquad\text{y}\qquad B(1,4).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} d &amp;= \sqrt{ (1-(-3))^2 + (4-1)^2 }\\ &amp;= \sqrt{ 4^2+3^2 }\\ &amp;= \sqrt{ 16+9 }\\ &amp;= \sqrt{25}\\ &amp;=5. \end{aligned}\]</span></div>
+<p>La distancia es:</p>
+<div class="mate"><span class="mate-bloque">\[5\ \text{unidades}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-30-2"><div class="caja-titulo">Ejemplo 30.2</div><div class="caja-cuerpo"><p>Encuentra la distancia entre:</p>
+<div class="mate"><span class="mate-bloque">\[P(-4,2) \qquad\text{y}\qquad Q(-1,-2).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} d &amp;= \sqrt{ (-1-(-4))^2 + (-2-2)^2 }\\ &amp;= \sqrt{ 3^2+(-4)^2 }\\ &amp;= \sqrt{ 9+16 }\\ &amp;= 5. \end{aligned}\]</span></div></div></details></div></section>
+<p>La posición de los puntos puede observarse en el siguiente plano:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-cde7e9934036.svg" alt="Figura 30.3" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El orden de los puntos no modifica la distancia:</p>
+<div class="mate"><span class="mate-bloque">\[d(P_1,P_2) = d(P_2,P_1).\]</span></div>
+<p>Esto ocurre porque las diferencias aparecen elevadas al cuadrado.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-30-3"><div class="caja-titulo">Ejemplo 30.3</div><div class="caja-cuerpo"><p>Determina los valores de \(x\) para los que la distancia entre:</p>
+<div class="mate"><span class="mate-bloque">\[A(x,1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(3,5)\]</span></div>
+<p>es igual a \(5\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula de la distancia:</p>
+<div class="mate"><span class="mate-bloque">\[5 = \sqrt{ (3-x)^2 + (5-1)^2 }.\]</span></div>
+<p>Simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[5 = \sqrt{ (3-x)^2+16 }.\]</span></div>
+<p>Elevamos ambos miembros al cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 25 &amp;= (3-x)^2+16,\\ 9 &amp;= (3-x)^2. \end{aligned}\]</span></div>
+<p>Aplicamos raíz cuadrada considerando ambos signos:</p>
+<div class="mate"><span class="mate-bloque">\[3-x=\pm3.\]</span></div>
+<p>Primer caso:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3-x &amp;=3,\\ x &amp;=0. \end{aligned}\]</span></div>
+<p>Segundo caso:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3-x &amp;=-3,\\ x &amp;=6. \end{aligned}\]</span></div>
+<p>Por tanto, los valores posibles son:</p>
+<div class="mate"><span class="mate-bloque">\[x=0 \qquad\text{o}\qquad x=6.\]</span></div>
+<p>Si se solicita un valor <strong>estrictamente positivo</strong>, la respuesta es:</p>
+<div class="mate"><span class="mate-bloque">\[x=6.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El número \(0\) no es positivo ni negativo.</p>
+<p>Por tanto, entre las soluciones:</p>
+<div class="mate"><span class="mate-bloque">\[x=0 \qquad\text{y}\qquad x=6,\]</span></div>
+<p>el único valor estrictamente positivo es:</p>
+<div class="mate"><span class="mate-bloque">\[x=6.\]</span></div></div></section>
+<p>Las dos posiciones posibles de \(A\) pueden representarse en el mismo plano:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-a90b3dd0fa82.svg" alt="Figura 30.4" loading="lazy" decoding="async"></figure></div>
+<h2 id="punto-medio"><span class="num">30.3</span> Punto medio<a class="enlace-seccion" href="#punto-medio" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>punto medio</strong> de un segmento es el punto que lo divide en dos segmentos de la misma longitud.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fórmula del punto medio</div><div class="caja-cuerpo"><p>El punto medio del segmento cuyos extremos son:</p>
+<div class="mate"><span class="mate-bloque">\[P_1(x_1,y_1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P_2(x_2,y_2)\]</span></div>
+<p>es:</p>
+<div class="mate"><span class="mate-bloque">\[M\left( \frac{x_1+x_2}{2}, \frac{y_1+y_2}{2} \right).\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Las coordenadas del punto medio son los promedios aritméticos de las coordenadas de los extremos:</p>
+<div class="mate"><span class="mate-bloque">\[x_M = \frac{x_1+x_2}{2}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[y_M = \frac{y_1+y_2}{2}.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-30-4"><div class="caja-titulo">Ejemplo 30.4</div><div class="caja-cuerpo"><p>Encuentra el punto medio entre:</p>
+<div class="mate"><span class="mate-bloque">\[A(-4,3)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(2,-5).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} M &amp;= \left( \frac{-4+2}{2}, \frac{3+(-5)}{2} \right)\\ &amp;= \left( \frac{-2}{2}, \frac{-2}{2} \right)\\ &amp;= (-1,-1). \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[M(-1,-1).\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-e42281d03392.svg" alt="Figura 30.5" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-30-5"><div class="caja-titulo">Ejemplo 30.5</div><div class="caja-cuerpo"><p>El punto medio de un segmento es:</p>
+<div class="mate"><span class="mate-bloque">\[M(2,-1),\]</span></div>
+<p>y uno de sus extremos es:</p>
+<div class="mate"><span class="mate-bloque">\[P(5,3).\]</span></div>
+<p>Encuentra el otro extremo \(Q(x_2,y_2)\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula del punto medio en cada coordenada.</p>
+<p>Para la coordenada \(x\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2 &amp;= \frac{5+x_2}{2},\\ 4 &amp;= 5+x_2,\\ x_2 &amp;=-1. \end{aligned}\]</span></div>
+<p>Para la coordenada \(y\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} -1 &amp;= \frac{3+y_2}{2},\\ -2 &amp;= 3+y_2,\\ y_2 &amp;=-5. \end{aligned}\]</span></div>
+<p>Por tanto, el otro extremo es:</p>
+<div class="mate"><span class="mate-bloque">\[Q(-1,-5).\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-e2f67680a6c2.svg" alt="Figura 30.6" loading="lazy" decoding="async"></figure></div>
+<h2 id="division-de-un-segmento-en-una-fraccion-dada"><span class="num">30.4</span> División de un segmento en una fracción dada<a class="enlace-seccion" href="#division-de-un-segmento-en-una-fraccion-dada" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[P_1(x_1,y_1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P_2(x_2,y_2).\]</span></div>
+<p>El punto \(P(x,y)\) situado a una fracción \(r\) del recorrido desde \(P_1\) hasta \(P_2\) tiene coordenadas:</p>
+<div class="mate"><span class="mate-bloque">\[x = x_1+r(x_2-x_1),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[y = y_1+r(y_2-y_1).\]</span></div>
+<p>En forma de par ordenado:</p>
+<div class="mate"><span class="mate-bloque">\[P = \left( x_1+r(x_2-x_1), y_1+r(y_2-y_1) \right).\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Interpretación del parámetro</div><div class="caja-cuerpo"><p>El valor de \(r\) determina la posición del punto:</p>
+<ul><li>Si: <span class="mate-bloque">\[r=0,\]</span> entonces \(P=P_1\).</li><li>Si: <span class="mate-bloque">\[r=1,\]</span> entonces \(P=P_2\).</li><li>Si: <span class="mate-bloque">\[r=\frac{1}{2},\]</span> entonces \(P\) es el punto medio.</li><li>Si: <span class="mate-bloque">\[0&lt;r&lt;1,\]</span> entonces \(P\) está entre \(P_1\) y \(P_2\).</li><li>Si: <span class="mate-bloque">\[r&gt;1,\]</span> entonces \(P\) está más allá de \(P_2\).</li><li>Si: <span class="mate-bloque">\[r&lt;0,\]</span> entonces \(P\) está sobre la prolongación anterior a \(P_1\).</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Esta fórmula puede expresarse mediante vectores:</p>
+<div class="mate"><span class="mate-bloque">\[P = P_1+r(P_2-P_1).\]</span></div>
+<p>El vector:</p>
+<div class="mate"><span class="mate-bloque">\[P_2-P_1\]</span></div>
+<p>indica el desplazamiento completo desde \(P_1\) hasta \(P_2\), mientras que \(r\) determina qué fracción de ese desplazamiento se recorre.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-30-6"><div class="caja-titulo">Ejemplo 30.6</div><div class="caja-cuerpo"><p>Encuentra el punto que se encuentra a una fracción:</p>
+<div class="mate"><span class="mate-bloque">\[r=\frac{1}{3}\]</span></div>
+<p>del recorrido desde:</p>
+<div class="mate"><span class="mate-bloque">\[P_1(-3,-2)\]</span></div>
+<p>hasta:</p>
+<div class="mate"><span class="mate-bloque">\[P_2(3,4).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos la coordenada \(x\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x &amp;= -3+\frac{1}{3}(3-(-3))\\ &amp;= -3+\frac{1}{3}(6)\\ &amp;= -1. \end{aligned}\]</span></div>
+<p>Calculamos la coordenada \(y\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} y &amp;= -2+\frac{1}{3}(4-(-2))\\ &amp;= -2+\frac{1}{3}(6)\\ &amp;= 0. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(-1,0).\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-c6dec6987dbc.svg" alt="Figura 30.7" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-30-7"><div class="caja-titulo">Ejemplo 30.7</div><div class="caja-cuerpo"><p>Encuentra el punto medio del segmento cuyos extremos son:</p>
+<div class="mate"><span class="mate-bloque">\[P_1(-4,2)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P_2(2,-4)\]</span></div>
+<p>utilizando la fórmula de división con:</p>
+<div class="mate"><span class="mate-bloque">\[r=\frac{1}{2}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x &amp;= -4+\frac{1}{2}(2-(-4))\\ &amp;= -4+\frac{1}{2}(6)\\ &amp;= -1, \end{aligned}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} y &amp;= 2+\frac{1}{2}(-4-2)\\ &amp;= 2+\frac{1}{2}(-6)\\ &amp;= -1. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(-1,-1).\]</span></div>
+<p>Este resultado coincide con la fórmula del punto medio.</p></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La expresión “dividir un segmento en razón \(r\)” puede utilizarse con dos convenciones distintas.</p>
+<p>En este capítulo, \(r\) representa una <strong>fracción del recorrido</strong> desde \(P_1\) hasta \(P_2\):</p>
+<div class="mate"><span class="mate-bloque">\[P=P_1+r(P_2-P_1).\]</span></div>
+<p>En otros textos, una razón interna puede escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[m:n.\]</span></div>
+<p>Antes de utilizar una fórmula, debe identificarse cuál convención emplea el problema.</p></div></section>
+<h2 id="division-interna-en-una-razon"><span class="num">30.5</span> División interna en una razón \(m:n\)<a class="enlace-seccion" href="#division-interna-en-una-razon" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fórmula de sección interna</div><div class="caja-cuerpo"><p>Si un punto \(P\) divide internamente el segmento desde \(P_1\) hasta \(P_2\) en la razón:</p>
+<div class="mate"><span class="mate-bloque">\[P_1P:PP_2=m:n,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[P = \left( \frac{nx_1+mx_2}{m+n}, \frac{ny_1+my_2}{m+n} \right).\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La fracción del recorrido correspondiente es:</p>
+<div class="mate"><span class="mate-bloque">\[r=\frac{m}{m+n}.\]</span></div>
+<p>Por tanto, ambas fórmulas son equivalentes:</p>
+<div class="mate"><span class="mate-bloque">\[P=P_1+\frac{m}{m+n}(P_2-P_1).\]</span></div></div></section>
+<h2 id="pendiente-de-una-recta"><span class="num">30.6</span> Pendiente de una recta<a class="enlace-seccion" href="#pendiente-de-una-recta" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>pendiente</strong> de una recta mide su inclinación y representa la razón entre el cambio vertical y el cambio horizontal.</p>
+<p>En símbolos:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{\Delta y}{\Delta x}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fórmula de la pendiente</div><div class="caja-cuerpo"><p>La pendiente de la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[P_1(x_1,y_1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P_2(x_2,y_2),\]</span></div>
+<p>con \(x_1\neq x_2\), es:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{y_2-y_1}{x_2-x_1}.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La pendiente puede interpretarse como:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{\text{elevación}} {\text{avance horizontal}}.\]</span></div>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[m=\frac{2}{3}\]</span></div>
+<p>significa que, al avanzar \(3\) unidades hacia la derecha, la recta sube \(2\) unidades.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Interpretación de la pendiente</div><div class="caja-cuerpo"><p>Según el valor de \(m\):</p>
+<ul><li>Si: <span class="mate-bloque">\[m&gt;0,\]</span> la recta es creciente.</li><li>Si: <span class="mate-bloque">\[m&lt;0,\]</span> la recta es decreciente.</li><li>Si: <span class="mate-bloque">\[m=0,\]</span> la recta es horizontal.</li><li>Si el cambio horizontal es cero: <span class="mate-bloque">\[x_2-x_1=0,\]</span> la recta es vertical y su pendiente no está definida.</li></ul></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La pendiente de una recta vertical no es infinita.</p>
+<p>La pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{y_2-y_1}{x_2-x_1}\]</span></div>
+<p>no está definida cuando:</p>
+<div class="mate"><span class="mate-bloque">\[x_2-x_1=0,\]</span></div>
+<p>porque se produciría una división entre cero.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-30-8"><div class="caja-titulo">Ejemplo 30.8</div><div class="caja-cuerpo"><p>Encuentra la pendiente de la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[A(-3,1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(3,3).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} m &amp;= \frac{3-1}{3-(-3)}\\ &amp;= \frac{2}{6}\\ &amp;= \frac{1}{3}. \end{aligned}\]</span></div>
+<p>La pendiente es:</p>
+<div class="mate"><span class="mate-bloque">\[m=\frac{1}{3}.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-ef996a4fa5b0.svg" alt="Figura 30.8" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-30-9"><div class="caja-titulo">Ejemplo 30.9</div><div class="caja-cuerpo"><p>Encuentra la pendiente de la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[P(2,-4)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[Q(2,3).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{3-(-4)}{2-2}.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{7}{0}.\]</span></div>
+<p>Como la división entre cero no está definida, la pendiente no está definida.</p>
+<p>La recta es vertical y su ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[x=2.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-bf7e7bbf3613.svg" alt="Figura 30.9" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-30-10"><div class="caja-titulo">Ejemplo 30.10</div><div class="caja-cuerpo"><p>La pendiente de una recta es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{3}.\]</span></div>
+<p>La recta pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[A(-2,2)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(4,y).\]</span></div>
+<p>Encuentra el valor de \(y\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula de la pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{3} = \frac{y-2}{4-(-2)}.\]</span></div>
+<p>Simplificamos el denominador:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{3} = \frac{y-2}{6}.\]</span></div>
+<p>Multiplicamos ambos miembros por \(6\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 6\left(\frac{1}{3}\right) &amp;=y-2,\\ 2 &amp;=y-2,\\ y &amp;=4. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[B(4,4).\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-192c1476570a.svg" alt="Figura 30.10" loading="lazy" decoding="async"></figure></div>
+<h2 id="comparacion-de-pendientes"><span class="num">30.7</span> Comparación de pendientes<a class="enlace-seccion" href="#comparacion-de-pendientes" aria-label="Enlace a esta sección">#</a></h2>
+<p>Las cuatro posibilidades principales pueden compararse visualmente:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-209b1da57c61.svg" alt="Figura 30.11" loading="lazy" decoding="async"></figure></div>
+<h2 id="relacion-entre-pendiente-y-angulo-de-inclinacion"><span class="num">30.8</span> Relación entre pendiente y ángulo de inclinación<a class="enlace-seccion" href="#relacion-entre-pendiente-y-angulo-de-inclinacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Pendiente y ángulo de inclinación</div><div class="caja-cuerpo"><p>Sea \(\alpha\) el ángulo que forma una recta no vertical con el eje positivo \(x\), medido en sentido contrario a las manecillas del reloj.</p>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[m=\tan\alpha.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Si la pendiente es conocida, el ángulo de inclinación puede determinarse mediante:</p>
+<div class="mate"><span class="mate-bloque">\[\alpha=\arctan(m),\]</span></div>
+<p>tomando en cuenta la orientación y el cuadrante correspondiente.</p></div></section>
+<h2 id="resumen-de-formulas"><span class="num">30.9</span> Resumen de fórmulas<a class="enlace-seccion" href="#resumen-de-formulas" aria-label="Enlace a esta sección">#</a></h2>
+<p>Las fórmulas principales de este capítulo son:</p>
+<ul><li><p><strong>Distancia entre dos puntos</strong></p>
+<div class="mate"><span class="mate-bloque">\[d = \sqrt{ (x_2-x_1)^2 + (y_2-y_1)^2 }.\]</span></div></li><li><p><strong>Punto medio</strong></p>
+<div class="mate"><span class="mate-bloque">\[M = \left( \frac{x_1+x_2}{2}, \frac{y_1+y_2}{2} \right).\]</span></div></li><li><p><strong>Punto situado a una fracción \(r\) del recorrido</strong></p>
+<div class="mate"><span class="mate-bloque">\[P = \left( x_1+r(x_2-x_1), y_1+r(y_2-y_1) \right).\]</span></div></li><li><p><strong>División interna en razón \(m:n\)</strong></p>
+<div class="mate"><span class="mate-bloque">\[P = \left( \frac{nx_1+mx_2}{m+n}, \frac{ny_1+my_2}{m+n} \right).\]</span></div></li><li><p><strong>Pendiente</strong></p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{y_2-y_1}{x_2-x_1}, \qquad x_1\neq x_2.\]</span></div></li></ul>
+<h2 id="ejercicios-propuestos"><span class="num">30.10</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-30-1"><div class="caja-titulo">Ejercicio 30.1</div><div class="caja-cuerpo"><p>Encuentra la distancia entre:</p>
+<div class="mate"><span class="mate-bloque">\[A(3,4) \qquad\text{y}\qquad B(1,8).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[d = \sqrt{(1 - 3)^2 + (8 - 4)^2} = \sqrt{4 + 16} = \sqrt{20} = 2\sqrt{5} \approx 4.47.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-30-2"><div class="caja-titulo">Ejercicio 30.2</div><div class="caja-cuerpo"><p>Encuentra la distancia entre:</p>
+<div class="mate"><span class="mate-bloque">\[P(-3,5) \qquad\text{y}\qquad Q(7,6).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[d = \sqrt{(7 + 3)^2 + (6 - 5)^2} = \sqrt{100 + 1} = \sqrt{101} \approx 10.05.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-30-3"><div class="caja-titulo">Ejercicio 30.3</div><div class="caja-cuerpo"><p>Determina el valor positivo de \(x\) para que la distancia entre:</p>
+<div class="mate"><span class="mate-bloque">\[A(-1,2)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(x,10)\]</span></div>
+<p>sea igual a \(10\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Planteamos: <span class="mate-bloque">\[10 = \sqrt{(x + 1)^2 + (10 - 2)^2} = \sqrt{(x + 1)^2 + 64}.\]</span> <span class="mate-bloque">\[100 = (x + 1)^2 + 64 \Longrightarrow (x + 1)^2 = 36.\]</span> <span class="mate-bloque">\[x + 1 = \pm 6 \Longrightarrow x = 5 \text{ o } x = -7.\]</span> El valor positivo es \(x = 5\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-30-4"><div class="caja-titulo">Ejercicio 30.4</div><div class="caja-cuerpo"><p>Encuentra el punto medio entre:</p>
+<div class="mate"><span class="mate-bloque">\[P_1(5,2) \qquad\text{y}\qquad P_2(7,-3).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[M\left(\frac{5 + 7}{2}, \frac{2 + (-3)}{2}\right) = M(6, -0.5).\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-30-5"><div class="caja-titulo">Ejercicio 30.5</div><div class="caja-cuerpo"><p>El punto medio de un segmento es:</p>
+<div class="mate"><span class="mate-bloque">\[M(3,-4),\]</span></div>
+<p>y uno de sus extremos es:</p>
+<div class="mate"><span class="mate-bloque">\[P(5,10).\]</span></div>
+<p>Encuentra el otro extremo \(Q\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Despejamos: <span class="mate-bloque">\[3 = \frac{5 + x_2}{2} \Longrightarrow x_2 = 1,\]</span> <span class="mate-bloque">\[-4 = \frac{10 + y_2}{2} \Longrightarrow y_2 = -18.\]</span> El otro extremo es \(Q(1, -18)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-30-6"><div class="caja-titulo">Ejercicio 30.6</div><div class="caja-cuerpo"><p>Encuentra el punto situado a una fracción:</p>
+<div class="mate"><span class="mate-bloque">\[r=\frac{1}{4}\]</span></div>
+<p>del recorrido desde:</p>
+<div class="mate"><span class="mate-bloque">\[P_1(-2,4)\]</span></div>
+<p>hasta:</p>
+<div class="mate"><span class="mate-bloque">\[P_2(6,-2).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[x = \frac{-2 + 3(6)}{4} = \frac{16}{4} = 4,\]</span> <span class="mate-bloque">\[y = \frac{4 + 3(-2)}{4} = \frac{-2}{4} = -\frac{1}{2}.\]</span> El punto es \(\left(4, -\dfrac{1}{2}\right)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-30-7"><div class="caja-titulo">Ejercicio 30.7</div><div class="caja-cuerpo"><p>Encuentra la pendiente de la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[A(3,-4) \qquad\text{y}\qquad B(5,1).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[m = \frac{1 - (-4)}{5 - 3} = \frac{5}{2}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-30-8"><div class="caja-titulo">Ejercicio 30.8</div><div class="caja-cuerpo"><p>Encuentra la pendiente de la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[A(-1,7) \qquad\text{y}\qquad B(5,1).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[m = \frac{1 - 7}{5 - (-1)} = \frac{-6}{6} = -1.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-30-9"><div class="caja-titulo">Ejercicio 30.9</div><div class="caja-cuerpo"><p>La pendiente de una recta es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2}{3}.\]</span></div>
+<p>La recta pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[M(2,-1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P(-10,y).\]</span></div>
+<p>Encuentra el valor de \(y\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Planteamos: <span class="mate-bloque">\[\frac{2}{3} = \frac{y - (-1)}{-10 - 2} = \frac{y + 1}{-12}.\]</span> <span class="mate-bloque">\[-8 = y + 1 \Longrightarrow y = -9.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-30-10"><div class="caja-titulo">Ejercicio 30.10</div><div class="caja-cuerpo"><p>Clasifica según su pendiente la recta que pasa por:</p>
+<div class="mate"><span class="mate-bloque">\[P(1,3) \qquad\text{y}\qquad Q(1,-5).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como \(x_1 = x_2 = 1\), la pendiente es indefinida. La recta es <strong>vertical</strong>.</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="29-funciones-trigonometricas.html"><span>← Anterior</span>29. Funciones trigonométricas</a><a class="nav-siguiente" href="31-la-recta.html"><span>Siguiente →</span>31. La recta</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

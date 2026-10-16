@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "39",
+    "titulo": "Límites",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "39.1",
+        "nombre": "Concepto de límite"
+      },
+      {
+        "codigo": "39.2",
+        "nombre": "Límite y valor de la función"
+      },
+      {
+        "codigo": "39.3",
+        "nombre": "Límites laterales"
+      },
+      {
+        "codigo": "39.4",
+        "nombre": "Álgebra de límites"
+      },
+      {
+        "codigo": "39.5",
+        "nombre": "Sustitución directa"
+      },
+      {
+        "codigo": "39.6",
+        "nombre": "Procedimiento básico"
+      },
+      {
+        "codigo": "39.7",
+        "nombre": "Indeterminación"
+      },
+      {
+        "codigo": "39.8",
+        "nombre": "Límite trigonométrico fundamental"
+      },
+      {
+        "codigo": "39.9",
+        "nombre": "Límites infinitos"
+      }
+    ],
+    "criterio_de_inclusion": "Secciones 39.1 a 39.9 conforme al temario del capítulo.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-39-1-01",
+      "pregunta": "La expresión $\\lim_{x\\to a}f(x)=L$ significa que:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.1",
+        "nombre": "Concepto de límite"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)$ se aproxima a $L$ cuando $x$ se aproxima a $a$",
+        "B": "$f(a)=L$ obligatoriamente",
+        "C": "$x$ se aproxima a $L$",
+        "D": "$f(x)$ es constante"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-1-02",
+      "pregunta": "El límite describe principalmente:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.1",
+        "nombre": "Concepto de límite"
+      },
+      "respuestas_posibles": {
+        "A": "Solo el valor exacto en el punto",
+        "B": "La pendiente de toda la gráfica",
+        "C": "El dominio completo",
+        "D": "El comportamiento de la función cerca de un punto"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-1-03",
+      "pregunta": "Para estudiar $\\lim_{x\\to a}f(x)$ interesa:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.1",
+        "nombre": "Concepto de límite"
+      },
+      "respuestas_posibles": {
+        "A": "Solo valores muy alejados de $a$",
+        "B": "La integral de $f$",
+        "C": "Los valores de $f(x)$ con $x$ cercano a $a$",
+        "D": "Únicamente $f(a)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-1-04",
+      "pregunta": "Un límite puede existir aunque:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.1",
+        "nombre": "Concepto de límite"
+      },
+      "respuestas_posibles": {
+        "A": "Los límites laterales sean distintos",
+        "B": "$f(a)$ no esté definida",
+        "C": "La función no tenga valores cercanos",
+        "D": "$x$ no pueda variar"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-1-05",
+      "pregunta": "Si los valores de $f(x)$ se aproximan a $7$ por ambos lados de $a$, entonces:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.1",
+        "nombre": "Concepto de límite"
+      },
+      "respuestas_posibles": {
+        "A": "$\\lim_{x\\to a}f(x)=7$",
+        "B": "$f(a)=0$ necesariamente",
+        "C": "El límite no existe",
+        "D": "$a=7$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-1-06",
+      "pregunta": "La variable que tiende a un valor en la notación de límite es:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.1",
+        "nombre": "Concepto de límite"
+      },
+      "respuestas_posibles": {
+        "A": "$L$",
+        "B": "$f$",
+        "C": "$y$ únicamente",
+        "D": "$x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-1-07",
+      "pregunta": "El número al que se aproxima la función se denomina:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.1",
+        "nombre": "Concepto de límite"
+      },
+      "respuestas_posibles": {
+        "A": "Variable independiente",
+        "B": "Dominio",
+        "C": "Valor límite",
+        "D": "Punto de discontinuidad"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-1-08",
+      "pregunta": "Una tabla de valores cercanos a $a$ sirve para:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.1",
+        "nombre": "Concepto de límite"
+      },
+      "respuestas_posibles": {
+        "A": "Eliminar el dominio",
+        "B": "Estimar el límite",
+        "C": "Demostrar siempre el límite de forma rigurosa",
+        "D": "Calcular únicamente $f(a)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-1-09",
+      "pregunta": "La gráfica puede ayudar a determinar:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.1",
+        "nombre": "Concepto de límite"
+      },
+      "respuestas_posibles": {
+        "A": "El comportamiento de $f(x)$ alrededor de $a$",
+        "B": "Solo la fórmula algebraica",
+        "C": "El nombre de la función",
+        "D": "La unidad de medida"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-1-10",
+      "pregunta": "Si la función oscila sin aproximarse a un único valor cerca de $a$:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.1",
+        "nombre": "Concepto de límite"
+      },
+      "respuestas_posibles": {
+        "A": "El límite es siempre cero",
+        "B": "El límite es $a$",
+        "C": "La función es constante",
+        "D": "El límite puede no existir"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-2-01",
+      "pregunta": "La igualdad $\\lim_{x\\to a}f(x)=f(a)$ caracteriza en $a$ a una función:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.2",
+        "nombre": "Límite y valor de la función"
+      },
+      "respuestas_posibles": {
+        "A": "Impar",
+        "B": "Inyectiva",
+        "C": "Continua",
+        "D": "Periódica"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-2-02",
+      "pregunta": "Si $f(a)$ no existe, el límite en $a$:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.2",
+        "nombre": "Límite y valor de la función"
+      },
+      "respuestas_posibles": {
+        "A": "Debe ser cero",
+        "B": "Aún puede existir",
+        "C": "Nunca existe",
+        "D": "Siempre es infinito"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-2-03",
+      "pregunta": "Si el límite existe pero $f(a)$ tiene otro valor, la función presenta:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.2",
+        "nombre": "Límite y valor de la función"
+      },
+      "respuestas_posibles": {
+        "A": "Una discontinuidad removible o puntual",
+        "B": "Continuidad",
+        "C": "Una asíntota horizontal necesariamente",
+        "D": "Una derivada infinita"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-2-04",
+      "pregunta": "Para $f(x)=x+2$, se cumple $\\lim_{x\\to3}f(x)=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.2",
+        "nombre": "Límite y valor de la función"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$2$",
+        "C": "$6$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-2-05",
+      "pregunta": "Si $f(x)=x^2$ para $x\\ne2$ y $f(2)=10$, entonces $\\lim_{x\\to2}f(x)=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.2",
+        "nombre": "Límite y valor de la función"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "No existe",
+        "C": "$4$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-2-06",
+      "pregunta": "En el caso anterior, la función en $x=2$ es:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.2",
+        "nombre": "Límite y valor de la función"
+      },
+      "respuestas_posibles": {
+        "A": "No definida",
+        "B": "Discontinua",
+        "C": "Continua",
+        "D": "Constante"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-2-07",
+      "pregunta": "Si $f(x)=\\frac{x^2-1}{x-1}$ para $x\\ne1$, entonces el límite en $1$ es:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.2",
+        "nombre": "Límite y valor de la función"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$0$",
+        "C": "$1$",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-2-08",
+      "pregunta": "Asignar $f(1)=2$ en el caso anterior hace a la función:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.2",
+        "nombre": "Límite y valor de la función"
+      },
+      "respuestas_posibles": {
+        "A": "Discontinua en $1$",
+        "B": "Vertical",
+        "C": "Periódica",
+        "D": "Continua en $1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-2-09",
+      "pregunta": "El valor de una función en un punto se obtiene:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.2",
+        "nombre": "Límite y valor de la función"
+      },
+      "respuestas_posibles": {
+        "A": "Derivando",
+        "B": "Integrando",
+        "C": "Sustituyendo el punto cuando la expresión está definida",
+        "D": "Tomando siempre el límite lateral izquierdo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-2-10",
+      "pregunta": "El límite y el valor funcional son conceptos:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.2",
+        "nombre": "Límite y valor de la función"
+      },
+      "respuestas_posibles": {
+        "A": "Sin ninguna relación",
+        "B": "Relacionados, pero no idénticos",
+        "C": "Siempre idénticos",
+        "D": "Mutuamente excluyentes"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-3-01",
+      "pregunta": "El límite por la izquierda se escribe:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.3",
+        "nombre": "Límites laterales"
+      },
+      "respuestas_posibles": {
+        "A": "$\\lim_{x\\to a^-}f(x)$",
+        "B": "$\\lim_{x\\to a^+}f(x)$",
+        "C": "$\\lim_{a\\to x}f(x)$",
+        "D": "$f(a^-)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-3-02",
+      "pregunta": "El límite por la derecha se escribe:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.3",
+        "nombre": "Límites laterales"
+      },
+      "respuestas_posibles": {
+        "A": "$\\lim_{x\\to a^-}f(x)$",
+        "B": "$\\lim_{a\\to x}f(x)$",
+        "C": "$f(a^+)$",
+        "D": "$\\lim_{x\\to a^+}f(x)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-3-03",
+      "pregunta": "El límite bilateral existe si:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.3",
+        "nombre": "Límites laterales"
+      },
+      "respuestas_posibles": {
+        "A": "Existe solo el límite derecho",
+        "B": "Los límites laterales son opuestos",
+        "C": "Los dos límites laterales existen y son iguales",
+        "D": "Existe solo el límite izquierdo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-3-04",
+      "pregunta": "Si el límite izquierdo es $2$ y el derecho es $5$, el límite bilateral:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.3",
+        "nombre": "Límites laterales"
+      },
+      "respuestas_posibles": {
+        "A": "Es $2$",
+        "B": "No existe",
+        "C": "Es $7$",
+        "D": "Es $3.5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-3-05",
+      "pregunta": "Si ambos límites laterales valen $-3$, el límite bilateral es:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.3",
+        "nombre": "Límites laterales"
+      },
+      "respuestas_posibles": {
+        "A": "$-3$",
+        "B": "$0$",
+        "C": "$3$",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-3-06",
+      "pregunta": "En una función escalonada, en un salto suelen ser distintos:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.3",
+        "nombre": "Límites laterales"
+      },
+      "respuestas_posibles": {
+        "A": "Los dominios",
+        "B": "Los exponentes",
+        "C": "Los periodos",
+        "D": "Los límites laterales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-3-07",
+      "pregunta": "Para $f(x)=|x|/x$, $\\lim_{x\\to0^-}f(x)=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.3",
+        "nombre": "Límites laterales"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "No existe",
+        "C": "$-1$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-3-08",
+      "pregunta": "Para $f(x)=|x|/x$, $\\lim_{x\\to0^+}f(x)=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.3",
+        "nombre": "Límites laterales"
+      },
+      "respuestas_posibles": {
+        "A": "No existe",
+        "B": "$1$",
+        "C": "$-1$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-3-09",
+      "pregunta": "Por lo anterior, $\\lim_{x\\to0}|x|/x$:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.3",
+        "nombre": "Límites laterales"
+      },
+      "respuestas_posibles": {
+        "A": "No existe",
+        "B": "Vale $0$",
+        "C": "Vale $1$",
+        "D": "Vale $-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-3-10",
+      "pregunta": "Un límite lateral considera valores de $x$:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.3",
+        "nombre": "Límites laterales"
+      },
+      "respuestas_posibles": {
+        "A": "Exactamente iguales al punto",
+        "B": "De ambos lados simultáneamente",
+        "C": "Solo enteros",
+        "D": "Solo de un lado del punto"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-4-01",
+      "pregunta": "Si $\\lim f(x)=L$ y $\\lim g(x)=M$, entonces $\\lim(f+g)=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.4",
+        "nombre": "Álgebra de límites"
+      },
+      "respuestas_posibles": {
+        "A": "$L-M$",
+        "B": "$L/M$",
+        "C": "$L+M$",
+        "D": "$LM$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-4-02",
+      "pregunta": "La regla del producto establece que $\\lim(fg)=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.4",
+        "nombre": "Álgebra de límites"
+      },
+      "respuestas_posibles": {
+        "A": "$M-L$",
+        "B": "$LM$",
+        "C": "$L+M$",
+        "D": "$L/M$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-4-03",
+      "pregunta": "La regla del cociente da $\\lim(f/g)=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.4",
+        "nombre": "Álgebra de límites"
+      },
+      "respuestas_posibles": {
+        "A": "$L/M$, si $M\\ne0$",
+        "B": "$L+M$",
+        "C": "$LM$",
+        "D": "$M/L$ siempre"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-4-04",
+      "pregunta": "Para una constante $c$, $\\lim c f(x)=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.4",
+        "nombre": "Álgebra de límites"
+      },
+      "respuestas_posibles": {
+        "A": "$c+L$",
+        "B": "$L/c$",
+        "C": "$c^L$",
+        "D": "$cL$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-4-05",
+      "pregunta": "La regla de la diferencia produce:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.4",
+        "nombre": "Álgebra de límites"
+      },
+      "respuestas_posibles": {
+        "A": "$LM$",
+        "B": "$M-L$ únicamente",
+        "C": "$L-M$",
+        "D": "$L+M$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-4-06",
+      "pregunta": "Si $n$ es entero positivo, $\\lim[f(x)]^n=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.4",
+        "nombre": "Álgebra de límites"
+      },
+      "respuestas_posibles": {
+        "A": "$n^L$",
+        "B": "$L^n$",
+        "C": "$nL$",
+        "D": "$L+n$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-4-07",
+      "pregunta": "Bajo condiciones apropiadas, $\\lim\\sqrt[n]{f(x)}=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.4",
+        "nombre": "Álgebra de límites"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt[n]{L}$",
+        "B": "$nL$",
+        "C": "$L^n$",
+        "D": "$1/L$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-4-08",
+      "pregunta": "Si $\\lim f=3$ y $\\lim g=4$, entonces $\\lim(2f-g)=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.4",
+        "nombre": "Álgebra de límites"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$7$",
+        "C": "$-2$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-4-09",
+      "pregunta": "Si $\\lim f=-2$ y $\\lim g=5$, entonces $\\lim(fg)=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.4",
+        "nombre": "Álgebra de límites"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$-7$",
+        "C": "$-10$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-4-10",
+      "pregunta": "Si $\\lim f=6$ y $\\lim g=2$, entonces $\\lim(f/g)=$",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.4",
+        "nombre": "Álgebra de límites"
+      },
+      "respuestas_posibles": {
+        "A": "$1/3$",
+        "B": "$3$",
+        "C": "$8$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-5-01",
+      "pregunta": "Calcule $\\lim_{x\\to2}(3x+1)$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.5",
+        "nombre": "Sustitución directa"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$5$",
+        "C": "$6$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar sustitución directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-5-02",
+      "pregunta": "Calcule $\\lim_{x\\to-1}(x^2+2x+4)$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.5",
+        "nombre": "Sustitución directa"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$4$",
+        "C": "$7$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar sustitución directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-5-03",
+      "pregunta": "Calcule $\\lim_{x\\to3}(x^2-5x+2)$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.5",
+        "nombre": "Sustitución directa"
+      },
+      "respuestas_posibles": {
+        "A": "$-2$",
+        "B": "$8$",
+        "C": "$-4$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar sustitución directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-5-04",
+      "pregunta": "Calcule $\\lim_{x\\to1}(x^3+x)$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.5",
+        "nombre": "Sustitución directa"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$2$",
+        "C": "$1$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar sustitución directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-5-05",
+      "pregunta": "Calcule $\\lim_{x\\to4}\\sqrt{x+5}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.5",
+        "nombre": "Sustitución directa"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$9$",
+        "C": "$5$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar sustitución directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-5-06",
+      "pregunta": "Calcule $\\lim_{x\\to2}\\frac{x+3}{x+1}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.5",
+        "nombre": "Sustitución directa"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac35$",
+        "B": "$5$",
+        "C": "$3$",
+        "D": "$\\frac53$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar sustitución directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-5-07",
+      "pregunta": "Calcule $\\lim_{x\\to-2}\\frac{x^2+1}{x-1}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.5",
+        "nombre": "Sustitución directa"
+      },
+      "respuestas_posibles": {
+        "A": "$-1$",
+        "B": "$5$",
+        "C": "$-\\frac53$",
+        "D": "$\\frac53$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar sustitución directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-5-08",
+      "pregunta": "Calcule $\\lim_{x\\to0}(5x^4-2x+6)$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.5",
+        "nombre": "Sustitución directa"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$6$",
+        "C": "$0$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar sustitución directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-5-09",
+      "pregunta": "Calcule $\\lim_{x\\to1}\\frac{2x^2+3}{x+4}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.5",
+        "nombre": "Sustitución directa"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$5$",
+        "C": "$\\frac15$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar sustitución directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-5-10",
+      "pregunta": "Calcule $\\lim_{x\\to9}\\sqrt{x}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.5",
+        "nombre": "Sustitución directa"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$81$",
+        "C": "$\\sqrt3$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar sustitución directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-6-01",
+      "pregunta": "El primer paso al calcular un límite algebraico suele ser:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.6",
+        "nombre": "Procedimiento básico"
+      },
+      "respuestas_posibles": {
+        "A": "Aplicar derivadas",
+        "B": "Integrar",
+        "C": "Intentar la sustitución directa",
+        "D": "Factorizar siempre antes"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-6-02",
+      "pregunta": "Si la sustitución directa produce un número real definido:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.6",
+        "nombre": "Procedimiento básico"
+      },
+      "respuestas_posibles": {
+        "A": "El resultado se descarta",
+        "B": "Ese valor es el límite para funciones continuas en el punto",
+        "C": "El límite no existe",
+        "D": "Debe factorizarse obligatoriamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-6-03",
+      "pregunta": "Si aparece $0/0$, conviene:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.6",
+        "nombre": "Procedimiento básico"
+      },
+      "respuestas_posibles": {
+        "A": "Simplificar algebraicamente antes de volver a evaluar",
+        "B": "Concluir que el límite es cero",
+        "C": "Concluir que no existe",
+        "D": "Dividir entre cero"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-6-04",
+      "pregunta": "Una técnica frecuente ante $0/0$ en polinomios es:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.6",
+        "nombre": "Procedimiento básico"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicar por cero",
+        "B": "Tomar logaritmos",
+        "C": "Cambiar el punto",
+        "D": "Factorizar"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-6-05",
+      "pregunta": "Cuando hay radicales, suele ser útil:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.6",
+        "nombre": "Procedimiento básico"
+      },
+      "respuestas_posibles": {
+        "A": "Derivar siempre",
+        "B": "Eliminar el radical sin compensar",
+        "C": "Racionalizar con el conjugado",
+        "D": "Elevar a potencia cero"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-6-06",
+      "pregunta": "Después de simplificar una expresión se debe:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.6",
+        "nombre": "Procedimiento básico"
+      },
+      "respuestas_posibles": {
+        "A": "Sumar uno",
+        "B": "Evaluar nuevamente el límite",
+        "C": "Cambiar el valor de aproximación",
+        "D": "Ignorar las restricciones"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-6-07",
+      "pregunta": "Cancelar un factor $x-a$ es válido cerca de $a$ cuando:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.6",
+        "nombre": "Procedimiento básico"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\ne a$",
+        "B": "$x=a$ únicamente",
+        "C": "$x$ es entero",
+        "D": "La función vale cero"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-6-08",
+      "pregunta": "El límite estudia valores cercanos, por lo que una simplificación válida para $x\\ne a$:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.6",
+        "nombre": "Procedimiento básico"
+      },
+      "respuestas_posibles": {
+        "A": "Nunca puede usarse",
+        "B": "Cambia necesariamente el límite",
+        "C": "Hace el límite infinito",
+        "D": "Puede usarse para calcular el límite en $a$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-6-09",
+      "pregunta": "Una tabla o gráfica puede emplearse para:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.6",
+        "nombre": "Procedimiento básico"
+      },
+      "respuestas_posibles": {
+        "A": "Cambiar la función",
+        "B": "Eliminar indeterminaciones automáticamente",
+        "C": "Comprobar razonablemente el resultado algebraico",
+        "D": "Sustituir toda justificación"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-6-10",
+      "pregunta": "Si los límites laterales resultan distintos, el procedimiento concluye:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.6",
+        "nombre": "Procedimiento básico"
+      },
+      "respuestas_posibles": {
+        "A": "El límite siempre es cero",
+        "B": "El límite bilateral no existe",
+        "C": "El límite es su promedio",
+        "D": "El límite es su suma"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-7-01",
+      "pregunta": "La forma $0/0$ se llama:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.7",
+        "nombre": "Indeterminación"
+      },
+      "respuestas_posibles": {
+        "A": "Indeterminación",
+        "B": "Cero definitivo",
+        "C": "Infinito definitivo",
+        "D": "Identidad"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-7-02",
+      "pregunta": "Obtener $0/0$ por sustitución significa:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.7",
+        "nombre": "Indeterminación"
+      },
+      "respuestas_posibles": {
+        "A": "Que el límite vale cero",
+        "B": "Que el límite no existe siempre",
+        "C": "Que se divide entre cero",
+        "D": "Que debe analizarse más la expresión"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-7-03",
+      "pregunta": "Calcule $\\lim_{x\\to2}\\frac{x^2-4}{x-2}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.7",
+        "nombre": "Indeterminación"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "No existe",
+        "C": "$4$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-7-04",
+      "pregunta": "Calcule $\\lim_{x\\to3}\\frac{x^2-9}{x-3}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.7",
+        "nombre": "Indeterminación"
+      },
+      "respuestas_posibles": {
+        "A": "No existe",
+        "B": "$6$",
+        "C": "$3$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-7-05",
+      "pregunta": "Calcule $\\lim_{x\\to1}\\frac{x^3-1}{x-1}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.7",
+        "nombre": "Indeterminación"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-7-06",
+      "pregunta": "Calcule $\\lim_{x\\to0}\\frac{\\sqrt{x+1}-1}{x}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.7",
+        "nombre": "Indeterminación"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$2$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-7-07",
+      "pregunta": "Para resolver el límite anterior se utiliza:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.7",
+        "nombre": "Indeterminación"
+      },
+      "respuestas_posibles": {
+        "A": "Integración por partes",
+        "B": "Una asíntota",
+        "C": "El conjugado",
+        "D": "La fórmula cuadrática"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-7-08",
+      "pregunta": "Calcule $\\lim_{x\\to4}\\frac{x-4}{\\sqrt{x}-2}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.7",
+        "nombre": "Indeterminación"
+      },
+      "respuestas_posibles": {
+        "A": "No existe",
+        "B": "$4$",
+        "C": "$2$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-7-09",
+      "pregunta": "La factorización $x^2-a^2=(x-a)(x+a)$ permite:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.7",
+        "nombre": "Indeterminación"
+      },
+      "respuestas_posibles": {
+        "A": "Cancelar el factor causante de $0/0$",
+        "B": "Dividir por cero",
+        "C": "Cambiar $a$",
+        "D": "Eliminar ambos términos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-7-10",
+      "pregunta": "La forma indeterminada no proporciona por sí sola:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.7",
+        "nombre": "Indeterminación"
+      },
+      "respuestas_posibles": {
+        "A": "Una señal para simplificar",
+        "B": "Información sobre la sustitución",
+        "C": "Una necesidad de análisis",
+        "D": "El valor del límite"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-8-01",
+      "pregunta": "El límite trigonométrico fundamental es:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.8",
+        "nombre": "Límite trigonométrico fundamental"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pi$",
+        "B": "$\\infty$",
+        "C": "$\\lim_{x\\to0}\\frac{\\sin x}{x}=1$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-8-02",
+      "pregunta": "Este límite requiere que el ángulo se mida en:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.8",
+        "nombre": "Límite trigonométrico fundamental"
+      },
+      "respuestas_posibles": {
+        "A": "Cualquier unidad sin ajuste",
+        "B": "Radianes",
+        "C": "Grados únicamente",
+        "D": "Revoluciones"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-8-03",
+      "pregunta": "Calcule $\\lim_{x\\to0}\\frac{\\sin(3x)}{x}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.8",
+        "nombre": "Límite trigonométrico fundamental"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$1/3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-8-04",
+      "pregunta": "Calcule $\\lim_{x\\to0}\\frac{\\sin(5x)}{2x}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.8",
+        "nombre": "Límite trigonométrico fundamental"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$2$",
+        "C": "$\\frac25$",
+        "D": "$\\frac52$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-8-05",
+      "pregunta": "Calcule $\\lim_{x\\to0}\\frac{x}{\\sin x}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.8",
+        "nombre": "Límite trigonométrico fundamental"
+      },
+      "respuestas_posibles": {
+        "A": "$-1$",
+        "B": "$\\infty$",
+        "C": "$1$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-8-06",
+      "pregunta": "Calcule $\\lim_{x\\to0}\\frac{\\tan x}{x}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.8",
+        "nombre": "Límite trigonométrico fundamental"
+      },
+      "respuestas_posibles": {
+        "A": "No existe",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-8-07",
+      "pregunta": "Calcule $\\lim_{x\\to0}\\frac{1-\\cos x}{x}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.8",
+        "nombre": "Límite trigonométrico fundamental"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$-1$",
+        "D": "$\\infty$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-8-08",
+      "pregunta": "Calcule $\\lim_{x\\to0}\\frac{1-\\cos x}{x^2}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.8",
+        "nombre": "Límite trigonométrico fundamental"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$0$",
+        "C": "$2$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-8-09",
+      "pregunta": "Calcule $\\lim_{x\\to0}\\frac{\\sin(2x)}{\\sin(5x)}$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.8",
+        "nombre": "Límite trigonométrico fundamental"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$0$",
+        "C": "$\\frac25$",
+        "D": "$\\frac52$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-8-10",
+      "pregunta": "Para aplicar el límite fundamental se busca formar:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.8",
+        "nombre": "Límite trigonométrico fundamental"
+      },
+      "respuestas_posibles": {
+        "A": "$u^2$",
+        "B": "$\\frac{\\sin u}{u}$ con $u\\to0$",
+        "C": "$\\frac{u}{\\cos u}$",
+        "D": "$\\sin u+u$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-9-01",
+      "pregunta": "Un límite infinito indica que la función:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.9",
+        "nombre": "Límites infinitos"
+      },
+      "respuestas_posibles": {
+        "A": "Crece o decrece sin cota cerca del punto",
+        "B": "Alcanza un número real fijo",
+        "C": "Es constante",
+        "D": "Tiene dominio vacío"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-9-02",
+      "pregunta": "La notación $\\lim_{x\\to a}f(x)=+\\infty$ describe:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.9",
+        "nombre": "Límites infinitos"
+      },
+      "respuestas_posibles": {
+        "A": "Un valor real llamado infinito",
+        "B": "Una discontinuidad removible siempre",
+        "C": "Un límite igual a cero",
+        "D": "Crecimiento positivo sin límite"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-9-03",
+      "pregunta": "Si $\\lim_{x\\to a}f(x)=\\pm\\infty$, la recta $x=a$ puede ser:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.9",
+        "nombre": "Límites infinitos"
+      },
+      "respuestas_posibles": {
+        "A": "El eje polar",
+        "B": "Una tangente horizontal",
+        "C": "Una asíntota vertical",
+        "D": "Una asíntota horizontal"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-9-04",
+      "pregunta": "Calcule $\\lim_{x\\to0^+}1/x$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.9",
+        "nombre": "Límites infinitos"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$+\\infty$",
+        "C": "$-\\infty$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-9-05",
+      "pregunta": "Calcule $\\lim_{x\\to0^-}1/x$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.9",
+        "nombre": "Límites infinitos"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\infty$",
+        "B": "$+\\infty$",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-9-06",
+      "pregunta": "Por lo anterior, $\\lim_{x\\to0}1/x$:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.9",
+        "nombre": "Límites infinitos"
+      },
+      "respuestas_posibles": {
+        "A": "Es $0$",
+        "B": "Es $+\\infty$",
+        "C": "Es $-\\infty$",
+        "D": "No existe como límite bilateral"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-9-07",
+      "pregunta": "Calcule $\\lim_{x\\to0}1/x^2$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.9",
+        "nombre": "Límites infinitos"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "No existe",
+        "C": "$+\\infty$",
+        "D": "$-\\infty$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-9-08",
+      "pregunta": "Calcule $\\lim_{x\\to2^+}1/(x-2)$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.9",
+        "nombre": "Límites infinitos"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$+\\infty$",
+        "C": "$-\\infty$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-9-09",
+      "pregunta": "Calcule $\\lim_{x\\to2^-}1/(x-2)$.",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.9",
+        "nombre": "Límites infinitos"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\infty$",
+        "B": "$+\\infty$",
+        "C": "$0$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-39-9-10",
+      "pregunta": "Para determinar el signo de un límite infinito lateral conviene:",
+      "tema": {
+        "codigo": "39",
+        "nombre": "Límites",
+        "bloque": "Cálculo diferencial"
+      },
+      "subtema": {
+        "codigo": "39.9",
+        "nombre": "Límites infinitos"
+      },
+      "respuestas_posibles": {
+        "A": "Usar el valor absoluto siempre",
+        "B": "Promediar ambos lados",
+        "C": "Sustituir infinito como número",
+        "D": "Analizar el signo de numerador y denominador"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "calcular e interpretar límites",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

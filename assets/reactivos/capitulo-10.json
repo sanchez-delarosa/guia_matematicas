@@ -1,0 +1,1603 @@
+{
+  "metadata": {
+    "capitulo": "10",
+    "titulo": "Ecuaciones de primer grado",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 6,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 60,
+    "secciones_incluidas": [
+      {
+        "codigo": "10.1",
+        "nombre": "Conceptos básicos"
+      },
+      {
+        "codigo": "10.2",
+        "nombre": "Despejes"
+      },
+      {
+        "codigo": "10.3",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      {
+        "codigo": "10.4",
+        "nombre": "Clasificación según número de soluciones"
+      },
+      {
+        "codigo": "10.5",
+        "nombre": "Ecuaciones con denominadores"
+      },
+      {
+        "codigo": "10.6",
+        "nombre": "Problemas de aplicación"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Reactivos distintos y específicos por subtema, inspirados en la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-10-1-01",
+      "pregunta": "En la ecuación $3x+5=14$, el miembro izquierdo es:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Conceptos básicos"
+      },
+      "respuestas_posibles": {
+        "A": "$3x+5$",
+        "B": "$14$",
+        "C": "$x=3$",
+        "D": "$3x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar miembros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-1-02",
+      "pregunta": "¿Cuál valor verifica $4x-1=11$?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Conceptos básicos"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2$",
+        "B": "$x=4$",
+        "C": "$x=-3$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "verificar solución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-1-03",
+      "pregunta": "Una ecuación es:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Conceptos básicos"
+      },
+      "respuestas_posibles": {
+        "A": "Una operación exclusivamente numérica",
+        "B": "Una desigualdad entre números",
+        "C": "Una igualdad algebraica que contiene una o más incógnitas",
+        "D": "Una expresión sin signo igual"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer definición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-1-04",
+      "pregunta": "Dos ecuaciones son equivalentes si:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Conceptos básicos"
+      },
+      "respuestas_posibles": {
+        "A": "Tienen igual número de términos",
+        "B": "Tienen el mismo conjunto de soluciones",
+        "C": "Tienen los mismos coeficientes",
+        "D": "Usan la misma letra"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "comprender equivalencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-1-05",
+      "pregunta": "¿Qué propiedad justifica sumar el mismo número a ambos miembros?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Conceptos básicos"
+      },
+      "respuestas_posibles": {
+        "A": "Propiedad aditiva de la igualdad",
+        "B": "Propiedad reflexiva",
+        "C": "Propiedad distributiva",
+        "D": "Propiedad de orden"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar propiedad de igualdad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-1-06",
+      "pregunta": "Si $a=b$, entonces $b=a$. ¿Qué propiedad se aplica?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Conceptos básicos"
+      },
+      "respuestas_posibles": {
+        "A": "Propiedad transitiva",
+        "B": "Propiedad multiplicativa",
+        "C": "Propiedad asociativa",
+        "D": "Propiedad simétrica"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reconocer simetría",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-1-07",
+      "pregunta": "¿Cuál transformación conserva la equivalencia de $2x=10$?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Conceptos básicos"
+      },
+      "respuestas_posibles": {
+        "A": "$x+3=13$",
+        "B": "$4x=10$",
+        "C": "$2x+3=13$",
+        "D": "$2x+3=10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar operación en ambos miembros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-1-08",
+      "pregunta": "En $7x-2=5x+8$, la incógnita es:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Conceptos básicos"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$x$",
+        "C": "$7$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar incógnita",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-1-09",
+      "pregunta": "¿Cuál ecuación tiene como solución $x=-2$?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Conceptos básicos"
+      },
+      "respuestas_posibles": {
+        "A": "$3x+1=-5$",
+        "B": "$2x+3=1$",
+        "C": "$x-4=2$",
+        "D": "$5x=10$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "comprobar candidatos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-1-10",
+      "pregunta": "Si $x=4$ satisface una ecuación, al sustituirlo se obtiene:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Conceptos básicos"
+      },
+      "respuestas_posibles": {
+        "A": "Una contradicción obligatoria",
+        "B": "Una expresión sin valor",
+        "C": "Una desigualdad estricta",
+        "D": "Una igualdad verdadera"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "interpretar solución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-2-01",
+      "pregunta": "Despeje $x$ en $y=3x+2$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Despejes"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3y-2$",
+        "B": "$x=y-6$",
+        "C": "$x=\\frac{y-2}{3}$",
+        "D": "$x=\\frac{y+2}{3}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "despejar variable lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-2-02",
+      "pregunta": "Despeje $t$ en $d=vt$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Despejes"
+      },
+      "respuestas_posibles": {
+        "A": "$t=d-v$",
+        "B": "$t=\\frac{d}{v}$",
+        "C": "$t=dv$",
+        "D": "$t=\\frac{v}{d}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "despejar fórmula física",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-2-03",
+      "pregunta": "Despeje $r$ en $C=2\\pi r$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Despejes"
+      },
+      "respuestas_posibles": {
+        "A": "$r=\\frac{C}{2\\pi}$",
+        "B": "$r=2\\pi C$",
+        "C": "$r=\\frac{2\\pi}{C}$",
+        "D": "$r=C-2\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "despejar producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-2-04",
+      "pregunta": "Despeje $h$ en $V=\\frac13Ah$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Despejes"
+      },
+      "respuestas_posibles": {
+        "A": "$h=\\frac{V}{3A}$",
+        "B": "$h=3AV$",
+        "C": "$h=\\frac{A}{3V}$",
+        "D": "$h=\\frac{3V}{A}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "despejar con fracción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-2-05",
+      "pregunta": "Despeje $b$ en $A=\\frac{(B+b)h}{2}$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Despejes"
+      },
+      "respuestas_posibles": {
+        "A": "$b=\\frac{2A-B}{h}$",
+        "B": "$b=2Ah-B$",
+        "C": "$b=\\frac{2A}{h}-B$",
+        "D": "$b=\\frac{A}{2h}-B$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "despejar fórmula con suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-2-06",
+      "pregunta": "Despeje $F$ en $C=\\frac59(F-32)$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Despejes"
+      },
+      "respuestas_posibles": {
+        "A": "$F=\\frac59C+32$",
+        "B": "$F=\\frac95C+32$",
+        "C": "$F=\\frac59C-32$",
+        "D": "$F=\\frac95(C+32)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "despejar fórmula de conversión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-2-07",
+      "pregunta": "Despeje $a$ en $v=u+at$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Despejes"
+      },
+      "respuestas_posibles": {
+        "A": "$a=\\frac{v-u}{t}$",
+        "B": "$a=\\frac{v+u}{t}$",
+        "C": "$a=t(v-u)$",
+        "D": "$a=\\frac{t}{v-u}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aislar variable multiplicada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-2-08",
+      "pregunta": "Despeje $x$ en $P=2x+2y$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Despejes"
+      },
+      "respuestas_posibles": {
+        "A": "$x=\\frac{P+2y}{2}$",
+        "B": "$x=2P-2y$",
+        "C": "$x=P-y$",
+        "D": "$x=\\frac{P-2y}{2}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "despejar en expresión con varios términos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-2-09",
+      "pregunta": "Despeje $q$ en $p=\\frac{q}{r+s}$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Despejes"
+      },
+      "respuestas_posibles": {
+        "A": "$q=pr+s$",
+        "B": "$q=\\frac{r+s}{p}$",
+        "C": "$q=p(r+s)$",
+        "D": "$q=\\frac{p}{r+s}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "despejar numerador",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-2-10",
+      "pregunta": "Despeje $R$ en $I=\\frac{V}{R}$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Despejes"
+      },
+      "respuestas_posibles": {
+        "A": "$R=V-I$",
+        "B": "$R=\\frac{V}{I}$",
+        "C": "$R=VI$",
+        "D": "$R=\\frac{I}{V}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "despejar denominador",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-3-01",
+      "pregunta": "Resuelva $6x-7=3x+2$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3$",
+        "B": "$x=-3$",
+        "C": "$x=5$",
+        "D": "$x=\\frac13$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver ecuación lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-3-02",
+      "pregunta": "Resuelva $5x+9=2x-12$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=7$",
+        "B": "$x=-1$",
+        "C": "$x=-21$",
+        "D": "$x=-7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "agrupar términos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-3-03",
+      "pregunta": "Resuelva $4(x-2)=2x+6$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=5$",
+        "B": "$x=-7$",
+        "C": "$x=7$",
+        "D": "$x=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "eliminar paréntesis",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-3-04",
+      "pregunta": "Resuelva $3(2x+1)-5=x+8$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-2$",
+        "B": "$x=2$",
+        "C": "$x=1$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "distribuir y reducir",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-3-05",
+      "pregunta": "Resuelva $7-2(x+3)=3x-4$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$",
+        "B": "$x=-1$",
+        "C": "$x=3$",
+        "D": "$x=5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "manejar signo negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-3-06",
+      "pregunta": "Resuelva $0.4x+1.2=3.6$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3$",
+        "B": "$x=9$",
+        "C": "$x=12$",
+        "D": "$x=6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver con decimales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-3-07",
+      "pregunta": "Resuelva $\\frac{x}{3}+5=9$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=27$",
+        "B": "$x=-12$",
+        "C": "$x=12$",
+        "D": "$x=4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver coeficiente fraccionario",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-3-08",
+      "pregunta": "Resuelva $2(3x-4)-3(x+1)=10$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-7$",
+        "B": "$x=7$",
+        "C": "$x=5$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "simplificar ambos lados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-3-09",
+      "pregunta": "Resuelva $5-\\frac{x}{2}=1$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=8$",
+        "B": "$x=2$",
+        "C": "$x=-8$",
+        "D": "$x=12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aislar término fraccionario",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-3-10",
+      "pregunta": "Resuelva $4x-3=2(2x+5)-13$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "$x=5$",
+        "C": "Sin solución",
+        "D": "Infinitas soluciones"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "detectar identidad tras simplificar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-4-01",
+      "pregunta": "Clasifique $3x+5=3x+5$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Clasificación según número de soluciones"
+      },
+      "respuestas_posibles": {
+        "A": "Ecuación condicional con una solución",
+        "B": "Ecuación con dos soluciones",
+        "C": "Identidad: infinitas soluciones",
+        "D": "Contradicción: sin solución"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "clasificar identidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-4-02",
+      "pregunta": "Clasifique $2x+1=2x+7$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Clasificación según número de soluciones"
+      },
+      "respuestas_posibles": {
+        "A": "Solución única $x=-3$",
+        "B": "Contradicción: sin solución",
+        "C": "Identidad: infinitas soluciones",
+        "D": "Solución única $x=3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar contradicción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-4-03",
+      "pregunta": "Clasifique $5x-4=11$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Clasificación según número de soluciones"
+      },
+      "respuestas_posibles": {
+        "A": "Ecuación condicional con solución única",
+        "B": "Identidad",
+        "C": "Contradicción",
+        "D": "Ecuación con dos soluciones"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "clasificar solución única",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-4-04",
+      "pregunta": "Al simplificar una ecuación se obtiene $0=0$. La ecuación tiene:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Clasificación según número de soluciones"
+      },
+      "respuestas_posibles": {
+        "A": "Una solución",
+        "B": "Ninguna solución",
+        "C": "Dos soluciones",
+        "D": "Infinitas soluciones"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "interpretar identidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-4-05",
+      "pregunta": "Al simplificar una ecuación se obtiene $0=-6$. La ecuación tiene:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Clasificación según número de soluciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-6$",
+        "B": "$x=0$",
+        "C": "Ninguna solución",
+        "D": "Infinitas soluciones"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "interpretar contradicción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-4-06",
+      "pregunta": "¿Cuántas soluciones tiene $4(x+2)=4x+8$?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Clasificación según número de soluciones"
+      },
+      "respuestas_posibles": {
+        "A": "Dos",
+        "B": "Infinitas",
+        "C": "Ninguna",
+        "D": "Una"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reconocer igualdad equivalente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-4-07",
+      "pregunta": "¿Cuántas soluciones tiene $3(x-1)=3x+2$?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Clasificación según número de soluciones"
+      },
+      "respuestas_posibles": {
+        "A": "Ninguna",
+        "B": "Infinitas",
+        "C": "Una: $x=5$",
+        "D": "Una: $x=-5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "reconocer contradicción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-4-08",
+      "pregunta": "¿Cuántas soluciones tiene $7x+2=7x+2$?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Clasificación según número de soluciones"
+      },
+      "respuestas_posibles": {
+        "A": "Ninguna",
+        "B": "Una",
+        "C": "Siete",
+        "D": "Infinitas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "clasificar ecuación idéntica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-4-09",
+      "pregunta": "La ecuación $ax=b$, con $a\\neq0$, tiene:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Clasificación según número de soluciones"
+      },
+      "respuestas_posibles": {
+        "A": "Ninguna solución",
+        "B": "Dos soluciones",
+        "C": "Una solución $x=\\frac{b}{a}$",
+        "D": "Infinitas soluciones"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "generalizar clasificación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-4-10",
+      "pregunta": "Si una ecuación lineal se reduce a $0x=9$, entonces:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Clasificación según número de soluciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "No tiene solución",
+        "C": "Todo número es solución",
+        "D": "$x=9$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "interpretar coeficiente nulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-5-01",
+      "pregunta": "Resuelva $\\frac{x}{3}+\\frac{x}{2}=10$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.5",
+        "nombre": "Ecuaciones con denominadores"
+      },
+      "respuestas_posibles": {
+        "A": "$x=12$",
+        "B": "$x=6$",
+        "C": "$x=10$",
+        "D": "$x=20$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "eliminar denominadores numéricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-5-02",
+      "pregunta": "Resuelva $\\frac{x-1}{4}=\\frac{x+5}{6}$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.5",
+        "nombre": "Ecuaciones con denominadores"
+      },
+      "respuestas_posibles": {
+        "A": "$x=7$",
+        "B": "$x=-13$",
+        "C": "$x=1$",
+        "D": "$x=13$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "usar mcm o producto cruzado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-5-03",
+      "pregunta": "Resuelva $\\frac{2x+1}{3}-\\frac{x-2}{2}=4$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.5",
+        "nombre": "Ecuaciones con denominadores"
+      },
+      "respuestas_posibles": {
+        "A": "$x=10$",
+        "B": "$x=-14$",
+        "C": "$x=16$",
+        "D": "$x=8$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "resolver ecuación con dos fracciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-5-04",
+      "pregunta": "Resuelva $\\frac{3}{x}=1$, con $x\\neq0$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.5",
+        "nombre": "Ecuaciones con denominadores"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "$x=3$",
+        "C": "$x=\\frac13$",
+        "D": "$x=-3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver variable en denominador",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-5-05",
+      "pregunta": "Resuelva $\\frac{2}{x-1}=1$, con $x\\neq1$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.5",
+        "nombre": "Ecuaciones con denominadores"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3$",
+        "B": "$x=2$",
+        "C": "$x=-1$",
+        "D": "$x=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver denominador lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-5-06",
+      "pregunta": "Resuelva $\\frac{x+2}{x}=3$, con $x\\neq0$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.5",
+        "nombre": "Ecuaciones con denominadores"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2$",
+        "B": "$x=-1$",
+        "C": "$x=0$",
+        "D": "$x=1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "eliminar denominador algebraico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-5-07",
+      "pregunta": "Resuelva $\\frac{1}{x-2}+1=2$, con $x\\neq2$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.5",
+        "nombre": "Ecuaciones con denominadores"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2$",
+        "B": "$x=-3$",
+        "C": "$x=3$",
+        "D": "$x=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver ecuación racional simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-5-08",
+      "pregunta": "Resuelva $\\frac{x}{x+1}=2$, con $x\\neq-1$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.5",
+        "nombre": "Ecuaciones con denominadores"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$",
+        "B": "$x=-2$",
+        "C": "$x=2$",
+        "D": "$x=-1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "verificar restricción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-5-09",
+      "pregunta": "¿Cuál es el primer paso conveniente en $\\frac{x}{4}-\\frac{x}{6}=5$?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.5",
+        "nombre": "Ecuaciones con denominadores"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicar toda la ecuación por $12$",
+        "B": "Sumar $4+6$",
+        "C": "Dividir todo entre $5$",
+        "D": "Cancelar las $x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "elegir mínimo común múltiplo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-5-10",
+      "pregunta": "Resuelva $\\frac{x-3}{x-3}=2$, con $x\\neq3$.",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.5",
+        "nombre": "Ecuaciones con denominadores"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3$",
+        "B": "Infinitas soluciones",
+        "C": "$x=2$",
+        "D": "No tiene solución"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "respetar restricción y contradicción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-6-01",
+      "pregunta": "La suma de un número y $9$ es $24$. ¿Cuál es el número?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "$33$",
+        "C": "$15$",
+        "D": "$13$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "modelar suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-6-02",
+      "pregunta": "El triple de un número menos $4$ es $20$. ¿Cuál es el número?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "$8$",
+        "C": "$6$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "modelar relación lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-6-03",
+      "pregunta": "Dos números consecutivos suman $41$. ¿Cuál es el menor?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$20$",
+        "B": "$19$",
+        "C": "$21$",
+        "D": "$40$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "modelar números consecutivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-6-04",
+      "pregunta": "Una edad es el doble de otra y juntas suman $27$ años. ¿Cuál es la menor?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$12$ años",
+        "B": "$18$ años",
+        "C": "$27$ años",
+        "D": "$9$ años"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver problema de edades",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-6-05",
+      "pregunta": "El perímetro de un rectángulo es $40\\,\\text{cm}$. Si el largo es triple del ancho, ¿cuánto mide el ancho?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$15\\,\\text{cm}$",
+        "B": "$20\\,\\text{cm}$",
+        "C": "$5\\,\\text{cm}$",
+        "D": "$10\\,\\text{cm}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "modelar perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-6-06",
+      "pregunta": "Un taxi cobra $35$ pesos de cuota fija y $12$ por kilómetro. Si el viaje costó $119$ pesos, ¿cuántos kilómetros se recorrieron?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$7$",
+        "C": "$5$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver modelo de costo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-6-07",
+      "pregunta": "Después de gastar $\\frac14$ de su dinero, una persona conserva $450$ pesos. ¿Cuánto tenía al inicio?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$600$ pesos",
+        "B": "$562.50$ pesos",
+        "C": "$500$ pesos",
+        "D": "$1800$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "modelar fracción restante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-6-08",
+      "pregunta": "La suma de tres enteros consecutivos es $72$. ¿Cuál es el número central?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$23$",
+        "B": "$25$",
+        "C": "$72$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "modelar terna consecutiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-6-09",
+      "pregunta": "Un artículo con descuento de $20\\%$ cuesta $640$ pesos. ¿Cuál era el precio original?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$660$ pesos",
+        "B": "$512$ pesos",
+        "C": "$800$ pesos",
+        "D": "$768$ pesos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "modelar porcentaje lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-10-6-10",
+      "pregunta": "En un examen de $50$ preguntas se obtienen $4$ puntos por acierto y se pierden $1$ por error. Si se respondieron todas y se lograron $125$ puntos, ¿cuántos aciertos hubo?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Ecuaciones de primer grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "10.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$40$",
+        "B": "$35$",
+        "C": "$25$",
+        "D": "$30$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "modelar puntuación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

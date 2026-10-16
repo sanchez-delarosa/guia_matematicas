@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{titulo_sitio}} · Examen de admisión</title>
+  <meta name="description" content="Guía de matemáticas para el examen de admisión a la UNAM, IPN y CENEVAL: teoría, ejemplos resueltos y ejercicios con solución.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body class="pagina-indice">
+  <header class="portada">
+    <div class="portada-emblema">
+      <img src="assets/logo.png" alt="Escudo de Estudio, Cultura y Trabajo" class="logo-portada" width="210" height="222">
+    </div>
+    <p class="portada-sobre">Guía de estudio</p>
+    <h1>{{titulo_sitio}}</h1>
+    <p class="portada-sub">{{subtitulo}}</p>
+    <p class="portada-marcas">
+      <span class="marca marca-unam">UNAM</span>
+      <span class="marca marca-ipn">IPN</span>
+      <span class="marca marca-ceneval">CENEVAL</span>
+    </p>
+    <nav class="nav-modos" aria-label="Cambiar de modo">
+      <span class="btn-modo activo" aria-current="page">📖 Guía de Estudio</span>
+      <a href="practica.html" class="btn-modo modo-practica-enlace">
+        <span class="icono-modo">🎯</span>
+        <span>Zona de Práctica</span>
+        <span class="badge-reactivos">{{total_reactivos}} reactivos</span>
+      </a>
+    </nav>
+    <div class="buscador">
+      <input type="search" id="filtro" placeholder="Buscar un tema… (p. ej. «parábola», «factorización»)" aria-label="Buscar un tema">
+    </div>
+
+  </header>
+
+  <main class="indice-general">
+{{partes}}
+  </main>
+
+  <footer class="pie">
+    Cada capítulo incluye teoría, ejemplos resueltos y ejercicios con solución.
+  </footer>
+
+  <script>
+    function toggleTarjeta(btn) {
+      const tarjeta = btn.closest('.tarjeta-parte');
+      const drawer = tarjeta.querySelector('.tarjeta-colapsable');
+      const texto = btn.querySelector('.btn-texto');
+      const count = btn.dataset.count;
+      const abierta = drawer.classList.contains('abierto');
+      if (abierta) {
+        drawer.classList.remove('abierto');
+        btn.setAttribute('aria-expanded', 'false');
+        texto.textContent = `Ver capítulos (${count})`;
+      } else {
+        drawer.classList.add('abierto');
+        btn.setAttribute('aria-expanded', 'true');
+        texto.textContent = 'Ocultar capítulos';
+      }
+    }
+
+    // Filtro rápido de capítulos por título
+    const filtro = document.getElementById('filtro');
+    const normalizar = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    filtro.addEventListener('input', () => {
+      const q = normalizar(filtro.value.trim());
+      document.querySelectorAll('.tarjeta-parte').forEach((parte) => {
+        let visibles = 0;
+        parte.querySelectorAll('.tarjeta-lista li').forEach((li) => {
+          const ok = !q || normalizar(li.textContent).includes(q);
+          li.hidden = !ok;
+          if (ok) visibles++;
+        });
+        parte.hidden = (visibles === 0);
+
+        // Auto-expandir tarjeta si coincide con la búsqueda
+        const drawer = parte.querySelector('.tarjeta-colapsable');
+        const btn = parte.querySelector('.btn-toggle-tarjeta');
+        if (drawer && btn) {
+          const count = btn.dataset.count;
+          if (q && visibles > 0) {
+            drawer.classList.add('abierto');
+            btn.setAttribute('aria-expanded', 'true');
+            btn.querySelector('.btn-texto').textContent = 'Ocultar capítulos';
+          } else if (!q) {
+            drawer.classList.remove('abierto');
+            btn.setAttribute('aria-expanded', 'false');
+            btn.querySelector('.btn-texto').textContent = `Ver capítulos (${count})`;
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>

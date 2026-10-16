@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3. Fracciones y decimales · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte I: Aritmética</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#concepto-de-fraccion"><span class="num">3.1</span> Concepto de fracción</a></li><li class="nivel-2"><a href="#fracciones-equivalentes-y-simplificacion"><span class="num">3.2</span> Fracciones equivalentes y simplificación</a></li><li class="nivel-2"><a href="#suma-y-resta-de-fracciones"><span class="num">3.3</span> Suma y resta de fracciones</a></li><li class="nivel-2"><a href="#multiplicacion-y-division"><span class="num">3.4</span> Multiplicación y división</a></li><li class="nivel-2"><a href="#fracciones-complejas"><span class="num">3.5</span> Fracciones complejas</a></li><li class="nivel-2"><a href="#conversion-entre-fracciones-y-decimales"><span class="num">3.6</span> Conversión entre fracciones y decimales</a></li><li class="nivel-2"><a href="#operaciones-con-decimales"><span class="num">3.7</span> Operaciones con decimales</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">3.8</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 3</p><h1>Fracciones y decimales</h1></header>
+<p><span id="cap-fracciones-decimales" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Las fracciones y los decimales son formas equivalentes de representar números racionales. Comprender sus propiedades y dominar sus operaciones resulta indispensable para estudiar álgebra, geometría, probabilidad y cálculo. En este capítulo aprenderás a simplificar fracciones, realizar operaciones con ellas y convertir entre representaciones fraccionarias y decimales.</p>
+<h2 id="concepto-de-fraccion"><span class="num">3.1</span> Concepto de fracción<a class="enlace-seccion" href="#concepto-de-fraccion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>fracción</strong> es una expresión de la forma</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{b},\]</span></div>
+<p>donde \(a\) y \(b\) son números enteros y \(b\neq 0\). El número \(a\) se denomina <strong>numerador</strong> y el número \(b\), <strong>denominador</strong>. La fracción representa el cociente de \(a\) entre \(b\).</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Cuando el numerador y el denominador son positivos, una fracción puede clasificarse de la siguiente manera:</p>
+<ul><li>Es <strong>propia</strong> si el numerador es menor que el denominador. Su valor se encuentra entre \(0\) y \(1\). Por ejemplo: <span class="mate-bloque">\[\frac{3}{5}.\]</span></li><li>Es <strong>impropia</strong> si el numerador es mayor o igual que el denominador. Su valor es mayor o igual que \(1\). Por ejemplo: <span class="mate-bloque">\[\frac{7}{4}.\]</span></li><li>Se expresa como <strong>número mixto</strong> cuando se escribe como la suma de un número entero y una fracción propia. Por ejemplo: <span class="mate-bloque">\[2\frac{1}{3} = 2+\frac{1}{3} = \frac{7}{3}.\]</span></li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Toda fracción representa un número racional. Los números enteros también pueden escribirse como fracciones. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[5=\frac{5}{1}, \qquad -3=\frac{-3}{1}.\]</span></div></div></section>
+<h2 id="fracciones-equivalentes-y-simplificacion"><span class="num">3.2</span> Fracciones equivalentes y simplificación<a class="enlace-seccion" href="#fracciones-equivalentes-y-simplificacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Dos fracciones son <strong>equivalentes</strong> si representan el mismo número. Una fracción equivalente puede obtenerse multiplicando el numerador y el denominador por un mismo número distinto de cero:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{b} = \frac{ak}{bk}, \qquad b\neq 0, \qquad k\neq 0.\]</span></div>
+<p>También puede dividirse el numerador y el denominador entre un divisor común distinto de cero.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p><strong>Simplificar</strong> una fracción consiste en dividir su numerador y su denominador entre un divisor común. Una fracción es <strong>irreducible</strong> cuando el máximo común divisor de su numerador y su denominador es \(1\).</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-3-1"><div class="caja-titulo">Ejemplo 3.1</div><div class="caja-cuerpo"><p>Simplifica la fracción</p>
+<div class="mate"><span class="mate-bloque">\[\frac{24}{36}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primero calculamos el máximo común divisor de \(24\) y \(36\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 24&amp;=2^3\cdot 3,\\ 36&amp;=2^2\cdot 3^2. \end{aligned}\]</span></div>
+<p>Los factores comunes con el menor exponente son \(2^2\) y \(3\). Por tanto,</p>
+<div class="mate"><span class="mate-bloque">\[\operatorname{MCD}(24,36) = 2^2\cdot 3 = 12.\]</span></div>
+<p>Dividimos el numerador y el denominador entre \(12\):</p>
+<div class="mate"><span class="mate-bloque">\[\frac{24}{36} = \frac{24\div 12}{36\div 12} = \frac{2}{3}.\]</span></div>
+<p>La fracción irreducible es</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2}{3}.\]</span></div></div></details></div></section>
+<h2 id="suma-y-resta-de-fracciones"><span class="num">3.3</span> Suma y resta de fracciones<a class="enlace-seccion" href="#suma-y-resta-de-fracciones" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fracciones con el mismo denominador</div><div class="caja-cuerpo"><p>Si dos fracciones tienen el mismo denominador, se suman o restan sus numeradores y se conserva el denominador:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{a}{c}+\frac{b}{c} &amp;=\frac{a+b}{c},\\ \frac{a}{c}-\frac{b}{c} &amp;=\frac{a-b}{c}, \end{aligned}\]</span></div>
+<p>donde \(c\neq 0\).</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fracciones con denominadores distintos</div><div class="caja-cuerpo"><p>Si las fracciones tienen denominadores distintos, pueden escribirse con un denominador común. En particular:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{a}{b}+\frac{c}{d} &amp;=\frac{ad+bc}{bd},\\ \frac{a}{b}-\frac{c}{d} &amp;=\frac{ad-bc}{bd}, \end{aligned}\]</span></div>
+<p>donde \(b\neq 0\) y \(d\neq 0\).</p>
+<p>Cuando sea posible, conviene utilizar el mínimo común múltiplo de los denominadores para facilitar los cálculos.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-3-2"><div class="caja-titulo">Ejemplo 3.2</div><div class="caja-cuerpo"><p>Calcula</p>
+<div class="mate"><span class="mate-bloque">\[\frac{3}{4}+\frac{5}{6}-\frac{1}{2}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El mínimo común múltiplo de \(4\), \(6\) y \(2\) es \(12\). Escribimos las tres fracciones con denominador \(12\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{3}{4} &amp;=\frac{9}{12},&amp; \frac{5}{6} &amp;=\frac{10}{12},&amp; \frac{1}{2} &amp;=\frac{6}{12}. \end{aligned}\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{3}{4}+\frac{5}{6}-\frac{1}{2} &amp;=\frac{9}{12}+\frac{10}{12}-\frac{6}{12}\\ &amp;=\frac{9+10-6}{12}\\ &amp;=\frac{13}{12}. \end{aligned}\]</span></div>
+<p>El resultado es</p>
+<div class="mate"><span class="mate-bloque">\[\frac{13}{12}.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al sumar o restar fracciones, no deben sumarse o restarse directamente los denominadores. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{2}+\frac{1}{3} \neq \frac{2}{5}.\]</span></div>
+<p>Las fracciones deben expresarse primero con un denominador común:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{2}+\frac{1}{3} = \frac{3}{6}+\frac{2}{6} = \frac{5}{6}.\]</span></div></div></section>
+<h2 id="multiplicacion-y-division"><span class="num">3.4</span> Multiplicación y división<a class="enlace-seccion" href="#multiplicacion-y-division" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Multiplicación de fracciones</div><div class="caja-cuerpo"><p>Para multiplicar dos fracciones, se multiplican sus numeradores y sus denominadores:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{b}\cdot\frac{c}{d} = \frac{ac}{bd}, \qquad b\neq 0, \qquad d\neq 0.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> División de fracciones</div><div class="caja-cuerpo"><p>Para dividir entre una fracción distinta de cero, se multiplica la primera fracción por el recíproco de la segunda:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{b}\div\frac{c}{d} = \frac{a}{b}\cdot\frac{d}{c} = \frac{ad}{bc},\]</span></div>
+<p>donde</p>
+<div class="mate"><span class="mate-bloque">\[b\neq 0, \qquad c\neq 0, \qquad d\neq 0.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-3-3"><div class="caja-titulo">Ejemplo 3.3</div><div class="caja-cuerpo"><p>Calcula</p>
+<div class="mate"><span class="mate-bloque">\[\frac{4}{9}\cdot\frac{3}{8} \qquad\text{y}\qquad \frac{5}{6}\div\frac{10}{3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Para la multiplicación, simplificamos los factores comunes antes de multiplicar:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{4}{9}\cdot\frac{3}{8} &amp;=\frac{1}{3}\cdot\frac{1}{2}\\ &amp;=\frac{1}{6}. \end{aligned}\]</span></div>
+<p>Para la división, multiplicamos por el recíproco de la segunda fracción:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{5}{6}\div\frac{10}{3} &amp;=\frac{5}{6}\cdot\frac{3}{10}\\ &amp;=\frac{1}{2}\cdot\frac{1}{2}\\ &amp;=\frac{1}{4}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La división no es conmutativa. En general,</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{b}\div\frac{c}{d} \neq \frac{c}{d}\div\frac{a}{b}.\]</span></div>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{5}{6}\div\frac{10}{3} &amp;=\frac{1}{4},\\ \frac{10}{3}\div\frac{5}{6} &amp;=4. \end{aligned}\]</span></div></div></section>
+<h2 id="fracciones-complejas"><span class="num">3.5</span> Fracciones complejas<a class="enlace-seccion" href="#fracciones-complejas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>fracción compleja</strong> es una fracción cuyo numerador, denominador o ambos contienen a su vez una o más fracciones. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{ \dfrac{2}{3}+\dfrac{1}{2} }{ \dfrac{3}{4}-\dfrac{1}{4} }.\]</span></div>
+<p>Para simplificarla, puede operarse por separado el numerador y el denominador. Después, se divide el resultado del numerador entre el del denominador, siempre que este último sea distinto de cero.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-3-4"><div class="caja-titulo">Ejemplo 3.4</div><div class="caja-cuerpo"><p>Simplifica la fracción compleja</p>
+<div class="mate"><span class="mate-bloque">\[\frac{ 1+\dfrac{1}{2} }{ 1-\dfrac{1}{3} }.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Simplificamos por separado el numerador y el denominador:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 1+\frac{1}{2} &amp;=\frac{3}{2},\\ 1-\frac{1}{3} &amp;=\frac{2}{3}. \end{aligned}\]</span></div>
+<p>Después dividimos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{\dfrac{3}{2}}{\dfrac{2}{3}} &amp;=\frac{3}{2}\div\frac{2}{3}\\ &amp;=\frac{3}{2}\cdot\frac{3}{2}\\ &amp;=\frac{9}{4}. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="conversion-entre-fracciones-y-decimales"><span class="num">3.6</span> Conversión entre fracciones y decimales<a class="enlace-seccion" href="#conversion-entre-fracciones-y-decimales" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Conversión de fracción a decimal</div><div class="caja-cuerpo"><p>Para convertir una fracción a su representación decimal, se divide el numerador entre el denominador:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{b}=a\div b, \qquad b\neq 0.\]</span></div>
+<p>El resultado puede ser un decimal finito o un decimal periódico.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Conversión de decimal finito a fracción</div><div class="caja-cuerpo"><p>Para convertir un decimal finito a fracción:</p>
+<ol><li>se escribe como numerador el número sin el punto decimal;</li><li>se utiliza como denominador una potencia de \(10\) con tantos ceros como cifras decimales tenga el número;</li><li>se simplifica la fracción resultante.</li></ol>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[0.75 = \frac{75}{100} = \frac{3}{4}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Conversión de decimal periódico puro</div><div class="caja-cuerpo"><p>En un decimal periódico puro, el periodo comienza inmediatamente después del punto decimal. Si el periodo tiene \(n\) cifras, se escribe el periodo como numerador y un número formado por \(n\) nueves como denominador.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[0.\overline{3} = \frac{3}{9} = \frac{1}{3}.\]</span></div>
+<p>También:</p>
+<div class="mate"><span class="mate-bloque">\[0.\overline{27} = \frac{27}{99} = \frac{3}{11}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Conversión de decimal periódico mixto</div><div class="caja-cuerpo"><p>En un decimal periódico mixto existe una parte no periódica entre el punto decimal y el periodo.</p>
+<p>Para convertirlo en fracción:</p>
+<ol><li>se forma un número con todas las cifras hasta completar un periodo;</li><li>se resta el número formado por la parte entera y la parte decimal no periódica;</li><li>en el denominador se escriben tantos nueves como cifras tenga el periodo, seguidos de tantos ceros como cifras tenga la parte decimal no periódica;</li><li>se simplifica la fracción resultante.</li></ol>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[0.1\overline{6} = \frac{16-1}{90} = \frac{15}{90} = \frac{1}{6}.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-3-5"><div class="caja-titulo">Ejemplo 3.5</div><div class="caja-cuerpo"><p>Convierte a fracción el decimal</p>
+<div class="mate"><span class="mate-bloque">\[0.4\overline{5}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El decimal tiene una cifra no periódica, \(4\), y una cifra periódica, \(5\). Aplicamos la regla para decimales periódicos mixtos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 0.4\overline{5} &amp;=\frac{45-4}{90}\\ &amp;=\frac{41}{90}. \end{aligned}\]</span></div>
+<p>La fracción ya es irreducible. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[0.4\overline{5} = \frac{41}{90}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-3-6"><div class="caja-titulo">Ejemplo 3.6</div><div class="caja-cuerpo"><p>Convierte a fracción el decimal</p>
+<div class="mate"><span class="mate-bloque">\[0.12\overline{3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El decimal tiene dos cifras no periódicas, \(12\), y una cifra periódica, \(3\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 0.12\overline{3} &amp;=\frac{123-12}{900}\\ &amp;=\frac{111}{900}\\ &amp;=\frac{37}{300}. \end{aligned}\]</span></div>
+<p>El resultado es</p>
+<div class="mate"><span class="mate-bloque">\[\frac{37}{300}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-3-7"><div class="caja-titulo">Ejemplo 3.7</div><div class="caja-cuerpo"><p>Convierte a fracción el decimal</p>
+<div class="mate"><span class="mate-bloque">\[0.\overline{27}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El decimal es periódico puro y su periodo tiene dos cifras. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 0.\overline{27} &amp;=\frac{27}{99}\\ &amp;=\frac{3}{11}. \end{aligned}\]</span></div>
+<p>El resultado es</p>
+<div class="mate"><span class="mate-bloque">\[\frac{3}{11}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-3-8"><div class="caja-titulo">Ejemplo 3.8</div><div class="caja-cuerpo"><p>Convierte a fracción el decimal</p>
+<div class="mate"><span class="mate-bloque">\[2.1\overline{6}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Podemos aplicar directamente la regla del decimal periódico mixto. El número formado hasta completar un periodo es \(216\), mientras que el número formado por la parte entera y la parte no periódica es \(21\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2.1\overline{6} &amp;=\frac{216-21}{90}\\ &amp;=\frac{195}{90}\\ &amp;=\frac{13}{6}. \end{aligned}\]</span></div>
+<p>El resultado es</p>
+<div class="mate"><span class="mate-bloque">\[\frac{13}{6}.\]</span></div></div></details></div></section>
+<h2 id="operaciones-con-decimales"><span class="num">3.7</span> Operaciones con decimales<a class="enlace-seccion" href="#operaciones-con-decimales" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para sumar o restar números decimales, se alinean los puntos decimales y se completan con ceros las posiciones que sean necesarias.</p>
+<p>Para multiplicarlos, se efectúa primero la multiplicación como si fueran números enteros. Después, se coloca el punto decimal de modo que el resultado tenga tantas cifras decimales como la suma de las cifras decimales de los factores.</p>
+<p>Para dividir entre un número decimal, se desplaza el punto decimal del divisor hacia la derecha hasta convertirlo en un número entero. El punto decimal del dividendo debe desplazarse la misma cantidad de lugares.</p>
+<section class="caja caja-ejemplo" id="ejemplo-3-9"><div class="caja-titulo">Ejemplo 3.9</div><div class="caja-cuerpo"><p>Calcula</p>
+<div class="mate"><span class="mate-bloque">\[2.35+1.8-0.45.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Alineamos los puntos decimales y escribimos \(1.8\) como \(1.80\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{r} 2.35\\ + 1.80\\ \hline 4.15\\ - 0.45\\ \hline 3.70 \end{array}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[2.35+1.8-0.45 = 3.70 = 3.7.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-3-10"><div class="caja-titulo">Ejemplo 3.10</div><div class="caja-cuerpo"><p>Calcula</p>
+<div class="mate"><span class="mate-bloque">\[1.2\cdot 0.35.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primero multiplicamos como si los factores fueran números enteros:</p>
+<div class="mate"><span class="mate-bloque">\[12\cdot 35=420.\]</span></div>
+<p>El primer factor tiene una cifra decimal y el segundo tiene dos. El resultado debe tener, por tanto, tres cifras decimales:</p>
+<div class="mate"><span class="mate-bloque">\[1.2\cdot 0.35 = 0.420 = 0.42.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-3-11"><div class="caja-titulo">Ejemplo 3.11</div><div class="caja-cuerpo"><p>Calcula</p>
+<div class="mate"><span class="mate-bloque">\[4.68\div 1.2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Desplazamos el punto decimal un lugar hacia la derecha tanto en el dividendo como en el divisor:</p>
+<div class="mate"><span class="mate-bloque">\[4.68\div 1.2 = 46.8\div 12.\]</span></div>
+<p>Después efectuamos la división:</p>
+<div class="mate"><span class="mate-bloque">\[46.8\div 12 = 3.9.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[4.68\div 1.2 = 3.9.\]</span></div></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">3.8</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-3-1"><div class="caja-titulo">Ejercicio 3.1</div><div class="caja-cuerpo"><p>Simplifica la fracción</p>
+<div class="mate"><span class="mate-bloque">\[\frac{48}{60}\]</span></div>
+<p>hasta obtener su forma irreducible.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>MCD de 48 y 60: \(48 = 2^4 \cdot 3\), \(60 = 2^2 \cdot 3 \cdot 5\), \(\text{MCD} = 2^2 \cdot 3 = 12\). <span class="mate-bloque">\[\frac{48}{60} = \frac{48 \div 12}{60 \div 12} = \frac{4}{5}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-3-2"><div class="caja-titulo">Ejercicio 3.2</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2}{3}+\frac{3}{4}-\frac{5}{6}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(\operatorname{mcm}(3,4,6) = 12\). <span class="mate-bloque">\[\frac{2}{3} + \frac{3}{4} - \frac{5}{6} = \frac{8 + 9 - 10}{12} = \frac{7}{12}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-3-3"><div class="caja-titulo">Ejercicio 3.3</div><div class="caja-cuerpo"><p>Calcula y simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{7}{8}\cdot\frac{4}{21}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{7}{8} \cdot \frac{4}{21} = \frac{28}{168} = \frac{1}{6}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-3-4"><div class="caja-titulo">Ejercicio 3.4</div><div class="caja-cuerpo"><p>Calcula y simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{9}{10}\div\frac{3}{5}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{9}{10} \div \frac{3}{5} = \frac{9}{10} \cdot \frac{5}{3} = \frac{45}{30} = \frac{3}{2}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-3-5"><div class="caja-titulo">Ejercicio 3.5</div><div class="caja-cuerpo"><p>Simplifica la fracción compleja:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{ \dfrac{3}{4}+\dfrac{1}{2} }{ \dfrac{5}{6}-\dfrac{1}{3} }.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Numerador: \(\frac{3}{4} + \frac{1}{2} = \frac{3}{4} + \frac{2}{4} = \frac{5}{4}\). Denominador: \(\frac{5}{6} - \frac{1}{3} = \frac{5}{6} - \frac{2}{6} = \frac{3}{6} = \frac{1}{2}\). <span class="mate-bloque">\[\frac{\frac{5}{4}}{\frac{1}{2}} = \frac{5}{4} \cdot 2 = \frac{10}{4} = \frac{5}{2}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-3-6"><div class="caja-titulo">Ejercicio 3.6</div><div class="caja-cuerpo"><p>Convierte a fracción irreducible el decimal</p>
+<div class="mate"><span class="mate-bloque">\[0.7\overline{2}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Una cifra no periódica (7) y una cifra periódica (2): <span class="mate-bloque">\[0.7\overline{2} = \frac{72 - 7}{90} = \frac{65}{90} = \frac{13}{18}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-3-7"><div class="caja-titulo">Ejercicio 3.7</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[3.75-1.4+0.5.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[3.75 - 1.4 + 0.5 = 2.35 + 0.5 = 2.85.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-3-8"><div class="caja-titulo">Ejercicio 3.8</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[0.8\cdot 2.5.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[0.8 \times 2.5 = 2.00 = 2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-3-9"><div class="caja-titulo">Ejercicio 3.9</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[5.04\div 1.2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[5.04 \div 1.2 = 50.4 \div 12 = 4.2.\]</span></div></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="02-operaciones-basicas.html"><span>← Anterior</span>2. Operaciones básicas con números reales</a><a class="nav-siguiente" href="04-potencias-raices.html"><span>Siguiente →</span>4. Potencias y raíces</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

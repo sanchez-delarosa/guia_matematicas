@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2. Operaciones básicas con números reales · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte I: Aritmética</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#la-recta-numerica-y-el-valor-absoluto"><span class="num">2.1</span> La recta numérica y el valor absoluto</a></li><li class="nivel-2"><a href="#suma-y-resta"><span class="num">2.2</span> Suma y resta</a></li><li class="nivel-2"><a href="#multiplicacion-y-division"><span class="num">2.3</span> Multiplicación y división</a></li><li class="nivel-2"><a href="#jerarquia-de-las-operaciones"><span class="num">2.4</span> Jerarquía de las operaciones</a></li><li class="nivel-2"><a href="#signos-de-agrupacion"><span class="num">2.5</span> Signos de agrupación</a></li><li class="nivel-2"><a href="#ejemplos-integradores"><span class="num">2.6</span> Ejemplos integradores</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">2.7</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 2</p><h1>Operaciones básicas con números reales</h1></header>
+<p><span id="cap-operaciones-basicas" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Las operaciones básicas con números reales son indispensables para estudiar álgebra, funciones, geometría y cálculo. En este capítulo repasarás las reglas de los signos, la jerarquía de las operaciones y el uso de los signos de agrupación. Dominar estos procedimientos te permitirá realizar cálculos con precisión y evitar errores en problemas más complejos.</p>
+<h2 id="la-recta-numerica-y-el-valor-absoluto"><span class="num">2.1</span> La recta numérica y el valor absoluto<a class="enlace-seccion" href="#la-recta-numerica-y-el-valor-absoluto" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>valor absoluto</strong> de un número real \(x\), denotado por \(|x|\), es la distancia entre \(x\) y el origen en la recta numérica. Por esta razón, el valor absoluto siempre es mayor o igual que cero.</p>
+<div class="mate"><span class="mate-bloque">\[|x|= \begin{cases} x,  &amp; \text{si } x\geq 0,\\ -x, &amp; \text{si } x&lt;0. \end{cases}\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-2-1"><div class="caja-titulo">Ejemplo 2.1</div><div class="caja-cuerpo"><p>Calcula los siguientes valores absolutos:</p>
+<div class="mate"><span class="mate-bloque">\[|5|, \qquad |-3|, \qquad |0|, \qquad |-7.2|, \qquad \left|\frac{1}{2}\right|.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} |5|                     &amp;=5,\\ |-3|                    &amp;=3,\\ |0|                     &amp;=0,\\ |-7.2|                  &amp;=7.2,\\ \left|\frac{1}{2}\right|&amp;=\frac{1}{2}. \end{aligned}\]</span></div>
+<p>Todos los resultados son no negativos, pues el valor absoluto representa una distancia.</p></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La igualdad <span class="mate-bloque">\[|x|=-x\]</span> para \(x&lt;0\) no significa que el valor absoluto sea negativo. Si \(x\) es negativo, su opuesto \(-x\) es positivo. Por ejemplo, si \(x=-3\), entonces <span class="mate-bloque">\[|x|=|-3|=-(-3)=3.\]</span></p></div></section>
+<h2 id="suma-y-resta"><span class="num">2.2</span> Suma y resta<a class="enlace-seccion" href="#suma-y-resta" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para sumar números con el mismo signo, se suman sus valores absolutos y se conserva el signo común. Si los números tienen signos distintos, se restan sus valores absolutos y se conserva el signo del número con mayor valor absoluto.</p>
+<p>La resta puede interpretarse como la suma del opuesto:</p>
+<div class="mate"><span class="mate-bloque">\[a-b=a+(-b).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-2-2"><div class="caja-titulo">Ejemplo 2.2</div><div class="caja-cuerpo"><p>Resuelve las siguientes operaciones:</p>
+<div class="mate"><span class="mate-bloque">\[-7+4, \qquad 12-20, \qquad -3-5, \qquad -8+8, \qquad 15-6.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} -7+4 &amp;=-3, &amp;&amp;\text{porque $|-7|&gt;|4|$ y el número de mayor magnitud es negativo},\\ 12-20 &amp;=12+(-20)=-8, &amp;&amp;\text{al escribir la resta como suma del opuesto},\\ -3-5 &amp;=-3+(-5)=-8, &amp;&amp;\text{porque ambos sumandos son negativos},\\ -8+8 &amp;=0, &amp;&amp;\text{porque los números son opuestos},\\ 15-6 &amp;=9, &amp;&amp;\text{porque $|15|&gt;|-6|$ y el número de mayor magnitud es positivo}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al restar un número negativo, los dos signos no deben conservarse como operaciones independientes. Restar un número equivale a sumar su opuesto:</p>
+<div class="mate"><span class="mate-bloque">\[-5-(-3)=-5+3=-2.\]</span></div>
+<p>En este caso, el opuesto de \(-3\) es \(3\).</p></div></section>
+<h2 id="multiplicacion-y-division"><span class="num">2.3</span> Multiplicación y división<a class="enlace-seccion" href="#multiplicacion-y-division" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ley de los signos</div><div class="caja-cuerpo"><p>En la multiplicación y la división, el signo del resultado se determina de la siguiente manera:</p>
+<ul><li>Si los dos números tienen el mismo signo, el resultado es positivo: <span class="mate-bloque">\[(+)(+)=+, \qquad (-)(-)=+.\]</span></li><li>Si los números tienen signos distintos, el resultado es negativo: <span class="mate-bloque">\[(+)(-)=-, \qquad (-)(+)=-.\]</span></li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-2-3"><div class="caja-titulo">Ejemplo 2.3</div><div class="caja-cuerpo"><p>Resuelve las siguientes operaciones:</p>
+<div class="mate"><span class="mate-bloque">\[(-4)(-7), \qquad (-3)(5), \qquad \frac{-24}{6}, \qquad \frac{-36}{-9}, \qquad \frac{0}{-5}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} (-4)(-7) &amp;=28, &amp;&amp;\text{porque los factores tienen el mismo signo},\\ (-3)(5) &amp;=-15, &amp;&amp;\text{porque los factores tienen signos distintos},\\ \frac{-24}{6} &amp;=-4, &amp;&amp;\text{porque el dividendo y el divisor tienen signos distintos},\\ \frac{-36}{-9} &amp;=4, &amp;&amp;\text{porque el dividendo y el divisor tienen el mismo signo},\\ \frac{0}{-5} &amp;=0, &amp;&amp;\text{porque cero entre cualquier número distinto de cero es cero}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La división entre cero no está definida. Por tanto, expresiones como <span class="mate-bloque">\[\frac{5}{0}\]</span> no representan ningún número real.</p>
+<p>La expresión <span class="mate-bloque">\[\frac{0}{0}\]</span> tampoco está definida y, en el contexto del estudio de límites, se denomina <strong>forma indeterminada</strong>. En cambio, <span class="mate-bloque">\[\frac{0}{5}=0\]</span> es una operación válida.</p></div></section>
+<h2 id="jerarquia-de-las-operaciones"><span class="num">2.4</span> Jerarquía de las operaciones<a class="enlace-seccion" href="#jerarquia-de-las-operaciones" aria-label="Enlace a esta sección">#</a></h2>
+<p>Cuando una expresión contiene varias operaciones, estas deben realizarse según un orden establecido.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Orden de las operaciones</div><div class="caja-cuerpo"><p>Las operaciones deben efectuarse en el siguiente orden:</p>
+<ol><li><strong>Signos de agrupación.</strong> Se resuelven de adentro hacia afuera.</li><li><strong>Potencias y raíces.</strong></li><li><strong>Multiplicaciones y divisiones.</strong> Si tienen la misma prioridad, se realizan de izquierda a derecha.</li><li><strong>Sumas y restas.</strong> Si tienen la misma prioridad, se realizan de izquierda a derecha.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-2-4"><div class="caja-titulo">Ejemplo 2.4</div><div class="caja-cuerpo"><p>Evalúa la expresión</p>
+<div class="mate"><span class="mate-bloque">\[3+2\cdot 4^2-(5-2).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primero se resuelven el paréntesis y la potencia:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3+2\cdot 4^2-(5-2) &amp;=3+2\cdot 16-3. \end{aligned}\]</span></div>
+<p>Después se efectúa la multiplicación:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3+2\cdot 16-3 &amp;=3+32-3. \end{aligned}\]</span></div>
+<p>Finalmente, se realizan la suma y la resta de izquierda a derecha:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3+32-3 &amp;=35-3\\ &amp;=32. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El orden de izquierda a derecha solo se aplica entre operaciones que tienen la misma prioridad. No debe utilizarse para ignorar la jerarquía de las operaciones.</p>
+<p>Por ejemplo, en <span class="mate-bloque">\[2+3\cdot 4,\]</span> primero se realiza la multiplicación:</p>
+<div class="mate"><span class="mate-bloque">\[2+3\cdot 4 = 2+12 = 14.\]</span></div>
+<p>El resultado no es \(20\), pues no debe sumarse \(2+3\) antes de efectuar la multiplicación.</p></div></section>
+<h2 id="signos-de-agrupacion"><span class="num">2.5</span> Signos de agrupación<a class="enlace-seccion" href="#signos-de-agrupacion" aria-label="Enlace a esta sección">#</a></h2>
+<p>Los signos de agrupación indican qué operaciones deben realizarse primero. Los más utilizados son:</p>
+<ul><li>los paréntesis: \((\ )\);</li><li>los corchetes: \([\ ]\);</li><li>las llaves: \(\{\ \}\).</li></ul>
+<p>Cuando aparecen varios signos de agrupación anidados, las operaciones se resuelven desde el grupo más interno hacia el más externo.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Supresión de signos de agrupación</div><div class="caja-cuerpo"><p>Para eliminar correctamente un signo de agrupación, debe observarse el signo o factor que lo precede.</p>
+<ul><li>Si el signo de agrupación está precedido por un signo positivo, puede eliminarse sin modificar los signos interiores: <span class="mate-bloque">\[a+(b-c)=a+b-c.\]</span></li><li>Si el signo de agrupación está precedido por un signo negativo, deben cambiarse los signos de todos los términos interiores: <span class="mate-bloque">\[a-(b-c)=a-b+c.\]</span></li><li>Si el signo de agrupación está precedido por un factor, dicho factor debe multiplicarse por cada término interior: <span class="mate-bloque">\[a(b+c)=ab+ac.\]</span></li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-2-5"><div class="caja-titulo">Ejemplo 2.5</div><div class="caja-cuerpo"><p>Simplifica la expresión</p>
+<div class="mate"><span class="mate-bloque">\[5-[3-(2-7)].\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Se comienza con el paréntesis más interno:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 5-[3-(2-7)] &amp;=5-[3-(-5)]\\ &amp;=5-[3+5]\\ &amp;=5-8\\ &amp;=-3. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-2-6"><div class="caja-titulo">Ejemplo 2.6</div><div class="caja-cuerpo"><p>Simplifica la expresión</p>
+<div class="mate"><span class="mate-bloque">\[-4+\{2-[5-(3+1)]\}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Las operaciones se realizan desde el signo de agrupación más interno:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} -4+\{2-[5-(3+1)]\} &amp;=-4+\{2-[5-4]\}\\ &amp;=-4+\{2-1\}\\ &amp;=-4+1\\ &amp;=-3. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="ejemplos-integradores"><span class="num">2.6</span> Ejemplos integradores<a class="enlace-seccion" href="#ejemplos-integradores" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-2-7"><div class="caja-titulo">Ejemplo 2.7</div><div class="caja-cuerpo"><p>Determina si la siguiente expresión tiene un valor real:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{-8+4\cdot 3}{2-(6-4)}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primero se efectúan la multiplicación y la operación dentro del paréntesis:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{-8+4\cdot 3}{2-(6-4)} &amp;=\frac{-8+12}{2-2}\\ &amp;=\frac{4}{0}. \end{aligned}\]</span></div>
+<p>Como la división entre cero no está definida, la expresión no tiene un valor real.</p></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-2-8"><div class="caja-titulo">Ejemplo 2.8</div><div class="caja-cuerpo"><p>Evalúa la expresión</p>
+<div class="mate"><span class="mate-bloque">\[(-2)^3+3\cdot(4-7).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primero se calculan la potencia y la operación dentro del paréntesis:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (-2)^3+3\cdot(4-7) &amp;=-8+3\cdot(-3). \end{aligned}\]</span></div>
+<p>Después se realiza la multiplicación:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} -8+3\cdot(-3) &amp;=-8-9\\ &amp;=-17. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">2.7</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-2-1"><div class="caja-titulo">Ejercicio 2.1</div><div class="caja-cuerpo"><p>Calcula el valor absoluto de cada número:</p>
+<div class="mate"><span class="mate-bloque">\[-12, \qquad 7.5, \qquad -\sqrt{2}, \qquad 0, \qquad -\pi.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(|-12| = 12\), \(|7.5| = 7.5\), \(|-\sqrt{2}| = \sqrt{2}\), \(|0| = 0\), \(|-\pi| = \pi\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-2-2"><div class="caja-titulo">Ejercicio 2.2</div><div class="caja-cuerpo"><p>Resuelve las siguientes sumas y restas:</p>
+<div class="mate"><span class="mate-bloque">\[-9+15, \qquad -20-8, \qquad 14-25, \qquad -6+6, \qquad -3-(-7).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(-9+15 = 6\);   \(-20-8 = -28\);   \(14-25 = -11\); \(-6+6 = 0\);   \(-3-(-7) = -3+7 = 4\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-2-3"><div class="caja-titulo">Ejercicio 2.3</div><div class="caja-cuerpo"><p>Resuelve las siguientes multiplicaciones y divisiones:</p>
+<div class="mate"><span class="mate-bloque">\[(-5)(-8), \qquad (-6)(4), \qquad \frac{-45}{9}, \qquad \frac{-72}{-8}, \qquad \frac{0}{17}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\((-5)(-8) = 40\);   \((-6)(4) = -24\); \(\frac{-45}{9} = -5\);   \(\frac{-72}{-8} = 9\); \(\frac{0}{17} = 0\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-2-4"><div class="caja-titulo">Ejercicio 2.4</div><div class="caja-cuerpo"><p>Evalúa la expresión:</p>
+<div class="mate"><span class="mate-bloque">\[4+3\cdot 2^3-(8-5).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} 4 + 3 \cdot 2^3 - (8 - 5) &amp;= 4 + 3 \cdot 8 - 3 \\ &amp;= 4 + 24 - 3 \\ &amp;= 25. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-2-5"><div class="caja-titulo">Ejercicio 2.5</div><div class="caja-cuerpo"><p>Simplifica la expresión:</p>
+<div class="mate"><span class="mate-bloque">\[-2-\{3-[4-(5-2)]\}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} -2 - \{3 - [4 - (5 - 2)]\} &amp;= -2 - \{3 - [4 - 3]\} \\ &amp;= -2 - \{3 - 1\} \\ &amp;= -2 - 2 \\ &amp;= -4. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-2-6"><div class="caja-titulo">Ejercicio 2.6</div><div class="caja-cuerpo"><p>Evalúa la expresión:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{6-8\cdot 2}{-5+3}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{6 - 8 \cdot 2}{-5 + 3} = \frac{6 - 16}{-2} = \frac{-10}{-2} = 5.\]</span></div></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="01-numeros-reales.html"><span>← Anterior</span>1. Números reales</a><a class="nav-siguiente" href="03-fracciones-decimales.html"><span>Siguiente →</span>3. Fracciones y decimales</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

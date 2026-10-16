@@ -1,0 +1,2400 @@
+{
+  "metadata": {
+    "capitulo": "44",
+    "titulo": "Integral definida y aplicaciones",
+    "version": "6.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "44.1",
+        "nombre": "Integral definida"
+      },
+      {
+        "codigo": "44.2",
+        "nombre": "Propiedades básicas"
+      },
+      {
+        "codigo": "44.3",
+        "nombre": "Teorema Fundamental del Cálculo"
+      },
+      {
+        "codigo": "44.4",
+        "nombre": "Integral neta y área geométrica"
+      },
+      {
+        "codigo": "44.5",
+        "nombre": "Área entre dos curvas"
+      },
+      {
+        "codigo": "44.6",
+        "nombre": "Aplicaciones al movimiento"
+      },
+      {
+        "codigo": "44.7",
+        "nombre": "Valor promedio de una función"
+      },
+      {
+        "codigo": "44.8",
+        "nombre": "Volúmenes de sólidos de revolución"
+      },
+      {
+        "codigo": "44.9",
+        "nombre": "Longitud de arco"
+      }
+    ],
+    "secciones_editoriales_omitidas": [
+      "44.10 Procedimiento rápido",
+      "44.11 Resumen",
+      "44.12 Errores frecuentes",
+      "44.13 Ejercicios propuestos"
+    ],
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_validado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-44-1-01",
+      "pregunta": "Evalúe $\\int_0^2 x\\,dx$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.1",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$1$",
+        "C": "$4$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-1-02",
+      "pregunta": "Evalúe $\\int_1^3 2x\\,dx$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.1",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$6$",
+        "C": "$10$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-1-03",
+      "pregunta": "Evalúe $\\int_0^1 3x^2\\,dx$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.1",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac13$",
+        "B": "$0$",
+        "C": "$1$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-1-04",
+      "pregunta": "Evalúe $\\int_0^{\\pi}\\sin x\\,dx$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.1",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pi$",
+        "B": "$2$",
+        "C": "$0$",
+        "D": "$-2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-1-05",
+      "pregunta": "Evalúe $\\int_{-1}^{1}x^3\\,dx$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.1",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\frac12$",
+        "C": "$2$",
+        "D": "$-2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-1-06",
+      "pregunta": "En $\\int_a^b f(x)\\,dx$, $a$ y $b$ son:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.1",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "Constantes arbitrarias",
+        "B": "Puntos críticos",
+        "C": "Derivadas laterales",
+        "D": "Los límites de integración"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-1-07",
+      "pregunta": "Una integral definida representa generalmente:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.1",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "Una función derivada siempre",
+        "B": "Una ecuación diferencial",
+        "C": "Un número real",
+        "D": "Una familia con $C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-1-08",
+      "pregunta": "Evalúe $\\int_2^2 f(x)\\,dx$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.1",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "No existe",
+        "B": "$0$",
+        "C": "$f(2)$",
+        "D": "$2f(2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-1-09",
+      "pregunta": "Evalúe $\\int_0^2 4\\,dx$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.1",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$4$",
+        "C": "$6$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-1-10",
+      "pregunta": "La integral definida se interpreta mediante sumas de:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.1",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "Pendientes de tangentes",
+        "B": "Raíces del integrando",
+        "C": "Asíntotas verticales",
+        "D": "Rectángulos con ancho cada vez menor"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-2-01",
+      "pregunta": "Se cumple $\\int_a^a f(x)\\,dx=$",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.2",
+        "nombre": "Propiedades básicas"
+      },
+      "respuestas_posibles": {
+        "A": "$a$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$f(a)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "propiedades básicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-2-02",
+      "pregunta": "Al invertir límites:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.2",
+        "nombre": "Propiedades básicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int_b^a f=2\\int_a^b f$",
+        "B": "$\\int_b^a f(x)dx=-\\int_a^b f(x)dx$",
+        "C": "$\\int_b^a f=\\int_a^b f$",
+        "D": "$\\int_b^a f=0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "propiedades básicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-2-03",
+      "pregunta": "Si $a<c<b$, entonces:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.2",
+        "nombre": "Propiedades básicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int_a^b f=\\int_a^c f+\\int_c^b f$",
+        "B": "$\\int_a^b f=\\int_a^c f-\\int_c^b f$",
+        "C": "$\\int_a^b f=\\int_a^c f\\int_c^b f$",
+        "D": "$\\int_a^b f=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "propiedades básicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-2-04",
+      "pregunta": "Si $\\int_0^2f=5$ y $\\int_2^4f=-1$, entonces $\\int_0^4f=$",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.2",
+        "nombre": "Propiedades básicas"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$-4$",
+        "C": "$-5$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "propiedades básicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-2-05",
+      "pregunta": "Si $\\int_a^bf=3$, entonces $\\int_a^b4f=$",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.2",
+        "nombre": "Propiedades básicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac34$",
+        "B": "$4$",
+        "C": "$12$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "propiedades básicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-2-06",
+      "pregunta": "Si $\\int_a^bf=2$ y $\\int_a^bg=5$, entonces $\\int_a^b(f+g)=$",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.2",
+        "nombre": "Propiedades básicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac25$",
+        "B": "$7$",
+        "C": "$10$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "propiedades básicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-2-07",
+      "pregunta": "Si $f$ es impar, $\\int_{-a}^{a}f(x)dx=$",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.2",
+        "nombre": "Propiedades básicas"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$2\\int_0^af$",
+        "C": "$a$",
+        "D": "$f(a)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "propiedades básicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-2-08",
+      "pregunta": "Si $f$ es par, $\\int_{-a}^{a}f(x)dx=$",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.2",
+        "nombre": "Propiedades básicas"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\int_0^af$",
+        "C": "$-2\\int_0^af$",
+        "D": "$2\\int_0^af(x)dx$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "propiedades básicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-2-09",
+      "pregunta": "Si $f(x)\\ge g(x)$ en $[a,b]$, entonces:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.2",
+        "nombre": "Propiedades básicas"
+      },
+      "respuestas_posibles": {
+        "A": "Ambas son cero",
+        "B": "No pueden compararse",
+        "C": "$\\int_a^bf\\ge\\int_a^bg$",
+        "D": "$\\int_a^bf\\le\\int_a^bg$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "propiedades básicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-2-10",
+      "pregunta": "La linealidad permite:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.2",
+        "nombre": "Propiedades básicas"
+      },
+      "respuestas_posibles": {
+        "A": "Eliminar los límites",
+        "B": "$\\int_a^b(af+bg)=a\\int_a^bf+b\\int_a^bg$",
+        "C": "Multiplicar las integrales",
+        "D": "$\\int(fg)=\\int f\\int g$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "propiedades básicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-3-01",
+      "pregunta": "Si $F'=f$, entonces:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.3",
+        "nombre": "Teorema Fundamental del Cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int_a^bf(x)dx=F(b)-F(a)$",
+        "B": "$F(a)-F(b)$",
+        "C": "$F(a)+F(b)$",
+        "D": "$f(b)-f(a)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-3-02",
+      "pregunta": "Evalúe $\\int_0^2 3x^2dx$ mediante el teorema fundamental.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.3",
+        "nombre": "Teorema Fundamental del Cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$6$",
+        "C": "$12$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-3-03",
+      "pregunta": "Si $G(x)=\\int_1^x t^2dt$, entonces $G'(x)=$",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.3",
+        "nombre": "Teorema Fundamental del Cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$x^3/3$",
+        "B": "$1$",
+        "C": "$x^2$",
+        "D": "$2x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-3-04",
+      "pregunta": "Si $H(x)=\\int_0^{x^2}\\cos tdt$, entonces $H'(x)=$",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.3",
+        "nombre": "Teorema Fundamental del Cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin(x^2)$",
+        "B": "$2x\\cos(x^2)$",
+        "C": "$\\cos(x^2)$",
+        "D": "$-2x\\sin(x^2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-3-05",
+      "pregunta": "Evalúe $\\int_1^e\\frac1x dx$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.3",
+        "nombre": "Teorema Fundamental del Cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$e-1$",
+        "C": "$0$",
+        "D": "$\\ln(e-1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-3-06",
+      "pregunta": "En una integral definida no aparece $C$ porque:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.3",
+        "nombre": "Teorema Fundamental del Cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre vale cero",
+        "B": "No existe antiderivada",
+        "C": "Los límites son constantes",
+        "D": "Se cancela al restar los valores de la antiderivada"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-3-07",
+      "pregunta": "Evalúe $\\int_0^1e^x dx$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.3",
+        "nombre": "Teorema Fundamental del Cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$1-e$",
+        "B": "$1$",
+        "C": "$e-1$",
+        "D": "$e$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-3-08",
+      "pregunta": "Si $A(x)=\\int_2^xf(t)dt$, entonces $A(2)=$",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.3",
+        "nombre": "Teorema Fundamental del Cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$F(2)$",
+        "B": "$0$",
+        "C": "$f(2)$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-3-09",
+      "pregunta": "El teorema fundamental conecta:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.3",
+        "nombre": "Teorema Fundamental del Cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "Derivación e integración",
+        "B": "Factorización y raíces",
+        "C": "Geometría y probabilidad",
+        "D": "Logaritmos y matrices"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-3-10",
+      "pregunta": "Evalúe $\\int_0^{\\pi/2}\\cos xdx$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.3",
+        "nombre": "Teorema Fundamental del Cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\pi/2$",
+        "C": "$-1$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-4-01",
+      "pregunta": "Si $f(x)\\ge0$ en $[a,b]$, la integral neta coincide con:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.4",
+        "nombre": "Integral neta y área geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "La longitud de arco",
+        "B": "La pendiente media",
+        "C": "El área geométrica",
+        "D": "El perímetro"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "integral neta y área geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-4-02",
+      "pregunta": "Si $f(x)\\le0$ en $[a,b]$, el área geométrica es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.4",
+        "nombre": "Integral neta y área geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "$f(b)-f(a)$",
+        "B": "$-\\int_a^bf(x)dx$",
+        "C": "$\\int_a^bf(x)dx$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "integral neta y área geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-4-03",
+      "pregunta": "Calcule el área bajo $y=x$ en $[0,3]$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.4",
+        "nombre": "Integral neta y área geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac92$",
+        "B": "$3$",
+        "C": "$9$",
+        "D": "$\\frac32$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "integral neta y área geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-4-04",
+      "pregunta": "Calcule $\\int_{-1}^{1}x\\,dx$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.4",
+        "nombre": "Integral neta y área geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$-1$",
+        "C": "$2$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "integral neta y área geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-4-05",
+      "pregunta": "El valor anterior es cero porque:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.4",
+        "nombre": "Integral neta y área geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "La función es constante",
+        "B": "Los límites coinciden",
+        "C": "Las áreas con signo se cancelan",
+        "D": "No existe región"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "integral neta y área geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-4-06",
+      "pregunta": "El área entre $y=x-1$ y el eje $x$ en $[0,2]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.4",
+        "nombre": "Integral neta y área geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "$-1$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "integral neta y área geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-4-07",
+      "pregunta": "Para obtener área cuando $f$ cambia de signo se debe:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.4",
+        "nombre": "Integral neta y área geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Separar en los ceros y sumar valores absolutos",
+        "B": "Usar una sola integral sin revisar signos",
+        "C": "Derivar primero",
+        "D": "Restar siempre las regiones"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "integral neta y área geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-4-08",
+      "pregunta": "Evalúe la integral neta de $f(x)=x-1$ en $[0,2]$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.4",
+        "nombre": "Integral neta y área geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$-1$",
+        "C": "$2$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "integral neta y área geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-4-09",
+      "pregunta": "El área bajo $y=4$ en $[1,5]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.4",
+        "nombre": "Integral neta y área geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "$20$",
+        "B": "$8$",
+        "C": "$16$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "integral neta y área geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-4-10",
+      "pregunta": "La integral neta puede ser negativa cuando:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.4",
+        "nombre": "Integral neta y área geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "La antiderivada crece",
+        "B": "Predomina la región bajo el eje $x$",
+        "C": "La función es par",
+        "D": "Los límites son positivos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "integral neta y área geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-5-01",
+      "pregunta": "El área entre $f$ arriba y $g$ abajo en $[a,b]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.5",
+        "nombre": "Área entre dos curvas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int_a^b[f(x)-g(x)]dx$",
+        "B": "$\\int_a^b[f(x)+g(x)]dx$",
+        "C": "$f(b)-g(a)$",
+        "D": "$\\int_a^bf\\int_a^bg$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "área entre dos curvas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-5-02",
+      "pregunta": "Calcule el área entre $y=x$ y $y=0$ en $[0,2]$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.5",
+        "nombre": "Área entre dos curvas"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$4$",
+        "C": "$0$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "área entre dos curvas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-5-03",
+      "pregunta": "Calcule el área entre $y=2x$ y $y=x$ en $[0,3]$.",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.5",
+        "nombre": "Área entre dos curvas"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$\\frac32$",
+        "C": "$\\frac92$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "área entre dos curvas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-5-04",
+      "pregunta": "Los límites para el área entre dos curvas suelen obtenerse de:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.5",
+        "nombre": "Área entre dos curvas"
+      },
+      "respuestas_posibles": {
+        "A": "El origen siempre",
+        "B": "Sus puntos de intersección",
+        "C": "Sus derivadas segundas",
+        "D": "Sus asíntotas únicamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "área entre dos curvas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-5-05",
+      "pregunta": "Las curvas $y=x$ y $y=x^2$ se intersectan en:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.5",
+        "nombre": "Área entre dos curvas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$ y $x=1$",
+        "B": "$x=-1$ y $x=1$",
+        "C": "$x=1$ únicamente",
+        "D": "$x=0$ y $x=2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "área entre dos curvas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-5-06",
+      "pregunta": "El área entre $y=x$ y $y=x^2$ en $[0,1]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.5",
+        "nombre": "Área entre dos curvas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac12$",
+        "B": "$\\frac13$",
+        "C": "$1$",
+        "D": "$\\frac16$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "área entre dos curvas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-5-07",
+      "pregunta": "Si las curvas intercambian posición, se debe:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.5",
+        "nombre": "Área entre dos curvas"
+      },
+      "respuestas_posibles": {
+        "A": "Restar límites",
+        "B": "Integrar el producto",
+        "C": "Dividir el intervalo y cambiar superior menos inferior",
+        "D": "Conservar el mismo orden siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "área entre dos curvas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-5-08",
+      "pregunta": "Entre $y=4$ y $y=x^2$ en $[-2,2]$, la función superior es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.5",
+        "nombre": "Área entre dos curvas"
+      },
+      "respuestas_posibles": {
+        "A": "Depende del signo de $x$",
+        "B": "$y=4$",
+        "C": "$y=x^2$",
+        "D": "$y=2x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "área entre dos curvas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-5-09",
+      "pregunta": "El área entre $y=4$ y $y=x^2$ en $[-2,2]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.5",
+        "nombre": "Área entre dos curvas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{32}{3}$",
+        "B": "$8$",
+        "C": "$\\frac{16}{3}$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "área entre dos curvas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-5-10",
+      "pregunta": "Integrando respecto de $y$, el área horizontal se expresa como:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.5",
+        "nombre": "Área entre dos curvas"
+      },
+      "respuestas_posibles": {
+        "A": "Superior menos inferior",
+        "B": "Producto de curvas",
+        "C": "Pendiente por altura",
+        "D": "Derecha menos izquierda"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "área entre dos curvas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-6-01",
+      "pregunta": "Si $v(t)$ es velocidad, el desplazamiento de $a$ a $b$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.6",
+        "nombre": "Aplicaciones al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int_a^b|v(t)|dt$ siempre",
+        "B": "$a(b)-a(a)$",
+        "C": "$\\int_a^bv(t)dt$",
+        "D": "$v(b)-v(a)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicaciones al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-6-02",
+      "pregunta": "La distancia total recorrida es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.6",
+        "nombre": "Aplicaciones al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$s(b)/s(a)$",
+        "B": "$\\int_a^b|v(t)|dt$",
+        "C": "$\\int_a^bv(t)dt$ siempre",
+        "D": "$v(b)+v(a)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicaciones al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-6-03",
+      "pregunta": "Si $v(t)=2t$ para $0\\le t\\le3$, el desplazamiento es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.6",
+        "nombre": "Aplicaciones al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$6$",
+        "C": "$3$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicaciones al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-6-04",
+      "pregunta": "Si $v(t)=t-1$ en $[0,2]$, el desplazamiento es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.6",
+        "nombre": "Aplicaciones al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$2$",
+        "C": "$-1$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicaciones al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-6-05",
+      "pregunta": "Para esa velocidad, la distancia total es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.6",
+        "nombre": "Aplicaciones al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$-1$",
+        "C": "$1$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicaciones al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-6-06",
+      "pregunta": "La distancia y el valor absoluto del desplazamiento coinciden si:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.6",
+        "nombre": "Aplicaciones al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "El intervalo es simétrico",
+        "B": "La velocidad no cambia de signo",
+        "C": "La aceleración es cero",
+        "D": "La posición inicial es cero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicaciones al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-6-07",
+      "pregunta": "Si $a(t)=3t^2$, el cambio de velocidad entre $0$ y $2$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.6",
+        "nombre": "Aplicaciones al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$6$",
+        "C": "$4$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicaciones al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-6-08",
+      "pregunta": "Si $v(t)=-4$ durante $3$ segundos, el desplazamiento es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.6",
+        "nombre": "Aplicaciones al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$-4$",
+        "C": "$7$",
+        "D": "$-12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicaciones al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-6-09",
+      "pregunta": "En un gráfico velocidad-tiempo, el desplazamiento corresponde a:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.6",
+        "nombre": "Aplicaciones al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "La ordenada inicial",
+        "B": "La longitud de la curva",
+        "C": "El área con signo bajo la curva",
+        "D": "La pendiente de la curva"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicaciones al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-6-10",
+      "pregunta": "Para calcular distancia cuando $v$ cambia de signo, primero se hallan:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.6",
+        "nombre": "Aplicaciones al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "Los límites infinitos",
+        "B": "Los tiempos donde $v(t)=0$",
+        "C": "Los máximos de posición únicamente",
+        "D": "Los ceros de aceleración"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicaciones al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-7-01",
+      "pregunta": "El valor promedio de $f$ en $[a,b]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.7",
+        "nombre": "Valor promedio de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$f_{prom}=\\frac1{b-a}\\int_a^bf(x)dx$",
+        "B": "$\\frac{f(a)+f(b)}2$ siempre",
+        "C": "$\\int_a^bf(x)dx$",
+        "D": "$\\frac{f(b)-f(a)}{b-a}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "valor promedio de una función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-7-02",
+      "pregunta": "El valor promedio de $f(x)=x$ en $[0,2]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.7",
+        "nombre": "Valor promedio de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$\\frac12$",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "valor promedio de una función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-7-03",
+      "pregunta": "El valor promedio de $f(x)=x^2$ en $[0,3]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.7",
+        "nombre": "Valor promedio de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac32$",
+        "B": "$6$",
+        "C": "$3$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "valor promedio de una función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-7-04",
+      "pregunta": "El valor promedio de una constante $f(x)=k$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.7",
+        "nombre": "Valor promedio de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$k/2$",
+        "B": "$k$",
+        "C": "$0$",
+        "D": "$k(b-a)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "valor promedio de una función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-7-05",
+      "pregunta": "El valor promedio de $\\sin x$ en $[0,\\pi]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.7",
+        "nombre": "Valor promedio de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac2\\pi$",
+        "B": "$0$",
+        "C": "$2$",
+        "D": "$\\pi/2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "valor promedio de una función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-7-06",
+      "pregunta": "Geométricamente, $f_{prom}$ es la altura de un rectángulo con:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.7",
+        "nombre": "Valor promedio de una función"
+      },
+      "respuestas_posibles": {
+        "A": "El mismo perímetro",
+        "B": "La misma pendiente",
+        "C": "La misma longitud de arco",
+        "D": "La misma área neta y base $b-a$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "valor promedio de una función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-7-07",
+      "pregunta": "Si $\\int_1^5f(x)dx=12$, entonces $f_{prom}=$",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.7",
+        "nombre": "Valor promedio de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$48$",
+        "C": "$3$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "valor promedio de una función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-7-08",
+      "pregunta": "El teorema del valor medio para integrales garantiza un $c$ con:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.7",
+        "nombre": "Valor promedio de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$F(c)=b-a$",
+        "B": "$f(c)=f_{prom}$",
+        "C": "$f'(c)=0$",
+        "D": "$f(c)=0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "valor promedio de una función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-7-09",
+      "pregunta": "Para aplicar dicho teorema basta que $f$ sea:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.7",
+        "nombre": "Valor promedio de una función"
+      },
+      "respuestas_posibles": {
+        "A": "Continua en $[a,b]$",
+        "B": "Impar",
+        "C": "Periódica",
+        "D": "Lineal"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "valor promedio de una función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-7-10",
+      "pregunta": "El valor promedio de $f(x)=2x+1$ en $[0,2]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.7",
+        "nombre": "Valor promedio de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$2$",
+        "C": "$4$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "valor promedio de una función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-8-01",
+      "pregunta": "El método del disco usa:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.8",
+        "nombre": "Volúmenes de sólidos de revolución"
+      },
+      "respuestas_posibles": {
+        "A": "$V=\\pi\\int Rdx$",
+        "B": "$V=\\int R^3dx$",
+        "C": "$V=\\pi\\int_a^b[R(x)]^2dx$",
+        "D": "$V=2\\pi\\int Rdx$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "volúmenes de sólidos de revolución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-8-02",
+      "pregunta": "El método de arandelas usa:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.8",
+        "nombre": "Volúmenes de sólidos de revolución"
+      },
+      "respuestas_posibles": {
+        "A": "$V=\\pi\\int(R^2+r^2)dx$",
+        "B": "$V=\\pi\\int_a^b(R^2-r^2)dx$",
+        "C": "$V=\\pi\\int(R-r)^2dx$",
+        "D": "$V=2\\pi\\int(R-r)dx$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "volúmenes de sólidos de revolución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-8-03",
+      "pregunta": "Al girar $y=x$ en $[0,1]$ alrededor del eje $x$, el volumen es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.8",
+        "nombre": "Volúmenes de sólidos de revolución"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac\\pi3$",
+        "B": "$\\pi$",
+        "C": "$\\frac{2\\pi}{3}$",
+        "D": "$\\frac\\pi2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "volúmenes de sólidos de revolución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-8-04",
+      "pregunta": "Al girar $y=2$ en $[0,3]$ alrededor del eje $x$, el volumen es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.8",
+        "nombre": "Volúmenes de sólidos de revolución"
+      },
+      "respuestas_posibles": {
+        "A": "$6\\pi$",
+        "B": "$4\\pi$",
+        "C": "$24\\pi$",
+        "D": "$12\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "volúmenes de sólidos de revolución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-8-05",
+      "pregunta": "En una arandela, $R$ representa:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.8",
+        "nombre": "Volúmenes de sólidos de revolución"
+      },
+      "respuestas_posibles": {
+        "A": "La altura del sólido",
+        "B": "El límite superior",
+        "C": "El radio exterior",
+        "D": "El radio interior"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "volúmenes de sólidos de revolución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-8-06",
+      "pregunta": "Si el radio interior es cero, el método se reduce a:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.8",
+        "nombre": "Volúmenes de sólidos de revolución"
+      },
+      "respuestas_posibles": {
+        "A": "Área entre curvas",
+        "B": "Discos",
+        "C": "Capas cilíndricas",
+        "D": "Longitud de arco"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "volúmenes de sólidos de revolución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-8-07",
+      "pregunta": "Al girar la región entre $y=2$ y $y=1$ de $0$ a $3$ alrededor del eje $x$, el volumen es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.8",
+        "nombre": "Volúmenes de sólidos de revolución"
+      },
+      "respuestas_posibles": {
+        "A": "$9\\pi$",
+        "B": "$3\\pi$",
+        "C": "$12\\pi$",
+        "D": "$6\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "volúmenes de sólidos de revolución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-8-08",
+      "pregunta": "El radio debe medirse como:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.8",
+        "nombre": "Volúmenes de sólidos de revolución"
+      },
+      "respuestas_posibles": {
+        "A": "Longitud paralela al eje",
+        "B": "Pendiente de la curva",
+        "C": "Área de la sección",
+        "D": "Distancia perpendicular al eje de giro"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "volúmenes de sólidos de revolución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-8-09",
+      "pregunta": "Si se gira alrededor de una recta distinta de un eje, el radio se obtiene mediante:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.8",
+        "nombre": "Volúmenes de sólidos de revolución"
+      },
+      "respuestas_posibles": {
+        "A": "La suma de límites",
+        "B": "El valor promedio",
+        "C": "La distancia entre la curva y la recta de giro",
+        "D": "La derivada de la curva"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "volúmenes de sólidos de revolución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-8-10",
+      "pregunta": "Las secciones perpendiculares al eje de giro en discos son:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.8",
+        "nombre": "Volúmenes de sólidos de revolución"
+      },
+      "respuestas_posibles": {
+        "A": "Espirales",
+        "B": "Círculos",
+        "C": "Rectángulos",
+        "D": "Triángulos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "volúmenes de sólidos de revolución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-9-01",
+      "pregunta": "La longitud de arco de $y=f(x)$ en $[a,b]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.9",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$L=\\int_a^b\\sqrt{1+[f'(x)]^2}dx$",
+        "B": "$L=\\int_a^b f(x)dx$",
+        "C": "$L=\\int_a^b[1+f'(x)]dx$",
+        "D": "$L=f(b)-f(a)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-9-02",
+      "pregunta": "La longitud del segmento $y=0$ entre $x=1$ y $x=5$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.9",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$6$",
+        "C": "$0$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-9-03",
+      "pregunta": "La longitud de $y=x$ en $[0,1]$ es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.9",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$\\frac{\\sqrt2}{2}$",
+        "C": "$\\sqrt2$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-9-04",
+      "pregunta": "Para $y=3x+1$ en $[0,2]$, la longitud es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.9",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$2\\sqrt{10}$",
+        "C": "$\\sqrt{10}$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-9-05",
+      "pregunta": "En la fórmula de longitud aparece $1+[f']^2$ por:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.9",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "La aplicación diferencial del teorema de Pitágoras",
+        "B": "La regla del producto",
+        "C": "El área de un rectángulo",
+        "D": "El valor promedio"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-9-06",
+      "pregunta": "La longitud de arco siempre es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.9",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "Negativa si $f<0$",
+        "B": "Igual a la integral neta",
+        "C": "Cero si la función decrece",
+        "D": "No negativa"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-9-07",
+      "pregunta": "Para una curva dada por $x=g(y)$, la fórmula usa:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.9",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$L=\\int_c^d[1+g'(y)]dy$",
+        "B": "$L=g(d)-g(c)$",
+        "C": "$L=\\int_c^d\\sqrt{1+[g'(y)]^2}dy$",
+        "D": "$L=\\int_c^d g(y)dy$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-9-08",
+      "pregunta": "Si $f'(x)=0$ en todo $[a,b]$, la longitud es:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.9",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "$a+b$",
+        "B": "$b-a$",
+        "C": "$0$",
+        "D": "$f(b)-f(a)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-9-09",
+      "pregunta": "Antes de integrar la longitud de arco se debe:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.9",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "Calcular y simplificar la derivada",
+        "B": "Buscar intersecciones siempre",
+        "C": "Hallar el área neta",
+        "D": "Cambiar a coordenadas polares siempre"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-44-9-10",
+      "pregunta": "La longitud de una curva no coincide generalmente con:",
+      "tema": {
+        "codigo": "44",
+        "nombre": "Integral definida y aplicaciones",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "44.9",
+        "nombre": "Longitud de arco"
+      },
+      "respuestas_posibles": {
+        "A": "Una distancia geométrica",
+        "B": "Una cantidad positiva",
+        "C": "La suma límite de segmentos",
+        "D": "El área bajo la curva"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "longitud de arco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

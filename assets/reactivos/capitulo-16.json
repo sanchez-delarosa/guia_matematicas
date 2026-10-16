@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "16",
+    "titulo": "Tipos de funciones",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "16.1",
+        "nombre": "Función constante"
+      },
+      {
+        "codigo": "16.2",
+        "nombre": "Función identidad"
+      },
+      {
+        "codigo": "16.3",
+        "nombre": "Función lineal y afín"
+      },
+      {
+        "codigo": "16.4",
+        "nombre": "Función cuadrática"
+      },
+      {
+        "codigo": "16.5",
+        "nombre": "Función polinomial"
+      },
+      {
+        "codigo": "16.6",
+        "nombre": "Función racional"
+      },
+      {
+        "codigo": "16.7",
+        "nombre": "Función radical"
+      },
+      {
+        "codigo": "16.8",
+        "nombre": "Función valor absoluto"
+      },
+      {
+        "codigo": "16.9",
+        "nombre": "Función definida por partes"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Reactivos distintos y específicos por subtema, inspirados en la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-16-1-01",
+      "pregunta": "¿Cuál es una función constante?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Función constante"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=7$",
+        "B": "$f(x)=7x$",
+        "C": "$f(x)=x+7$",
+        "D": "$f(x)=x^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer función constante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-1-02",
+      "pregunta": "El rango de $f(x)=-3$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Función constante"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb R$",
+        "B": "$[0,\\infty)$",
+        "C": "$\\{-3,3\\}$",
+        "D": "$\\{-3\\}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "hallar rango constante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-1-03",
+      "pregunta": "La gráfica de $f(x)=5$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Función constante"
+      },
+      "respuestas_posibles": {
+        "A": "Una parábola",
+        "B": "Una recta de pendiente $5$",
+        "C": "Una recta horizontal",
+        "D": "Una recta vertical"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "interpretar gráfica constante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-1-04",
+      "pregunta": "Calcule $f(100)$ si $f(x)=12$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Función constante"
+      },
+      "respuestas_posibles": {
+        "A": "$112$",
+        "B": "$12$",
+        "C": "$1200$",
+        "D": "$100$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "evaluar función constante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-1-05",
+      "pregunta": "La pendiente de una función constante es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Función constante"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$-1$",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar pendiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-1-06",
+      "pregunta": "¿Cuál punto pertenece a $y=-4$?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Función constante"
+      },
+      "respuestas_posibles": {
+        "A": "$(-4,6)$",
+        "B": "$(6,4)$",
+        "C": "$(-4,-4)$ solamente",
+        "D": "$(6,-4)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "verificar punto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-1-07",
+      "pregunta": "Si $f(a)=9$ para todo número real $a$, entonces:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Función constante"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=x+9$",
+        "B": "$f(x)=x^9$",
+        "C": "$f(x)=9$",
+        "D": "$f(x)=9x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconstruir regla constante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-1-08",
+      "pregunta": "El dominio usual de $f(x)=2$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Función constante"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb R\\setminus\\{2\\}$",
+        "B": "$\\mathbb R$",
+        "C": "$\\{2\\}$",
+        "D": "$[2,\\infty)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar dominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-1-09",
+      "pregunta": "¿Cuál afirmación describe $f(x)=c$?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Función constante"
+      },
+      "respuestas_posibles": {
+        "A": "Todas las entradas tienen la misma imagen",
+        "B": "Todas las salidas son distintas",
+        "C": "Su gráfica es vertical",
+        "D": "Su pendiente es $c$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "interpretar definición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-1-10",
+      "pregunta": "Si una función constante pasa por $(3,-8)$, su regla es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Función constante"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=3$",
+        "B": "$f(x)=-8x$",
+        "C": "$f(x)=3x-8$",
+        "D": "$f(x)=-8$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "determinar función constante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-2-01",
+      "pregunta": "¿Cuál es la función identidad?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Función identidad"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=-x$",
+        "B": "$f(x)=x^2$",
+        "C": "$f(x)=x$",
+        "D": "$f(x)=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer identidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-2-02",
+      "pregunta": "Calcule $f(-7)$ si $f(x)=x$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Función identidad"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$-7$",
+        "C": "$7$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "evaluar identidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-2-03",
+      "pregunta": "La gráfica de $y=x$ tiene pendiente:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Función identidad"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$0$",
+        "C": "$-1$",
+        "D": "No definida"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar pendiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-2-04",
+      "pregunta": "La función identidad corta ambos ejes en:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Función identidad"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,1)$",
+        "B": "$(0,1)$",
+        "C": "$(1,0)$",
+        "D": "$(0,0)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar intercepto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-2-05",
+      "pregunta": "El dominio y rango de $f(x)=x$ son:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Función identidad"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{0\\}$ y $\\{0\\}$",
+        "B": "$\\mathbb R$ y $[0,\\infty)$",
+        "C": "$\\mathbb R$ y $\\mathbb R$",
+        "D": "$[0,\\infty)$ y $[0,\\infty)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "determinar dominio y rango",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-2-06",
+      "pregunta": "¿Cuál punto no pertenece a $y=x$?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Función identidad"
+      },
+      "respuestas_posibles": {
+        "A": "$(5,5)$",
+        "B": "$(2,-2)$",
+        "C": "$(0,0)$",
+        "D": "$(-3,-3)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "verificar puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-2-07",
+      "pregunta": "La función identidad asigna a cada número:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Función identidad"
+      },
+      "respuestas_posibles": {
+        "A": "El mismo número",
+        "B": "Su opuesto",
+        "C": "Su cuadrado",
+        "D": "El número uno"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "interpretar regla",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-2-08",
+      "pregunta": "Si $f$ es identidad, entonces $f(a+2)=$",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Función identidad"
+      },
+      "respuestas_posibles": {
+        "A": "$a$",
+        "B": "$2a$",
+        "C": "$a^2+4$",
+        "D": "$a+2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "usar notación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-2-09",
+      "pregunta": "La ecuación de una recta con pendiente $1$ e intercepto $0$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Función identidad"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$",
+        "B": "$y=-x$",
+        "C": "$y=x$",
+        "D": "$y=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "relacionar parámetros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-2-10",
+      "pregunta": "¿Qué transformación produce $g(x)=f(x)+4$ desde $f(x)=x$?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Función identidad"
+      },
+      "respuestas_posibles": {
+        "A": "Compresión vertical",
+        "B": "Desplazamiento vertical de $4$ unidades hacia arriba",
+        "C": "Reflexión en el eje $x$",
+        "D": "Desplazamiento horizontal de $4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "interpretar transformación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-3-01",
+      "pregunta": "En $f(x)=3x-5$, la pendiente es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Función lineal y afín"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$-5$",
+        "C": "$5$",
+        "D": "$-3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar pendiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-3-02",
+      "pregunta": "En $y=-2x+7$, el intercepto en $y$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Función lineal y afín"
+      },
+      "respuestas_posibles": {
+        "A": "$-2$",
+        "B": "$2$",
+        "C": "$-7$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar ordenada al origen",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-3-03",
+      "pregunta": "Calcule $f(4)$ para $f(x)=2x+1$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Función lineal y afín"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$10$",
+        "C": "$9$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "evaluar función afín",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-3-04",
+      "pregunta": "¿Cuál función es creciente?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Función lineal y afín"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=-x-7$",
+        "B": "$f(x)=5x-2$",
+        "C": "$f(x)=-3x+1$",
+        "D": "$f(x)=4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar monotonía lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-3-05",
+      "pregunta": "¿Cuál función es decreciente?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Función lineal y afín"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=-4x+6$",
+        "B": "$f(x)=2x-1$",
+        "C": "$f(x)=x+8$",
+        "D": "$f(x)=3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "clasificar pendiente negativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-3-06",
+      "pregunta": "La recta que pasa por $(0,3)$ y $(2,7)$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Función lineal y afín"
+      },
+      "respuestas_posibles": {
+        "A": "$y=3x+2$",
+        "B": "$y=2x+7$",
+        "C": "$y=-2x+3$",
+        "D": "$y=2x+3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "determinar regla lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-3-07",
+      "pregunta": "Halle el cero de $f(x)=4x-12$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Función lineal y afín"
+      },
+      "respuestas_posibles": {
+        "A": "$x=4$",
+        "B": "$x=12$",
+        "C": "$x=3$",
+        "D": "$x=-3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "hallar raíz lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-3-08",
+      "pregunta": "Dos funciones lineales con la misma pendiente y distinto intercepto tienen gráficas:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Función lineal y afín"
+      },
+      "respuestas_posibles": {
+        "A": "Cuadráticas",
+        "B": "Paralelas",
+        "C": "Perpendiculares",
+        "D": "Coincidentes siempre"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "comparar rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-3-09",
+      "pregunta": "La pendiente entre $(1,4)$ y $(5,12)$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Función lineal y afín"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$4$",
+        "C": "$8$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular razón de cambio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-3-10",
+      "pregunta": "Un costo fijo de $50$ más $8$ por unidad se modela como:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Función lineal y afín"
+      },
+      "respuestas_posibles": {
+        "A": "$C(x)=50x+8$",
+        "B": "$C(x)=58x$",
+        "C": "$C(x)=50-8x$",
+        "D": "$C(x)=50+8x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "modelar función afín",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-4-01",
+      "pregunta": "¿Cuál función es cuadrática?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Función cuadrática"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=\\frac1x$",
+        "B": "$f(x)=x^3$",
+        "C": "$f(x)=2x^2-3x+1$",
+        "D": "$f(x)=2x+1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer cuadrática",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-4-02",
+      "pregunta": "La gráfica de una función cuadrática es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Función cuadrática"
+      },
+      "respuestas_posibles": {
+        "A": "Una circunferencia",
+        "B": "Una parábola",
+        "C": "Una recta",
+        "D": "Una hipérbola"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar gráfica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-4-03",
+      "pregunta": "El vértice de $f(x)=(x-2)^2+3$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Función cuadrática"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,3)$",
+        "B": "$(-2,3)$",
+        "C": "$(2,-3)$",
+        "D": "$(-2,-3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "leer forma de vértice",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-4-04",
+      "pregunta": "El eje de simetría de $f(x)=x^2-6x+5$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Función cuadrática"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-3$",
+        "B": "$x=6$",
+        "C": "$y=3$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular eje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-4-05",
+      "pregunta": "Los ceros de $f(x)=x^2-9$ son:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Función cuadrática"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-9$ y $x=9$",
+        "B": "$x=3$ solamente",
+        "C": "$x=-3$ y $x=3$",
+        "D": "$x=9$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "hallar raíces",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-4-06",
+      "pregunta": "Si $a<0$ en $f(x)=ax^2+bx+c$, la parábola abre:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Función cuadrática"
+      },
+      "respuestas_posibles": {
+        "A": "A la izquierda",
+        "B": "Hacia abajo",
+        "C": "Hacia arriba",
+        "D": "A la derecha"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "interpretar coeficiente principal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-4-07",
+      "pregunta": "Calcule $f(-2)$ para $f(x)=x^2+3x$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Función cuadrática"
+      },
+      "respuestas_posibles": {
+        "A": "$-2$",
+        "B": "$2$",
+        "C": "$10$",
+        "D": "$-10$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "evaluar cuadrática",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-4-08",
+      "pregunta": "El valor mínimo de $f(x)=x^2+4$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Función cuadrática"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$-4$",
+        "C": "$1$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "hallar extremo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-4-09",
+      "pregunta": "La forma factorizada de $x^2-5x+6$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Función cuadrática"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-1)(x-6)$",
+        "B": "$(x+2)(x-3)$",
+        "C": "$(x-2)(x-3)$",
+        "D": "$(x+2)(x+3)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "factorizar cuadrática",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-4-10",
+      "pregunta": "El rango de $f(x)=(x+1)^2-5$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Función cuadrática"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb R$",
+        "B": "$[-5,\\infty)$",
+        "C": "$(-\\infty,-5]$",
+        "D": "$[-1,\\infty)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "determinar rango",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-5-01",
+      "pregunta": "¿Cuál es una función polinomial de grado $3$?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Función polinomial"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=2x^3-x+4$",
+        "B": "$f(x)=x^2+3$",
+        "C": "$f(x)=\\frac1x$",
+        "D": "$f(x)=\\sqrt{x}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer grado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-5-02",
+      "pregunta": "El grado de $p(x)=5x^4-2x^2+7$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Función polinomial"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$2$",
+        "C": "$7$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar grado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-5-03",
+      "pregunta": "El dominio de toda función polinomial es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Función polinomial"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb R\\setminus\\{0\\}$",
+        "B": "Depende de sus raíces",
+        "C": "$\\mathbb R$",
+        "D": "$[0,\\infty)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "determinar dominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-5-04",
+      "pregunta": "Calcule $p(2)$ para $p(x)=x^3-2x+1$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Función polinomial"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$5$",
+        "C": "$3$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "evaluar polinomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-5-05",
+      "pregunta": "El término independiente de $3x^5-2x+8$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Función polinomial"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$3$",
+        "C": "$-2$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar término constante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-5-06",
+      "pregunta": "¿Cuál no es polinomial?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Función polinomial"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=x^4-1$",
+        "B": "$f(x)=7$",
+        "C": "$f(x)=2x^2+x$",
+        "D": "$f(x)=x^{-1}+2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "distinguir exponente negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-5-07",
+      "pregunta": "Un polinomio de grado impar con coeficiente principal positivo tiene comportamiento final:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Función polinomial"
+      },
+      "respuestas_posibles": {
+        "A": "Baja en ambos extremos",
+        "B": "Sube a la izquierda y baja a la derecha",
+        "C": "Baja a la izquierda y sube a la derecha",
+        "D": "Sube en ambos extremos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar comportamiento final",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-5-08",
+      "pregunta": "Si $p(3)=0$, entonces:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Función polinomial"
+      },
+      "respuestas_posibles": {
+        "A": "$p(x)$ es constante",
+        "B": "$x-3$ es factor de $p(x)$",
+        "C": "$x+3$ es siempre factor",
+        "D": "$3$ es el grado"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar teorema del factor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-5-09",
+      "pregunta": "¿Cuál es el máximo número de ceros reales de un polinomio de grado $5$?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Función polinomial"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$4$",
+        "C": "$6$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "relacionar grado y ceros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-5-10",
+      "pregunta": "La suma de funciones polinomiales es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Función polinomial"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre racional no polinomial",
+        "B": "Siempre constante",
+        "C": "Una función radical",
+        "D": "Otra función polinomial"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reconocer cierre",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-6-01",
+      "pregunta": "¿Cuál función es racional?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Función racional"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=|x|$",
+        "B": "$f(x)=2^x$",
+        "C": "$f(x)=\\frac{x+1}{x-2}$",
+        "D": "$f(x)=\\sqrt{x+1}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer racional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-6-02",
+      "pregunta": "El dominio de $f(x)=\\frac1{x+5}$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Función racional"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb R$",
+        "B": "$\\mathbb R\\setminus\\{-5\\}$",
+        "C": "$\\mathbb R\\setminus\\{5\\}$",
+        "D": "$[-5,\\infty)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "excluir denominador cero",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-6-03",
+      "pregunta": "La asíntota vertical de $f(x)=\\frac2{x-3}$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Función racional"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3$",
+        "B": "$y=3$",
+        "C": "$x=-3$",
+        "D": "$y=2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "identificar asíntota vertical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-6-04",
+      "pregunta": "La asíntota horizontal de $f(x)=\\frac1x$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Función racional"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "$y=1$",
+        "C": "$x=1$",
+        "D": "$y=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "identificar asíntota horizontal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-6-05",
+      "pregunta": "Calcule $f(2)$ para $f(x)=\\frac{x+3}{x+1}$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Función racional"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac35$",
+        "B": "$1$",
+        "C": "$\\frac53$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "evaluar racional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-6-06",
+      "pregunta": "¿Para qué valor no está definida $f(x)=\\frac{x-1}{x^2-4}$?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Función racional"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-1$",
+        "B": "$x=2$ y $x=-2$",
+        "C": "$x=1$",
+        "D": "$x=4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "hallar restricciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-6-07",
+      "pregunta": "Simplifique $\\frac{x^2-9}{x-3}$ considerando $x\\neq3$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Función racional"
+      },
+      "respuestas_posibles": {
+        "A": "$x+3$",
+        "B": "$x-3$",
+        "C": "$x^2+3$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "simplificar racional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-6-08",
+      "pregunta": "La función recíproca es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Función racional"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=x$",
+        "B": "$f(x)=x^2$",
+        "C": "$f(x)=\\sqrt x$",
+        "D": "$f(x)=\\frac1x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reconocer función recíproca",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-6-09",
+      "pregunta": "En $f(x)=\\frac{x}{x-1}$, el intercepto con el eje $x$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Función racional"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,1)$",
+        "B": "No existe",
+        "C": "$(0,0)$",
+        "D": "$(1,0)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "hallar intercepto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-6-10",
+      "pregunta": "Una discontinuidad removible puede aparecer cuando:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Función racional"
+      },
+      "respuestas_posibles": {
+        "A": "El numerador es constante",
+        "B": "Numerador y denominador comparten un factor que se cancela",
+        "C": "El denominador nunca es cero",
+        "D": "La función es polinomial"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "interpretar hueco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-7-01",
+      "pregunta": "¿Cuál es una función radical?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Función radical"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=\\sqrt{x+2}$",
+        "B": "$f(x)=x+2$",
+        "C": "$f(x)=\\frac1{x+2}$",
+        "D": "$f(x)=2^x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer radical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-7-02",
+      "pregunta": "El dominio de $f(x)=\\sqrt{x-4}$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Función radical"
+      },
+      "respuestas_posibles": {
+        "A": "$(4,\\infty)$",
+        "B": "$(-\\infty,4]$",
+        "C": "$\\mathbb R$",
+        "D": "$[4,\\infty)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "determinar dominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-7-03",
+      "pregunta": "Calcule $f(9)$ para $f(x)=\\sqrt{x}$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Función radical"
+      },
+      "respuestas_posibles": {
+        "A": "$81$",
+        "B": "$-3$",
+        "C": "$3$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "evaluar raíz",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-7-04",
+      "pregunta": "El rango de $f(x)=\\sqrt{x}$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Función radical"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,\\infty)$",
+        "B": "$[0,\\infty)$",
+        "C": "$\\mathbb R$",
+        "D": "$(-\\infty,0]$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "determinar rango",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-7-05",
+      "pregunta": "La gráfica de $g(x)=\\sqrt{x-3}$ inicia en:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Función radical"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,0)$",
+        "B": "$(-3,0)$",
+        "C": "$(0,3)$",
+        "D": "$(0,-3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interpretar traslación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-7-06",
+      "pregunta": "El dominio de $f(x)=\\sqrt{9-x}$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Función radical"
+      },
+      "respuestas_posibles": {
+        "A": "$[9,\\infty)$",
+        "B": "$(-\\infty,9)$",
+        "C": "$\\mathbb R$",
+        "D": "$(-\\infty,9]$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver restricción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-7-07",
+      "pregunta": "¿Cuál función radical tiene dominio completo en los reales?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Función radical"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=\\sqrt{x-1}$",
+        "B": "$f(x)=\\frac1{\\sqrt x}$",
+        "C": "$f(x)=\\sqrt[3]{x}$",
+        "D": "$f(x)=\\sqrt x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "distinguir raíz impar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-7-08",
+      "pregunta": "Calcule $\\sqrt[3]{-27}$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Función radical"
+      },
+      "respuestas_posibles": {
+        "A": "No es real",
+        "B": "$-3$",
+        "C": "$3$",
+        "D": "$-9$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "evaluar raíz cúbica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-7-09",
+      "pregunta": "El dominio de $f(x)=\\frac1{\\sqrt{x+1}}$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Función radical"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,\\infty)$",
+        "B": "$[-1,\\infty)$",
+        "C": "$\\mathbb R\\setminus\\{-1\\}$",
+        "D": "$(-\\infty,-1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "combinar raíz y denominador",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-7-10",
+      "pregunta": "La función $f(x)=\\sqrt{x}+2$ se obtiene al desplazar $\\sqrt{x}$:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Función radical"
+      },
+      "respuestas_posibles": {
+        "A": "$2$ hacia la derecha",
+        "B": "$2$ hacia abajo",
+        "C": "$2$ hacia la izquierda",
+        "D": "$2$ unidades hacia arriba"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "interpretar transformación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-8-01",
+      "pregunta": "¿Cuál es la función valor absoluto básica?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Función valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=\\frac1x$",
+        "B": "$f(x)=\\sqrt x$",
+        "C": "$f(x)=|x|$",
+        "D": "$f(x)=x^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-8-02",
+      "pregunta": "La gráfica de $y=|x|$ tiene forma de:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Función valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "Recta horizontal",
+        "B": "V",
+        "C": "Parábola suave",
+        "D": "Hipérbola"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar forma gráfica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-8-03",
+      "pregunta": "Calcule $|-7|$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Función valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$-7$",
+        "C": "$0$",
+        "D": "$49$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "evaluar valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-8-04",
+      "pregunta": "El vértice de $f(x)=|x-3|+2$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Función valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,2)$",
+        "B": "$(3,-2)$",
+        "C": "$(-3,-2)$",
+        "D": "$(3,2)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "leer vértice",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-8-05",
+      "pregunta": "El rango de $f(x)=|x|$ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Función valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$(-\\infty,0]$",
+        "B": "$(0,\\infty)$",
+        "C": "$[0,\\infty)$",
+        "D": "$\\mathbb R$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "determinar rango",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-8-06",
+      "pregunta": "Resuelva $|x|=5$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Función valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "$x=5$ o $x=-5$",
+        "C": "$x=5$ solamente",
+        "D": "$x=-5$ solamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver ecuación absoluta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-8-07",
+      "pregunta": "La función $f(x)=-|x|$ tiene valor máximo:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Función valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$-1$",
+        "D": "No tiene máximo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar reflexión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-8-08",
+      "pregunta": "Escriba $|x|$ por partes.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Función valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$|x|=-x$ siempre",
+        "B": "$|x|=x^2$",
+        "C": "$|x|=x$ si $x<0$",
+        "D": "$|x|=x$ si $x\\geq0$ y $|x|=-x$ si $x<0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "expresar por tramos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-8-09",
+      "pregunta": "La gráfica de $|x+4|$ es la de $|x|$ desplazada:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Función valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$4$ hacia arriba",
+        "B": "$4$ hacia abajo",
+        "C": "$4$ unidades a la izquierda",
+        "D": "$4$ a la derecha"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "interpretar traslado horizontal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-8-10",
+      "pregunta": "¿Cuál punto pertenece a $y=|x-1|$?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Función valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,-1)$",
+        "B": "$(3,2)$",
+        "C": "$(3,-2)$",
+        "D": "$(1,1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "verificar punto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-9-01",
+      "pregunta": "Sea $f(x)=\\begin{cases}x+1,&x<0\\\\x^2,&x\\geq0\\end{cases}$. Calcule $f(-3)$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Función definida por partes"
+      },
+      "respuestas_posibles": {
+        "A": "$-2$",
+        "B": "$9$",
+        "C": "$-3$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "evaluar tramo negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-9-02",
+      "pregunta": "Para la misma función, calcule $f(2)$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Función definida por partes"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$2$",
+        "C": "$-4$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "evaluar tramo no negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-9-03",
+      "pregunta": "En una función definida por partes, la regla que se aplica depende de:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Función definida por partes"
+      },
+      "respuestas_posibles": {
+        "A": "El número de tramos únicamente",
+        "B": "La pendiente mayor",
+        "C": "El intervalo al que pertenece la entrada",
+        "D": "El valor del rango completo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "seleccionar tramo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-9-04",
+      "pregunta": "Sea $g(x)=\\begin{cases}2x,&x\\leq1\\\\x+3,&x>1\\end{cases}$. Calcule $g(1)$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Función definida por partes"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$2$",
+        "C": "$4$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "usar extremo incluido",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-9-05",
+      "pregunta": "Para la misma función, calcule $g(4)$.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Función definida por partes"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$8$",
+        "C": "$4$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "evaluar segundo tramo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-9-06",
+      "pregunta": "La función escalón asigna típicamente:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Función definida por partes"
+      },
+      "respuestas_posibles": {
+        "A": "Una parábola en cada punto",
+        "B": "Dos salidas a cada entrada",
+        "C": "Solo números negativos",
+        "D": "Valores constantes en distintos intervalos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reconocer función escalón",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-9-07",
+      "pregunta": "Sea $h(x)=\\begin{cases}-1,&x<2\\\\3,&x\\geq2\\end{cases}$. ¿Cuál es $h(2)$?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Función definida por partes"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$0$",
+        "C": "$3$",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "leer condición de frontera",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-9-08",
+      "pregunta": "Una función por partes es válida si:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Función definida por partes"
+      },
+      "respuestas_posibles": {
+        "A": "No contiene desigualdades",
+        "B": "Cada entrada del dominio recibe una sola salida",
+        "C": "Los intervalos asignan dos reglas simultáneas a toda entrada",
+        "D": "Cada tramo tiene el mismo valor"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "verificar definición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-9-09",
+      "pregunta": "Sea $p(x)=\\begin{cases}x^2,&x<1\\\\2x-1,&x\\geq1\\end{cases}$. ¿Coinciden los valores de ambos tramos en $x=1$?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Función definida por partes"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, ambos producen $1$",
+        "B": "No, producen $0$ y $1$",
+        "C": "No, producen $1$ y $2$",
+        "D": "Sí, ambos producen $2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "verificar unión continua",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-16-9-10",
+      "pregunta": "Un estacionamiento cobra $30$ pesos por la primera hora y $20$ por cada hora adicional. Una modelación por partes es útil porque:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "Tipos de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Función definida por partes"
+      },
+      "respuestas_posibles": {
+        "A": "El costo es siempre constante",
+        "B": "La variable tiempo tiene dos valores simultáneos",
+        "C": "No existe dominio",
+        "D": "La regla de costo cambia después de la primera hora"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "justificar modelo por tramos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

@@ -1,0 +1,1603 @@
+{
+  "metadata": {
+    "capitulo": "17",
+    "titulo": "Álgebra de funciones",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 6,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 60,
+    "secciones_incluidas": [
+      {
+        "codigo": "17.1",
+        "nombre": "Operaciones con funciones"
+      },
+      {
+        "codigo": "17.2",
+        "nombre": "Composición de funciones"
+      },
+      {
+        "codigo": "17.3",
+        "nombre": "Función inversa"
+      },
+      {
+        "codigo": "17.4",
+        "nombre": "Transformaciones de gráficas"
+      },
+      {
+        "codigo": "17.5",
+        "nombre": "Funciones pares e impares"
+      },
+      {
+        "codigo": "17.6",
+        "nombre": "Ceros, signos e intersecciones"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Reactivos distintos y específicos por subtema, inspirados en la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-17-1-01",
+      "pregunta": "Sean $f(x)=2x+3$ y $g(x)=x-5$. Halle $(f+g)(x)$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Operaciones con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$3x-2$",
+        "B": "$x+8$",
+        "C": "$2x^2-7x-15$",
+        "D": "$x+2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "sumar funciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-1-02",
+      "pregunta": "Sean $f(x)=x^2$ y $g(x)=3x+1$. Halle $(f-g)(x)$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Operaciones con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+3x+1$",
+        "B": "$-2x-1$",
+        "C": "$3x^3+x^2$",
+        "D": "$x^2-3x-1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "restar funciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-1-03",
+      "pregunta": "Sean $f(x)=x+2$ y $g(x)=x-4$. Halle $(fg)(x)$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Operaciones con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+6x+8$",
+        "B": "$\\frac{x+2}{x-4}$",
+        "C": "$x^2-2x-8$",
+        "D": "$2x-2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "multiplicar funciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-1-04",
+      "pregunta": "Sean $f(x)=2x-1$ y $g(x)=x+3$. Halle $\\left(\\frac fg\\right)(x)$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Operaciones con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$2x^2+5x-3$",
+        "B": "$\\frac{2x-1}{x+3}$",
+        "C": "$\\frac{x+3}{2x-1}$",
+        "D": "$\\frac{3x+2}{x}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "dividir funciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-1-05",
+      "pregunta": "Para $f(x)=x^2+1$ y $g(x)=2x$, calcule $(f+g)(3)$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Operaciones con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$12$",
+        "C": "$10$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "evaluar suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-1-06",
+      "pregunta": "El dominio de $\\frac{f}{g}$ debe excluir los valores donde:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Operaciones con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=0$",
+        "B": "$f(x)=g(x)$",
+        "C": "$g(x)=1$",
+        "D": "$g(x)=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "determinar restricción de cociente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-1-07",
+      "pregunta": "Si $f(x)=x^2-4$ y $g(x)=x-2$, simplifique $\\frac{f(x)}{g(x)}$ para $x\\neq2$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Operaciones con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+2$",
+        "B": "$1$",
+        "C": "$x+2$",
+        "D": "$x-2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "simplificar cociente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-1-08",
+      "pregunta": "Sean $f(x)=3x$ y $g(x)=x^2$. Halle $(2f-g)(x)$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Operaciones con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$5x^2$",
+        "B": "$6x-x^2$",
+        "C": "$3x-2x^2$",
+        "D": "$6x+x^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "combinar funciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-1-09",
+      "pregunta": "Si $f(2)=5$ y $g(2)=-3$, entonces $(f-g)(2)=$",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Operaciones con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$2$",
+        "C": "$-8$",
+        "D": "$-2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "operar valores funcionales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-1-10",
+      "pregunta": "El dominio de $(f+g)(x)$ es, en general:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Operaciones con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "La unión de los rangos",
+        "B": "Solo el dominio de $f$",
+        "C": "Todo $\\mathbb R$ siempre",
+        "D": "La intersección de los dominios de $f$ y $g$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "combinar dominios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-2-01",
+      "pregunta": "Sean $f(x)=2x+1$ y $g(x)=x^2$. Halle $(f\\circ g)(x)$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Composición de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$4x^2+1$",
+        "B": "$x^2+2x+1$",
+        "C": "$2x^2+1$",
+        "D": "$(2x+1)^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "componer funciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-2-02",
+      "pregunta": "Con las mismas funciones, halle $(g\\circ f)(x)$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Composición de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+1$",
+        "B": "$(2x+1)^2$",
+        "C": "$2x^2+1$",
+        "D": "$4x^2+1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "invertir orden de composición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-2-03",
+      "pregunta": "Si $f(x)=x-3$ y $g(x)=5x$, calcule $(f\\circ g)(2)$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Composición de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$10$",
+        "C": "$-5$",
+        "D": "$35$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "evaluar composición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-2-04",
+      "pregunta": "Si $f(x)=x^2+1$ y $g(x)=x+2$, calcule $(g\\circ f)(1)$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Composición de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$6$",
+        "C": "$2$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "evaluar composición anidada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-2-05",
+      "pregunta": "La expresión $(f\\circ g)(x)$ significa:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Composición de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)g(x)$",
+        "B": "$f(x)+g(x)$",
+        "C": "$f(g(x))$",
+        "D": "$g(f(x))$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "interpretar notación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-2-06",
+      "pregunta": "Sean $f(x)=\\sqrt{x}$ y $g(x)=x-4$. El dominio de $(f\\circ g)(x)$ es:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Composición de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb R$",
+        "B": "$[4,\\infty)$",
+        "C": "$[0,\\infty)$",
+        "D": "$(-\\infty,4]$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "hallar dominio de composición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-2-07",
+      "pregunta": "Sean $f(x)=\\frac1x$ y $g(x)=x+1$. Halle $(f\\circ g)(x)$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Composición de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac1{x+1}$",
+        "B": "$\\frac1x+1$",
+        "C": "$\\frac{x+1}{x}$",
+        "D": "$x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "componer función racional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-2-08",
+      "pregunta": "Si $f(x)=3x-2$ y $g(x)=\\frac{x+2}{3}$, entonces $(f\\circ g)(x)=$",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Composición de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$3x$",
+        "B": "$x+2$",
+        "C": "$\\frac{x}{3}$",
+        "D": "$x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reconocer funciones inversas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-2-09",
+      "pregunta": "¿Es conmutativa la composición de funciones?",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Composición de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "Solo para polinomios",
+        "B": "Solo si ambas son lineales",
+        "C": "No, en general $f\\circ g\\neq g\\circ f$",
+        "D": "Sí, siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "comprender orden",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-2-10",
+      "pregunta": "Si $h=f\\circ g$, para calcular $h(a)$ primero se evalúa:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Composición de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$a^2$",
+        "B": "$g(a)$",
+        "C": "$f(a)$",
+        "D": "$f(a)+g(a)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "ordenar procedimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-3-01",
+      "pregunta": "Halle la inversa de $f(x)=2x+5$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Función inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$f^{-1}(x)=\\frac{x-5}{2}$",
+        "B": "$f^{-1}(x)=2x-5$",
+        "C": "$f^{-1}(x)=\\frac{x+5}{2}$",
+        "D": "$f^{-1}(x)=\\frac1{2x+5}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "hallar inversa lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-3-02",
+      "pregunta": "Halle la inversa de $f(x)=\\frac{x-3}{4}$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Función inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$f^{-1}(x)=\\frac{x+3}{4}$",
+        "B": "$f^{-1}(x)=4x-3$",
+        "C": "$f^{-1}(x)=\\frac4{x-3}$",
+        "D": "$f^{-1}(x)=4x+3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "despejar inversa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-3-03",
+      "pregunta": "Una función tiene inversa funcional si es:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Función inversa"
+      },
+      "respuestas_posibles": {
+        "A": "Periódica siempre",
+        "B": "Cuadrática en todo $\\mathbb R$",
+        "C": "Uno a uno en su dominio",
+        "D": "Constante"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer condición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-3-04",
+      "pregunta": "La gráfica de $f^{-1}$ es el reflejo de la gráfica de $f$ respecto a:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Función inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-x$",
+        "B": "$y=x$",
+        "C": "El eje $x$",
+        "D": "El eje $y$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "interpretar inversa gráficamente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-3-05",
+      "pregunta": "Si $f(3)=8$ y $f$ es invertible, entonces $f^{-1}(8)=$",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Función inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$8$",
+        "C": "$\\frac38$",
+        "D": "$-3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "usar correspondencia inversa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-3-06",
+      "pregunta": "Verifique $f(x)=3x-1$ y $g(x)=\\frac{x+1}{3}$. La composición $f(g(x))$ es:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Función inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$3x$",
+        "B": "$x+1$",
+        "C": "$x-1$",
+        "D": "$x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "verificar inversa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-3-07",
+      "pregunta": "La función $f(x)=x^2$ en todo $\\mathbb R$ no tiene inversa funcional porque:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Función inversa"
+      },
+      "respuestas_posibles": {
+        "A": "No está definida en cero",
+        "B": "No es continua",
+        "C": "No es uno a uno",
+        "D": "No tiene rango"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "justificar restricción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-3-08",
+      "pregunta": "Restringiendo $f(x)=x^2$ a $x\\geq0$, su inversa es:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Función inversa"
+      },
+      "respuestas_posibles": {
+        "A": "$f^{-1}(x)=\\frac1{x^2}$",
+        "B": "$f^{-1}(x)=\\sqrt{x}$",
+        "C": "$f^{-1}(x)=x^2$",
+        "D": "$f^{-1}(x)=-\\sqrt{x}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "hallar inversa con dominio restringido",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-3-09",
+      "pregunta": "El dominio de $f^{-1}$ corresponde al:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Función inversa"
+      },
+      "respuestas_posibles": {
+        "A": "Rango de $f$",
+        "B": "Dominio de $f$ siempre",
+        "C": "Cero de $f$",
+        "D": "Intercepto de $f$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "relacionar dominio y rango",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-3-10",
+      "pregunta": "No debe confundirse $f^{-1}(x)$ con:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Función inversa"
+      },
+      "respuestas_posibles": {
+        "A": "La función inversa",
+        "B": "$f$ con dominio intercambiado",
+        "C": "$x$ reflejado sobre $y=x$",
+        "D": "$\\frac1{f(x)}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "distinguir recíproco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-4-01",
+      "pregunta": "Desde $f(x)$, la función $f(x)+4$ desplaza la gráfica:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Transformaciones de gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "$4$ hacia abajo",
+        "B": "$4$ a la izquierda",
+        "C": "$4$ unidades hacia arriba",
+        "D": "$4$ a la derecha"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "traslación vertical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-4-02",
+      "pregunta": "La función $f(x-3)$ desplaza la gráfica de $f$:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Transformaciones de gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "$3$ hacia abajo",
+        "B": "$3$ unidades a la derecha",
+        "C": "$3$ a la izquierda",
+        "D": "$3$ hacia arriba"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "traslación horizontal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-4-03",
+      "pregunta": "La función $f(x+2)$ desplaza la gráfica:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Transformaciones de gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "$2$ unidades a la izquierda",
+        "B": "$2$ a la derecha",
+        "C": "$2$ hacia arriba",
+        "D": "$2$ hacia abajo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "interpretar signo horizontal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-4-04",
+      "pregunta": "La gráfica de $-f(x)$ es la reflexión de $f$ respecto al:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Transformaciones de gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Eje $y$",
+        "B": "Origen únicamente",
+        "C": "Plano $y=x$",
+        "D": "Eje $x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reflexión vertical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-4-05",
+      "pregunta": "La gráfica de $f(-x)$ es la reflexión de $f$ respecto al:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Transformaciones de gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Origen únicamente",
+        "B": "Eje $y=x$",
+        "C": "Eje $y$",
+        "D": "Eje $x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reflexión horizontal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-4-06",
+      "pregunta": "La función $2f(x)$ produce:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Transformaciones de gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Reflexión en el eje $x$",
+        "B": "Estiramiento vertical por factor $2$",
+        "C": "Compresión horizontal por $2$",
+        "D": "Traslación vertical de $2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "escalamiento vertical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-4-07",
+      "pregunta": "La función $\\frac12f(x)$ produce:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Transformaciones de gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Compresión vertical por factor $\\frac12$",
+        "B": "Estiramiento vertical por $2$",
+        "C": "Desplazamiento de media unidad",
+        "D": "Reflexión en el eje $y$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "compresión vertical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-4-08",
+      "pregunta": "El vértice de $y=(x-5)^2-3$ es:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Transformaciones de gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "$(-5,-3)$",
+        "B": "$(5,3)$",
+        "C": "$(-5,3)$",
+        "D": "$(5,-3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "leer transformaciones cuadráticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-4-09",
+      "pregunta": "La gráfica de $y=|x+1|+4$ tiene vértice:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Transformaciones de gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,-4)$",
+        "B": "$(1,-4)$",
+        "C": "$(-1,4)$",
+        "D": "$(1,4)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "combinar traslaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-4-10",
+      "pregunta": "Partiendo de $y=\\sqrt{x}$, $y=\\sqrt{x-2}+1$ se desplaza:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Transformaciones de gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "$2$ a la derecha y $1$ abajo",
+        "B": "$2$ a la derecha y $1$ arriba",
+        "C": "$2$ a la izquierda y $1$ arriba",
+        "D": "$2$ arriba y $1$ a la derecha"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "describir transformación compuesta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-5-01",
+      "pregunta": "Una función es par si:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Funciones pares e impares"
+      },
+      "respuestas_posibles": {
+        "A": "$f(-x)=f(x)$",
+        "B": "$f(-x)=-f(x)$",
+        "C": "$f(x)=0$",
+        "D": "$f(x)=f^{-1}(x)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "definir función par",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-5-02",
+      "pregunta": "Una función es impar si:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Funciones pares e impares"
+      },
+      "respuestas_posibles": {
+        "A": "$f(-x)=f(x)$",
+        "B": "$f(x)>0$",
+        "C": "$f(-x)=0$",
+        "D": "$f(-x)=-f(x)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "definir función impar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-5-03",
+      "pregunta": "¿Cuál función es par?",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Funciones pares e impares"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=x+1$",
+        "B": "$f(x)=x^3+x^2$",
+        "C": "$f(x)=x^2+4$",
+        "D": "$f(x)=x^3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "clasificar paridad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-5-04",
+      "pregunta": "¿Cuál función es impar?",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Funciones pares e impares"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=|x|$",
+        "B": "$f(x)=x^3-2x$",
+        "C": "$f(x)=x^2-2$",
+        "D": "$f(x)=x^3+1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar función impar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-5-05",
+      "pregunta": "La gráfica de una función par es simétrica respecto al:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Funciones pares e impares"
+      },
+      "respuestas_posibles": {
+        "A": "Eje $y$",
+        "B": "Eje $x$",
+        "C": "Origen",
+        "D": "Eje $y=x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "interpretar simetría par",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-5-06",
+      "pregunta": "La gráfica de una función impar es simétrica respecto al:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Funciones pares e impares"
+      },
+      "respuestas_posibles": {
+        "A": "Eje $y$",
+        "B": "Eje $x$",
+        "C": "Eje $y=x$",
+        "D": "Origen"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "interpretar simetría impar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-5-07",
+      "pregunta": "Determine la paridad de $f(x)=x^4+x^2$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Funciones pares e impares"
+      },
+      "respuestas_posibles": {
+        "A": "Ni par ni impar",
+        "B": "Constante",
+        "C": "Par",
+        "D": "Impar"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "verificar algebraicamente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-5-08",
+      "pregunta": "Determine la paridad de $f(x)=x^5+3x$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Funciones pares e impares"
+      },
+      "respuestas_posibles": {
+        "A": "Periódica",
+        "B": "Impar",
+        "C": "Par",
+        "D": "Ni par ni impar"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "verificar términos impares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-5-09",
+      "pregunta": "Determine la paridad de $f(x)=x^2+x$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Funciones pares e impares"
+      },
+      "respuestas_posibles": {
+        "A": "Ni par ni impar",
+        "B": "Par",
+        "C": "Impar",
+        "D": "Constante"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "detectar mezcla de paridades",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-5-10",
+      "pregunta": "Si $f$ es impar y su dominio contiene $0$, entonces:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Funciones pares e impares"
+      },
+      "respuestas_posibles": {
+        "A": "$f(0)=1$",
+        "B": "$f(0)$ no existe",
+        "C": "$f(0)$ puede ser cualquier valor",
+        "D": "$f(0)=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "deducir valor al origen",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-6-01",
+      "pregunta": "Los ceros de una función son los valores de $x$ para los que:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Ceros, signos e intersecciones"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=1$",
+        "B": "$x=0$ siempre",
+        "C": "$f(x)=0$",
+        "D": "$f(x)=x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "definir cero funcional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-6-02",
+      "pregunta": "Halle los ceros de $f(x)=x^2-4$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Ceros, signos e intersecciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2$ solamente",
+        "B": "$x=-2$ y $x=2$",
+        "C": "$x=4$",
+        "D": "$x=-4$ y $x=4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver ceros cuadráticos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-6-03",
+      "pregunta": "El intercepto con el eje $y$ de $f(x)=3x-7$ es:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Ceros, signos e intersecciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,-7)$",
+        "B": "$(7,0)$",
+        "C": "$(-7,0)$",
+        "D": "$(0,3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "hallar intercepto vertical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-6-04",
+      "pregunta": "El intercepto con el eje $x$ de $f(x)=2x+6$ es:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Ceros, signos e intersecciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,0)$",
+        "B": "$(0,6)$",
+        "C": "$(0,-3)$",
+        "D": "$(-3,0)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "hallar intercepto horizontal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-6-05",
+      "pregunta": "¿En qué intervalo es positiva $f(x)=(x-1)(x-4)$?",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Ceros, signos e intersecciones"
+      },
+      "respuestas_posibles": {
+        "A": "$[1,4]$",
+        "B": "$(-\\infty,4)$",
+        "C": "$(-\\infty,1)\\cup(4,\\infty)$",
+        "D": "$(1,4)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-6-06",
+      "pregunta": "¿En qué intervalo es negativa $f(x)=x^2-9$?",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Ceros, signos e intersecciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,9)$",
+        "B": "$(-3,3)$",
+        "C": "$(-\\infty,-3)\\cup(3,\\infty)$",
+        "D": "$[-3,3]$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar signo cuadrático",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-6-07",
+      "pregunta": "Los puntos donde $f(x)=g(x)$ corresponden gráficamente a:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Ceros, signos e intersecciones"
+      },
+      "respuestas_posibles": {
+        "A": "Las intersecciones de sus gráficas",
+        "B": "Los interceptos con $y$ solamente",
+        "C": "Las asíntotas verticales",
+        "D": "Los máximos de ambas funciones"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "interpretar igualdad funcional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-6-08",
+      "pregunta": "Resuelva la intersección de $f(x)=2x+1$ y $g(x)=x+4$.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Ceros, signos e intersecciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-3$",
+        "B": "$x=5$",
+        "C": "$x=1$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "igualar funciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-6-09",
+      "pregunta": "Si $f$ cambia de signo al pasar por un cero simple, la gráfica:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Ceros, signos e intersecciones"
+      },
+      "respuestas_posibles": {
+        "A": "Se vuelve constante",
+        "B": "Pierde su dominio",
+        "C": "Cruza el eje $x$",
+        "D": "Toca el eje $y$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "interpretar multiplicidad impar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-17-6-10",
+      "pregunta": "Para $f(x)=(x-2)^2$, en $x=2$ la gráfica:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "Álgebra de funciones",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Ceros, signos e intersecciones"
+      },
+      "respuestas_posibles": {
+        "A": "Tiene una asíntota",
+        "B": "Toca el eje $x$ sin cambiar de signo",
+        "C": "Cruza el eje $x$",
+        "D": "Corta el eje $y$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "interpretar raíz doble",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

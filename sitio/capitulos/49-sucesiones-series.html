@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>49. Sucesiones y series · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte X: Razonamiento matemático</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#sucesiones"><span class="num">49.1</span> Sucesiones</a></li><li class="nivel-2"><a href="#sucesiones-recursivas"><span class="num">49.2</span> Sucesiones recursivas</a></li><li class="nivel-2"><a href="#sucesiones-aritmeticas"><span class="num">49.3</span> Sucesiones aritméticas</a></li><li class="nivel-3"><a href="#termino-general"><span class="num">49.3.1</span> Término general</a></li><li class="nivel-3"><a href="#suma-de-los-primeros-terminos"><span class="num">49.3.2</span> Suma de los primeros términos</a></li><li class="nivel-2"><a href="#sucesiones-geometricas"><span class="num">49.4</span> Sucesiones geométricas</a></li><li class="nivel-3"><a href="#termino-general-2"><span class="num">49.4.1</span> Término general</a></li><li class="nivel-3"><a href="#suma-de-los-primeros-terminos-2"><span class="num">49.4.2</span> Suma de los primeros términos</a></li><li class="nivel-2"><a href="#aritmetica-o-geometrica"><span class="num">49.5</span> Aritmética o geométrica</a></li><li class="nivel-2"><a href="#series-finitas"><span class="num">49.6</span> Series finitas</a></li><li class="nivel-2"><a href="#series-geometricas-infinitas"><span class="num">49.7</span> Series geométricas infinitas</a></li><li class="nivel-2"><a href="#sumas-parciales"><span class="num">49.8</span> Sumas parciales</a></li><li class="nivel-2"><a href="#notacion-sigma"><span class="num">49.9</span> Notación sigma</a></li><li class="nivel-2"><a href="#propiedades-de-las-sumatorias"><span class="num">49.10</span> Propiedades de las sumatorias</a></li><li class="nivel-2"><a href="#aplicaciones-de-las-sucesiones"><span class="num">49.11</span> Aplicaciones de las sucesiones</a></li><li class="nivel-3"><a href="#crecimiento-lineal"><span class="num">49.11.1</span> Crecimiento lineal</a></li><li class="nivel-3"><a href="#crecimiento-geometrico"><span class="num">49.11.2</span> Crecimiento geométrico</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">49.12</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#para-identificar-el-tipo-de-sucesion">Para identificar el tipo de sucesión</a></li><li class="nivel-3"><a href="#sucesion-aritmetica">Sucesión aritmética</a></li><li class="nivel-3"><a href="#sucesion-geometrica">Sucesión geométrica</a></li><li class="nivel-3"><a href="#serie-geometrica-infinita">Serie geométrica infinita</a></li><li class="nivel-2"><a href="#resumen"><span class="num">49.13</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">49.14</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">49.15</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 49</p><h1>Sucesiones y series</h1></header>
+<p><span id="cap-sucesiones-series" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Una sucesión es una lista ordenada de números que sigue una regla.</p>
+<p>Una serie es la suma de los términos de una sucesión.</p>
+<p>En este capítulo aprenderás a:</p>
+<ul><li>encontrar términos de una sucesión;</li><li>reconocer sucesiones aritméticas y geométricas;</li><li>calcular sumas finitas;</li><li>determinar si una serie geométrica infinita converge;</li><li>utilizar la notación sigma.</li></ul>
+<h2 id="sucesiones"><span class="num">49.1</span> Sucesiones<a class="enlace-seccion" href="#sucesiones" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>sucesión</strong> es una lista ordenada de números:</p>
+<div class="mate"><span class="mate-bloque">\[a_1,\ a_2,\ a_3,\ \ldots,\ a_n,\ \ldots\]</span></div>
+<p>El número \(a_n\) se llama <strong>término general</strong> o <strong>término en la posición \(n\)</strong>.</p></div></section>
+<p>Una sucesión puede definirse mediante una fórmula explícita:</p>
+<div class="mate"><span class="mate-bloque">\[a_n=f(n),\]</span></div>
+<p>donde:</p>
+<div class="mate"><span class="mate-bloque">\[n=1,2,3,\ldots\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-49-1"><div class="caja-titulo">Ejemplo 49.1</div><div class="caja-cuerpo"><p>Escribe los primeros cinco términos de:</p>
+<div class="mate"><span class="mate-bloque">\[a_n=2n+1.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[n=1,2,3,4,5.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_1=2(1)+1=3,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_2=2(2)+1=5,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_3=2(3)+1=7,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_4=2(4)+1=9,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_5=2(5)+1=11.\]</span></div>
+<p>Por tanto, la sucesión es:</p>
+<div class="mate"><span class="mate-bloque">\[3,\ 5,\ 7,\ 9,\ 11,\ldots\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-49-2"><div class="caja-titulo">Ejemplo 49.2</div><div class="caja-cuerpo"><p>Encuentra una fórmula para la sucesión:</p>
+<div class="mate"><span class="mate-bloque">\[4,\ 7,\ 10,\ 13,\ 16,\ldots\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Cada término aumenta en:</p>
+<div class="mate"><span class="mate-bloque">\[3.\]</span></div>
+<p>La sucesión puede escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[a_n=3n+1.\]</span></div>
+<p>Verificamos:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=3(1)+1=4,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_2=3(2)+1=7.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[a_n=3n+1.\]</span></div></div></details></div></section>
+<h2 id="sucesiones-recursivas"><span class="num">49.2</span> Sucesiones recursivas<a class="enlace-seccion" href="#sucesiones-recursivas" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una sucesión también puede definirse a partir de sus términos anteriores.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_n=a_{n-1}+3, \qquad n\geq2.\]</span></div>
+<p>Esta regla produce:</p>
+<div class="mate"><span class="mate-bloque">\[2,\ 5,\ 8,\ 11,\ldots\]</span></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Una fórmula explícita permite calcular directamente cualquier término.</p>
+<p>Una fórmula recursiva requiere conocer uno o más términos anteriores.</p></div></section>
+<h2 id="sucesiones-aritmeticas"><span class="num">49.3</span> Sucesiones aritméticas<a class="enlace-seccion" href="#sucesiones-aritmeticas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una sucesión es <strong>aritmética</strong> si la diferencia entre términos consecutivos es constante.</p>
+<p>Esta constante se llama <strong>diferencia común</strong> y se representa mediante:</p>
+<div class="mate"><span class="mate-bloque">\[d.\]</span></div></div></section>
+<p>La diferencia común se calcula con:</p>
+<div class="mate"><span class="mate-bloque">\[d=a_{n+1}-a_n.\]</span></div>
+<p>Por ejemplo, en:</p>
+<div class="mate"><span class="mate-bloque">\[5,\ 8,\ 11,\ 14,\ldots\]</span></div>
+<p>se cumple:</p>
+<div class="mate"><span class="mate-bloque">\[8-5=3,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[11-8=3,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[14-11=3.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[d=3.\]</span></div>
+<h3 id="termino-general"><span class="num">49.3.1</span> Término general<a class="enlace-seccion" href="#termino-general" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si el primer término es \(a_1\) y la diferencia común es \(d\), entonces:</p>
+<div class="mate"><span class="mate-bloque">\[a_n = a_1+(n-1)d.\]</span></div>
+<h3 id="suma-de-los-primeros-terminos"><span class="num">49.3.2</span> Suma de los primeros términos<a class="enlace-seccion" href="#suma-de-los-primeros-terminos" aria-label="Enlace a esta sección">#</a></h3>
+<p>La suma de los primeros \(n\) términos es:</p>
+<div class="mate"><span class="mate-bloque">\[S_n = \frac{n}{2}(a_1+a_n).\]</span></div>
+<p>También puede utilizarse:</p>
+<div class="mate"><span class="mate-bloque">\[S_n = \frac{n}{2} \left[ 2a_1+(n-1)d \right].\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-49-3"><div class="caja-titulo">Ejemplo 49.3</div><div class="caja-cuerpo"><p>En la sucesión:</p>
+<div class="mate"><span class="mate-bloque">\[5,\ 8,\ 11,\ 14,\ldots\]</span></div>
+<p>calcula:</p>
+<div class="mate"><span class="mate-bloque">\[a_{20}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[S_{20}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=5, \qquad d=3.\]</span></div>
+<p>Calculamos el término número \(20\):</p>
+<div class="mate"><span class="mate-bloque">\[a_{20} = 5+(20-1)(3).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_{20} = 5+57.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[a_{20}=62.\]</span></div>
+<p>Ahora calculamos la suma:</p>
+<div class="mate"><span class="mate-bloque">\[S_{20} = \frac{20}{2}(5+62).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[S_{20} = 10(67).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[S_{20}=670.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-49-4"><div class="caja-titulo">Ejemplo 49.4</div><div class="caja-cuerpo"><p>La suma de los primeros \(10\) términos de una sucesión aritmética es:</p>
+<div class="mate"><span class="mate-bloque">\[S_{10}=155.\]</span></div>
+<p>Además:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=2.\]</span></div>
+<p>Encuentra la diferencia común.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[S_n = \frac{n}{2} \left[ 2a_1+(n-1)d \right].\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[155 = \frac{10}{2} \left[ 2(2)+9d \right].\]</span></div>
+<div class="mate"><span class="mate-bloque">\[155 = 5(4+9d).\]</span></div>
+<p>Dividimos entre \(5\):</p>
+<div class="mate"><span class="mate-bloque">\[31=4+9d.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[27=9d.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[d=3.\]</span></div></div></details></div></section>
+<h2 id="sucesiones-geometricas"><span class="num">49.4</span> Sucesiones geométricas<a class="enlace-seccion" href="#sucesiones-geometricas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una sucesión es <strong>geométrica</strong> si el cociente entre términos consecutivos es constante.</p>
+<p>Esta constante se llama <strong>razón común</strong> y se representa mediante:</p>
+<div class="mate"><span class="mate-bloque">\[r.\]</span></div></div></section>
+<p>La razón se calcula con:</p>
+<div class="mate"><span class="mate-bloque">\[r = \frac{a_{n+1}}{a_n},\]</span></div>
+<p>siempre que:</p>
+<div class="mate"><span class="mate-bloque">\[a_n\neq0.\]</span></div>
+<p>Por ejemplo, en:</p>
+<div class="mate"><span class="mate-bloque">\[3,\ 6,\ 12,\ 24,\ldots\]</span></div>
+<p>se cumple:</p>
+<div class="mate"><span class="mate-bloque">\[\frac63=2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\frac{12}{6}=2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\frac{24}{12}=2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[r=2.\]</span></div>
+<h3 id="termino-general-2"><span class="num">49.4.1</span> Término general<a class="enlace-seccion" href="#termino-general-2" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si el primer término es \(a_1\) y la razón común es \(r\), entonces:</p>
+<div class="mate"><span class="mate-bloque">\[a_n = a_1r^{n-1}.\]</span></div>
+<h3 id="suma-de-los-primeros-terminos-2"><span class="num">49.4.2</span> Suma de los primeros términos<a class="enlace-seccion" href="#suma-de-los-primeros-terminos-2" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[r\neq1,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[S_n = a_1 \frac{1-r^n}{1-r}.\]</span></div>
+<p>Equivalentemente:</p>
+<div class="mate"><span class="mate-bloque">\[S_n = a_1 \frac{r^n-1}{r-1}.\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[r=1,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[S_n=na_1.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-49-5"><div class="caja-titulo">Ejemplo 49.5</div><div class="caja-cuerpo"><p>En la sucesión:</p>
+<div class="mate"><span class="mate-bloque">\[3,\ 6,\ 12,\ 24,\ldots\]</span></div>
+<p>calcula:</p>
+<div class="mate"><span class="mate-bloque">\[a_8\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[S_8.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=3, \qquad r=2.\]</span></div>
+<p>Calculamos el término número \(8\):</p>
+<div class="mate"><span class="mate-bloque">\[a_8 = 3(2)^{8-1}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_8 = 3(2^7).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_8 = 3(128).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[a_8=384.\]</span></div>
+<p>Ahora calculamos la suma:</p>
+<div class="mate"><span class="mate-bloque">\[S_8 = 3 \frac{2^8-1}{2-1}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[S_8 = 3(256-1).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[S_8=765.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-49-6"><div class="caja-titulo">Ejemplo 49.6</div><div class="caja-cuerpo"><p>En una sucesión geométrica:</p>
+<div class="mate"><span class="mate-bloque">\[a_3=12\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[a_6=96.\]</span></div>
+<p>Encuentra \(a_1\) y \(r\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[a_n=a_1r^{n-1}.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[a_3=a_1r^2=12\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[a_6=a_1r^5=96.\]</span></div>
+<p>Dividimos las ecuaciones:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a_1r^5}{a_1r^2} = \frac{96}{12}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[r^3=8.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[r=2.\]</span></div>
+<p>Sustituimos en:</p>
+<div class="mate"><span class="mate-bloque">\[a_1r^2=12.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_1(2^2)=12.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[4a_1=12.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=3.\]</span></div></div></details></div></section>
+<h2 id="aritmetica-o-geometrica"><span class="num">49.5</span> Aritmética o geométrica<a class="enlace-seccion" href="#aritmetica-o-geometrica" aria-label="Enlace a esta sección">#</a></h2>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Característica</strong></th><th style="text-align:left"><strong>Aritmética</strong></th><th style="text-align:left"><strong>Geométrica</strong></th></tr></thead><tbody><tr><td style="text-align:left">Operación repetida</td><td style="text-align:left">Sumar \(d\)</td><td style="text-align:left">Multiplicar por \(r\)</td></tr><tr><td style="text-align:left">Relación</td><td style="text-align:left">\(a_{n+1}-a_n=d\)</td><td style="text-align:left">\(\dfrac{a_{n+1}}{a_n}=r\)</td></tr><tr><td style="text-align:left">Término general</td><td style="text-align:left">\(a_1+(n-1)d\)</td><td style="text-align:left">\(a_1r^{n-1}\)</td></tr><tr><td style="text-align:left">Cambio</td><td style="text-align:left">Lineal</td><td style="text-align:left">Exponencial</td></tr></tbody></table></div></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-53b9c197ac3e.svg" alt="Figura 49.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En una sucesión aritmética se busca una diferencia constante.</p>
+<p>En una sucesión geométrica se busca una razón constante.</p></div></section>
+<h2 id="series-finitas"><span class="num">49.6</span> Series finitas<a class="enlace-seccion" href="#series-finitas" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una serie es la suma de los términos de una sucesión.</p>
+<p>Por ejemplo, si:</p>
+<div class="mate"><span class="mate-bloque">\[a_n=2n,\]</span></div>
+<p>la suma de los primeros cuatro términos es:</p>
+<div class="mate"><span class="mate-bloque">\[S_4 = 2+4+6+8.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[S_4=20.\]</span></div>
+<p>Se utiliza la notación:</p>
+<div class="mate"><span class="mate-bloque">\[S_n = a_1+a_2+\cdots+a_n.\]</span></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Una sucesión es una lista de términos.</p>
+<p>Una serie es la suma de esos términos.</p></div></section>
+<h2 id="series-geometricas-infinitas"><span class="num">49.7</span> Series geométricas infinitas<a class="enlace-seccion" href="#series-geometricas-infinitas" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una serie infinita tiene la forma:</p>
+<div class="mate"><span class="mate-bloque">\[a_1+a_2+a_3+\cdots\]</span></div>
+<p>o:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{n=1}^{\infty}a_n.\]</span></div>
+<p>Una serie <strong>converge</strong> si sus sumas parciales se aproximan a un número finito.</p>
+<p>Si no se aproximan a un número finito, la serie <strong>diverge</strong>.</p>
+<p>Para una serie geométrica:</p>
+<div class="mate"><span class="mate-bloque">\[a_1+a_1r+a_1r^2+a_1r^3+\cdots,\]</span></div>
+<p>se cumple:</p>
+<div class="mate"><span class="mate-bloque">\[S = \frac{a_1}{1-r}\]</span></div>
+<p>si:</p>
+<div class="mate"><span class="mate-bloque">\[|r|&lt;1.\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[|r|\geq1,\]</span></div>
+<p>la serie geométrica diverge.</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Condición</strong></th><th style="text-align:left"><strong>Comportamiento</strong></th></tr></thead><tbody><tr><td style="text-align:left">\(|r|&lt;1\)</td><td style="text-align:left">La serie converge</td></tr><tr><td style="text-align:left">\(|r|\geq1\)</td><td style="text-align:left">La serie diverge</td></tr></tbody></table></div></div>
+<section class="caja caja-ejemplo" id="ejemplo-49-7"><div class="caja-titulo">Ejemplo 49.7</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[1 + \frac12 + \frac14 + \frac18 + \cdots\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Es una serie geométrica con:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=1\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[r=\frac12.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[\left|\frac12\right|&lt;1,\]</span></div>
+<p>la serie converge.</p>
+<p>Aplicamos:</p>
+<div class="mate"><span class="mate-bloque">\[S = \frac{a_1}{1-r}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[S = \frac{1}{1-\frac12}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[S=2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-49-8"><div class="caja-titulo">Ejemplo 49.8</div><div class="caja-cuerpo"><p>Determina si converge:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{n=1}^{\infty} 3 \left( \frac23 \right)^{n-1}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=3\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[r=\frac23.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[\left|\frac23\right|&lt;1,\]</span></div>
+<p>la serie converge.</p>
+<p>Calculamos:</p>
+<div class="mate"><span class="mate-bloque">\[S = \frac{3}{1-\frac23}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[S = \frac{3}{\frac13}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[S=9.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-49-9"><div class="caja-titulo">Ejemplo 49.9</div><div class="caja-cuerpo"><p>Determina si converge:</p>
+<div class="mate"><span class="mate-bloque">\[2+6+18+54+\cdots\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La razón es:</p>
+<div class="mate"><span class="mate-bloque">\[r=3.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[|3|\geq1,\]</span></div>
+<p>la serie diverge.</p></div></details></div></section>
+<h2 id="sumas-parciales"><span class="num">49.8</span> Sumas parciales<a class="enlace-seccion" href="#sumas-parciales" aria-label="Enlace a esta sección">#</a></h2>
+<p>La suma parcial número \(n\) es:</p>
+<div class="mate"><span class="mate-bloque">\[S_n = a_1+a_2+\cdots+a_n.\]</span></div>
+<p>Una serie infinita converge a \(S\) si:</p>
+<div class="mate"><span class="mate-bloque">\[S_n\longrightarrow S\]</span></div>
+<p>cuando:</p>
+<div class="mate"><span class="mate-bloque">\[n\longrightarrow\infty.\]</span></div>
+<p>Para la serie:</p>
+<div class="mate"><span class="mate-bloque">\[1+\frac12+\frac14+\frac18+\cdots,\]</span></div>
+<p>las primeras sumas parciales son:</p>
+<div class="mate"><span class="mate-bloque">\[S_1=1,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[S_2=\frac32,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[S_3=\frac74,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[S_4=\frac{15}{8}.\]</span></div>
+<p>Estos valores se aproximan a:</p>
+<div class="mate"><span class="mate-bloque">\[2.\]</span></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-6df891815e34.svg" alt="Figura 49.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="notacion-sigma"><span class="num">49.9</span> Notación sigma<a class="enlace-seccion" href="#notacion-sigma" aria-label="Enlace a esta sección">#</a></h2>
+<p>La letra griega sigma mayúscula:</p>
+<div class="mate"><span class="mate-bloque">\[\sum\]</span></div>
+<p>se utiliza para representar sumas.</p>
+<p>La expresión:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{n}a_k\]</span></div>
+<p>significa:</p>
+<div class="mate"><span class="mate-bloque">\[a_1+a_2+a_3+\cdots+a_n.\]</span></div>
+<p>En:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{n}a_k,\]</span></div>
+<p>se tiene:</p>
+<ul><li>\(k\): índice de la suma;</li><li>\(1\): valor inicial;</li><li>\(n\): valor final;</li><li>\(a_k\): término que se suma.</li></ul>
+<section class="caja caja-ejemplo" id="ejemplo-49-10"><div class="caja-titulo">Ejemplo 49.10</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{4}(2k+1).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[k=1,2,3,4.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{4}(2k+1) = 3+5+7+9.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{4}(2k+1) = 24.\]</span></div></div></details></div></section>
+<h2 id="propiedades-de-las-sumatorias"><span class="num">49.10</span> Propiedades de las sumatorias<a class="enlace-seccion" href="#propiedades-de-las-sumatorias" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si \(c\) es una constante:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{n}c = cn.\]</span></div>
+<p>Además:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{n} ca_k = c \sum_{k=1}^{n}a_k.\]</span></div>
+<p>Para sumas y restas:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{n} (a_k\pm b_k) = \sum_{k=1}^{n}a_k \pm \sum_{k=1}^{n}b_k.\]</span></div>
+<p>Las fórmulas básicas son:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{n}1 = n,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{n}k = \frac{n(n+1)}{2},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{n}k^2 = \frac{n(n+1)(2n+1)}{6}.\]</span></div>
+<p>También:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{n}k^3 = \left[ \frac{n(n+1)}{2} \right]^2.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-49-11"><div class="caja-titulo">Ejemplo 49.11</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{10}(2k+1).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Separamos la suma:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{10}(2k+1) = 2\sum_{k=1}^{10}k + \sum_{k=1}^{10}1.\]</span></div>
+<p>Aplicamos las fórmulas:</p>
+<div class="mate"><span class="mate-bloque">\[= 2 \left( \frac{10(11)}{2} \right) + 10.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 110+10.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{10}(2k+1) = 120.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-49-12"><div class="caja-titulo">Ejemplo 49.12</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{5}(k^2+2k).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Separamos:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{5}(k^2+2k) = \sum_{k=1}^{5}k^2 + 2\sum_{k=1}^{5}k.\]</span></div>
+<p>Aplicamos las fórmulas:</p>
+<div class="mate"><span class="mate-bloque">\[= \frac{5(6)(11)}{6} + 2 \left( \frac{5(6)}{2} \right).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 55+30.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{5}(k^2+2k) = 85.\]</span></div></div></details></div></section>
+<h2 id="aplicaciones-de-las-sucesiones"><span class="num">49.11</span> Aplicaciones de las sucesiones<a class="enlace-seccion" href="#aplicaciones-de-las-sucesiones" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="crecimiento-lineal"><span class="num">49.11.1</span> Crecimiento lineal<a class="enlace-seccion" href="#crecimiento-lineal" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si una cantidad aumenta siempre en la misma cantidad, puede modelarse mediante una sucesión aritmética.</p>
+<section class="caja caja-ejemplo" id="ejemplo-49-13"><div class="caja-titulo">Ejemplo 49.13</div><div class="caja-cuerpo"><p>Una persona ahorra:</p>
+<div class="mate"><span class="mate-bloque">\[\$200\]</span></div>
+<p>el primer mes y aumenta su ahorro mensual en:</p>
+<div class="mate"><span class="mate-bloque">\[\$50\]</span></div>
+<p>cada mes.</p>
+<p>¿Cuánto ahorra durante el mes número \(12\)?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Es una sucesión aritmética con:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=200\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[d=50.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[a_{12} = 200+(12-1)(50).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[a_{12} = 200+550.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[a_{12}=750.\]</span></div></div></details></div></section>
+<h3 id="crecimiento-geometrico"><span class="num">49.11.2</span> Crecimiento geométrico<a class="enlace-seccion" href="#crecimiento-geometrico" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si una cantidad se multiplica siempre por el mismo factor, puede modelarse mediante una sucesión geométrica.</p>
+<section class="caja caja-ejemplo" id="ejemplo-49-14"><div class="caja-titulo">Ejemplo 49.14</div><div class="caja-cuerpo"><p>Una población inicial de bacterias es:</p>
+<div class="mate"><span class="mate-bloque">\[500.\]</span></div>
+<p>La población se duplica cada hora.</p>
+<p>¿Cuántas bacterias habrá después de \(6\) horas?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Si el valor inicial corresponde a la hora \(0\), entonces:</p>
+<div class="mate"><span class="mate-bloque">\[P_n = 500(2)^n.\]</span></div>
+<p>Después de \(6\) horas:</p>
+<div class="mate"><span class="mate-bloque">\[P_6 = 500(2)^6.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[P_6 = 500(64).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P_6=32{,}000.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En problemas de crecimiento debe identificarse con cuidado si el valor inicial corresponde a:</p>
+<div class="mate"><span class="mate-bloque">\[n=0\]</span></div>
+<p>o a:</p>
+<div class="mate"><span class="mate-bloque">\[n=1.\]</span></div>
+<p>Esto modifica el exponente.</p></div></section>
+<h2 id="procedimiento-rapido"><span class="num">49.12</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="para-identificar-el-tipo-de-sucesion">Para identificar el tipo de sucesión<a class="enlace-seccion" href="#para-identificar-el-tipo-de-sucesion" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Calcula las diferencias entre términos consecutivos.</li><li>Si las diferencias son constantes, la sucesión es aritmética.</li><li>Si no lo son, calcula los cocientes.</li><li>Si los cocientes son constantes, la sucesión es geométrica.</li></ol>
+<h3 id="sucesion-aritmetica">Sucesión aritmética<a class="enlace-seccion" href="#sucesion-aritmetica" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica: <span class="mate-bloque">\[a_1,\quad d,\quad n.\]</span></li><li>Calcula: <span class="mate-bloque">\[a_n=a_1+(n-1)d.\]</span></li><li>Si se solicita la suma, utiliza: <span class="mate-bloque">\[S_n=\frac{n}{2}(a_1+a_n).\]</span></li></ol>
+<h3 id="sucesion-geometrica">Sucesión geométrica<a class="enlace-seccion" href="#sucesion-geometrica" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica: <span class="mate-bloque">\[a_1,\quad r,\quad n.\]</span></li><li>Calcula: <span class="mate-bloque">\[a_n=a_1r^{n-1}.\]</span></li><li>Si se solicita la suma, utiliza: <span class="mate-bloque">\[S_n = a_1\frac{1-r^n}{1-r}.\]</span></li></ol>
+<h3 id="serie-geometrica-infinita">Serie geométrica infinita<a class="enlace-seccion" href="#serie-geometrica-infinita" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica: <span class="mate-bloque">\[a_1 \qquad\text{y}\qquad r.\]</span></li><li>Verifica si: <span class="mate-bloque">\[|r|&lt;1.\]</span></li><li>Si converge, calcula: <span class="mate-bloque">\[S=\frac{a_1}{1-r}.\]</span></li></ol>
+<h2 id="resumen"><span class="num">49.13</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Sucesión aritmética:</p>
+<div class="mate"><span class="mate-bloque">\[a_n = a_1+(n-1)d.\]</span></div>
+<p>Suma aritmética:</p>
+<div class="mate"><span class="mate-bloque">\[S_n = \frac{n}{2}(a_1+a_n).\]</span></div>
+<p>Sucesión geométrica:</p>
+<div class="mate"><span class="mate-bloque">\[a_n = a_1r^{n-1}.\]</span></div>
+<p>Suma geométrica finita:</p>
+<div class="mate"><span class="mate-bloque">\[S_n = a_1 \frac{1-r^n}{1-r}, \qquad r\neq1.\]</span></div>
+<p>Suma geométrica infinita:</p>
+<div class="mate"><span class="mate-bloque">\[S = \frac{a_1}{1-r}, \qquad |r|&lt;1.\]</span></div>
+<p>Sumas básicas:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{n}k = \frac{n(n+1)}{2},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{n}k^2 = \frac{n(n+1)(2n+1)}{6}.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">49.14</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>Una sucesión es una lista y una serie es una suma.</li><li>En una sucesión aritmética se calcula una diferencia.</li><li>En una sucesión geométrica se calcula un cociente.</li><li>El término general utiliza: <span class="mate-bloque">\[n-1,\]</span> no solamente \(n\).</li><li>La diferencia común puede ser negativa.</li><li>La razón común puede ser negativa o fraccionaria.</li><li>Las dos fórmulas de la suma geométrica son equivalentes, pero no deben mezclarse sus signos.</li><li>Una serie geométrica infinita solo converge cuando: <span class="mate-bloque">\[|r|&lt;1.\]</span></li><li>Si: <span class="mate-bloque">\[|r|\geq1,\]</span> no puede utilizarse la fórmula de suma infinita.</li><li>En la notación sigma deben revisarse los límites inferior y superior.</li><li>En problemas aplicados debe identificarse si el conteo comienza en \(n=0\) o en \(n=1\).</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">49.15</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-49-1"><div class="caja-titulo">Ejercicio 49.1</div><div class="caja-cuerpo"><p>Escribe los primeros cinco términos de:</p>
+<div class="mate"><span class="mate-bloque">\[a_n=3n-2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituyendo \(n=1, 2, 3, 4, 5\) en \(a_n=3n-2\): <span class="mate-bloque">\[a_1 = 1,\quad a_2 = 4,\quad a_3 = 7,\quad a_4 = 10,\quad a_5 = 13.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-2"><div class="caja-titulo">Ejercicio 49.2</div><div class="caja-cuerpo"><p>Encuentra el término general de:</p>
+<div class="mate"><span class="mate-bloque">\[6,\ 11,\ 16,\ 21,\ 26,\ldots\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La diferencia común es \(d = 5\) y \(a_1 = 6\), entonces <span class="mate-bloque">\[a_n = 6 + (n - 1)(5) = 5n + 1.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-3"><div class="caja-titulo">Ejercicio 49.3</div><div class="caja-cuerpo"><p>Determina si la sucesión es aritmética o geométrica:</p>
+<div class="mate"><span class="mate-bloque">\[2,\ 6,\ 18,\ 54,\ldots\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El cociente entre términos consecutivos es constante (\(6/2 = 3\), \(18/6=3\)). Por lo tanto, la sucesión es <strong>geométrica</strong> con razón \(r=3\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-4"><div class="caja-titulo">Ejercicio 49.4</div><div class="caja-cuerpo"><p>En una sucesión aritmética:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=4\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[d=5.\]</span></div>
+<p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[a_{15}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[S_{15}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[a_{15} = 4 + (15 - 1)(5) = 4 + 70 = 74.\]</span> <span class="mate-bloque">\[S_{15} = \frac{15}{2}(4 + 74) = \frac{15 \cdot 78}{2} = 585.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-5"><div class="caja-titulo">Ejercicio 49.5</div><div class="caja-cuerpo"><p>En una sucesión aritmética:</p>
+<div class="mate"><span class="mate-bloque">\[S_8=100\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=2.\]</span></div>
+<p>Encuentra la diferencia común.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Con \(S_8 = 100\), \(a_1 = 2\) y \(n = 8\): <span class="mate-bloque">\[100 = \frac{8}{2}\left[ 2(2) + 7d \right] = 4(4 + 7d).\]</span> <span class="mate-bloque">\[25 = 4 + 7d \implies 7d = 21 \implies d = 3.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-6"><div class="caja-titulo">Ejercicio 49.6</div><div class="caja-cuerpo"><p>En una sucesión geométrica:</p>
+<div class="mate"><span class="mate-bloque">\[a_1=5\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[r=3.\]</span></div>
+<p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[a_6\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[S_6.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[a_6 = 5 \cdot 3^{5} = 5 \cdot 243 = 1215.\]</span> <span class="mate-bloque">\[S_6 = 5 \cdot \frac{3^6 - 1}{3 - 1} = 5 \cdot \frac{728}{2} = 5 \cdot 364 = 1820.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-7"><div class="caja-titulo">Ejercicio 49.7</div><div class="caja-cuerpo"><p>El segundo término de una sucesión geométrica es:</p>
+<div class="mate"><span class="mate-bloque">\[6\]</span></div>
+<p>y el quinto término es:</p>
+<div class="mate"><span class="mate-bloque">\[162.\]</span></div>
+<p>Encuentra \(a_1\) y \(r\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(a_2 = a_1 r = 6\) y \(a_5 = a_1 r^4 = 162\). Dividiendo: <span class="mate-bloque">\[\frac{a_1 r^4}{a_1 r} = \frac{162}{6} \implies r^3 = 27 \implies r = 3.\]</span> De \(a_1 r = 6\): \(a_1 (3) = 6 \implies a_1 = 2\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-8"><div class="caja-titulo">Ejercicio 49.8</div><div class="caja-cuerpo"><p>Calcula la suma de la serie infinita:</p>
+<div class="mate"><span class="mate-bloque">\[4+2+1+\frac12+\cdots\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(a_1 = 4\) y \(r = \dfrac{1}{2}\). Como \(|r| &lt; 1\): <span class="mate-bloque">\[S = \frac{4}{1 - 1/2} = \frac{4}{1/2} = 8.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-9"><div class="caja-titulo">Ejercicio 49.9</div><div class="caja-cuerpo"><p>Determina si converge:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{n=1}^{\infty} 5(0.8)^{n-1}.\]</span></div>
+<p>Si converge, calcula su suma.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(a_1 = 5\) y \(r = 0.8\). Como \(|r| &lt; 1\), la serie <strong>converge</strong>: <span class="mate-bloque">\[S = \frac{5}{1 - 0.8} = \frac{5}{0.2} = 25.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-10"><div class="caja-titulo">Ejercicio 49.10</div><div class="caja-cuerpo"><p>Determina si converge:</p>
+<div class="mate"><span class="mate-bloque">\[3+6+12+24+\cdots\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La razón es \(r=2\). Como \(|r| \geq 1\), la serie <strong>diverge</strong>.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-11"><div class="caja-titulo">Ejercicio 49.11</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{20}k.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{20} k = \frac{20 \cdot 21}{2} = 210.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-12"><div class="caja-titulo">Ejercicio 49.12</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\sum_{k=1}^{5}(k^2+2k).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[\sum_{k=1}^{5} k^2 = \frac{5 \cdot 6 \cdot 11}{6} = 55, \qquad \sum_{k=1}^{5} 2k = 2 \cdot \frac{5 \cdot 6}{2} = 30.\]</span> <span class="mate-bloque">\[\sum_{k=1}^{5}(k^2 + 2k) = 55 + 30 = 85.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-13"><div class="caja-titulo">Ejercicio 49.13</div><div class="caja-cuerpo"><p>Una persona deposita \(\$500\) el primer mes y aumenta su depósito mensual en \(\$100\).</p>
+<p>Calcula el depósito del mes número \(10\) y el total depositado durante los primeros \(10\) meses.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Es una sucesión aritmética con \(a_1 = 500\) y \(d = 100\). <span class="mate-bloque">\[a_{10} = 500 + 9(100) = 1400.\]</span> <span class="mate-bloque">\[S_{10} = \frac{10}{2}(500 + 1400) = 5(1900) = 9500.\]</span> El depósito del mes 10 es <strong>$1,400</strong> y el total depositado es <strong>$9,500</strong>.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-49-14"><div class="caja-titulo">Ejercicio 49.14</div><div class="caja-cuerpo"><p>Una población inicial de \(200\) bacterias se triplica cada hora.</p>
+<p>Calcula la población después de \(5\) horas.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La población inicial es de 200 y se triplica cada hora (\(r=3\)). Después de 5 horas: <span class="mate-bloque">\[200 \cdot 3^5 = 200(243) = 48{,}600 \text{ bacterias}.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="48-tecnicas-conteo.html"><span>← Anterior</span>48. Técnicas de conteo y probabilidad avanzada</a><a class="nav-siguiente" href="50-razonamiento-espacial.html"><span>Siguiente →</span>50. Razonamiento espacial</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

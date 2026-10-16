@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>18. Funciones exponenciales y logarítmicas · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte III: Funciones</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#funcion-exponencial"><span class="num">18.1</span> Función exponencial</a></li><li class="nivel-2"><a href="#ecuaciones-exponenciales"><span class="num">18.2</span> Ecuaciones exponenciales</a></li><li class="nivel-2"><a href="#funcion-logaritmica"><span class="num">18.3</span> Función logarítmica</a></li><li class="nivel-2"><a href="#relacion-entre-las-funciones-exponencial-y-logaritmica"><span class="num">18.4</span> Relación entre las funciones exponencial y logarítmica</a></li><li class="nivel-2"><a href="#logaritmos-comunes-y-naturales"><span class="num">18.5</span> Logaritmos comunes y naturales</a></li><li class="nivel-2"><a href="#propiedades-de-los-logaritmos"><span class="num">18.6</span> Propiedades de los logaritmos</a></li><li class="nivel-2"><a href="#ecuaciones-logaritmicas"><span class="num">18.7</span> Ecuaciones logarítmicas</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">18.8</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 18</p><h1>Funciones exponenciales y logarítmicas</h1></header>
+<p><span id="cap-exponenciales-logaritmicas" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Las funciones exponenciales y logarítmicas permiten describir procesos en los que una cantidad cambia de manera multiplicativa. Aparecen en modelos de crecimiento poblacional, interés compuesto, decaimiento radiactivo y escalas logarítmicas. Ambas familias están estrechamente relacionadas, pues una función logarítmica es la inversa de una función exponencial con la misma base.</p>
+<p>En este capítulo estudiarás sus definiciones, propiedades, gráficas y aplicaciones en la resolución de ecuaciones.</p>
+<h2 id="funcion-exponencial"><span class="num">18.1</span> Función exponencial<a class="enlace-seccion" href="#funcion-exponencial" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>función exponencial</strong> tiene la forma:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=a^x,\]</span></div>
+<p>donde:</p>
+<div class="mate"><span class="mate-bloque">\[a&gt;0 \qquad\text{y}\qquad a\neq 1.\]</span></div>
+<p>La base \(a\) es una constante y la variable \(x\) aparece en el exponente.</p></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Las condiciones impuestas a la base permiten obtener una función exponencial real con las propiedades habituales.</p>
+<ul><li>Si \(a=1\), entonces: <span class="mate-bloque">\[f(x)=1^x=1,\]</span> por lo que se obtiene una función constante.</li><li>Si \(a=0\), la expresión \(0^x\) no está definida para todos los números reales.</li><li>Si \(a&lt;0\), la expresión \(a^x\) no produce valores reales para todos los exponentes reales.</li></ul></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de la función exponencial</div><div class="caja-cuerpo"><p>Sea:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=a^x, \qquad a&gt;0, \qquad a\neq 1.\]</span></div>
+<p>Entonces:</p>
+<ul><li>su dominio es: <span class="mate-bloque">\[D_f=\R;\]</span></li><li>su rango es: <span class="mate-bloque">\[R_f=(0,\infty);\]</span></li><li>sus valores siempre son positivos: <span class="mate-bloque">\[a^x&gt;0;\]</span></li><li>interseca el eje \(y\) en: <span class="mate-bloque">\[(0,1),\]</span> porque: <span class="mate-bloque">\[a^0=1;\]</span></li><li>no interseca el eje \(x\);</li><li>si \(a&gt;1\), la función es estrictamente creciente;</li><li>si \(0&lt;a&lt;1\), la función es estrictamente decreciente;</li><li>la recta: <span class="mate-bloque">\[y=0\]</span> es una asíntota horizontal.</li></ul></div></section>
+<p>Las funciones exponenciales crecientes y decrecientes pueden compararse mediante planos con la misma escala:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-b778b1a360ba.svg" alt="Figura 18.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Aunque las dos gráficas tienen comportamientos diferentes, ambas pasan por el punto:</p>
+<div class="mate"><span class="mate-bloque">\[(0,1)\]</span></div>
+<p>y se aproximan al eje \(x\) sin tocarlo. Esto explica por qué el rango de cualquier función exponencial es:</p>
+<div class="mate"><span class="mate-bloque">\[(0,\infty).\]</span></div></div></section>
+<h2 id="ecuaciones-exponenciales"><span class="num">18.2</span> Ecuaciones exponenciales<a class="enlace-seccion" href="#ecuaciones-exponenciales" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Igualdad de potencias con la misma base</div><div class="caja-cuerpo"><p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[a^u=a^v, \qquad a&gt;0, \qquad a\neq 1,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[u=v.\]</span></div>
+<p>Esta propiedad permite resolver ecuaciones exponenciales cuando ambos miembros pueden expresarse como potencias de la misma base.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-1"><div class="caja-titulo">Ejemplo 18.1</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[3^{x+1}=9.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Expresamos \(9\) como una potencia de base \(3\):</p>
+<div class="mate"><span class="mate-bloque">\[9=3^2.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[3^{x+1}=3^2.\]</span></div>
+<p>Igualamos los exponentes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x+1 &amp;=2,\\ x &amp;=1. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-2"><div class="caja-titulo">Ejemplo 18.2</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[2^{3x-1}=32.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[32=2^5,\]</span></div>
+<p>se tiene:</p>
+<div class="mate"><span class="mate-bloque">\[2^{3x-1}=2^5.\]</span></div>
+<p>Igualamos los exponentes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x-1 &amp;=5,\\ 3x &amp;=6,\\ x &amp;=2. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-3"><div class="caja-titulo">Ejemplo 18.3</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[5^{2y+1} = \frac{1}{25}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Expresamos el segundo miembro como una potencia de base \(5\):</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{25} = \frac{1}{5^2} = 5^{-2}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[5^{2y+1} = 5^{-2}.\]</span></div>
+<p>Igualamos los exponentes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2y+1 &amp;=-2,\\ 2y &amp;=-3,\\ y &amp;=-\frac{3}{2}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Cuando ambos miembros de una ecuación exponencial pueden escribirse con la misma base, se igualan los exponentes.</p>
+<p>Si no es posible obtener una base común de manera conveniente, se aplican logaritmos en ambos miembros.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-4"><div class="caja-titulo">Ejemplo 18.4</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[2^x=7.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>No es posible expresar \(7\) como una potencia entera de base \(2\). Aplicamos logaritmo en ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[\log(2^x) = \log 7.\]</span></div>
+<p>Utilizamos la propiedad de la potencia:</p>
+<div class="mate"><span class="mate-bloque">\[x\log 2 = \log 7.\]</span></div>
+<p>Despejamos:</p>
+<div class="mate"><span class="mate-bloque">\[x = \frac{\log 7}{\log 2}.\]</span></div>
+<p>Este valor también puede escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[x=\log_2 7.\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[x\approx 2.807.\]</span></div></div></details></div></section>
+<h2 id="funcion-logaritmica"><span class="num">18.3</span> Función logarítmica<a class="enlace-seccion" href="#funcion-logaritmica" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>función logarítmica de base \(a\)</strong> es la función inversa de la función exponencial de la misma base.</p>
+<p>Se define mediante la equivalencia:</p>
+<div class="mate"><span class="mate-bloque">\[y=\log_a x \quad\Longleftrightarrow\quad a^y=x,\]</span></div>
+<p>donde:</p>
+<div class="mate"><span class="mate-bloque">\[a&gt;0, \qquad a\neq 1, \qquad x&gt;0.\]</span></div>
+<p>La expresión \(\log_a x\) representa el exponente al que debe elevarse la base \(a\) para obtener \(x\).</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de la función logarítmica</div><div class="caja-cuerpo"><p>Sea:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\log_a x, \qquad a&gt;0, \qquad a\neq 1.\]</span></div>
+<p>Entonces:</p>
+<ul><li>su dominio es: <span class="mate-bloque">\[D_f=(0,\infty);\]</span></li><li>su rango es: <span class="mate-bloque">\[R_f=\R;\]</span></li><li>interseca el eje \(x\) en: <span class="mate-bloque">\[(1,0),\]</span> porque: <span class="mate-bloque">\[\log_a 1=0;\]</span></li><li>no interseca el eje \(y\);</li><li>si \(a&gt;1\), es estrictamente creciente;</li><li>si \(0&lt;a&lt;1\), es estrictamente decreciente;</li><li>la recta: <span class="mate-bloque">\[x=0\]</span> es una asíntota vertical.</li></ul></div></section>
+<p>Las funciones logarítmicas creciente y decreciente pueden compararse mediante planos con la misma escala:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-d5d0d8d0e891.svg" alt="Figura 18.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="relacion-entre-las-funciones-exponencial-y-logaritmica"><span class="num">18.4</span> Relación entre las funciones exponencial y logarítmica<a class="enlace-seccion" href="#relacion-entre-las-funciones-exponencial-y-logaritmica" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Equivalencia entre ambas formas</div><div class="caja-cuerpo"><p>Las expresiones:</p>
+<div class="mate"><span class="mate-bloque">\[\log_a x=y\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[a^y=x\]</span></div>
+<p>son equivalentes, siempre que:</p>
+<div class="mate"><span class="mate-bloque">\[a&gt;0, \qquad a\neq 1, \qquad x&gt;0.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Funciones inversas</div><div class="caja-cuerpo"><p>Las funciones:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=a^x\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[f^{-1}(x)=\log_a x\]</span></div>
+<p>son inversas. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\log_a(a^x)=x\]</span></div>
+<p>para todo \(x\in\R\), y:</p>
+<div class="mate"><span class="mate-bloque">\[a^{\log_a x}=x\]</span></div>
+<p>para todo \(x&gt;0\).</p></div></section>
+<p>Como las funciones son inversas, sus gráficas son simétricas respecto de la recta:</p>
+<div class="mate"><span class="mate-bloque">\[y=x.\]</span></div>
+<p>Esta relación puede observarse en el siguiente plano:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-f2dcf11a2823.svg" alt="Figura 18.3" loading="lazy" decoding="async"></figure></div>
+<p>Los puntos correspondientes intercambian sus coordenadas. Por ejemplo, el punto</p>
+<div class="mate"><span class="mate-bloque">\[(1,2)\]</span></div>
+<p>pertenece a la gráfica de \(y=2^x\), mientras que el punto</p>
+<div class="mate"><span class="mate-bloque">\[(2,1)\]</span></div>
+<p>pertenece a la gráfica de \(y=\log_2x\). Ambos puntos son simétricos respecto de la recta \(y=x\)Los puntos correspondientes intercambian sus coordenadas. Por ejemplo, el punto</p>
+<div class="mate"><span class="mate-bloque">\[(1,2)\]</span></div>
+<p>pertenece a la gráfica de \(y=2^x\), mientras que el punto</p>
+<div class="mate"><span class="mate-bloque">\[(2,1)\]</span></div>
+<p>pertenece a la gráfica de \(y=\log_2x\). Ambos puntos son simétricos respecto de la recta \(y=x\).</p>
+<section class="caja caja-ejemplo" id="ejemplo-18-5"><div class="caja-titulo">Ejemplo 18.5</div><div class="caja-cuerpo"><p>Convierte a forma exponencial:</p>
+<div class="mate"><span class="mate-bloque">\[\log_3 x=2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La forma exponencial equivalente es:</p>
+<div class="mate"><span class="mate-bloque">\[3^2=x.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x=9.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-6"><div class="caja-titulo">Ejemplo 18.6</div><div class="caja-cuerpo"><p>Convierte a forma logarítmica:</p>
+<div class="mate"><span class="mate-bloque">\[3^4=81.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La base es \(3\), el resultado es \(81\) y el exponente es \(4\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\log_3 81=4.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-7"><div class="caja-titulo">Ejemplo 18.7</div><div class="caja-cuerpo"><p>Evalúa:</p>
+<div class="mate"><span class="mate-bloque">\[\log_2 8.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Buscamos el exponente al que debe elevarse \(2\) para obtener \(8\). Como:</p>
+<div class="mate"><span class="mate-bloque">\[2^3=8,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\log_2 8=3.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Para escribir:</p>
+<div class="mate"><span class="mate-bloque">\[\log_x y\]</span></div>
+<p>deben cumplirse las condiciones:</p>
+<div class="mate"><span class="mate-bloque">\[x&gt;0, \qquad x\neq 1, \qquad y&gt;0.\]</span></div>
+<p>Por esta razón, al transformar una expresión exponencial en logarítmica deben verificarse las condiciones de la base y del argumento.</p></div></section>
+<h2 id="logaritmos-comunes-y-naturales"><span class="num">18.5</span> Logaritmos comunes y naturales<a class="enlace-seccion" href="#logaritmos-comunes-y-naturales" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>logaritmo común</strong> o <strong>logaritmo decimal</strong> tiene base \(10\). Cuando la base no se escribe, se entiende:</p>
+<div class="mate"><span class="mate-bloque">\[\log x = \log_{10}x.\]</span></div></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>logaritmo natural</strong> tiene como base el número \(e\) y se denota mediante:</p>
+<div class="mate"><span class="mate-bloque">\[\ln x = \log_e x.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El número \(e\) es una constante irracional cuyo valor aproximado es:</p>
+<div class="mate"><span class="mate-bloque">\[e\approx 2.71828.\]</span></div>
+<p>La función exponencial natural:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=e^x\]</span></div>
+<p>y la función logaritmo natural:</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=\ln x\]</span></div>
+<p>son inversas.</p></div></section>
+<h2 id="propiedades-de-los-logaritmos"><span class="num">18.6</span> Propiedades de los logaritmos<a class="enlace-seccion" href="#propiedades-de-los-logaritmos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades fundamentales</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[A&gt;0, \qquad B&gt;0, \qquad a&gt;0, \qquad a\neq 1.\]</span></div>
+<p>Entonces:</p>
+<ul><li><strong>Logaritmo de un producto</strong> <span class="mate-bloque">\[\log_a(AB) = \log_a A+\log_a B.\]</span></li><li><strong>Logaritmo de un cociente</strong> <span class="mate-bloque">\[\log_a\left(\frac{A}{B}\right) = \log_a A-\log_a B.\]</span></li><li><strong>Logaritmo de una potencia</strong> <span class="mate-bloque">\[\log_a(A^n) = n\log_a A.\]</span></li><li><strong>Logaritmo de una raíz</strong> <span class="mate-bloque">\[\log_a\sqrt[n]{A} = \frac{1}{n}\log_a A, \qquad n\in\N.\]</span></li><li><strong>Logaritmo de la unidad</strong> <span class="mate-bloque">\[\log_a1=0.\]</span></li><li><strong>Logaritmo de la base</strong> <span class="mate-bloque">\[\log_a a=1.\]</span></li></ul></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Cambio de base</div><div class="caja-cuerpo"><p>Para cualquier base válida \(b\):</p>
+<div class="mate"><span class="mate-bloque">\[\log_a x = \frac{\log_b x}{\log_b a}.\]</span></div>
+<p>En particular:</p>
+<div class="mate"><span class="mate-bloque">\[\log_a x = \frac{\log x}{\log a}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\log_a x = \frac{\ln x}{\ln a}.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-8"><div class="caja-titulo">Ejemplo 18.8</div><div class="caja-cuerpo"><p>Expande:</p>
+<div class="mate"><span class="mate-bloque">\[\log_a(x^2y).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Suponiendo que \(x&gt;0\) y \(y&gt;0\), aplicamos la propiedad del producto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \log_a(x^2y) &amp;=\log_a(x^2)+\log_a y\\ &amp;=2\log_a x+\log_a y. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-9"><div class="caja-titulo">Ejemplo 18.9</div><div class="caja-cuerpo"><p>Expande:</p>
+<div class="mate"><span class="mate-bloque">\[\log\left(\frac{x^3}{y^2}\right).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Suponiendo que \(x&gt;0\) y \(y\neq 0\), la expresión interior es positiva cuando se cumplen las restricciones correspondientes. Aplicamos las propiedades:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \log\left(\frac{x^3}{y^2}\right) &amp;=\log(x^3)-\log(y^2)\\ &amp;=3\log x-2\log|y|. \end{aligned}\]</span></div>
+<p>Si además \(y&gt;0\), puede escribirse:</p>
+<div class="mate"><span class="mate-bloque">\[3\log x-2\log y.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-10"><div class="caja-titulo">Ejemplo 18.10</div><div class="caja-cuerpo"><p>Expande:</p>
+<div class="mate"><span class="mate-bloque">\[\log\sqrt{xy}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Suponiendo que \(x&gt;0\) y \(y&gt;0\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \log\sqrt{xy} &amp;=\log\left((xy)^{1/2}\right)\\ &amp;=\frac{1}{2}\log(xy)\\ &amp;=\frac{1}{2}(\log x+\log y). \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Los logaritmos no se distribuyen sobre sumas ni diferencias. En general:</p>
+<div class="mate"><span class="mate-bloque">\[\log_a(A+B) \neq \log_a A+\log_a B.\]</span></div>
+<p>De manera similar:</p>
+<div class="mate"><span class="mate-bloque">\[\log_a(A-B) \neq \log_a A-\log_a B.\]</span></div>
+<p>Las propiedades de suma y resta se aplican al logaritmo de un producto o de un cociente, no al logaritmo de una suma o diferencia.</p></div></section>
+<h2 id="ecuaciones-logaritmicas"><span class="num">18.7</span> Ecuaciones logarítmicas<a class="enlace-seccion" href="#ecuaciones-logaritmicas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Estrategia de resolución</div><div class="caja-cuerpo"><p>Para resolver una ecuación logarítmica:</p>
+<ol><li>se establecen las restricciones que hacen positivos todos los argumentos de los logaritmos;</li><li>se agrupan los logaritmos cuando sea necesario;</li><li>se aplican las propiedades para escribir un solo logaritmo;</li><li>se transforma la ecuación a su forma exponencial;</li><li>se resuelve la ecuación resultante;</li><li>se comprueba cada solución en la ecuación original.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-11"><div class="caja-titulo">Ejemplo 18.11</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[\log_2(x+1)=3.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primero establecemos la restricción:</p>
+<div class="mate"><span class="mate-bloque">\[x+1&gt;0,\]</span></div>
+<p>por lo que:</p>
+<div class="mate"><span class="mate-bloque">\[x&gt;-1.\]</span></div>
+<p>Convertimos la ecuación a forma exponencial:</p>
+<div class="mate"><span class="mate-bloque">\[2^3=x+1.\]</span></div>
+<p>Resolvemos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 8 &amp;=x+1,\\ x &amp;=7. \end{aligned}\]</span></div>
+<p>Como \(7&gt;-1\), la solución es válida.</p>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x=7.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-12"><div class="caja-titulo">Ejemplo 18.12</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[\log x+\log(x-3)=1.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primero establecemos las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[x&gt;0\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[x-3&gt;0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x&gt;3.\]</span></div>
+<p>Aplicamos la propiedad del producto:</p>
+<div class="mate"><span class="mate-bloque">\[\log[x(x-3)]=1.\]</span></div>
+<p>Como el logaritmo es decimal, transformamos la ecuación a forma exponencial:</p>
+<div class="mate"><span class="mate-bloque">\[x(x-3)=10^1.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x^2-3x &amp;=10,\\ x^2-3x-10 &amp;=0. \end{aligned}\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x-5)(x+2)=0.\]</span></div>
+<p>Las soluciones de la ecuación algebraica son:</p>
+<div class="mate"><span class="mate-bloque">\[x=5 \qquad\text{o}\qquad x=-2.\]</span></div>
+<p>Sin embargo, la restricción era \(x&gt;3\). Por tanto, \(x=-2\) no es válido.</p>
+<p>La única solución es:</p>
+<div class="mate"><span class="mate-bloque">\[x=5.\]</span></div></div></details></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Igualdad de logaritmos</div><div class="caja-cuerpo"><p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[\log_a U=\log_a V,\]</span></div>
+<p>con:</p>
+<div class="mate"><span class="mate-bloque">\[U&gt;0, \qquad V&gt;0, \qquad a&gt;0, \qquad a\neq 1,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[U=V.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-18-13"><div class="caja-titulo">Ejemplo 18.13</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[\log_3(x+4)=\log_3(2x-1).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Establecemos las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[x+4&gt;0\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[2x-1&gt;0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x&gt;-4 \qquad\text{y}\qquad x&gt;\frac{1}{2}.\]</span></div>
+<p>La restricción conjunta es:</p>
+<div class="mate"><span class="mate-bloque">\[x&gt;\frac{1}{2}.\]</span></div>
+<p>Como los logaritmos tienen la misma base:</p>
+<div class="mate"><span class="mate-bloque">\[x+4=2x-1.\]</span></div>
+<p>Resolvemos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 4+1 &amp;=2x-x,\\ x &amp;=5. \end{aligned}\]</span></div>
+<p>Como \(5&gt;\frac{1}{2}\), la solución es válida:</p>
+<div class="mate"><span class="mate-bloque">\[x=5.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Toda solución de una ecuación logarítmica debe comprobarse en la ecuación original. Si algún argumento resulta cero o negativo, el valor debe descartarse.</p>
+<p>Estas soluciones no válidas pueden aparecer después de eliminar los logaritmos y resolver la ecuación algebraica resultante.</p></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">18.8</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-18-1"><div class="caja-titulo">Ejercicio 18.1</div><div class="caja-cuerpo"><p>¿Cuál de las siguientes expresiones representa una función exponencial?</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2, \qquad g(x)=2^x, \qquad h(x)=x+1, \qquad k(x)=3^2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(g(x) = 2^x\) es exponencial porque la variable está en el exponente. Las demás no lo son: \(f(x) = x^2\) es cuadrática, \(h(x) = x + 1\) es lineal, \(k(x) = 3^2 = 9\) es constante.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-18-2"><div class="caja-titulo">Ejercicio 18.2</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[2^{3x+2}=8.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(8 = 2^3\), entonces: <span class="mate-bloque">\[3x + 2 = 3 \Longrightarrow 3x = 1 \Longrightarrow x = \frac{1}{3}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-18-3"><div class="caja-titulo">Ejercicio 18.3</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[5^{2x} = \frac{1}{25}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(\frac{1}{25} = 5^{-2}\), entonces: <span class="mate-bloque">\[2x = -2 \Longrightarrow x = -1.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-18-4"><div class="caja-titulo">Ejercicio 18.4</div><div class="caja-cuerpo"><p>Convierte a forma exponencial:</p>
+<div class="mate"><span class="mate-bloque">\[\log_2x=3.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(2^3 = x\), entonces \(x = 8\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-18-5"><div class="caja-titulo">Ejercicio 18.5</div><div class="caja-cuerpo"><p>Convierte a forma logarítmica:</p>
+<div class="mate"><span class="mate-bloque">\[3^4=81.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(\log_3 81 = 4\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-18-6"><div class="caja-titulo">Ejercicio 18.6</div><div class="caja-cuerpo"><p>Evalúa:</p>
+<div class="mate"><span class="mate-bloque">\[\log_5 125.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(5^3 = 125\), entonces \(\log_5 125 = 3\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-18-7"><div class="caja-titulo">Ejercicio 18.7</div><div class="caja-cuerpo"><p>Expande, suponiendo que las variables representan números positivos:</p>
+<div class="mate"><span class="mate-bloque">\[\log_a(x^3y^2).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\log_a(x^3 y^2) = 3\log_a x + 2\log_a y.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-18-8"><div class="caja-titulo">Ejercicio 18.8</div><div class="caja-cuerpo"><p>Expande, suponiendo que \(x&gt;0\) y \(y&gt;0\):</p>
+<div class="mate"><span class="mate-bloque">\[\log\left(\frac{x^2}{y}\right).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\log \frac{x^2}{y} = 2\log x - \log y.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-18-9"><div class="caja-titulo">Ejercicio 18.9</div><div class="caja-cuerpo"><p>Encuentra el dominio y la asíntota vertical de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=3\log(x-4).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El argumento debe ser positivo: \(x - 4 &gt; 0\), entonces \(x &gt; 4\). La asíntota vertical está en \(x = 4\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-18-10"><div class="caja-titulo">Ejercicio 18.10</div><div class="caja-cuerpo"><p>Encuentra el dominio de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\log(x-5).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(x - 5 &gt; 0\), entonces \(x &gt; 5\). <span class="mate-bloque">\[D_f = (5, \infty).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-18-11"><div class="caja-titulo">Ejercicio 18.11</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[\log_3(x+2)=2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(3^2 = x + 2\), entonces \(x + 2 = 9\), \(x = 7\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-18-12"><div class="caja-titulo">Ejercicio 18.12</div><div class="caja-cuerpo"><p>Resuelve e indica las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[\log x+\log(x-1)=\log 6.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Combinamos: \(\log[x(x - 1)] = \log 6\), entonces \(x(x - 1) = 6\). <span class="mate-bloque">\[x^2 - x - 6 = 0 \Longrightarrow (x - 3)(x + 2) = 0.\]</span> \(x = 3\) o \(x = -2\). Verificamos: \(x = -2\) invalida los logaritmos. Solución: \(x = 3\).</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="17-algebra-funciones.html"><span>← Anterior</span>17. Álgebra de funciones</a><a class="nav-siguiente" href="19-elementos-basicos.html"><span>Siguiente →</span>19. Elementos básicos de geometría</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

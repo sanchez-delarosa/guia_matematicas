@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zona de Práctica · Simulador de Reactivos · {{titulo_sitio}}</title>
+  <meta name="description" content="Practica con {{total_reactivos}} reactivos de opción múltiple estilo examen de admisión para la UNAM, IPN y CENEVAL organizados por temas y subtemas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous" onload="renderizarMatematicasPractica();"></script>
+  <script>window.MACROS_KATEX = {{macros}};</script>
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body class="pagina-practica">
+  <header class="portada portada-practica">
+    <div class="portada-emblema">
+      <img src="assets/logo.png" alt="Escudo de Estudio, Cultura y Trabajo" class="logo-portada" width="210" height="222">
+    </div>
+    <p class="portada-sobre">Simulador de reactivos · Evaluación interactiva</p>
+    <h1>Zona de Práctica</h1>
+    <p class="portada-sub">{{total_reactivos}} reactivos de opción múltiple en {{total_temas}} temas oficiales</p>
+    <p class="portada-marcas">
+      <span class="marca marca-unam">UNAM</span>
+      <span class="marca marca-ipn">IPN</span>
+      <span class="marca marca-ceneval">CENEVAL</span>
+    </p>
+
+    <!-- Switch de navegación entre Estudio y Práctica -->
+    <nav class="nav-modos" aria-label="Cambiar de modo">
+      <a href="index.html" class="btn-modo modo-estudio-enlace">
+        <span>← 📖 Guía de Estudio</span>
+      </a>
+      <span class="btn-modo activo modo-practica-enlace" aria-current="page">
+        <span class="icono-modo">🎯</span>
+        <span>Zona de Práctica</span>
+        <span class="badge-reactivos">{{total_reactivos}} reactivos</span>
+      </span>
+    </nav>
+
+    <div class="buscador">
+      <input type="search" id="filtro-practica" placeholder="Buscar tema o subtema… (p. ej. «límites», «derivadas», «factorización»)" aria-label="Buscar tema de práctica">
+    </div>
+  </header>
+
+  <!-- Selector de secciones, temas y subtemas -->
+  <main class="contenedor-secciones-practica" id="vista-temas">
+    <div class="barra-controles-practica">
+      <p class="controles-practica-leyenda">Explora por área matemática y despliega los temas que quieras practicar:</p>
+      <button type="button" class="btn-expandir-todas" id="btn-toggle-todas" onclick="toggleTodasSeccionesPractica(this)">
+        <span>Expandir todas las secciones</span>
+      </button>
+    </div>
+{{tarjetas_temas}}
+  </main>
+
+  <footer class="pie">
+    Simulador de reactivos de opción múltiple para examen de admisión. Todos los reactivos son originales para fines de práctica académica.
+  </footer>
+
+  <script>
+    // -------------------------------------------------------------
+    //  Renderizado KaTeX de fórmulas en títulos y subtemas
+    // -------------------------------------------------------------
+    function renderizarMatematicasPractica() {
+      if (typeof renderMathInElement === 'function') {
+        const contenedor = document.getElementById('vista-temas');
+        if (contenedor) {
+          renderMathInElement(contenedor, {
+            delimiters: [
+              { left: '$$', right: '$$', display: true },
+              { left: '$', right: '$', display: false },
+              { left: '\\(', right: '\\)', display: false },
+              { left: '\\[', right: '\\]', display: true }
+            ],
+            macros: {
+              "\\sen": "\\operatorname{sen}",
+              "\\tg": "\\operatorname{tg}",
+              "\\cotg": "\\operatorname{cotg}",
+              "\\arcsec": "\\operatorname{arcsec}",
+              "\\arccsc": "\\operatorname{arccsc}",
+              "\\arccot": "\\operatorname{arccot}",
+              ...(window.MACROS_KATEX || {})
+            },
+            throwOnError: false,
+            strict: 'ignore'
+          });
+        }
+      } else {
+        setTimeout(renderizarMatematicasPractica, 60);
+      }
+    }
+    document.addEventListener('DOMContentLoaded', renderizarMatematicasPractica);
+
+    // -------------------------------------------------------------
+    //  Controlador de Secciones Colapsables, Tarjetas y Filtro en Vivo
+    // -------------------------------------------------------------
+
+    function actualizarBotonToggleTodas() {
+      const btnTodas = document.getElementById('btn-toggle-todas');
+      if (!btnTodas) return;
+      const seccionesVisibles = Array.from(document.querySelectorAll('.seccion-practica:not([hidden])'));
+      const todasAbiertas = seccionesVisibles.length > 0 && seccionesVisibles.every(
+        sec => sec.querySelector('.seccion-practica-colapsable')?.classList.contains('abierto')
+      );
+      btnTodas.dataset.expanded = todasAbiertas ? 'true' : 'false';
+      btnTodas.querySelector('span').textContent = todasAbiertas
+        ? 'Contraer todas las secciones'
+        : 'Expandir todas las secciones';
+    }
+
+    // Toggle de una sección (Parte / Área matemática)
+    function toggleSeccionPractica(btn) {
+      const seccion = btn.closest('.seccion-practica');
+      const drawer = seccion.querySelector('.seccion-practica-colapsable');
+      const texto = btn.querySelector('.btn-texto-seccion');
+      const count = btn.dataset.count;
+      const abierta = drawer.classList.contains('abierto');
+      if (abierta) {
+        drawer.classList.remove('abierto');
+        btn.setAttribute('aria-expanded', 'false');
+        texto.textContent = `Ver temas (${count})`;
+      } else {
+        drawer.classList.add('abierto');
+        btn.setAttribute('aria-expanded', 'true');
+        texto.textContent = 'Ocultar temas';
+      }
+      actualizarBotonToggleTodas();
+    }
+
+    // Expandir o contraer todas las secciones visibles
+    function toggleTodasSeccionesPractica(btn) {
+      const expandir = btn.dataset.expanded !== 'true';
+      document.querySelectorAll('.seccion-practica:not([hidden])').forEach((seccion) => {
+        const cabecera = seccion.querySelector('.seccion-practica-cabecera');
+        const drawer = seccion.querySelector('.seccion-practica-colapsable');
+        const texto = cabecera?.querySelector('.btn-texto-seccion');
+        const count = cabecera?.dataset.count;
+        if (!cabecera || !drawer || !texto) return;
+        if (expandir) {
+          drawer.classList.add('abierto');
+          cabecera.setAttribute('aria-expanded', 'true');
+          texto.textContent = 'Ocultar temas';
+        } else {
+          drawer.classList.remove('abierto');
+          cabecera.setAttribute('aria-expanded', 'false');
+          texto.textContent = `Ver temas (${count})`;
+        }
+      });
+      actualizarBotonToggleTodas();
+    }
+
+    // Toggle de subtemas colapsables en las tarjetas
+    function toggleTarjeta(btn) {
+      const tarjeta = btn.closest('.tarjeta-parte');
+      const drawer = tarjeta.querySelector('.tarjeta-colapsable');
+      const texto = btn.querySelector('.btn-texto');
+      const count = btn.dataset.count;
+      const abierta = drawer.classList.contains('abierto');
+      if (abierta) {
+        drawer.classList.remove('abierto');
+        btn.setAttribute('aria-expanded', 'false');
+        texto.textContent = `Ver subtemas (${count})`;
+      } else {
+        drawer.classList.add('abierto');
+        btn.setAttribute('aria-expanded', 'true');
+        texto.textContent = 'Ocultar subtemas';
+      }
+    }
+
+    // Filtro en vivo de secciones, temas y subtemas
+    const filtroInput = document.getElementById('filtro-practica');
+    if (filtroInput) {
+      const normalizar = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+      filtroInput.addEventListener('input', () => {
+        const q = normalizar(filtroInput.value.trim());
+
+        document.querySelectorAll('.seccion-practica').forEach((seccion) => {
+          const tituloSec = normalizar(seccion.querySelector('.seccion-practica-titulo')?.textContent || '');
+          const etiquetaSec = normalizar(seccion.querySelector('.seccion-practica-etiqueta')?.textContent || '');
+          const coincideSeccion = q && (tituloSec.includes(q) || etiquetaSec.includes(q));
+
+          let tarjetasVisibles = 0;
+
+          seccion.querySelectorAll('.tarjeta-practica').forEach((tarjeta) => {
+            let subtemasVisibles = 0;
+            tarjeta.querySelectorAll('.tarjeta-lista li').forEach((li) => {
+              const ok = !q || coincideSeccion || normalizar(li.textContent).includes(q);
+              li.hidden = !ok;
+              if (ok) subtemasVisibles++;
+            });
+
+            const tituloTarjeta = normalizar(tarjeta.querySelector('.tarjeta-titulo')?.textContent || '');
+            const etiquetaTarjeta = normalizar(tarjeta.querySelector('.tarjeta-etiqueta')?.textContent || '');
+            const coincideTituloTarjeta = !q || coincideSeccion || tituloTarjeta.includes(q) || etiquetaTarjeta.includes(q);
+
+            if (coincideTituloTarjeta) {
+              tarjeta.hidden = false;
+              tarjeta.querySelectorAll('.tarjeta-lista li').forEach(li => li.hidden = false);
+              tarjetasVisibles++;
+            } else if (subtemasVisibles > 0) {
+              tarjeta.hidden = false;
+              tarjetasVisibles++;
+            } else {
+              tarjeta.hidden = true;
+            }
+
+            const drawerTarjeta = tarjeta.querySelector('.tarjeta-colapsable');
+            const btnTarjeta = tarjeta.querySelector('.btn-toggle-tarjeta');
+            if (drawerTarjeta && btnTarjeta) {
+              const countSub = btnTarjeta.dataset.count;
+              if (q && !coincideTituloTarjeta && subtemasVisibles > 0) {
+                drawerTarjeta.classList.add('abierto');
+                btnTarjeta.setAttribute('aria-expanded', 'true');
+                btnTarjeta.querySelector('.btn-texto').textContent = 'Ocultar subtemas';
+              } else if (!q || coincideSeccion) {
+                drawerTarjeta.classList.remove('abierto');
+                btnTarjeta.setAttribute('aria-expanded', 'false');
+                btnTarjeta.querySelector('.btn-texto').textContent = `Ver subtemas (${countSub})`;
+              }
+            }
+          });
+
+          seccion.hidden = (tarjetasVisibles === 0);
+
+          const drawerSec = seccion.querySelector('.seccion-practica-colapsable');
+          const cabeceraSec = seccion.querySelector('.seccion-practica-cabecera');
+          if (drawerSec && cabeceraSec) {
+            const countSec = cabeceraSec.dataset.count;
+            if (q && tarjetasVisibles > 0) {
+              drawerSec.classList.add('abierto');
+              cabeceraSec.setAttribute('aria-expanded', 'true');
+              cabeceraSec.querySelector('.btn-texto-seccion').textContent = 'Ocultar temas';
+            } else if (!q) {
+              drawerSec.classList.remove('abierto');
+              cabeceraSec.setAttribute('aria-expanded', 'false');
+              cabeceraSec.querySelector('.btn-texto-seccion').textContent = `Ver temas (${countSec})`;
+            }
+          }
+        });
+
+        actualizarBotonToggleTodas();
+      });
+    }
+  </script>
+</body>
+</html>

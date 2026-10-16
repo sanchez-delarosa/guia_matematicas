@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>52. Interés simple · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte XI: Matemáticas financieras</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#elementos-del-interes-simple"><span class="num">52.1</span> Elementos del interés simple</a></li><li class="nivel-2"><a href="#formula-del-interes-simple"><span class="num">52.2</span> Fórmula del interés simple</a></li><li class="nivel-2"><a href="#despejes-de-la-formula"><span class="num">52.3</span> Despejes de la fórmula</a></li><li class="nivel-3"><a href="#capital"><span class="num">52.3.1</span> Capital</a></li><li class="nivel-3"><a href="#tasa"><span class="num">52.3.2</span> Tasa</a></li><li class="nivel-3"><a href="#tiempo"><span class="num">52.3.3</span> Tiempo</a></li><li class="nivel-2"><a href="#calculo-del-capital"><span class="num">52.4</span> Cálculo del capital</a></li><li class="nivel-2"><a href="#calculo-de-la-tasa"><span class="num">52.5</span> Cálculo de la tasa</a></li><li class="nivel-2"><a href="#calculo-del-tiempo"><span class="num">52.6</span> Cálculo del tiempo</a></li><li class="nivel-2"><a href="#conversion-del-tiempo"><span class="num">52.7</span> Conversión del tiempo</a></li><li class="nivel-2"><a href="#valor-presente-y-valor-futuro"><span class="num">52.8</span> Valor presente y valor futuro</a></li><li class="nivel-2"><a href="#ecuaciones-de-valor"><span class="num">52.9</span> Ecuaciones de valor</a></li><li class="nivel-2"><a href="#descuento-comercial"><span class="num">52.10</span> Descuento comercial</a></li><li class="nivel-2"><a href="#despejes-del-descuento-comercial"><span class="num">52.11</span> Despejes del descuento comercial</a></li><li class="nivel-2"><a href="#interes-ordinario-e-interes-exacto"><span class="num">52.12</span> Interés ordinario e interés exacto</a></li><li class="nivel-3"><a href="#interes-ordinario"><span class="num">52.12.1</span> Interés ordinario</a></li><li class="nivel-3"><a href="#interes-exacto"><span class="num">52.12.2</span> Interés exacto</a></li><li class="nivel-2"><a href="#conteo-de-dias"><span class="num">52.13</span> Conteo de días</a></li><li class="nivel-3"><a href="#tiempo-aproximado"><span class="num">52.13.1</span> Tiempo aproximado</a></li><li class="nivel-3"><a href="#tiempo-exacto"><span class="num">52.13.2</span> Tiempo exacto</a></li><li class="nivel-2"><a href="#comparacion-con-el-interes-compuesto"><span class="num">52.14</span> Comparación con el interés compuesto</a></li><li class="nivel-2"><a href="#crecimiento-del-monto"><span class="num">52.15</span> Crecimiento del monto</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">52.16</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#comprobaciones-utiles">Comprobaciones útiles</a></li><li class="nivel-2"><a href="#resumen"><span class="num">52.17</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">52.18</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">52.19</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 52</p><h1>Interés simple</h1></header>
+<p><span id="cap-interes-simple" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>El interés simple se calcula siempre sobre el capital inicial.</p>
+<p>Este modelo se utiliza principalmente en operaciones de corto plazo, préstamos, pagarés y problemas financieros elementales.</p>
+<p>En este capítulo aprenderás a:</p>
+<ul><li>calcular el interés y el monto;</li><li>despejar el capital, la tasa y el tiempo;</li><li>convertir unidades de tiempo;</li><li>calcular valores presentes y futuros;</li><li>determinar descuentos comerciales;</li><li>distinguir entre interés ordinario y exacto;</li><li>comparar interés simple e interés compuesto.</li></ul>
+<h2 id="elementos-del-interes-simple"><span class="num">52.1</span> Elementos del interés simple<a class="enlace-seccion" href="#elementos-del-interes-simple" aria-label="Enlace a esta sección">#</a></h2>
+<p>En una operación de interés simple intervienen:</p>
+<ul><li><strong>Capital \(C\)</strong>: cantidad inicial prestada o invertida.</li><li><strong>Interés \(I\)</strong>: ganancia o costo generado por el capital.</li><li><strong>Tasa \(i\)</strong>: porcentaje del capital que se genera en cada periodo.</li><li><strong>Tiempo \(t\)</strong>: duración de la operación.</li><li><strong>Monto \(M\)</strong>: capital más interés.</li></ul>
+<p>La relación básica es:</p>
+<div class="mate"><span class="mate-bloque">\[M=C+I.\]</span></div>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:center"><strong>Símbolo</strong></th><th style="text-align:left"><strong>Significado</strong></th></tr></thead><tbody><tr><td style="text-align:center">\(C\)</td><td style="text-align:left">Capital inicial</td></tr><tr><td style="text-align:center">\(I\)</td><td style="text-align:left">Interés generado</td></tr><tr><td style="text-align:center">\(i\)</td><td style="text-align:left">Tasa de interés por periodo</td></tr><tr><td style="text-align:center">\(t\)</td><td style="text-align:left">Número de periodos</td></tr><tr><td style="text-align:center">\(M\)</td><td style="text-align:left">Monto o valor final</td></tr></tbody></table></div></div>
+<h2 id="formula-del-interes-simple"><span class="num">52.2</span> Fórmula del interés simple<a class="enlace-seccion" href="#formula-del-interes-simple" aria-label="Enlace a esta sección">#</a></h2>
+<p>El interés simple se calcula mediante:</p>
+<div class="mate"><span class="mate-bloque">\[I=Cit.\]</span></div>
+<p>El monto es:</p>
+<div class="mate"><span class="mate-bloque">\[M=C+I.\]</span></div>
+<p>Sustituyendo:</p>
+<div class="mate"><span class="mate-bloque">\[M=C+Cit.\]</span></div>
+<p>Factorizamos el capital:</p>
+<div class="mate"><span class="mate-bloque">\[M=C(1+it).\]</span></div>
+<p>Por tanto, las dos fórmulas principales son:</p>
+<div class="mate"><span class="mate-bloque">\[I=Cit\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[M=C(1+it).\]</span></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La tasa debe escribirse en forma decimal.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[12\%=0.12,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[8\%=0.08,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1.5\%=0.015.\]</span></div>
+<p>Además, la tasa y el tiempo deben utilizar la misma unidad.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-52-1"><div class="caja-titulo">Ejemplo 52.1</div><div class="caja-cuerpo"><p>Se prestan:</p>
+<div class="mate"><span class="mate-bloque">\[\$8{,}000\]</span></div>
+<p>al \(12\%\) anual durante \(3\) años.</p>
+<p>Calcula el interés y el monto.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[C=8000, \qquad i=0.12, \qquad t=3.\]</span></div>
+<p>Calculamos el interés:</p>
+<div class="mate"><span class="mate-bloque">\[I = 8000(0.12)(3).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[I=2880.\]</span></div>
+<p>Calculamos el monto:</p>
+<div class="mate"><span class="mate-bloque">\[M=C+I.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[M=8000+2880.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[M=10880.\]</span></div>
+<p>Por tanto, el interés es:</p>
+<div class="mate"><span class="mate-bloque">\[\$2{,}880\]</span></div>
+<p>y el monto es:</p>
+<div class="mate"><span class="mate-bloque">\[\$10{,}880.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-52-2"><div class="caja-titulo">Ejemplo 52.2</div><div class="caja-cuerpo"><p>Se invierten:</p>
+<div class="mate"><span class="mate-bloque">\[\$15{,}000\]</span></div>
+<p>al \(9\%\) anual durante \(8\) meses.</p>
+<p>Calcula el interés.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La tasa se expresa por año, por lo que convertimos el tiempo:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{8}{12} = \frac23\]</span></div>
+<p>de año.</p>
+<p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[I = 15000(0.09) \left( \frac23 \right).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[I = 15000(0.06).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[I=\$900.\]</span></div></div></details></div></section>
+<h2 id="despejes-de-la-formula"><span class="num">52.3</span> Despejes de la fórmula<a class="enlace-seccion" href="#despejes-de-la-formula" aria-label="Enlace a esta sección">#</a></h2>
+<p>A partir de:</p>
+<div class="mate"><span class="mate-bloque">\[I=Cit,\]</span></div>
+<p>pueden obtenerse las demás variables.</p>
+<h3 id="capital"><span class="num">52.3.1</span> Capital<a class="enlace-seccion" href="#capital" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[C = \frac{I}{it}.\]</span></div>
+<h3 id="tasa"><span class="num">52.3.2</span> Tasa<a class="enlace-seccion" href="#tasa" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[i = \frac{I}{Ct}.\]</span></div>
+<h3 id="tiempo"><span class="num">52.3.3</span> Tiempo<a class="enlace-seccion" href="#tiempo" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[t = \frac{I}{Ci}.\]</span></div>
+<p>A partir de:</p>
+<div class="mate"><span class="mate-bloque">\[M=C(1+it),\]</span></div>
+<p>el capital es:</p>
+<div class="mate"><span class="mate-bloque">\[C = \frac{M}{1+it}.\]</span></div>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:center"><strong>Variable buscada</strong></th><th style="text-align:left"><strong>Fórmula</strong></th></tr></thead><tbody><tr><td style="text-align:center">Interés</td><td style="text-align:left">\(\displaystyle I=Cit\)</td></tr><tr><td style="text-align:center">Capital</td><td style="text-align:left">\(\displaystyle C=\frac{I}{it}\)</td></tr><tr><td style="text-align:center">Tasa</td><td style="text-align:left">\(\displaystyle i=\frac{I}{Ct}\)</td></tr><tr><td style="text-align:center">Tiempo</td><td style="text-align:left">\(\displaystyle t=\frac{I}{Ci}\)</td></tr><tr><td style="text-align:center">Monto</td><td style="text-align:left">\(\displaystyle M=C(1+it)\)</td></tr><tr><td style="text-align:center">Capital a partir del monto</td><td style="text-align:left">\(\displaystyle C=\frac{M}{1+it}\)</td></tr></tbody></table></div></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>No es indispensable memorizar todos los despejes.</p>
+<p>Es posible partir de:</p>
+<div class="mate"><span class="mate-bloque">\[I=Cit\]</span></div>
+<p>y despejar algebraicamente la variable solicitada.</p></div></section>
+<h2 id="calculo-del-capital"><span class="num">52.4</span> Cálculo del capital<a class="enlace-seccion" href="#calculo-del-capital" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-52-3"><div class="caja-titulo">Ejemplo 52.3</div><div class="caja-cuerpo"><p>¿Qué capital produce un interés de:</p>
+<div class="mate"><span class="mate-bloque">\[\$1{,}500\]</span></div>
+<p>al \(10\%\) anual durante \(2\) años?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[I=1500, \qquad i=0.10, \qquad t=2.\]</span></div>
+<p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[C = \frac{I}{it}.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[C = \frac{1500}{(0.10)(2)}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[C = \frac{1500}{0.20}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[C=\$7{,}500.\]</span></div></div></details></div></section>
+<h2 id="calculo-de-la-tasa"><span class="num">52.5</span> Cálculo de la tasa<a class="enlace-seccion" href="#calculo-de-la-tasa" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-52-4"><div class="caja-titulo">Ejemplo 52.4</div><div class="caja-cuerpo"><p>Un capital de:</p>
+<div class="mate"><span class="mate-bloque">\[\$6{,}000\]</span></div>
+<p>genera un interés de:</p>
+<div class="mate"><span class="mate-bloque">\[\$720\]</span></div>
+<p>en \(18\) meses.</p>
+<p>Calcula la tasa anual.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Convertimos el tiempo a años:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{18}{12} = 1.5.\]</span></div>
+<p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[i = \frac{I}{Ct}.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[i = \frac{720}{6000(1.5)}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[i = \frac{720}{9000}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[i=0.08.\]</span></div>
+<p>Convertimos a porcentaje:</p>
+<div class="mate"><span class="mate-bloque">\[0.08(100\%)=8\%.\]</span></div>
+<p>Por tanto, la tasa fue:</p>
+<div class="mate"><span class="mate-bloque">\[8\%\text{ anual}.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La fórmula produce la tasa en forma decimal.</p>
+<p>Para expresarla como porcentaje debe multiplicarse por:</p>
+<div class="mate"><span class="mate-bloque">\[100\%.\]</span></div></div></section>
+<h2 id="calculo-del-tiempo"><span class="num">52.6</span> Cálculo del tiempo<a class="enlace-seccion" href="#calculo-del-tiempo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-52-5"><div class="caja-titulo">Ejemplo 52.5</div><div class="caja-cuerpo"><p>¿En cuánto tiempo un capital de:</p>
+<div class="mate"><span class="mate-bloque">\[\$10{,}000\]</span></div>
+<p>al \(6\%\) anual genera un interés de:</p>
+<div class="mate"><span class="mate-bloque">\[\$1{,}200?\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[C=10000, \qquad i=0.06, \qquad I=1200.\]</span></div>
+<p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{I}{Ci}.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{1200}{10000(0.06)}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[t = \frac{1200}{600}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[t=2\text{ años}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-52-6"><div class="caja-titulo">Ejemplo 52.6</div><div class="caja-cuerpo"><p>¿En cuántos meses un capital de:</p>
+<div class="mate"><span class="mate-bloque">\[\$20{,}000\]</span></div>
+<p>al \(9\%\) anual genera un interés de:</p>
+<div class="mate"><span class="mate-bloque">\[\$900?\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos el tiempo en años:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{900}{20000(0.09)}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[t = \frac{900}{1800}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[t=0.5\text{ años}.\]</span></div>
+<p>Convertimos a meses:</p>
+<div class="mate"><span class="mate-bloque">\[0.5(12)=6.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[t=6\text{ meses}.\]</span></div></div></details></div></section>
+<h2 id="conversion-del-tiempo"><span class="num">52.7</span> Conversión del tiempo<a class="enlace-seccion" href="#conversion-del-tiempo" aria-label="Enlace a esta sección">#</a></h2>
+<p>La tasa y el tiempo deben expresarse en la misma unidad.</p>
+<p>Las conversiones principales son:</p>
+<div class="mate"><span class="mate-bloque">\[1\text{ año}=12\text{ meses},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1\text{ semestre}=6\text{ meses},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1\text{ trimestre}=3\text{ meses},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1\text{ bimestre}=2\text{ meses}.\]</span></div>
+<p>Si la tasa es anual:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{\text{meses}}{12}.\]</span></div>
+<p>Si se utiliza año comercial:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{\text{días}}{360}.\]</span></div>
+<p>Si se utiliza año exacto:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{\text{días}}{365}.\]</span></div>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Tiempo dado</strong></th><th style="text-align:left"><strong>Tiempo en años</strong></th></tr></thead><tbody><tr><td style="text-align:left">\(6\) meses</td><td style="text-align:left">\(\displaystyle\frac{6}{12}=0.5\)</td></tr><tr><td style="text-align:left">\(9\) meses</td><td style="text-align:left">\(\displaystyle\frac{9}{12}=0.75\)</td></tr><tr><td style="text-align:left">\(90\) días comerciales</td><td style="text-align:left">\(\displaystyle\frac{90}{360}=0.25\)</td></tr><tr><td style="text-align:left">\(45\) días exactos</td><td style="text-align:left">\(\displaystyle\frac{45}{365}\)</td></tr></tbody></table></div></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>No debe sustituirse directamente el número de meses en una fórmula con tasa anual.</p>
+<p>Por ejemplo, para \(8\) meses y una tasa anual debe utilizarse:</p>
+<div class="mate"><span class="mate-bloque">\[t=\frac{8}{12},\]</span></div>
+<p>no:</p>
+<div class="mate"><span class="mate-bloque">\[t=8.\]</span></div></div></section>
+<h2 id="valor-presente-y-valor-futuro"><span class="num">52.8</span> Valor presente y valor futuro<a class="enlace-seccion" href="#valor-presente-y-valor-futuro" aria-label="Enlace a esta sección">#</a></h2>
+<p>El <strong>valor presente</strong> es la cantidad disponible o invertida actualmente.</p>
+<p>Se representa mediante:</p>
+<div class="mate"><span class="mate-bloque">\[VP.\]</span></div>
+<p>El <strong>valor futuro</strong> es la cantidad que se tendrá al finalizar la operación.</p>
+<p>Se representa mediante:</p>
+<div class="mate"><span class="mate-bloque">\[VF.\]</span></div>
+<p>En interés simple:</p>
+<div class="mate"><span class="mate-bloque">\[VF = VP(1+it).\]</span></div>
+<p>Despejando:</p>
+<div class="mate"><span class="mate-bloque">\[VP = \frac{VF}{1+it}.\]</span></div>
+<p>En este contexto:</p>
+<div class="mate"><span class="mate-bloque">\[VP=C\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[VF=M.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-52-7"><div class="caja-titulo">Ejemplo 52.7</div><div class="caja-cuerpo"><p>¿Cuánto debe invertirse hoy para obtener:</p>
+<div class="mate"><span class="mate-bloque">\[\$20{,}000\]</span></div>
+<p>dentro de \(3\) años, con una tasa simple del \(8\%\) anual?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[VF=20000, \qquad i=0.08, \qquad t=3.\]</span></div>
+<p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[VP = \frac{VF}{1+it}.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[VP = \frac{20000}{1+(0.08)(3)}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[VP = \frac{20000}{1.24}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[VP \approx 16129.03.\]</span></div>
+<p>Por tanto, deben invertirse aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[\$16{,}129.03.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El valor presente es menor que el valor futuro cuando la tasa y el tiempo son positivos.</p></div></section>
+<h2 id="ecuaciones-de-valor"><span class="num">52.9</span> Ecuaciones de valor<a class="enlace-seccion" href="#ecuaciones-de-valor" aria-label="Enlace a esta sección">#</a></h2>
+<p>No es correcto sumar directamente cantidades ubicadas en fechas diferentes.</p>
+<p>Primero deben trasladarse todos los valores a una misma fecha, llamada <strong>fecha focal</strong>.</p>
+<p>En interés simple, para trasladar un capital hacia el futuro:</p>
+<div class="mate"><span class="mate-bloque">\[VF = VP(1+it).\]</span></div>
+<p>Para trasladar un monto hacia el presente:</p>
+<div class="mate"><span class="mate-bloque">\[VP = \frac{VF}{1+it}.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-52-8"><div class="caja-titulo">Ejemplo 52.8</div><div class="caja-cuerpo"><p>Una deuda de:</p>
+<div class="mate"><span class="mate-bloque">\[\$5{,}000\]</span></div>
+<p>vence hoy. Se acuerda pagarla dentro de \(6\) meses con una tasa simple del \(12\%\) anual.</p>
+<p>Calcula el pago equivalente.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Convertimos el tiempo:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{6}{12} = 0.5.\]</span></div>
+<p>Trasladamos la deuda hacia el futuro:</p>
+<div class="mate"><span class="mate-bloque">\[VF = 5000 \left[ 1+(0.12)(0.5) \right].\]</span></div>
+<div class="mate"><span class="mate-bloque">\[VF = 5000(1.06).\]</span></div>
+<p>Por tanto, el pago equivalente es:</p>
+<div class="mate"><span class="mate-bloque">\[\$5{,}300.\]</span></div></div></details></div></section>
+<h2 id="descuento-comercial"><span class="num">52.10</span> Descuento comercial<a class="enlace-seccion" href="#descuento-comercial" aria-label="Enlace a esta sección">#</a></h2>
+<p>El descuento comercial se aplica cuando un documento se cobra antes de su fecha de vencimiento.</p>
+<p>Los elementos son:</p>
+<ul><li><strong>Valor nominal \(N\)</strong>: cantidad escrita en el documento y pagadera al vencimiento.</li><li><strong>Tasa de descuento \(d\)</strong>: tasa aplicada al valor nominal.</li><li><strong>Tiempo \(t\)</strong>: tiempo que falta para el vencimiento.</li><li><strong>Descuento \(D\)</strong>: cantidad retenida o rebajada.</li><li><strong>Valor efectivo \(VE\)</strong>: cantidad recibida anticipadamente.</li></ul>
+<p>El descuento comercial es:</p>
+<div class="mate"><span class="mate-bloque">\[D=Ndt.\]</span></div>
+<p>El valor efectivo es:</p>
+<div class="mate"><span class="mate-bloque">\[VE=N-D.\]</span></div>
+<p>Sustituyendo:</p>
+<div class="mate"><span class="mate-bloque">\[VE=N(1-dt).\]</span></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En algunos textos el valor nominal se representa con \(M\).</p>
+<p>En este capítulo utilizamos \(N\) para distinguirlo del monto de una operación de interés simple.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-52-9"><div class="caja-titulo">Ejemplo 52.9</div><div class="caja-cuerpo"><p>Un pagaré tiene un valor nominal de:</p>
+<div class="mate"><span class="mate-bloque">\[\$50{,}000.\]</span></div>
+<p>Vence dentro de \(6\) meses y se descuenta al \(12\%\) anual.</p>
+<p>Calcula el descuento y el valor efectivo.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[N=50000, \qquad d=0.12.\]</span></div>
+<p>Convertimos el tiempo:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{6}{12} = 0.5.\]</span></div>
+<p>Calculamos el descuento:</p>
+<div class="mate"><span class="mate-bloque">\[D = 50000(0.12)(0.5).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[D=3000.\]</span></div>
+<p>Calculamos el valor efectivo:</p>
+<div class="mate"><span class="mate-bloque">\[VE = 50000-3000.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[VE=47000.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[D=\$3{,}000\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[VE=\$47{,}000.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En el descuento comercial, la tasa se aplica al valor nominal, no al valor efectivo recibido.</p></div></section>
+<h2 id="despejes-del-descuento-comercial"><span class="num">52.11</span> Despejes del descuento comercial<a class="enlace-seccion" href="#despejes-del-descuento-comercial" aria-label="Enlace a esta sección">#</a></h2>
+<p>A partir de:</p>
+<div class="mate"><span class="mate-bloque">\[D=Ndt,\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[N = \frac{D}{dt},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[d = \frac{D}{Nt}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{D}{Nd}.\]</span></div>
+<p>A partir de:</p>
+<div class="mate"><span class="mate-bloque">\[VE=N(1-dt),\]</span></div>
+<p>el valor nominal es:</p>
+<div class="mate"><span class="mate-bloque">\[N = \frac{VE}{1-dt}.\]</span></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Para que el valor efectivo sea positivo debe cumplirse:</p>
+<div class="mate"><span class="mate-bloque">\[dt&lt;1.\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[dt\geq1,\]</span></div>
+<p>la operación produciría un valor efectivo nulo o negativo, lo cual no tendría sentido en este modelo elemental.</p></div></section>
+<h2 id="interes-ordinario-e-interes-exacto"><span class="num">52.12</span> Interés ordinario e interés exacto<a class="enlace-seccion" href="#interes-ordinario-e-interes-exacto" aria-label="Enlace a esta sección">#</a></h2>
+<p>Cuando el tiempo se expresa en días, puede utilizarse una de dos convenciones.</p>
+<h3 id="interes-ordinario"><span class="num">52.12.1</span> Interés ordinario<a class="enlace-seccion" href="#interes-ordinario" aria-label="Enlace a esta sección">#</a></h3>
+<p>Utiliza el año comercial de:</p>
+<div class="mate"><span class="mate-bloque">\[360\text{ días}.\]</span></div>
+<p>El tiempo es:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{d}{360},\]</span></div>
+<p>donde \(d\) es el número de días.</p>
+<h3 id="interes-exacto"><span class="num">52.12.2</span> Interés exacto<a class="enlace-seccion" href="#interes-exacto" aria-label="Enlace a esta sección">#</a></h3>
+<p>Utiliza el año calendario de:</p>
+<div class="mate"><span class="mate-bloque">\[365\text{ días}.\]</span></div>
+<p>El tiempo es:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{d}{365}.\]</span></div>
+<p>En un año bisiesto puede utilizarse:</p>
+<div class="mate"><span class="mate-bloque">\[366\text{ días}.\]</span></div>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Método</strong></th><th style="text-align:left"><strong>Base anual</strong></th><th style="text-align:left"><strong>Tiempo</strong></th></tr></thead><tbody><tr><td style="text-align:left">Ordinario o comercial</td><td style="text-align:left">\(360\) días</td><td style="text-align:left">\(\displaystyle\frac{d}{360}\)</td></tr><tr><td style="text-align:left">Exacto</td><td style="text-align:left">\(365\) días</td><td style="text-align:left">\(\displaystyle\frac{d}{365}\)</td></tr></tbody></table></div></div>
+<section class="caja caja-ejemplo" id="ejemplo-52-10"><div class="caja-titulo">Ejemplo 52.10</div><div class="caja-cuerpo"><p>Se invierten:</p>
+<div class="mate"><span class="mate-bloque">\[\$12{,}000\]</span></div>
+<p>al \(15\%\) anual durante \(90\) días.</p>
+<p>Calcula el interés utilizando año comercial.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El tiempo es:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{90}{360} = 0.25.\]</span></div>
+<p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[I = 12000(0.15)(0.25).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[I=\$450.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-52-11"><div class="caja-titulo">Ejemplo 52.11</div><div class="caja-cuerpo"><p>Se prestan:</p>
+<div class="mate"><span class="mate-bloque">\[\$20{,}000\]</span></div>
+<p>al \(10\%\) anual durante \(45\) días.</p>
+<p>Calcula el interés ordinario y el interés exacto.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Para el interés ordinario:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{45}{360} = 0.125.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[I_o = 20000(0.10)(0.125).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[I_o=\$250.\]</span></div>
+<p>Para el interés exacto:</p>
+<div class="mate"><span class="mate-bloque">\[t = \frac{45}{365}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[I_e = 20000(0.10) \left( \frac{45}{365} \right).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[I_e \approx \$246.58.\]</span></div>
+<p>La diferencia es:</p>
+<div class="mate"><span class="mate-bloque">\[250-246.58=3.42.\]</span></div>
+<p>Por tanto, el interés ordinario supera al exacto en:</p>
+<div class="mate"><span class="mate-bloque">\[\$3.42.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Para la misma cantidad de días, capital y tasa, el interés ordinario es ligeramente mayor porque divide entre una base menor:</p>
+<div class="mate"><span class="mate-bloque">\[360&lt;365.\]</span></div></div></section>
+<h2 id="conteo-de-dias"><span class="num">52.13</span> Conteo de días<a class="enlace-seccion" href="#conteo-de-dias" aria-label="Enlace a esta sección">#</a></h2>
+<p>El tiempo también puede contarse de dos maneras.</p>
+<h3 id="tiempo-aproximado"><span class="num">52.13.1</span> Tiempo aproximado<a class="enlace-seccion" href="#tiempo-aproximado" aria-label="Enlace a esta sección">#</a></h3>
+<p>Se supone que todos los meses tienen:</p>
+<div class="mate"><span class="mate-bloque">\[30\text{ días}.\]</span></div>
+<h3 id="tiempo-exacto"><span class="num">52.13.2</span> Tiempo exacto<a class="enlace-seccion" href="#tiempo-exacto" aria-label="Enlace a esta sección">#</a></h3>
+<p>Se utilizan los días reales de cada mes.</p>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Las expresiones <strong>interés exacto</strong> y <strong>tiempo exacto</strong> no significan lo mismo.</p>
+<p>El interés exacto utiliza una base de \(365\) días.</p>
+<p>El tiempo exacto utiliza el número real de días transcurridos.</p></div></section>
+<h2 id="comparacion-con-el-interes-compuesto"><span class="num">52.14</span> Comparación con el interés compuesto<a class="enlace-seccion" href="#comparacion-con-el-interes-compuesto" aria-label="Enlace a esta sección">#</a></h2>
+<p>Con interés simple:</p>
+<div class="mate"><span class="mate-bloque">\[M_s = C(1+it).\]</span></div>
+<p>Con interés compuesto, si la tasa se capitaliza una vez en cada periodo:</p>
+<div class="mate"><span class="mate-bloque">\[M_c = C(1+i)^t.\]</span></div>
+<p>El interés simple produce un crecimiento lineal.</p>
+<p>El interés compuesto produce un crecimiento exponencial.</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Característica</strong></th><th style="text-align:left"><strong>Simple</strong></th><th style="text-align:left"><strong>Compuesto</strong></th></tr></thead><tbody><tr><td style="text-align:left">Base del interés</td><td style="text-align:left">Capital inicial</td><td style="text-align:left">Monto acumulado</td></tr><tr><td style="text-align:left">Crecimiento</td><td style="text-align:left">Lineal</td><td style="text-align:left">Exponencial</td></tr><tr><td style="text-align:left">Capitalización</td><td style="text-align:left">No</td><td style="text-align:left">Sí</td></tr><tr><td style="text-align:left">Monto</td><td style="text-align:left">\(C(1+it)\)</td><td style="text-align:left">\(C(1+i)^t\)</td></tr></tbody></table></div></div>
+<section class="caja caja-ejemplo" id="ejemplo-52-12"><div class="caja-titulo">Ejemplo 52.12</div><div class="caja-cuerpo"><p>Se invierten:</p>
+<div class="mate"><span class="mate-bloque">\[\$10{,}000\]</span></div>
+<p>al \(8\%\) anual durante \(5\) años.</p>
+<p>Compara los montos.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Con interés simple:</p>
+<div class="mate"><span class="mate-bloque">\[M_s = 10000 \left[ 1+(0.08)(5) \right].\]</span></div>
+<div class="mate"><span class="mate-bloque">\[M_s = 10000(1.40).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[M_s=\$14{,}000.\]</span></div>
+<p>Con interés compuesto:</p>
+<div class="mate"><span class="mate-bloque">\[M_c = 10000(1.08)^5.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[M_c \approx \$14{,}693.28.\]</span></div>
+<p>La diferencia es:</p>
+<div class="mate"><span class="mate-bloque">\[14693.28-14000.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[M_c-M_s = \$693.28.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Con una tasa positiva y el mismo periodo de capitalización:</p>
+<ul><li>para un periodo, ambos modelos producen el mismo monto;</li><li>para más de un periodo entero, el compuesto produce un monto mayor;</li><li>para periodos fraccionarios, la comparación puede depender de la convención y del modelo utilizado.</li></ul></div></section>
+<h2 id="crecimiento-del-monto"><span class="num">52.15</span> Crecimiento del monto<a class="enlace-seccion" href="#crecimiento-del-monto" aria-label="Enlace a esta sección">#</a></h2>
+<p>En interés simple, el interés generado en cada periodo es constante.</p>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[C=\$10{,}000\]</span></div>
+<p>e:</p>
+<div class="mate"><span class="mate-bloque">\[i=10\%\text{ anual},\]</span></div>
+<p>el interés anual es:</p>
+<div class="mate"><span class="mate-bloque">\[10000(0.10)=\$1{,}000.\]</span></div>
+<p>Por ello, los montos son:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|c} t &amp; M\\ \hline 0 &amp; 10000\\ 1 &amp; 11000\\ 2 &amp; 12000\\ 3 &amp; 13000\\ 4 &amp; 14000 \end{array}\]</span></div>
+<p>El monto aumenta en:</p>
+<div class="mate"><span class="mate-bloque">\[\$1{,}000\]</span></div>
+<p>cada año.</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-a72b97027f61.svg" alt="Figura 52.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="procedimiento-rapido"><span class="num">52.16</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<ol><li>Identifica los datos: <span class="mate-bloque">\[C,\quad I,\quad i,\quad t,\quad M.\]</span></li><li>Determina qué variable se solicita.</li><li>Convierte la tasa a forma decimal.</li><li>Convierte el tiempo a la unidad de la tasa.</li><li>Selecciona la fórmula.</li><li>Sustituye los valores con unidades consistentes.</li><li>Despeja si es necesario.</li><li>Redondea las cantidades monetarias a dos decimales.</li><li>Comprueba si el resultado tiene sentido.</li></ol>
+<h3 id="comprobaciones-utiles">Comprobaciones útiles<a class="enlace-seccion" href="#comprobaciones-utiles" aria-label="Enlace a esta sección">#</a></h3>
+<ul><li>Si: <span class="mate-bloque">\[i&gt;0 \qquad\text{y}\qquad t&gt;0,\]</span> entonces: <span class="mate-bloque">\[M&gt;C.\]</span></li><li>El capital debe ser positivo.</li><li>El tiempo debe ser positivo.</li><li>La tasa obtenida debe convertirse a porcentaje si así se solicita.</li><li>En descuento comercial: <span class="mate-bloque">\[VE&lt;N.\]</span></li></ul>
+<h2 id="resumen"><span class="num">52.17</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Interés simple:</p>
+<div class="mate"><span class="mate-bloque">\[I=Cit.\]</span></div>
+<p>Monto:</p>
+<div class="mate"><span class="mate-bloque">\[M=C+I.\]</span></div>
+<p>Monto mediante interés simple:</p>
+<div class="mate"><span class="mate-bloque">\[M=C(1+it).\]</span></div>
+<p>Capital:</p>
+<div class="mate"><span class="mate-bloque">\[C=\frac{I}{it}.\]</span></div>
+<p>Tasa:</p>
+<div class="mate"><span class="mate-bloque">\[i=\frac{I}{Ct}.\]</span></div>
+<p>Tiempo:</p>
+<div class="mate"><span class="mate-bloque">\[t=\frac{I}{Ci}.\]</span></div>
+<p>Valor presente:</p>
+<div class="mate"><span class="mate-bloque">\[VP=\frac{VF}{1+it}.\]</span></div>
+<p>Valor futuro:</p>
+<div class="mate"><span class="mate-bloque">\[VF=VP(1+it).\]</span></div>
+<p>Descuento comercial:</p>
+<div class="mate"><span class="mate-bloque">\[D=Ndt.\]</span></div>
+<p>Valor efectivo:</p>
+<div class="mate"><span class="mate-bloque">\[VE=N-D.\]</span></div>
+<p>También:</p>
+<div class="mate"><span class="mate-bloque">\[VE=N(1-dt).\]</span></div>
+<p>Tiempo ordinario:</p>
+<div class="mate"><span class="mate-bloque">\[t=\frac{d}{360}.\]</span></div>
+<p>Tiempo exacto:</p>
+<div class="mate"><span class="mate-bloque">\[t=\frac{d}{365}.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">52.18</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>La tasa debe escribirse en forma decimal.</li><li>Una tasa del \(12\%\) se escribe: <span class="mate-bloque">\[0.12,\]</span> no \(12\).</li><li>La tasa y el tiempo deben expresarse en la misma unidad.</li><li>En interés simple, el interés siempre se calcula sobre el capital inicial.</li><li>El monto no es igual al interés: <span class="mate-bloque">\[M=C+I.\]</span></li><li>Si la tasa es anual y el tiempo está en meses, debe utilizarse: <span class="mate-bloque">\[t=\frac{\text{meses}}{12}.\]</span></li><li>El interés ordinario utiliza una base de \(360\) días.</li><li>El interés exacto utiliza una base de \(365\) días.</li><li>En el descuento comercial, la tasa se aplica al valor nominal.</li><li>El valor efectivo es menor que el valor nominal.</li><li>Para encontrar el valor presente se divide entre: <span class="mate-bloque">\[1+it.\]</span></li><li>Los resultados monetarios deben redondearse generalmente a dos cifras decimales.</li><li>No deben compararse cantidades ubicadas en fechas diferentes sin trasladarlas primero a una fecha focal.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">52.19</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-52-1"><div class="caja-titulo">Ejercicio 52.1</div><div class="caja-cuerpo"><p>Se prestan:</p>
+<div class="mate"><span class="mate-bloque">\[\$5{,}000\]</span></div>
+<p>al \(10\%\) anual durante \(4\) años.</p>
+<p>Calcula el interés simple y el monto.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Interés: \(I = \$5{,}000 \times 0.10 \times 4 = \$2{,}000\). Monto: \(\$5{,}000 + \$2{,}000 = \$7{,}000\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-2"><div class="caja-titulo">Ejercicio 52.2</div><div class="caja-cuerpo"><p>Se invierten:</p>
+<div class="mate"><span class="mate-bloque">\[\$25{,}000\]</span></div>
+<p>al \(7.5\%\) anual durante \(2\) años.</p>
+<p>Calcula el interés y el monto.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Interés: \(I = \$25{,}000 \times 0.075 \times 2 = \$3{,}750\). Monto: \(\$25{,}000 + \$3{,}750 = \$28{,}750\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-3"><div class="caja-titulo">Ejercicio 52.3</div><div class="caja-cuerpo"><p>¿Qué capital produce un interés de:</p>
+<div class="mate"><span class="mate-bloque">\[\$2{,}400\]</span></div>
+<p>al \(12\%\) anual durante \(2\) años?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\$2{,}400 = C \times 0.12 \times 2 \implies 0.24 C = \$2{,}400 \implies C = \$10{,}000.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-4"><div class="caja-titulo">Ejercicio 52.4</div><div class="caja-cuerpo"><p>Un capital de:</p>
+<div class="mate"><span class="mate-bloque">\[\$8{,}000\]</span></div>
+<p>genera un interés de:</p>
+<div class="mate"><span class="mate-bloque">\[\$960\]</span></div>
+<p>en \(18\) meses.</p>
+<p>Calcula la tasa anual.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El tiempo es \(18\) meses = \(1.5\) años. <span class="mate-bloque">\[\$960 = \$8{,}000 \times r \times 1.5 \implies 12{,}000 r = 960 \implies r = 0.08 = 8\%.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-5"><div class="caja-titulo">Ejercicio 52.5</div><div class="caja-cuerpo"><p>¿En cuánto tiempo un capital de:</p>
+<div class="mate"><span class="mate-bloque">\[\$15{,}000\]</span></div>
+<p>al \(8\%\) anual genera un interés de:</p>
+<div class="mate"><span class="mate-bloque">\[\$1{,}800?\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\$1{,}800 = \$15{,}000 \times 0.08 \times t \implies 1{,}200 t = 1{,}800 \implies t = 1.5 \text{ años}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-6"><div class="caja-titulo">Ejercicio 52.6</div><div class="caja-cuerpo"><p>¿Cuánto debe invertirse hoy para obtener:</p>
+<div class="mate"><span class="mate-bloque">\[\$30{,}000\]</span></div>
+<p>dentro de \(4\) años, con una tasa simple del \(9\%\) anual?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[M = C(1+rt) \implies \$30{,}000 = C(1 + 0.09 \times 4) \implies \$30{,}000 = 1.36 C.\]</span> <span class="mate-bloque">\[C = \frac{\$30{,}000}{1.36} \approx \$22{,}058.82.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-7"><div class="caja-titulo">Ejercicio 52.7</div><div class="caja-cuerpo"><p>Una deuda de:</p>
+<div class="mate"><span class="mate-bloque">\[\$12{,}000\]</span></div>
+<p>vence hoy. Se acuerda pagarla dentro de \(10\) meses con una tasa simple del \(15\%\) anual.</p>
+<p>Calcula el pago equivalente.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[M = \$12{,}000 \left(1 + 0.15 \times \frac{10}{12}\right) = \$12{,}000(1 + 0.125) = \$13{,}500.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-8"><div class="caja-titulo">Ejercicio 52.8</div><div class="caja-cuerpo"><p>Un pagaré con valor nominal de:</p>
+<div class="mate"><span class="mate-bloque">\[\$80{,}000\]</span></div>
+<p>vence dentro de \(4\) meses. Se descuenta al \(15\%\) anual.</p>
+<p>Calcula el descuento y el valor efectivo.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Descuento: \(D = \$80{,}000 \times 0.15 \times \frac{4}{12} = \$4{,}000\). Valor efectivo: \(\$80{,}000 - \$4{,}000 = \$76{,}000\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-9"><div class="caja-titulo">Ejercicio 52.9</div><div class="caja-cuerpo"><p>Un documento se descuenta al \(18\%\) anual durante \(5\) meses.</p>
+<p>Si el descuento es:</p>
+<div class="mate"><span class="mate-bloque">\[\$2{,}250,\]</span></div>
+<p>calcula el valor nominal.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\$2{,}250 = M \times 0.18 \times \frac{5}{12} \implies 0.075 M = \$2{,}250 \implies M = \$30{,}000.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-10"><div class="caja-titulo">Ejercicio 52.10</div><div class="caja-cuerpo"><p>Se invierten:</p>
+<div class="mate"><span class="mate-bloque">\[\$18{,}000\]</span></div>
+<p>al \(12\%\) anual durante \(120\) días.</p>
+<p>Calcula el interés:</p>
+<ol><li>utilizando año comercial;</li><li>utilizando año exacto.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><ol><li>Comercial: \(I = \$18{,}000 \times 0.12 \times \frac{120}{360} = \$720\).</li><li>Exacto: \(I = \$18{,}000 \times 0.12 \times \frac{120}{365} \approx \$710.14\).</li></ol></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-11"><div class="caja-titulo">Ejercicio 52.11</div><div class="caja-cuerpo"><p>Se invierten:</p>
+<div class="mate"><span class="mate-bloque">\[\$10{,}000\]</span></div>
+<p>al \(6\%\) anual durante \(3\) años.</p>
+<p>Calcula:</p>
+<ol><li>el monto con interés simple;</li><li>el monto con interés compuesto anual;</li><li>la diferencia entre ambos montos.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><ol><li>Interés simple: \(M = \$10{,}000(1 + 0.06 \times 3) = \$11{,}800\).</li><li>Interés compuesto: \(M = \$10{,}000(1.06)^3 \approx \$11{,}910.16\).</li><li>Diferencia: \(\$11{,}910.16 - \$11{,}800 = \$110.16\).</li></ol></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-12"><div class="caja-titulo">Ejercicio 52.12</div><div class="caja-cuerpo"><p>Una persona invierte:</p>
+<div class="mate"><span class="mate-bloque">\[\$20{,}000\]</span></div>
+<p>al \(10\%\) anual simple.</p>
+<p>¿Cuánto tiempo debe mantener la inversión para obtener un monto de:</p>
+<div class="mate"><span class="mate-bloque">\[\$26{,}000?\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\$26{,}000 = \$20{,}000 (1 + 0.10 t) \implies 1.3 = 1 + 0.10 t \implies 0.30 = 0.10 t \implies t = 3 \text{ años}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-13"><div class="caja-titulo">Ejercicio 52.13</div><div class="caja-cuerpo"><p>Un capital de:</p>
+<div class="mate"><span class="mate-bloque">\[\$14{,}000\]</span></div>
+<p>se convierte en:</p>
+<div class="mate"><span class="mate-bloque">\[\$16{,}100\]</span></div>
+<p>en \(18\) meses mediante interés simple.</p>
+<p>Calcula la tasa anual.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El tiempo es \(1.5\) años. <span class="mate-bloque">\[\$16{,}100 = \$14{,}000 (1 + r \times 1.5) \implies 1.15 = 1 + 1.5 r \implies 1.5 r = 0.15 \implies r = 0.10 = 10\%.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-52-14"><div class="caja-titulo">Ejercicio 52.14</div><div class="caja-cuerpo"><p>Un pagaré de:</p>
+<div class="mate"><span class="mate-bloque">\[\$60{,}000\]</span></div>
+<p>se descuenta \(75\) días antes de su vencimiento con una tasa de descuento del \(16\%\) anual.</p>
+<p>Utiliza un año comercial y calcula:</p>
+<ol><li>el descuento;</li><li>el valor efectivo.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><ol><li>Descuento: \(D = \$60{,}000 \times 0.16 \times \frac{75}{360} = \$2{,}000\).</li><li>Valor efectivo: \(\$60{,}000 - \$2{,}000 = \$58{,}000\).</li></ol></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Las soluciones se encuentran al final de la guía, en el apéndice <em>Soluciones a los ejercicios</em>, sección <em>Capítulo 52</em>.</p></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="51-elementos-financieros.html"><span>← Anterior</span>51. Elementos financieros básicos</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

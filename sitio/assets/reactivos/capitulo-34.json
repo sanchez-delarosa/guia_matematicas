@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "34",
+    "titulo": "Parábola",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "34.1",
+        "nombre": "Definición y elementos"
+      },
+      {
+        "codigo": "34.2",
+        "nombre": "Formas ordinarias"
+      },
+      {
+        "codigo": "34.3",
+        "nombre": "Vértice en el origen"
+      },
+      {
+        "codigo": "34.4",
+        "nombre": "Vértice fuera del origen"
+      },
+      {
+        "codigo": "34.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      {
+        "codigo": "34.6",
+        "nombre": "Procedimiento rápido"
+      },
+      {
+        "codigo": "34.7",
+        "nombre": "Resumen"
+      },
+      {
+        "codigo": "34.8",
+        "nombre": "Errores frecuentes"
+      },
+      {
+        "codigo": "34.9",
+        "nombre": "Ejercicios propuestos"
+      }
+    ],
+    "criterio_de_inclusion": "Secciones 34.1 a 34.9 conforme al temario del capítulo.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-34-1-01",
+      "pregunta": "Una parábola es el conjunto de puntos equidistantes de:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Un foco y una directriz",
+        "B": "Dos focos",
+        "C": "Un centro y un radio",
+        "D": "Dos rectas paralelas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-1-02",
+      "pregunta": "El punto fijo de la definición se llama:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Centro",
+        "B": "Radio",
+        "C": "Asíntota",
+        "D": "Foco"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-1-03",
+      "pregunta": "La recta fija de la definición se llama:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Cuerda",
+        "B": "Tangente",
+        "C": "Directriz",
+        "D": "Eje focal"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-1-04",
+      "pregunta": "El eje de simetría de una parábola pasa por:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Los extremos del lado recto",
+        "B": "El vértice y el foco",
+        "C": "Solo la directriz",
+        "D": "Dos focos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-1-05",
+      "pregunta": "El vértice es el punto donde la parábola:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Cambia de sentido y corta su eje de simetría",
+        "B": "Corta siempre el eje $x$",
+        "C": "Tiene dos tangentes",
+        "D": "Se vuelve circunferencia"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-1-06",
+      "pregunta": "El segmento focal perpendicular al eje se llama:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Radio",
+        "B": "Diámetro",
+        "C": "Cuerda central",
+        "D": "Lado recto"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-1-07",
+      "pregunta": "La longitud del lado recto es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "$2|p|$",
+        "B": "$p^2$",
+        "C": "$|4p|$",
+        "D": "$|p|$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-1-08",
+      "pregunta": "Si $p>0$ en $(y-k)^2=4p(x-h)$, la parábola abre:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Hacia abajo",
+        "B": "A la derecha",
+        "C": "A la izquierda",
+        "D": "Hacia arriba"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-1-09",
+      "pregunta": "Si $p<0$ en $(x-h)^2=4p(y-k)$, la parábola abre:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Hacia abajo",
+        "B": "Hacia arriba",
+        "C": "A la derecha",
+        "D": "A la izquierda"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-1-10",
+      "pregunta": "Una parábola tiene:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Dos focos",
+        "B": "Un centro",
+        "C": "Dos asíntotas",
+        "D": "Un foco"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-2-01",
+      "pregunta": "La forma ordinaria horizontal es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=r^2$",
+        "B": "$y=mx+b$",
+        "C": "$(y-k)^2=4p(x-h)$",
+        "D": "$(x-h)^2=4p(y-k)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-2-02",
+      "pregunta": "La forma ordinaria vertical es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$y=mx+b$",
+        "B": "$(x-h)^2=4p(y-k)$",
+        "C": "$(y-k)^2=4p(x-h)$",
+        "D": "$x^2-y^2=1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-2-03",
+      "pregunta": "En ambas formas, el vértice es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h,k)$",
+        "B": "$(p,p)$",
+        "C": "$(-h,-k)$",
+        "D": "$(0,p)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-2-04",
+      "pregunta": "En la forma horizontal, el foco es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h,k+p)$",
+        "B": "$(h-p,k-p)$",
+        "C": "$(p,k)$",
+        "D": "$(h+p,k)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-2-05",
+      "pregunta": "En la forma horizontal, la directriz es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$x=h+p$",
+        "B": "$y=k+p$",
+        "C": "$x=h-p$",
+        "D": "$y=k-p$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-2-06",
+      "pregunta": "En la forma vertical, el foco es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(p,k)$",
+        "B": "$(h,k+p)$",
+        "C": "$(h+p,k)$",
+        "D": "$(h,k-p)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-2-07",
+      "pregunta": "En la forma vertical, la directriz es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$y=k-p$",
+        "B": "$x=h-p$",
+        "C": "$y=k+p$",
+        "D": "$x=h+p$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-2-08",
+      "pregunta": "Si el término cuadrático es el de $y$, el eje es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "Vertical",
+        "B": "Oblicuo necesariamente",
+        "C": "Circular",
+        "D": "Horizontal"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-2-09",
+      "pregunta": "Si el término cuadrático es el de $x$, el eje es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "Circular",
+        "B": "Indeterminado",
+        "C": "Vertical",
+        "D": "Horizontal"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-2-10",
+      "pregunta": "El signo de $p$ determina:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "El número de focos",
+        "B": "La dirección de apertura",
+        "C": "La ubicación exacta del vértice",
+        "D": "La longitud del eje"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-3-01",
+      "pregunta": "En $y^2=8x$, el valor de $p$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.3",
+        "nombre": "Vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$8$",
+        "C": "$4$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-3-02",
+      "pregunta": "El foco de $y^2=8x$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.3",
+        "nombre": "Vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(8,0)$",
+        "B": "$(0,2)$",
+        "C": "$(-2,0)$",
+        "D": "$(2,0)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-3-03",
+      "pregunta": "La directriz de $y^2=8x$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.3",
+        "nombre": "Vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-2$",
+        "B": "$y=2$",
+        "C": "$x=-2$",
+        "D": "$x=2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-3-04",
+      "pregunta": "En $x^2=12y$, el valor de $p$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.3",
+        "nombre": "Vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$3$",
+        "C": "$12$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-3-05",
+      "pregunta": "El foco de $x^2=12y$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.3",
+        "nombre": "Vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,3)$",
+        "B": "$(3,0)$",
+        "C": "$(0,-3)$",
+        "D": "$(0,12)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-3-06",
+      "pregunta": "La directriz de $x^2=12y$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.3",
+        "nombre": "Vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$y=3$",
+        "B": "$x=-3$",
+        "C": "$x=3$",
+        "D": "$y=-3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-3-07",
+      "pregunta": "La parábola $y^2=-16x$ abre:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.3",
+        "nombre": "Vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "Hacia arriba",
+        "B": "Hacia abajo",
+        "C": "A la izquierda",
+        "D": "A la derecha"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-3-08",
+      "pregunta": "El foco de $y^2=-16x$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.3",
+        "nombre": "Vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(-16,0)$",
+        "B": "$(-4,0)$",
+        "C": "$(4,0)$",
+        "D": "$(0,-4)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-3-09",
+      "pregunta": "La parábola $x^2=-20y$ abre:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.3",
+        "nombre": "Vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "Hacia abajo",
+        "B": "Hacia arriba",
+        "C": "A la derecha",
+        "D": "A la izquierda"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-3-10",
+      "pregunta": "La longitud del lado recto de $x^2=-20y$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.3",
+        "nombre": "Vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$10$",
+        "C": "$400$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-4-01",
+      "pregunta": "El vértice de $(y-2)^2=12(x+1)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.4",
+        "nombre": "Vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,-1)$",
+        "B": "$(-1,-2)$",
+        "C": "$(-1,2)$",
+        "D": "$(1,-2)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-4-02",
+      "pregunta": "El foco de $(y-2)^2=12(x+1)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.4",
+        "nombre": "Vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,2)$",
+        "B": "$(2,2)$",
+        "C": "$(-4,2)$",
+        "D": "$(-1,5)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-4-03",
+      "pregunta": "La directriz de $(y-2)^2=12(x+1)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.4",
+        "nombre": "Vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-4$",
+        "B": "$x=2$",
+        "C": "$y=-1$",
+        "D": "$y=5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-4-04",
+      "pregunta": "El vértice de $(x+3)^2=-8(y-1)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.4",
+        "nombre": "Vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,-1)$",
+        "B": "$(-3,-1)$",
+        "C": "$(1,-3)$",
+        "D": "$(-3,1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-4-05",
+      "pregunta": "El foco de $(x+3)^2=-8(y-1)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.4",
+        "nombre": "Vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,3)$",
+        "B": "$(3,-1)$",
+        "C": "$(-3,-1)$",
+        "D": "$(-1,1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-4-06",
+      "pregunta": "La directriz de $(x+3)^2=-8(y-1)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.4",
+        "nombre": "Vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-5$",
+        "B": "$y=3$",
+        "C": "$y=-1$",
+        "D": "$x=-1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-4-07",
+      "pregunta": "La parábola $(y+4)^2=-20(x-2)$ abre:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.4",
+        "nombre": "Vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "A la izquierda",
+        "B": "A la derecha",
+        "C": "Hacia arriba",
+        "D": "Hacia abajo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-4-08",
+      "pregunta": "El foco de $(y+4)^2=-20(x-2)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.4",
+        "nombre": "Vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(7,-4)$",
+        "B": "$(2,-9)$",
+        "C": "$(-5,4)$",
+        "D": "$(-3,-4)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-4-09",
+      "pregunta": "La parábola $(x-5)^2=16(y+2)$ abre:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.4",
+        "nombre": "Vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "A la derecha",
+        "B": "A la izquierda",
+        "C": "Hacia arriba",
+        "D": "Hacia abajo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-4-10",
+      "pregunta": "El foco de $(x-5)^2=16(y+2)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.4",
+        "nombre": "Vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(4,2)$",
+        "B": "$(5,2)$",
+        "C": "$(9,-2)$",
+        "D": "$(5,-6)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-5-01",
+      "pregunta": "Transforme $y^2-4y-8x+20=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(y-2)^2=8(x-2)$",
+        "B": "$(y+2)^2=8(x+2)$",
+        "C": "$(y-2)^2=-8(x-2)$",
+        "D": "$(x-2)^2=8(y-2)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-5-02",
+      "pregunta": "Transforme $x^2+6x-12y+21=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-3)^2=12(y+1)$",
+        "B": "$(x+3)^2=-12(y-1)$",
+        "C": "$(y+3)^2=12(x-1)$",
+        "D": "$(x+3)^2=12(y-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-5-03",
+      "pregunta": "Transforme $y^2+8y+4x+12=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+4)^2=-4(y-1)$",
+        "B": "$(y+4)^2=4(x-1)$",
+        "C": "$(y+4)^2=-4(x-1)$",
+        "D": "$(y-4)^2=4(x+1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-5-04",
+      "pregunta": "Transforme $x^2-10x+8y+17=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-5)^2=8(y-1)$",
+        "B": "$(x-5)^2=-8(y-1)$",
+        "C": "$(x+5)^2=8(y+1)$",
+        "D": "$(y-5)^2=-8(x-1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-5-05",
+      "pregunta": "Al completar $y^2-6y$, se obtiene:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(y-3)^2-9$",
+        "B": "$(y-6)^2-36$",
+        "C": "$(y-3)^2+9$",
+        "D": "$(y+3)^2-9$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-5-06",
+      "pregunta": "Al completar $x^2+4x$, se obtiene:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+4)^2-16$",
+        "B": "$(x-2)^2+4$",
+        "C": "$(x+2)^2+4$",
+        "D": "$(x+2)^2-4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-5-07",
+      "pregunta": "En $x^2+Dx+Ey+F=0$, la parábola tiene eje:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "Circular",
+        "B": "Oblicuo siempre",
+        "C": "Vertical",
+        "D": "Horizontal"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-5-08",
+      "pregunta": "En $y^2+Dx+Ey+F=0$, la parábola tiene eje:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "Sin eje",
+        "B": "Horizontal",
+        "C": "Vertical",
+        "D": "Circular"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-5-09",
+      "pregunta": "Para pasar a forma ordinaria se debe:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "Completar el cuadrado en la variable cuadrática",
+        "B": "Factorizar ambas variables como binomios",
+        "C": "Elevar toda la ecuación al cuadrado",
+        "D": "Eliminar el término lineal no cuadrático"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-5-10",
+      "pregunta": "Tras obtener la forma ordinaria, $4p$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "El término independiente original",
+        "B": "La coordenada del vértice",
+        "C": "El cuadrado del foco",
+        "D": "El coeficiente del factor lineal"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-6-01",
+      "pregunta": "Primer paso para analizar una ecuación de parábola:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Calcular un radio",
+        "B": "Igualar $x$ con $y$",
+        "C": "Identificar cuál variable está al cuadrado",
+        "D": "Buscar dos focos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-6-02",
+      "pregunta": "Después de agrupar el trinomio cuadrático se debe:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicar por cero",
+        "B": "Completar el cuadrado",
+        "C": "Aplicar Pitágoras",
+        "D": "Derivar"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-6-03",
+      "pregunta": "En $(y-k)^2=4p(x-h)$, el vértice se lee como:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$(h,k)$",
+        "B": "$(-h,-k)$",
+        "C": "$(4p,k)$",
+        "D": "$(p,p)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-6-04",
+      "pregunta": "Para hallar $p$ rápidamente se debe:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicarlo por $4$",
+        "B": "Elevarlo al cuadrado",
+        "C": "Cambiar siempre su signo",
+        "D": "Dividir entre $4$ el coeficiente lineal"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-6-05",
+      "pregunta": "Después de hallar $p$, el foco horizontal se obtiene:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Restando $p$ a ambas coordenadas",
+        "B": "Multiplicando $h$ por $p$",
+        "C": "Sumando $p$ a la coordenada $h$",
+        "D": "Sumando $p$ a $k$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-6-06",
+      "pregunta": "Después de hallar $p$, el foco vertical se obtiene:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicando $k$ por $p$",
+        "B": "Sumando $p$ a la coordenada $k$",
+        "C": "Sumando $p$ a $h$",
+        "D": "Restando $p$ a ambas coordenadas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-6-07",
+      "pregunta": "La directriz queda a una distancia del vértice igual a:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$|p|$",
+        "B": "$|4p|$",
+        "C": "$2|p|$",
+        "D": "$p^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-6-08",
+      "pregunta": "Para verificar foco y directriz se comprueba que:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Coinciden",
+        "B": "Ambos están sobre la parábola",
+        "C": "Forman una circunferencia",
+        "D": "Están a igual distancia del vértice en sentidos opuestos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-6-09",
+      "pregunta": "El lado recto se calcula rápidamente con:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$2p$",
+        "B": "$p^2$",
+        "C": "$|4p|$",
+        "D": "$|p|$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-6-10",
+      "pregunta": "Una revisión final debe comprobar:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Que el foco esté en la directriz",
+        "B": "Que la apertura concuerde con el signo de $p$",
+        "C": "Que ambas variables estén al cuadrado",
+        "D": "Que exista un centro"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-7-01",
+      "pregunta": "La ecuación horizontal básica es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$y^2=4px$",
+        "B": "$x^2=4py$",
+        "C": "$x^2+y^2=r^2$",
+        "D": "$y=mx+b$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-7-02",
+      "pregunta": "La ecuación vertical básica es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$y^2=4px$",
+        "B": "$x^2-y^2=1$",
+        "C": "$xy=p$",
+        "D": "$x^2=4py$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-7-03",
+      "pregunta": "El foco horizontal general es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$(h-p,k)$",
+        "B": "$(p,p)$",
+        "C": "$(h+p,k)$",
+        "D": "$(h,k+p)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-7-04",
+      "pregunta": "El foco vertical general es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$(p,p)$",
+        "B": "$(h,k+p)$",
+        "C": "$(h+p,k)$",
+        "D": "$(h,k-p)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-7-05",
+      "pregunta": "La directriz horizontal general es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$x=h-p$",
+        "B": "$x=h+p$",
+        "C": "$y=k-p$",
+        "D": "$y=k+p$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-7-06",
+      "pregunta": "La directriz vertical general es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$y=k+p$",
+        "B": "$x=h-p$",
+        "C": "$x=h+p$",
+        "D": "$y=k-p$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-7-07",
+      "pregunta": "La longitud del lado recto es: (sección 34.7)",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$2|p|$",
+        "B": "$p^2$",
+        "C": "$4|p|$",
+        "D": "$|p|$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-7-08",
+      "pregunta": "Si $p=0$, la ecuación ordinaria:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Representa una circunferencia",
+        "B": "Se degenera y no representa una parábola ordinaria",
+        "C": "Representa una parábola amplia",
+        "D": "Tiene dos focos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-7-09",
+      "pregunta": "El eje de simetría de $(y-k)^2=4p(x-h)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$y=k$",
+        "B": "$x=h$",
+        "C": "$y=p$",
+        "D": "$x=p$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-7-10",
+      "pregunta": "El eje de simetría de $(x-h)^2=4p(y-k)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$y=k$",
+        "B": "$x=p$",
+        "C": "$y=p$",
+        "D": "$x=h$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-8-01",
+      "pregunta": "En $(y-3)^2=8(x+2)$, confundir el centro con el vértice es un error porque la parábola:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Es una circunferencia",
+        "B": "Tiene dos centros",
+        "C": "No tiene centro",
+        "D": "Tiene centro $(2,3)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-8-02",
+      "pregunta": "En $(x+4)^2=12(y-1)$, el vértice correcto es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "$(-4,-1)$",
+        "B": "$(-4,1)$",
+        "C": "$(4,-1)$",
+        "D": "$(4,1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-8-03",
+      "pregunta": "Si $4p=-20$, el valor correcto de $p$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "$-5$",
+        "B": "$-20$",
+        "C": "$5$",
+        "D": "$-80$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-8-04",
+      "pregunta": "En una parábola horizontal, colocar el foco variando $y$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Correcto siempre",
+        "B": "Correcto si $p>0$",
+        "C": "Irrelevante",
+        "D": "Incorrecto, debe variar $x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-8-05",
+      "pregunta": "En una parábola vertical, la directriz debe ser:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Oblicua",
+        "B": "Circular",
+        "C": "Horizontal",
+        "D": "Vertical"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-8-06",
+      "pregunta": "Al completar $x^2-6x$, se debe sumar y restar:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "$36$",
+        "B": "$9$",
+        "C": "$3$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-8-07",
+      "pregunta": "Olvidar el signo dentro de $(x-h)$ produce:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Una coordenada de vértice con signo incorrecto",
+        "B": "Un radio incorrecto",
+        "C": "Dos focos",
+        "D": "Una asíntota"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-8-08",
+      "pregunta": "Usar $p$ como longitud del lado recto es incorrecto; la longitud es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "$|p|$",
+        "B": "$2|p|$",
+        "C": "$p^2$",
+        "D": "$|4p|$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-8-09",
+      "pregunta": "Una ecuación con $x^2$ y $y^2$ con igual coeficiente no representa normalmente:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Una cónica",
+        "B": "Una ecuación cuadrática",
+        "C": "Una parábola",
+        "D": "Una circunferencia"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-8-10",
+      "pregunta": "Al transformar una ecuación general, los términos que se agregan para completar cuadrados deben:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicarse por la variable",
+        "B": "Compensarse en ambos miembros",
+        "C": "Eliminarse sin compensación",
+        "D": "Cambiar siempre de signo dos veces"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-9-01",
+      "pregunta": "Halle el foco de $y^2=24x$.",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(6,0)$",
+        "B": "$(24,0)$",
+        "C": "$(0,6)$",
+        "D": "$(-6,0)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-9-02",
+      "pregunta": "Halle la directriz de $x^2=-16y$.",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-4$",
+        "B": "$x=4$",
+        "C": "$x=-4$",
+        "D": "$y=4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-9-03",
+      "pregunta": "Halle el vértice de $(y+1)^2=20(x-3)$.",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,1)$",
+        "B": "$(-1,3)$",
+        "C": "$(3,-1)$",
+        "D": "$(-3,1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-9-04",
+      "pregunta": "Halle el foco de $(x-2)^2=8(y+4)$.",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,2)$",
+        "B": "$(2,-2)$",
+        "C": "$(4,-4)$",
+        "D": "$(2,-6)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-9-05",
+      "pregunta": "Halle la directriz de $(y-5)^2=-12(x+2)$.",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$",
+        "B": "$x=-5$",
+        "C": "$y=2$",
+        "D": "$x=-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-9-06",
+      "pregunta": "Determine la apertura de $(x+1)^2=-4(y-3)$.",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "Hacia arriba",
+        "B": "A la derecha",
+        "C": "A la izquierda",
+        "D": "Hacia abajo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-9-07",
+      "pregunta": "La longitud del lado recto de $(y-2)^2=28(x+1)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$14$",
+        "B": "$196$",
+        "C": "$28$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-9-08",
+      "pregunta": "El eje de simetría de $(x-6)^2=20(y+2)$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=6$",
+        "B": "$x=6$",
+        "C": "$y=-2$",
+        "D": "$x=-6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-9-09",
+      "pregunta": "La forma ordinaria de $y^2+2y-12x+13=0$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(y+1)^2=12(x-1)$",
+        "B": "$(y-1)^2=12(x+1)$",
+        "C": "$(x+1)^2=12(y-1)$",
+        "D": "$(y+1)^2=-12(x-1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-34-9-10",
+      "pregunta": "La forma ordinaria de $x^2-4x+8y-12=0$ es:",
+      "tema": {
+        "codigo": "34",
+        "nombre": "Parábola",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "34.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+2)^2=8(y+2)$",
+        "B": "$(y-2)^2=-8(x-2)$",
+        "C": "$(x-2)^2=8(y-2)$",
+        "D": "$(x-2)^2=-8(y-2)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar parábolas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

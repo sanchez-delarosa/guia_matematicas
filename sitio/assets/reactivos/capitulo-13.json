@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "13",
+    "titulo": "Sistemas de ecuaciones",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "13.1",
+        "nombre": "Sistemas 2x2"
+      },
+      {
+        "codigo": "13.2",
+        "nombre": "Interpretación geométrica"
+      },
+      {
+        "codigo": "13.3",
+        "nombre": "Método de eliminación"
+      },
+      {
+        "codigo": "13.4",
+        "nombre": "Método de sustitución"
+      },
+      {
+        "codigo": "13.5",
+        "nombre": "Método de igualación"
+      },
+      {
+        "codigo": "13.6",
+        "nombre": "Método de determinantes"
+      },
+      {
+        "codigo": "13.7",
+        "nombre": "Elección del método"
+      },
+      {
+        "codigo": "13.8",
+        "nombre": "Sistemas 3x3"
+      },
+      {
+        "codigo": "13.9",
+        "nombre": "Problemas de aplicación"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Reactivos distintos y específicos por subtema, inspirados en la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-13-1-01",
+      "pregunta": "¿Qué representa una solución de un sistema $2\\times2$?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Sistemas 2x2"
+      },
+      "respuestas_posibles": {
+        "A": "Un par ordenado que satisface simultáneamente ambas ecuaciones",
+        "B": "Un valor que satisface solo la primera ecuación",
+        "C": "Cualquier punto de una recta",
+        "D": "La suma de los coeficientes"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "comprender solución simultánea",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-1-02",
+      "pregunta": "¿Cuál par satisface $x+y=7$ y $x-y=1$?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Sistemas 2x2"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,4)$",
+        "B": "$(7,1)$",
+        "C": "$(1,6)$",
+        "D": "$(4,3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "verificar solución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-1-03",
+      "pregunta": "En un sistema $2\\times2$, normalmente se buscan:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Sistemas 2x2"
+      },
+      "respuestas_posibles": {
+        "A": "Una incógnita y tres ecuaciones",
+        "B": "Dos intervalos",
+        "C": "Dos incógnitas que satisfacen dos ecuaciones",
+        "D": "Dos ecuaciones cuadráticas"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer estructura",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-1-04",
+      "pregunta": "¿Cuál sistema es lineal $2\\times2$?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Sistemas 2x2"
+      },
+      "respuestas_posibles": {
+        "A": "$\\begin{cases}xy=2\\\\x+y=4\\end{cases}$",
+        "B": "$\\begin{cases}2x+y=5\\\\x-3y=4\\end{cases}$",
+        "C": "$\\begin{cases}x^2+y=5\\\\x-y=1\\end{cases}$",
+        "D": "$x+y=3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar sistema lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-1-05",
+      "pregunta": "Verifique si $(2,-1)$ satisface $3x+y=5$ y $x-2y=4$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Sistemas 2x2"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, satisface ambas ecuaciones",
+        "B": "Solo satisface la primera",
+        "C": "Solo satisface la segunda",
+        "D": "No satisface ninguna"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sustituir par ordenado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-1-06",
+      "pregunta": "Si un par satisface una ecuación pero no la otra, entonces:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Sistemas 2x2"
+      },
+      "respuestas_posibles": {
+        "A": "Es solución parcial y definitiva",
+        "B": "Es la única solución",
+        "C": "El sistema tiene infinitas soluciones",
+        "D": "No es solución del sistema"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "comprender simultaneidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-1-07",
+      "pregunta": "Ordene $2x-y=7$ y $3y+x=8$ en la forma $ax+by=c$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Sistemas 2x2"
+      },
+      "respuestas_posibles": {
+        "A": "$-y=7-2x$ y $3y=8-x$",
+        "B": "$2x-y-7=0$ solamente",
+        "C": "$2x-y=7$ y $x+3y=8$",
+        "D": "$2x+y=7$ y $3x+y=8$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "ordenar ecuaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-1-08",
+      "pregunta": "¿Cuál par satisface $2x+3y=12$ y $x+y=5$?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Sistemas 2x2"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,4)$",
+        "B": "$(3,2)$",
+        "C": "$(2,3)$",
+        "D": "$(4,1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver sistema sencillo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-1-09",
+      "pregunta": "Un sistema equivalente conserva:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Sistemas 2x2"
+      },
+      "respuestas_posibles": {
+        "A": "El mismo conjunto de soluciones",
+        "B": "Los mismos números escritos",
+        "C": "El mismo orden de ecuaciones obligatoriamente",
+        "D": "Solo la primera ecuación"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "comprender equivalencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-1-10",
+      "pregunta": "¿Cuál es la solución de $x=5$ y $y=-2$?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Sistemas 2x2"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,5)$",
+        "B": "$(5,2)$",
+        "C": "$(-5,-2)$",
+        "D": "$(5,-2)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "leer solución directa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-2-01",
+      "pregunta": "Geométricamente, la solución única de un sistema $2\\times2$ es:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Interpretación geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "El origen siempre",
+        "B": "El área entre dos rectas",
+        "C": "El punto de intersección de dos rectas",
+        "D": "La pendiente de una recta"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "interpretar intersección",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-2-02",
+      "pregunta": "Dos rectas paralelas distintas representan un sistema:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Interpretación geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Con solución $(0,0)$",
+        "B": "Incompatible, sin solución",
+        "C": "Compatible determinado",
+        "D": "Compatible indeterminado"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar rectas paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-2-03",
+      "pregunta": "Dos ecuaciones de la misma recta representan un sistema:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Interpretación geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Compatible indeterminado, con infinitas soluciones",
+        "B": "Incompatible",
+        "C": "Compatible determinado",
+        "D": "Cuadrático"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "clasificar rectas coincidentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-2-04",
+      "pregunta": "Las rectas $y=2x+1$ y $y=-x+4$ se intersectan en:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Interpretación geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,1)$",
+        "B": "$(0,4)$",
+        "C": "$(2,5)$",
+        "D": "$(1,3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "hallar intersección",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-2-05",
+      "pregunta": "Las rectas $y=3x-2$ y $y=3x+5$ son:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Interpretación geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Perpendiculares",
+        "B": "Secantes en $(0,0)$",
+        "C": "Paralelas y no tienen punto común",
+        "D": "Coincidentes"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "comparar pendientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-2-06",
+      "pregunta": "Las ecuaciones $2x+y=4$ y $4x+2y=8$ representan:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Interpretación geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Rectas con una intersección",
+        "B": "La misma recta",
+        "C": "Rectas paralelas distintas",
+        "D": "Rectas perpendiculares"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reconocer ecuaciones proporcionales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-2-07",
+      "pregunta": "Si las pendientes son distintas, el sistema tiene:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Interpretación geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Una solución única",
+        "B": "Ninguna solución",
+        "C": "Infinitas soluciones",
+        "D": "Dos soluciones"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "relacionar pendientes y solución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-2-08",
+      "pregunta": "¿Cuál es la interpretación de la solución $(2,-3)$?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Interpretación geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Ambas pendientes son $2$",
+        "B": "Las rectas son paralelas",
+        "C": "Solo una recta contiene ese punto",
+        "D": "Las dos rectas pasan por el punto $(2,-3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "interpretar par solución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-2-09",
+      "pregunta": "Las rectas $x+y=6$ y $2x+2y=15$ son:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Interpretación geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Secantes",
+        "B": "Perpendiculares",
+        "C": "Paralelas distintas",
+        "D": "Coincidentes"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "clasificar por proporcionalidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-2-10",
+      "pregunta": "Un sistema compatible determinado corresponde a:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Interpretación geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Una parábola y una recta",
+        "B": "Dos rectas que se cortan en un punto",
+        "C": "Dos rectas coincidentes",
+        "D": "Dos rectas paralelas distintas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar geométricamente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-3-01",
+      "pregunta": "Resuelva por eliminación $\\begin{cases}2x+3y=7\\\\1x-1y=1\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Método de eliminación"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,1)$",
+        "B": "$(1,2)$",
+        "C": "$(-2,1)$",
+        "D": "$(2,-1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver por eliminación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-3-02",
+      "pregunta": "Resuelva por eliminación $\\begin{cases}4x-2y=-10\\\\3x+5y=12\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Método de eliminación"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,-1)$",
+        "B": "$(1,3)$",
+        "C": "$(-1,-3)$",
+        "D": "$(-1,3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver por eliminación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-3-03",
+      "pregunta": "Resuelva por eliminación $\\begin{cases}-3x+4y=-17\\\\2x+1y=4\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Método de eliminación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,-2)$",
+        "B": "$(3,2)$",
+        "C": "$(3,-2)$",
+        "D": "$(-2,3)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver por eliminación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-3-04",
+      "pregunta": "Resuelva por eliminación $\\begin{cases}5x+1y=9\\\\-2x+3y=10\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Método de eliminación"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,-4)$",
+        "B": "$(1,4)$",
+        "C": "$(4,1)$",
+        "D": "$(-1,4)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver por eliminación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-3-05",
+      "pregunta": "Resuelva por eliminación $\\begin{cases}1x-4y=-14\\\\6x+2y=-6\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Método de eliminación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,3)$",
+        "B": "$(3,-2)$",
+        "C": "$(2,3)$",
+        "D": "$(-2,-3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver por eliminación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-3-06",
+      "pregunta": "Resuelva por eliminación $\\begin{cases}3x+5y=7\\\\-1x+2y=-6\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Método de eliminación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,4)$",
+        "B": "$(-4,-1)$",
+        "C": "$(4,1)$",
+        "D": "$(4,-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver por eliminación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-3-07",
+      "pregunta": "Resuelva por eliminación $\\begin{cases}2x-3y=4\\\\4x-1y=18\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Método de eliminación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-5,2)$",
+        "B": "$(5,-2)$",
+        "C": "$(5,2)$",
+        "D": "$(2,5)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver por eliminación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-3-08",
+      "pregunta": "Resuelva por eliminación $\\begin{cases}-2x+1y=7\\\\5x-3y=-18\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Método de eliminación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,-1)$",
+        "B": "$(-3,1)$",
+        "C": "$(1,-3)$",
+        "D": "$(3,1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "resolver por eliminación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-3-09",
+      "pregunta": "Resuelva por eliminación $\\begin{cases}7x-2y=18\\\\1x+4y=-6\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Método de eliminación"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,-2)$",
+        "B": "$(-2,2)$",
+        "C": "$(-2,-2)$",
+        "D": "$(2,2)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "resolver por eliminación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-3-10",
+      "pregunta": "Resuelva por eliminación $\\begin{cases}3x-1y=0\\\\-4x+2y=-2\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Método de eliminación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,-1)$",
+        "B": "$(1,-3)$",
+        "C": "$(-1,3)$",
+        "D": "$(-1,-3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "resolver por eliminación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-4-01",
+      "pregunta": "Resuelva por sustitución $\\begin{cases}2x+1y=7\\\\1x-2y=1\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Método de sustitución"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,1)$",
+        "B": "$(3,-1)$",
+        "C": "$(3,1)$",
+        "D": "$(1,3)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver por sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-4-02",
+      "pregunta": "Resuelva por sustitución $\\begin{cases}1x+3y=-4\\\\-2x+1y=1\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Método de sustitución"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{ninguna de las anteriores 3}$",
+        "B": "$(-1,-1)$",
+        "C": "$(1,-1)$",
+        "D": "$(-1,1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver por sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-4-03",
+      "pregunta": "Resuelva por sustitución $\\begin{cases}3x-2y=5\\\\1x+4y=-3\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Método de sustitución"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,-1)$",
+        "B": "$(-1,1)$",
+        "C": "$(-1,-1)$",
+        "D": "$(1,1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver por sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-4-04",
+      "pregunta": "Resuelva por sustitución $\\begin{cases}2x+5y=-1\\\\-1x+2y=-4\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Método de sustitución"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,2)$",
+        "B": "$(-2,-1)$",
+        "C": "$(2,1)$",
+        "D": "$(2,-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver por sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-4-05",
+      "pregunta": "Resuelva por sustitución $\\begin{cases}1x-4y=6\\\\3x+2y=-10\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Método de sustitución"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,2)$",
+        "B": "$\\text{ninguna de las anteriores 3}$",
+        "C": "$(-2,-2)$",
+        "D": "$(2,-2)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver por sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-4-06",
+      "pregunta": "Resuelva por sustitución $\\begin{cases}2x+3y=-1\\\\-1x+5y=-6\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Método de sustitución"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,1)$",
+        "B": "$(1,-1)$",
+        "C": "$(-1,1)$",
+        "D": "$(-1,-1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver por sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-4-07",
+      "pregunta": "Resuelva por sustitución $\\begin{cases}4x-1y=2\\\\2x+3y=8\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Método de sustitución"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,2)$",
+        "B": "$(2,1)$",
+        "C": "$(-1,2)$",
+        "D": "$(1,-2)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver por sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-4-08",
+      "pregunta": "Resuelva por sustitución $\\begin{cases}3x+2y=-5\\\\1x-4y=3\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Método de sustitución"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,-1)$",
+        "B": "$(-1,1)$",
+        "C": "$\\text{ninguna de las anteriores 3}$",
+        "D": "$(-1,-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver por sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-4-09",
+      "pregunta": "Resuelva por sustitución $\\begin{cases}5x-2y=14\\\\1x+3y=-4\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Método de sustitución"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,-2)$",
+        "B": "$(2,2)$",
+        "C": "$(2,-2)$",
+        "D": "$(-2,2)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver por sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-4-10",
+      "pregunta": "Resuelva por sustitución $\\begin{cases}2x-3y=-8\\\\1x+2y=3\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Método de sustitución"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,-2)$",
+        "B": "$(-1,2)$",
+        "C": "$(2,-1)$",
+        "D": "$(1,2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver por sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-5-01",
+      "pregunta": "Resuelva por igualación $\\begin{cases}x=2y-12\\\\x=-1y+9\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Método de igualación"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,7)$",
+        "B": "$(7,2)$",
+        "C": "$(-2,7)$",
+        "D": "$(2,-7)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver por igualación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-5-02",
+      "pregunta": "Resuelva por igualación $\\begin{cases}x=3y+7\\\\x=-2y-8\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Método de igualación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,-2)$",
+        "B": "$(2,-3)$",
+        "C": "$(-2,3)$",
+        "D": "$(-2,-3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver por igualación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-5-03",
+      "pregunta": "Resuelva por igualación $\\begin{cases}x=4y+0\\\\x=-3y+7\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Método de igualación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-4,1)$",
+        "B": "$(4,-1)$",
+        "C": "$(4,1)$",
+        "D": "$(1,4)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver por igualación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-5-04",
+      "pregunta": "Resuelva por igualación $\\begin{cases}x=5y+13\\\\x=-4y-5\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Método de igualación"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,2)$",
+        "B": "$(3,-2)$",
+        "C": "$(-2,3)$",
+        "D": "$(-3,-2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver por igualación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-5-05",
+      "pregunta": "Resuelva por igualación $\\begin{cases}x=6y-31\\\\x=-1y+4\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Método de igualación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,5)$",
+        "B": "$(5,-1)$",
+        "C": "$(1,5)$",
+        "D": "$(-1,-5)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver por igualación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-5-06",
+      "pregunta": "Resuelva por igualación $\\begin{cases}x=7y+12\\\\x=-2y+3\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Método de igualación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,5)$",
+        "B": "$(-5,-1)$",
+        "C": "$(5,1)$",
+        "D": "$(5,-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver por igualación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-5-07",
+      "pregunta": "Resuelva por igualación $\\begin{cases}x=8y-23\\\\x=-3y+10\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Método de igualación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,3)$",
+        "B": "$(1,-3)$",
+        "C": "$(1,3)$",
+        "D": "$(3,1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver por igualación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-5-08",
+      "pregunta": "Resuelva por igualación $\\begin{cases}x=9y-22\\\\x=-4y+4\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Método de igualación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-4,-2)$",
+        "B": "$(-4,2)$",
+        "C": "$(2,-4)$",
+        "D": "$(4,2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "resolver por igualación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-5-09",
+      "pregunta": "Resuelva por igualación $\\begin{cases}x=10y-14\\\\x=-1y+8\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Método de igualación"
+      },
+      "respuestas_posibles": {
+        "A": "$(6,2)$",
+        "B": "$(2,6)$",
+        "C": "$(-6,2)$",
+        "D": "$(6,-2)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "resolver por igualación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-5-10",
+      "pregunta": "Resuelva por igualación $\\begin{cases}x=11y+57\\\\x=-2y-8\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Método de igualación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-5,2)$",
+        "B": "$(-2,-5)$",
+        "C": "$(2,5)$",
+        "D": "$(2,-5)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "resolver por igualación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-6-01",
+      "pregunta": "Use la regla de Cramer para resolver $\\begin{cases}2x+1y=7\\\\1x-1y=2\\end{cases}$. El determinante principal es $\\Delta=-3$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.6",
+        "nombre": "Método de determinantes"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,1)$",
+        "B": "$(3,-1)$",
+        "C": "$(3,1)$",
+        "D": "$(1,3)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar regla de Cramer",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-6-02",
+      "pregunta": "Use la regla de Cramer para resolver $\\begin{cases}3x-2y=-7\\\\1x+4y=7\\end{cases}$. El determinante principal es $\\Delta=14$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.6",
+        "nombre": "Método de determinantes"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,-2)$",
+        "B": "$(-1,2)$",
+        "C": "$(2,-1)$",
+        "D": "$(1,2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar regla de Cramer",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-6-03",
+      "pregunta": "Use la regla de Cramer para resolver $\\begin{cases}1x+3y=-2\\\\2x-1y=10\\end{cases}$. El determinante principal es $\\Delta=-7$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.6",
+        "nombre": "Método de determinantes"
+      },
+      "respuestas_posibles": {
+        "A": "$(4,-2)$",
+        "B": "$(-2,4)$",
+        "C": "$(-4,-2)$",
+        "D": "$(4,2)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar regla de Cramer",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-6-04",
+      "pregunta": "Use la regla de Cramer para resolver $\\begin{cases}4x+1y=7\\\\-2x+3y=7\\end{cases}$. El determinante principal es $\\Delta=14$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.6",
+        "nombre": "Método de determinantes"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,1)$",
+        "B": "$(-1,3)$",
+        "C": "$(1,-3)$",
+        "D": "$(1,3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar regla de Cramer",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-6-05",
+      "pregunta": "Use la regla de Cramer para resolver $\\begin{cases}2x-5y=-24\\\\3x+1y=-2\\end{cases}$. El determinante principal es $\\Delta=17$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.6",
+        "nombre": "Método de determinantes"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,4)$",
+        "B": "$(-2,-4)$",
+        "C": "$(-2,4)$",
+        "D": "$(4,-2)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar regla de Cramer",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-6-06",
+      "pregunta": "Use la regla de Cramer para resolver $\\begin{cases}5x+2y=8\\\\1x-3y=5\\end{cases}$. El determinante principal es $\\Delta=-17$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.6",
+        "nombre": "Método de determinantes"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,1)$",
+        "B": "$(2,-1)$",
+        "C": "$(-1,2)$",
+        "D": "$(-2,-1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar regla de Cramer",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-6-07",
+      "pregunta": "Use la regla de Cramer para resolver $\\begin{cases}3x+4y=6\\\\-1x+2y=8\\end{cases}$. El determinante principal es $\\Delta=10$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.6",
+        "nombre": "Método de determinantes"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,3)$",
+        "B": "$(3,-2)$",
+        "C": "$(2,3)$",
+        "D": "$(-2,-3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicar regla de Cramer",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-6-08",
+      "pregunta": "Use la regla de Cramer para resolver $\\begin{cases}2x-1y=9\\\\5x+2y=18\\end{cases}$. El determinante principal es $\\Delta=9$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.6",
+        "nombre": "Método de determinantes"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,4)$",
+        "B": "$(-4,-1)$",
+        "C": "$(4,1)$",
+        "D": "$(4,-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicar regla de Cramer",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-6-09",
+      "pregunta": "Use la regla de Cramer para resolver $\\begin{cases}1x-2y=-7\\\\3x+5y=1\\end{cases}$. El determinante principal es $\\Delta=11$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.6",
+        "nombre": "Método de determinantes"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,2)$",
+        "B": "$(-3,-2)$",
+        "C": "$(-3,2)$",
+        "D": "$(2,-3)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "aplicar regla de Cramer",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-6-10",
+      "pregunta": "Use la regla de Cramer para resolver $\\begin{cases}4x-3y=16\\\\2x+1y=-2\\end{cases}$. El determinante principal es $\\Delta=10$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.6",
+        "nombre": "Método de determinantes"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,4)$",
+        "B": "$(1,-4)$",
+        "C": "$(-4,1)$",
+        "D": "$(-1,-4)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicar regla de Cramer",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-7-01",
+      "pregunta": "Si una ecuación ya está despejada como $y=2x-3$, conviene usar:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.7",
+        "nombre": "Elección del método"
+      },
+      "respuestas_posibles": {
+        "A": "Sustitución",
+        "B": "Determinantes obligatoriamente",
+        "C": "Eliminación de tres variables",
+        "D": "Factorización"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "elegir sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-7-02",
+      "pregunta": "Si los coeficientes de $y$ son $5$ y $-5$, conviene usar:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.7",
+        "nombre": "Elección del método"
+      },
+      "respuestas_posibles": {
+        "A": "Igualación con fracciones",
+        "B": "Cramer de $3\\times3$",
+        "C": "Completar el cuadrado",
+        "D": "Eliminación directa"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "elegir eliminación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-7-03",
+      "pregunta": "Si ambas ecuaciones están despejadas para $x$, conviene usar:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.7",
+        "nombre": "Elección del método"
+      },
+      "respuestas_posibles": {
+        "A": "Fórmula general",
+        "B": "Método gráfico únicamente",
+        "C": "Igualación",
+        "D": "Factor común"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "elegir igualación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-7-04",
+      "pregunta": "Si se desean fórmulas sistemáticas y $\\Delta\\neq0$, puede usarse:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.7",
+        "nombre": "Elección del método"
+      },
+      "respuestas_posibles": {
+        "A": "División sintética",
+        "B": "Regla de Cramer",
+        "C": "Producto cero",
+        "D": "Binomio de Newton"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "elegir determinantes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-7-05",
+      "pregunta": "Para $x+y=5$ y $x-y=1$, el método más breve es:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.7",
+        "nombre": "Elección del método"
+      },
+      "respuestas_posibles": {
+        "A": "Eliminación al sumar las ecuaciones",
+        "B": "Completar el cuadrado",
+        "C": "Cramer $3\\times3$",
+        "D": "Igualación tras despejes largos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "seleccionar método eficiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-7-06",
+      "pregunta": "Para $y=3x+1$ y $2x+y=11$, el método más directo es:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.7",
+        "nombre": "Elección del método"
+      },
+      "respuestas_posibles": {
+        "A": "Eliminación con varios escalados",
+        "B": "Método de raíces",
+        "C": "Desigualdades",
+        "D": "Sustitución"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "seleccionar sustitución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-7-07",
+      "pregunta": "Antes de elegir método en un sistema con fracciones conviene:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.7",
+        "nombre": "Elección del método"
+      },
+      "respuestas_posibles": {
+        "A": "Cambiar las ecuaciones por desigualdades",
+        "B": "Multiplicar solo una parte de cada ecuación",
+        "C": "Eliminar denominadores y simplificar",
+        "D": "Sumar todos los denominadores"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "preparar sistema",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-7-08",
+      "pregunta": "¿Qué método evita despejar variables cuando los coeficientes ya son opuestos?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.7",
+        "nombre": "Elección del método"
+      },
+      "respuestas_posibles": {
+        "A": "Método gráfico aproximado",
+        "B": "Eliminación",
+        "C": "Igualación",
+        "D": "Sustitución"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "comparar métodos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-7-09",
+      "pregunta": "Si $\\Delta=0$ en Cramer, se debe:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.7",
+        "nombre": "Elección del método"
+      },
+      "respuestas_posibles": {
+        "A": "Analizar si hay infinitas o ninguna solución",
+        "B": "Dividir entre cero",
+        "C": "Concluir siempre solución única",
+        "D": "Asignar $x=y=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interpretar determinante nulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-7-10",
+      "pregunta": "La elección correcta del método debe buscar:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.7",
+        "nombre": "Elección del método"
+      },
+      "respuestas_posibles": {
+        "A": "El método más largo",
+        "B": "Usar siempre el mismo método",
+        "C": "Evitar verificar la solución",
+        "D": "Menos operaciones y menor riesgo de error"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "criterio de eficiencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-8-01",
+      "pregunta": "Resuelva el sistema $3\\times3$ $\\begin{cases}1x+1y+1z=2\\\\2x-1y+1z=-3\\\\1x+2y-1z=2\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.8",
+        "nombre": "Sistemas 3x3"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,2,1)$",
+        "B": "$(-1,2,-1)$",
+        "C": "$(-1,2,1)$",
+        "D": "$(2,-1,1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "resolver sistema 3x3",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-8-02",
+      "pregunta": "Resuelva el sistema $3\\times3$ $\\begin{cases}2x+1y-1z=0\\\\1x-1y+2z=9\\\\3x+2y+1z=7\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.8",
+        "nombre": "Sistemas 3x3"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,-1,-3)$",
+        "B": "$(2,-1,3)$",
+        "C": "$(-1,2,3)$",
+        "D": "$(-2,-1,3)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "resolver sistema 3x3",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-8-03",
+      "pregunta": "Resuelva el sistema $3\\times3$ $\\begin{cases}1x+2y+1z=3\\\\2x-1y+1z=-2\\\\-1x+1y+2z=-3\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.8",
+        "nombre": "Sistemas 3x3"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,2,-2)$",
+        "B": "$(2,1,-2)$",
+        "C": "$(-1,2,-2)$",
+        "D": "$(1,2,2)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "resolver sistema 3x3",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-8-04",
+      "pregunta": "Resuelva el sistema $3\\times3$ $\\begin{cases}3x+1y+1z=-2\\\\1x+2y-1z=-3\\\\2x-1y+3z=4\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.8",
+        "nombre": "Sistemas 3x3"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,-2,3)$",
+        "B": "$(2,1,3)$",
+        "C": "$(-2,1,-3)$",
+        "D": "$(-2,1,3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "resolver sistema 3x3",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-8-05",
+      "pregunta": "Resuelva el sistema $3\\times3$ $\\begin{cases}1x-1y+1z=0\\\\2x+1y+3z=5\\\\3x+2y-1z=14\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.8",
+        "nombre": "Sistemas 3x3"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,2,-1)$",
+        "B": "$(3,2,1)$",
+        "C": "$(3,2,-1)$",
+        "D": "$(2,3,-1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "resolver sistema 3x3",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-8-06",
+      "pregunta": "Resuelva el sistema $3\\times3$ $\\begin{cases}2x+3y-1z=-8\\\\1x-2y+2z=13\\\\3x+1y+1z=5\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.8",
+        "nombre": "Sistemas 3x3"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,-2,-4)$",
+        "B": "$(1,-2,4)$",
+        "C": "$(-2,1,4)$",
+        "D": "$(-1,-2,4)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "resolver sistema 3x3",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-8-07",
+      "pregunta": "Resuelva el sistema $3\\times3$ $\\begin{cases}1x+1y-2z=-2\\\\2x-1y+1z=-3\\\\3x+2y+1z=5\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.8",
+        "nombre": "Sistemas 3x3"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,3,2)$",
+        "B": "$(3,-1,2)$",
+        "C": "$(1,3,2)$",
+        "D": "$(-1,3,-2)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "resolver sistema 3x3",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-8-08",
+      "pregunta": "Resuelva el sistema $3\\times3$ $\\begin{cases}2x-1y+3z=0\\\\1x+2y-1z=5\\\\3x+1y+2z=5\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.8",
+        "nombre": "Sistemas 3x3"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,2,-1)$",
+        "B": "$(-2,1,-1)$",
+        "C": "$(2,1,1)$",
+        "D": "$(2,1,-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "resolver sistema 3x3",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-8-09",
+      "pregunta": "Resuelva el sistema $3\\times3$ $\\begin{cases}1x+3y+2z=4\\\\2x-1y+1z=9\\\\-1x+2y+3z=1\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.8",
+        "nombre": "Sistemas 3x3"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,-1,2)$",
+        "B": "$(3,-1,-2)$",
+        "C": "$(3,-1,2)$",
+        "D": "$(-1,3,2)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "resolver sistema 3x3",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-8-10",
+      "pregunta": "Resuelva el sistema $3\\times3$ $\\begin{cases}3x+2y-1z=1\\\\1x-1y+2z=-4\\\\2x+1y+3z=3\\end{cases}$.",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.8",
+        "nombre": "Sistemas 3x3"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,4,-1)$",
+        "B": "$(-2,4,1)$",
+        "C": "$(4,-2,1)$",
+        "D": "$(2,4,1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "resolver sistema 3x3",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-9-01",
+      "pregunta": "En una granja hay $22$ animales entre cerdos y gallinas, con $64$ patas en total. ¿Cuántos cerdos y gallinas hay?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.9",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "10 cerdos y 12 gallinas",
+        "B": "12 cerdos y 10 gallinas",
+        "C": "8 cerdos y 14 gallinas",
+        "D": "16 cerdos y 6 gallinas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "modelar conteo de animales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-9-02",
+      "pregunta": "En un evento hay $10$ personas entre adultos y niños. Si se recaudan $440$ pesos cobrando $50$ por adulto y $40$ por niño, ¿cuántos hay de cada tipo?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.9",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "6 adultos y 4 niños",
+        "B": "5 adultos y 5 niños",
+        "C": "8 adultos y 2 niños",
+        "D": "4 adultos y 6 niños"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "modelar boletos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-9-03",
+      "pregunta": "Tres bebidas y dos panes cuestan $185$ pesos; dos bebidas y tres panes cuestan $190$. ¿Cuánto cuesta cada bebida y cada pan?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.9",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$30$ la bebida y $45$ el pan",
+        "B": "$25$ la bebida y $55$ el pan",
+        "C": "$35$ la bebida y $40$ el pan",
+        "D": "$40$ la bebida y $35$ el pan"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "modelar precios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-9-04",
+      "pregunta": "La suma de dos números es $18$ y su diferencia es $4$. ¿Cuáles son?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.9",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$14$ y $4$",
+        "B": "$11$ y $7$",
+        "C": "$9$ y $9$",
+        "D": "$12$ y $6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "modelar suma y diferencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-9-05",
+      "pregunta": "Un rectángulo tiene perímetro $34\\,\\text{cm}$ y el largo mide $5\\,\\text{cm}$ más que el ancho. ¿Cuáles son sus dimensiones?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.9",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$11\\,\\text{cm}$ y $6\\,\\text{cm}$",
+        "B": "$12\\,\\text{cm}$ y $5\\,\\text{cm}$",
+        "C": "$10\\,\\text{cm}$ y $7\\,\\text{cm}$",
+        "D": "$17\\,\\text{cm}$ y $5\\,\\text{cm}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "modelar dimensiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-9-06",
+      "pregunta": "Se mezclan café de $120$ pesos/kg y café de $180$ pesos/kg para obtener $10$ kg a $156$ pesos/kg. ¿Cuántos kg de cada tipo se usan?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.9",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$6$ kg del primero y $4$ kg del segundo",
+        "B": "$5$ kg de cada uno",
+        "C": "$3$ kg del primero y $7$ kg del segundo",
+        "D": "$4$ kg del primero y $6$ kg del segundo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "modelar mezcla",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-9-07",
+      "pregunta": "Un auto recorre $300$ km. Parte del trayecto a $60$ km/h y el resto a $90$ km/h, durante $4$ h en total. ¿Cuánto tiempo viaja a cada velocidad?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.9",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$3$ h a $60$ y $1$ h a $90$",
+        "B": "$2.5$ h a $60$ y $1.5$ h a $90$",
+        "C": "$2$ h a cada velocidad",
+        "D": "$1$ h a $60$ y $3$ h a $90$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "modelar distancia y tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-9-08",
+      "pregunta": "Una persona tiene monedas de $5$ y $10$ pesos. Hay $18$ monedas con valor total de $135$ pesos. ¿Cuántas son de cada tipo?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.9",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "15 de $5$ y 3 de $10$",
+        "B": "9 monedas de cada tipo",
+        "C": "12 de $5$ y 6 de $10$",
+        "D": "6 de $5$ y 12 de $10$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "modelar monedas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-9-09",
+      "pregunta": "La suma de las edades de dos personas es $46$ y una tiene $8$ años más que la otra. ¿Cuáles son las edades?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.9",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$27$ y $19$ años",
+        "B": "$26$ y $20$ años",
+        "C": "$30$ y $16$ años",
+        "D": "$23$ y $23$ años"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "modelar edades",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-13-9-10",
+      "pregunta": "Una tienda vendió $40$ artículos entre cuadernos de $25$ pesos y libros de $80$ pesos, por un total de $2100$ pesos. ¿Cuántos vendió de cada uno?",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Sistemas de ecuaciones",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "13.9",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "30 cuadernos y 10 libros",
+        "B": "10 cuadernos y 30 libros",
+        "C": "25 cuadernos y 15 libros",
+        "D": "20 cuadernos y 20 libros"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "modelar ventas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

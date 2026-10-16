@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "38",
+    "titulo": "Coordenadas polares",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "38.1",
+        "nombre": "Sistema de coordenadas polares"
+      },
+      {
+        "codigo": "38.2",
+        "nombre": "Representaciones equivalentes"
+      },
+      {
+        "codigo": "38.3",
+        "nombre": "Conversión entre coordenadas"
+      },
+      {
+        "codigo": "38.4",
+        "nombre": "Ejemplos de conversión"
+      },
+      {
+        "codigo": "38.5",
+        "nombre": "Fórmulas de conversión"
+      },
+      {
+        "codigo": "38.6",
+        "nombre": "Conversión de ecuaciones"
+      },
+      {
+        "codigo": "38.7",
+        "nombre": "Curvas polares básicas"
+      },
+      {
+        "codigo": "38.8",
+        "nombre": "Simetrías"
+      },
+      {
+        "codigo": "38.9",
+        "nombre": "Procedimiento rápido"
+      }
+    ],
+    "criterio_de_inclusion": "Secciones 38.1 a 38.9 conforme al temario del capítulo.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-38-1-01",
+      "pregunta": "En el sistema polar, un punto se representa mediante:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.1",
+        "nombre": "Sistema de coordenadas polares"
+      },
+      "respuestas_posibles": {
+        "A": "$(r,\\theta)$",
+        "B": "$(x,y)$",
+        "C": "$(m,b)$",
+        "D": "$(a,c)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-1-02",
+      "pregunta": "La coordenada $r$ indica:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.1",
+        "nombre": "Sistema de coordenadas polares"
+      },
+      "respuestas_posibles": {
+        "A": "El ángulo respecto del eje polar",
+        "B": "La pendiente",
+        "C": "El área barrida",
+        "D": "La distancia dirigida desde el polo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-1-03",
+      "pregunta": "La coordenada $\\theta$ indica:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.1",
+        "nombre": "Sistema de coordenadas polares"
+      },
+      "respuestas_posibles": {
+        "A": "La abscisa",
+        "B": "El radio de curvatura",
+        "C": "El ángulo dirigido desde el eje polar",
+        "D": "La distancia al polo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-1-04",
+      "pregunta": "El origen del sistema polar se llama:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.1",
+        "nombre": "Sistema de coordenadas polares"
+      },
+      "respuestas_posibles": {
+        "A": "Centroide",
+        "B": "Polo",
+        "C": "Foco",
+        "D": "Vértice"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-1-05",
+      "pregunta": "La semirrecta de referencia se llama:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.1",
+        "nombre": "Sistema de coordenadas polares"
+      },
+      "respuestas_posibles": {
+        "A": "Eje polar",
+        "B": "Eje conjugado",
+        "C": "Directriz",
+        "D": "Lado recto"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-1-06",
+      "pregunta": "Si $r>0$, el punto se ubica:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.1",
+        "nombre": "Sistema de coordenadas polares"
+      },
+      "respuestas_posibles": {
+        "A": "En la dirección opuesta a $\\theta$",
+        "B": "Siempre sobre el eje $y$",
+        "C": "Siempre en el polo",
+        "D": "En la dirección indicada por $\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-1-07",
+      "pregunta": "Si $r<0$, el punto se ubica:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.1",
+        "nombre": "Sistema de coordenadas polares"
+      },
+      "respuestas_posibles": {
+        "A": "Solo en el cuarto cuadrante",
+        "B": "En el polo",
+        "C": "En la dirección opuesta a $\\theta$",
+        "D": "En la dirección indicada por $\\theta$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-1-08",
+      "pregunta": "Todos los pares $(0,\\theta)$ representan:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.1",
+        "nombre": "Sistema de coordenadas polares"
+      },
+      "respuestas_posibles": {
+        "A": "El eje polar",
+        "B": "El polo",
+        "C": "Puntos distintos",
+        "D": "Una circunferencia unidad"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-1-09",
+      "pregunta": "Un ángulo positivo se mide usualmente:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.1",
+        "nombre": "Sistema de coordenadas polares"
+      },
+      "respuestas_posibles": {
+        "A": "En sentido antihorario",
+        "B": "En sentido horario",
+        "C": "Solo sobre el eje $x$",
+        "D": "Sin orientación"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-1-10",
+      "pregunta": "El punto $(3,0)$ está sobre:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.1",
+        "nombre": "Sistema de coordenadas polares"
+      },
+      "respuestas_posibles": {
+        "A": "El eje polar negativo",
+        "B": "El eje $y$ positivo",
+        "C": "El polo",
+        "D": "El eje polar positivo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-2-01",
+      "pregunta": "Una representación equivalente de $(r,\\theta)$ es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.2",
+        "nombre": "Representaciones equivalentes"
+      },
+      "respuestas_posibles": {
+        "A": "$(r,-\\theta)$",
+        "B": "$(2r,\\theta)$",
+        "C": "$(r,\\theta+2k\\pi)$",
+        "D": "$(r+2k\\pi,\\theta)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-2-02",
+      "pregunta": "Otra representación equivalente es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.2",
+        "nombre": "Representaciones equivalentes"
+      },
+      "respuestas_posibles": {
+        "A": "$(-r,-\\theta)$",
+        "B": "$(-r,\\theta+(2k+1)\\pi)$",
+        "C": "$(-r,\\theta+2k\\pi)$",
+        "D": "$(r,\\theta+\\pi/2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-2-03",
+      "pregunta": "El punto $(2,0)$ también puede escribirse como:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.2",
+        "nombre": "Representaciones equivalentes"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,\\pi)$",
+        "B": "$(2,\\pi)$",
+        "C": "$(-2,0)$",
+        "D": "$(0,2)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-2-04",
+      "pregunta": "El punto $(3,\\pi/2)$ equivale a:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.2",
+        "nombre": "Representaciones equivalentes"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,\\pi/2)$",
+        "B": "$(3,3\\pi/2)$",
+        "C": "$(3,0)$",
+        "D": "$(-3,3\\pi/2)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-2-05",
+      "pregunta": "El punto $(4,\\pi)$ equivale a:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.2",
+        "nombre": "Representaciones equivalentes"
+      },
+      "respuestas_posibles": {
+        "A": "$(-4,\\pi)$",
+        "B": "$(0,-4)$",
+        "C": "$(-4,0)$",
+        "D": "$(4,0)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-2-06",
+      "pregunta": "El punto $(-5,0)$ equivale a:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.2",
+        "nombre": "Representaciones equivalentes"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,5)$",
+        "B": "$(5,\\pi)$",
+        "C": "$(5,0)$",
+        "D": "$(-5,\\pi)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-2-07",
+      "pregunta": "El punto $(1,-\\pi/2)$ puede escribirse con ángulo positivo como:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.2",
+        "nombre": "Representaciones equivalentes"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,3\\pi/2)$",
+        "B": "$(1,\\pi/2)$",
+        "C": "$(-1,3\\pi/2)$",
+        "D": "$(1,2\\pi)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-2-08",
+      "pregunta": "El punto $(2,5\\pi/3)$ también es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.2",
+        "nombre": "Representaciones equivalentes"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,\\pi/3)$",
+        "B": "$(-2,-\\pi/3)$",
+        "C": "$(2,2\\pi/3)$",
+        "D": "$(2,-\\pi/3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-2-09",
+      "pregunta": "¿Cuántas representaciones polares tiene un punto distinto del polo?",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.2",
+        "nombre": "Representaciones equivalentes"
+      },
+      "respuestas_posibles": {
+        "A": "Dos exactamente",
+        "B": "Cuatro exactamente",
+        "C": "Infinitas",
+        "D": "Una"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-2-10",
+      "pregunta": "La equivalencia polar se debe a:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.2",
+        "nombre": "Representaciones equivalentes"
+      },
+      "respuestas_posibles": {
+        "A": "La ausencia de ángulos",
+        "B": "La periodicidad angular y al uso de radios negativos",
+        "C": "La unicidad de $r$",
+        "D": "La linealidad del plano"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-3-01",
+      "pregunta": "Para pasar de polar a cartesiano se usa:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.3",
+        "nombre": "Conversión entre coordenadas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=r\\cos\\theta$",
+        "B": "$x=r\\sin\\theta$",
+        "C": "$x=r^2$",
+        "D": "$x=\\theta/r$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-3-02",
+      "pregunta": "La segunda fórmula polar-cartesiana es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.3",
+        "nombre": "Conversión entre coordenadas"
+      },
+      "respuestas_posibles": {
+        "A": "$y=r\\cos\\theta$",
+        "B": "$y=\\theta^2$",
+        "C": "$y=r/\\theta$",
+        "D": "$y=r\\sin\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-3-03",
+      "pregunta": "Para obtener $r$ desde $(x,y)$ se usa:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.3",
+        "nombre": "Conversión entre coordenadas"
+      },
+      "respuestas_posibles": {
+        "A": "$r=x^2-y^2$",
+        "B": "$r=y/x$",
+        "C": "$r=\\sqrt{x^2+y^2}$",
+        "D": "$r=x+y$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-3-04",
+      "pregunta": "Para determinar el ángulo se usa como referencia:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.3",
+        "nombre": "Conversión entre coordenadas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos\\theta=xy$",
+        "B": "$\\tan\\theta=\\frac yx$",
+        "C": "$\\tan\\theta=\\frac xy$",
+        "D": "$\\sin\\theta=x+y$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-3-05",
+      "pregunta": "Al calcular $\\theta$ desde $\\arctan(y/x)$ se debe:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.3",
+        "nombre": "Conversión entre coordenadas"
+      },
+      "respuestas_posibles": {
+        "A": "Ajustar el cuadrante",
+        "B": "Tomar siempre el valor positivo",
+        "C": "Ignorar el signo de $x$",
+        "D": "Sumar $2\\pi$ siempre"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-3-06",
+      "pregunta": "La identidad que conecta ambos sistemas es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.3",
+        "nombre": "Conversión entre coordenadas"
+      },
+      "respuestas_posibles": {
+        "A": "$x+y=r$",
+        "B": "$x^2-y^2=r$",
+        "C": "$xy=r^2$",
+        "D": "$x^2+y^2=r^2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-3-07",
+      "pregunta": "Si $x=0$ y $y>0$, un ángulo polar es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.3",
+        "nombre": "Conversión entre coordenadas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pi$",
+        "B": "$3\\pi/2$",
+        "C": "$\\pi/2$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-3-08",
+      "pregunta": "Si $x<0$ y $y=0$, un ángulo polar es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.3",
+        "nombre": "Conversión entre coordenadas"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\pi$",
+        "B": "$\\pi$",
+        "C": "$0$",
+        "D": "$\\pi/2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-3-09",
+      "pregunta": "Si $(x,y)$ está en el cuarto cuadrante, puede elegirse $\\theta$ en:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.3",
+        "nombre": "Conversión entre coordenadas"
+      },
+      "respuestas_posibles": {
+        "A": "$(3\\pi/2,2\\pi)$",
+        "B": "$(0,\\pi/2)$",
+        "C": "$(\\pi/2,\\pi)$",
+        "D": "$(\\pi,3\\pi/2)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-3-10",
+      "pregunta": "La función de dos argumentos que evita ambigüedad de cuadrante es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.3",
+        "nombre": "Conversión entre coordenadas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\arcsin(x+y)$",
+        "B": "$\\arccos(xy)$",
+        "C": "$\\log(y/x)$",
+        "D": "$\\operatorname{atan2}(y,x)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-4-01",
+      "pregunta": "Convierta $(2,0)$ a coordenadas cartesianas.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.4",
+        "nombre": "Ejemplos de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,2)$",
+        "B": "$(-2,0)$",
+        "C": "$(2,0)$",
+        "D": "$(0,0)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-4-02",
+      "pregunta": "Convierta $(3,\\pi/2)$ a coordenadas cartesianas.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.4",
+        "nombre": "Ejemplos de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,0)$",
+        "B": "$(0,3)$",
+        "C": "$(0,0)$",
+        "D": "$(3,3)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-4-03",
+      "pregunta": "Convierta $(4,\\pi)$ a coordenadas cartesianas.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.4",
+        "nombre": "Ejemplos de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$(-4,0)$",
+        "B": "$(0,0)$",
+        "C": "$(4,4)$",
+        "D": "$(4,0)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-4-04",
+      "pregunta": "Convierta $(5,3\\pi/2)$ a coordenadas cartesianas.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.4",
+        "nombre": "Ejemplos de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,0)$",
+        "B": "$(5,5)$",
+        "C": "$(-5,0)$",
+        "D": "$(0,-5)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-4-05",
+      "pregunta": "Convierta $(2,\\pi/3)$ a coordenadas cartesianas.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.4",
+        "nombre": "Ejemplos de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,2)$",
+        "B": "$(-2,0)$",
+        "C": "$(1,\\sqrt3)$",
+        "D": "$(0,0)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-4-06",
+      "pregunta": "Convierta $(3,4)$ a coordenadas polares con $r\\ge0$ y $0\\le\\theta<2\\pi$.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.4",
+        "nombre": "Ejemplos de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,\\pi)$",
+        "B": "$(5,\\arctan(4/3))$",
+        "C": "$(7,0)$",
+        "D": "$(3,4)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-4-07",
+      "pregunta": "Convierta $(0,5)$ a coordenadas polares con $r\\ge0$ y $0\\le\\theta<2\\pi$.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.4",
+        "nombre": "Ejemplos de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$(5,\\pi/2)$",
+        "B": "$(5,0)$",
+        "C": "$(0,5)$",
+        "D": "$(1,\\pi)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-4-08",
+      "pregunta": "Convierta $(-4,0)$ a coordenadas polares con $r\\ge0$ y $0\\le\\theta<2\\pi$.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.4",
+        "nombre": "Ejemplos de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$(4,0)$",
+        "B": "$(-4,0)$",
+        "C": "$(1,\\pi)$",
+        "D": "$(4,\\pi)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-4-09",
+      "pregunta": "Convierta $(0,-6)$ a coordenadas polares con $r\\ge0$ y $0\\le\\theta<2\\pi$.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.4",
+        "nombre": "Ejemplos de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,-6)$",
+        "B": "$(1,\\pi)$",
+        "C": "$(6,3\\pi/2)$",
+        "D": "$(6,0)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-4-10",
+      "pregunta": "Convierta $(1,1)$ a coordenadas polares con $r\\ge0$ y $0\\le\\theta<2\\pi$.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.4",
+        "nombre": "Ejemplos de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,\\pi)$",
+        "B": "$(\\sqrt2,\\pi/4)$",
+        "C": "$(2,0)$",
+        "D": "$(1,1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-5-01",
+      "pregunta": "Seleccione la identidad radial correcta.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.5",
+        "nombre": "Fórmulas de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$r^2=x^2+y^2$",
+        "B": "$r=x+y$",
+        "C": "$r^2=x^2-y^2$",
+        "D": "$r=xy$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-5-02",
+      "pregunta": "Seleccione la fórmula para $x$.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.5",
+        "nombre": "Fórmulas de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$x=r\\sin\\theta$",
+        "B": "$x=\\tan\\theta$",
+        "C": "$x=r^2$",
+        "D": "$x=r\\cos\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-5-03",
+      "pregunta": "Seleccione la fórmula para $y$.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.5",
+        "nombre": "Fórmulas de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$y=\\cot\\theta$",
+        "B": "$y=r^2$",
+        "C": "$y=r\\sin\\theta$",
+        "D": "$y=r\\cos\\theta$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-5-04",
+      "pregunta": "Seleccione la relación angular correcta.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.5",
+        "nombre": "Fórmulas de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan\\theta=xy$",
+        "B": "$\\tan\\theta=\\frac yx$",
+        "C": "$\\tan\\theta=\\frac xy$",
+        "D": "$\\tan\\theta=x+y$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-5-05",
+      "pregunta": "La expresión $x/r$ equivale a:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.5",
+        "nombre": "Fórmulas de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos\\theta$",
+        "B": "$\\sin\\theta$",
+        "C": "$\\tan\\theta$",
+        "D": "$r$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-5-06",
+      "pregunta": "La expresión $y/r$ equivale a:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.5",
+        "nombre": "Fórmulas de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos\\theta$",
+        "B": "$\\cot\\theta$",
+        "C": "$r^2$",
+        "D": "$\\sin\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-5-07",
+      "pregunta": "La expresión $x^2-y^2$ en polares es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.5",
+        "nombre": "Fórmulas de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$r\\cos\\theta$",
+        "B": "$r^2$",
+        "C": "$r^2\\cos(2\\theta)$",
+        "D": "$r^2\\sin(2\\theta)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-5-08",
+      "pregunta": "La expresión $2xy$ en polares es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.5",
+        "nombre": "Fórmulas de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$r^2$",
+        "B": "$r^2\\sin(2\\theta)$",
+        "C": "$r^2\\cos(2\\theta)$",
+        "D": "$2r$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-5-09",
+      "pregunta": "La expresión $x^2+y^2$ en polares es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.5",
+        "nombre": "Fórmulas de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$r^2$",
+        "B": "$r$",
+        "C": "$2r^2$",
+        "D": "$\\theta^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-5-10",
+      "pregunta": "La expresión $y/x$, cuando $x\\ne0$, es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.5",
+        "nombre": "Fórmulas de conversión"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos\\theta$",
+        "B": "$\\sin\\theta$",
+        "C": "$r$",
+        "D": "$\\tan\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-6-01",
+      "pregunta": "Convierta $x^2+y^2=9$ a forma polar.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.6",
+        "nombre": "Conversión de ecuaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$r=3\\theta$",
+        "B": "$r^2=3$",
+        "C": "$r=3$",
+        "D": "$r=9$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-6-02",
+      "pregunta": "Convierta $x=4$ a forma polar.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.6",
+        "nombre": "Conversión de ecuaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\theta=4$",
+        "B": "$r\\cos\\theta=4$",
+        "C": "$r\\sin\\theta=4$",
+        "D": "$r=4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-6-03",
+      "pregunta": "Convierta $y=-2$ a forma polar.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.6",
+        "nombre": "Conversión de ecuaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$r\\sin\\theta=-2$",
+        "B": "$r\\cos\\theta=-2$",
+        "C": "$r=-2$",
+        "D": "$\\theta=-2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-6-04",
+      "pregunta": "Convierta $x^2+y^2=6x$ a forma polar.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.6",
+        "nombre": "Conversión de ecuaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$r=6\\sin\\theta$",
+        "B": "$r^2=6\\cos\\theta$",
+        "C": "$r=6$",
+        "D": "$r=6\\cos\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-6-05",
+      "pregunta": "Convierta $x^2+y^2=8y$ a forma polar.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.6",
+        "nombre": "Conversión de ecuaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$r^2=8\\sin\\theta$",
+        "B": "$r=8$",
+        "C": "$r=8\\sin\\theta$",
+        "D": "$r=8\\cos\\theta$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-6-06",
+      "pregunta": "Convierta $r=5$ a forma cartesiana.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.6",
+        "nombre": "Conversión de ecuaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x=5$",
+        "B": "$x^2+y^2=25$",
+        "C": "$x+y=5$",
+        "D": "$x^2-y^2=5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-6-07",
+      "pregunta": "Convierta $r=4\\cos\\theta$ a forma cartesiana.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.6",
+        "nombre": "Conversión de ecuaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=4x$",
+        "B": "$x^2+y^2=4y$",
+        "C": "$x=4$",
+        "D": "$x^2-y^2=4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-6-08",
+      "pregunta": "Convierta $r=6\\sin\\theta$ a forma cartesiana.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.6",
+        "nombre": "Conversión de ecuaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=6x$",
+        "B": "$y=6$",
+        "C": "$x+y=6$",
+        "D": "$x^2+y^2=6y$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-6-09",
+      "pregunta": "Convierta $\\theta=\\pi/4$ a forma cartesiana.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.6",
+        "nombre": "Conversión de ecuaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "$y=0$",
+        "C": "$y=x$",
+        "D": "$y=-x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-6-10",
+      "pregunta": "Convierta $r^2\\cos(2\\theta)=4$ a forma cartesiana.",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.6",
+        "nombre": "Conversión de ecuaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$x-y=4$",
+        "B": "$x^2-y^2=4$",
+        "C": "$x^2+y^2=4$",
+        "D": "$2xy=4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-7-01",
+      "pregunta": "La ecuación $r=a$ representa:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.7",
+        "nombre": "Curvas polares básicas"
+      },
+      "respuestas_posibles": {
+        "A": "Una circunferencia con centro en el polo",
+        "B": "Una recta",
+        "C": "Una cardioide",
+        "D": "Una rosa"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-7-02",
+      "pregunta": "La ecuación $\\theta=\\alpha$ representa:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.7",
+        "nombre": "Curvas polares básicas"
+      },
+      "respuestas_posibles": {
+        "A": "Una circunferencia",
+        "B": "Una elipse",
+        "C": "Una espiral",
+        "D": "Una recta que pasa por el polo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-7-03",
+      "pregunta": "La ecuación $r=2a\\cos\\theta$ representa:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.7",
+        "nombre": "Curvas polares básicas"
+      },
+      "respuestas_posibles": {
+        "A": "Una rosa de dos pétalos",
+        "B": "Una recta",
+        "C": "Una circunferencia con centro sobre el eje polar",
+        "D": "Una cardioide"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-7-04",
+      "pregunta": "La ecuación $r=2a\\sin\\theta$ representa:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.7",
+        "nombre": "Curvas polares básicas"
+      },
+      "respuestas_posibles": {
+        "A": "Una recta horizontal",
+        "B": "Una circunferencia con centro sobre el eje vertical",
+        "C": "Una hipérbola",
+        "D": "Una lemniscata"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-7-05",
+      "pregunta": "La ecuación $r=a(1+\\cos\\theta)$ representa típicamente:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.7",
+        "nombre": "Curvas polares básicas"
+      },
+      "respuestas_posibles": {
+        "A": "Una cardioide",
+        "B": "Una circunferencia",
+        "C": "Una espiral",
+        "D": "Una recta"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-7-06",
+      "pregunta": "La ecuación $r=a\\theta$ representa:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.7",
+        "nombre": "Curvas polares básicas"
+      },
+      "respuestas_posibles": {
+        "A": "Una rosa",
+        "B": "Una circunferencia",
+        "C": "Una elipse",
+        "D": "Una espiral de Arquímedes"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-7-07",
+      "pregunta": "La ecuación $r=a\\cos(n\\theta)$ suele representar:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.7",
+        "nombre": "Curvas polares básicas"
+      },
+      "respuestas_posibles": {
+        "A": "Una recta",
+        "B": "Una circunferencia siempre",
+        "C": "Una rosa polar",
+        "D": "Una parábola"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-7-08",
+      "pregunta": "Si $n$ es impar en una rosa $r=a\\cos(n\\theta)$, el número de pétalos es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.7",
+        "nombre": "Curvas polares básicas"
+      },
+      "respuestas_posibles": {
+        "A": "$n+1$",
+        "B": "$n$",
+        "C": "$2n$",
+        "D": "$n/2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-7-09",
+      "pregunta": "Si $n$ es par en una rosa $r=a\\cos(n\\theta)$, el número de pétalos es:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.7",
+        "nombre": "Curvas polares básicas"
+      },
+      "respuestas_posibles": {
+        "A": "$2n$",
+        "B": "$n$",
+        "C": "$n/2$",
+        "D": "$n+2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-7-10",
+      "pregunta": "La ecuación $r^2=a^2\\cos(2\\theta)$ representa una:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.7",
+        "nombre": "Curvas polares básicas"
+      },
+      "respuestas_posibles": {
+        "A": "Cardioide",
+        "B": "Circunferencia",
+        "C": "Recta",
+        "D": "Lemniscata"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-8-01",
+      "pregunta": "Para probar simetría respecto del eje polar se sustituye:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.8",
+        "nombre": "Simetrías"
+      },
+      "respuestas_posibles": {
+        "A": "$\\theta$ por $\\pi-\\theta$",
+        "B": "$r$ por $r^2$",
+        "C": "$\\theta$ por $-\\theta$",
+        "D": "$r$ por $-r$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-8-02",
+      "pregunta": "Para probar simetría respecto de la recta $\\theta=\\pi/2$ se sustituye:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.8",
+        "nombre": "Simetrías"
+      },
+      "respuestas_posibles": {
+        "A": "$\\theta$ por $\\theta+2\\pi$",
+        "B": "$\\theta$ por $\\pi-\\theta$",
+        "C": "$\\theta$ por $-\\theta$",
+        "D": "$r$ por $-r$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-8-03",
+      "pregunta": "Para probar simetría respecto del polo se sustituye:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.8",
+        "nombre": "Simetrías"
+      },
+      "respuestas_posibles": {
+        "A": "$r$ por $-r$ o $\\theta$ por $\\theta+\\pi$",
+        "B": "$r$ por $2r$",
+        "C": "$\\theta$ por $-\\theta$ únicamente",
+        "D": "$r$ por $r^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-8-04",
+      "pregunta": "La curva $r=2\\cos\\theta$ es simétrica respecto de:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.8",
+        "nombre": "Simetrías"
+      },
+      "respuestas_posibles": {
+        "A": "La recta $\\theta=\\pi/2$ únicamente",
+        "B": "Ningún eje",
+        "C": "La recta $y=x$ únicamente",
+        "D": "El eje polar"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-8-05",
+      "pregunta": "La curva $r=2\\sin\\theta$ es simétrica respecto de:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.8",
+        "nombre": "Simetrías"
+      },
+      "respuestas_posibles": {
+        "A": "Ningún eje",
+        "B": "La recta $y=-x$",
+        "C": "La recta $\\theta=\\pi/2$",
+        "D": "El eje polar únicamente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-8-06",
+      "pregunta": "La curva $r=\\cos(2\\theta)$ tiene simetría respecto de:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.8",
+        "nombre": "Simetrías"
+      },
+      "respuestas_posibles": {
+        "A": "Solo $\\theta=\\pi/4$",
+        "B": "Los ejes polar y vertical",
+        "C": "Solo el polo",
+        "D": "Ninguna recta"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-8-07",
+      "pregunta": "Si la ecuación no cambia al sustituir $\\theta$ por $-\\theta$, existe simetría respecto de:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.8",
+        "nombre": "Simetrías"
+      },
+      "respuestas_posibles": {
+        "A": "El eje polar",
+        "B": "El polo",
+        "C": "La recta $\\theta=\\pi/2$",
+        "D": "El eje radial negativo únicamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-8-08",
+      "pregunta": "Si la ecuación no cambia al sustituir $r$ por $-r$, existe simetría respecto de:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.8",
+        "nombre": "Simetrías"
+      },
+      "respuestas_posibles": {
+        "A": "El eje polar",
+        "B": "La recta $\\theta=\\pi/2$",
+        "C": "Una circunferencia",
+        "D": "El polo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-8-09",
+      "pregunta": "Las pruebas algebraicas de simetría son:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.8",
+        "nombre": "Simetrías"
+      },
+      "respuestas_posibles": {
+        "A": "Inútiles",
+        "B": "Aplicables solo a rectas",
+        "C": "Suficientes cuando la ecuación permanece equivalente",
+        "D": "Necesarias y siempre concluyentes si fallan"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-8-10",
+      "pregunta": "Que una prueba de simetría falle significa:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.8",
+        "nombre": "Simetrías"
+      },
+      "respuestas_posibles": {
+        "A": "Que $r$ debe ser positivo",
+        "B": "Que esa sustitución no demuestra la simetría",
+        "C": "Que la curva no tiene ninguna simetría",
+        "D": "Que la curva es una recta"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-9-01",
+      "pregunta": "Primer paso para graficar una curva polar:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.9",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Identificar la familia y revisar simetrías",
+        "B": "Convertir siempre a una recta",
+        "C": "Eliminar $r$",
+        "D": "Fijar $\\theta=0$ únicamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-9-02",
+      "pregunta": "Después conviene hallar:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.9",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Solo el valor máximo de $x$",
+        "B": "Una pendiente constante",
+        "C": "El área sin límites",
+        "D": "Intersecciones con el polo y valores clave"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-9-03",
+      "pregunta": "Para localizar el polo se resuelve:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.9",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$\\theta=0$",
+        "B": "$x=1$",
+        "C": "$r=0$",
+        "D": "$r=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-9-04",
+      "pregunta": "Una tabla polar relaciona:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.9",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$r$ con $x^2$ solamente",
+        "B": "$\\theta$ con $r$",
+        "C": "$x$ con la pendiente",
+        "D": "$y$ con el área"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-9-05",
+      "pregunta": "Para convertir un punto cartesiano a polar primero puede calcularse:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.9",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$r=\\sqrt{x^2+y^2}$",
+        "B": "$r=x+y$",
+        "C": "$r=x-y$",
+        "D": "$r=xy$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-9-06",
+      "pregunta": "Después de hallar $r$, el ángulo debe:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.9",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Ser siempre agudo",
+        "B": "Ser siempre positivo menor que $\\pi/2$",
+        "C": "Tomarse como $y/x$ sin inversa",
+        "D": "Colocarse en el cuadrante correcto"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-9-07",
+      "pregunta": "Al convertir una ecuación cartesiana es útil sustituir:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.9",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$x=\\cos r$, $y=\\sin r$",
+        "B": "$x=r^2$, $y=\\theta^2$",
+        "C": "$x=r\\cos\\theta$, $y=r\\sin\\theta$",
+        "D": "$x=r+\\theta$, $y=r-\\theta$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-9-08",
+      "pregunta": "También se usa repetidamente:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.9",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$xy=r$",
+        "B": "$x^2+y^2=r^2$",
+        "C": "$x+y=r^2$",
+        "D": "$x^2-y^2=r$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-9-09",
+      "pregunta": "Una comprobación final debe verificar:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.9",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Puntos clave y simetrías en la ecuación original",
+        "B": "Solo la apariencia de la gráfica",
+        "C": "Que $r$ sea siempre positivo",
+        "D": "Que todos los ángulos sean únicos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-38-9-10",
+      "pregunta": "Las múltiples representaciones de un punto obligan a:",
+      "tema": {
+        "codigo": "38",
+        "nombre": "Coordenadas polares",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "38.9",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Eliminar los ángulos negativos",
+        "B": "Prohibir $r<0$",
+        "C": "Usar solo grados",
+        "D": "Interpretar con cuidado radios negativos y ángulos coterminales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar coordenadas polares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

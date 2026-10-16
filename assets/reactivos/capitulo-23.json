@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "23",
+    "titulo": "Perímetros, áreas y volúmenes",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "23.1",
+        "nombre": "Perímetro y área"
+      },
+      {
+        "codigo": "23.2",
+        "nombre": "Triángulo"
+      },
+      {
+        "codigo": "23.3",
+        "nombre": "Cuadrado y rectángulo"
+      },
+      {
+        "codigo": "23.4",
+        "nombre": "Paralelogramo, rombo y trapecio"
+      },
+      {
+        "codigo": "23.5",
+        "nombre": "Círculo y circunferencia"
+      },
+      {
+        "codigo": "23.6",
+        "nombre": "Resumen de áreas de figuras planas"
+      },
+      {
+        "codigo": "23.7",
+        "nombre": "Figuras compuestas"
+      },
+      {
+        "codigo": "23.8",
+        "nombre": "Volumen"
+      },
+      {
+        "codigo": "23.9",
+        "nombre": "Prismas"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas 23.1 a 23.9; se omitieron síntesis y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-23-1-01",
+      "pregunta": "El perímetro de una figura plana representa:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.1",
+        "nombre": "Perímetro y área"
+      },
+      "respuestas_posibles": {
+        "A": "La longitud de su contorno",
+        "B": "La medida de su superficie",
+        "C": "La cantidad de espacio tridimensional",
+        "D": "La longitud de una diagonal únicamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-1-02",
+      "pregunta": "El área de una figura plana representa:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.1",
+        "nombre": "Perímetro y área"
+      },
+      "respuestas_posibles": {
+        "A": "La longitud de su borde",
+        "B": "Su altura exclusivamente",
+        "C": "Su volumen",
+        "D": "La medida de la superficie que ocupa"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-1-03",
+      "pregunta": "¿Cuál es una unidad adecuada para medir perímetro?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.1",
+        "nombre": "Perímetro y área"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{cm}^3$",
+        "B": "$\\text{kg}$",
+        "C": "$\\text{cm}$",
+        "D": "$\\text{cm}^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-1-04",
+      "pregunta": "¿Cuál es una unidad adecuada para medir área?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.1",
+        "nombre": "Perímetro y área"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{L}$",
+        "B": "$\\text{m}^2$",
+        "C": "$\\text{m}$",
+        "D": "$\\text{m}^3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-1-05",
+      "pregunta": "Un terreno rectangular de $12$ m por $7$ m requiere cerca en su contorno. ¿Qué magnitud debe calcularse?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.1",
+        "nombre": "Perímetro y área"
+      },
+      "respuestas_posibles": {
+        "A": "El perímetro",
+        "B": "El área",
+        "C": "El volumen",
+        "D": "La diagonal únicamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-1-06",
+      "pregunta": "Para cubrir un piso con loseta se necesita calcular:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.1",
+        "nombre": "Perímetro y área"
+      },
+      "respuestas_posibles": {
+        "A": "El perímetro únicamente",
+        "B": "El volumen del edificio",
+        "C": "La suma de las diagonales",
+        "D": "El área"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-1-07",
+      "pregunta": "Si todas las longitudes de una figura se duplican, su perímetro:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.1",
+        "nombre": "Perímetro y área"
+      },
+      "respuestas_posibles": {
+        "A": "No cambia",
+        "B": "Se reduce a la mitad",
+        "C": "Se duplica",
+        "D": "Se cuadruplica"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-1-08",
+      "pregunta": "Si todas las longitudes de una figura se duplican, su área:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.1",
+        "nombre": "Perímetro y área"
+      },
+      "respuestas_posibles": {
+        "A": "Se multiplica por $8$",
+        "B": "Se cuadruplica",
+        "C": "Se duplica",
+        "D": "No cambia"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-1-09",
+      "pregunta": "Convierta $3\\,\\text{m}^2$ a $\\text{cm}^2$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.1",
+        "nombre": "Perímetro y área"
+      },
+      "respuestas_posibles": {
+        "A": "$30000\\,\\text{cm}^2$",
+        "B": "$300\\,\\text{cm}^2$",
+        "C": "$3000\\,\\text{cm}^2$",
+        "D": "$300000\\,\\text{cm}^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-1-10",
+      "pregunta": "Convierta $25000\\,\\text{cm}^2$ a $\\text{m}^2$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.1",
+        "nombre": "Perímetro y área"
+      },
+      "respuestas_posibles": {
+        "A": "$25\\,\\text{m}^2$",
+        "B": "$0.25\\,\\text{m}^2$",
+        "C": "$250\\,\\text{m}^2$",
+        "D": "$2.5\\,\\text{m}^2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-2-01",
+      "pregunta": "Calcule el área de un triángulo de base $8$ y altura $5$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.2",
+        "nombre": "Triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$13$",
+        "B": "$26$",
+        "C": "$20$",
+        "D": "$40$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular área triangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-2-02",
+      "pregunta": "Calcule el área de un triángulo de base $12$ y altura $7$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.2",
+        "nombre": "Triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$38$",
+        "B": "$42$",
+        "C": "$84$",
+        "D": "$19$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular área triangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-2-03",
+      "pregunta": "Calcule el área de un triángulo de base $15$ y altura $4$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.2",
+        "nombre": "Triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$30$",
+        "B": "$60$",
+        "C": "$19$",
+        "D": "$38$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular área triangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-2-04",
+      "pregunta": "Calcule el área de un triángulo de base $9$ y altura $10$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.2",
+        "nombre": "Triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$90$",
+        "B": "$19$",
+        "C": "$38$",
+        "D": "$45$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular área triangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-2-05",
+      "pregunta": "Calcule el área de un triángulo de base $20$ y altura $6$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.2",
+        "nombre": "Triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$26$",
+        "B": "$52$",
+        "C": "$60$",
+        "D": "$120$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular área triangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-2-06",
+      "pregunta": "Calcule el perímetro de un triángulo cuyos lados miden $3$, $4$ y $5$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.2",
+        "nombre": "Triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$14$",
+        "B": "$12$",
+        "C": "$10$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro triangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-2-07",
+      "pregunta": "Calcule el perímetro de un triángulo cuyos lados miden $5$, $5$ y $8$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.2",
+        "nombre": "Triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$18$",
+        "B": "$16$",
+        "C": "$21$",
+        "D": "$25$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro triangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-2-08",
+      "pregunta": "Calcule el perímetro de un triángulo cuyos lados miden $7$, $9$ y $11$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.2",
+        "nombre": "Triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$25$",
+        "B": "$30$",
+        "C": "$63$",
+        "D": "$27$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro triangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-2-09",
+      "pregunta": "Un triángulo tiene área $42$ y base $12$. ¿Cuál es su altura?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.2",
+        "nombre": "Triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$14$",
+        "B": "$504$",
+        "C": "$7$",
+        "D": "$3.5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "despejar altura",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-2-10",
+      "pregunta": "Un triángulo tiene área $54$ y altura $9$. ¿Cuál es su base?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.2",
+        "nombre": "Triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$18$",
+        "B": "$12$",
+        "C": "$6$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "despejar base",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-3-01",
+      "pregunta": "Calcule el área de un cuadrado de lado $4$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.3",
+        "nombre": "Cuadrado y rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$8$",
+        "C": "$20$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular área de cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-3-02",
+      "pregunta": "Calcule el área de un cuadrado de lado $7$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.3",
+        "nombre": "Cuadrado y rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$28$",
+        "B": "$14$",
+        "C": "$56$",
+        "D": "$49$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular área de cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-3-03",
+      "pregunta": "Calcule el área de un cuadrado de lado $9$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.3",
+        "nombre": "Cuadrado y rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$18$",
+        "B": "$90$",
+        "C": "$81$",
+        "D": "$36$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular área de cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-3-04",
+      "pregunta": "Calcule el perímetro de un cuadrado de lado $5$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.3",
+        "nombre": "Cuadrado y rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$20$",
+        "C": "$25$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro de cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-3-05",
+      "pregunta": "Calcule el perímetro de un cuadrado de lado $11$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.3",
+        "nombre": "Cuadrado y rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$44$",
+        "B": "$121$",
+        "C": "$22$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro de cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-3-06",
+      "pregunta": "Calcule el área de un rectángulo de base $8$ y altura $3$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.3",
+        "nombre": "Cuadrado y rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$22$",
+        "B": "$11$",
+        "C": "$12$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular área rectangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-3-07",
+      "pregunta": "Calcule el área de un rectángulo de base $12$ y altura $5$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.3",
+        "nombre": "Cuadrado y rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$17$",
+        "B": "$30$",
+        "C": "$60$",
+        "D": "$34$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular área rectangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-3-08",
+      "pregunta": "Calcule el área de un rectángulo de base $15$ y altura $6$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.3",
+        "nombre": "Cuadrado y rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$45$",
+        "B": "$90$",
+        "C": "$42$",
+        "D": "$21$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular área rectangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-3-09",
+      "pregunta": "Un rectángulo tiene perímetro $34$ y base $10$. ¿Cuánto mide su altura?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.3",
+        "nombre": "Cuadrado y rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$14$",
+        "C": "$12$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "despejar dimensión rectangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-3-10",
+      "pregunta": "Un cuadrado tiene área $81$. ¿Cuánto mide su lado?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.3",
+        "nombre": "Cuadrado y rectángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$18$",
+        "B": "$20.25$",
+        "C": "$81$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "extraer raíz de área",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-4-01",
+      "pregunta": "Calcule el área de un paralelogramo de base $9$ y altura $4$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.4",
+        "nombre": "Paralelogramo, rombo y trapecio"
+      },
+      "respuestas_posibles": {
+        "A": "$18$",
+        "B": "$13$",
+        "C": "$36$",
+        "D": "$26$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular área de paralelogramo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-4-02",
+      "pregunta": "Calcule el área de un paralelogramo de base $13$ y altura $6$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.4",
+        "nombre": "Paralelogramo, rombo y trapecio"
+      },
+      "respuestas_posibles": {
+        "A": "$19$",
+        "B": "$78$",
+        "C": "$38$",
+        "D": "$39$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular área de paralelogramo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-4-03",
+      "pregunta": "Calcule el área de un paralelogramo de base $7$ y altura $8$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.4",
+        "nombre": "Paralelogramo, rombo y trapecio"
+      },
+      "respuestas_posibles": {
+        "A": "$56$",
+        "B": "$30$",
+        "C": "$28$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular área de paralelogramo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-4-04",
+      "pregunta": "Calcule el área de un rombo con diagonales $10$ y $6$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.4",
+        "nombre": "Paralelogramo, rombo y trapecio"
+      },
+      "respuestas_posibles": {
+        "A": "$60$",
+        "B": "$16$",
+        "C": "$32$",
+        "D": "$30$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular área de rombo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-4-05",
+      "pregunta": "Calcule el área de un rombo con diagonales $14$ y $8$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.4",
+        "nombre": "Paralelogramo, rombo y trapecio"
+      },
+      "respuestas_posibles": {
+        "A": "$22$",
+        "B": "$44$",
+        "C": "$56$",
+        "D": "$112$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular área de rombo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-4-06",
+      "pregunta": "Calcule el área de un rombo con diagonales $18$ y $12$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.4",
+        "nombre": "Paralelogramo, rombo y trapecio"
+      },
+      "respuestas_posibles": {
+        "A": "$60$",
+        "B": "$108$",
+        "C": "$216$",
+        "D": "$30$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular área de rombo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-4-07",
+      "pregunta": "Calcule el área de un trapecio con bases $12$ y $8$ y altura $5$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.4",
+        "nombre": "Paralelogramo, rombo y trapecio"
+      },
+      "respuestas_posibles": {
+        "A": "$50$",
+        "B": "$100$",
+        "C": "$240$",
+        "D": "$25$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular área de trapecio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-4-08",
+      "pregunta": "Calcule el área de un trapecio con bases $15$ y $9$ y altura $4$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.4",
+        "nombre": "Paralelogramo, rombo y trapecio"
+      },
+      "respuestas_posibles": {
+        "A": "$96$",
+        "B": "$270$",
+        "C": "$28$",
+        "D": "$48$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular área de trapecio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-4-09",
+      "pregunta": "Calcule el área de un trapecio con bases $20$ y $10$ y altura $6$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.4",
+        "nombre": "Paralelogramo, rombo y trapecio"
+      },
+      "respuestas_posibles": {
+        "A": "$600$",
+        "B": "$36$",
+        "C": "$90$",
+        "D": "$180$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular área de trapecio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-4-10",
+      "pregunta": "Un rombo tiene área $48$ y una diagonal mide $12$. ¿Cuánto mide la otra diagonal?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.4",
+        "nombre": "Paralelogramo, rombo y trapecio"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$8$",
+        "C": "$4$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "despejar diagonal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-5-01",
+      "pregunta": "Calcule el área de un círculo de radio $3$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.5",
+        "nombre": "Círculo y circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$9\\pi$",
+        "B": "$6\\pi$",
+        "C": "$3\\pi$",
+        "D": "$18\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular área circular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-5-02",
+      "pregunta": "Calcule el área de un círculo de radio $5$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.5",
+        "nombre": "Círculo y circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$10\\pi$",
+        "B": "$5\\pi$",
+        "C": "$50\\pi$",
+        "D": "$25\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular área circular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-5-03",
+      "pregunta": "Calcule el área de un círculo de radio $8$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.5",
+        "nombre": "Círculo y circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$8\\pi$",
+        "B": "$128\\pi$",
+        "C": "$64\\pi$",
+        "D": "$16\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular área circular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-5-04",
+      "pregunta": "Calcule el área de un círculo de radio $10$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.5",
+        "nombre": "Círculo y circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$200\\pi$",
+        "B": "$100\\pi$",
+        "C": "$20\\pi$",
+        "D": "$10\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular área circular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-5-05",
+      "pregunta": "Calcule el área de un círculo de radio $12$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.5",
+        "nombre": "Círculo y circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$144\\pi$",
+        "B": "$24\\pi$",
+        "C": "$12\\pi$",
+        "D": "$288\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular área circular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-5-06",
+      "pregunta": "Calcule la longitud de una circunferencia de radio $2$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.5",
+        "nombre": "Círculo y circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\pi$",
+        "B": "$8\\pi$",
+        "C": "$6\\pi$",
+        "D": "$4\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular longitud circular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-5-07",
+      "pregunta": "Calcule la longitud de una circunferencia de radio $4$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.5",
+        "nombre": "Círculo y circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$4\\pi$",
+        "B": "$12\\pi$",
+        "C": "$8\\pi$",
+        "D": "$16\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular longitud circular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-5-08",
+      "pregunta": "Calcule la longitud de una circunferencia de radio $6$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.5",
+        "nombre": "Círculo y circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$24\\pi$",
+        "B": "$12\\pi$",
+        "C": "$36\\pi$",
+        "D": "$6\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular longitud circular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-5-09",
+      "pregunta": "Calcule la longitud de una circunferencia de radio $7$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.5",
+        "nombre": "Círculo y circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$14\\pi$",
+        "B": "$49\\pi$",
+        "C": "$7\\pi$",
+        "D": "$28\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular longitud circular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-5-10",
+      "pregunta": "Calcule la longitud de una circunferencia de radio $9$.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.5",
+        "nombre": "Círculo y circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$81\\pi$",
+        "B": "$9\\pi$",
+        "C": "$36\\pi$",
+        "D": "$18\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular longitud circular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-6-01",
+      "pregunta": "¿Cuál es la fórmula del área de un triángulo?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.6",
+        "nombre": "Resumen de áreas de figuras planas"
+      },
+      "respuestas_posibles": {
+        "A": "$A=b+h$",
+        "B": "$A=2(b+h)$",
+        "C": "$A=\\frac{bh}{2}$",
+        "D": "$A=bh$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-6-02",
+      "pregunta": "¿Cuál es la fórmula del área de un rectángulo?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.6",
+        "nombre": "Resumen de áreas de figuras planas"
+      },
+      "respuestas_posibles": {
+        "A": "$A=b^2$",
+        "B": "$A=bh$",
+        "C": "$A=\\frac{bh}{2}$",
+        "D": "$A=2(b+h)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-6-03",
+      "pregunta": "¿Cuál es la fórmula del área de un cuadrado de lado $l$?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.6",
+        "nombre": "Resumen de áreas de figuras planas"
+      },
+      "respuestas_posibles": {
+        "A": "$A=l^2$",
+        "B": "$A=4l$",
+        "C": "$A=2l$",
+        "D": "$A=\\frac{l^2}{2}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-6-04",
+      "pregunta": "¿Cuál es la fórmula del área de un paralelogramo?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.6",
+        "nombre": "Resumen de áreas de figuras planas"
+      },
+      "respuestas_posibles": {
+        "A": "$A=\\frac{bh}{2}$",
+        "B": "$A=(B+b)h$",
+        "C": "$A=\\pi r^2$",
+        "D": "$A=bh$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-6-05",
+      "pregunta": "¿Cuál es la fórmula del área de un rombo?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.6",
+        "nombre": "Resumen de áreas de figuras planas"
+      },
+      "respuestas_posibles": {
+        "A": "$A=D+d$",
+        "B": "$A=2(D+d)$",
+        "C": "$A=\\frac{Dd}{2}$",
+        "D": "$A=Dd$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-6-06",
+      "pregunta": "¿Cuál es la fórmula del área de un trapecio?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.6",
+        "nombre": "Resumen de áreas de figuras planas"
+      },
+      "respuestas_posibles": {
+        "A": "$A=\\frac{Bb}{2}$",
+        "B": "$A=\\frac{(B+b)h}{2}$",
+        "C": "$A=(B+b)h$",
+        "D": "$A=Bbh$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-6-07",
+      "pregunta": "¿Cuál es la fórmula del área de un círculo?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.6",
+        "nombre": "Resumen de áreas de figuras planas"
+      },
+      "respuestas_posibles": {
+        "A": "$A=\\pi r^2$",
+        "B": "$A=2\\pi r$",
+        "C": "$A=\\pi d$",
+        "D": "$A=\\frac{\\pi r}{2}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-6-08",
+      "pregunta": "Para calcular el área de un paralelogramo se usa la altura:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.6",
+        "nombre": "Resumen de áreas de figuras planas"
+      },
+      "respuestas_posibles": {
+        "A": "Inclinada sobre un lado",
+        "B": "Igual a la diagonal",
+        "C": "Exterior sin relación con la base",
+        "D": "Perpendicular a la base"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-6-09",
+      "pregunta": "En el área del trapecio, $B$ y $b$ representan:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.6",
+        "nombre": "Resumen de áreas de figuras planas"
+      },
+      "respuestas_posibles": {
+        "A": "Dos alturas",
+        "B": "Los lados no paralelos",
+        "C": "Las bases paralelas",
+        "D": "Las diagonales"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-6-10",
+      "pregunta": "En el área del rombo, $D$ y $d$ representan:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.6",
+        "nombre": "Resumen de áreas de figuras planas"
+      },
+      "respuestas_posibles": {
+        "A": "Dos radios",
+        "B": "Las diagonales",
+        "C": "Dos lados consecutivos",
+        "D": "La base y la altura"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-7-01",
+      "pregunta": "Una figura se forma con dos rectángulos de áreas $24$ y $35$ sin superposición. Su área total es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.7",
+        "nombre": "Figuras compuestas"
+      },
+      "respuestas_posibles": {
+        "A": "$59$",
+        "B": "$11$",
+        "C": "$840$",
+        "D": "$70$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sumar o restar áreas compuestas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-7-02",
+      "pregunta": "A un rectángulo de área $80$ se le recorta un cuadrado de área $16$. El área restante es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.7",
+        "nombre": "Figuras compuestas"
+      },
+      "respuestas_posibles": {
+        "A": "$96$",
+        "B": "$5$",
+        "C": "$72$",
+        "D": "$64$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sumar o restar áreas compuestas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-7-03",
+      "pregunta": "Una figura está formada por un cuadrado de lado $6$ y un triángulo de base $6$ y altura $4$, sin superposición. Su área es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.7",
+        "nombre": "Figuras compuestas"
+      },
+      "respuestas_posibles": {
+        "A": "$36$",
+        "B": "$24$",
+        "C": "$48$",
+        "D": "$60$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sumar o restar áreas compuestas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-7-04",
+      "pregunta": "Un rectángulo de $10$ por $8$ contiene un hueco rectangular de $4$ por $3$. El área útil es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.7",
+        "nombre": "Figuras compuestas"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$68$",
+        "C": "$92$",
+        "D": "$80$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sumar o restar áreas compuestas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-7-05",
+      "pregunta": "Una pista rectangular de $14$ por $9$ tiene adosado un semicírculo de radio $4$. Su área es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.7",
+        "nombre": "Figuras compuestas"
+      },
+      "respuestas_posibles": {
+        "A": "$126+8\\pi$",
+        "B": "$126+16\\pi$",
+        "C": "$23+8\\pi$",
+        "D": "$126+4\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sumar o restar áreas compuestas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-7-06",
+      "pregunta": "Dos cuadrados de lados $5$ y $3$ se unen sin superponerse. El área total es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.7",
+        "nombre": "Figuras compuestas"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$64$",
+        "C": "$40$",
+        "D": "$34$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sumar o restar áreas compuestas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-7-07",
+      "pregunta": "Un jardín cuadrado de lado $12$ contiene una fuente circular de radio $3$. El área no ocupada por la fuente es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.7",
+        "nombre": "Figuras compuestas"
+      },
+      "respuestas_posibles": {
+        "A": "$12-3\\pi$",
+        "B": "$144-6\\pi$",
+        "C": "$144-9\\pi$",
+        "D": "$144+9\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sumar o restar áreas compuestas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-7-08",
+      "pregunta": "Una figura consta de un rectángulo de $8$ por $5$ y un semicírculo de diámetro $8$. Su área total es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.7",
+        "nombre": "Figuras compuestas"
+      },
+      "respuestas_posibles": {
+        "A": "$40+4\\pi$",
+        "B": "$40+8\\pi$",
+        "C": "$40+16\\pi$",
+        "D": "$13+8\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sumar o restar áreas compuestas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-7-09",
+      "pregunta": "Un cuadrado de lado $10$ tiene recortados cuatro cuadrados de lado $2$, uno en cada esquina. El área restante es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.7",
+        "nombre": "Figuras compuestas"
+      },
+      "respuestas_posibles": {
+        "A": "$84$",
+        "B": "$92$",
+        "C": "$96$",
+        "D": "$80$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sumar o restar áreas compuestas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-7-10",
+      "pregunta": "Una figura compuesta se descompone en tres regiones de áreas $18$, $27$ y $31$. Su área total es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.7",
+        "nombre": "Figuras compuestas"
+      },
+      "respuestas_posibles": {
+        "A": "$58$",
+        "B": "$66$",
+        "C": "$82$",
+        "D": "$76$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sumar o restar áreas compuestas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-8-01",
+      "pregunta": "El volumen mide:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.8",
+        "nombre": "Volumen"
+      },
+      "respuestas_posibles": {
+        "A": "La superficie plana",
+        "B": "La suma de sus aristas",
+        "C": "El espacio tridimensional ocupado por un cuerpo",
+        "D": "La longitud de su contorno"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-8-02",
+      "pregunta": "¿Cuál es una unidad de volumen?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.8",
+        "nombre": "Volumen"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{kg}$",
+        "B": "$\\text{cm}^3$",
+        "C": "$\\text{cm}$",
+        "D": "$\\text{cm}^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-8-03",
+      "pregunta": "Un cubo de arista $4$ tiene volumen:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.8",
+        "nombre": "Volumen"
+      },
+      "respuestas_posibles": {
+        "A": "$64$",
+        "B": "$16$",
+        "C": "$48$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-8-04",
+      "pregunta": "Un cubo de arista $7$ tiene volumen:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.8",
+        "nombre": "Volumen"
+      },
+      "respuestas_posibles": {
+        "A": "$49$",
+        "B": "$196$",
+        "C": "$28$",
+        "D": "$343$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-8-05",
+      "pregunta": "Una caja de $8$ por $5$ por $3$ tiene volumen:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.8",
+        "nombre": "Volumen"
+      },
+      "respuestas_posibles": {
+        "A": "$80$",
+        "B": "$40$",
+        "C": "$120$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-8-06",
+      "pregunta": "Un prisma rectangular de $12$ por $4$ por $6$ tiene volumen:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.8",
+        "nombre": "Volumen"
+      },
+      "respuestas_posibles": {
+        "A": "$22$",
+        "B": "$288$",
+        "C": "$132$",
+        "D": "$96$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-8-07",
+      "pregunta": "Si todas las dimensiones lineales de un sólido se duplican, el volumen:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.8",
+        "nombre": "Volumen"
+      },
+      "respuestas_posibles": {
+        "A": "Se multiplica por $8$",
+        "B": "Se duplica",
+        "C": "Se cuadruplica",
+        "D": "No cambia"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-8-08",
+      "pregunta": "Convierta $2\\,\\text{m}^3$ a litros.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.8",
+        "nombre": "Volumen"
+      },
+      "respuestas_posibles": {
+        "A": "$200\\,\\text{L}$",
+        "B": "$20\\,\\text{L}$",
+        "C": "$20000\\,\\text{L}$",
+        "D": "$2000\\,\\text{L}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-8-09",
+      "pregunta": "Un recipiente tiene volumen $1500\\,\\text{cm}^3$. Su capacidad es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.8",
+        "nombre": "Volumen"
+      },
+      "respuestas_posibles": {
+        "A": "$0.15\\,\\text{L}$",
+        "B": "$150\\,\\text{L}$",
+        "C": "$1.5\\,\\text{L}$",
+        "D": "$15\\,\\text{L}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-8-10",
+      "pregunta": "Un cubo tiene volumen $216$. ¿Cuánto mide su arista?",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.8",
+        "nombre": "Volumen"
+      },
+      "respuestas_posibles": {
+        "A": "$72$",
+        "B": "$6$",
+        "C": "$18$",
+        "D": "$36$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver problemas métricos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-9-01",
+      "pregunta": "Un prisma tiene área de base $12$ y altura $5$. Calcule su volumen.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.9",
+        "nombre": "Prismas"
+      },
+      "respuestas_posibles": {
+        "A": "$60$",
+        "B": "$17$",
+        "C": "$29$",
+        "D": "$30$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular volumen de prisma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-9-02",
+      "pregunta": "Un prisma tiene área de base $20$ y altura $7$. Calcule su volumen.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.9",
+        "nombre": "Prismas"
+      },
+      "respuestas_posibles": {
+        "A": "$27$",
+        "B": "$47$",
+        "C": "$70$",
+        "D": "$140$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular volumen de prisma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-9-03",
+      "pregunta": "Un prisma tiene área de base $35$ y altura $4$. Calcule su volumen.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.9",
+        "nombre": "Prismas"
+      },
+      "respuestas_posibles": {
+        "A": "$74$",
+        "B": "$70$",
+        "C": "$140$",
+        "D": "$39$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular volumen de prisma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-9-04",
+      "pregunta": "Un prisma tiene área de base $48$ y altura $6$. Calcule su volumen.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.9",
+        "nombre": "Prismas"
+      },
+      "respuestas_posibles": {
+        "A": "$144$",
+        "B": "$288$",
+        "C": "$54$",
+        "D": "$102$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular volumen de prisma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-9-05",
+      "pregunta": "Un prisma tiene área de base $60$ y altura $9$. Calcule su volumen.",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.9",
+        "nombre": "Prismas"
+      },
+      "respuestas_posibles": {
+        "A": "$540$",
+        "B": "$69$",
+        "C": "$129$",
+        "D": "$270$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular volumen de prisma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-9-06",
+      "pregunta": "Un prisma triangular tiene base triangular de base $8$ y altura $5$, y longitud $12$. Su volumen es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.9",
+        "nombre": "Prismas"
+      },
+      "respuestas_posibles": {
+        "A": "$480$",
+        "B": "$120$",
+        "C": "$300$",
+        "D": "$240$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular volumen de prisma triangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-9-07",
+      "pregunta": "Un prisma rectangular tiene volumen $360$, largo $10$ y ancho $6$. Su altura es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.9",
+        "nombre": "Prismas"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$60$",
+        "C": "$6$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "despejar altura de prisma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-9-08",
+      "pregunta": "Un prisma tiene volumen $525$ y altura $15$. El área de su base es:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.9",
+        "nombre": "Prismas"
+      },
+      "respuestas_posibles": {
+        "A": "$7875$",
+        "B": "$35$",
+        "C": "$30$",
+        "D": "$40$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "despejar área de base",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-9-09",
+      "pregunta": "Un prisma de base cuadrada de lado $5$ y altura $9$ tiene volumen:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.9",
+        "nombre": "Prismas"
+      },
+      "respuestas_posibles": {
+        "A": "$225$",
+        "B": "$180$",
+        "C": "$45$",
+        "D": "$450$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular prisma de base cuadrada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-23-9-10",
+      "pregunta": "Si la altura de un prisma se triplica y el área de la base no cambia, su volumen:",
+      "tema": {
+        "codigo": "23",
+        "nombre": "Perímetros, áreas y volúmenes",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "23.9",
+        "nombre": "Prismas"
+      },
+      "respuestas_posibles": {
+        "A": "Se duplica",
+        "B": "Se multiplica por $9$",
+        "C": "No cambia",
+        "D": "Se triplica"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "interpretar proporcionalidad de volumen",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

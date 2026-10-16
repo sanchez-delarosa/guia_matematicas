@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>7. Productos notables · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte II: Álgebra</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#binomio-al-cuadrado"><span class="num">7.1</span> Binomio al cuadrado</a></li><li class="nivel-2"><a href="#binomios-conjugados"><span class="num">7.2</span> Binomios conjugados</a></li><li class="nivel-2"><a href="#binomios-con-termino-comun"><span class="num">7.3</span> Binomios con término común</a></li><li class="nivel-2"><a href="#binomio-al-cubo"><span class="num">7.4</span> Binomio al cubo</a></li><li class="nivel-2"><a href="#binomio-de-newton"><span class="num">7.5</span> Binomio de Newton</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">7.6</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 7</p><h1>Productos notables</h1></header>
+<p><span id="cap-productos-notables" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Los productos notables son multiplicaciones algebraicas que siguen patrones definidos. Reconocer estos patrones permite desarrollar expresiones con mayor rapidez y verificar resultados sin repetir todo el procedimiento distributivo. En este capítulo estudiarás el cuadrado y el cubo de un binomio, el producto de binomios conjugados, los binomios con término común y el binomio de Newton.</p>
+<h2 id="binomio-al-cuadrado"><span class="num">7.1</span> Binomio al cuadrado<a class="enlace-seccion" href="#binomio-al-cuadrado" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Cuadrado de un binomio</div><div class="caja-cuerpo"><p>El cuadrado de una suma es igual al cuadrado del primer término, más el doble producto de ambos términos, más el cuadrado del segundo:</p>
+<div class="mate"><span class="mate-bloque">\[(a+b)^2 = a^2+2ab+b^2.\]</span></div>
+<p>El cuadrado de una diferencia es igual al cuadrado del primer término, menos el doble producto de ambos términos, más el cuadrado del segundo:</p>
+<div class="mate"><span class="mate-bloque">\[(a-b)^2 = a^2-2ab+b^2.\]</span></div>
+<p>Los resultados obtenidos son trinomios cuadrados perfectos.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-1"><div class="caja-titulo">Ejemplo 7.1</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(x+5)^2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos \(a=x\) y \(b=5\). Aplicamos la fórmula correspondiente:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (x+5)^2 &amp;=x^2+2(x)(5)+5^2\\ &amp;=x^2+10x+25. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-2"><div class="caja-titulo">Ejemplo 7.2</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(3m-4n)^2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos \(a=3m\) y \(b=4n\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (3m-4n)^2 &amp;=(3m)^2-2(3m)(4n)+(4n)^2\\ &amp;=9m^2-24mn+16n^2. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-3"><div class="caja-titulo">Ejemplo 7.3</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[\left(2x^3+\frac{1}{2}y\right)^2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula del cuadrado de una suma:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \left(2x^3+\frac{1}{2}y\right)^2 &amp;=(2x^3)^2 +2(2x^3)\left(\frac{1}{2}y\right) +\left(\frac{1}{2}y\right)^2\\ &amp;=4x^6+2x^3y+\frac{1}{4}y^2. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El cuadrado de una suma no es igual a la suma de los cuadrados. En general:</p>
+<div class="mate"><span class="mate-bloque">\[(a+b)^2 \neq a^2+b^2.\]</span></div>
+<p>El término \(2ab\) no debe omitirse. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[(x+3)^2 = x^2+6x+9,\]</span></div>
+<p>no \(x^2+9\).</p></div></section>
+<h2 id="binomios-conjugados"><span class="num">7.2</span> Binomios conjugados<a class="enlace-seccion" href="#binomios-conjugados" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Dos binomios son <strong>conjugados</strong> si tienen los mismos términos, pero el signo que los separa es diferente. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[a+b \qquad\text{y}\qquad a-b.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Producto de binomios conjugados</div><div class="caja-cuerpo"><p>El producto de dos binomios conjugados es una diferencia de cuadrados:</p>
+<div class="mate"><span class="mate-bloque">\[(a+b)(a-b) = a^2-b^2.\]</span></div>
+<p>Los términos medios que aparecen al aplicar la propiedad distributiva se cancelan entre sí.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-4"><div class="caja-titulo">Ejemplo 7.4</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(x+7)(x-7).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los binomios son conjugados. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (x+7)(x-7) &amp;=x^2-7^2\\ &amp;=x^2-49. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-5"><div class="caja-titulo">Ejemplo 7.5</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(5m^2+3n)(5m^2-3n).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la diferencia de cuadrados:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (5m^2+3n)(5m^2-3n) &amp;=(5m^2)^2-(3n)^2\\ &amp;=25m^4-9n^2. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-6"><div class="caja-titulo">Ejemplo 7.6</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{2}{3}a-\frac{1}{4}b\right) \left(\frac{2}{3}a+\frac{1}{4}b\right).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los factores son binomios conjugados:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \left(\frac{2}{3}a-\frac{1}{4}b\right) \left(\frac{2}{3}a+\frac{1}{4}b\right) &amp;= \left(\frac{2}{3}a\right)^2 - \left(\frac{1}{4}b\right)^2\\ &amp;= \frac{4}{9}a^2-\frac{1}{16}b^2. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="binomios-con-termino-comun"><span class="num">7.3</span> Binomios con término común<a class="enlace-seccion" href="#binomios-con-termino-comun" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Producto de binomios con término común</div><div class="caja-cuerpo"><p>Si dos binomios tienen el término \(x\) en común, entonces:</p>
+<div class="mate"><span class="mate-bloque">\[(x+a)(x+b) = x^2+(a+b)x+ab.\]</span></div>
+<p>El resultado contiene:</p>
+<ul><li>el cuadrado del término común;</li><li>la suma algebraica de los términos no comunes multiplicada por el término común;</li><li>el producto de los términos no comunes.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-7"><div class="caja-titulo">Ejemplo 7.7</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(x+8)(x+5).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (x+8)(x+5) &amp;=x^2+(8+5)x+(8)(5)\\ &amp;=x^2+13x+40. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-8"><div class="caja-titulo">Ejemplo 7.8</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(x+9)(x-10).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los términos no comunes son \(9\) y \(-10\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (x+9)(x-10) &amp;=x^2+[9+(-10)]x+(9)(-10)\\ &amp;=x^2-x-90. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-9"><div class="caja-titulo">Ejemplo 7.9</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[\left(3x-\frac{1}{2}\right)(3x+2).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El término común es \(3x\) y los términos no comunes son \(-\frac{1}{2}\) y \(2\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \left(3x-\frac{1}{2}\right)(3x+2) &amp;=(3x)^2 +\left(-\frac{1}{2}+2\right)(3x) +\left(-\frac{1}{2}\right)(2)\\ &amp;=9x^2+\frac{3}{2}(3x)-1\\ &amp;=9x^2+\frac{9}{2}x-1. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="binomio-al-cubo"><span class="num">7.4</span> Binomio al cubo<a class="enlace-seccion" href="#binomio-al-cubo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Cubo de un binomio</div><div class="caja-cuerpo"><p>El cubo de una suma se desarrolla mediante:</p>
+<div class="mate"><span class="mate-bloque">\[(a+b)^3 = a^3+3a^2b+3ab^2+b^3.\]</span></div>
+<p>El cubo de una diferencia se desarrolla mediante:</p>
+<div class="mate"><span class="mate-bloque">\[(a-b)^3 = a^3-3a^2b+3ab^2-b^3.\]</span></div>
+<p>En el segundo desarrollo, los signos se alternan.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-10"><div class="caja-titulo">Ejemplo 7.10</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(x+2)^3.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula del cubo de una suma:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (x+2)^3 &amp;=x^3+3x^2(2)+3x(2)^2+2^3\\ &amp;=x^3+6x^2+12x+8. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-11"><div class="caja-titulo">Ejemplo 7.11</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(2m-3n)^3.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula del cubo de una diferencia:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (2m-3n)^3 &amp;=(2m)^3 -3(2m)^2(3n) +3(2m)(3n)^2 -(3n)^3\\ &amp;=8m^3-36m^2n+54mn^2-27n^3. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En el cubo de una diferencia, el tercer término es positivo:</p>
+<div class="mate"><span class="mate-bloque">\[(a-b)^3 = a^3-3a^2b+3ab^2-b^3.\]</span></div>
+<p>Los signos siguen el patrón:</p>
+<div class="mate"><span class="mate-bloque">\[+,\quad -,\quad +,\quad -.\]</span></div></div></section>
+<h2 id="binomio-de-newton"><span class="num">7.5</span> Binomio de Newton<a class="enlace-seccion" href="#binomio-de-newton" aria-label="Enlace a esta sección">#</a></h2>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>El binomio de Newton generaliza los productos notables anteriores y permite desarrollar una potencia entera no negativa de un binomio.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Binomio de Newton</div><div class="caja-cuerpo"><p>Para \(n\in\N\cup\{0\}\):</p>
+<div class="mate"><span class="mate-bloque">\[(a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k}b^k,\]</span></div>
+<p>donde</p>
+<div class="mate"><span class="mate-bloque">\[\binom{n}{k} = \frac{n!}{k!(n-k)!}\]</span></div>
+<p>es el coeficiente binomial.</p>
+<p>El desarrollo contiene \(n+1\) términos.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Término general</div><div class="caja-cuerpo"><p>Al numerar los términos del desarrollo desde \(1\), el término que ocupa la posición \(r\) está dado por:</p>
+<div class="mate"><span class="mate-bloque">\[T_r = \binom{n}{r-1} a^{n-r+1}b^{r-1}, \qquad 1\leq r\leq n+1.\]</span></div>
+<p>De manera equivalente, si el índice comienza en \(k=0\), el término correspondiente es:</p>
+<div class="mate"><span class="mate-bloque">\[T_{k+1} = \binom{n}{k} a^{n-k}b^k.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El triángulo de Pascal permite obtener los coeficientes binomiales de los primeros desarrollos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c} 1\\[0.2em] 1\qquad 1\\[0.2em] 1\qquad 2\qquad 1\\[0.2em] 1\qquad 3\qquad 3\qquad 1\\[0.2em] 1\qquad 4\qquad 6\qquad 4\qquad 1\\[0.2em] 1\qquad 5\qquad 10\qquad 10\qquad 5\qquad 1 \end{array}\]</span></div>
+<p>Las filas, comenzando desde arriba, corresponden a los valores \(n=0,1,2,3,4,5\).</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-12"><div class="caja-titulo">Ejemplo 7.12</div><div class="caja-cuerpo"><p>Desarrolla</p>
+<div class="mate"><span class="mate-bloque">\[(a+1)^4\]</span></div>
+<p>mediante el binomio de Newton.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los coeficientes correspondientes a \(n=4\) son:</p>
+<div class="mate"><span class="mate-bloque">\[1,\qquad 4,\qquad 6,\qquad 4,\qquad 1.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (a+1)^4 &amp;=a^4 +4a^3(1) +6a^2(1)^2 +4a(1)^3 +(1)^4\\ &amp;=a^4+4a^3+6a^2+4a+1. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-13"><div class="caja-titulo">Ejemplo 7.13</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(2x+y)^5.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los coeficientes correspondientes a \(n=5\) son:</p>
+<div class="mate"><span class="mate-bloque">\[1,\qquad 5,\qquad 10,\qquad 10,\qquad 5,\qquad 1.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (2x+y)^5 &amp;=(2x)^5 +5(2x)^4y +10(2x)^3y^2\\ &amp;\quad +10(2x)^2y^3 +5(2x)y^4 +y^5\\ &amp;=32x^5 +80x^4y +80x^3y^2\\ &amp;\quad +40x^2y^3 +10xy^4 +y^5. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-7-14"><div class="caja-titulo">Ejemplo 7.14</div><div class="caja-cuerpo"><p>Encuentra el cuarto término del desarrollo de:</p>
+<div class="mate"><span class="mate-bloque">\[(3x^2-y)^4.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos el binomio como:</p>
+<div class="mate"><span class="mate-bloque">\[(3x^2+(-y))^4.\]</span></div>
+<p>El cuarto término corresponde a \(r=4\) o, de manera equivalente, a \(k=3\). Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[T_{k+1} = \binom{n}{k}a^{n-k}b^k.\]</span></div>
+<p>Sustituimos \(n=4\), \(k=3\), \(a=3x^2\) y \(b=-y\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} T_4 &amp;= \binom{4}{3} (3x^2)^{4-3} (-y)^3\\ &amp;=4(3x^2)(-y^3)\\ &amp;=-12x^2y^3. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Cuando el segundo término del binomio es negativo, debe incluirse el signo dentro de la potencia:</p>
+<div class="mate"><span class="mate-bloque">\[(a-b)^n = (a+(-b))^n.\]</span></div>
+<p>El factor \((-b)^k\) es positivo si \(k\) es par y negativo si \(k\) es impar. Por esta razón, los signos del desarrollo se alternan.</p></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">7.6</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-7-1"><div class="caja-titulo">Ejercicio 7.1</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(x-7)^2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(x - 7)^2 = x^2 - 14x + 49.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-7-2"><div class="caja-titulo">Ejercicio 7.2</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(4a+3b)^2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(4a + 3b)^2 = 16a^2 + 24ab + 9b^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-7-3"><div class="caja-titulo">Ejercicio 7.3</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(2m^3-5n)^2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(2m^3 - 5n)^2 = 4m^6 - 20m^3 n + 25n^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-7-4"><div class="caja-titulo">Ejercicio 7.4</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(x+9)(x-9).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(x + 9)(x - 9) = x^2 - 81.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-7-5"><div class="caja-titulo">Ejercicio 7.5</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(3a^2+2b)(3a^2-2b).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(3a^2 + 2b)(3a^2 - 2b) = 9a^4 - 4b^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-7-6"><div class="caja-titulo">Ejercicio 7.6</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(x+6)(x-4).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(x + 6)(x - 4) = x^2 + 2x - 24.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-7-7"><div class="caja-titulo">Ejercicio 7.7</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(y-8)(y-3).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(y - 8)(y - 3) = y^2 - 11y + 24.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-7-8"><div class="caja-titulo">Ejercicio 7.8</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(x+4)^3.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(x + 4)^3 = x^3 + 12x^2 + 48x + 64.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-7-9"><div class="caja-titulo">Ejercicio 7.9</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(2a-b)^3.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(2a - b)^3 = 8a^3 - 12a^2 b + 6ab^2 - b^3.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-7-10"><div class="caja-titulo">Ejercicio 7.10</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Desarrolla mediante el binomio de Newton:</p>
+<div class="mate"><span class="mate-bloque">\[(a+2)^5.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Coeficientes para \(n = 5\): \(1, 5, 10, 10, 5, 1\). <span class="mate-bloque">\[(a + 2)^5 = a^5 + 10a^4 + 40a^3 + 80a^2 + 80a + 32.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-7-11"><div class="caja-titulo">Ejercicio 7.11</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Encuentra el cuarto término del desarrollo de:</p>
+<div class="mate"><span class="mate-bloque">\[(x-2y)^5.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El cuarto término corresponde a \(k = 3\): <span class="mate-bloque">\[\binom{5}{3} x^{5-3} (-2y)^3 = 10 \cdot x^2 \cdot (-8y^3) = -80x^2 y^3.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="06-expresiones-algebraicas.html"><span>← Anterior</span>6. Expresiones algebraicas</a><a class="nav-siguiente" href="08-factorizacion.html"><span>Siguiente →</span>8. Factorización</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

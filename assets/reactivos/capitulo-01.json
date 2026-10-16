@@ -1,0 +1,811 @@
+{
+  "metadata": {
+    "capitulo": "1",
+    "titulo": "Números reales",
+    "version": "4.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 3,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 30,
+    "secciones_incluidas": [
+      {
+        "codigo": "1.1",
+        "nombre": "Clasificación de los números"
+      },
+      {
+        "codigo": "1.2",
+        "nombre": "Propiedades de los números reales"
+      },
+      {
+        "codigo": "1.3",
+        "nombre": "Propiedades de orden"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas. Se excluyeron apartados editoriales de ejemplos y ejercicios.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_y_revisado_matematicamente"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-1-1-01",
+      "pregunta": "¿A qué conjunto numérico pertenece $-7$ de manera más específica?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.1",
+        "nombre": "Clasificación de los números"
+      },
+      "respuestas_posibles": {
+        "A": "Números naturales",
+        "B": "Números enteros",
+        "C": "Números irracionales",
+        "D": "Números imaginarios"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar números enteros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-1-02",
+      "pregunta": "¿Cuál de los siguientes números es racional?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.1",
+        "nombre": "Clasificación de los números"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt{2}$",
+        "B": "$\\pi$",
+        "C": "$\\frac{7}{12}$",
+        "D": "$\\sqrt{5}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar números racionales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-1-03",
+      "pregunta": "¿Cuál de los siguientes números es irracional?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.1",
+        "nombre": "Clasificación de los números"
+      },
+      "respuestas_posibles": {
+        "A": "$0.125$",
+        "B": "$\\frac{11}{4}$",
+        "C": "$-3$",
+        "D": "$\\sqrt{7}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar números irracionales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-1-04",
+      "pregunta": "El decimal $0.\\overline{36}$ pertenece al conjunto de los:",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.1",
+        "nombre": "Clasificación de los números"
+      },
+      "respuestas_posibles": {
+        "A": "Números racionales",
+        "B": "Números irracionales",
+        "C": "Números naturales exclusivamente",
+        "D": "Números imaginarios"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "clasificar decimales periódicos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-1-05",
+      "pregunta": "¿Cuál afirmación es verdadera?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.1",
+        "nombre": "Clasificación de los números"
+      },
+      "respuestas_posibles": {
+        "A": "Todo racional es entero",
+        "B": "Todo entero es racional",
+        "C": "Todo irracional es natural",
+        "D": "Ningún natural es real"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reconocer inclusión de conjuntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-1-06",
+      "pregunta": "¿Cuál de los siguientes números no es real?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.1",
+        "nombre": "Clasificación de los números"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt{9}$",
+        "B": "$-\\frac{5}{2}$",
+        "C": "$\\sqrt{-4}$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "distinguir números reales y no reales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-1-07",
+      "pregunta": "El número $-\\sqrt{16}$ se clasifica de manera más específica como:",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.1",
+        "nombre": "Clasificación de los números"
+      },
+      "respuestas_posibles": {
+        "A": "Natural",
+        "B": "Entero",
+        "C": "Irracional",
+        "D": "Imaginario"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "simplificar y clasificar números",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-1-08",
+      "pregunta": "¿Cuál opción contiene solamente números irracionales?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.1",
+        "nombre": "Clasificación de los números"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt{3},\\;\\pi$",
+        "B": "$\\frac{2}{3},\\;\\sqrt{5}$",
+        "C": "$-4,\\;\\pi$",
+        "D": "$0.2,\\;\\sqrt{9}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "clasificar conjuntos de números",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-1-09",
+      "pregunta": "Si $a$ es un número entero, ¿cuál expresión es necesariamente racional?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.1",
+        "nombre": "Clasificación de los números"
+      },
+      "respuestas_posibles": {
+        "A": "$a+\\sqrt{2}$",
+        "B": "$\\frac{a}{3}$",
+        "C": "$a\\pi$",
+        "D": "$\\sqrt{a}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "usar propiedades de clasificación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-1-10",
+      "pregunta": "¿Entre qué enteros consecutivos se encuentra $\\sqrt{20}$?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.1",
+        "nombre": "Clasificación de los números"
+      },
+      "respuestas_posibles": {
+        "A": "Entre $3$ y $4$",
+        "B": "Entre $4$ y $5$",
+        "C": "Entre $5$ y $6$",
+        "D": "Entre $9$ y $10$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "ubicar un irracional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-2-01",
+      "pregunta": "¿Qué propiedad se ilustra en $8+5=5+8$?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.2",
+        "nombre": "Propiedades de los números reales"
+      },
+      "respuestas_posibles": {
+        "A": "Asociativa",
+        "B": "Conmutativa",
+        "C": "Distributiva",
+        "D": "Elemento neutro"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar propiedad conmutativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-2-02",
+      "pregunta": "¿Qué propiedad se ilustra en $(2+3)+7=2+(3+7)$?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.2",
+        "nombre": "Propiedades de los números reales"
+      },
+      "respuestas_posibles": {
+        "A": "Asociativa de la suma",
+        "B": "Conmutativa de la suma",
+        "C": "Distributiva",
+        "D": "Inverso aditivo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar propiedad asociativa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-2-03",
+      "pregunta": "Simplifique $6(x+4)$ mediante la propiedad distributiva.",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.2",
+        "nombre": "Propiedades de los números reales"
+      },
+      "respuestas_posibles": {
+        "A": "$6x+4$",
+        "B": "$6x+10$",
+        "C": "$6x+24$",
+        "D": "$24x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar propiedad distributiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-2-04",
+      "pregunta": "¿Cuál es el elemento neutro de la multiplicación?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.2",
+        "nombre": "Propiedades de los números reales"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$-1$",
+        "D": "$\\frac{1}{2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "reconocer neutro multiplicativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-2-05",
+      "pregunta": "¿Cuál es el inverso aditivo de $-12$?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.2",
+        "nombre": "Propiedades de los números reales"
+      },
+      "respuestas_posibles": {
+        "A": "$-12$",
+        "B": "$0$",
+        "C": "$12$",
+        "D": "$\\frac{1}{12}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer inverso aditivo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-2-06",
+      "pregunta": "¿Cuál es el inverso multiplicativo de $\\frac{5}{8}$?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.2",
+        "nombre": "Propiedades de los números reales"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac{5}{8}$",
+        "B": "$\\frac{8}{5}$",
+        "C": "$\\frac{3}{8}$",
+        "D": "$\\frac{5}{3}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "reconocer inverso multiplicativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-2-07",
+      "pregunta": "¿Cuál igualdad usa correctamente la propiedad distributiva?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.2",
+        "nombre": "Propiedades de los números reales"
+      },
+      "respuestas_posibles": {
+        "A": "$3(a+b)=3a+b$",
+        "B": "$3(a+b)=a+3b$",
+        "C": "$3(a+b)=3a+3b$",
+        "D": "$3(a+b)=6ab$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "validar propiedad distributiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-2-08",
+      "pregunta": "Si $a+b=a+c$, ¿qué propiedad permite concluir que $b=c$?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.2",
+        "nombre": "Propiedades de los números reales"
+      },
+      "respuestas_posibles": {
+        "A": "Cancelación aditiva",
+        "B": "Conmutativa",
+        "C": "Asociativa",
+        "D": "Clausura"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar cancelación aditiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-2-09",
+      "pregunta": "¿En cuál operación los números reales no están cerrados?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.2",
+        "nombre": "Propiedades de los números reales"
+      },
+      "respuestas_posibles": {
+        "A": "Suma",
+        "B": "Multiplicación",
+        "C": "Resta",
+        "D": "División entre cero"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar propiedad de clausura",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-2-10",
+      "pregunta": "Calcule $25(17)+25(3)$ usando la propiedad distributiva.",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.2",
+        "nombre": "Propiedades de los números reales"
+      },
+      "respuestas_posibles": {
+        "A": "$425$",
+        "B": "$500$",
+        "C": "$625$",
+        "D": "$750$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "usar distributiva en cálculo mental",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-3-01",
+      "pregunta": "Seleccione la relación verdadera.",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.3",
+        "nombre": "Propiedades de orden"
+      },
+      "respuestas_posibles": {
+        "A": "$-3<-8$",
+        "B": "$-8<-3$",
+        "C": "$-3=-8$",
+        "D": "$-8>0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "comparar números enteros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-3-02",
+      "pregunta": "Ordene de menor a mayor $-2$, $0$, $-5$ y $3$.",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.3",
+        "nombre": "Propiedades de orden"
+      },
+      "respuestas_posibles": {
+        "A": "$-5<-2<0<3$",
+        "B": "$-2<-5<0<3$",
+        "C": "$0<-2<-5<3$",
+        "D": "$-5<0<-2<3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "ordenar números reales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-3-03",
+      "pregunta": "¿Cuál número se encuentra más a la derecha en la recta numérica?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.3",
+        "nombre": "Propiedades de orden"
+      },
+      "respuestas_posibles": {
+        "A": "$-1.4$",
+        "B": "$-1.04$",
+        "C": "$-1.44$",
+        "D": "$-1.5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "comparar decimales negativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-3-04",
+      "pregunta": "Si $a<b$, ¿cuál relación es siempre verdadera?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.3",
+        "nombre": "Propiedades de orden"
+      },
+      "respuestas_posibles": {
+        "A": "$a+6<b+6$",
+        "B": "$a-6>b-6$",
+        "C": "$-a<-b$",
+        "D": "$2a>2b$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "usar compatibilidad del orden con la suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-3-05",
+      "pregunta": "Si $a<b$, al multiplicar ambos miembros por $-4$ se obtiene:",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.3",
+        "nombre": "Propiedades de orden"
+      },
+      "respuestas_posibles": {
+        "A": "$-4a<-4b$",
+        "B": "$-4a>-4b$",
+        "C": "$4a>4b$",
+        "D": "$-4a=-4b$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "invertir desigualdad con factor negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-3-06",
+      "pregunta": "¿Cuál intervalo representa $-2\\leq x<5$?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.3",
+        "nombre": "Propiedades de orden"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,5)$",
+        "B": "$[-2,5]$",
+        "C": "$[-2,5)$",
+        "D": "$(-2,5]$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "interpretar intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-3-07",
+      "pregunta": "El valor absoluto $|x-3|$ representa:",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.3",
+        "nombre": "Propiedades de orden"
+      },
+      "respuestas_posibles": {
+        "A": "La distancia entre $x$ y $3$",
+        "B": "La suma de $x$ y $3$",
+        "C": "El opuesto de $x-3$",
+        "D": "La distancia entre $x$ y $-3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interpretar valor absoluto como distancia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-3-08",
+      "pregunta": "¿Qué número satisface simultáneamente $x>2$ y $x<4$?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.3",
+        "nombre": "Propiedades de orden"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$2$",
+        "C": "$3$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar intersección de desigualdades",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-3-09",
+      "pregunta": "Si $0<a<b$, ¿cuál relación es verdadera?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.3",
+        "nombre": "Propiedades de orden"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{1}{a}<\\frac{1}{b}$",
+        "B": "$\\frac{1}{a}>\\frac{1}{b}$",
+        "C": "$a^2>b^2$",
+        "D": "$-a<-b$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "comparar recíprocos positivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-1-3-10",
+      "pregunta": "Dados $a=-2$ y $b=5$, ¿cuál desigualdad es verdadera?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "1.3",
+        "nombre": "Propiedades de orden"
+      },
+      "respuestas_posibles": {
+        "A": "$|a|>|b|$",
+        "B": "$a+b<0$",
+        "C": "$a-b>0$",
+        "D": "$a<b$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "evaluar relaciones de orden",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

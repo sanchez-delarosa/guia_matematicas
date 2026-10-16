@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>9. Fracciones algebraicas · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte II: Álgebra</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#concepto-y-dominio"><span class="num">9.1</span> Concepto y dominio</a></li><li class="nivel-2"><a href="#simplificacion"><span class="num">9.2</span> Simplificación</a></li><li class="nivel-2"><a href="#suma-y-resta"><span class="num">9.3</span> Suma y resta</a></li><li class="nivel-2"><a href="#multiplicacion"><span class="num">9.4</span> Multiplicación</a></li><li class="nivel-2"><a href="#division"><span class="num">9.5</span> División</a></li><li class="nivel-2"><a href="#fracciones-complejas"><span class="num">9.6</span> Fracciones complejas</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">9.7</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 9</p><h1>Fracciones algebraicas</h1></header>
+<p><span id="cap-fracciones-algebraicas" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Una fracción algebraica es el cociente de dos polinomios. Para simplificarla y realizar operaciones con ella es necesario dominar la factorización y reconocer los valores que anulan sus denominadores. En este capítulo aprenderás a simplificar fracciones algebraicas, sumarlas, restarlas, multiplicarlas y dividirlas, así como a trabajar con fracciones complejas.</p>
+<h2 id="concepto-y-dominio"><span class="num">9.1</span> Concepto y dominio<a class="enlace-seccion" href="#concepto-y-dominio" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>fracción algebraica</strong> es una expresión de la forma</p>
+<div class="mate"><span class="mate-bloque">\[\frac{P(x)}{Q(x)},\]</span></div>
+<p>donde \(P(x)\) y \(Q(x)\) son polinomios y</p>
+<div class="mate"><span class="mate-bloque">\[Q(x)\neq 0.\]</span></div>
+<p>La expresión está definida únicamente para los valores de \(x\) que no anulan el denominador.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>dominio</strong> de una fracción algebraica es el conjunto de valores para los cuales la expresión está definida.</p>
+<p>Para determinarlo, se resuelve la condición:</p>
+<div class="mate"><span class="mate-bloque">\[Q(x)\neq 0.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-1"><div class="caja-titulo">Ejemplo 9.1</div><div class="caja-cuerpo"><p>Determina los valores para los que está definida la expresión:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x+1}{x^2-9}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El denominador debe ser distinto de cero:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-9\neq 0.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x+3)(x-3)\neq 0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq -3 \qquad\text{y}\qquad x\neq 3.\]</span></div>
+<p>La fracción está definida para todos los números reales, excepto \(-3\) y \(3\).</p></div></details></div></section>
+<h2 id="simplificacion"><span class="num">9.2</span> Simplificación<a class="enlace-seccion" href="#simplificacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Simplificación de fracciones algebraicas</div><div class="caja-cuerpo"><p>Para simplificar una fracción algebraica:</p>
+<ol><li>se factorizan completamente el numerador y el denominador;</li><li>se identifican los factores comunes;</li><li>se cancelan los factores comunes distintos de cero;</li><li>se conservan las restricciones del denominador original.</li></ol>
+<p>En general:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{AC}{BC} = \frac{A}{B}, \qquad B\neq 0, \qquad C\neq 0.\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al simplificar una fracción algebraica, los valores excluidos por el denominador original deben conservarse, aunque el factor que los produce desaparezca después de la cancelación.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{(x-2)(x+1)}{(x-2)(x+3)} = \frac{x+1}{x+3},\]</span></div>
+<p>pero la expresión original requiere:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq 2 \qquad\text{y}\qquad x\neq -3.\]</span></div>
+<p>La expresión simplificada es equivalente a la original únicamente en el dominio de esta última.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-2"><div class="caja-titulo">Ejemplo 9.2</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{3x^4y^3}{6x^2y}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La expresión original requiere:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq 0 \qquad\text{y}\qquad y\neq 0.\]</span></div>
+<p>Simplificamos el coeficiente y aplicamos las leyes de los exponentes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{3x^4y^3}{6x^2y} &amp;= \frac{3}{6} x^{4-2} y^{3-1}\\ &amp;= \frac{1}{2}x^2y^2. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{3x^4y^3}{6x^2y} = \frac{x^2y^2}{2}, \qquad x\neq 0, \qquad y\neq 0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-3"><div class="caja-titulo">Ejemplo 9.3</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x^2-9}{x^2+8x+15}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos el numerador y el denominador:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x^2-9 &amp;=(x+3)(x-3),\\ x^2+8x+15 &amp;=(x+5)(x+3). \end{aligned}\]</span></div>
+<p>El denominador original se anula cuando:</p>
+<div class="mate"><span class="mate-bloque">\[x=-5 \qquad\text{o}\qquad x=-3.\]</span></div>
+<p>Por tanto, estos valores deben excluirse. Simplificamos el factor común \(x+3\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{x^2-9}{x^2+8x+15} &amp;= \frac{(x+3)(x-3)} {(x+5)(x+3)}\\ &amp;= \frac{x-3}{x+5}. \end{aligned}\]</span></div>
+<p>La expresión simplificada es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x-3}{x+5}, \qquad x\neq -5, \qquad x\neq -3.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Solo pueden cancelarse factores, no términos que forman parte de una suma o una diferencia.</p>
+<p>Por ejemplo, en la expresión</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x+3}{x+5}\]</span></div>
+<p>no pueden cancelarse las \(x\), porque \(x+3\) y \(x+5\) son sumas, no productos.</p>
+<p>En cambio, sí puede simplificarse:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x(x+3)}{x(x+5)} = \frac{x+3}{x+5}, \qquad x\neq 0.\]</span></div></div></section>
+<h2 id="suma-y-resta"><span class="num">9.3</span> Suma y resta<a class="enlace-seccion" href="#suma-y-resta" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fracciones con el mismo denominador</div><div class="caja-cuerpo"><p>Si dos fracciones algebraicas tienen el mismo denominador, se suman o restan sus numeradores y se conserva el denominador:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{A}{C}+\frac{B}{C} &amp;=\frac{A+B}{C},\\ \frac{A}{C}-\frac{B}{C} &amp;=\frac{A-B}{C}, \end{aligned}\]</span></div>
+<p>donde \(C\neq 0\).</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fracciones con denominadores distintos</div><div class="caja-cuerpo"><p>Si las fracciones tienen denominadores distintos, deben escribirse con un denominador común.</p>
+<p>En general:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{A}{B}+\frac{C}{D} &amp;=\frac{AD+BC}{BD},\\ \frac{A}{B}-\frac{C}{D} &amp;=\frac{AD-BC}{BD}, \end{aligned}\]</span></div>
+<p>donde \(B\neq 0\) y \(D\neq 0\).</p>
+<p>Cuando los denominadores son polinomios, conviene factorizarlos y utilizar su mínimo común denominador.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-4"><div class="caja-titulo">Ejemplo 9.4</div><div class="caja-cuerpo"><p>Realiza la operación:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2}{a}+\frac{1}{b}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Las restricciones son:</p>
+<div class="mate"><span class="mate-bloque">\[a\neq 0 \qquad\text{y}\qquad b\neq 0.\]</span></div>
+<p>El denominador común es \(ab\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{2}{a}+\frac{1}{b} &amp;= \frac{2b}{ab} + \frac{a}{ab}\\ &amp;= \frac{2b+a}{ab}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-5"><div class="caja-titulo">Ejemplo 9.5</div><div class="caja-cuerpo"><p>Realiza la operación:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{x^2} + \frac{2x}{3x^3} - \frac{3}{2x^2}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La expresión está definida para:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq 0.\]</span></div>
+<p>Primero simplificamos la segunda fracción:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2x}{3x^3} = \frac{2}{3x^2}.\]</span></div>
+<p>Ahora todas las fracciones tienen denominadores que son múltiplos de \(x^2\). El mínimo común denominador es \(6x^2\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{1}{x^2} + \frac{2}{3x^2} - \frac{3}{2x^2} &amp;= \frac{6}{6x^2} + \frac{4}{6x^2} - \frac{9}{6x^2}\\ &amp;= \frac{6+4-9}{6x^2}\\ &amp;= \frac{1}{6x^2}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-6"><div class="caja-titulo">Ejemplo 9.6</div><div class="caja-cuerpo"><p>Realiza la operación:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x+1}{x-2} - \frac{x+5}{x+3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Las restricciones son:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq 2 \qquad\text{y}\qquad x\neq -3.\]</span></div>
+<p>El denominador común es \((x-2)(x+3)\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{x+1}{x-2} - \frac{x+5}{x+3} &amp;= \frac{(x+1)(x+3)-(x+5)(x-2)} {(x-2)(x+3)}. \end{aligned}\]</span></div>
+<p>Desarrollamos el numerador:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (x+1)(x+3) &amp;=x^2+4x+3,\\ (x+5)(x-2) &amp;=x^2+3x-10. \end{aligned}\]</span></div>
+<p>Sustituimos y simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{x^2+4x+3-(x^2+3x-10)} {(x-2)(x+3)} &amp;= \frac{x^2+4x+3-x^2-3x+10} {(x-2)(x+3)}\\ &amp;= \frac{x+13}{(x-2)(x+3)}. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="multiplicacion"><span class="num">9.4</span> Multiplicación<a class="enlace-seccion" href="#multiplicacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Multiplicación de fracciones algebraicas</div><div class="caja-cuerpo"><p>Para multiplicar fracciones algebraicas, se multiplican los numeradores entre sí y los denominadores entre sí:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{A}{B}\cdot\frac{C}{D} = \frac{AC}{BD},\]</span></div>
+<p>donde \(B\neq 0\) y \(D\neq 0\).</p>
+<p>Antes de efectuar las multiplicaciones, conviene factorizar todos los polinomios y simplificar los factores comunes.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-7"><div class="caja-titulo">Ejemplo 9.7</div><div class="caja-cuerpo"><p>Multiplica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{3x^2y^3}{4x^4y^2} \cdot \frac{8x}{y^2}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La expresión original requiere:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq 0 \qquad\text{y}\qquad y\neq 0.\]</span></div>
+<p>Multiplicamos y simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{3x^2y^3}{4x^4y^2} \cdot \frac{8x}{y^2} &amp;= \frac{24x^3y^3}{4x^4y^4}\\ &amp;= 6x^{3-4}y^{3-4}\\ &amp;= 6x^{-1}y^{-1}\\ &amp;= \frac{6}{xy}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-8"><div class="caja-titulo">Ejemplo 9.8</div><div class="caja-cuerpo"><p>Multiplica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x^2-2x-3}{x^2+3x+2} \cdot \frac{x^2-1}{x^2-4x+3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos todos los polinomios:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x^2-2x-3 &amp;=(x-3)(x+1),\\ x^2+3x+2 &amp;=(x+1)(x+2),\\ x^2-1 &amp;=(x-1)(x+1),\\ x^2-4x+3 &amp;=(x-1)(x-3). \end{aligned}\]</span></div>
+<p>Los denominadores originales establecen las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq -1, \qquad x\neq -2, \qquad x\neq 1, \qquad x\neq 3.\]</span></div>
+<p>Sustituimos las factorizaciones:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} &amp;\frac{(x-3)(x+1)} {(x+1)(x+2)} \cdot \frac{(x-1)(x+1)} {(x-1)(x-3)} \\[0.4em] &amp;\qquad = \frac{x+1}{x+2}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x^2-2x-3}{x^2+3x+2} \cdot \frac{x^2-1}{x^2-4x+3} = \frac{x+1}{x+2},\]</span></div>
+<p>con las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq -2,-1,1,3.\]</span></div></div></details></div></section>
+<h2 id="division"><span class="num">9.5</span> División<a class="enlace-seccion" href="#division" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> División de fracciones algebraicas</div><div class="caja-cuerpo"><p>Para dividir entre una fracción algebraica, se multiplica la primera fracción por el recíproco de la segunda:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{A}{B}\div\frac{C}{D} = \frac{A}{B}\cdot\frac{D}{C} = \frac{AD}{BC}.\]</span></div>
+<p>Además de exigir que los denominadores originales sean distintos de cero, la fracción divisora debe ser distinta de cero. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[B\neq 0, \qquad C\neq 0, \qquad D\neq 0.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-9"><div class="caja-titulo">Ejemplo 9.9</div><div class="caja-cuerpo"><p>Divide:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{6a^4b^3}{a^2} \div \frac{12ab^5}{b}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La expresión original requiere:</p>
+<div class="mate"><span class="mate-bloque">\[a\neq 0 \qquad\text{y}\qquad b\neq 0.\]</span></div>
+<p>Multiplicamos por el recíproco de la segunda fracción:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{6a^4b^3}{a^2} \div \frac{12ab^5}{b} &amp;= \frac{6a^4b^3}{a^2} \cdot \frac{b}{12ab^5}\\ &amp;= \frac{6a^4b^4}{12a^3b^5}\\ &amp;= \frac{a}{2b}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-10"><div class="caja-titulo">Ejemplo 9.10</div><div class="caja-cuerpo"><p>Divide:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x-2}{x^2-4} \div \frac{x+1}{x^2-2x-3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos los denominadores:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x^2-4 &amp;=(x-2)(x+2),\\ x^2-2x-3 &amp;=(x-3)(x+1). \end{aligned}\]</span></div>
+<p>Los denominadores originales exigen:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq -2, \qquad x\neq 2, \qquad x\neq -1, \qquad x\neq 3.\]</span></div>
+<p>Además, la fracción divisora debe ser distinta de cero. Su numerador es \(x+1\), pero \(x=-1\) ya está excluido porque también anula su denominador.</p>
+<p>Multiplicamos por el recíproco:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{x-2}{(x-2)(x+2)} \cdot \frac{(x-3)(x+1)}{x+1} &amp;= \frac{x-3}{x+2}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x-2}{x^2-4} \div \frac{x+1}{x^2-2x-3} = \frac{x-3}{x+2},\]</span></div>
+<p>con las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq -2,-1,2,3.\]</span></div></div></details></div></section>
+<h2 id="fracciones-complejas"><span class="num">9.6</span> Fracciones complejas<a class="enlace-seccion" href="#fracciones-complejas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>fracción compleja</strong> es una fracción cuyo numerador, denominador o ambos contienen a su vez una o más fracciones.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{ \dfrac{2}{3}+\dfrac{1}{2} }{ \dfrac{3}{4}-\dfrac{1}{4} }.\]</span></div>
+<p>Puede simplificarse mediante alguno de los siguientes procedimientos:</p>
+<ul><li>simplificar por separado el numerador y el denominador, y después dividir ambos resultados;</li><li>multiplicar el numerador y el denominador de la fracción compleja por el mínimo común denominador de todas las fracciones interiores.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-11"><div class="caja-titulo">Ejemplo 9.11</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{ 2+\dfrac{1}{3} }{ 2-\dfrac{1}{3} }.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Simplificamos por separado el numerador y el denominador:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2+\frac{1}{3} &amp;=\frac{7}{3},\\ 2-\frac{1}{3} &amp;=\frac{5}{3}. \end{aligned}\]</span></div>
+<p>Después dividimos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{\dfrac{7}{3}}{\dfrac{5}{3}} &amp;= \frac{7}{3}\div\frac{5}{3}\\ &amp;= \frac{7}{3}\cdot\frac{3}{5}\\ &amp;= \frac{7}{5}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-9-12"><div class="caja-titulo">Ejemplo 9.12</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\left( 1+\frac{1}{1-\frac{1}{2}} \right) \left( 1-\frac{1}{1+\frac{1}{2}} \right).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Simplificamos el primer factor:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 1+\frac{1}{1-\frac{1}{2}} &amp;= 1+\frac{1}{\frac{1}{2}}\\ &amp;=1+2\\ &amp;=3. \end{aligned}\]</span></div>
+<p>Simplificamos el segundo factor:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 1-\frac{1}{1+\frac{1}{2}} &amp;= 1-\frac{1}{\frac{3}{2}}\\ &amp;=1-\frac{2}{3}\\ &amp;=\frac{1}{3}. \end{aligned}\]</span></div>
+<p>Finalmente:</p>
+<div class="mate"><span class="mate-bloque">\[(3)\left(\frac{1}{3}\right) = 1.\]</span></div></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">9.7</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-9-1"><div class="caja-titulo">Ejercicio 9.1</div><div class="caja-cuerpo"><p>Simplifica e indica las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{12x^3y^2}{8x^2y^4}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{12x^3 y^2}{8x^2 y^4} = \frac{3x}{2y^2}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-9-2"><div class="caja-titulo">Ejercicio 9.2</div><div class="caja-cuerpo"><p>Simplifica e indica las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x^2-4}{x^2+5x+6}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos: <span class="mate-bloque">\[x^2 - 4 = (x - 2)(x + 2), \qquad x^2 + 5x + 6 = (x + 2)(x + 3).\]</span> <span class="mate-bloque">\[\frac{x^2 - 4}{x^2 + 5x + 6} = \frac{(x - 2)(x + 2)}{(x + 2)(x + 3)} = \frac{x - 2}{x + 3}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-9-3"><div class="caja-titulo">Ejercicio 9.3</div><div class="caja-cuerpo"><p>Simplifica e indica las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x^2+7x+10}{x^2-25}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{(x + 5)(x + 2)}{(x - 5)(x + 5)} = \frac{x + 2}{x - 5}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-9-4"><div class="caja-titulo">Ejercicio 9.4</div><div class="caja-cuerpo"><p>Realiza la operación e indica las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{3}{x}+\frac{2}{y}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{3}{x} + \frac{2}{y} = \frac{3y + 2x}{xy}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-9-5"><div class="caja-titulo">Ejercicio 9.5</div><div class="caja-cuerpo"><p>Realiza la operación e indica las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2}{x+1}-\frac{3}{x-1}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{2(x - 1) - 3(x + 1)}{(x + 1)(x - 1)} = \frac{2x - 2 - 3x - 3}{(x + 1)(x - 1)} = \frac{-x - 5}{(x + 1)(x - 1)}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-9-6"><div class="caja-titulo">Ejercicio 9.6</div><div class="caja-cuerpo"><p>Multiplica, simplifica e indica las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2x+4}{x^2-4} \cdot \frac{x-2}{x+5}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos: <span class="mate-bloque">\[2x + 4 = 2(x + 2), \qquad x^2 - 4 = (x - 2)(x + 2).\]</span> <span class="mate-bloque">\[\frac{2(x + 2)}{(x - 2)(x + 2)} \cdot \frac{x - 2}{x + 5} = \frac{2}{x + 5}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-9-7"><div class="caja-titulo">Ejercicio 9.7</div><div class="caja-cuerpo"><p>Divide, simplifica e indica las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x^2-9}{x+2} \div \frac{x+3}{x^2-4}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos: <span class="mate-bloque">\[x^2 - 9 = (x - 3)(x + 3), \qquad x^2 - 4 = (x - 2)(x + 2).\]</span> <span class="mate-bloque">\[\frac{(x - 3)(x + 3)}{x + 2} \cdot \frac{(x - 2)(x + 2)}{x + 3} = (x - 3)(x - 2).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-9-8"><div class="caja-titulo">Ejercicio 9.8</div><div class="caja-cuerpo"><p>Simplifica e indica las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{ 1+\dfrac{1}{x} }{ 1-\dfrac{1}{x} }.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Numerador: \(1 + \frac{1}{x} = \frac{x + 1}{x}\). Denominador: \(1 - \frac{1}{x} = \frac{x - 1}{x}\). <span class="mate-bloque">\[\frac{\frac{x + 1}{x}}{\frac{x - 1}{x}} = \frac{x + 1}{x} \cdot \frac{x}{x - 1} = \frac{x + 1}{x - 1}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-9-9"><div class="caja-titulo">Ejercicio 9.9</div><div class="caja-cuerpo"><p>Simplifica e indica las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{ \dfrac{3}{x}-\dfrac{2}{x+1} }{ \dfrac{1}{x}+\dfrac{1}{x+1} }.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Numerador: <span class="mate-bloque">\[\frac{3}{x} - \frac{2}{x + 1} = \frac{3(x + 1) - 2x}{x(x + 1)} = \frac{3x + 3 - 2x}{x(x + 1)} = \frac{x + 3}{x(x + 1)}.\]</span> Denominador: <span class="mate-bloque">\[\frac{1}{x} + \frac{1}{x + 1} = \frac{(x + 1) + x}{x(x + 1)} = \frac{2x + 1}{x(x + 1)}.\]</span> <span class="mate-bloque">\[\frac{\frac{x + 3}{x(x + 1)}}{\frac{2x + 1}{x(x + 1)}} = \frac{x + 3}{2x + 1}.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="08-factorizacion.html"><span>← Anterior</span>8. Factorización</a><a class="nav-siguiente" href="10-ecuaciones-primer-grado.html"><span>Siguiente →</span>10. Ecuaciones de primer grado</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

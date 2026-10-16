@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guía de Matemáticas · Examen de admisión</title>
+  <meta name="description" content="Guía de matemáticas para el examen de admisión a la UNAM, IPN y CENEVAL: teoría, ejemplos resueltos y ejercicios con solución.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body class="pagina-indice">
+  <header class="portada">
+    <div class="portada-emblema">
+      <img src="assets/logo.png" alt="Escudo de Estudio, Cultura y Trabajo" class="logo-portada" width="210" height="222">
+    </div>
+    <p class="portada-sobre">Guía de estudio</p>
+    <h1>Guía de Matemáticas</h1>
+    <p class="portada-sub">Examen de admisión · UNAM · IPN · CENEVAL</p>
+    <p class="portada-marcas">
+      <span class="marca marca-unam">UNAM</span>
+      <span class="marca marca-ipn">IPN</span>
+      <span class="marca marca-ceneval">CENEVAL</span>
+    </p>
+    <nav class="nav-modos" aria-label="Cambiar de modo">
+      <span class="btn-modo activo" aria-current="page">📖 Guía de Estudio</span>
+      <a href="practica.html" class="btn-modo modo-practica-enlace">
+        <span class="icono-modo">🎯</span>
+        <span>Zona de Práctica</span>
+        <span class="badge-reactivos">4480 reactivos</span>
+      </a>
+    </nav>
+    <div class="buscador">
+      <input type="search" id="filtro" placeholder="Buscar un tema… (p. ej. «parábola», «factorización»)" aria-label="Buscar un tema">
+    </div>
+
+  </header>
+
+  <main class="indice-general">
+<section class="tarjeta-parte">
+  <div class="tarjeta-banner">
+    <div class="tarjeta-ilustracion" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="42" fill="#E8B400" fill-opacity="0.12"/>
+  <!-- Bloque izquierdo (Terracota) -->
+  <path d="M18 56L28 51L38 56L28 61Z" fill="#FBEAE5"/>
+  <rect x="18" y="56" width="20" height="22" rx="4" fill="#D99884"/>
+  <line x1="23" y1="67" x2="33" y2="67" stroke="#1B2A4A" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Bloque central doble (Ámbar + Marino) -->
+  <path d="M50 35L62 29V74L50 80Z" fill="#1B2A4A"/>
+  <path d="M38 35L50 29L62 35L50 41Z" fill="#FFF6D9"/>
+  <rect x="38" y="57" width="24" height="22" rx="4" fill="#E8B400"/>
+  <rect x="38" y="35" width="24" height="20" rx="4" fill="#E8B400"/>
+  <line x1="38" y1="56" x2="62" y2="56" stroke="#1B2A4A" stroke-width="1.8"/>
+  <!-- Bloque derecho (Marino) -->
+  <path d="M72 44L82 39V68L72 73Z" fill="#141E34"/>
+  <path d="M64 44L74 39L82 44L72 49Z" fill="#8FA3C4"/>
+  <rect x="64" y="44" width="18" height="28" rx="4" fill="#1B2A4A"/>
+  <path d="M69 53L77 61M77 53L69 61" stroke="#E8B400" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- Signo '+' flotante -->
+  <path d="M31 24V34M26 29H36" stroke="#1B2A4A" stroke-width="2.8" stroke-linecap="round"/>
+  <circle cx="76" cy="27" r="3" fill="#E8B400"/>
+</svg>
+    </div>
+  </div>
+  <div class="tarjeta-cuerpo">
+    <span class="tarjeta-etiqueta">Parte I</span>
+    <h2 class="tarjeta-titulo">Aritmética</h2>
+    <p class="tarjeta-subtitulo">5 capítulos</p>
+  </div>
+  <div class="tarjeta-accion">
+    <button type="button" class="btn-toggle-tarjeta" aria-expanded="false" data-count="5" onclick="toggleTarjeta(this)">
+      <span class="btn-texto">Ver capítulos (5)</span>
+      <svg class="chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </div>
+  <div class="tarjeta-colapsable">
+    <div class="tarjeta-colapsable-interior">
+      <ol class="tarjeta-lista">
+        <li><a href="capitulos/01-numeros-reales.html"><span class="num">1</span><div class="cap-info">  <span class="titulo-cap">Números reales</span>  <span class="secciones-cap">Clasificación de los números · Propiedades de los números reales · Propiedades de orden</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/02-operaciones-basicas.html"><span class="num">2</span><div class="cap-info">  <span class="titulo-cap">Operaciones básicas con números reales</span>  <span class="secciones-cap">La recta numérica y el valor absoluto · Suma y resta · Multiplicación y división</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/03-fracciones-decimales.html"><span class="num">3</span><div class="cap-info">  <span class="titulo-cap">Fracciones y decimales</span>  <span class="secciones-cap">Concepto de fracción · Fracciones equivalentes y simplificación · Suma y resta de fracciones</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/04-potencias-raices.html"><span class="num">4</span><div class="cap-info">  <span class="titulo-cap">Potencias y raíces</span>  <span class="secciones-cap">Definición de potencia · Leyes de los exponentes · Exponentes racionales</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/05-razones-proporciones.html"><span class="num">5</span><div class="cap-info">  <span class="titulo-cap">Razones, proporciones y porcentajes</span>  <span class="secciones-cap">Razones · Proporciones · Proporcionalidad directa</span></div><span class="flecha">→</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="tarjeta-parte">
+  <div class="tarjeta-banner">
+    <div class="tarjeta-ilustracion" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="42" fill="#1B2A4A" fill-opacity="0.08"/>
+  <!-- Ejes coordenados -->
+  <line x1="20" y1="50" x2="80" y2="50" stroke="#8FA3C4" stroke-width="1.2" stroke-dasharray="2 3" opacity="0.6"/>
+  <line x1="50" y1="20" x2="50" y2="80" stroke="#8FA3C4" stroke-width="1.2" stroke-dasharray="2 3" opacity="0.6"/>
+  <!-- Soporte central -->
+  <path d="M42 76C42 73 46 71 50 71C54 71 58 73 58 76H42Z" fill="#1B2A4A"/>
+  <rect x="48" y="50" width="4" height="22" rx="2" fill="#1B2A4A"/>
+  <circle cx="50" cy="50" r="3" fill="#E8B400"/>
+  <!-- Barra de la balanza -->
+  <rect x="18" y="48.5" width="64" height="3.5" rx="1.75" fill="#1B2A4A"/>
+  <!-- Plato izquierdo (Incógnita X) -->
+  <path d="M22 52L26 62H38L42 52" stroke="#1B2A4A" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <rect x="25" y="37" width="20" height="20" rx="4" fill="#1B2A4A"/>
+  <path d="M30 42L40 52M40 42L30 52" stroke="#E8B400" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- Plato derecho (Pesos) -->
+  <path d="M58 52L62 62H74L78 52" stroke="#1B2A4A" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <rect x="63" y="44" width="13" height="13" rx="3" fill="#D99884"/>
+  <rect x="68" y="30" width="13" height="13" rx="3" fill="#E8B400"/>
+</svg>
+    </div>
+  </div>
+  <div class="tarjeta-cuerpo">
+    <span class="tarjeta-etiqueta">Parte II</span>
+    <h2 class="tarjeta-titulo">Álgebra</h2>
+    <p class="tarjeta-subtitulo">9 capítulos</p>
+  </div>
+  <div class="tarjeta-accion">
+    <button type="button" class="btn-toggle-tarjeta" aria-expanded="false" data-count="9" onclick="toggleTarjeta(this)">
+      <span class="btn-texto">Ver capítulos (9)</span>
+      <svg class="chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </div>
+  <div class="tarjeta-colapsable">
+    <div class="tarjeta-colapsable-interior">
+      <ol class="tarjeta-lista">
+        <li><a href="capitulos/06-expresiones-algebraicas.html"><span class="num">6</span><div class="cap-info">  <span class="titulo-cap">Expresiones algebraicas</span>  <span class="secciones-cap">Términos algebraicos · Lenguaje algebraico · Términos semejantes</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/07-productos-notables.html"><span class="num">7</span><div class="cap-info">  <span class="titulo-cap">Productos notables</span>  <span class="secciones-cap">Binomio al cuadrado · Binomios conjugados · Binomios con término común</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/08-factorizacion.html"><span class="num">8</span><div class="cap-info">  <span class="titulo-cap">Factorización</span>  <span class="secciones-cap">Factor común · Diferencia de cuadrados · Trinomio cuadrado perfecto</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/09-fracciones-algebraicas.html"><span class="num">9</span><div class="cap-info">  <span class="titulo-cap">Fracciones algebraicas</span>  <span class="secciones-cap">Concepto y dominio · Simplificación · Suma y resta</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/10-ecuaciones-primer-grado.html"><span class="num">10</span><div class="cap-info">  <span class="titulo-cap">Ecuaciones de primer grado</span>  <span class="secciones-cap">Conceptos básicos · Despejes · Ecuaciones de primer grado</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/11-ecuaciones-segundo-grado.html"><span class="num">11</span><div class="cap-info">  <span class="titulo-cap">Ecuaciones de segundo grado</span>  <span class="secciones-cap">Forma general y clasificación · Fórmula general · Solución por factorización</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/12-desigualdades.html"><span class="num">12</span><div class="cap-info">  <span class="titulo-cap">Desigualdades</span>  <span class="secciones-cap">Concepto de desigualdad · Propiedades de las desigualdades · Intervalos</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/13-sistemas-ecuaciones.html"><span class="num">13</span><div class="cap-info">  <span class="titulo-cap">Sistemas de ecuaciones</span>  <span class="secciones-cap">Sistemas de dos ecuaciones con dos incógnitas · Interpretación geométrica · Método de eliminación</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/14-numeros-complejos.html"><span class="num">14</span><div class="cap-info">  <span class="titulo-cap">Números complejos</span>  <span class="secciones-cap">Unidad imaginaria · Potencias de la unidad imaginaria · Números imaginarios puros</span></div><span class="flecha">→</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="tarjeta-parte">
+  <div class="tarjeta-banner">
+    <div class="tarjeta-ilustracion" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="42" fill="#8FA3C4" fill-opacity="0.12"/>
+  <!-- Ejes -->
+  <path d="M18 78H82M24 18V82" stroke="#1B2A4A" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Curva cúbica sigmoide f(x) -->
+  <path d="M24 72C36 72 40 54 52 46C64 38 70 24 82 22" stroke="#1B2A4A" stroke-width="3" stroke-linecap="round"/>
+  <!-- Líneas punteadas de mapeo (x, f(x)) -->
+  <line x1="52" y1="46" x2="52" y2="78" stroke="#8FA3C4" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <line x1="24" y1="46" x2="52" y2="46" stroke="#8FA3C4" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <!-- Puntos del dominio y contradominio -->
+  <circle cx="52" cy="78" r="2.5" fill="#D99884"/>
+  <circle cx="24" cy="46" r="2.5" fill="#D99884"/>
+  <!-- Punto en la curva -->
+  <circle cx="52" cy="46" r="4.5" fill="#E8B400"/>
+  <circle cx="52" cy="46" r="2" fill="#1B2A4A"/>
+</svg>
+    </div>
+  </div>
+  <div class="tarjeta-cuerpo">
+    <span class="tarjeta-etiqueta">Parte III</span>
+    <h2 class="tarjeta-titulo">Funciones</h2>
+    <p class="tarjeta-subtitulo">4 capítulos</p>
+  </div>
+  <div class="tarjeta-accion">
+    <button type="button" class="btn-toggle-tarjeta" aria-expanded="false" data-count="4" onclick="toggleTarjeta(this)">
+      <span class="btn-texto">Ver capítulos (4)</span>
+      <svg class="chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </div>
+  <div class="tarjeta-colapsable">
+    <div class="tarjeta-colapsable-interior">
+      <ol class="tarjeta-lista">
+        <li><a href="capitulos/15-concepto-funcion.html"><span class="num">15</span><div class="cap-info">  <span class="titulo-cap">Concepto de función</span>  <span class="secciones-cap">Definición de función · Representación mediante un diagrama de correspondencia · Regla de correspondencia y notación</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/16-tipos-funciones.html"><span class="num">16</span><div class="cap-info">  <span class="titulo-cap">Tipos de funciones</span>  <span class="secciones-cap">Función constante · Función afín · Función cuadrática</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/17-algebra-funciones.html"><span class="num">17</span><div class="cap-info">  <span class="titulo-cap">Álgebra de funciones</span>  <span class="secciones-cap">Suma y resta de funciones · Multiplicación de funciones · División de funciones</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/18-exponenciales-logaritmicas.html"><span class="num">18</span><div class="cap-info">  <span class="titulo-cap">Funciones exponenciales y logarítmicas</span>  <span class="secciones-cap">Función exponencial · Ecuaciones exponenciales · Función logarítmica</span></div><span class="flecha">→</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="tarjeta-parte">
+  <div class="tarjeta-banner">
+    <div class="tarjeta-ilustracion" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="42" fill="#D99884" fill-opacity="0.1"/>
+  <!-- Triángulo rectángulo principal -->
+  <path d="M22 76L78 76L78 30Z" fill="#E4EAF4" stroke="#1B2A4A" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Ángulo recto -->
+  <path d="M68 76V66H78" stroke="#E8B400" stroke-width="2" stroke-linecap="round"/>
+  <!-- Arco de ángulo agudo -->
+  <path d="M36 76C36 72 34 68 31 66" stroke="#D99884" stroke-width="2" stroke-linecap="round"/>
+  <!-- Cuadrado auxiliar sobre cateto menor -->
+  <rect x="78" y="30" width="12" height="46" rx="2" fill="#FFF6D9" stroke="#E8B400" stroke-width="1.2"/>
+  <!-- Vértices destacados -->
+  <circle cx="22" cy="76" r="3.2" fill="#1B2A4A"/>
+  <circle cx="78" cy="76" r="3.2" fill="#1B2A4A"/>
+  <circle cx="78" cy="30" r="3.2" fill="#E8B400"/>
+</svg>
+    </div>
+  </div>
+  <div class="tarjeta-cuerpo">
+    <span class="tarjeta-etiqueta">Parte IV</span>
+    <h2 class="tarjeta-titulo">Geometría euclidiana</h2>
+    <p class="tarjeta-subtitulo">5 capítulos</p>
+  </div>
+  <div class="tarjeta-accion">
+    <button type="button" class="btn-toggle-tarjeta" aria-expanded="false" data-count="5" onclick="toggleTarjeta(this)">
+      <span class="btn-texto">Ver capítulos (5)</span>
+      <svg class="chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </div>
+  <div class="tarjeta-colapsable">
+    <div class="tarjeta-colapsable-interior">
+      <ol class="tarjeta-lista">
+        <li><a href="capitulos/19-elementos-basicos.html"><span class="num">19</span><div class="cap-info">  <span class="titulo-cap">Elementos básicos de geometría</span>  <span class="secciones-cap">Punto, recta y plano · Ángulos · Relaciones entre ángulos</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/20-triangulos.html"><span class="num">20</span><div class="cap-info">  <span class="titulo-cap">Triángulos</span>  <span class="secciones-cap">Definición y notación · Clasificación de los triángulos · Propiedades angulares</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/21-cuadrilateros-poligonos.html"><span class="num">21</span><div class="cap-info">  <span class="titulo-cap">Cuadriláteros y polígonos</span>  <span class="secciones-cap">Cuadriláteros · Clasificación de los cuadriláteros · Propiedades de los paralelogramos</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/22-circunferencia-circulo.html"><span class="num">22</span><div class="cap-info">  <span class="titulo-cap">Circunferencia y círculo</span>  <span class="secciones-cap">Circunferencia y círculo · Elementos de una circunferencia · Longitud de la circunferencia y área del círculo</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/23-perimetros-areas-volumenes.html"><span class="num">23</span><div class="cap-info">  <span class="titulo-cap">Perímetros, áreas y volúmenes</span>  <span class="secciones-cap">Perímetro y área · Triángulo · Cuadrado y rectángulo</span></div><span class="flecha">→</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="tarjeta-parte">
+  <div class="tarjeta-banner">
+    <div class="tarjeta-ilustracion" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="42" fill="#E8B400" fill-opacity="0.1"/>
+  <!-- Ejes del círculo unitario -->
+  <line x1="14" y1="50" x2="86" y2="50" stroke="#8FA3C4" stroke-width="1.2"/>
+  <line x1="50" y1="14" x2="50" y2="86" stroke="#8FA3C4" stroke-width="1.2"/>
+  <!-- Círculo unitario -->
+  <circle cx="50" cy="50" r="30" stroke="#1B2A4A" stroke-width="2"/>
+  <!-- Triángulo rectángulo trigonométrico -->
+  <path d="M50 50L72 32V50Z" fill="#FFF6D9" stroke="#1B2A4A" stroke-width="1.8" stroke-linejoin="round"/>
+  <!-- Radio vector en dorado -->
+  <line x1="50" y1="50" x2="72" y2="32" stroke="#E8B400" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Arco de ángulo theta -->
+  <path d="M58 50C58 47 56 45 54 44" stroke="#D99884" stroke-width="2" stroke-linecap="round"/>
+  <!-- Proyección sen y cos -->
+  <line x1="72" y1="32" x2="72" y2="50" stroke="#D99884" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="50" x2="72" y2="50" stroke="#1B2A4A" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="50" cy="50" r="2.5" fill="#1B2A4A"/>
+  <circle cx="72" cy="32" r="3" fill="#E8B400"/>
+</svg>
+    </div>
+  </div>
+  <div class="tarjeta-cuerpo">
+    <span class="tarjeta-etiqueta">Parte V</span>
+    <h2 class="tarjeta-titulo">Trigonometría</h2>
+    <p class="tarjeta-subtitulo">6 capítulos</p>
+  </div>
+  <div class="tarjeta-accion">
+    <button type="button" class="btn-toggle-tarjeta" aria-expanded="false" data-count="6" onclick="toggleTarjeta(this)">
+      <span class="btn-texto">Ver capítulos (6)</span>
+      <svg class="chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </div>
+  <div class="tarjeta-colapsable">
+    <div class="tarjeta-colapsable-interior">
+      <ol class="tarjeta-lista">
+        <li><a href="capitulos/24-medida-angulos.html"><span class="num">24</span><div class="cap-info">  <span class="titulo-cap">Medida de ángulos</span>  <span class="secciones-cap">Concepto de ángulo · Sistema sexagesimal · Grados decimales y grados, minutos y segundos</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/25-razones-trigonometricas.html"><span class="num">25</span><div class="cap-info">  <span class="titulo-cap">Razones trigonométricas</span>  <span class="secciones-cap">Triángulo rectángulo · Lados relativos a un ángulo · Definición de las razones trigonométricas</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/26-ley-senos-cosenos.html"><span class="num">26</span><div class="cap-info">  <span class="titulo-cap">Ley de senos y ley de cosenos</span>  <span class="secciones-cap">Triángulos oblicuángulos · Notación de los elementos de un triángulo · Resolver un triángulo</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/27-circulo-trigonometrico.html"><span class="num">27</span><div class="cap-info">  <span class="titulo-cap">Círculo trigonométrico</span>  <span class="secciones-cap">Definición del círculo trigonométrico · Las seis funciones en el círculo trigonométrico · Signos por cuadrante</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/28-identidades-trigonometricas.html"><span class="num">28</span><div class="cap-info">  <span class="titulo-cap">Identidades trigonométricas</span>  <span class="secciones-cap">Identidades y ecuaciones trigonométricas · Identidades recíprocas · Identidades de cociente</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/29-funciones-trigonometricas.html"><span class="num">29</span><div class="cap-info">  <span class="titulo-cap">Funciones trigonométricas</span>  <span class="secciones-cap">Funciones periódicas · Función seno · Función coseno</span></div><span class="flecha">→</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="tarjeta-parte">
+  <div class="tarjeta-banner">
+    <div class="tarjeta-ilustracion" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="42" fill="#1B2A4A" fill-opacity="0.08"/>
+  <!-- Cuadrícula sutil -->
+  <path d="M20 30H80M20 50H80M20 70H80M30 20V80M50 20V80M70 20V80" stroke="#8FA3C4" stroke-width="0.8" opacity="0.4"/>
+  <!-- Ejes -->
+  <line x1="15" y1="50" x2="85" y2="50" stroke="#1B2A4A" stroke-width="1.8"/>
+  <line x1="50" y1="15" x2="50" y2="85" stroke="#1B2A4A" stroke-width="1.8"/>
+  <!-- Parábola en azul marino -->
+  <path d="M26 22C38 68 62 68 74 22" stroke="#1B2A4A" stroke-width="3" stroke-linecap="round"/>
+  <!-- Recta directriz punteada -->
+  <line x1="22" y1="72" x2="78" y2="72" stroke="#D99884" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <!-- Vértice y Foco -->
+  <circle cx="50" cy="56" r="3" fill="#E8B400"/>
+  <circle cx="50" cy="42" r="3" fill="#D99884"/>
+</svg>
+    </div>
+  </div>
+  <div class="tarjeta-cuerpo">
+    <span class="tarjeta-etiqueta">Parte VI</span>
+    <h2 class="tarjeta-titulo">Geometría analítica</h2>
+    <p class="tarjeta-subtitulo">9 capítulos</p>
+  </div>
+  <div class="tarjeta-accion">
+    <button type="button" class="btn-toggle-tarjeta" aria-expanded="false" data-count="9" onclick="toggleTarjeta(this)">
+      <span class="btn-texto">Ver capítulos (9)</span>
+      <svg class="chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </div>
+  <div class="tarjeta-colapsable">
+    <div class="tarjeta-colapsable-interior">
+      <ol class="tarjeta-lista">
+        <li><a href="capitulos/30-conceptos-basicos.html"><span class="num">30</span><div class="cap-info">  <span class="titulo-cap">Conceptos básicos de geometría analítica</span>  <span class="secciones-cap">Plano cartesiano · Distancia entre dos puntos · Punto medio</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/31-la-recta.html"><span class="num">31</span><div class="cap-info">  <span class="titulo-cap">La recta</span>  <span class="secciones-cap">Elementos de una recta · Formas de la ecuación de la recta · Determinación de la ecuación de una recta</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/32-aplicaciones-de-la-linea-recta.html"><span class="num">32</span><div class="cap-info">  <span class="titulo-cap">Aplicaciones de la línea recta</span>  <span class="secciones-cap">Modelo lineal · Construcción de un modelo lineal · Interpretación de la pendiente</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/33-circunferencia.html"><span class="num">33</span><div class="cap-info">  <span class="titulo-cap">Circunferencia</span>  <span class="secciones-cap">Definición y elementos · Deducción de la ecuación de la circunferencia · Circunferencia con centro en el origen</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/34-parabola.html"><span class="num">34</span><div class="cap-info">  <span class="titulo-cap">Parábola</span>  <span class="secciones-cap">Definición y elementos · Formas ordinarias · Vértice en el origen</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/35-elipse.html"><span class="num">35</span><div class="cap-info">  <span class="titulo-cap">Elipse</span>  <span class="secciones-cap">Definición y elementos · Formas ordinarias · Centro en el origen</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/36-hiperbola.html"><span class="num">36</span><div class="cap-info">  <span class="titulo-cap">Hipérbola</span>  <span class="secciones-cap">Definición y elementos · Formas ordinarias · Centro en el origen</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/37-ecuacion-general-segundo-grado.html"><span class="num">37</span><div class="cap-info">  <span class="titulo-cap">Ecuación general de segundo grado</span>  <span class="secciones-cap">La ecuación general de segundo grado · El discriminante y la identificación de cónicas · Traslación de ejes</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/38-coordenadas-polares.html"><span class="num">38</span><div class="cap-info">  <span class="titulo-cap">Coordenadas polares</span>  <span class="secciones-cap">Sistema de coordenadas polares · Representaciones equivalentes · Conversión entre coordenadas</span></div><span class="flecha">→</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="tarjeta-parte">
+  <div class="tarjeta-banner">
+    <div class="tarjeta-ilustracion" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="42" fill="#FBEAE5" fill-opacity="0.6"/>
+  <!-- Ejes -->
+  <path d="M16 78H84M22 16V84" stroke="#1B2A4A" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Curva continua con máximo y mínimo -->
+  <path d="M22 66C32 40 42 28 54 36C66 44 72 60 84 20" stroke="#1B2A4A" stroke-width="3.2" stroke-linecap="round"/>
+  <!-- Recta tangente en el punto de inflexión/pendiente -->
+  <line x1="44" y1="62" x2="80" y2="24" stroke="#1B2A4A" stroke-width="2.6" stroke-linecap="round"/>
+  <line x1="44" y1="62" x2="80" y2="24" stroke="#E8B400" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Triángulo pendiente dy/dx -->
+  <path d="M56 49H66V39" stroke="#D99884" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Punto de tangencia -->
+  <circle cx="62" cy="43" r="3.5" fill="#E8B400"/>
+  <circle cx="62" cy="43" r="1.5" fill="#1B2A4A"/>
+</svg>
+    </div>
+  </div>
+  <div class="tarjeta-cuerpo">
+    <span class="tarjeta-etiqueta">Parte VII</span>
+    <h2 class="tarjeta-titulo">Cálculo diferencial</h2>
+    <p class="tarjeta-subtitulo">3 capítulos</p>
+  </div>
+  <div class="tarjeta-accion">
+    <button type="button" class="btn-toggle-tarjeta" aria-expanded="false" data-count="3" onclick="toggleTarjeta(this)">
+      <span class="btn-texto">Ver capítulos (3)</span>
+      <svg class="chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </div>
+  <div class="tarjeta-colapsable">
+    <div class="tarjeta-colapsable-interior">
+      <ol class="tarjeta-lista">
+        <li><a href="capitulos/39-limites.html"><span class="num">39</span><div class="cap-info">  <span class="titulo-cap">Límites</span>  <span class="secciones-cap">Concepto de límite · Límite y valor de la función · Límites laterales</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/40-la-derivada.html"><span class="num">40</span><div class="cap-info">  <span class="titulo-cap">La derivada</span>  <span class="secciones-cap">Concepto de derivada · Interpretación del signo · Reglas básicas de derivación</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/41-aplicaciones-derivada.html"><span class="num">41</span><div class="cap-info">  <span class="titulo-cap">Aplicaciones de la derivada</span>  <span class="secciones-cap">Recta tangente y recta normal · Velocidad y aceleración · Crecimiento y decrecimiento</span></div><span class="flecha">→</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="tarjeta-parte">
+  <div class="tarjeta-banner">
+    <div class="tarjeta-ilustracion" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="42" fill="#E4EAF4" fill-opacity="0.6"/>
+  <!-- Ejes -->
+  <path d="M14 74H86M20 14V80" stroke="#1B2A4A" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Rectángulos de Riemann (Área) -->
+  <rect x="25" y="46" width="9" height="28" rx="1.5" fill="#D99884"/>
+  <rect x="35" y="34" width="9" height="40" rx="1.5" fill="#E8B400"/>
+  <rect x="45" y="28" width="9" height="46" rx="1.5" fill="#E8B400"/>
+  <rect x="55" y="36" width="9" height="38" rx="1.5" fill="#8FA3C4"/>
+  <rect x="65" y="48" width="9" height="26" rx="1.5" fill="#8FA3C4"/>
+  <!-- Curva integral f(x) -->
+  <path d="M20 62C28 44 38 24 50 26C62 28 68 56 82 44" stroke="#1B2A4A" stroke-width="3" stroke-linecap="round"/>
+  <!-- Signo integral sutil decorativo -->
+  <path d="M83 24C83 20 80 18 78 18C75 18 75 22 75 26V34" stroke="#1B2A4A" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+</svg>
+    </div>
+  </div>
+  <div class="tarjeta-cuerpo">
+    <span class="tarjeta-etiqueta">Parte VIII</span>
+    <h2 class="tarjeta-titulo">Cálculo integral</h2>
+    <p class="tarjeta-subtitulo">3 capítulos</p>
+  </div>
+  <div class="tarjeta-accion">
+    <button type="button" class="btn-toggle-tarjeta" aria-expanded="false" data-count="3" onclick="toggleTarjeta(this)">
+      <span class="btn-texto">Ver capítulos (3)</span>
+      <svg class="chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </div>
+  <div class="tarjeta-colapsable">
+    <div class="tarjeta-colapsable-interior">
+      <ol class="tarjeta-lista">
+        <li><a href="capitulos/42-la-integral.html"><span class="num">42</span><div class="cap-info">  <span class="titulo-cap">La integral</span>  <span class="secciones-cap">Antiderivada o primitiva · Derivación e integración · Propiedades de la integral indefinida</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/43-metodos-integracion.html"><span class="num">43</span><div class="cap-info">  <span class="titulo-cap">Métodos de integración</span>  <span class="secciones-cap">¿Qué método conviene utilizar? · Integración por sustitución · Integración por partes</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/44-integral-definida.html"><span class="num">44</span><div class="cap-info">  <span class="titulo-cap">Integral definida y aplicaciones</span>  <span class="secciones-cap">Integral definida · Propiedades básicas · Teorema Fundamental del Cálculo</span></div><span class="flecha">→</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="tarjeta-parte">
+  <div class="tarjeta-banner">
+    <div class="tarjeta-ilustracion" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="42" fill="#E8B400" fill-opacity="0.1"/>
+  <!-- Eje horizontal -->
+  <line x1="14" y1="76" x2="86" y2="76" stroke="#1B2A4A" stroke-width="1.8"/>
+  <!-- Campana de Gauss (Distribución normal) -->
+  <path d="M18 76C28 76 36 74 42 50C46 34 48 24 50 24C52 24 54 34 58 50C64 74 72 76 82 76"
+        fill="#FFF6D9" stroke="#1B2A4A" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Área de desviación típica central (1 sigma) -->
+  <rect x="44" y="38" width="12" height="38" fill="#E8B400" fill-opacity="0.35"/>
+  <line x1="50" y1="24" x2="50" y2="76" stroke="#D99884" stroke-width="1.8" stroke-dasharray="2 2"/>
+  <!-- Dado o símbolo aleatorio -->
+  <rect x="68" y="24" width="16" height="16" rx="3.5" fill="#1B2A4A"/>
+  <circle cx="72" cy="28" r="1.2" fill="white"/>
+  <circle cx="76" cy="32" r="1.2" fill="white"/>
+  <circle cx="80" cy="36" r="1.2" fill="white"/>
+</svg>
+    </div>
+  </div>
+  <div class="tarjeta-cuerpo">
+    <span class="tarjeta-etiqueta">Parte IX</span>
+    <h2 class="tarjeta-titulo">Probabilidad y estadística</h2>
+    <p class="tarjeta-subtitulo">4 capítulos</p>
+  </div>
+  <div class="tarjeta-accion">
+    <button type="button" class="btn-toggle-tarjeta" aria-expanded="false" data-count="4" onclick="toggleTarjeta(this)">
+      <span class="btn-texto">Ver capítulos (4)</span>
+      <svg class="chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </div>
+  <div class="tarjeta-colapsable">
+    <div class="tarjeta-colapsable-interior">
+      <ol class="tarjeta-lista">
+        <li><a href="capitulos/45-estadistica-descriptiva.html"><span class="num">45</span><div class="cap-info">  <span class="titulo-cap">Estadística descriptiva</span>  <span class="secciones-cap">Población y muestra · Parámetro y estadístico · Variables estadísticas</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/46-medidas-estadisticas.html"><span class="num">46</span><div class="cap-info">  <span class="titulo-cap">Medidas estadísticas</span>  <span class="secciones-cap">Medidas de tendencia central · Media, mediana y valores extremos · Media ponderada</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/47-probabilidad-basica.html"><span class="num">47</span><div class="cap-info">  <span class="titulo-cap">Probabilidad básica</span>  <span class="secciones-cap">Experimentos aleatorios · Eventos · Eventos mutuamente excluyentes</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/48-tecnicas-conteo.html"><span class="num">48</span><div class="cap-info">  <span class="titulo-cap">Técnicas de conteo y probabilidad avanzada</span>  <span class="secciones-cap">¿Qué técnica conviene utilizar? · Principios de conteo · Representación mediante un árbol</span></div><span class="flecha">→</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="tarjeta-parte">
+  <div class="tarjeta-banner">
+    <div class="tarjeta-ilustracion" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="42" fill="#D99884" fill-opacity="0.12"/>
+  <!-- Patrón secuencial geométrico (Cubo dentro de hexágono / engrane) -->
+  <path d="M50 20L78 36V68L50 84L22 68V36L50 20Z" fill="#E4EAF4" stroke="#1B2A4A" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M50 20V52L78 68M50 52L22 68" stroke="#1B2A4A" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Resalte de una cara isométrica (Ámbar) -->
+  <path d="M50 20L78 36L50 52L22 36Z" fill="#E8B400" fill-opacity="0.75"/>
+  <!-- Pieza complementaria (Terracota) -->
+  <path d="M22 36L50 52V84L22 68Z" fill="#D99884" fill-opacity="0.85"/>
+  <!-- Foco / Destello de deducción -->
+  <circle cx="50" cy="52" r="4" fill="#1B2A4A"/>
+  <circle cx="50" cy="52" r="2" fill="#FFF6D9"/>
+</svg>
+    </div>
+  </div>
+  <div class="tarjeta-cuerpo">
+    <span class="tarjeta-etiqueta">Parte X</span>
+    <h2 class="tarjeta-titulo">Razonamiento matemático</h2>
+    <p class="tarjeta-subtitulo">2 capítulos</p>
+  </div>
+  <div class="tarjeta-accion">
+    <button type="button" class="btn-toggle-tarjeta" aria-expanded="false" data-count="2" onclick="toggleTarjeta(this)">
+      <span class="btn-texto">Ver capítulos (2)</span>
+      <svg class="chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </div>
+  <div class="tarjeta-colapsable">
+    <div class="tarjeta-colapsable-interior">
+      <ol class="tarjeta-lista">
+        <li><a href="capitulos/49-sucesiones-series.html"><span class="num">49</span><div class="cap-info">  <span class="titulo-cap">Sucesiones y series</span>  <span class="secciones-cap">Sucesiones · Sucesiones recursivas · Sucesiones aritméticas</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/50-razonamiento-espacial.html"><span class="num">50</span><div class="cap-info">  <span class="titulo-cap">Razonamiento espacial</span>  <span class="secciones-cap">Transformaciones geométricas · Simetría axial · Simetría central</span></div><span class="flecha">→</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="tarjeta-parte">
+  <div class="tarjeta-banner">
+    <div class="tarjeta-ilustracion" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="42" fill="#E8B400" fill-opacity="0.12"/>
+  <!-- Ejes -->
+  <path d="M16 76H84M22 18V80" stroke="#1B2A4A" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Columnas de crecimiento compuesto -->
+  <rect x="28" y="60" width="10" height="16" rx="2" fill="#8FA3C4"/>
+  <rect x="42" y="48" width="10" height="28" rx="2" fill="#D99884"/>
+  <rect x="56" y="34" width="10" height="42" rx="2" fill="#E8B400"/>
+  <!-- Curva exponencial con flecha ascendente -->
+  <path d="M26 62C38 60 52 46 72 26" stroke="#1B2A4A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M64 24L74 24L74 34" stroke="#1B2A4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Símbolo de porcentaje '%' -->
+  <circle cx="76" cy="46" r="2.2" fill="#1B2A4A"/>
+  <circle cx="84" cy="56" r="2.2" fill="#1B2A4A"/>
+  <line x1="85" y1="45" x2="75" y2="57" stroke="#E8B400" stroke-width="2" stroke-linecap="round"/>
+</svg>
+    </div>
+  </div>
+  <div class="tarjeta-cuerpo">
+    <span class="tarjeta-etiqueta">Parte XI</span>
+    <h2 class="tarjeta-titulo">Matemáticas financieras</h2>
+    <p class="tarjeta-subtitulo">2 capítulos</p>
+  </div>
+  <div class="tarjeta-accion">
+    <button type="button" class="btn-toggle-tarjeta" aria-expanded="false" data-count="2" onclick="toggleTarjeta(this)">
+      <span class="btn-texto">Ver capítulos (2)</span>
+      <svg class="chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </div>
+  <div class="tarjeta-colapsable">
+    <div class="tarjeta-colapsable-interior">
+      <ol class="tarjeta-lista">
+        <li><a href="capitulos/51-elementos-financieros.html"><span class="num">51</span><div class="cap-info">  <span class="titulo-cap">Elementos financieros básicos</span>  <span class="secciones-cap">Conceptos fundamentales · Porcentajes y factores multiplicativos · Aumentos y descuentos</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/52-interes-simple.html"><span class="num">52</span><div class="cap-info">  <span class="titulo-cap">Interés simple</span>  <span class="secciones-cap">Elementos del interés simple · Fórmula del interés simple · Despejes de la fórmula</span></div><span class="flecha">→</span></a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer class="pie">
+    Cada capítulo incluye teoría, ejemplos resueltos y ejercicios con solución.
+  </footer>
+
+  <script>
+    function toggleTarjeta(btn) {
+      const tarjeta = btn.closest('.tarjeta-parte');
+      const drawer = tarjeta.querySelector('.tarjeta-colapsable');
+      const texto = btn.querySelector('.btn-texto');
+      const count = btn.dataset.count;
+      const abierta = drawer.classList.contains('abierto');
+      if (abierta) {
+        drawer.classList.remove('abierto');
+        btn.setAttribute('aria-expanded', 'false');
+        texto.textContent = `Ver capítulos (${count})`;
+      } else {
+        drawer.classList.add('abierto');
+        btn.setAttribute('aria-expanded', 'true');
+        texto.textContent = 'Ocultar capítulos';
+      }
+    }
+
+    // Filtro rápido de capítulos por título
+    const filtro = document.getElementById('filtro');
+    const normalizar = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    filtro.addEventListener('input', () => {
+      const q = normalizar(filtro.value.trim());
+      document.querySelectorAll('.tarjeta-parte').forEach((parte) => {
+        let visibles = 0;
+        parte.querySelectorAll('.tarjeta-lista li').forEach((li) => {
+          const ok = !q || normalizar(li.textContent).includes(q);
+          li.hidden = !ok;
+          if (ok) visibles++;
+        });
+        parte.hidden = (visibles === 0);
+
+        // Auto-expandir tarjeta si coincide con la búsqueda
+        const drawer = parte.querySelector('.tarjeta-colapsable');
+        const btn = parte.querySelector('.btn-toggle-tarjeta');
+        if (drawer && btn) {
+          const count = btn.dataset.count;
+          if (q && visibles > 0) {
+            drawer.classList.add('abierto');
+            btn.setAttribute('aria-expanded', 'true');
+            btn.querySelector('.btn-texto').textContent = 'Ocultar capítulos';
+          } else if (!q) {
+            drawer.classList.remove('abierto');
+            btn.setAttribute('aria-expanded', 'false');
+            btn.querySelector('.btn-texto').textContent = `Ver capítulos (${count})`;
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>

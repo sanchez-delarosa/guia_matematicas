@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "33",
+    "titulo": "Circunferencia",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "33.1",
+        "nombre": "Definición y elementos"
+      },
+      {
+        "codigo": "33.2",
+        "nombre": "Deducción de la ecuación de la circunferencia"
+      },
+      {
+        "codigo": "33.3",
+        "nombre": "Circunferencia con centro en el origen"
+      },
+      {
+        "codigo": "33.4",
+        "nombre": "Circunferencia con centro en (h, k)"
+      },
+      {
+        "codigo": "33.5",
+        "nombre": "Interpretación como una traslación"
+      },
+      {
+        "codigo": "33.6",
+        "nombre": "Forma general de la circunferencia"
+      },
+      {
+        "codigo": "33.7",
+        "nombre": "Transformación de la forma general a la forma ordinaria"
+      },
+      {
+        "codigo": "33.8",
+        "nombre": "Existencia de la circunferencia"
+      },
+      {
+        "codigo": "33.9",
+        "nombre": "Posición de un punto respecto de una circunferencia"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas 33.1 a 33.9; se omitieron síntesis y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-33-1-01",
+      "pregunta": "Una circunferencia es el conjunto de puntos del plano que:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Están a una distancia constante de un punto fijo",
+        "B": "Están sobre una misma recta",
+        "C": "Tienen igual coordenada $x$",
+        "D": "Forman el interior de un círculo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-1-02",
+      "pregunta": "El punto fijo de una circunferencia se llama:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Foco",
+        "B": "Vértice",
+        "C": "Directriz",
+        "D": "Centro"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-1-03",
+      "pregunta": "La distancia constante del centro a cualquier punto se llama:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Cuerda",
+        "B": "Arco",
+        "C": "Radio",
+        "D": "Diámetro"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-1-04",
+      "pregunta": "El diámetro mide:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "El cuadrado del radio",
+        "B": "El doble del radio",
+        "C": "La mitad del radio",
+        "D": "Lo mismo que el radio"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-1-05",
+      "pregunta": "Una cuerda es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Un segmento con extremos en la circunferencia",
+        "B": "Un radio prolongado",
+        "C": "Una recta exterior",
+        "D": "El interior del círculo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-1-06",
+      "pregunta": "El diámetro es una cuerda que:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Es tangente",
+        "B": "No toca el centro",
+        "C": "Mide siempre uno",
+        "D": "Pasa por el centro"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-1-07",
+      "pregunta": "Una recta tangente tiene con la circunferencia:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Ningún punto común",
+        "B": "Infinitos puntos comunes",
+        "C": "Un solo punto común",
+        "D": "Dos puntos comunes"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-1-08",
+      "pregunta": "Una recta secante tiene con la circunferencia:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Solo el centro",
+        "B": "Dos puntos comunes",
+        "C": "Un punto común",
+        "D": "Ningún punto común"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-1-09",
+      "pregunta": "El círculo corresponde a:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "La circunferencia y su región interior",
+        "B": "Solo la línea curva",
+        "C": "Una cuerda",
+        "D": "Una tangente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-1-10",
+      "pregunta": "Si el radio es $7$, el diámetro es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "$3.5$",
+        "B": "$7$",
+        "C": "$49$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-2-01",
+      "pregunta": "La ecuación se obtiene al imponer que la distancia de $(x,y)$ a $(h,k)$ sea:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.2",
+        "nombre": "Deducción de la ecuación de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$2r$",
+        "B": "$0$",
+        "C": "$r$",
+        "D": "$r^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-2-02",
+      "pregunta": "La fórmula de distancia usada es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.2",
+        "nombre": "Deducción de la ecuación de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=r$",
+        "B": "$\\sqrt{(x-h)^2+(y-k)^2}=r$",
+        "C": "$(x-h)+(y-k)=r$",
+        "D": "$|x-h|+|y-k|=r^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-2-03",
+      "pregunta": "Al elevar al cuadrado la ecuación de distancia se obtiene:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.2",
+        "nombre": "Deducción de la ecuación de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-h)^2+(y-k)^2=r^2$",
+        "B": "$(x-h)+(y-k)=r^2$",
+        "C": "$(x+h)^2+(y+k)^2=r$",
+        "D": "$x^2-y^2=r^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-2-04",
+      "pregunta": "En la ecuación ordinaria, el centro es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.2",
+        "nombre": "Deducción de la ecuación de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$(-h,-k)$",
+        "B": "$(r,r)$",
+        "C": "$(0,r)$",
+        "D": "$(h,k)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-2-05",
+      "pregunta": "En la ecuación ordinaria, el radio es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.2",
+        "nombre": "Deducción de la ecuación de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$2r$",
+        "B": "$\\sqrt{2r}$",
+        "C": "$r$",
+        "D": "$r^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-2-06",
+      "pregunta": "Para centro $(2,-3)$ y radio $5$, la ecuación es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.2",
+        "nombre": "Deducción de la ecuación de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=25$",
+        "B": "$(x-2)^2+(y+3)^2=25$",
+        "C": "$(x+2)^2+(y-3)^2=25$",
+        "D": "$(x-2)^2+(y+3)^2=5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-2-07",
+      "pregunta": "Para centro $(-4,1)$ y radio $3$, la ecuación es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.2",
+        "nombre": "Deducción de la ecuación de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+4)^2+(y-1)^2=9$",
+        "B": "$(x-4)^2+(y+1)^2=9$",
+        "C": "$(x+4)^2+(y-1)^2=3$",
+        "D": "$x^2+y^2=9$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-2-08",
+      "pregunta": "Si el centro es el origen, la ecuación se reduce a:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.2",
+        "nombre": "Deducción de la ecuación de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$x+y=r$",
+        "B": "$x^2-y^2=r^2$",
+        "C": "$x^2+y^2=r$",
+        "D": "$x^2+y^2=r^2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-2-09",
+      "pregunta": "El término derecho de la forma ordinaria debe ser:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.2",
+        "nombre": "Deducción de la ecuación de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "La coordenada del centro",
+        "B": "La pendiente",
+        "C": "El cuadrado del radio",
+        "D": "El diámetro"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-2-10",
+      "pregunta": "Un punto $(x,y)$ pertenece a la circunferencia si:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.2",
+        "nombre": "Deducción de la ecuación de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Tiene $x=y$",
+        "B": "Satisface la ecuación exactamente",
+        "C": "Hace cero cada coordenada",
+        "D": "Su distancia al origen es siempre uno"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-3-01",
+      "pregunta": "¿Cuál es la ecuación de la circunferencia con centro en el origen y radio $2$?",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.3",
+        "nombre": "Circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=4$",
+        "B": "$x^2+y^2=2$",
+        "C": "$(x-2)^2+y^2=1$",
+        "D": "$x+y=4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-3-02",
+      "pregunta": "¿Cuál es la ecuación de la circunferencia con centro en el origen y radio $3$?",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.3",
+        "nombre": "Circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=3$",
+        "B": "$(x-3)^2+y^2=1$",
+        "C": "$x+y=9$",
+        "D": "$x^2+y^2=9$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-3-03",
+      "pregunta": "¿Cuál es la ecuación de la circunferencia con centro en el origen y radio $4$?",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.3",
+        "nombre": "Circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-4)^2+y^2=1$",
+        "B": "$x+y=16$",
+        "C": "$x^2+y^2=16$",
+        "D": "$x^2+y^2=4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-3-04",
+      "pregunta": "¿Cuál es la ecuación de la circunferencia con centro en el origen y radio $5$?",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.3",
+        "nombre": "Circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$x+y=25$",
+        "B": "$x^2+y^2=25$",
+        "C": "$x^2+y^2=5$",
+        "D": "$(x-5)^2+y^2=1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-3-05",
+      "pregunta": "¿Cuál es la ecuación de la circunferencia con centro en el origen y radio $6$?",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.3",
+        "nombre": "Circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=36$",
+        "B": "$x^2+y^2=6$",
+        "C": "$(x-6)^2+y^2=1$",
+        "D": "$x+y=36$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-3-06",
+      "pregunta": "¿Cuál es el radio de $x^2+y^2=9$?",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.3",
+        "nombre": "Circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$6$",
+        "C": "$\\sqrt{10}$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-3-07",
+      "pregunta": "¿Cuál es el radio de $x^2+y^2=16$?",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.3",
+        "nombre": "Circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$\\sqrt{17}$",
+        "C": "$4$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-3-08",
+      "pregunta": "¿Cuál es el radio de $x^2+y^2=25$?",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.3",
+        "nombre": "Circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt{26}$",
+        "B": "$5$",
+        "C": "$25$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-3-09",
+      "pregunta": "¿Cuál es el radio de $x^2+y^2=49$?",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.3",
+        "nombre": "Circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$49$",
+        "C": "$14$",
+        "D": "$\\sqrt{50}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-3-10",
+      "pregunta": "¿Cuál es el radio de $x^2+y^2=100$?",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.3",
+        "nombre": "Circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$100$",
+        "B": "$20$",
+        "C": "$\\sqrt{101}$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-4-01",
+      "pregunta": "Escriba la ecuación con centro $(3,2)$ y radio $4$.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.4",
+        "nombre": "Circunferencia con centro en (h, k)"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-(3))^2+(y-(2))^2=4$",
+        "B": "$x^2+y^2=16$",
+        "C": "$(x-(3))^2+(y-(2))^2=16$",
+        "D": "$(x+(3))^2+(y+(2))^2=16$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-4-02",
+      "pregunta": "Escriba la ecuación con centro $(-2,5)$ y radio $3$.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.4",
+        "nombre": "Circunferencia con centro en (h, k)"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=9$",
+        "B": "$(x-(-2))^2+(y-(5))^2=9$",
+        "C": "$(x+(-2))^2+(y+(5))^2=9$",
+        "D": "$(x-(-2))^2+(y-(5))^2=3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-4-03",
+      "pregunta": "Escriba la ecuación con centro $(1,-4)$ y radio $6$.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.4",
+        "nombre": "Circunferencia con centro en (h, k)"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-(1))^2+(y-(-4))^2=36$",
+        "B": "$(x+(1))^2+(y+(-4))^2=36$",
+        "C": "$(x-(1))^2+(y-(-4))^2=6$",
+        "D": "$x^2+y^2=36$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-4-04",
+      "pregunta": "Escriba la ecuación con centro $(-5,-3)$ y radio $2$.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.4",
+        "nombre": "Circunferencia con centro en (h, k)"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+(-5))^2+(y+(-3))^2=4$",
+        "B": "$(x-(-5))^2+(y-(-3))^2=2$",
+        "C": "$x^2+y^2=4$",
+        "D": "$(x-(-5))^2+(y-(-3))^2=4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-4-05",
+      "pregunta": "Escriba la ecuación con centro $(4,-1)$ y radio $5$.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.4",
+        "nombre": "Circunferencia con centro en (h, k)"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-(4))^2+(y-(-1))^2=5$",
+        "B": "$x^2+y^2=25$",
+        "C": "$(x-(4))^2+(y-(-1))^2=25$",
+        "D": "$(x+(4))^2+(y+(-1))^2=25$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-4-06",
+      "pregunta": "Identifique el centro de $(x-2)^2+(y+3)^2=16$.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.4",
+        "nombre": "Circunferencia con centro en (h, k)"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,-1)$",
+        "B": "$(2,-3)$",
+        "C": "$4$",
+        "D": "$(0,0)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-4-07",
+      "pregunta": "Identifique el centro de $(x+5)^2+(y-1)^2=9$.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.4",
+        "nombre": "Circunferencia con centro en (h, k)"
+      },
+      "respuestas_posibles": {
+        "A": "$(-5,1)$",
+        "B": "$3$",
+        "C": "$(0,0)$",
+        "D": "$(-1,-1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-4-08",
+      "pregunta": "Identifique el centro de $(x-4)^2+(y-6)^2=25$.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.4",
+        "nombre": "Circunferencia con centro en (h, k)"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$(0,0)$",
+        "C": "$(-1,-1)$",
+        "D": "$(4,6)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-4-09",
+      "pregunta": "Identifique el centro de $(x+1)^2+(y+2)^2=49$.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.4",
+        "nombre": "Circunferencia con centro en (h, k)"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,0)$",
+        "B": "$(-1,-1)$",
+        "C": "$(-1,-2)$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-4-10",
+      "pregunta": "Identifique el centro de $(x-7)^2+(y+4)^2=64$.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.4",
+        "nombre": "Circunferencia con centro en (h, k)"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,-1)$",
+        "B": "$(7,-4)$",
+        "C": "$8$",
+        "D": "$(0,0)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-5-01",
+      "pregunta": "Trasladar $x^2+y^2=r^2$ mediante el vector $(h,k)$ produce:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.5",
+        "nombre": "Interpretación como una traslación"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-h)^2+(y-k)^2=r^2$",
+        "B": "$(x+h)^2+(y+k)^2=r^2$",
+        "C": "$x^2+y^2=(r+h+k)^2$",
+        "D": "$(x-h)+(y-k)=r$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-5-02",
+      "pregunta": "El cambio de $x^2+y^2=9$ a $(x-4)^2+y^2=9$ es una traslación:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.5",
+        "nombre": "Interpretación como una traslación"
+      },
+      "respuestas_posibles": {
+        "A": "$4$ a la izquierda",
+        "B": "$4$ hacia arriba",
+        "C": "$9$ a la derecha",
+        "D": "$4$ unidades a la derecha"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-5-03",
+      "pregunta": "El cambio a $(x+3)^2+y^2=16$ traslada el centro:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.5",
+        "nombre": "Interpretación como una traslación"
+      },
+      "respuestas_posibles": {
+        "A": "$3$ hacia arriba",
+        "B": "$16$ a la izquierda",
+        "C": "$3$ unidades a la izquierda",
+        "D": "$3$ a la derecha"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-5-04",
+      "pregunta": "La ecuación $x^2+(y-5)^2=25$ representa una traslación:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.5",
+        "nombre": "Interpretación como una traslación"
+      },
+      "respuestas_posibles": {
+        "A": "$25$ hacia arriba",
+        "B": "$5$ unidades hacia arriba",
+        "C": "$5$ hacia abajo",
+        "D": "$5$ a la derecha"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-5-05",
+      "pregunta": "La ecuación $x^2+(y+2)^2=4$ representa una traslación:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.5",
+        "nombre": "Interpretación como una traslación"
+      },
+      "respuestas_posibles": {
+        "A": "$2$ unidades hacia abajo",
+        "B": "$2$ hacia arriba",
+        "C": "$2$ a la izquierda",
+        "D": "$4$ hacia abajo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-5-06",
+      "pregunta": "En $(x-h)^2+(y-k)^2=r^2$, aumentar $h$ desplaza el centro:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.5",
+        "nombre": "Interpretación como una traslación"
+      },
+      "respuestas_posibles": {
+        "A": "Hacia la izquierda",
+        "B": "Hacia abajo",
+        "C": "Sin cambiarlo",
+        "D": "Hacia la derecha"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-5-07",
+      "pregunta": "En $(x-h)^2+(y-k)^2=r^2$, disminuir $k$ desplaza el centro:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.5",
+        "nombre": "Interpretación como una traslación"
+      },
+      "respuestas_posibles": {
+        "A": "Hacia la derecha",
+        "B": "Sin cambiarlo",
+        "C": "Hacia abajo",
+        "D": "Hacia arriba"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-5-08",
+      "pregunta": "Una traslación del centro no altera:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.5",
+        "nombre": "Interpretación como una traslación"
+      },
+      "respuestas_posibles": {
+        "A": "La ubicación de la circunferencia",
+        "B": "El radio",
+        "C": "Las coordenadas del centro",
+        "D": "Los signos en los binomios"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-5-09",
+      "pregunta": "La circunferencia $(x-2)^2+(y-1)^2=9$ trasladada por $(-5,4)$ tiene centro:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.5",
+        "nombre": "Interpretación como una traslación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,5)$",
+        "B": "$(7,-3)$",
+        "C": "$(-5,4)$",
+        "D": "$(3,5)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-5-10",
+      "pregunta": "La circunferencia con centro $(-1,3)$ trasladada por $(4,-2)$ queda con centro:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.5",
+        "nombre": "Interpretación como una traslación"
+      },
+      "respuestas_posibles": {
+        "A": "$(-5,5)$",
+        "B": "$(4,-2)$",
+        "C": "$(5,-1)$",
+        "D": "$(3,1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-6-01",
+      "pregunta": "La forma general de una circunferencia es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.6",
+        "nombre": "Forma general de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$y=mx+b$",
+        "B": "$x^2-y^2=1$",
+        "C": "$x^2+y^2+Dx+Ey+F=0$",
+        "D": "$Ax^2+By^2+Cxy=0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-6-02",
+      "pregunta": "En una circunferencia sin rotación, los coeficientes de $x^2$ y $y^2$ son:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.6",
+        "nombre": "Forma general de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Arbitrarios y diferentes",
+        "B": "Iguales y no nulos",
+        "C": "Opuestos",
+        "D": "Siempre cero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-6-03",
+      "pregunta": "La forma general de $(x-2)^2+(y+1)^2=9$ es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.6",
+        "nombre": "Forma general de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2-4x+2y-4=0$",
+        "B": "$x^2+y^2+4x-2y-4=0$",
+        "C": "$x^2+y^2-4x+2y+9=0$",
+        "D": "$x^2-y^2-4=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-6-04",
+      "pregunta": "La forma general de $(x+3)^2+(y-4)^2=25$ es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.6",
+        "nombre": "Forma general de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2-6x+8y=0$",
+        "B": "$x^2+y^2+6x-8y+25=0$",
+        "C": "$x^2-y^2=0$",
+        "D": "$x^2+y^2+6x-8y=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-6-05",
+      "pregunta": "Al expandir $(x-h)^2$, el término lineal es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.6",
+        "nombre": "Forma general de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$h^2x$",
+        "B": "$-hx^2$",
+        "C": "$-2hx$",
+        "D": "$2hx$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-6-06",
+      "pregunta": "Al expandir $(y-k)^2$, el término lineal es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.6",
+        "nombre": "Forma general de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$-ky^2$",
+        "B": "$-2ky$",
+        "C": "$2ky$",
+        "D": "$k^2y$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-6-07",
+      "pregunta": "En $x^2+y^2+Dx+Ey+F=0$, el centro es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.6",
+        "nombre": "Forma general de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$(-D/2,-E/2)$",
+        "B": "$(D,E)$",
+        "C": "$(-D,-E)$",
+        "D": "$(F,F)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-6-08",
+      "pregunta": "El radio al cuadrado en la forma general es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.6",
+        "nombre": "Forma general de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$D+E-F$",
+        "B": "$F^2-D-E$",
+        "C": "$D^2+E^2+F$",
+        "D": "$\\frac{D^2+E^2}{4}-F$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-6-09",
+      "pregunta": "La ecuación $x^2+y^2-6x+4y-12=0$ tiene centro:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.6",
+        "nombre": "Forma general de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$(6,-4)$",
+        "B": "$(0,0)$",
+        "C": "$(3,-2)$",
+        "D": "$(-3,2)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-6-10",
+      "pregunta": "En la forma general de una circunferencia no aparece el término:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.6",
+        "nombre": "Forma general de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Constante",
+        "B": "$xy$",
+        "C": "$x$",
+        "D": "$y$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-7-01",
+      "pregunta": "Transforme $x^2+y^2-6x+4y-12=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.7",
+        "nombre": "Transformación de la forma general a la forma ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-3)^2+(y+2)^2=25$",
+        "B": "$x^2+y^2=1$",
+        "C": "$x^2+y^2=25$",
+        "D": "$(x-1)^2+(y-1)^2=4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "completar cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-7-02",
+      "pregunta": "Transforme $x^2+y^2+8x-2y-8=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.7",
+        "nombre": "Transformación de la forma general a la forma ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=1$",
+        "B": "$x^2+y^2=25$",
+        "C": "$(x-1)^2+(y-1)^2=4$",
+        "D": "$(x+4)^2+(y-1)^2=25$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "completar cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-7-03",
+      "pregunta": "Transforme $x^2+y^2-10x-6y+9=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.7",
+        "nombre": "Transformación de la forma general a la forma ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=25$",
+        "B": "$(x-1)^2+(y-1)^2=4$",
+        "C": "$(x-5)^2+(y-3)^2=25$",
+        "D": "$x^2+y^2=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "completar cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-7-04",
+      "pregunta": "Transforme $x^2+y^2+4x+6y-12=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.7",
+        "nombre": "Transformación de la forma general a la forma ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-1)^2+(y-1)^2=4$",
+        "B": "$(x+2)^2+(y+3)^2=25$",
+        "C": "$x^2+y^2=1$",
+        "D": "$x^2+y^2=25$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "completar cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-7-05",
+      "pregunta": "Transforme $x^2+y^2-2x+8y+1=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.7",
+        "nombre": "Transformación de la forma general a la forma ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-1)^2+(y+4)^2=16$",
+        "B": "$x^2+y^2=1$",
+        "C": "$x^2+y^2=25$",
+        "D": "$(x-1)^2+(y-1)^2=4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "completar cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-7-06",
+      "pregunta": "Transforme $x^2+y^2+6x-4y-3=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.7",
+        "nombre": "Transformación de la forma general a la forma ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=1$",
+        "B": "$x^2+y^2=25$",
+        "C": "$(x-1)^2+(y-1)^2=4$",
+        "D": "$(x+3)^2+(y-2)^2=16$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "completar cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-7-07",
+      "pregunta": "Transforme $x^2+y^2-12x+2y+12=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.7",
+        "nombre": "Transformación de la forma general a la forma ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=25$",
+        "B": "$(x-1)^2+(y-1)^2=4$",
+        "C": "$(x-6)^2+(y+1)^2=25$",
+        "D": "$x^2+y^2=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "completar cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-7-08",
+      "pregunta": "Transforme $x^2+y^2+2x-10y+10=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.7",
+        "nombre": "Transformación de la forma general a la forma ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-1)^2+(y-1)^2=4$",
+        "B": "$(x+1)^2+(y-5)^2=16$",
+        "C": "$x^2+y^2=1$",
+        "D": "$x^2+y^2=25$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "completar cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-7-09",
+      "pregunta": "Transforme $x^2+y^2-4x-8y+11=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.7",
+        "nombre": "Transformación de la forma general a la forma ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-2)^2+(y-4)^2=9$",
+        "B": "$x^2+y^2=1$",
+        "C": "$x^2+y^2=25$",
+        "D": "$(x-1)^2+(y-1)^2=4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "completar cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-7-10",
+      "pregunta": "Transforme $x^2+y^2+10x+4y+20=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.7",
+        "nombre": "Transformación de la forma general a la forma ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+y^2=1$",
+        "B": "$x^2+y^2=25$",
+        "C": "$(x-1)^2+(y-1)^2=4$",
+        "D": "$(x+5)^2+(y+2)^2=9$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "completar cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-8-01",
+      "pregunta": "Para que $x^2+y^2+Dx+Ey+F=0$ represente una circunferencia real no degenerada se requiere:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.8",
+        "nombre": "Existencia de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$r^2<0$",
+        "B": "$D=E=0$",
+        "C": "$r^2>0$",
+        "D": "$r^2=0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-8-02",
+      "pregunta": "Si $r^2=0$, la ecuación representa:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.8",
+        "nombre": "Existencia de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Una recta",
+        "B": "Un solo punto",
+        "C": "Una circunferencia de radio uno",
+        "D": "Ningún punto real"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-8-03",
+      "pregunta": "Si $r^2<0$, la ecuación representa:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.8",
+        "nombre": "Existencia de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Ninguna circunferencia real",
+        "B": "Una circunferencia grande",
+        "C": "Un punto",
+        "D": "Una parábola"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-8-04",
+      "pregunta": "La ecuación $x^2+y^2-4=0$ representa:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.8",
+        "nombre": "Existencia de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Un punto",
+        "B": "Ningún lugar geométrico real",
+        "C": "Una recta",
+        "D": "Una circunferencia real de radio $2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-8-05",
+      "pregunta": "La ecuación $x^2+y^2=0$ representa:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.8",
+        "nombre": "Existencia de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Ningún punto",
+        "B": "Todo el plano",
+        "C": "El punto $(0,0)$",
+        "D": "Una circunferencia de radio $1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-8-06",
+      "pregunta": "La ecuación $x^2+y^2+1=0$ tiene:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.8",
+        "nombre": "Existencia de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Infinitas soluciones reales",
+        "B": "Ningún punto real",
+        "C": "Radio $1$",
+        "D": "Centro $(1,1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-8-07",
+      "pregunta": "Para $x^2+y^2+6x-8y+F=0$, el valor de $r^2$ es:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.8",
+        "nombre": "Existencia de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$25-F$",
+        "B": "$F-25$",
+        "C": "$50-F$",
+        "D": "$F+25$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-8-08",
+      "pregunta": "Si $D=4$, $E=-6$ y $F=13$, entonces $r^2=$",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.8",
+        "nombre": "Existencia de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$13$",
+        "B": "$25$",
+        "C": "$-13$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-8-09",
+      "pregunta": "Si $D=2$, $E=4$ y $F=-5$, entonces $r^2=$",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.8",
+        "nombre": "Existencia de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$-10$",
+        "B": "$25$",
+        "C": "$10$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-8-10",
+      "pregunta": "Comprobar la existencia exige calcular:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.8",
+        "nombre": "Existencia de la circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "$F/2$",
+        "B": "$r^2=\\frac{D^2+E^2}{4}-F$",
+        "C": "$D+E+F$",
+        "D": "$D^2-E^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-9-01",
+      "pregunta": "Para comparar un punto con una circunferencia se calcula:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.9",
+        "nombre": "Posición de un punto respecto de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "La distancia del punto al centro",
+        "B": "La pendiente del radio",
+        "C": "El área del punto",
+        "D": "La suma de coordenadas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-9-02",
+      "pregunta": "Si la distancia al centro es menor que el radio, el punto está:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.9",
+        "nombre": "Posición de un punto respecto de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Sobre la circunferencia",
+        "B": "Fuera",
+        "C": "En el centro necesariamente",
+        "D": "Dentro"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-9-03",
+      "pregunta": "Si la distancia al centro es igual al radio, el punto está:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.9",
+        "nombre": "Posición de un punto respecto de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Fuera",
+        "B": "En una tangente únicamente",
+        "C": "Sobre la circunferencia",
+        "D": "Dentro"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-9-04",
+      "pregunta": "Si la distancia al centro es mayor que el radio, el punto está:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.9",
+        "nombre": "Posición de un punto respecto de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "En el diámetro",
+        "B": "Fuera",
+        "C": "Dentro",
+        "D": "Sobre la circunferencia"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-9-05",
+      "pregunta": "Respecto de $x^2+y^2=25$, el punto $(3,4)$ está:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.9",
+        "nombre": "Posición de un punto respecto de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Sobre la circunferencia",
+        "B": "Dentro",
+        "C": "Fuera",
+        "D": "En el centro"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-9-06",
+      "pregunta": "Respecto de $x^2+y^2=25$, el punto $(1,2)$ está:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.9",
+        "nombre": "Posición de un punto respecto de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Sobre la circunferencia",
+        "B": "Fuera",
+        "C": "En una tangente",
+        "D": "Dentro"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-9-07",
+      "pregunta": "Respecto de $x^2+y^2=25$, el punto $(6,0)$ está:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.9",
+        "nombre": "Posición de un punto respecto de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Sobre la circunferencia",
+        "B": "En el centro",
+        "C": "Fuera",
+        "D": "Dentro"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-9-08",
+      "pregunta": "Respecto de $(x-2)^2+(y+1)^2=9$, el punto $(5,-1)$ está:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.9",
+        "nombre": "Posición de un punto respecto de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "En el centro",
+        "B": "Sobre la circunferencia",
+        "C": "Dentro",
+        "D": "Fuera"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-9-09",
+      "pregunta": "Respecto de $(x-2)^2+(y+1)^2=9$, el punto $(2,0)$ está:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.9",
+        "nombre": "Posición de un punto respecto de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Dentro",
+        "B": "Sobre la circunferencia",
+        "C": "Fuera",
+        "D": "En una secante"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-33-9-10",
+      "pregunta": "Respecto de $(x-2)^2+(y+1)^2=9$, el punto $(-2,-1)$ está:",
+      "tema": {
+        "codigo": "33",
+        "nombre": "Circunferencia",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "33.9",
+        "nombre": "Posición de un punto respecto de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "Dentro",
+        "B": "Sobre la circunferencia",
+        "C": "En el centro",
+        "D": "Fuera"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar circunferencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

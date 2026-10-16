@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "32",
+    "titulo": "Aplicaciones de la línea recta",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "32.1",
+        "nombre": "Modelo lineal"
+      },
+      {
+        "codigo": "32.2",
+        "nombre": "Construcción de un modelo lineal"
+      },
+      {
+        "codigo": "32.3",
+        "nombre": "Interpretación de la pendiente"
+      },
+      {
+        "codigo": "32.4",
+        "nombre": "Modelo a partir de dos puntos"
+      },
+      {
+        "codigo": "32.5",
+        "nombre": "Representación gráfica de un modelo"
+      },
+      {
+        "codigo": "32.6",
+        "nombre": "Movimiento rectilíneo uniforme"
+      },
+      {
+        "codigo": "32.7",
+        "nombre": "Encuentro de dos móviles"
+      },
+      {
+        "codigo": "32.8",
+        "nombre": "Costos, ingresos y utilidad"
+      },
+      {
+        "codigo": "32.9",
+        "nombre": "Punto de equilibrio"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas 32.1 a 32.9; se omitieron síntesis y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-32-1-01",
+      "pregunta": "Un modelo lineal de una variable puede escribirse como:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.1",
+        "nombre": "Modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$y=mx+b$",
+        "B": "$y=ax^2+bx+c$",
+        "C": "$xy=1$",
+        "D": "$y=a^x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-1-02",
+      "pregunta": "En un modelo lineal, $m$ representa:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.1",
+        "nombre": "Modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "El valor inicial",
+        "B": "La variable independiente",
+        "C": "El punto de equilibrio",
+        "D": "La tasa de cambio constante"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-1-03",
+      "pregunta": "En un modelo lineal, $b$ representa:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.1",
+        "nombre": "Modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "El valor de $x$ cuando $y=0$",
+        "B": "La distancia entre datos",
+        "C": "El valor de $y$ cuando $x=0$",
+        "D": "La tasa de cambio"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-1-04",
+      "pregunta": "Si $m>0$, el modelo es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.1",
+        "nombre": "Modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "Vertical",
+        "B": "Creciente",
+        "C": "Decreciente",
+        "D": "Constante"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-1-05",
+      "pregunta": "Si $m<0$, el modelo es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.1",
+        "nombre": "Modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "Decreciente",
+        "B": "Creciente",
+        "C": "Constante",
+        "D": "Horizontal"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-1-06",
+      "pregunta": "Si $m=0$, el modelo es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.1",
+        "nombre": "Modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "Creciente",
+        "B": "Decreciente",
+        "C": "Vertical",
+        "D": "Constante"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-1-07",
+      "pregunta": "¿Cuál relación es lineal?",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.1",
+        "nombre": "Modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$y=1/x$",
+        "B": "$y=2^x$",
+        "C": "$y=5x+2$",
+        "D": "$y=x^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-1-08",
+      "pregunta": "La gráfica de un modelo lineal es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.1",
+        "nombre": "Modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "Una hipérbola",
+        "B": "Una recta",
+        "C": "Una parábola",
+        "D": "Una circunferencia"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-1-09",
+      "pregunta": "La variable que se selecciona como entrada es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.1",
+        "nombre": "Modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "La variable independiente",
+        "B": "La variable dependiente",
+        "C": "La pendiente",
+        "D": "La ordenada al origen"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-1-10",
+      "pregunta": "La variable cuyo valor depende de la entrada es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.1",
+        "nombre": "Modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "La variable independiente",
+        "B": "El intercepto",
+        "C": "La escala",
+        "D": "La variable dependiente"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-2-01",
+      "pregunta": "Un servicio cobra $50$ pesos fijos y $12$ por hora. Si $h$ son horas, el costo es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.2",
+        "nombre": "Construcción de un modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$C(h)=62h$",
+        "B": "$C(h)=50-12h$",
+        "C": "$C(h)=50+12h$",
+        "D": "$C(h)=50h+12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-2-02",
+      "pregunta": "Un depósito contiene $300$ L y pierde $8$ L por minuto. El volumen es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.2",
+        "nombre": "Construcción de un modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$V(t)=292t$",
+        "B": "$V(t)=300-8t$",
+        "C": "$V(t)=300+8t$",
+        "D": "$V(t)=8-300t$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-2-03",
+      "pregunta": "Una persona ahorra $200$ pesos inicialmente y $75$ por semana. El ahorro es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.2",
+        "nombre": "Construcción de un modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$A(s)=200+75s$",
+        "B": "$A(s)=200s+75$",
+        "C": "$A(s)=275s$",
+        "D": "$A(s)=200-75s$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-2-04",
+      "pregunta": "Una vela mide $24$ cm y disminuye $2$ cm por hora. Su altura es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.2",
+        "nombre": "Construcción de un modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$H(t)=24+2t$",
+        "B": "$H(t)=2-24t$",
+        "C": "$H(t)=22t$",
+        "D": "$H(t)=24-2t$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-2-05",
+      "pregunta": "Un taxi cobra $40$ pesos de banderazo y $9$ por kilómetro. El precio es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.2",
+        "nombre": "Construcción de un modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$P(x)=49x$",
+        "B": "$P(x)=40-9x$",
+        "C": "$P(x)=40+9x$",
+        "D": "$P(x)=40x+9$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-2-06",
+      "pregunta": "La temperatura inicial es $18^\\circ$C y aumenta $3^\\circ$C por hora. El modelo es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.2",
+        "nombre": "Construcción de un modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$T(t)=21t$",
+        "B": "$T(t)=18+3t$",
+        "C": "$T(t)=18-3t$",
+        "D": "$T(t)=3+18t$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-2-07",
+      "pregunta": "Una deuda de $1000$ pesos disminuye $125$ por pago. El saldo es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.2",
+        "nombre": "Construcción de un modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$S(n)=1000-125n$",
+        "B": "$S(n)=1000+125n$",
+        "C": "$S(n)=125-1000n$",
+        "D": "$S(n)=875n$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-2-08",
+      "pregunta": "Una planta mide $15$ cm y crece $4$ cm por semana. Su altura es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.2",
+        "nombre": "Construcción de un modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$H(s)=15-4s$",
+        "B": "$H(s)=4+15s$",
+        "C": "$H(s)=19s$",
+        "D": "$H(s)=15+4s$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-2-09",
+      "pregunta": "Un tanque vacío recibe $25$ L por minuto. Su volumen es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.2",
+        "nombre": "Construcción de un modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$V(t)=25-t$",
+        "B": "$V(t)=t/25$",
+        "C": "$V(t)=25t$",
+        "D": "$V(t)=25+t$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-2-10",
+      "pregunta": "Una cuenta inicia en $600$ pesos y se retiran $30$ diarios. El saldo es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.2",
+        "nombre": "Construcción de un modelo lineal"
+      },
+      "respuestas_posibles": {
+        "A": "$S(d)=570d$",
+        "B": "$S(d)=600-30d$",
+        "C": "$S(d)=600+30d$",
+        "D": "$S(d)=30-600d$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-3-01",
+      "pregunta": "En $C(x)=80+15x$, la pendiente $15$ significa:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.3",
+        "nombre": "Interpretación de la pendiente"
+      },
+      "respuestas_posibles": {
+        "A": "El costo aumenta $15$ por unidad",
+        "B": "El costo inicial es $15$",
+        "C": "El costo total es $15$",
+        "D": "Se producen $15$ unidades"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-3-02",
+      "pregunta": "En $V(t)=500-20t$, la pendiente $-20$ significa:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.3",
+        "nombre": "Interpretación de la pendiente"
+      },
+      "respuestas_posibles": {
+        "A": "El volumen inicial es $20$",
+        "B": "El volumen aumenta $20$",
+        "C": "El tanque contiene $-20$ L",
+        "D": "El volumen disminuye $20$ por unidad de tiempo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-3-03",
+      "pregunta": "En $d(t)=60t$, la pendiente representa:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.3",
+        "nombre": "Interpretación de la pendiente"
+      },
+      "respuestas_posibles": {
+        "A": "Un tiempo de $60$",
+        "B": "Una aceleración de $60$",
+        "C": "Una velocidad de $60$ unidades por tiempo",
+        "D": "Una distancia inicial de $60$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-3-04",
+      "pregunta": "En $A(s)=300+50s$, el intercepto $300$ es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.3",
+        "nombre": "Interpretación de la pendiente"
+      },
+      "respuestas_posibles": {
+        "A": "La tasa de retiro",
+        "B": "El ahorro inicial",
+        "C": "El ahorro semanal",
+        "D": "El número de semanas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-3-05",
+      "pregunta": "En $T(t)=22-2t$, el intercepto $22$ es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.3",
+        "nombre": "Interpretación de la pendiente"
+      },
+      "respuestas_posibles": {
+        "A": "La temperatura inicial",
+        "B": "La disminución por hora",
+        "C": "El tiempo final",
+        "D": "La temperatura mínima"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-3-06",
+      "pregunta": "Una pendiente con unidades pesos por kilogramo representa:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.3",
+        "nombre": "Interpretación de la pendiente"
+      },
+      "respuestas_posibles": {
+        "A": "Costo fijo",
+        "B": "Número de kilogramos",
+        "C": "Tiempo de compra",
+        "D": "Precio por kilogramo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-3-07",
+      "pregunta": "Una pendiente de $0$ en un modelo significa:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.3",
+        "nombre": "Interpretación de la pendiente"
+      },
+      "respuestas_posibles": {
+        "A": "La variable disminuye",
+        "B": "La recta es vertical",
+        "C": "La variable dependiente no cambia",
+        "D": "La variable crece"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-3-08",
+      "pregunta": "Si la pendiente duplica su valor positivo, el modelo:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.3",
+        "nombre": "Interpretación de la pendiente"
+      },
+      "respuestas_posibles": {
+        "A": "Se hace vertical",
+        "B": "Crece al doble de rapidez",
+        "C": "Se vuelve constante",
+        "D": "Cambia el intercepto"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-3-09",
+      "pregunta": "La pendiente se calcula como:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.3",
+        "nombre": "Interpretación de la pendiente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\Delta y}{\\Delta x}$",
+        "B": "$\\frac{\\Delta x}{\\Delta y}$",
+        "C": "$x+y$",
+        "D": "$xy$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-3-10",
+      "pregunta": "Una pendiente negativa indica que:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.3",
+        "nombre": "Interpretación de la pendiente"
+      },
+      "respuestas_posibles": {
+        "A": "Ambas variables aumentan",
+        "B": "La recta es horizontal",
+        "C": "El intercepto es negativo necesariamente",
+        "D": "Al aumentar $x$, disminuye $y$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-4-01",
+      "pregunta": "Obtenga el modelo lineal que pasa por los puntos $(0, 2)$ y $(3, 8)$.",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.4",
+        "nombre": "Modelo a partir de dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-x$",
+        "B": "$y=2x$",
+        "C": "$y=2x+2$",
+        "D": "$y=x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "construir modelo con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-4-02",
+      "pregunta": "Obtenga el modelo lineal que pasa por los puntos $(1, 5)$ y $(4, 14)$.",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.4",
+        "nombre": "Modelo a partir de dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=2x$",
+        "B": "$y=3x+2$",
+        "C": "$y=x$",
+        "D": "$y=-x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "construir modelo con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-4-03",
+      "pregunta": "Obtenga el modelo lineal que pasa por los puntos $(2, 10)$ y $(6, 2)$.",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.4",
+        "nombre": "Modelo a partir de dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-2x+14$",
+        "B": "$y=x$",
+        "C": "$y=-x$",
+        "D": "$y=2x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "construir modelo con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-4-04",
+      "pregunta": "Obtenga el modelo lineal que pasa por los puntos $(0, -4)$ y $(5, 6)$.",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.4",
+        "nombre": "Modelo a partir de dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=x$",
+        "B": "$y=-x$",
+        "C": "$y=2x$",
+        "D": "$y=2x-4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "construir modelo con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-4-05",
+      "pregunta": "Obtenga el modelo lineal que pasa por los puntos $(-1, 1)$ y $(3, 9)$.",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.4",
+        "nombre": "Modelo a partir de dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-x$",
+        "B": "$y=2x$",
+        "C": "$y=2x+3$",
+        "D": "$y=x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "construir modelo con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-4-06",
+      "pregunta": "Obtenga el modelo lineal que pasa por los puntos $(2, 3)$ y $(8, 15)$.",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.4",
+        "nombre": "Modelo a partir de dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=2x$",
+        "B": "$y=2x-1$",
+        "C": "$y=x$",
+        "D": "$y=-x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "construir modelo con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-4-07",
+      "pregunta": "Obtenga el modelo lineal que pasa por los puntos $(1, 8)$ y $(5, 4)$.",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.4",
+        "nombre": "Modelo a partir de dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-x+9$",
+        "B": "$y=x$",
+        "C": "$y=-x$",
+        "D": "$y=2x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "construir modelo con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-4-08",
+      "pregunta": "Obtenga el modelo lineal que pasa por los puntos $(-2, -5)$ y $(2, 7)$.",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.4",
+        "nombre": "Modelo a partir de dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=x$",
+        "B": "$y=-x$",
+        "C": "$y=2x$",
+        "D": "$y=3x+1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "construir modelo con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-4-09",
+      "pregunta": "Obtenga el modelo lineal que pasa por los puntos $(0, 12)$ y $(4, 0)$.",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.4",
+        "nombre": "Modelo a partir de dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-x$",
+        "B": "$y=2x$",
+        "C": "$y=-3x+12$",
+        "D": "$y=x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "construir modelo con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-4-10",
+      "pregunta": "Obtenga el modelo lineal que pasa por los puntos $(3, 2)$ y $(7, 10)$.",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.4",
+        "nombre": "Modelo a partir de dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "$y=2x$",
+        "B": "$y=2x-4$",
+        "C": "$y=x$",
+        "D": "$y=-x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "construir modelo con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-5-01",
+      "pregunta": "La gráfica de $y=2x+3$ corta al eje $y$ en:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.5",
+        "nombre": "Representación gráfica de un modelo"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,3)$",
+        "B": "$(3,0)$",
+        "C": "$(0,2)$",
+        "D": "$(2,3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-5-02",
+      "pregunta": "La gráfica de $y=-x+4$ corta al eje $x$ en:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.5",
+        "nombre": "Representación gráfica de un modelo"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,4)$",
+        "B": "$(-4,0)$",
+        "C": "$(1,4)$",
+        "D": "$(4,0)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-5-03",
+      "pregunta": "Para graficar $y=3x+1$, desde $(0,1)$ la pendiente indica:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.5",
+        "nombre": "Representación gráfica de un modelo"
+      },
+      "respuestas_posibles": {
+        "A": "Subir $1$ y avanzar $3$",
+        "B": "Avanzar $0$",
+        "C": "Subir $3$ y avanzar $1$",
+        "D": "Bajar $3$ y avanzar $1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-5-04",
+      "pregunta": "La gráfica de $y=5$ es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.5",
+        "nombre": "Representación gráfica de un modelo"
+      },
+      "respuestas_posibles": {
+        "A": "Decreciente",
+        "B": "Horizontal",
+        "C": "Vertical",
+        "D": "Creciente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-5-05",
+      "pregunta": "La gráfica de $x=-2$ es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.5",
+        "nombre": "Representación gráfica de un modelo"
+      },
+      "respuestas_posibles": {
+        "A": "Vertical",
+        "B": "Horizontal",
+        "C": "Creciente",
+        "D": "Decreciente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-5-06",
+      "pregunta": "En un contexto, el dominio de un modelo puede limitarse porque:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.5",
+        "nombre": "Representación gráfica de un modelo"
+      },
+      "respuestas_posibles": {
+        "A": "Toda recta tiene dominio vacío",
+        "B": "La pendiente desaparece",
+        "C": "El intercepto debe ser cero",
+        "D": "Solo ciertos valores de la variable tienen sentido"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-5-07",
+      "pregunta": "En $C(x)=100+20x$, el punto $(0,100)$ representa:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.5",
+        "nombre": "Representación gráfica de un modelo"
+      },
+      "respuestas_posibles": {
+        "A": "La utilidad",
+        "B": "El ingreso total",
+        "C": "El costo fijo",
+        "D": "El costo de $100$ unidades"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-5-08",
+      "pregunta": "Si una recta pasa por $(0,0)$, el modelo es de la forma:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.5",
+        "nombre": "Representación gráfica de un modelo"
+      },
+      "respuestas_posibles": {
+        "A": "$x=b$",
+        "B": "$y=mx$",
+        "C": "$y=m+x$",
+        "D": "$y=b$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-5-09",
+      "pregunta": "Para comprobar que un punto pertenece a una gráfica se debe:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.5",
+        "nombre": "Representación gráfica de un modelo"
+      },
+      "respuestas_posibles": {
+        "A": "Sustituir sus coordenadas en la ecuación",
+        "B": "Sumar siempre sus coordenadas",
+        "C": "Calcular su distancia al origen",
+        "D": "Cambiar el signo de $y$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-5-10",
+      "pregunta": "Una gráfica lineal decreciente tiene pendiente:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.5",
+        "nombre": "Representación gráfica de un modelo"
+      },
+      "respuestas_posibles": {
+        "A": "Positiva",
+        "B": "Cero",
+        "C": "No definida necesariamente",
+        "D": "Negativa"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-6-01",
+      "pregunta": "Un móvil parte del origen a $70$ km/h. Su posición tras $3$ h es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.6",
+        "nombre": "Movimiento rectilíneo uniforme"
+      },
+      "respuestas_posibles": {
+        "A": "$140$ km",
+        "B": "$280$ km",
+        "C": "$210$ km",
+        "D": "$73$ km"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-6-02",
+      "pregunta": "Un móvil inicia en el km $20$ y avanza a $60$ km/h. Su posición en $4$ h es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.6",
+        "nombre": "Movimiento rectilíneo uniforme"
+      },
+      "respuestas_posibles": {
+        "A": "$320$ km",
+        "B": "$260$ km",
+        "C": "$240$ km",
+        "D": "$80$ km"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-6-03",
+      "pregunta": "Un móvil inicia en $150$ m y retrocede a $10$ m/s. Su posición en $8$ s es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.6",
+        "nombre": "Movimiento rectilíneo uniforme"
+      },
+      "respuestas_posibles": {
+        "A": "$70$ m",
+        "B": "$80$ m",
+        "C": "$160$ m",
+        "D": "$230$ m"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-6-04",
+      "pregunta": "En MRU, la ecuación de posición es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.6",
+        "nombre": "Movimiento rectilíneo uniforme"
+      },
+      "respuestas_posibles": {
+        "A": "$x(t)=vt^2$",
+        "B": "$x(t)=x_0+at^2$",
+        "C": "$x(t)=x_0/vt$",
+        "D": "$x(t)=x_0+vt$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-6-05",
+      "pregunta": "En $x(t)=30+5t$, la velocidad es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.6",
+        "nombre": "Movimiento rectilíneo uniforme"
+      },
+      "respuestas_posibles": {
+        "A": "$35$",
+        "B": "$6$",
+        "C": "$5$",
+        "D": "$30$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-6-06",
+      "pregunta": "En $x(t)=100-12t$, el signo negativo indica movimiento:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.6",
+        "nombre": "Movimiento rectilíneo uniforme"
+      },
+      "respuestas_posibles": {
+        "A": "Con aceleración positiva",
+        "B": "En el sentido negativo del eje",
+        "C": "Con rapidez negativa imposible",
+        "D": "Sin movimiento"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-6-07",
+      "pregunta": "Un móvil recorre $180$ km en $3$ h con rapidez constante. Su rapidez es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.6",
+        "nombre": "Movimiento rectilíneo uniforme"
+      },
+      "respuestas_posibles": {
+        "A": "$60$ km/h",
+        "B": "$90$ km/h",
+        "C": "$177$ km/h",
+        "D": "$540$ km/h"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-6-08",
+      "pregunta": "A $15$ m/s, el tiempo para recorrer $120$ m es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.6",
+        "nombre": "Movimiento rectilíneo uniforme"
+      },
+      "respuestas_posibles": {
+        "A": "$10$ s",
+        "B": "$18$ s",
+        "C": "$1800$ s",
+        "D": "$8$ s"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-6-09",
+      "pregunta": "Un móvil parte de $x_0=-20$ m con $v=4$ m/s. En $10$ s llega a:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.6",
+        "nombre": "Movimiento rectilíneo uniforme"
+      },
+      "respuestas_posibles": {
+        "A": "$-60$ m",
+        "B": "$-16$ m",
+        "C": "$20$ m",
+        "D": "$40$ m"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-6-10",
+      "pregunta": "La gráfica posición-tiempo de un MRU es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.6",
+        "nombre": "Movimiento rectilíneo uniforme"
+      },
+      "respuestas_posibles": {
+        "A": "Una hipérbola",
+        "B": "Una recta",
+        "C": "Una parábola",
+        "D": "Una circunferencia"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-7-01",
+      "pregunta": "Dos móviles parten del mismo punto en sentidos opuestos a $40$ y $60$ km/h. Tras $2$ h su separación es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.7",
+        "nombre": "Encuentro de dos móviles"
+      },
+      "respuestas_posibles": {
+        "A": "$200$ km",
+        "B": "$100$ km",
+        "C": "$120$ km",
+        "D": "$20$ km"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-7-02",
+      "pregunta": "Dos móviles están separados $300$ km y se acercan a $50$ y $70$ km/h. El tiempo de encuentro es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.7",
+        "nombre": "Encuentro de dos móviles"
+      },
+      "respuestas_posibles": {
+        "A": "$3$ h",
+        "B": "$5$ h",
+        "C": "$120$ h",
+        "D": "$2.5$ h"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-7-03",
+      "pregunta": "Dos móviles parten juntos en la misma dirección a $80$ y $60$ km/h. Tras $4$ h su separación es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.7",
+        "nombre": "Encuentro de dos móviles"
+      },
+      "respuestas_posibles": {
+        "A": "$240$ km",
+        "B": "$560$ km",
+        "C": "$80$ km",
+        "D": "$20$ km"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-7-04",
+      "pregunta": "Un móvil lleva $30$ km de ventaja y viaja a $50$ km/h; otro lo sigue a $65$ km/h. El alcance ocurre en:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.7",
+        "nombre": "Encuentro de dos móviles"
+      },
+      "respuestas_posibles": {
+        "A": "$15$ h",
+        "B": "$2$ h",
+        "C": "$0.5$ h",
+        "D": "$6$ h"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-7-05",
+      "pregunta": "Para encontrar el instante de encuentro se debe:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.7",
+        "nombre": "Encuentro de dos móviles"
+      },
+      "respuestas_posibles": {
+        "A": "Igualar las funciones de posición",
+        "B": "Sumar las pendientes y detenerse",
+        "C": "Igualar los tiempos a cero",
+        "D": "Multiplicar las posiciones"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-7-06",
+      "pregunta": "Si $x_1(t)=20+4t$ y $x_2(t)=80-6t$, se encuentran en:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.7",
+        "nombre": "Encuentro de dos móviles"
+      },
+      "respuestas_posibles": {
+        "A": "$t=10$",
+        "B": "$t=4$",
+        "C": "$t=60$",
+        "D": "$t=6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-7-07",
+      "pregunta": "En el caso anterior, la posición de encuentro es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.7",
+        "nombre": "Encuentro de dos móviles"
+      },
+      "respuestas_posibles": {
+        "A": "$56$",
+        "B": "$80$",
+        "C": "$44$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-7-08",
+      "pregunta": "Dos móviles con igual velocidad y diferente posición inicial:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.7",
+        "nombre": "Encuentro de dos móviles"
+      },
+      "respuestas_posibles": {
+        "A": "Cambian automáticamente de velocidad",
+        "B": "No se encuentran si avanzan en el mismo sentido",
+        "C": "Siempre se encuentran",
+        "D": "Se encuentran en $t=0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-7-09",
+      "pregunta": "Si las gráficas posición-tiempo se cruzan, el cruce representa:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.7",
+        "nombre": "Encuentro de dos móviles"
+      },
+      "respuestas_posibles": {
+        "A": "Misma posición al mismo tiempo",
+        "B": "Igual velocidad necesariamente",
+        "C": "Distancia máxima",
+        "D": "Tiempo inicial"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-7-10",
+      "pregunta": "La rapidez relativa de dos móviles que se acercan en sentidos opuestos es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.7",
+        "nombre": "Encuentro de dos móviles"
+      },
+      "respuestas_posibles": {
+        "A": "La diferencia siempre",
+        "B": "El producto",
+        "C": "El promedio",
+        "D": "La suma de sus rapidez"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-8-01",
+      "pregunta": "El costo total lineal suele expresarse como:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.8",
+        "nombre": "Costos, ingresos y utilidad"
+      },
+      "respuestas_posibles": {
+        "A": "$C(x)=I(x)-U(x)$",
+        "B": "$C(x)=x^2$",
+        "C": "$C(x)=C_f+c_vx$",
+        "D": "$C(x)=px$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-8-02",
+      "pregunta": "El ingreso por vender $x$ unidades a precio $p$ es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.8",
+        "nombre": "Costos, ingresos y utilidad"
+      },
+      "respuestas_posibles": {
+        "A": "$I(x)=C_f-px$",
+        "B": "$I(x)=px$",
+        "C": "$I(x)=p+x$",
+        "D": "$I(x)=p/x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-8-03",
+      "pregunta": "La utilidad se define como:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.8",
+        "nombre": "Costos, ingresos y utilidad"
+      },
+      "respuestas_posibles": {
+        "A": "$U(x)=I(x)-C(x)$",
+        "B": "$U(x)=I(x)+C(x)$",
+        "C": "$U(x)=C(x)-I(x)$",
+        "D": "$U(x)=I(x)C(x)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-8-04",
+      "pregunta": "Si $C(x)=500+20x$ e $I(x)=45x$, entonces $U(x)=$",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.8",
+        "nombre": "Costos, ingresos y utilidad"
+      },
+      "respuestas_posibles": {
+        "A": "$65x+500$",
+        "B": "$25x+500$",
+        "C": "$45x-20$",
+        "D": "$25x-500$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-8-05",
+      "pregunta": "En $C(x)=800+12x$, el costo fijo es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.8",
+        "nombre": "Costos, ingresos y utilidad"
+      },
+      "respuestas_posibles": {
+        "A": "$812$",
+        "B": "$x$",
+        "C": "$800$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-8-06",
+      "pregunta": "En $C(x)=800+12x$, el costo variable unitario es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.8",
+        "nombre": "Costos, ingresos y utilidad"
+      },
+      "respuestas_posibles": {
+        "A": "$x$",
+        "B": "$12$",
+        "C": "$800$",
+        "D": "$812$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-8-07",
+      "pregunta": "Si el precio es $50$ y se venden $30$ unidades, el ingreso es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.8",
+        "nombre": "Costos, ingresos y utilidad"
+      },
+      "respuestas_posibles": {
+        "A": "$1500$",
+        "B": "$80$",
+        "C": "$20$",
+        "D": "$3000$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-8-08",
+      "pregunta": "Si el ingreso es $2000$ y el costo $1600$, la utilidad es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.8",
+        "nombre": "Costos, ingresos y utilidad"
+      },
+      "respuestas_posibles": {
+        "A": "$3600$",
+        "B": "$-400$",
+        "C": "$800$",
+        "D": "$400$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-8-09",
+      "pregunta": "Una utilidad negativa se interpreta como:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.8",
+        "nombre": "Costos, ingresos y utilidad"
+      },
+      "respuestas_posibles": {
+        "A": "Equilibrio",
+        "B": "Costo fijo nulo",
+        "C": "Pérdida",
+        "D": "Ganancia"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-8-10",
+      "pregunta": "La pendiente de la función ingreso representa:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.8",
+        "nombre": "Costos, ingresos y utilidad"
+      },
+      "respuestas_posibles": {
+        "A": "La utilidad inicial",
+        "B": "El precio por unidad",
+        "C": "El costo fijo",
+        "D": "La cantidad vendida"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-9-01",
+      "pregunta": "El punto de equilibrio ocurre cuando:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.9",
+        "nombre": "Punto de equilibrio"
+      },
+      "respuestas_posibles": {
+        "A": "$I(x)=C(x)$",
+        "B": "$I(x)=0$",
+        "C": "$C(x)=0$",
+        "D": "$U(x)>0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-9-02",
+      "pregunta": "En el punto de equilibrio, la utilidad es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.9",
+        "nombre": "Punto de equilibrio"
+      },
+      "respuestas_posibles": {
+        "A": "Positiva",
+        "B": "Negativa",
+        "C": "Igual al costo fijo",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-9-03",
+      "pregunta": "Si $C(x)=500+20x$ e $I(x)=45x$, el equilibrio es en:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.9",
+        "nombre": "Punto de equilibrio"
+      },
+      "respuestas_posibles": {
+        "A": "$500$ unidades",
+        "B": "$45$ unidades",
+        "C": "$20$ unidades",
+        "D": "$25$ unidades"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-9-04",
+      "pregunta": "Si $C(x)=1200+30x$ e $I(x)=50x$, el equilibrio es en:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.9",
+        "nombre": "Punto de equilibrio"
+      },
+      "respuestas_posibles": {
+        "A": "$120$ unidades",
+        "B": "$60$ unidades",
+        "C": "$40$ unidades",
+        "D": "$80$ unidades"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-9-05",
+      "pregunta": "Si $C(x)=900+15x$ e $I(x)=40x$, el equilibrio es en:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.9",
+        "nombre": "Punto de equilibrio"
+      },
+      "respuestas_posibles": {
+        "A": "$36$ unidades",
+        "B": "$25$ unidades",
+        "C": "$45$ unidades",
+        "D": "$60$ unidades"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-9-06",
+      "pregunta": "Gráficamente, el punto de equilibrio es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.9",
+        "nombre": "Punto de equilibrio"
+      },
+      "respuestas_posibles": {
+        "A": "El intercepto del costo",
+        "B": "El máximo del ingreso",
+        "C": "El origen siempre",
+        "D": "La intersección de las rectas de costo e ingreso"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-9-07",
+      "pregunta": "Por debajo del equilibrio, cuando el ingreso es menor que el costo, hay:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.9",
+        "nombre": "Punto de equilibrio"
+      },
+      "respuestas_posibles": {
+        "A": "Equilibrio",
+        "B": "Utilidad máxima",
+        "C": "Pérdida",
+        "D": "Ganancia"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-9-08",
+      "pregunta": "Por encima del equilibrio, si el precio supera al costo variable unitario, hay:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.9",
+        "nombre": "Punto de equilibrio"
+      },
+      "respuestas_posibles": {
+        "A": "Costo nulo",
+        "B": "Ganancia",
+        "C": "Pérdida",
+        "D": "Equilibrio permanente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-9-09",
+      "pregunta": "Si el precio unitario es igual al costo variable unitario y hay costo fijo positivo:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.9",
+        "nombre": "Punto de equilibrio"
+      },
+      "respuestas_posibles": {
+        "A": "No se alcanza el equilibrio con una cantidad finita",
+        "B": "El equilibrio es cero",
+        "C": "Siempre hay ganancia",
+        "D": "El costo fijo desaparece"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-32-9-10",
+      "pregunta": "La cantidad de equilibrio para $C=C_f+c_vx$ e $I=px$ es:",
+      "tema": {
+        "codigo": "32",
+        "nombre": "Aplicaciones de la línea recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "32.9",
+        "nombre": "Punto de equilibrio"
+      },
+      "respuestas_posibles": {
+        "A": "$x=\\frac{p-c_v}{C_f}$",
+        "B": "$x=C_f(p-c_v)$",
+        "C": "$x=\\frac{C_f}{p+c_v}$",
+        "D": "$x=\\frac{C_f}{p-c_v}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar modelos lineales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

@@ -1,0 +1,2928 @@
+{
+  "metadata": {
+    "capitulo": "49",
+    "titulo": "Sucesiones y series",
+    "version": "6.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 11,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 110,
+    "secciones_incluidas": [
+      {
+        "codigo": "49.1",
+        "nombre": "Sucesiones"
+      },
+      {
+        "codigo": "49.2",
+        "nombre": "Sucesiones recursivas"
+      },
+      {
+        "codigo": "49.3",
+        "nombre": "Sucesiones aritméticas"
+      },
+      {
+        "codigo": "49.4",
+        "nombre": "Sucesiones geométricas"
+      },
+      {
+        "codigo": "49.5",
+        "nombre": "Aritmética o geométrica"
+      },
+      {
+        "codigo": "49.6",
+        "nombre": "Series finitas"
+      },
+      {
+        "codigo": "49.7",
+        "nombre": "Series geométricas infinitas"
+      },
+      {
+        "codigo": "49.8",
+        "nombre": "Sumas parciales"
+      },
+      {
+        "codigo": "49.9",
+        "nombre": "Notación sigma"
+      },
+      {
+        "codigo": "49.10",
+        "nombre": "Propiedades de las sumatorias"
+      },
+      {
+        "codigo": "49.11",
+        "nombre": "Aplicaciones de las sucesiones"
+      }
+    ],
+    "secciones_editoriales_omitidas": [
+      "49.12 Procedimiento rápido",
+      "49.13 Resumen",
+      "49.14 Errores frecuentes",
+      "49.15 Ejercicios propuestos"
+    ],
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_validado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-49-1-01",
+      "pregunta": "Si $a_n=2n+1$, calcule $a_5$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.1",
+        "nombre": "Sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$11$",
+        "B": "$9$",
+        "C": "$10$",
+        "D": "$13$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-1-02",
+      "pregunta": "Los primeros cuatro términos de $a_n=n^2$ son:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.1",
+        "nombre": "Sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$0,1,4,9$",
+        "B": "$1,2,3,4$",
+        "C": "$2,4,6,8$",
+        "D": "$1,4,9,16$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-1-03",
+      "pregunta": "Determine el término siguiente de $1,4,9,16,\\ldots$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.1",
+        "nombre": "Sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "$32$",
+        "C": "$25$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-1-04",
+      "pregunta": "Si $a_n=(-1)^n$, entonces $a_3=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.1",
+        "nombre": "Sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$-1$",
+        "C": "$1$",
+        "D": "$-3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-1-05",
+      "pregunta": "La expresión que asigna un valor a cada entero positivo $n$ define:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.1",
+        "nombre": "Sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "Una sucesión",
+        "B": "Una ecuación lineal",
+        "C": "Una variable nominal",
+        "D": "Un espacio muestral"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-1-06",
+      "pregunta": "En la sucesión $3,6,9,12,\\ldots$, $a_4=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.1",
+        "nombre": "Sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$15$",
+        "C": "$18$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-1-07",
+      "pregunta": "Si $a_n=\\frac1n$, el cuarto término es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.1",
+        "nombre": "Sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac13$",
+        "B": "$\\frac15$",
+        "C": "$\\frac14$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-1-08",
+      "pregunta": "¿Cuál sucesión es decreciente?",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.1",
+        "nombre": "Sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$5,5,5,5,\\ldots$",
+        "B": "$10,8,6,4,\\ldots$",
+        "C": "$1,3,5,7,\\ldots$",
+        "D": "$2,4,8,16,\\ldots$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-1-09",
+      "pregunta": "Una sucesión constante cumple:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.1",
+        "nombre": "Sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$a_n=c$ para todo $n$",
+        "B": "$a_n=n+c$",
+        "C": "$a_n=cn$",
+        "D": "$a_n=c^n$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-1-10",
+      "pregunta": "Si $a_n=3n-2$, ¿qué término vale $19$?",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.1",
+        "nombre": "Sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$a_6$",
+        "B": "$a_8$",
+        "C": "$a_9$",
+        "D": "$a_7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-2-01",
+      "pregunta": "Si $a_1=2$ y $a_n=a_{n-1}+3$, calcule $a_4$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.2",
+        "nombre": "Sucesiones recursivas"
+      },
+      "respuestas_posibles": {
+        "A": "$14$",
+        "B": "$17$",
+        "C": "$11$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sucesiones recursivas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-2-02",
+      "pregunta": "Si $a_1=5$ y $a_n=2a_{n-1}$, calcule $a_4$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.2",
+        "nombre": "Sucesiones recursivas"
+      },
+      "respuestas_posibles": {
+        "A": "$15$",
+        "B": "$40$",
+        "C": "$20$",
+        "D": "$80$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sucesiones recursivas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-2-03",
+      "pregunta": "Una definición recursiva necesita:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.2",
+        "nombre": "Sucesiones recursivas"
+      },
+      "respuestas_posibles": {
+        "A": "Uno o más términos iniciales y una regla de recurrencia",
+        "B": "Solo el término general",
+        "C": "Una gráfica",
+        "D": "Una suma infinita"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sucesiones recursivas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-2-04",
+      "pregunta": "Si $a_1=1$, $a_2=1$ y $a_n=a_{n-1}+a_{n-2}$, entonces $a_6=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.2",
+        "nombre": "Sucesiones recursivas"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$13$",
+        "C": "$6$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sucesiones recursivas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-2-05",
+      "pregunta": "Si $a_1=10$ y $a_n=a_{n-1}-2$, los primeros tres términos son:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.2",
+        "nombre": "Sucesiones recursivas"
+      },
+      "respuestas_posibles": {
+        "A": "$8,6,4$",
+        "B": "$10,20,40$",
+        "C": "$10,8,6$",
+        "D": "$10,12,14$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sucesiones recursivas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-2-06",
+      "pregunta": "Si $a_1=3$ y $a_n=a_{n-1}+n$, calcule $a_3$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.2",
+        "nombre": "Sucesiones recursivas"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$8$",
+        "C": "$6$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sucesiones recursivas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-2-07",
+      "pregunta": "La regla $a_n=4a_{n-1}$ genera una sucesión:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.2",
+        "nombre": "Sucesiones recursivas"
+      },
+      "respuestas_posibles": {
+        "A": "Geométrica de razón $4$",
+        "B": "Aritmética de diferencia $4$",
+        "C": "Constante",
+        "D": "Alternante necesariamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sucesiones recursivas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-2-08",
+      "pregunta": "La regla $a_n=a_{n-1}+7$ genera una sucesión:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.2",
+        "nombre": "Sucesiones recursivas"
+      },
+      "respuestas_posibles": {
+        "A": "Geométrica de razón $7$",
+        "B": "Constante",
+        "C": "Cuadrática",
+        "D": "Aritmética de diferencia $7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sucesiones recursivas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-2-09",
+      "pregunta": "Si $a_1=2$ y $a_n=-a_{n-1}$, el cuarto término es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.2",
+        "nombre": "Sucesiones recursivas"
+      },
+      "respuestas_posibles": {
+        "A": "$-8$",
+        "B": "$0$",
+        "C": "$-2$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sucesiones recursivas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-2-10",
+      "pregunta": "Para calcular $a_n$ recursivamente suele requerirse:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.2",
+        "nombre": "Sucesiones recursivas"
+      },
+      "respuestas_posibles": {
+        "A": "Ordenar datos",
+        "B": "Conocer términos anteriores",
+        "C": "Conocer solo $n$",
+        "D": "Calcular una integral"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sucesiones recursivas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-3-01",
+      "pregunta": "En $5,8,11,14,\\ldots$, la diferencia común es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.3",
+        "nombre": "Sucesiones aritméticas"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$5$",
+        "C": "$8$",
+        "D": "$-3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sucesiones aritméticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-3-02",
+      "pregunta": "El término general de una sucesión aritmética es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.3",
+        "nombre": "Sucesiones aritméticas"
+      },
+      "respuestas_posibles": {
+        "A": "$a_n=a_1r^{n-1}$",
+        "B": "$a_n=nd$",
+        "C": "$a_n=a_1+d^n$",
+        "D": "$a_n=a_1+(n-1)d$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sucesiones aritméticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-3-03",
+      "pregunta": "Si $a_1=4$ y $d=5$, calcule $a_{10}$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.3",
+        "nombre": "Sucesiones aritméticas"
+      },
+      "respuestas_posibles": {
+        "A": "$50$",
+        "B": "$54$",
+        "C": "$49$",
+        "D": "$45$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sucesiones aritméticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-3-04",
+      "pregunta": "Determine el término general de $7,10,13,16,\\ldots$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.3",
+        "nombre": "Sucesiones aritméticas"
+      },
+      "respuestas_posibles": {
+        "A": "$a_n=4n+3$",
+        "B": "$a_n=3n+4$",
+        "C": "$a_n=3n+7$",
+        "D": "$a_n=7n+3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sucesiones aritméticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-3-05",
+      "pregunta": "En una sucesión aritmética, $a_3=9$ y $d=4$. Entonces $a_1=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.3",
+        "nombre": "Sucesiones aritméticas"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$5$",
+        "C": "$13$",
+        "D": "$17$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sucesiones aritméticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-3-06",
+      "pregunta": "La suma de los primeros $n$ términos aritméticos es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.3",
+        "nombre": "Sucesiones aritméticas"
+      },
+      "respuestas_posibles": {
+        "A": "$S_n=a_1r^{n-1}$",
+        "B": "$S_n=na_n$",
+        "C": "$S_n=\\frac{a_1}{1-r}$",
+        "D": "$S_n=\\frac n2(a_1+a_n)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sucesiones aritméticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-3-07",
+      "pregunta": "Calcule $1+2+3+\\cdots+20$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.3",
+        "nombre": "Sucesiones aritméticas"
+      },
+      "respuestas_posibles": {
+        "A": "$190$",
+        "B": "$420$",
+        "C": "$210$",
+        "D": "$200$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sucesiones aritméticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-3-08",
+      "pregunta": "Calcule la suma de los primeros $10$ términos de $2,5,8,\\ldots$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.3",
+        "nombre": "Sucesiones aritméticas"
+      },
+      "respuestas_posibles": {
+        "A": "$30$",
+        "B": "$155$",
+        "C": "$145$",
+        "D": "$290$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sucesiones aritméticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-3-09",
+      "pregunta": "Si $a_1=12$, $d=-2$ y $n=6$, entonces $a_6=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.3",
+        "nombre": "Sucesiones aritméticas"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$0$",
+        "C": "$4$",
+        "D": "$22$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sucesiones aritméticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-3-10",
+      "pregunta": "Una sucesión aritmética se reconoce porque:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.3",
+        "nombre": "Sucesiones aritméticas"
+      },
+      "respuestas_posibles": {
+        "A": "El cociente es constante",
+        "B": "Todos los términos son positivos",
+        "C": "La suma es infinita",
+        "D": "La diferencia entre términos consecutivos es constante"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sucesiones aritméticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-4-01",
+      "pregunta": "En $3,6,12,24,\\ldots$, la razón común es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.4",
+        "nombre": "Sucesiones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$-2$",
+        "C": "$2$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sucesiones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-4-02",
+      "pregunta": "El término general geométrico es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.4",
+        "nombre": "Sucesiones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$a_n=a_1+r^{n}$",
+        "B": "$a_n=a_1r^{n-1}$",
+        "C": "$a_n=a_1+(n-1)d$",
+        "D": "$a_n=nr$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sucesiones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-4-03",
+      "pregunta": "Si $a_1=5$ y $r=3$, calcule $a_5$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.4",
+        "nombre": "Sucesiones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$405$",
+        "B": "$135$",
+        "C": "$625$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sucesiones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-4-04",
+      "pregunta": "Determine el término general de $2,6,18,54,\\ldots$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.4",
+        "nombre": "Sucesiones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$a_n=2+3(n-1)$",
+        "B": "$a_n=3\\cdot2^{n-1}$",
+        "C": "$a_n=6n$",
+        "D": "$a_n=2\\cdot3^{n-1}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sucesiones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-4-05",
+      "pregunta": "Si $a_3=20$ y $r=2$, entonces $a_1=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.4",
+        "nombre": "Sucesiones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$40$",
+        "B": "$80$",
+        "C": "$5$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sucesiones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-4-06",
+      "pregunta": "La suma de los primeros $n$ términos geométricos, $r\\ne1$, es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.4",
+        "nombre": "Sucesiones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$S_n=na_1$",
+        "B": "$S_n=a_1\\frac{1-r^n}{1-r}$",
+        "C": "$S_n=\\frac n2(a_1+a_n)$",
+        "D": "$S_n=a_1r^{n-1}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sucesiones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-4-07",
+      "pregunta": "Calcule $1+2+4+8+16$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.4",
+        "nombre": "Sucesiones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$31$",
+        "B": "$30$",
+        "C": "$32$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sucesiones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-4-08",
+      "pregunta": "La suma de los primeros $6$ términos de $3,6,12,\\ldots$ es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.4",
+        "nombre": "Sucesiones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$96$",
+        "B": "$192$",
+        "C": "$63$",
+        "D": "$189$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sucesiones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-4-09",
+      "pregunta": "Si $a_1=81$ y $r=\\frac13$, entonces $a_5=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.4",
+        "nombre": "Sucesiones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$27$",
+        "C": "$1$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sucesiones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-4-10",
+      "pregunta": "Una sucesión geométrica se reconoce porque:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.4",
+        "nombre": "Sucesiones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "El primer término es uno",
+        "B": "El cociente entre términos consecutivos es constante",
+        "C": "La diferencia es constante",
+        "D": "Todos los términos crecen"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sucesiones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-5-01",
+      "pregunta": "La sucesión $4,9,14,19,\\ldots$ es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.5",
+        "nombre": "Aritmética o geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Aritmética",
+        "B": "Geométrica",
+        "C": "Constante",
+        "D": "Ninguna"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aritmética o geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-5-02",
+      "pregunta": "La sucesión $5,15,45,135,\\ldots$ es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.5",
+        "nombre": "Aritmética o geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Aritmética",
+        "B": "Constante",
+        "C": "Ninguna",
+        "D": "Geométrica"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aritmética o geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-5-03",
+      "pregunta": "La sucesión $1,4,9,16,\\ldots$ es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.5",
+        "nombre": "Aritmética o geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Geométrica",
+        "B": "Constante",
+        "C": "Ni aritmética ni geométrica",
+        "D": "Aritmética"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aritmética o geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-5-04",
+      "pregunta": "En una aritmética se mantiene constante:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.5",
+        "nombre": "Aritmética o geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "La suma total",
+        "B": "La diferencia",
+        "C": "La razón",
+        "D": "El producto"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aritmética o geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-5-05",
+      "pregunta": "En una geométrica se mantiene constante:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.5",
+        "nombre": "Aritmética o geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "La razón",
+        "B": "La diferencia",
+        "C": "La mediana",
+        "D": "El rango"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aritmética o geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-5-06",
+      "pregunta": "La sucesión $8,8,8,8,\\ldots$ puede considerarse:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.5",
+        "nombre": "Aritmética o geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Solo aritmética",
+        "B": "Solo geométrica",
+        "C": "Ninguna",
+        "D": "Aritmética con $d=0$ y geométrica con $r=1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aritmética o geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-5-07",
+      "pregunta": "La sucesión $2,-4,8,-16,\\ldots$ es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.5",
+        "nombre": "Aritmética o geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Geométrica con $r=2$",
+        "B": "Ninguna",
+        "C": "Geométrica con $r=-2$",
+        "D": "Aritmética con $d=-6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aritmética o geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-5-08",
+      "pregunta": "La sucesión $20,17,14,11,\\ldots$ es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.5",
+        "nombre": "Aritmética o geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Geométrica con $r=3$",
+        "B": "Aritmética con $d=-3$",
+        "C": "Geométrica con $r=-3$",
+        "D": "Aritmética con $d=3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aritmética o geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-5-09",
+      "pregunta": "Para clasificar $3,6,12,24$ conviene calcular:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.5",
+        "nombre": "Aritmética o geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Cocientes consecutivos",
+        "B": "Solo la suma",
+        "C": "La mediana",
+        "D": "La varianza"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aritmética o geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-5-10",
+      "pregunta": "Para clasificar $11,15,19,23$ conviene calcular:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.5",
+        "nombre": "Aritmética o geométrica"
+      },
+      "respuestas_posibles": {
+        "A": "Productos consecutivos",
+        "B": "Raíces",
+        "C": "Percentiles",
+        "D": "Diferencias consecutivas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aritmética o geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-6-01",
+      "pregunta": "Una serie finita es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.6",
+        "nombre": "Series finitas"
+      },
+      "respuestas_posibles": {
+        "A": "Una suma con infinitos términos",
+        "B": "Una ecuación recursiva",
+        "C": "La suma de un número finito de términos de una sucesión",
+        "D": "Una sucesión sin suma"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "series finitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-6-02",
+      "pregunta": "Calcule $2+4+6+8$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.6",
+        "nombre": "Series finitas"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$20$",
+        "C": "$16$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "series finitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-6-03",
+      "pregunta": "Calcule $3+6+9+12+15$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.6",
+        "nombre": "Series finitas"
+      },
+      "respuestas_posibles": {
+        "A": "$45$",
+        "B": "$42$",
+        "C": "$48$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "series finitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-6-04",
+      "pregunta": "La serie asociada a $a_n=n^2$ para $n=1$ a $4$ suma:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.6",
+        "nombre": "Series finitas"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$10$",
+        "C": "$25$",
+        "D": "$30$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "series finitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-6-05",
+      "pregunta": "Calcule $1+3+9+27$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.6",
+        "nombre": "Series finitas"
+      },
+      "respuestas_posibles": {
+        "A": "$41$",
+        "B": "$81$",
+        "C": "$40$",
+        "D": "$39$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "series finitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-6-06",
+      "pregunta": "Una serie finita geométrica con $a_1=2$, $r=2$ y $n=5$ suma:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.6",
+        "nombre": "Series finitas"
+      },
+      "respuestas_posibles": {
+        "A": "$30$",
+        "B": "$62$",
+        "C": "$32$",
+        "D": "$64$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "series finitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-6-07",
+      "pregunta": "La suma $5+10+15+\\cdots+50$ vale:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.6",
+        "nombre": "Series finitas"
+      },
+      "respuestas_posibles": {
+        "A": "$275$",
+        "B": "$250$",
+        "C": "$500$",
+        "D": "$55$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "series finitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-6-08",
+      "pregunta": "Si $S_n$ representa una serie finita, entonces:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.6",
+        "nombre": "Series finitas"
+      },
+      "respuestas_posibles": {
+        "A": "$S_n=a_n$",
+        "B": "$S_n=a_1a_n$",
+        "C": "$S_n=n!$",
+        "D": "$S_n=a_1+a_2+\\cdots+a_n$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "series finitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-6-09",
+      "pregunta": "Calcule $10+7+4+1$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.6",
+        "nombre": "Series finitas"
+      },
+      "respuestas_posibles": {
+        "A": "$18$",
+        "B": "$4$",
+        "C": "$22$",
+        "D": "$28$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "series finitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-6-10",
+      "pregunta": "La cantidad de sumandos en $a_3+a_4+\\cdots+a_{12}$ es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.6",
+        "nombre": "Series finitas"
+      },
+      "respuestas_posibles": {
+        "A": "$15$",
+        "B": "$10$",
+        "C": "$9$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "series finitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-7-01",
+      "pregunta": "Una serie geométrica infinita converge si:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.7",
+        "nombre": "Series geométricas infinitas"
+      },
+      "respuestas_posibles": {
+        "A": "$|r|<1$",
+        "B": "$|r|>1$",
+        "C": "$r=2$",
+        "D": "$r$ es entero"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "series geométricas infinitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-7-02",
+      "pregunta": "La suma de una serie geométrica infinita convergente es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.7",
+        "nombre": "Series geométricas infinitas"
+      },
+      "respuestas_posibles": {
+        "A": "$S=\\frac{a_1}{r-1}$",
+        "B": "$S=a_1r$",
+        "C": "$S=\\frac n2(a_1+a_n)$",
+        "D": "$S=\\frac{a_1}{1-r}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "series geométricas infinitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-7-03",
+      "pregunta": "Calcule $1+\\frac12+\\frac14+\\cdots$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.7",
+        "nombre": "Series geométricas infinitas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac32$",
+        "B": "No converge",
+        "C": "$2$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "series geométricas infinitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-7-04",
+      "pregunta": "Calcule $3+1+\\frac13+\\cdots$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.7",
+        "nombre": "Series geométricas infinitas"
+      },
+      "respuestas_posibles": {
+        "A": "No converge",
+        "B": "$\\frac92$",
+        "C": "$4$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "series geométricas infinitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-7-05",
+      "pregunta": "La serie $1+2+4+8+\\cdots$:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.7",
+        "nombre": "Series geométricas infinitas"
+      },
+      "respuestas_posibles": {
+        "A": "Diverge",
+        "B": "Converge a $2$",
+        "C": "Converge a $1$",
+        "D": "Converge a $-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "series geométricas infinitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-7-06",
+      "pregunta": "La serie $5-2.5+1.25-\\cdots$ suma:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.7",
+        "nombre": "Series geométricas infinitas"
+      },
+      "respuestas_posibles": {
+        "A": "$2.5$",
+        "B": "$5$",
+        "C": "No converge",
+        "D": "$\\frac{10}{3}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "series geométricas infinitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-7-07",
+      "pregunta": "Si $a_1=8$ y $r=\\frac14$, la suma infinita es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.7",
+        "nombre": "Series geométricas infinitas"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$32$",
+        "C": "$\\frac{32}{3}$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "series geométricas infinitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-7-08",
+      "pregunta": "La serie con $r=-1$:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.7",
+        "nombre": "Series geométricas infinitas"
+      },
+      "respuestas_posibles": {
+        "A": "Converge a $1$",
+        "B": "No converge en el sentido usual",
+        "C": "Converge a $\\frac12$",
+        "D": "Converge a $0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "series geométricas infinitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-7-09",
+      "pregunta": "Calcule $0.6+0.06+0.006+\\cdots$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.7",
+        "nombre": "Series geométricas infinitas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac23$",
+        "B": "$0.66$",
+        "C": "$6$",
+        "D": "$\\frac35$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "series geométricas infinitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-7-10",
+      "pregunta": "Una serie convergente tiene sumas parciales que:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.7",
+        "nombre": "Series geométricas infinitas"
+      },
+      "respuestas_posibles": {
+        "A": "Crecen siempre sin límite",
+        "B": "Son constantes desde el inicio",
+        "C": "Alternan sin aproximarse",
+        "D": "Se aproximan a un límite finito"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "series geométricas infinitas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-8-01",
+      "pregunta": "La suma parcial $S_n$ es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.8",
+        "nombre": "Sumas parciales"
+      },
+      "respuestas_posibles": {
+        "A": "La razón común",
+        "B": "El límite siempre",
+        "C": "La suma de los primeros $n$ términos",
+        "D": "El término $a_n$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sumas parciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-8-02",
+      "pregunta": "Para $a_n=n$, calcule $S_4$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.8",
+        "nombre": "Sumas parciales"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$10$",
+        "C": "$4$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sumas parciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-8-03",
+      "pregunta": "Para $a_n=2^n$ con $n\\ge1$, calcule $S_3$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.8",
+        "nombre": "Sumas parciales"
+      },
+      "respuestas_posibles": {
+        "A": "$14$",
+        "B": "$8$",
+        "C": "$12$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sumas parciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-8-04",
+      "pregunta": "Si $a_n=3$ para todo $n$, entonces $S_5=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.8",
+        "nombre": "Sumas parciales"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$5$",
+        "C": "$8$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sumas parciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-8-05",
+      "pregunta": "Las sumas parciales de $1+\\frac12+\\frac14+\\cdots$ se aproximan a:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.8",
+        "nombre": "Sumas parciales"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "Infinito",
+        "C": "$2$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sumas parciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-8-06",
+      "pregunta": "Si $S_n=\\frac{n(n+1)}2$, entonces $S_6=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.8",
+        "nombre": "Sumas parciales"
+      },
+      "respuestas_posibles": {
+        "A": "$42$",
+        "B": "$21$",
+        "C": "$18$",
+        "D": "$36$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sumas parciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-8-07",
+      "pregunta": "La relación entre términos y sumas parciales es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.8",
+        "nombre": "Sumas parciales"
+      },
+      "respuestas_posibles": {
+        "A": "$a_n=S_n-S_{n-1}$",
+        "B": "$a_n=S_n+S_{n-1}$",
+        "C": "$a_n=S_nS_{n-1}$",
+        "D": "$a_n=S_n/n$ siempre"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sumas parciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-8-08",
+      "pregunta": "Si $S_4=20$ y $S_3=13$, entonces $a_4=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.8",
+        "nombre": "Sumas parciales"
+      },
+      "respuestas_posibles": {
+        "A": "$33$",
+        "B": "$20$",
+        "C": "$13$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sumas parciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-8-09",
+      "pregunta": "Una serie converge cuando la sucesión $S_n$:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.8",
+        "nombre": "Sumas parciales"
+      },
+      "respuestas_posibles": {
+        "A": "Es necesariamente aritmética",
+        "B": "Tiene razón mayor que uno",
+        "C": "Tiene límite finito",
+        "D": "No está definida"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sumas parciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-8-10",
+      "pregunta": "Para la serie $2+4+6+\\cdots$, $S_5=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.8",
+        "nombre": "Sumas parciales"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$30$",
+        "C": "$20$",
+        "D": "$25$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sumas parciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-9-01",
+      "pregunta": "Escriba $1+2+3+4+5$ en notación sigma.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.9",
+        "nombre": "Notación sigma"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sum_{k=1}^{5}k$",
+        "B": "$\\sum_{k=0}^{5}k$",
+        "C": "$\\sum_{k=1}^{4}k$",
+        "D": "$\\sum_{k=1}^{5}5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "notación sigma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-9-02",
+      "pregunta": "Evalúe $\\sum_{k=1}^{4}k$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.9",
+        "nombre": "Notación sigma"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$6$",
+        "C": "$16$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "notación sigma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-9-03",
+      "pregunta": "Evalúe $\\sum_{k=1}^{5}2$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.9",
+        "nombre": "Notación sigma"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$20$",
+        "C": "$10$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "notación sigma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-9-04",
+      "pregunta": "Evalúe $\\sum_{k=1}^{3}k^2$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.9",
+        "nombre": "Notación sigma"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$14$",
+        "C": "$9$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "notación sigma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-9-05",
+      "pregunta": "La expresión $2+4+6+8$ puede escribirse:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.9",
+        "nombre": "Notación sigma"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sum_{k=1}^{4}2k$",
+        "B": "$\\sum_{k=1}^{4}k$",
+        "C": "$\\sum_{k=0}^{4}2k$",
+        "D": "$\\sum_{k=1}^{8}2k$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "notación sigma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-9-06",
+      "pregunta": "En $\\sum_{i=2}^{6}a_i$, el índice toma:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.9",
+        "nombre": "Notación sigma"
+      },
+      "respuestas_posibles": {
+        "A": "$1,2,3,4,5,6$",
+        "B": "$2,6$ únicamente",
+        "C": "$3,4,5$",
+        "D": "$2,3,4,5,6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "notación sigma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-9-07",
+      "pregunta": "¿Cuántos términos contiene $\\sum_{k=4}^{12}f(k)$?",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.9",
+        "nombre": "Notación sigma"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$16$",
+        "C": "$9$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "notación sigma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-9-08",
+      "pregunta": "Evalúe $\\sum_{j=0}^{3}2^j$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.9",
+        "nombre": "Notación sigma"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$15$",
+        "C": "$8$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "notación sigma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-9-09",
+      "pregunta": "La letra usada como índice de suma:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.9",
+        "nombre": "Notación sigma"
+      },
+      "respuestas_posibles": {
+        "A": "Puede cambiarse sin alterar el valor si no causa confusión",
+        "B": "Debe ser siempre $k$",
+        "C": "Determina la respuesta por sí sola",
+        "D": "Es una constante fija"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "notación sigma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-9-10",
+      "pregunta": "Escriba $3+6+9+12$ como sumatoria.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.9",
+        "nombre": "Notación sigma"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sum_{n=0}^{4}3n$",
+        "B": "$\\sum_{n=1}^{3}3n$",
+        "C": "$\\sum_{n=1}^{4}n$",
+        "D": "$\\sum_{n=1}^{4}3n$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "notación sigma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-10-01",
+      "pregunta": "La propiedad lineal establece:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.10",
+        "nombre": "Propiedades de las sumatorias"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sum(ca_k)=\\sum a_k/c$",
+        "B": "$\\sum(ca_k)=c^n$",
+        "C": "$\\sum(ca_k)=c\\sum a_k$",
+        "D": "$\\sum(ca_k)=c+\\sum a_k$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "propiedades de las sumatorias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-10-02",
+      "pregunta": "Para sumas del mismo intervalo:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.10",
+        "nombre": "Propiedades de las sumatorias"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sum(a_k+b_k)=a_n+b_n$",
+        "B": "$\\sum(a_k+b_k)=\\sum a_k+\\sum b_k$",
+        "C": "$\\sum(a_k+b_k)=\\sum a_k\\sum b_k$",
+        "D": "$\\sum(a_k+b_k)=0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "propiedades de las sumatorias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-10-03",
+      "pregunta": "Evalúe $\\sum_{k=1}^{5}3k$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.10",
+        "nombre": "Propiedades de las sumatorias"
+      },
+      "respuestas_posibles": {
+        "A": "$45$",
+        "B": "$15$",
+        "C": "$30$",
+        "D": "$75$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "propiedades de las sumatorias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-10-04",
+      "pregunta": "Evalúe $\\sum_{k=1}^{4}(k+2)$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.10",
+        "nombre": "Propiedades de las sumatorias"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$12$",
+        "C": "$20$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "propiedades de las sumatorias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-10-05",
+      "pregunta": "Si $\\sum a_k=8$ y $\\sum b_k=5$, entonces $\\sum(2a_k-b_k)=$",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.10",
+        "nombre": "Propiedades de las sumatorias"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$16$",
+        "C": "$11$",
+        "D": "$21$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "propiedades de las sumatorias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-10-06",
+      "pregunta": "La suma de una constante $c$ desde $k=1$ hasta $n$ es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.10",
+        "nombre": "Propiedades de las sumatorias"
+      },
+      "respuestas_posibles": {
+        "A": "$c^n$",
+        "B": "$nc$",
+        "C": "$c$",
+        "D": "$n+c$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "propiedades de las sumatorias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-10-07",
+      "pregunta": "Separar una sumatoria es válido para:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.10",
+        "nombre": "Propiedades de las sumatorias"
+      },
+      "respuestas_posibles": {
+        "A": "Sumas y diferencias",
+        "B": "Productos en general",
+        "C": "$\\sum a_kb_k=\\sum a_k\\sum b_k$ siempre",
+        "D": "Cocientes siempre"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "propiedades de las sumatorias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-10-08",
+      "pregunta": "Cambiar el nombre del índice de $k$ a $j$:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.10",
+        "nombre": "Propiedades de las sumatorias"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplica la suma",
+        "B": "Cambia límites",
+        "C": "Invierte signos",
+        "D": "No cambia la suma"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "propiedades de las sumatorias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-10-09",
+      "pregunta": "Evalúe $\\sum_{k=1}^{3}(2k-1)$.",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.10",
+        "nombre": "Propiedades de las sumatorias"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$3$",
+        "C": "$9$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "propiedades de las sumatorias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-10-10",
+      "pregunta": "Si se divide el intervalo en un punto $m$, entonces:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.10",
+        "nombre": "Propiedades de las sumatorias"
+      },
+      "respuestas_posibles": {
+        "A": "Se pierden los extremos",
+        "B": "$\\sum_{k=a}^{b}a_k=\\sum_{k=a}^{m}a_k+\\sum_{k=m+1}^{b}a_k$",
+        "C": "Se resta la segunda suma",
+        "D": "Se multiplican las sumas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "propiedades de las sumatorias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-11-01",
+      "pregunta": "Una persona ahorra $200$ pesos el primer mes y aumenta $50$ cada mes. El ahorro mensual sigue crecimiento:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.11",
+        "nombre": "Aplicaciones de las sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "Aritmético",
+        "B": "Geométrico",
+        "C": "Constante",
+        "D": "Aleatorio"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicaciones de las sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-11-02",
+      "pregunta": "En el caso anterior, el ahorro del sexto mes es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.11",
+        "nombre": "Aplicaciones de las sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$300$ pesos",
+        "B": "$500$ pesos",
+        "C": "$1{,}200$ pesos",
+        "D": "$450$ pesos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicaciones de las sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-11-03",
+      "pregunta": "Una población de bacterias se duplica cada hora. El crecimiento es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.11",
+        "nombre": "Aplicaciones de las sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "Lineal decreciente",
+        "B": "Constante",
+        "C": "Geométrico",
+        "D": "Aritmético"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "aplicaciones de las sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-11-04",
+      "pregunta": "Si inicialmente hay $500$ bacterias y se duplican cada hora, después de $4$ horas hay:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.11",
+        "nombre": "Aplicaciones de las sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$16{,}000$",
+        "B": "$8{,}000$",
+        "C": "$2{,}000$",
+        "D": "$4{,}000$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicaciones de las sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-11-05",
+      "pregunta": "Un teatro tiene $20$ asientos en la primera fila y agrega $4$ por fila. La fila $15$ tiene:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.11",
+        "nombre": "Aplicaciones de las sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$76$ asientos",
+        "B": "$80$ asientos",
+        "C": "$60$ asientos",
+        "D": "$56$ asientos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicaciones de las sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-11-06",
+      "pregunta": "Una pelota rebota al $60\\%$ de la altura anterior. Las alturas forman una sucesión:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.11",
+        "nombre": "Aplicaciones de las sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "Aritmética de diferencia $0.6$",
+        "B": "Constante",
+        "C": "Geométrica de razón $1.6$",
+        "D": "Geométrica de razón $0.6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicaciones de las sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-11-07",
+      "pregunta": "Un salario aumenta $300$ pesos cada año. El modelo es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.11",
+        "nombre": "Aplicaciones de las sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "Decrecimiento exponencial",
+        "B": "Serie infinita",
+        "C": "Crecimiento lineal",
+        "D": "Crecimiento geométrico"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "aplicaciones de las sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-11-08",
+      "pregunta": "Una inversión aumenta $5\\%$ cada periodo. El factor multiplicativo es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.11",
+        "nombre": "Aplicaciones de las sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$1.05$",
+        "C": "$0.05$",
+        "D": "$1.5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicaciones de las sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-11-09",
+      "pregunta": "Un cultivo inicia con $100$ plantas y aumenta $20$ por semana. Después de $8$ semanas hay:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.11",
+        "nombre": "Aplicaciones de las sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "$260$ plantas",
+        "B": "$240$ plantas",
+        "C": "$280$ plantas",
+        "D": "$1{,}600$ plantas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicaciones de las sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-49-11-10",
+      "pregunta": "Para decidir entre modelo lineal y geométrico se identifica si el cambio es:",
+      "tema": {
+        "codigo": "49",
+        "nombre": "Sucesiones y series",
+        "bloque": "Álgebra y precálculo"
+      },
+      "subtema": {
+        "codigo": "49.11",
+        "nombre": "Aplicaciones de las sucesiones"
+      },
+      "respuestas_posibles": {
+        "A": "Positivo o negativo únicamente",
+        "B": "Finito o infinito",
+        "C": "Par o impar",
+        "D": "Una cantidad fija o un factor fijo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicaciones de las sucesiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

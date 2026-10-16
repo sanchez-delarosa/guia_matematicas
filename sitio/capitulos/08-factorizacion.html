@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>8. Factorización · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte II: Álgebra</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#factor-comun"><span class="num">8.1</span> Factor común</a></li><li class="nivel-2"><a href="#diferencia-de-cuadrados"><span class="num">8.2</span> Diferencia de cuadrados</a></li><li class="nivel-2"><a href="#trinomio-cuadrado-perfecto"><span class="num">8.3</span> Trinomio cuadrado perfecto</a></li><li class="nivel-2"><a href="#trinomio-de-la-forma"><span class="num">8.4</span> Trinomio de la forma</a></li><li class="nivel-2"><a href="#trinomio-de-la-forma-2"><span class="num">8.5</span> Trinomio de la forma</a></li><li class="nivel-2"><a href="#suma-y-diferencia-de-cubos"><span class="num">8.6</span> Suma y diferencia de cubos</a></li><li class="nivel-2"><a href="#teoremas-del-residuo-y-del-factor"><span class="num">8.7</span> Teoremas del residuo y del factor</a></li><li class="nivel-2"><a href="#estrategia-general-de-factorizacion"><span class="num">8.8</span> Estrategia general de factorización</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">8.9</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 8</p><h1>Factorización</h1></header>
+<p><span id="cap-factorizacion" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Factorizar una expresión algebraica consiste en escribirla como un producto de factores más sencillos. Este proceso es inverso al desarrollo de productos y permite simplificar fracciones algebraicas, resolver ecuaciones y encontrar los ceros de un polinomio. En este capítulo estudiarás los principales procedimientos de factorización y aprenderás a identificar cuál debe aplicarse en cada caso.</p>
+<h2 id="factor-comun"><span class="num">8.1</span> Factor común<a class="enlace-seccion" href="#factor-comun" aria-label="Enlace a esta sección">#</a></h2>
+<p>Antes de aplicar cualquier otro método de factorización, conviene verificar si todos los términos de la expresión tienen un factor común.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Factor común monomio</div><div class="caja-cuerpo"><p>Si todos los términos de un polinomio contienen un mismo factor, este puede extraerse mediante la propiedad distributiva:</p>
+<div class="mate"><span class="mate-bloque">\[ab+ac = a(b+c).\]</span></div>
+<p>Para obtener el máximo factor común de varios monomios:</p>
+<ul><li>se calcula el máximo común divisor de sus coeficientes;</li><li>se identifican las variables presentes en todos los términos;</li><li>para cada variable común, se toma el menor exponente.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-1"><div class="caja-titulo">Ejemplo 8.1</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[3x^2+6x.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El máximo común divisor de \(3\) y \(6\) es \(3\). La variable \(x\) aparece en ambos términos y su menor exponente es \(1\). Por tanto, el máximo factor común es \(3x\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x^2+6x &amp;=3x(x)+3x(2)\\ &amp;=3x(x+2). \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-2"><div class="caja-titulo">Ejemplo 8.2</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[24m^3+16m^2-4m.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El máximo común divisor de \(24\), \(16\) y \(4\) es \(4\). La variable \(m\) aparece en todos los términos y su menor exponente es \(1\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 24m^3+16m^2-4m &amp;=4m(6m^2+4m-1). \end{aligned}\]</span></div>
+<p>El polinomio que permanece entre paréntesis no tiene otro factor común distinto de \(1\).</p></div></details></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Factor común por agrupación</div><div class="caja-cuerpo"><p>La factorización por agrupación se utiliza cuando no existe un factor común a todos los términos, pero estos pueden organizarse en grupos que produzcan un mismo factor binomial.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} ax+ay+bx+by &amp;=a(x+y)+b(x+y)\\ &amp;=(a+b)(x+y). \end{aligned}\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-3"><div class="caja-titulo">Ejemplo 8.3</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[m^2+mp+mx+px.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Agrupamos los dos primeros términos y los dos últimos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} m^2+mp+mx+px &amp;=(m^2+mp)+(mx+px)\\ &amp;=m(m+p)+x(m+p). \end{aligned}\]</span></div>
+<p>Los dos grupos contienen el factor común \(m+p\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[m^2+mp+mx+px = (m+p)(m+x).\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-4"><div class="caja-titulo">Ejemplo 8.4</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[7x-1-7xy+y.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Reordenamos y agrupamos los términos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 7x-1-7xy+y &amp;=(7x-7xy)+(-1+y)\\ &amp;=7x(1-y)-(1-y). \end{aligned}\]</span></div>
+<p>Extraemos el factor común \(1-y\):</p>
+<div class="mate"><span class="mate-bloque">\[7x-1-7xy+y = (1-y)(7x-1).\]</span></div></div></details></div></section>
+<h2 id="diferencia-de-cuadrados"><span class="num">8.2</span> Diferencia de cuadrados<a class="enlace-seccion" href="#diferencia-de-cuadrados" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Diferencia de cuadrados</div><div class="caja-cuerpo"><p>Una diferencia de cuadrados se factoriza como el producto de dos binomios conjugados:</p>
+<div class="mate"><span class="mate-bloque">\[a^2-b^2 = (a+b)(a-b).\]</span></div>
+<p>Para aplicar esta identidad, ambos términos deben ser cuadrados perfectos y deben estar separados por un signo negativo.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-5"><div class="caja-titulo">Ejemplo 8.5</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[4x^2-9.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Expresamos cada término como un cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[4x^2=(2x)^2, \qquad 9=3^2.\]</span></div>
+<p>Aplicamos la diferencia de cuadrados:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 4x^2-9 &amp;=(2x)^2-3^2\\ &amp;=(2x+3)(2x-3). \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-6"><div class="caja-titulo">Ejemplo 8.6</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[m^2-\frac{n^2}{4}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Observamos que:</p>
+<div class="mate"><span class="mate-bloque">\[m^2=(m)^2, \qquad \frac{n^2}{4} = \left(\frac{n}{2}\right)^2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[m^2-\frac{n^2}{4} = \left(m+\frac{n}{2}\right) \left(m-\frac{n}{2}\right).\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La identidad de diferencia de cuadrados no se aplica a una suma:</p>
+<div class="mate"><span class="mate-bloque">\[a^2+b^2 \neq (a+b)(a-b).\]</span></div>
+<p>En general, una suma de cuadrados no puede factorizarse como producto de polinomios con coeficientes reales. En los números complejos sí puede escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[a^2+b^2 = (a+bi)(a-bi).\]</span></div></div></section>
+<h2 id="trinomio-cuadrado-perfecto"><span class="num">8.3</span> Trinomio cuadrado perfecto<a class="enlace-seccion" href="#trinomio-cuadrado-perfecto" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Trinomio cuadrado perfecto</div><div class="caja-cuerpo"><p>Un trinomio cuadrado perfecto tiene alguna de las siguientes formas:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} a^2+2ab+b^2 &amp;=(a+b)^2,\\ a^2-2ab+b^2 &amp;=(a-b)^2. \end{aligned}\]</span></div>
+<p>Para identificarlo, deben cumplirse tres condiciones:</p>
+<ul><li>el primer término es un cuadrado perfecto;</li><li>el tercer término es un cuadrado perfecto;</li><li>el término central es el doble producto de las raíces cuadradas de los términos extremos, con el signo correspondiente.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-7"><div class="caja-titulo">Ejemplo 8.7</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[m^2+12m+36.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los términos extremos son cuadrados perfectos:</p>
+<div class="mate"><span class="mate-bloque">\[m^2=(m)^2, \qquad 36=6^2.\]</span></div>
+<p>El doble producto de sus raíces es:</p>
+<div class="mate"><span class="mate-bloque">\[2(m)(6)=12m,\]</span></div>
+<p>que coincide con el término central. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[m^2+12m+36 = (m+6)^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-8"><div class="caja-titulo">Ejemplo 8.8</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[m^2-18mn+81n^2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Las raíces cuadradas de los términos extremos son \(m\) y \(9n\):</p>
+<div class="mate"><span class="mate-bloque">\[m^2=(m)^2, \qquad 81n^2=(9n)^2.\]</span></div>
+<p>El doble producto es:</p>
+<div class="mate"><span class="mate-bloque">\[2(m)(9n)=18mn.\]</span></div>
+<p>Como el término central es negativo:</p>
+<div class="mate"><span class="mate-bloque">\[m^2-18mn+81n^2 = (m-9n)^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-9"><div class="caja-titulo">Ejemplo 8.9</div><div class="caja-cuerpo"><p>Encuentra los valores de \(n\) para que</p>
+<div class="mate"><span class="mate-bloque">\[x^2+nx+25\]</span></div>
+<p>sea un trinomio cuadrado perfecto.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Las raíces cuadradas de los términos extremos son \(x\) y \(5\). El término central puede ser el doble producto positivo o negativo:</p>
+<div class="mate"><span class="mate-bloque">\[2(x)(5)=10x\]</span></div>
+<p>o</p>
+<div class="mate"><span class="mate-bloque">\[-2(x)(5)=-10x.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[n=10 \qquad\text{o}\qquad n=-10.\]</span></div>
+<p>En efecto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x^2+10x+25 &amp;=(x+5)^2,\\ x^2-10x+25 &amp;=(x-5)^2. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="trinomio-de-la-forma"><span class="num">8.4</span> Trinomio de la forma \(x^2+bx+c\)<a class="enlace-seccion" href="#trinomio-de-la-forma" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Trinomio mónico de segundo grado</div><div class="caja-cuerpo"><p>Un trinomio de la forma</p>
+<div class="mate"><span class="mate-bloque">\[x^2+bx+c\]</span></div>
+<p>puede factorizarse como:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+bx+c = (x+p)(x+q),\]</span></div>
+<p>si existen dos números \(p\) y \(q\) que satisfacen:</p>
+<div class="mate"><span class="mate-bloque">\[p+q=b \qquad\text{y}\qquad pq=c.\]</span></div>
+<p>Este procedimiento produce una factorización con números enteros cuando \(p\) y \(q\) son enteros.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-10"><div class="caja-titulo">Ejemplo 8.10</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+7x+12.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Buscamos dos números cuya suma sea \(7\) y cuyo producto sea \(12\):</p>
+<div class="mate"><span class="mate-bloque">\[4+3=7, \qquad (4)(3)=12.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+7x+12 = (x+4)(x+3).\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-11"><div class="caja-titulo">Ejemplo 8.11</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-5x-24.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Buscamos dos números cuya suma sea \(-5\) y cuyo producto sea \(-24\):</p>
+<div class="mate"><span class="mate-bloque">\[-8+3=-5, \qquad (-8)(3)=-24.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-5x-24 = (x-8)(x+3).\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-12"><div class="caja-titulo">Ejemplo 8.12</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[m^2+24-10m.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primero ordenamos el trinomio según las potencias descendentes de \(m\):</p>
+<div class="mate"><span class="mate-bloque">\[m^2-10m+24.\]</span></div>
+<p>Buscamos dos números cuya suma sea \(-10\) y cuyo producto sea \(24\):</p>
+<div class="mate"><span class="mate-bloque">\[-6+(-4)=-10, \qquad (-6)(-4)=24.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[m^2-10m+24 = (m-6)(m-4).\]</span></div></div></details></div></section>
+<h2 id="trinomio-de-la-forma-2"><span class="num">8.5</span> Trinomio de la forma \(ax^2+bx+c\)<a class="enlace-seccion" href="#trinomio-de-la-forma-2" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Descomposición del término central</div><div class="caja-cuerpo"><p>Para factorizar un trinomio de la forma</p>
+<div class="mate"><span class="mate-bloque">\[ax^2+bx+c, \qquad a\neq 0,\]</span></div>
+<p>se buscan dos números \(p\) y \(q\) que satisfagan:</p>
+<div class="mate"><span class="mate-bloque">\[p+q=b \qquad\text{y}\qquad pq=ac.\]</span></div>
+<p>Después se sustituye el término central \(bx\) por \(px+qx\) y se factoriza por agrupación:</p>
+<div class="mate"><span class="mate-bloque">\[ax^2+bx+c = ax^2+px+qx+c.\]</span></div>
+<p>Este procedimiento produce una factorización con coeficientes enteros cuando existen valores enteros adecuados para \(p\) y \(q\).</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-13"><div class="caja-titulo">Ejemplo 8.13</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[2x^2+3x+1.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos el producto \(ac\):</p>
+<div class="mate"><span class="mate-bloque">\[ac=(2)(1)=2.\]</span></div>
+<p>Buscamos dos números cuya suma sea \(3\) y cuyo producto sea \(2\):</p>
+<div class="mate"><span class="mate-bloque">\[2+1=3, \qquad (2)(1)=2.\]</span></div>
+<p>Descomponemos el término central y agrupamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2x^2+3x+1 &amp;=2x^2+2x+x+1\\ &amp;=2x(x+1)+(x+1)\\ &amp;=(x+1)(2x+1). \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-14"><div class="caja-titulo">Ejemplo 8.14</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[6x^2-11x-35.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos:</p>
+<div class="mate"><span class="mate-bloque">\[ac=(6)(-35)=-210.\]</span></div>
+<p>Buscamos dos números cuya suma sea \(-11\) y cuyo producto sea \(-210\):</p>
+<div class="mate"><span class="mate-bloque">\[-21+10=-11, \qquad (-21)(10)=-210.\]</span></div>
+<p>Descomponemos el término central:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 6x^2-11x-35 &amp;=6x^2-21x+10x-35\\ &amp;=3x(2x-7)+5(2x-7)\\ &amp;=(2x-7)(3x+5). \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>No todos los trinomios pueden factorizarse como producto de binomios con coeficientes enteros. Si no existen enteros \(p\) y \(q\) que satisfagan las condiciones requeridas, pueden necesitarse otros métodos, como completar el cuadrado o utilizar la fórmula general.</p></div></section>
+<h2 id="suma-y-diferencia-de-cubos"><span class="num">8.6</span> Suma y diferencia de cubos<a class="enlace-seccion" href="#suma-y-diferencia-de-cubos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Suma y diferencia de cubos</div><div class="caja-cuerpo"><p>La suma de dos cubos se factoriza mediante:</p>
+<div class="mate"><span class="mate-bloque">\[a^3+b^3 = (a+b)(a^2-ab+b^2).\]</span></div>
+<p>La diferencia de dos cubos se factoriza mediante:</p>
+<div class="mate"><span class="mate-bloque">\[a^3-b^3 = (a-b)(a^2+ab+b^2).\]</span></div>
+<p>El signo del primer binomio coincide con el de la expresión original. En el trinomio, el término central lleva el signo contrario y el último término siempre es positivo.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-15"><div class="caja-titulo">Ejemplo 8.15</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[a^3+8.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Expresamos \(8\) como un cubo:</p>
+<div class="mate"><span class="mate-bloque">\[8=2^3.\]</span></div>
+<p>Aplicamos la fórmula de suma de cubos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} a^3+8 &amp;=a^3+2^3\\ &amp;=(a+2)(a^2-2a+4). \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-16"><div class="caja-titulo">Ejemplo 8.16</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[m^6-27.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos ambos términos como cubos:</p>
+<div class="mate"><span class="mate-bloque">\[m^6=(m^2)^3, \qquad 27=3^3.\]</span></div>
+<p>Aplicamos la fórmula de diferencia de cubos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} m^6-27 &amp;=(m^2)^3-3^3\\ &amp;=(m^2-3)(m^4+3m^2+9). \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="teoremas-del-residuo-y-del-factor"><span class="num">8.7</span> Teoremas del residuo y del factor<a class="enlace-seccion" href="#teoremas-del-residuo-y-del-factor" aria-label="Enlace a esta sección">#</a></h2>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Los teoremas del residuo y del factor permiten estudiar divisiones de polinomios sin realizar el algoritmo completo de la división.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Teorema del residuo</div><div class="caja-cuerpo"><p>Si un polinomio \(f(x)\) se divide entre \(x-a\), el residuo de la división es:</p>
+<div class="mate"><span class="mate-bloque">\[f(a).\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Teorema del factor</div><div class="caja-cuerpo"><p>El binomio \(x-a\) es factor de un polinomio \(f(x)\) si y solo si:</p>
+<div class="mate"><span class="mate-bloque">\[f(a)=0.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-17"><div class="caja-titulo">Ejemplo 8.17</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Determina si \(x+1\) es factor del polinomio:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^3+3x^2+3x+1.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos el posible factor como:</p>
+<div class="mate"><span class="mate-bloque">\[x+1=x-(-1).\]</span></div>
+<p>Por el teorema del factor, evaluamos el polinomio en \(x=-1\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} f(-1) &amp;=(-1)^3+3(-1)^2+3(-1)+1\\ &amp;=-1+3-3+1\\ &amp;=0. \end{aligned}\]</span></div>
+<p>Como \(f(-1)=0\), el binomio \(x+1\) sí es factor de \(f(x)\).</p></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-8-18"><div class="caja-titulo">Ejemplo 8.18</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Encuentra el residuo de dividir:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^4+3x^2+5x-2\]</span></div>
+<p>entre \(x+1\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como</p>
+<div class="mate"><span class="mate-bloque">\[x+1=x-(-1),\]</span></div>
+<p>evaluamos el polinomio en \(x=-1\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} f(-1) &amp;=(-1)^4+3(-1)^2+5(-1)-2\\ &amp;=1+3-5-2\\ &amp;=-3. \end{aligned}\]</span></div>
+<p>El residuo de la división es \(-3\).</p></div></details></div></section>
+<h2 id="estrategia-general-de-factorizacion"><span class="num">8.8</span> Estrategia general de factorización<a class="enlace-seccion" href="#estrategia-general-de-factorizacion" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para factorizar un polinomio, puede seguirse este orden:</p>
+<ol><li>Ordena los términos según las potencias descendentes de la variable principal.</li><li>Extrae el máximo factor común, si existe.</li><li><p>Cuenta el número de términos:</p>
+<ul><li>con dos términos, verifica si existe una diferencia de cuadrados o una suma o diferencia de cubos;</li><li>con tres términos, verifica si es un trinomio cuadrado perfecto o un trinomio de segundo grado;</li><li>con cuatro o más términos, intenta agrupar.</li></ul></li><li>Revisa si alguno de los factores obtenidos puede factorizarse nuevamente.</li><li>Comprueba el resultado multiplicando los factores.</li></ol>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Una factorización no está completa si alguno de los factores todavía puede descomponerse en factores más sencillos dentro del conjunto numérico con el que se está trabajando.</p></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">8.9</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-8-1"><div class="caja-titulo">Ejercicio 8.1</div><div class="caja-cuerpo"><p>Factoriza completamente:</p>
+<div class="mate"><span class="mate-bloque">\[5x^3-15x^2+10x.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factor común: \(5x\). <span class="mate-bloque">\[5x^3 - 15x^2 + 10x = 5x(x^2 - 3x + 2).\]</span> Además, \(x^2 - 3x + 2 = (x - 1)(x - 2)\). Entonces: <span class="mate-bloque">\[5x(x - 1)(x - 2).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-2"><div class="caja-titulo">Ejercicio 8.2</div><div class="caja-cuerpo"><p>Factoriza completamente:</p>
+<div class="mate"><span class="mate-bloque">\[3a^2b+6ab^2-9ab.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factor común: \(3ab\). <span class="mate-bloque">\[3a^2 b + 6ab^2 - 9ab = 3ab(a + 2b - 3).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-3"><div class="caja-titulo">Ejercicio 8.3</div><div class="caja-cuerpo"><p>Factoriza por agrupación:</p>
+<div class="mate"><span class="mate-bloque">\[2x^2+2xy+3x+3y.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Agrupamos: <span class="mate-bloque">\[2x^2 + 2xy + 3x + 3y = 2x(x + y) + 3(x + y) = (x + y)(2x + 3).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-4"><div class="caja-titulo">Ejercicio 8.4</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[9x^2-16.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Diferencia de cuadrados: <span class="mate-bloque">\[9x^2 - 16 = (3x + 4)(3x - 4).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-5"><div class="caja-titulo">Ejercicio 8.5</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[25a^2-49b^2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[25a^2 - 49b^2 = (5a + 7b)(5a - 7b).\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-6"><div class="caja-titulo">Ejercicio 8.6</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+10x+25.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Raíces: \(x\) y \(5\), doble producto \(10x\): <span class="mate-bloque">\[x^2 + 10x + 25 = (x + 5)^2.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-7"><div class="caja-titulo">Ejercicio 8.7</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[4m^2-12mn+9n^2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Raíces: \(2m\) y \(3n\), doble producto \(12mn\): <span class="mate-bloque">\[4m^2 - 12mn + 9n^2 = (2m - 3n)^2.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-8"><div class="caja-titulo">Ejercicio 8.8</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+8x+15.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Dos números que sumen 8 y multipliquen 15: \(5\) y \(3\). <span class="mate-bloque">\[x^2 + 8x + 15 = (x + 5)(x + 3).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-9"><div class="caja-titulo">Ejercicio 8.9</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-3x-40.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Dos números que sumen \(-3\) y multipliquen \(-40\): \(-8\) y \(5\). <span class="mate-bloque">\[x^2 - 3x - 40 = (x - 8)(x + 5).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-10"><div class="caja-titulo">Ejercicio 8.10</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[3x^2+7x+2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[3x^2 + 7x + 2 = \frac{9x^2 + 7(3x) + 6}{3} = \frac{(3x + 6)(3x + 1)}{3} = (x + 2)(3x + 1).\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-11"><div class="caja-titulo">Ejercicio 8.11</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[2x^2-5x-12.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[2x^2 - 5x - 12 = \frac{4x^2 - 5(2x) - 24}{2} = \frac{(2x - 8)(2x + 3)}{2} = (x - 4)(2x + 3).\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-12"><div class="caja-titulo">Ejercicio 8.12</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[a^3-27.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Diferencia de cubos: <span class="mate-bloque">\[a^3 - 27 = (a - 3)(a^2 + 3a + 9).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-13"><div class="caja-titulo">Ejercicio 8.13</div><div class="caja-cuerpo"><p>Factoriza:</p>
+<div class="mate"><span class="mate-bloque">\[8x^3+125.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Suma de cubos (\(2x\) y \(5\)): <span class="mate-bloque">\[8x^3 + 125 = (2x + 5)(4x^2 - 10x + 25).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-14"><div class="caja-titulo">Ejercicio 8.14</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Determina si \(x-2\) es factor de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^3-3x^2+4.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Evaluamos \(f(2) = 8 - 12 + 4 = 0\). Como \(f(2) = 0\), \(x - 2\) <strong>sí</strong> es factor.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-8-15"><div class="caja-titulo">Ejercicio 8.15</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-unam">UNAM</span></span></p>
+<p>Encuentra el residuo de dividir:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=2x^3+x^2-5x+3\]</span></div>
+<p>entre \(x-1\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Evaluamos en \(x = 1\): <span class="mate-bloque">\[f(1) = 2 + 1 - 5 + 3 = 1.\]</span> El residuo es \(1\).</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="07-productos-notables.html"><span>← Anterior</span>7. Productos notables</a><a class="nav-siguiente" href="09-fracciones-algebraicas.html"><span>Siguiente →</span>9. Fracciones algebraicas</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

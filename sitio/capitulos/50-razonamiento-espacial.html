@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>50. Razonamiento espacial · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte X: Razonamiento matemático</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#transformaciones-geometricas"><span class="num">50.1</span> Transformaciones geométricas</a></li><li class="nivel-2"><a href="#simetria-axial"><span class="num">50.2</span> Simetría axial</a></li><li class="nivel-3"><a href="#ejes-de-simetria"><span class="num">50.2.1</span> Ejes de simetría</a></li><li class="nivel-2"><a href="#simetria-central"><span class="num">50.3</span> Simetría central</a></li><li class="nivel-2"><a href="#rotaciones"><span class="num">50.4</span> Rotaciones</a></li><li class="nivel-3"><a href="#rotaciones-alrededor-del-origen"><span class="num">50.4.1</span> Rotaciones alrededor del origen</a></li><li class="nivel-2"><a href="#simetria-rotacional"><span class="num">50.5</span> Simetría rotacional</a></li><li class="nivel-2"><a href="#traslaciones"><span class="num">50.6</span> Traslaciones</a></li><li class="nivel-2"><a href="#comparacion-de-transformaciones"><span class="num">50.7</span> Comparación de transformaciones</a></li><li class="nivel-2"><a href="#vistas-ortogonales"><span class="num">50.8</span> Vistas ortogonales</a></li><li class="nivel-3"><a href="#procedimiento">Procedimiento</a></li><li class="nivel-2"><a href="#desarrollos-planos"><span class="num">50.9</span> Desarrollos planos</a></li><li class="nivel-3"><a href="#estrategia">Estrategia</a></li><li class="nivel-2"><a href="#caras-opuestas-en-un-cubo"><span class="num">50.10</span> Caras opuestas en un cubo</a></li><li class="nivel-2"><a href="#conteo-de-cubos"><span class="num">50.11</span> Conteo de cubos</a></li><li class="nivel-2"><a href="#cubos-pintados"><span class="num">50.12</span> Cubos pintados</a></li><li class="nivel-2"><a href="#sucesiones-de-figuras"><span class="num">50.13</span> Sucesiones de figuras</a></li><li class="nivel-3"><a href="#estrategia-2">Estrategia</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">50.14</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#simetria">Simetría</a></li><li class="nivel-3"><a href="#rotacion">Rotación</a></li><li class="nivel-3"><a href="#vistas-ortogonales-2">Vistas ortogonales</a></li><li class="nivel-3"><a href="#conteo-de-cubos-2">Conteo de cubos</a></li><li class="nivel-3"><a href="#sucesiones-de-figuras-2">Sucesiones de figuras</a></li><li class="nivel-2"><a href="#resumen"><span class="num">50.15</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">50.16</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">50.17</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 50</p><h1>Razonamiento espacial</h1></header>
+<p><span id="cap-razonamiento-espacial" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>El razonamiento espacial permite visualizar y transformar figuras en el plano y cuerpos en el espacio.</p>
+<p>En este capítulo aprenderás a:</p>
+<ul><li>identificar simetrías;</li><li>aplicar rotaciones, reflexiones y traslaciones;</li><li>interpretar vistas ortogonales;</li><li>reconocer desarrollos planos;</li><li>contar cubos visibles y ocultos;</li><li>completar sucesiones de figuras.</li></ul>
+<h2 id="transformaciones-geometricas"><span class="num">50.1</span> Transformaciones geométricas<a class="enlace-seccion" href="#transformaciones-geometricas" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una transformación geométrica cambia la posición o la orientación de una figura.</p>
+<p>Las transformaciones principales son:</p>
+<ul><li>reflexión;</li><li>rotación;</li><li>traslación.</li></ul>
+<p>Estas transformaciones conservan:</p>
+<ul><li>las longitudes;</li><li>los ángulos;</li><li>el área;</li><li>la forma de la figura.</li></ul>
+<p>Por ello, la figura original y la transformada son congruentes.</p>
+<h2 id="simetria-axial"><span class="num">50.2</span> Simetría axial<a class="enlace-seccion" href="#simetria-axial" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una figura tiene <strong>simetría axial</strong> si puede dividirse mediante una recta de modo que una mitad sea el reflejo de la otra.</p>
+<p>La recta recibe el nombre de <strong>eje de simetría</strong>.</p></div></section>
+<p>En una reflexión, cada punto y su imagen:</p>
+<ul><li>están a la misma distancia del eje;</li><li>se encuentran en lados opuestos;</li><li>forman un segmento perpendicular al eje.</li></ul>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-56f2c7a874cf.svg" alt="Figura 50.1" loading="lazy" decoding="async"></figure></div>
+<h3 id="ejes-de-simetria"><span class="num">50.2.1</span> Ejes de simetría<a class="enlace-seccion" href="#ejes-de-simetria" aria-label="Enlace a esta sección">#</a></h3>
+<p>Algunos ejemplos son:</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Figura</strong></th><th style="text-align:center"><strong>Número de ejes</strong></th></tr></thead><tbody><tr><td style="text-align:left">Triángulo escaleno</td><td style="text-align:center">0</td></tr><tr><td style="text-align:left">Triángulo isósceles</td><td style="text-align:center">1</td></tr><tr><td style="text-align:left">Triángulo equilátero</td><td style="text-align:center">3</td></tr><tr><td style="text-align:left">Rectángulo no cuadrado</td><td style="text-align:center">2</td></tr><tr><td style="text-align:left">Rombo no cuadrado</td><td style="text-align:center">2</td></tr><tr><td style="text-align:left">Cuadrado</td><td style="text-align:center">4</td></tr><tr><td style="text-align:left">Circunferencia</td><td style="text-align:center">Infinitos</td></tr></tbody></table></div></div>
+<h2 id="simetria-central"><span class="num">50.3</span> Simetría central<a class="enlace-seccion" href="#simetria-central" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una figura tiene <strong>simetría central</strong> respecto de un punto \(C\) si una rotación de:</p>
+<div class="mate"><span class="mate-bloque">\[180^\circ\]</span></div>
+<p>alrededor de \(C\) deja la figura sin cambios.</p></div></section>
+<p>Si el centro de simetría es el origen, el punto:</p>
+<div class="mate"><span class="mate-bloque">\[P(x,y)\]</span></div>
+<p>se transforma en:</p>
+<div class="mate"><span class="mate-bloque">\[P'(-x,-y).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-50-1"><div class="caja-titulo">Ejemplo 50.1</div><div class="caja-cuerpo"><p>Encuentra el simétrico de:</p>
+<div class="mate"><span class="mate-bloque">\[P(3,-2)\]</span></div>
+<p>respecto del origen.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Cambiamos el signo de ambas coordenadas:</p>
+<div class="mate"><span class="mate-bloque">\[P'( -3,2).\]</span></div>
+<p>Por tanto, el punto simétrico es:</p>
+<div class="mate"><span class="mate-bloque">\[(-3,2).\]</span></div></div></details></div></section>
+<h2 id="rotaciones"><span class="num">50.4</span> Rotaciones<a class="enlace-seccion" href="#rotaciones" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>rotación</strong> gira una figura alrededor de un punto fijo, llamado centro de rotación.</p>
+<p>La rotación se determina mediante:</p>
+<ul><li>el centro;</li><li>el ángulo;</li><li>el sentido de giro.</li></ul></div></section>
+<p>Los sentidos son:</p>
+<ul><li>antihorario: contrario a las manecillas del reloj;</li><li>horario: en el sentido de las manecillas del reloj.</li></ul>
+<h3 id="rotaciones-alrededor-del-origen"><span class="num">50.4.1</span> Rotaciones alrededor del origen<a class="enlace-seccion" href="#rotaciones-alrededor-del-origen" aria-label="Enlace a esta sección">#</a></h3>
+<p>Las reglas principales son:</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Rotación</strong></th><th style="text-align:left"><strong>Transformación</strong></th></tr></thead><tbody><tr><td style="text-align:left">\(90^\circ\) antihorario</td><td style="text-align:left">\((x,y)\longrightarrow(-y,x)\)</td></tr><tr><td style="text-align:left">\(90^\circ\) horario</td><td style="text-align:left">\((x,y)\longrightarrow(y,-x)\)</td></tr><tr><td style="text-align:left">\(180^\circ\)</td><td style="text-align:left">\((x,y)\longrightarrow(-x,-y)\)</td></tr><tr><td style="text-align:left">\(270^\circ\) antihorario</td><td style="text-align:left">\((x,y)\longrightarrow(y,-x)\)</td></tr></tbody></table></div></div>
+<section class="caja caja-ejemplo" id="ejemplo-50-2"><div class="caja-titulo">Ejemplo 50.2</div><div class="caja-cuerpo"><p>Rota el punto:</p>
+<div class="mate"><span class="mate-bloque">\[P(3,1)\]</span></div>
+<p>\(90^\circ\) en sentido antihorario alrededor del origen.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y)\longrightarrow(-y,x).\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[(3,1)\longrightarrow(-1,3).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P'(-1,3).\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-cfb33ab0a73e.svg" alt="Figura 50.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="simetria-rotacional"><span class="num">50.5</span> Simetría rotacional<a class="enlace-seccion" href="#simetria-rotacional" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una figura tiene simetría rotacional si coincide consigo misma después de un giro menor que:</p>
+<div class="mate"><span class="mate-bloque">\[360^\circ.\]</span></div>
+<p>El orden de la simetría rotacional indica cuántas veces coincide la figura durante una vuelta completa.</p>
+<div class="mate"><span class="mate-bloque">\[\text{ángulo mínimo} = \frac{360^\circ}{\text{orden}}.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-50-3"><div class="caja-titulo">Ejemplo 50.3</div><div class="caja-cuerpo"><p>Un cuadrado coincide consigo mismo cada:</p>
+<div class="mate"><span class="mate-bloque">\[90^\circ.\]</span></div>
+<p>Por tanto, su orden de simetría rotacional es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{360^\circ}{90^\circ}=4.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-50-4"><div class="caja-titulo">Ejemplo 50.4</div><div class="caja-cuerpo"><p>Un triángulo equilátero coincide consigo mismo cada:</p>
+<div class="mate"><span class="mate-bloque">\[120^\circ.\]</span></div>
+<p>Su orden es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{360^\circ}{120^\circ}=3.\]</span></div></div></section>
+<h2 id="traslaciones"><span class="num">50.6</span> Traslaciones<a class="enlace-seccion" href="#traslaciones" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>traslación</strong> desplaza todos los puntos de una figura la misma distancia y en la misma dirección.</p>
+<p>La figura no gira ni cambia de tamaño.</p></div></section>
+<p>Si una traslación desplaza:</p>
+<div class="mate"><span class="mate-bloque">\[h\]</span></div>
+<p>unidades horizontalmente y:</p>
+<div class="mate"><span class="mate-bloque">\[k\]</span></div>
+<p>unidades verticalmente, entonces:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y) \longrightarrow (x+h,y+k).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-50-5"><div class="caja-titulo">Ejemplo 50.5</div><div class="caja-cuerpo"><p>Traslada el punto:</p>
+<div class="mate"><span class="mate-bloque">\[P(-2,3)\]</span></div>
+<p>\(5\) unidades a la derecha y \(4\) unidades hacia abajo.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La transformación es:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y) \longrightarrow (x+5,y-4).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[(-2,3) \longrightarrow (3,-1).\]</span></div></div></details></div></section>
+<h2 id="comparacion-de-transformaciones"><span class="num">50.7</span> Comparación de transformaciones<a class="enlace-seccion" href="#comparacion-de-transformaciones" aria-label="Enlace a esta sección">#</a></h2>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Transformación</strong></th><th style="text-align:left"><strong>Desplaza</strong></th><th style="text-align:left"><strong>Gira</strong></th><th style="text-align:left"><strong>Invierte orientación</strong></th></tr></thead><tbody><tr><td style="text-align:left">Traslación</td><td style="text-align:left">Sí</td><td style="text-align:left">No</td><td style="text-align:left">No</td></tr><tr><td style="text-align:left">Rotación</td><td style="text-align:left">Sí</td><td style="text-align:left">Sí</td><td style="text-align:left">No</td></tr><tr><td style="text-align:left">Reflexión</td><td style="text-align:left">Sí</td><td style="text-align:left">No</td><td style="text-align:left">Sí</td></tr></tbody></table></div></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Una reflexión invierte la orientación de una figura.</p>
+<p>Una rotación y una traslación conservan la orientación.</p></div></section>
+<h2 id="vistas-ortogonales"><span class="num">50.8</span> Vistas ortogonales<a class="enlace-seccion" href="#vistas-ortogonales" aria-label="Enlace a esta sección">#</a></h2>
+<p>Las vistas ortogonales son proyecciones planas de un objeto tridimensional.</p>
+<p>Las tres vistas principales son:</p>
+<ul><li><strong>vista frontal</strong>: muestra ancho y altura;</li><li><strong>vista superior</strong>: muestra ancho y profundidad;</li><li><strong>vista lateral</strong>: muestra profundidad y altura.</li></ul>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Vista</strong></th><th style="text-align:left"><strong>Dirección</strong></th><th style="text-align:left"><strong>Dimensiones visibles</strong></th></tr></thead><tbody><tr><td style="text-align:left">Frontal</td><td style="text-align:left">Desde el frente</td><td style="text-align:left">Ancho y altura</td></tr><tr><td style="text-align:left">Superior</td><td style="text-align:left">Desde arriba</td><td style="text-align:left">Ancho y profundidad</td></tr><tr><td style="text-align:left">Lateral</td><td style="text-align:left">Desde un costado</td><td style="text-align:left">Profundidad y altura</td></tr></tbody></table></div></div>
+<section class="caja caja-ejemplo" id="ejemplo-50-6"><div class="caja-titulo">Ejemplo 50.6</div><div class="caja-cuerpo"><p>Un arreglo tiene tres posiciones alineadas. Sus alturas son:</p>
+<div class="mate"><span class="mate-bloque">\[2,\ 1,\ 1.\]</span></div>
+<p>La vista frontal se representa mediante tres columnas:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{ccc} \blacksquare &amp; &amp;\\[-2pt] \blacksquare &amp; \blacksquare &amp; \blacksquare \end{array}\]</span></div>
+<p>La vista superior contiene tres cuadrados en línea:</p>
+<div class="mate"><span class="mate-bloque">\[\blacksquare \quad \blacksquare \quad \blacksquare.\]</span></div></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-40c03efb7a31.svg" alt="Figura 50.3" loading="lazy" decoding="async"></figure></div>
+<h3 id="procedimiento">Procedimiento<a class="enlace-seccion" href="#procedimiento" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica la dirección desde la que se observa.</li><li>Imagina que el objeto se aplana sobre un plano.</li><li>Conserva únicamente el contorno y las divisiones visibles.</li><li>Revisa las alturas de cada fila o columna.</li></ol>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Una vista no muestra cuántos cubos existen detrás de otro cubo.</p>
+<p>Por ello, diferentes arreglos tridimensionales pueden tener la misma vista frontal.</p></div></section>
+<h2 id="desarrollos-planos"><span class="num">50.9</span> Desarrollos planos<a class="enlace-seccion" href="#desarrollos-planos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>desarrollo plano</strong> es una figura bidimensional que puede doblarse para formar la superficie de un cuerpo geométrico.</p></div></section>
+<p>Un desarrollo de cubo debe tener:</p>
+<div class="mate"><span class="mate-bloque">\[6\text{ cuadrados congruentes}.\]</span></div>
+<p>Al doblarse:</p>
+<ul><li>no deben superponerse caras;</li><li>no deben quedar caras faltantes;</li><li>cada cuadrado debe convertirse en una cara distinta.</li></ul>
+<p>Un cubo posee:</p>
+<div class="mate"><span class="mate-bloque">\[11\]</span></div>
+<p>desarrollos planos diferentes, sin contar rotaciones y reflexiones como desarrollos nuevos.</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-c163534cd7ae.svg" alt="Figura 50.4" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Seis cuadrados en una sola fila no forman un cubo.</p>
+<p>Al doblarlos, algunas caras se superponen y no se forman correctamente las tapas.</p></div></section>
+<h3 id="estrategia">Estrategia<a class="enlace-seccion" href="#estrategia" aria-label="Enlace a esta sección">#</a></h3>
+<p>Para decidir si un desarrollo es válido:</p>
+<ol><li>elige una cara como base;</li><li>imagina las caras adyacentes doblándose \(90^\circ\);</li><li>identifica qué cara quedaría opuesta a la base;</li><li>comprueba que no existan caras superpuestas.</li></ol>
+<h2 id="caras-opuestas-en-un-cubo"><span class="num">50.10</span> Caras opuestas en un cubo<a class="enlace-seccion" href="#caras-opuestas-en-un-cubo" aria-label="Enlace a esta sección">#</a></h2>
+<p>Dos caras son opuestas si no comparten ninguna arista ni vértice después de formar el cubo.</p>
+<p>En un desarrollo plano, las caras que parecen alejadas no siempre son opuestas. Es necesario imaginar el doblado.</p>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En los problemas con números, letras o símbolos sobre un desarrollo, conviene elegir una cara como base y determinar primero sus cuatro caras adyacentes. La cara restante será la opuesta.</p></div></section>
+<h2 id="conteo-de-cubos"><span class="num">50.11</span> Conteo de cubos<a class="enlace-seccion" href="#conteo-de-cubos" aria-label="Enlace a esta sección">#</a></h2>
+<p>En un arreglo tridimensional pueden existir cubos:</p>
+<ul><li>visibles;</li><li>ocultos detrás de otros;</li><li>ocultos debajo de otros.</li></ul>
+<p>Una forma útil de contar es registrar la altura de cada posición en la vista superior.</p>
+<p>Por ejemplo, si las alturas son:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{ccc} 2 &amp; 1 &amp; 1\\ 1 &amp; 3 &amp; 0 \end{array},\]</span></div>
+<p>el número total de cubos es:</p>
+<div class="mate"><span class="mate-bloque">\[2+1+1+1+3+0=8.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-50-7"><div class="caja-titulo">Ejemplo 50.7</div><div class="caja-cuerpo"><p>Un arreglo tiene tres columnas con alturas:</p>
+<div class="mate"><span class="mate-bloque">\[2,\ 1,\ 1.\]</span></div>
+<p>¿Cuántos cubos contiene?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sumamos las alturas:</p>
+<div class="mate"><span class="mate-bloque">\[2+1+1=4.\]</span></div>
+<p>El arreglo contiene:</p>
+<div class="mate"><span class="mate-bloque">\[4\text{ cubos}.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-115b4af79728.svg" alt="Figura 50.5" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Si un cubo aparece sobre otro, debe existir al menos un cubo debajo que lo sostenga, salvo que el problema indique una estructura suspendida.</p>
+<p>Esos cubos de apoyo también deben contarse.</p></div></section>
+<h2 id="cubos-pintados"><span class="num">50.12</span> Cubos pintados<a class="enlace-seccion" href="#cubos-pintados" aria-label="Enlace a esta sección">#</a></h2>
+<p>Considera un cubo grande de dimensiones:</p>
+<div class="mate"><span class="mate-bloque">\[n\times n\times n\]</span></div>
+<p>formado por cubos unitarios. Si se pintan todas sus caras exteriores y después se separa, los cubos pequeños se clasifican así:</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Ubicación</strong></th><th style="text-align:left"><strong>Caras pintadas</strong></th><th style="text-align:left"><strong>Cantidad</strong></th></tr></thead><tbody><tr><td style="text-align:left">Esquinas</td><td style="text-align:left">3</td><td style="text-align:left">\(8\)</td></tr><tr><td style="text-align:left">Aristas sin esquinas</td><td style="text-align:left">2</td><td style="text-align:left">\(12(n-2)\)</td></tr><tr><td style="text-align:left">Interior de las caras</td><td style="text-align:left">1</td><td style="text-align:left">\(6(n-2)^2\)</td></tr><tr><td style="text-align:left">Interior del cubo</td><td style="text-align:left">0</td><td style="text-align:left">\((n-2)^3\)</td></tr></tbody></table></div></div>
+<p>El número total de cubos es:</p>
+<div class="mate"><span class="mate-bloque">\[n^3.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-50-8"><div class="caja-titulo">Ejemplo 50.8</div><div class="caja-cuerpo"><p>Un cubo de:</p>
+<div class="mate"><span class="mate-bloque">\[3\times3\times3\]</span></div>
+<p>se pinta por fuera y se divide en cubos unitarios.</p>
+<p>¿Cuántos cubos tienen exactamente tres caras pintadas?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los cubos con tres caras pintadas se encuentran en las esquinas.</p>
+<p>Todo cubo tiene:</p>
+<div class="mate"><span class="mate-bloque">\[8\]</span></div>
+<p>esquinas.</p>
+<p>Por tanto, existen:</p>
+<div class="mate"><span class="mate-bloque">\[8\text{ cubos con tres caras pintadas}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-50-9"><div class="caja-titulo">Ejemplo 50.9</div><div class="caja-cuerpo"><p>En el mismo cubo de:</p>
+<div class="mate"><span class="mate-bloque">\[3\times3\times3,\]</span></div>
+<p>¿cuántos cubos tienen exactamente dos caras pintadas?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[12(n-2).\]</span></div>
+<p>Con:</p>
+<div class="mate"><span class="mate-bloque">\[n=3,\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[12(3-2)=12.\]</span></div>
+<p>Por tanto, hay:</p>
+<div class="mate"><span class="mate-bloque">\[12\text{ cubos con dos caras pintadas}.\]</span></div></div></details></div></section>
+<h2 id="sucesiones-de-figuras"><span class="num">50.13</span> Sucesiones de figuras<a class="enlace-seccion" href="#sucesiones-de-figuras" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una sucesión de figuras sigue una regla visual.</p>
+<p>Los cambios más comunes son:</p>
+<ul><li>agregar o quitar elementos;</li><li>girar la figura;</li><li>reflejarla;</li><li>alternar colores;</li><li>mover una parte;</li><li>combinar dos o más reglas.</li></ul>
+<h3 id="estrategia-2">Estrategia<a class="enlace-seccion" href="#estrategia-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Cuenta los elementos de cada figura.</li><li>Compara posiciones, colores y orientaciones.</li><li>Busca diferencias entre términos consecutivos.</li><li>Revisa si la regla alterna entre figuras pares e impares.</li><li>Comprueba la regla en todos los términos mostrados.</li></ol>
+<section class="caja caja-ejemplo" id="ejemplo-50-10"><div class="caja-titulo">Ejemplo 50.10</div><div class="caja-cuerpo"><p>La cantidad de puntos de una sucesión es:</p>
+<div class="mate"><span class="mate-bloque">\[1,\ 3,\ 6,\ 10,\ldots\]</span></div>
+<p>Determina la cantidad de puntos de la figura \(5\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Las diferencias son:</p>
+<div class="mate"><span class="mate-bloque">\[3-1=2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[6-3=3,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[10-6=4.\]</span></div>
+<p>La siguiente diferencia es:</p>
+<div class="mate"><span class="mate-bloque">\[5.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[10+5=15.\]</span></div>
+<p>Por tanto, la figura \(5\) contiene:</p>
+<div class="mate"><span class="mate-bloque">\[15\text{ puntos}.\]</span></div>
+<p>La fórmula general es:</p>
+<div class="mate"><span class="mate-bloque">\[a_n = \frac{n(n+1)}{2}.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-05d285877ccc.svg" alt="Figura 50.6" loading="lazy" decoding="async"></figure></div>
+<h2 id="procedimiento-rapido"><span class="num">50.14</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="simetria">Simetría<a class="enlace-seccion" href="#simetria" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Busca una posible línea de doblado.</li><li>Compara las distancias al eje.</li><li>Revisa si ambas mitades coinciden.</li></ol>
+<h3 id="rotacion">Rotación<a class="enlace-seccion" href="#rotacion" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Localiza el centro de giro.</li><li>Identifica el ángulo.</li><li>Determina el sentido.</li><li>Sigue un punto o detalle distintivo de la figura.</li></ol>
+<h3 id="vistas-ortogonales-2">Vistas ortogonales<a class="enlace-seccion" href="#vistas-ortogonales-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica la dirección de observación.</li><li>Determina la altura de cada fila o columna.</li><li>Elimina la profundidad que queda oculta.</li><li>Dibuja la proyección plana.</li></ol>
+<h3 id="conteo-de-cubos-2">Conteo de cubos<a class="enlace-seccion" href="#conteo-de-cubos-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Divide el arreglo en columnas.</li><li>Determina la altura de cada posición.</li><li>Incluye cubos ocultos y de soporte.</li><li>Suma todas las alturas.</li></ol>
+<h3 id="sucesiones-de-figuras-2">Sucesiones de figuras<a class="enlace-seccion" href="#sucesiones-de-figuras-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Cuenta los elementos.</li><li>Compara términos consecutivos.</li><li>Revisa giros, colores y posiciones.</li><li>Comprueba la regla en toda la sucesión.</li></ol>
+<h2 id="resumen"><span class="num">50.15</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Reflexión respecto del eje \(y\):</p>
+<div class="mate"><span class="mate-bloque">\[(x,y) \longrightarrow (-x,y).\]</span></div>
+<p>Reflexión respecto del eje \(x\):</p>
+<div class="mate"><span class="mate-bloque">\[(x,y) \longrightarrow (x,-y).\]</span></div>
+<p>Simetría respecto del origen:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y) \longrightarrow (-x,-y).\]</span></div>
+<p>Rotación de \(90^\circ\) antihoraria:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y) \longrightarrow (-y,x).\]</span></div>
+<p>Rotación de \(90^\circ\) horaria:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y) \longrightarrow (y,-x).\]</span></div>
+<p>Traslación:</p>
+<div class="mate"><span class="mate-bloque">\[(x,y) \longrightarrow (x+h,y+k).\]</span></div>
+<p>Orden de simetría rotacional:</p>
+<div class="mate"><span class="mate-bloque">\[\text{orden} = \frac{360^\circ}{\text{ángulo mínimo}}.\]</span></div>
+<p>Cubos pintados en las esquinas:</p>
+<div class="mate"><span class="mate-bloque">\[8.\]</span></div>
+<p>Cubos con dos caras pintadas:</p>
+<div class="mate"><span class="mate-bloque">\[12(n-2).\]</span></div>
+<p>Cubos con una cara pintada:</p>
+<div class="mate"><span class="mate-bloque">\[6(n-2)^2.\]</span></div>
+<p>Cubos sin caras pintadas:</p>
+<div class="mate"><span class="mate-bloque">\[(n-2)^3.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">50.16</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>En una reflexión, la figura invierte su orientación.</li><li>En una traslación, la figura no gira.</li><li>Debe especificarse si una rotación es horaria o antihoraria.</li><li>Una rotación de \(270^\circ\) antihoraria equivale a una de \(90^\circ\) horaria.</li><li>En una vista frontal no siempre puede observarse la profundidad.</li><li>Diferentes objetos pueden tener la misma vista frontal.</li><li>No todo arreglo de seis cuadrados es un desarrollo del cubo.</li><li>En el conteo deben incluirse cubos ocultos y de soporte.</li><li>En un cubo pintado, únicamente las esquinas tienen tres caras pintadas.</li><li>Una sucesión visual puede combinar más de una regla.</li><li>Una regla debe explicar todos los términos mostrados, no solamente los dos primeros.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">50.17</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-50-1"><div class="caja-titulo">Ejercicio 50.1</div><div class="caja-cuerpo"><p>¿Cuántos ejes de simetría tiene:</p>
+<ol><li>un rectángulo que no es cuadrado;</li><li>un rombo que no es cuadrado;</li><li>un triángulo equilátero?</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><ol><li>Un rectángulo que no es cuadrado tiene <strong>2</strong> ejes de simetría.</li><li>Un rombo que no es cuadrado tiene <strong>2</strong> ejes de simetría.</li><li>Un triángulo equilátero tiene <strong>3</strong> ejes de simetría.</li></ol></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-2"><div class="caja-titulo">Ejercicio 50.2</div><div class="caja-cuerpo"><p>Una figura tiene simetría central respecto del origen.</p>
+<p>Si un punto está en:</p>
+<div class="mate"><span class="mate-bloque">\[(3,-2),\]</span></div>
+<p>¿en qué punto se encuentra su imagen?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La simetría central respecto al origen transforma \((x, y) \mapsto (-x, -y)\). Entonces la imagen de \((3, -2)\) es <strong>\((-3, 2)\)</strong>.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-3"><div class="caja-titulo">Ejercicio 50.3</div><div class="caja-cuerpo"><p>Refleja el punto:</p>
+<div class="mate"><span class="mate-bloque">\[P(-4,3)\]</span></div>
+<p>respecto del eje \(x\) y después respecto del eje \(y\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Al reflejar \((-4, 3)\) respecto al eje \(x\) se obtiene \((-4, -3)\). Al reflejar después respecto al eje \(y\) se cambian los signos de la abscisa, obteniendo <strong>\((4, -3)\)</strong>.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-4"><div class="caja-titulo">Ejercicio 50.4</div><div class="caja-cuerpo"><p>Rota el punto:</p>
+<div class="mate"><span class="mate-bloque">\[P(2,-5)\]</span></div>
+<p>\(90^\circ\) en sentido antihorario alrededor del origen.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La rotación de \(90^\circ\) en sentido antihorario transforma \((x,y) \mapsto (-y, x)\). El punto \((2,-5)\) se transforma en <strong>\((5, 2)\)</strong>.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-5"><div class="caja-titulo">Ejercicio 50.5</div><div class="caja-cuerpo"><p>Un cuadrado gira \(90^\circ\) en sentido horario alrededor de su centro.</p>
+<p>¿Cuántas rotaciones iguales se requieren para completar una vuelta?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Un cuadrado tiene simetría rotacional de orden 4. Una rotación de \(90^\circ\) requiere <strong>4 rotaciones</strong> para completar los \(360^\circ\) de una vuelta completa.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-6"><div class="caja-titulo">Ejercicio 50.6</div><div class="caja-cuerpo"><p>Un triángulo equilátero gira \(120^\circ\) alrededor de su centro.</p>
+<p>¿La figura coincide con la original? Explica.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><strong>Sí</strong>. Un triángulo equilátero tiene simetría rotacional de orden 3, lo que significa que coincide consigo mismo al girar \(360^\circ/3 = 120^\circ\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-7"><div class="caja-titulo">Ejercicio 50.7</div><div class="caja-cuerpo"><p>Un arreglo tiene cuatro columnas de cubos con alturas:</p>
+<div class="mate"><span class="mate-bloque">\[3,\ 1,\ 2,\ 2.\]</span></div>
+<p>¿Cuántos cubos contiene en total?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sumando las alturas de las cuatro columnas: <span class="mate-bloque">\[3 + 1 + 2 + 2 = 8 \text{ cubos}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-8"><div class="caja-titulo">Ejercicio 50.8</div><div class="caja-cuerpo"><p>Las alturas de un arreglo, vistas desde arriba, son:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{ccc} 2 &amp; 1 &amp; 0\\ 3 &amp; 2 &amp; 1 \end{array}.\]</span></div>
+<p>Calcula el número total de cubos.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sumando las alturas de todas las posiciones en la vista superior: <span class="mate-bloque">\[2 + 1 + 0 + 3 + 2 + 1 = 9 \text{ cubos}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-9"><div class="caja-titulo">Ejercicio 50.9</div><div class="caja-cuerpo"><p>Un cubo de:</p>
+<div class="mate"><span class="mate-bloque">\[3\times3\times3\]</span></div>
+<p>está formado por \(27\) cubos unitarios. Se pintan todas sus caras exteriores y después se separa.</p>
+<p>Calcula cuántos cubos tienen:</p>
+<ol><li>exactamente tres caras pintadas;</li><li>exactamente dos caras pintadas;</li><li>exactamente una cara pintada;</li><li>ninguna cara pintada.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>En un cubo de \(3\times3\times3\):</p>
+<ol><li>3 caras pintadas: en las esquinas (<strong>8 cubos</strong>).</li><li>2 caras pintadas: en los centros de las aristas (\(12 \times 1 = \textbf{12 cubos}\)).</li><li>1 cara pintada: en el centro de las caras (\(6 \times 1 = \textbf{6 cubos}\)).</li><li>0 caras pintadas: en el interior (\((3-2)^3 = \textbf{1 cubo}\)).</li></ol></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-10"><div class="caja-titulo">Ejercicio 50.10</div><div class="caja-cuerpo"><p>Se pinta exteriormente un cubo de:</p>
+<div class="mate"><span class="mate-bloque">\[4\times4\times4.\]</span></div>
+<p>¿Cuántos cubos unitarios quedan sin ninguna cara pintada?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los cubos interiores forman un cubo de dimensiones \((4-2)\times(4-2)\times(4-2) = 2\times2\times2\). Quedan <strong>8 cubos</strong> sin pintar.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-11"><div class="caja-titulo">Ejercicio 50.11</div><div class="caja-cuerpo"><p>¿Cuál de los siguientes arreglos no puede formar un cubo?</p>
+<ol><li>Cuatro cuadrados en fila, con uno arriba y uno abajo del segundo cuadrado.</li><li>Seis cuadrados en una sola fila.</li><li>Una tira de cuatro cuadrados, con un cuadrado unido arriba del segundo y otro arriba del tercero.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La opción <strong>2</strong> (Seis cuadrados en una sola fila) no puede formar un cubo, ya que al doblarse las caras se superpondrían sin formar las tapas.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-12"><div class="caja-titulo">Ejercicio 50.12</div><div class="caja-cuerpo"><p>Una sucesión de figuras contiene:</p>
+<div class="mate"><span class="mate-bloque">\[1,\ 3,\ 6,\ 10,\ldots\]</span></div>
+<p>elementos.</p>
+<p>¿Cuántos elementos tendrá la figura \(8\)?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La sucesión corresponde a los números triangulares \(a_n = \dfrac{n(n+1)}{2}\). Para la figura 8: <span class="mate-bloque">\[\frac{8(9)}{2} = 36 \text{ elementos}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-13"><div class="caja-titulo">Ejercicio 50.13</div><div class="caja-cuerpo"><p>Una sucesión de figuras contiene:</p>
+<div class="mate"><span class="mate-bloque">\[2,\ 5,\ 8,\ 11,\ldots\]</span></div>
+<p>cuadrados.</p>
+<p>Encuentra el número de cuadrados de la figura \(12\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La sucesión es aritmética con \(a_1=2\) y \(d=3\), cuyo término general es \(a_n = 3n-1\). Para la figura 12: <span class="mate-bloque">\[3(12) - 1 = 35 \text{ cuadrados}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-14"><div class="caja-titulo">Ejercicio 50.14</div><div class="caja-cuerpo"><p>Una letra mayúscula tiene simetría vertical, pero no horizontal.</p>
+<p>¿Cuál de las siguientes letras cumple esta condición?</p>
+<div class="mate"><span class="mate-bloque">\[A,\qquad B,\qquad H,\qquad N.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La letra <strong>A</strong> tiene un eje de simetría vertical, pero carece de simetría horizontal.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-50-15"><div class="caja-titulo">Ejercicio 50.15</div><div class="caja-cuerpo"><p>¿Cuántos cubos unitarios se necesitan para construir un cubo de:</p>
+<div class="mate"><span class="mate-bloque">\[2\times2\times2?\]</span></div>
+<p>¿Y para construir uno de:</p>
+<div class="mate"><span class="mate-bloque">\[5\times5\times5?\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Para un cubo de \(2\times2\times2\) se necesitan \(2^3 = \textbf{8 cubos unitarios}\). Para uno de \(5\times5\times5\) se necesitan \(5^3 = \textbf{125 cubos unitarios}\).</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="49-sucesiones-series.html"><span>← Anterior</span>49. Sucesiones y series</a><a class="nav-siguiente" href="51-elementos-financieros.html"><span>Siguiente →</span>51. Elementos financieros básicos</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

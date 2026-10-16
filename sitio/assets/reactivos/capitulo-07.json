@@ -1,0 +1,1339 @@
+{
+  "metadata": {
+    "capitulo": "7",
+    "titulo": "Productos notables y binomio de Newton",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 5,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 50,
+    "secciones_incluidas": [
+      {
+        "codigo": "7.1",
+        "nombre": "Binomio al cuadrado"
+      },
+      {
+        "codigo": "7.2",
+        "nombre": "Binomios conjugados"
+      },
+      {
+        "codigo": "7.3",
+        "nombre": "Binomios con término común"
+      },
+      {
+        "codigo": "7.4",
+        "nombre": "Binomio al cubo"
+      },
+      {
+        "codigo": "7.5",
+        "nombre": "Binomio de Newton"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Cada reactivo fue diseñado específicamente para la habilidad de su subtema e inspirado en los ejemplos de la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-7-1-01",
+      "pregunta": "Desarrolle $(x+5)^2$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.1",
+        "nombre": "Binomio al cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+10x+25$",
+        "B": "$x^2+25$",
+        "C": "$x^2+5x+25$",
+        "D": "$x^2-10x+25$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "expandir binomio al cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-1-02",
+      "pregunta": "Desarrolle $(x-7)^2$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.1",
+        "nombre": "Binomio al cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2-49$",
+        "B": "$x^2-7x+49$",
+        "C": "$x^2+14x+49$",
+        "D": "$x^2-14x+49$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "expandir cuadrado de una diferencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-1-03",
+      "pregunta": "Desarrolle $(4a+3b)^2$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.1",
+        "nombre": "Binomio al cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$16a^2+12ab+9b^2$",
+        "B": "$4a^2+24ab+3b^2$",
+        "C": "$16a^2+24ab+9b^2$",
+        "D": "$16a^2+9b^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "expandir binomio bivariado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-1-04",
+      "pregunta": "Desarrolle $(3m-4n)^2$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.1",
+        "nombre": "Binomio al cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$6m^2-12mn+8n^2$",
+        "B": "$9m^2-24mn+16n^2$",
+        "C": "$9m^2-16n^2$",
+        "D": "$9m^2+24mn+16n^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "controlar signo del término medio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-1-05",
+      "pregunta": "Desarrolle $\\left(2x^3+\\frac12y\\right)^2$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.1",
+        "nombre": "Binomio al cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$4x^6+2x^3y+\\frac14y^2$",
+        "B": "$4x^6+\\frac14y^2$",
+        "C": "$4x^6+x^3y+\\frac14y^2$",
+        "D": "$2x^6+2x^3y+\\frac12y^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "expandir cuadrado con fracción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-1-06",
+      "pregunta": "¿Cuál es el término medio de $(5p+2q)^2$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.1",
+        "nombre": "Binomio al cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$10pq$",
+        "B": "$7pq$",
+        "C": "$4pq$",
+        "D": "$20pq$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar doble producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-1-07",
+      "pregunta": "Complete: $(y-6)^2=y^2+\\_\\_\\_+36$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.1",
+        "nombre": "Binomio al cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$12y$",
+        "B": "$-36y$",
+        "C": "$-12y$",
+        "D": "$-6y$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "completar identidad notable",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-1-08",
+      "pregunta": "¿Cuál expresión es igual a $(a+b)^2$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.1",
+        "nombre": "Binomio al cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$2a^2+2b^2$",
+        "B": "$a^2+2ab+b^2$",
+        "C": "$a^2+b^2$",
+        "D": "$a^2+ab+b^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "reconocer identidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-1-09",
+      "pregunta": "Si $(x+k)^2=x^2+12x+36$, ¿cuánto vale $k$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.1",
+        "nombre": "Binomio al cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$3$",
+        "C": "$12$",
+        "D": "$36$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "inferir término del binomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-1-10",
+      "pregunta": "¿Cuál trinomio es el desarrollo de $(2r-5)^2$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.1",
+        "nombre": "Binomio al cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$4r^2-10r+25$",
+        "B": "$4r^2-25$",
+        "C": "$2r^2-20r+5$",
+        "D": "$4r^2-20r+25$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reconocer trinomio cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-2-01",
+      "pregunta": "Calcule $(x+7)(x-7)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.2",
+        "nombre": "Binomios conjugados"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2-14x+49$",
+        "B": "$x^2+14x-49$",
+        "C": "$x^2-49$",
+        "D": "$x^2+49$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "usar diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-2-02",
+      "pregunta": "Calcule $(5m^2+3n)(5m^2-3n)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.2",
+        "nombre": "Binomios conjugados"
+      },
+      "respuestas_posibles": {
+        "A": "$25m^4-30m^2n+9n^2$",
+        "B": "$25m^4-9n^2$",
+        "C": "$25m^4+9n^2$",
+        "D": "$25m^2-9n$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "multiplicar conjugados multivariables",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-2-03",
+      "pregunta": "Simplifique $(2a+5b)(2a-5b)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.2",
+        "nombre": "Binomios conjugados"
+      },
+      "respuestas_posibles": {
+        "A": "$4a^2-25b^2$",
+        "B": "$4a^2+25b^2$",
+        "C": "$2a^2-5b^2$",
+        "D": "$4a^2-20ab+25b^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "usar conjugados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-2-04",
+      "pregunta": "Calcule $(3x^2-4)(3x^2+4)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.2",
+        "nombre": "Binomios conjugados"
+      },
+      "respuestas_posibles": {
+        "A": "$9x^4+16$",
+        "B": "$6x^2-16$",
+        "C": "$9x^4-24x^2+16$",
+        "D": "$9x^4-16$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "diferenciar conjugados de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-2-05",
+      "pregunta": "¿Cuál producto equivale a $y^2-81$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.2",
+        "nombre": "Binomios conjugados"
+      },
+      "respuestas_posibles": {
+        "A": "$(y+81)(y-1)$",
+        "B": "$(y+9)^2$",
+        "C": "$(y+9)(y-9)$",
+        "D": "$(y-9)^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer conjugados desde diferencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-2-06",
+      "pregunta": "Simplifique $\\left(p+\\frac13\\right)\\left(p-\\frac13\\right)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.2",
+        "nombre": "Binomios conjugados"
+      },
+      "respuestas_posibles": {
+        "A": "$p^2-\\frac13$",
+        "B": "$p^2-\\frac19$",
+        "C": "$p^2+\\frac19$",
+        "D": "$p^2-\\frac23p+\\frac19$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "usar conjugados con fracciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-2-07",
+      "pregunta": "Calcule $(a^3+b^2)(a^3-b^2)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.2",
+        "nombre": "Binomios conjugados"
+      },
+      "respuestas_posibles": {
+        "A": "$a^6-b^4$",
+        "B": "$a^6+b^4$",
+        "C": "$a^3-b^2$",
+        "D": "$a^6-2a^3b^2+b^4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar diferencia de cuadrados compuesta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-2-08",
+      "pregunta": "¿Qué términos se eliminan al multiplicar $(u+v)(u-v)$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.2",
+        "nombre": "Binomios conjugados"
+      },
+      "respuestas_posibles": {
+        "A": "Los cuadrados $u^2$ y $v^2$",
+        "B": "Solo el término $u^2$",
+        "C": "Ningún término",
+        "D": "Los términos cruzados $uv$ y $-uv$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "explicar cancelación en conjugados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-2-09",
+      "pregunta": "Calcule mentalmente $103\\cdot97$ usando conjugados.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.2",
+        "nombre": "Binomios conjugados"
+      },
+      "respuestas_posibles": {
+        "A": "$9997$",
+        "B": "$9409$",
+        "C": "$9991$",
+        "D": "$10000$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar conjugados numéricamente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-2-10",
+      "pregunta": "Simplifique $(4r-7s)(4r+7s)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.2",
+        "nombre": "Binomios conjugados"
+      },
+      "respuestas_posibles": {
+        "A": "$16r^2+56rs+49s^2$",
+        "B": "$16r^2-49s^2$",
+        "C": "$16r^2+49s^2$",
+        "D": "$8r^2-14s^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reconocer orden de conjugados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-3-01",
+      "pregunta": "Desarrolle $(x+8)(x+5)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.3",
+        "nombre": "Binomios con término común"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+13x+40$",
+        "B": "$x^2+40x+13$",
+        "C": "$x^2+3x+40$",
+        "D": "$x^2+13x+13$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "multiplicar binomios con término común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-3-02",
+      "pregunta": "Desarrolle $(x+9)(x-10)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.3",
+        "nombre": "Binomios con término común"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+19x-90$",
+        "B": "$x^2+x-90$",
+        "C": "$x^2-90$",
+        "D": "$x^2-x-90$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "usar suma y producto de constantes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-3-03",
+      "pregunta": "Desarrolle $(y-4)(y-7)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.3",
+        "nombre": "Binomios con término común"
+      },
+      "respuestas_posibles": {
+        "A": "$y^2+11y+28$",
+        "B": "$y^2-11y-28$",
+        "C": "$y^2-11y+28$",
+        "D": "$y^2-3y+28$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "multiplicar constantes negativas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-3-04",
+      "pregunta": "Desarrolle $(m+6)(m-2)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.3",
+        "nombre": "Binomios con término común"
+      },
+      "respuestas_posibles": {
+        "A": "$m^2+4m+12$",
+        "B": "$m^2+4m-12$",
+        "C": "$m^2+8m-12$",
+        "D": "$m^2-4m-12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "expandir binomios mixtos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-3-05",
+      "pregunta": "¿Cuál es el término lineal de $(x+a)(x+b)$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.3",
+        "nombre": "Binomios con término común"
+      },
+      "respuestas_posibles": {
+        "A": "$(a+b)x$",
+        "B": "$abx$",
+        "C": "$(a-b)x$",
+        "D": "$x^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer patrón de término común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-3-06",
+      "pregunta": "¿Cuál producto genera $x^2+7x+12$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.3",
+        "nombre": "Binomios con término común"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+2)(x+6)$",
+        "B": "$(x-3)(x-4)$",
+        "C": "$(x+1)(x+12)$",
+        "D": "$(x+3)(x+4)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "identificar factores por suma y producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-3-07",
+      "pregunta": "¿Cuál producto genera $x^2-2x-15$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.3",
+        "nombre": "Binomios con término común"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-5)(x-3)$",
+        "B": "$(x+5)(x+3)$",
+        "C": "$(x-5)(x+3)$",
+        "D": "$(x-3)(x+5)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "inferir factores con signos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-3-08",
+      "pregunta": "Desarrolle $(2x+3)(2x-5)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.3",
+        "nombre": "Binomios con término común"
+      },
+      "respuestas_posibles": {
+        "A": "$2x^2-4x-15$",
+        "B": "$4x^2-4x-15$",
+        "C": "$4x^2-2x-15$",
+        "D": "$4x^2+4x-15$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "usar término común no unitario",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-3-09",
+      "pregunta": "Si $(x+p)(x+q)=x^2+10x+21$, entonces $p$ y $q$ pueden ser:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.3",
+        "nombre": "Binomios con término común"
+      },
+      "respuestas_posibles": {
+        "A": "$3$ y $7$",
+        "B": "$1$ y $21$",
+        "C": "$5$ y $5$",
+        "D": "$-3$ y $-7$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "usar suma y producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-3-10",
+      "pregunta": "Desarrolle $(a^2+2)(a^2-6)$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.3",
+        "nombre": "Binomios con término común"
+      },
+      "respuestas_posibles": {
+        "A": "$a^4+8a^2-12$",
+        "B": "$a^4-4a^2+12$",
+        "C": "$a^2-4a-12$",
+        "D": "$a^4-4a^2-12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicar patrón con término común compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-4-01",
+      "pregunta": "Desarrolle $(x+2)^3$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.4",
+        "nombre": "Binomio al cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$x^3+3x^2+6x+8$",
+        "B": "$x^3-6x^2+12x-8$",
+        "C": "$x^3+6x^2+12x+8$",
+        "D": "$x^3+8$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "expandir suma al cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-4-02",
+      "pregunta": "Desarrolle $(x-3)^3$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.4",
+        "nombre": "Binomio al cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$x^3+9x^2+27x+27$",
+        "B": "$x^3-9x^2+27x-27$",
+        "C": "$x^3-27$",
+        "D": "$x^3-9x^2-27x-27$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "expandir diferencia al cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-4-03",
+      "pregunta": "Desarrolle $(2m-3n)^3$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.4",
+        "nombre": "Binomio al cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$8m^3-36m^2n+54mn^2-27n^3$",
+        "B": "$8m^3-27n^3$",
+        "C": "$8m^3-18m^2n+27mn^2-27n^3$",
+        "D": "$8m^3+36m^2n+54mn^2+27n^3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "expandir cubo bivariado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-4-04",
+      "pregunta": "Desarrolle $(a+4)^3$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.4",
+        "nombre": "Binomio al cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$a^3+4a^2+16a+64$",
+        "B": "$a^3+64$",
+        "C": "$a^3-12a^2+48a-64$",
+        "D": "$a^3+12a^2+48a+64$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "usar coeficientes 1 3 3 1",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-4-05",
+      "pregunta": "¿Cuál es el segundo término de $(p+q)^3$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.4",
+        "nombre": "Binomio al cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$p^2q$",
+        "B": "$q^3$",
+        "C": "$3p^2q$",
+        "D": "$3pq^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar estructura cúbica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-4-06",
+      "pregunta": "¿Cuál es el tercer término de $(p-q)^3$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.4",
+        "nombre": "Binomio al cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$-q^3$",
+        "B": "$3pq^2$",
+        "C": "$-3pq^2$",
+        "D": "$3p^2q$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "controlar signos del cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-4-07",
+      "pregunta": "Complete: $(y-2)^3=y^3-6y^2+\\_\\_\\_-8$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.4",
+        "nombre": "Binomio al cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$12y$",
+        "B": "$4y$",
+        "C": "$-12y$",
+        "D": "$8y$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "completar expansión cúbica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-4-08",
+      "pregunta": "¿Cuál expansión corresponde a $(a-b)^3$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.4",
+        "nombre": "Binomio al cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$a^3-3a^2b-3ab^2-b^3$",
+        "B": "$a^3-b^3$",
+        "C": "$a^3+3a^2b+3ab^2+b^3$",
+        "D": "$a^3-3a^2b+3ab^2-b^3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reconocer identidad cúbica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-4-09",
+      "pregunta": "Desarrolle $(3x+1)^3$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.4",
+        "nombre": "Binomio al cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$9x^3+9x^2+3x+1$",
+        "B": "$27x^3+9x^2+3x+1$",
+        "C": "$27x^3+27x^2+9x+1$",
+        "D": "$27x^3+1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "expandir cubo con coeficiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-4-10",
+      "pregunta": "Si $(x+k)^3=x^3+15x^2+75x+125$, ¿cuánto vale $k$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.4",
+        "nombre": "Binomio al cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$25$",
+        "B": "$5$",
+        "C": "$3$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "inferir término del binomio cúbico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-5-01",
+      "pregunta": "Desarrolle $(a+1)^4$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.5",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$a^4+4a^3+6a^2+4a+1$",
+        "B": "$a^4+a^3+a^2+a+1$",
+        "C": "$a^4+4a^3+4a^2+4a+1$",
+        "D": "$a^4+1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "usar coeficientes binomiales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-5-02",
+      "pregunta": "¿Cuáles son los coeficientes de $(a+b)^4$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.5",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$1,3,3,1$",
+        "B": "$1,5,10,10,5,1$",
+        "C": "$1,4,4,4,1$",
+        "D": "$1,4,6,4,1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "usar triángulo de Pascal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-5-03",
+      "pregunta": "Desarrolle $(x+2)^4$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.5",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$x^4+8x^3+16x^2+32x+16$",
+        "B": "$x^4+16$",
+        "C": "$x^4+8x^3+24x^2+32x+16$",
+        "D": "$x^4+2x^3+4x^2+8x+16$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "expandir potencia cuarta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-5-04",
+      "pregunta": "¿Cuál es el coeficiente de $x^3$ en $(x+2)^6$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.5",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$240$",
+        "B": "$160$",
+        "C": "$20$",
+        "D": "$80$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "hallar coeficiente específico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-5-05",
+      "pregunta": "¿Cuál es el cuarto término de $(x-2y)^5$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.5",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$-80x^2y^3$",
+        "B": "$80x^2y^3$",
+        "C": "$-40x^3y^2$",
+        "D": "$-32xy^4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "usar término general",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-5-06",
+      "pregunta": "¿Cuántos términos tiene la expansión de $(a+b)^7$ antes de combinar términos?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.5",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$14$",
+        "C": "$49$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "contar términos binomiales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-5-07",
+      "pregunta": "¿Cuál es el término general de $(a+b)^n$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.5",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$T_{k+1}=a^n+b^n$",
+        "B": "$T_k=\\binom{k}{n}a^nb^k$",
+        "C": "$T_{k+1}=\\binom{n}{k}a^{n-k}b^k$",
+        "D": "$T_k=na^kb^{n-k}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "reconocer fórmula de término general",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-5-08",
+      "pregunta": "Calcule $\\binom{6}{2}$.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.5",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$30$",
+        "B": "$15$",
+        "C": "$8$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular coeficiente binomial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-5-09",
+      "pregunta": "¿Cuál es el término independiente de $(2x+3)^4$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.5",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$81$",
+        "B": "$16$",
+        "C": "$24$",
+        "D": "$243$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "identificar término independiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-7-5-10",
+      "pregunta": "¿Cuál es el coeficiente del término $x^2y^2$ en $(x+y)^4$?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Productos notables y binomio de Newton",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "7.5",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$8$",
+        "C": "$12$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "identificar coeficiente central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

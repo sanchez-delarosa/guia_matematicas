@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>32. Aplicaciones de la línea recta · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte VI: Geometría analítica</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#modelo-lineal"><span class="num">32.1</span> Modelo lineal</a></li><li class="nivel-2"><a href="#construccion-de-un-modelo-lineal"><span class="num">32.2</span> Construcción de un modelo lineal</a></li><li class="nivel-2"><a href="#interpretacion-de-la-pendiente"><span class="num">32.3</span> Interpretación de la pendiente</a></li><li class="nivel-2"><a href="#modelo-a-partir-de-dos-puntos"><span class="num">32.4</span> Modelo a partir de dos puntos</a></li><li class="nivel-2"><a href="#representacion-grafica-de-un-modelo"><span class="num">32.5</span> Representación gráfica de un modelo</a></li><li class="nivel-2"><a href="#movimiento-rectilineo-uniforme"><span class="num">32.6</span> Movimiento rectilíneo uniforme</a></li><li class="nivel-2"><a href="#encuentro-de-dos-moviles"><span class="num">32.7</span> Encuentro de dos móviles</a></li><li class="nivel-2"><a href="#costos-ingresos-y-utilidad"><span class="num">32.8</span> Costos, ingresos y utilidad</a></li><li class="nivel-2"><a href="#punto-de-equilibrio"><span class="num">32.9</span> Punto de equilibrio</a></li><li class="nivel-2"><a href="#comparacion-de-planes"><span class="num">32.10</span> Comparación de planes</a></li><li class="nivel-2"><a href="#depreciacion-lineal"><span class="num">32.11</span> Depreciación lineal</a></li><li class="nivel-2"><a href="#conversiones-lineales"><span class="num">32.12</span> Conversiones lineales</a></li><li class="nivel-2"><a href="#intersecciones-con-los-ejes"><span class="num">32.13</span> Intersecciones con los ejes</a></li><li class="nivel-3"><a href="#interseccion-con-el-eje-vertical"><span class="num">32.13.1</span> Intersección con el eje vertical</a></li><li class="nivel-3"><a href="#interseccion-con-el-eje-horizontal"><span class="num">32.13.2</span> Intersección con el eje horizontal</a></li><li class="nivel-2"><a href="#dominio-del-modelo"><span class="num">32.14</span> Dominio del modelo</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">32.15</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#construccion-de-un-modelo">Construcción de un modelo</a></li><li class="nivel-3"><a href="#modelo-a-partir-de-dos-puntos-2">Modelo a partir de dos puntos</a></li><li class="nivel-3"><a href="#interseccion-de-modelos">Intersección de modelos</a></li><li class="nivel-2"><a href="#resumen"><span class="num">32.16</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">32.17</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">32.18</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 32</p><h1>Aplicaciones de la línea recta</h1></header>
+<p><span id="cap-aplicaciones-linea-recta" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span> <span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>La ecuación de una recta permite representar situaciones en las que una cantidad cambia a una razón constante respecto de otra.</p>
+<p>En este capítulo aprenderás a:</p>
+<ul><li>interpretar la pendiente en un problema;</li><li>construir modelos lineales;</li><li>calcular valores iniciales y razones de cambio;</li><li>resolver problemas de movimiento, costos y depreciación;</li><li>interpretar intersecciones de rectas;</li><li>calcular puntos de equilibrio.</li></ul>
+<h2 id="modelo-lineal"><span class="num">32.1</span> Modelo lineal<a class="enlace-seccion" href="#modelo-lineal" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una relación lineal puede expresarse mediante:</p>
+<div class="mate"><span class="mate-bloque">\[y=mx+b,\]</span></div>
+<p>donde:</p>
+<ul><li>\(x\) es la variable independiente;</li><li>\(y\) es la variable dependiente;</li><li>\(m\) es la pendiente o razón de cambio;</li><li>\(b\) es el valor inicial.</li></ul>
+<p>La pendiente indica cuánto cambia \(y\) cuando \(x\) aumenta una unidad:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{\Delta y}{\Delta x}.\]</span></div>
+<p>Si se conocen dos puntos:</p>
+<div class="mate"><span class="mate-bloque">\[(x_1,y_1) \qquad\text{y}\qquad (x_2,y_2),\]</span></div>
+<p>la pendiente es:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{y_2-y_1}{x_2-x_1}.\]</span></div>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:center"><strong>Elemento</strong></th><th style="text-align:left"><strong>Interpretación</strong></th></tr></thead><tbody><tr><td style="text-align:center">\(m&gt;0\)</td><td style="text-align:left">La cantidad aumenta</td></tr><tr><td style="text-align:center">\(m&lt;0\)</td><td style="text-align:left">La cantidad disminuye</td></tr><tr><td style="text-align:center">\(m=0\)</td><td style="text-align:left">La cantidad permanece constante</td></tr><tr><td style="text-align:center">\(b\)</td><td style="text-align:left">Valor de \(y\) cuando \(x=0\)</td></tr></tbody></table></div></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En una aplicación, la pendiente debe interpretarse con sus unidades.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[m=12\]</span></div>
+<p>puede significar:</p>
+<div class="mate"><span class="mate-bloque">\[12\text{ pesos por kilómetro},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[12\text{ litros por minuto}\]</span></div>
+<p>o:</p>
+<div class="mate"><span class="mate-bloque">\[12\text{ metros por segundo}.\]</span></div></div></section>
+<h2 id="construccion-de-un-modelo-lineal"><span class="num">32.2</span> Construcción de un modelo lineal<a class="enlace-seccion" href="#construccion-de-un-modelo-lineal" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para construir un modelo lineal:</p>
+<ol><li>identifica las variables;</li><li>determina la razón de cambio;</li><li>encuentra el valor inicial;</li><li>escribe: <span class="mate-bloque">\[y=mx+b;\]</span></li><li>verifica el modelo con los datos del problema.</li></ol>
+<section class="caja caja-ejemplo" id="ejemplo-32-1"><div class="caja-titulo">Ejemplo 32.1</div><div class="caja-cuerpo"><p>Un servicio de transporte cobra una tarifa inicial de:</p>
+<div class="mate"><span class="mate-bloque">\[\$35\]</span></div>
+<p>más:</p>
+<div class="mate"><span class="mate-bloque">\[\$12\]</span></div>
+<p>por cada kilómetro recorrido.</p>
+<p>Escribe una ecuación para el costo total.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea:</p>
+<div class="mate"><span class="mate-bloque">\[x=\text{número de kilómetros}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[C(x)=\text{costo total}.\]</span></div>
+<p>La tarifa por kilómetro es la pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m=12.\]</span></div>
+<p>La tarifa inicial es:</p>
+<div class="mate"><span class="mate-bloque">\[b=35.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[C(x)=12x+35.\]</span></div>
+<p>Para un recorrido de \(8\) kilómetros:</p>
+<div class="mate"><span class="mate-bloque">\[C(8) = 12(8)+35.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[C(8) = 96+35.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[C(8)=\$131.\]</span></div></div></details></div></section>
+<h2 id="interpretacion-de-la-pendiente"><span class="num">32.3</span> Interpretación de la pendiente<a class="enlace-seccion" href="#interpretacion-de-la-pendiente" aria-label="Enlace a esta sección">#</a></h2>
+<p>La pendiente representa una razón de cambio constante.</p>
+<section class="caja caja-ejemplo" id="ejemplo-32-2"><div class="caja-titulo">Ejemplo 32.2</div><div class="caja-cuerpo"><p>El volumen de agua de un recipiente está dado por:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=250-15t,\]</span></div>
+<p>donde \(V\) se mide en litros y \(t\) en minutos.</p>
+<p>Interpreta la pendiente y la ordenada al origen.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La pendiente es:</p>
+<div class="mate"><span class="mate-bloque">\[m=-15.\]</span></div>
+<p>Esto significa que el volumen disminuye a una razón de:</p>
+<div class="mate"><span class="mate-bloque">\[15\text{ litros por minuto}.\]</span></div>
+<p>La ordenada al origen es:</p>
+<div class="mate"><span class="mate-bloque">\[b=250.\]</span></div>
+<p>Esto significa que al inicio:</p>
+<div class="mate"><span class="mate-bloque">\[t=0,\]</span></div>
+<p>el recipiente contiene:</p>
+<div class="mate"><span class="mate-bloque">\[250\text{ litros}.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El signo de la pendiente forma parte de su interpretación.</p>
+<p>En el modelo:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=250-15t,\]</span></div>
+<p>la razón de cambio no es solamente \(15\), sino:</p>
+<div class="mate"><span class="mate-bloque">\[-15\text{ litros por minuto}.\]</span></div>
+<p>El signo negativo indica una disminución.</p></div></section>
+<h2 id="modelo-a-partir-de-dos-puntos"><span class="num">32.4</span> Modelo a partir de dos puntos<a class="enlace-seccion" href="#modelo-a-partir-de-dos-puntos" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si una relación lineal contiene los puntos:</p>
+<div class="mate"><span class="mate-bloque">\[(x_1,y_1)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[(x_2,y_2),\]</span></div>
+<p>primero se calcula la pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{y_2-y_1}{x_2-x_1}.\]</span></div>
+<p>Después se utiliza la forma punto-pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[y-y_1 = m(x-x_1).\]</span></div>
+<p>Finalmente, puede transformarse a la forma:</p>
+<div class="mate"><span class="mate-bloque">\[y=mx+b.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-32-3"><div class="caja-titulo">Ejemplo 32.3</div><div class="caja-cuerpo"><p>Una empresa produce \(40\) artículos con un costo total de:</p>
+<div class="mate"><span class="mate-bloque">\[\$2{,}600.\]</span></div>
+<p>Producir \(70\) artículos cuesta:</p>
+<div class="mate"><span class="mate-bloque">\[\$3{,}800.\]</span></div>
+<p>Suponiendo una relación lineal, encuentra la función de costo.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los puntos son:</p>
+<div class="mate"><span class="mate-bloque">\[(40,2600)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[(70,3800).\]</span></div>
+<p>Calculamos la pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{3800-2600}{70-40}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[m = \frac{1200}{30}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[m=40.\]</span></div>
+<p>La pendiente representa un costo variable de:</p>
+<div class="mate"><span class="mate-bloque">\[\$40\]</span></div>
+<p>por artículo.</p>
+<p>Utilizamos el punto \((40,2600)\):</p>
+<div class="mate"><span class="mate-bloque">\[C-2600 = 40(x-40).\]</span></div>
+<p>Desarrollamos:</p>
+<div class="mate"><span class="mate-bloque">\[C-2600 = 40x-1600.\]</span></div>
+<p>Despejamos:</p>
+<div class="mate"><span class="mate-bloque">\[C(x) = 40x+1000.\]</span></div>
+<p>El costo fijo es:</p>
+<div class="mate"><span class="mate-bloque">\[\$1{,}000.\]</span></div></div></details></div></section>
+<h2 id="representacion-grafica-de-un-modelo"><span class="num">32.5</span> Representación gráfica de un modelo<a class="enlace-seccion" href="#representacion-grafica-de-un-modelo" aria-label="Enlace a esta sección">#</a></h2>
+<p>En una gráfica lineal:</p>
+<ul><li>la pendiente indica la inclinación;</li><li>la ordenada al origen representa el valor inicial;</li><li>cada punto de la recta representa una pareja de valores que satisface el modelo.</li></ul>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-41a29caa02a4.svg" alt="Figura 32.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="movimiento-rectilineo-uniforme"><span class="num">32.6</span> Movimiento rectilíneo uniforme<a class="enlace-seccion" href="#movimiento-rectilineo-uniforme" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si un objeto se mueve con velocidad constante, su posición puede modelarse mediante:</p>
+<div class="mate"><span class="mate-bloque">\[d(t)=d_0+vt,\]</span></div>
+<p>donde:</p>
+<ul><li>\(d_0\) es la posición inicial;</li><li>\(v\) es la velocidad constante;</li><li>\(t\) es el tiempo;</li><li>\(d(t)\) es la posición en el tiempo \(t\).</li></ul>
+<section class="caja caja-ejemplo" id="ejemplo-32-4"><div class="caja-titulo">Ejemplo 32.4</div><div class="caja-cuerpo"><p>Un automóvil se encuentra a:</p>
+<div class="mate"><span class="mate-bloque">\[20\text{ km}\]</span></div>
+<p>de una ciudad y se aleja con velocidad constante de:</p>
+<div class="mate"><span class="mate-bloque">\[80\text{ km/h}.\]</span></div>
+<p>Escribe la función de posición y calcula su distancia después de \(2.5\) horas.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La posición inicial es:</p>
+<div class="mate"><span class="mate-bloque">\[d_0=20.\]</span></div>
+<p>La velocidad es:</p>
+<div class="mate"><span class="mate-bloque">\[v=80.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[d(t)=20+80t.\]</span></div>
+<p>Después de \(2.5\) horas:</p>
+<div class="mate"><span class="mate-bloque">\[d(2.5) = 20+80(2.5).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[d(2.5) = 20+200.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[d(2.5)=220\text{ km}.\]</span></div></div></details></div></section>
+<h2 id="encuentro-de-dos-moviles"><span class="num">32.7</span> Encuentro de dos móviles<a class="enlace-seccion" href="#encuentro-de-dos-moviles" aria-label="Enlace a esta sección">#</a></h2>
+<p>Dos objetos se encuentran cuando ocupan la misma posición en el mismo instante.</p>
+<p>Si sus posiciones son:</p>
+<div class="mate"><span class="mate-bloque">\[d_1(t)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[d_2(t),\]</span></div>
+<p>el momento del encuentro se obtiene resolviendo:</p>
+<div class="mate"><span class="mate-bloque">\[d_1(t)=d_2(t).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-32-5"><div class="caja-titulo">Ejemplo 32.5</div><div class="caja-cuerpo"><p>Dos ciudades están separadas por:</p>
+<div class="mate"><span class="mate-bloque">\[300\text{ km}.\]</span></div>
+<p>Un automóvil parte de la primera ciudad a:</p>
+<div class="mate"><span class="mate-bloque">\[80\text{ km/h},\]</span></div>
+<p>mientras otro parte simultáneamente de la segunda ciudad hacia la primera a:</p>
+<div class="mate"><span class="mate-bloque">\[70\text{ km/h}.\]</span></div>
+<p>Determina cuándo se encuentran.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Tomamos como origen la primera ciudad.</p>
+<p>La posición del primer automóvil es:</p>
+<div class="mate"><span class="mate-bloque">\[d_1(t)=80t.\]</span></div>
+<p>La posición del segundo es:</p>
+<div class="mate"><span class="mate-bloque">\[d_2(t)=300-70t.\]</span></div>
+<p>En el encuentro:</p>
+<div class="mate"><span class="mate-bloque">\[80t=300-70t.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[150t=300.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[t=2\text{ horas}.\]</span></div>
+<p>La posición del encuentro es:</p>
+<div class="mate"><span class="mate-bloque">\[d_1(2)=80(2)=160.\]</span></div>
+<p>Se encuentran después de:</p>
+<div class="mate"><span class="mate-bloque">\[2\text{ horas}\]</span></div>
+<p>a:</p>
+<div class="mate"><span class="mate-bloque">\[160\text{ km}\]</span></div>
+<p>de la primera ciudad.</p></div></details></div></section>
+<h2 id="costos-ingresos-y-utilidad"><span class="num">32.8</span> Costos, ingresos y utilidad<a class="enlace-seccion" href="#costos-ingresos-y-utilidad" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una función de costo lineal suele escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[C(x)=mx+b,\]</span></div>
+<p>donde:</p>
+<ul><li>\(b\) es el costo fijo;</li><li>\(m\) es el costo variable por unidad;</li><li>\(x\) es el número de unidades producidas.</li></ul>
+<p>Si cada unidad se vende a un precio \(p\), el ingreso es:</p>
+<div class="mate"><span class="mate-bloque">\[R(x)=px.\]</span></div>
+<p>La utilidad es:</p>
+<div class="mate"><span class="mate-bloque">\[U(x)=R(x)-C(x).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-32-6"><div class="caja-titulo">Ejemplo 32.6</div><div class="caja-cuerpo"><p>Una empresa tiene un costo fijo de:</p>
+<div class="mate"><span class="mate-bloque">\[\$15{,}000\]</span></div>
+<p>y un costo de producción de:</p>
+<div class="mate"><span class="mate-bloque">\[\$120\]</span></div>
+<p>por artículo.</p>
+<p>Cada artículo se vende en:</p>
+<div class="mate"><span class="mate-bloque">\[\$200.\]</span></div>
+<p>Encuentra las funciones de costo, ingreso y utilidad.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La función de costo es:</p>
+<div class="mate"><span class="mate-bloque">\[C(x)=120x+15000.\]</span></div>
+<p>La función de ingreso es:</p>
+<div class="mate"><span class="mate-bloque">\[R(x)=200x.\]</span></div>
+<p>La utilidad es:</p>
+<div class="mate"><span class="mate-bloque">\[U(x) = R(x)-C(x).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[U(x) = 200x-(120x+15000).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[U(x)=80x-15000.\]</span></div></div></details></div></section>
+<h2 id="punto-de-equilibrio"><span class="num">32.9</span> Punto de equilibrio<a class="enlace-seccion" href="#punto-de-equilibrio" aria-label="Enlace a esta sección">#</a></h2>
+<p>El punto de equilibrio ocurre cuando los ingresos son iguales a los costos:</p>
+<div class="mate"><span class="mate-bloque">\[R(x)=C(x).\]</span></div>
+<p>En ese punto:</p>
+<div class="mate"><span class="mate-bloque">\[U(x)=0.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-32-7"><div class="caja-titulo">Ejemplo 32.7</div><div class="caja-cuerpo"><p>Para la empresa anterior:</p>
+<div class="mate"><span class="mate-bloque">\[C(x)=120x+15000\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[R(x)=200x.\]</span></div>
+<p>Calcula el punto de equilibrio.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Igualamos costo e ingreso:</p>
+<div class="mate"><span class="mate-bloque">\[200x=120x+15000.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[80x=15000.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[x=187.5.\]</span></div>
+<p>Como no pueden venderse \(187.5\) artículos, la empresa debe vender al menos:</p>
+<div class="mate"><span class="mate-bloque">\[188\text{ artículos}\]</span></div>
+<p>para comenzar a obtener utilidad.</p>
+<p>El punto de equilibrio teórico corresponde a:</p>
+<div class="mate"><span class="mate-bloque">\[x=187.5.\]</span></div>
+<p>El costo y el ingreso en ese punto son:</p>
+<div class="mate"><span class="mate-bloque">\[R(187.5) = 200(187.5).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[R(187.5)=37500.\]</span></div>
+<p>Por tanto, el punto de equilibrio teórico es:</p>
+<div class="mate"><span class="mate-bloque">\[(187.5,37500).\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-d06e7bc2a5b7.svg" alt="Figura 32.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="comparacion-de-planes"><span class="num">32.10</span> Comparación de planes<a class="enlace-seccion" href="#comparacion-de-planes" aria-label="Enlace a esta sección">#</a></h2>
+<p>Cuando existen dos planes de pago, cada uno puede representarse con una recta.</p>
+<p>La intersección indica el valor para el cual ambos planes cuestan lo mismo.</p>
+<section class="caja caja-ejemplo" id="ejemplo-32-8"><div class="caja-titulo">Ejemplo 32.8</div><div class="caja-cuerpo"><p>Dos compañías de telefonía ofrecen los siguientes planes:</p>
+<div class="mate"><span class="mate-bloque">\[A(x)=250+1.50x,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[B(x)=400+0.75x,\]</span></div>
+<p>donde \(x\) es el número de minutos utilizados.</p>
+<p>Determina para cuántos minutos ambos planes cuestan lo mismo.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Igualamos:</p>
+<div class="mate"><span class="mate-bloque">\[250+1.50x = 400+0.75x.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1.50x-0.75x = 400-250.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[0.75x=150.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x=200.\]</span></div>
+<p>El costo común es:</p>
+<div class="mate"><span class="mate-bloque">\[A(200) = 250+1.50(200).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[A(200)=550.\]</span></div>
+<p>Los dos planes cuestan lo mismo al utilizar:</p>
+<div class="mate"><span class="mate-bloque">\[200\text{ minutos}.\]</span></div>
+<p>El costo común es:</p>
+<div class="mate"><span class="mate-bloque">\[\$550.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Antes del punto de intersección conviene un plan y después del punto de intersección puede convenir el otro.</p>
+<p>Para decidir cuál es más económico, puede evaluarse un valor a cada lado de la intersección.</p></div></section>
+<h2 id="depreciacion-lineal"><span class="num">32.11</span> Depreciación lineal<a class="enlace-seccion" href="#depreciacion-lineal" aria-label="Enlace a esta sección">#</a></h2>
+<p>La depreciación lineal supone que un objeto pierde el mismo valor en cada periodo.</p>
+<p>Si un objeto tiene valor inicial \(V_0\) y pierde \(d\) unidades monetarias por periodo:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=V_0-dt.\]</span></div>
+<p>La pendiente es negativa:</p>
+<div class="mate"><span class="mate-bloque">\[m=-d.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-32-9"><div class="caja-titulo">Ejemplo 32.9</div><div class="caja-cuerpo"><p>Una máquina cuesta inicialmente:</p>
+<div class="mate"><span class="mate-bloque">\[\$180{,}000\]</span></div>
+<p>y pierde:</p>
+<div class="mate"><span class="mate-bloque">\[\$15{,}000\]</span></div>
+<p>de valor cada año.</p>
+<p>Encuentra su valor después de \(6\) años.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El modelo es:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=180000-15000t.\]</span></div>
+<p>Evaluamos:</p>
+<div class="mate"><span class="mate-bloque">\[V(6) = 180000-15000(6).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[V(6) = 180000-90000.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[V(6)=\$90{,}000.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-32-10"><div class="caja-titulo">Ejemplo 32.10</div><div class="caja-cuerpo"><p>La función de valor de un automóvil es:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=320000-28000t.\]</span></div>
+<p>Determina cuándo alcanzará un valor de:</p>
+<div class="mate"><span class="mate-bloque">\[\$180{,}000.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Igualamos:</p>
+<div class="mate"><span class="mate-bloque">\[320000-28000t = 180000.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[140000 = 28000t.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[t=5.\]</span></div>
+<p>El automóvil alcanzará ese valor después de:</p>
+<div class="mate"><span class="mate-bloque">\[5\text{ años}.\]</span></div></div></details></div></section>
+<h2 id="conversiones-lineales"><span class="num">32.12</span> Conversiones lineales<a class="enlace-seccion" href="#conversiones-lineales" aria-label="Enlace a esta sección">#</a></h2>
+<p>Algunas conversiones entre escalas pueden representarse mediante una ecuación lineal.</p>
+<p>Un ejemplo es la conversión entre grados Celsius y Fahrenheit:</p>
+<div class="mate"><span class="mate-bloque">\[F = \frac95C+32.\]</span></div>
+<p>La pendiente es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac95.\]</span></div>
+<p>Esto significa que un aumento de:</p>
+<div class="mate"><span class="mate-bloque">\[5^\circ C\]</span></div>
+<p>corresponde a un aumento de:</p>
+<div class="mate"><span class="mate-bloque">\[9^\circ F.\]</span></div>
+<p>La ordenada al origen:</p>
+<div class="mate"><span class="mate-bloque">\[32\]</span></div>
+<p>indica que:</p>
+<div class="mate"><span class="mate-bloque">\[0^\circ C = 32^\circ F.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-32-11"><div class="caja-titulo">Ejemplo 32.11</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[25^\circ C\]</span></div>
+<p>a grados Fahrenheit.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[F = \frac95(25)+32.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[F = 45+32.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[25^\circ C = 77^\circ F.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-32-12"><div class="caja-titulo">Ejemplo 32.12</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[95^\circ F\]</span></div>
+<p>a grados Celsius.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Partimos de:</p>
+<div class="mate"><span class="mate-bloque">\[95 = \frac95C+32.\]</span></div>
+<p>Restamos \(32\):</p>
+<div class="mate"><span class="mate-bloque">\[63 = \frac95C.\]</span></div>
+<p>Multiplicamos por:</p>
+<div class="mate"><span class="mate-bloque">\[\frac59.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[C = 63 \left( \frac59 \right).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[C=35^\circ.\]</span></div></div></details></div></section>
+<h2 id="intersecciones-con-los-ejes"><span class="num">32.13</span> Intersecciones con los ejes<a class="enlace-seccion" href="#intersecciones-con-los-ejes" aria-label="Enlace a esta sección">#</a></h2>
+<p>En una aplicación, las intersecciones con los ejes pueden tener un significado concreto.</p>
+<h3 id="interseccion-con-el-eje-vertical"><span class="num">32.13.1</span> Intersección con el eje vertical<a class="enlace-seccion" href="#interseccion-con-el-eje-vertical" aria-label="Enlace a esta sección">#</a></h3>
+<p>Se obtiene haciendo:</p>
+<div class="mate"><span class="mate-bloque">\[x=0.\]</span></div>
+<p>En el modelo:</p>
+<div class="mate"><span class="mate-bloque">\[y=mx+b,\]</span></div>
+<p>la intersección es:</p>
+<div class="mate"><span class="mate-bloque">\[(0,b).\]</span></div>
+<p>Generalmente representa el valor inicial.</p>
+<h3 id="interseccion-con-el-eje-horizontal"><span class="num">32.13.2</span> Intersección con el eje horizontal<a class="enlace-seccion" href="#interseccion-con-el-eje-horizontal" aria-label="Enlace a esta sección">#</a></h3>
+<p>Se obtiene haciendo:</p>
+<div class="mate"><span class="mate-bloque">\[y=0.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[0=mx+b.\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[m\neq0,\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[x=-\frac{b}{m}.\]</span></div>
+<p>Puede representar el instante en que una cantidad se agota o alcanza el valor cero.</p>
+<section class="caja caja-ejemplo" id="ejemplo-32-13"><div class="caja-titulo">Ejemplo 32.13</div><div class="caja-cuerpo"><p>Un tanque contiene agua según el modelo:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=600-25t.\]</span></div>
+<p>Determina cuándo se vacía.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El tanque está vacío cuando:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=0.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[600-25t=0.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[25t=600.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[t=24.\]</span></div>
+<p>El tanque se vacía después de:</p>
+<div class="mate"><span class="mate-bloque">\[24\text{ minutos}.\]</span></div></div></details></div></section>
+<h2 id="dominio-del-modelo"><span class="num">32.14</span> Dominio del modelo<a class="enlace-seccion" href="#dominio-del-modelo" aria-label="Enlace a esta sección">#</a></h2>
+<p>Aunque una recta se extiende indefinidamente, un modelo aplicado puede tener un dominio limitado.</p>
+<p>En el ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=600-25t,\]</span></div>
+<p>el modelo físico solo tiene sentido mientras:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)\geq0.\]</span></div>
+<p>Como el tanque se vacía en \(24\) minutos, el dominio del modelo es:</p>
+<div class="mate"><span class="mate-bloque">\[0\leq t\leq24.\]</span></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>No todos los valores matemáticamente posibles tienen sentido en el contexto del problema.</p>
+<p>Por ejemplo:</p>
+<ul><li>el tiempo no suele ser negativo;</li><li>una cantidad de artículos debe ser entera;</li><li>un volumen no puede ser negativo;</li><li>una distancia física debe respetar el intervalo estudiado.</li></ul></div></section>
+<h2 id="procedimiento-rapido"><span class="num">32.15</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="construccion-de-un-modelo">Construcción de un modelo<a class="enlace-seccion" href="#construccion-de-un-modelo" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Define las variables.</li><li>Identifica la razón de cambio.</li><li>Determina el valor inicial.</li><li>Escribe: <span class="mate-bloque">\[y=mx+b.\]</span></li><li>Verifica las unidades.</li></ol>
+<h3 id="modelo-a-partir-de-dos-puntos-2">Modelo a partir de dos puntos<a class="enlace-seccion" href="#modelo-a-partir-de-dos-puntos-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Calcula: <span class="mate-bloque">\[m = \frac{y_2-y_1}{x_2-x_1}.\]</span></li><li>Utiliza: <span class="mate-bloque">\[y-y_1=m(x-x_1).\]</span></li><li>Despeja \(y\).</li><li>Interpreta \(m\) y \(b\).</li></ol>
+<h3 id="interseccion-de-modelos">Intersección de modelos<a class="enlace-seccion" href="#interseccion-de-modelos" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Escribe las dos funciones.</li><li>Iguala sus valores.</li><li>Resuelve la ecuación.</li><li>Sustituye para obtener la segunda coordenada.</li><li>Interpreta el resultado.</li></ol>
+<h2 id="resumen"><span class="num">32.16</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Modelo lineal:</p>
+<div class="mate"><span class="mate-bloque">\[y=mx+b.\]</span></div>
+<p>Pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{y_2-y_1}{x_2-x_1}.\]</span></div>
+<p>Forma punto-pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[y-y_1 = m(x-x_1).\]</span></div>
+<p>Movimiento uniforme:</p>
+<div class="mate"><span class="mate-bloque">\[d(t)=d_0+vt.\]</span></div>
+<p>Costo lineal:</p>
+<div class="mate"><span class="mate-bloque">\[C(x) = \text{costo variable} + \text{costo fijo}.\]</span></div>
+<p>Ingreso:</p>
+<div class="mate"><span class="mate-bloque">\[R(x)=px.\]</span></div>
+<p>Utilidad:</p>
+<div class="mate"><span class="mate-bloque">\[U(x)=R(x)-C(x).\]</span></div>
+<p>Punto de equilibrio:</p>
+<div class="mate"><span class="mate-bloque">\[R(x)=C(x).\]</span></div>
+<p>Depreciación lineal:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=V_0-dt.\]</span></div>
+<p>Conversión de temperatura:</p>
+<div class="mate"><span class="mate-bloque">\[F = \frac95C+32.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">32.17</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>La pendiente debe interpretarse con unidades.</li><li>El valor inicial corresponde generalmente a: <span class="mate-bloque">\[x=0.\]</span></li><li>Una pendiente negativa indica disminución.</li><li>Al calcular la pendiente debe conservarse el mismo orden en numerador y denominador.</li><li>El costo fijo no depende de la cantidad producida.</li><li>El ingreso no es lo mismo que la utilidad.</li><li>El punto de equilibrio ocurre cuando: <span class="mate-bloque">\[R(x)=C(x).\]</span></li><li>En problemas de movimiento, dos objetos se encuentran cuando tienen la misma posición al mismo tiempo.</li><li>El dominio debe respetar las restricciones del contexto.</li><li>Una relación aproximadamente lineal no tiene que pasar por todos los datos exactamente.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">32.18</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-32-1"><div class="caja-titulo">Ejercicio 32.1</div><div class="caja-cuerpo"><p>Un servicio de transporte cobra:</p>
+<div class="mate"><span class="mate-bloque">\[\$45\]</span></div>
+<p>de tarifa inicial y:</p>
+<div class="mate"><span class="mate-bloque">\[\$10\]</span></div>
+<p>por cada kilómetro recorrido.</p>
+<ol><li>Escribe la función de costo.</li><li>Calcula el costo de un recorrido de \(12\) kilómetros.</li><li>Interpreta la pendiente y la ordenada al origen.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea:</p>
+<div class="mate"><span class="mate-bloque">\[x=\text{número de kilómetros recorridos}.\]</span></div>
+<p>La tarifa inicial es:</p>
+<div class="mate"><span class="mate-bloque">\[\$45,\]</span></div>
+<p>y el costo por cada kilómetro es:</p>
+<div class="mate"><span class="mate-bloque">\[\$10.\]</span></div>
+<p>Por tanto, la función de costo es:</p>
+<div class="mate"><span class="mate-bloque">\[C(x)=10x+45.\]</span></div>
+<p>Para un recorrido de \(12\) kilómetros:</p>
+<div class="mate"><span class="mate-bloque">\[C(12) = 10(12)+45.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[C(12) = 120+45.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[C(12)=\$165.\]</span></div>
+<p>La pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m=10\]</span></div>
+<p>representa un costo de:</p>
+<div class="mate"><span class="mate-bloque">\[\$10\text{ por kilómetro}.\]</span></div>
+<p>La ordenada al origen:</p>
+<div class="mate"><span class="mate-bloque">\[b=45\]</span></div>
+<p>representa la tarifa inicial de:</p>
+<div class="mate"><span class="mate-bloque">\[\$45.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-32-2"><div class="caja-titulo">Ejercicio 32.2</div><div class="caja-cuerpo"><p>Un tanque contiene inicialmente:</p>
+<div class="mate"><span class="mate-bloque">\[900\text{ litros}\]</span></div>
+<p>y pierde:</p>
+<div class="mate"><span class="mate-bloque">\[30\text{ litros por minuto}.\]</span></div>
+<ol><li>Escribe la función del volumen.</li><li>Calcula el volumen después de \(18\) minutos.</li><li>Determina cuándo se vacía.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea:</p>
+<div class="mate"><span class="mate-bloque">\[t=\text{tiempo en minutos}.\]</span></div>
+<p>El volumen inicial es:</p>
+<div class="mate"><span class="mate-bloque">\[900\text{ litros}.\]</span></div>
+<p>Como el tanque pierde \(30\) litros por minuto, la pendiente es:</p>
+<div class="mate"><span class="mate-bloque">\[m=-30.\]</span></div>
+<p>La función del volumen es:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=900-30t.\]</span></div>
+<p>Después de \(18\) minutos:</p>
+<div class="mate"><span class="mate-bloque">\[V(18) = 900-30(18).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[V(18) = 900-540.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[V(18)=360\text{ litros}.\]</span></div>
+<p>El tanque se vacía cuando:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=0.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[900-30t=0.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[30t=900.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[t=30\text{ minutos}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-32-3"><div class="caja-titulo">Ejercicio 32.3</div><div class="caja-cuerpo"><p>Una cantidad lineal toma los valores:</p>
+<div class="mate"><span class="mate-bloque">\[(4,27)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[(10,63).\]</span></div>
+<p>Encuentra su ecuación en la forma:</p>
+<div class="mate"><span class="mate-bloque">\[y=mx+b.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los puntos son:</p>
+<div class="mate"><span class="mate-bloque">\[(4,27)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[(10,63).\]</span></div>
+<p>Calculamos la pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{63-27}{10-4}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[m = \frac{36}{6}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[m=6.\]</span></div>
+<p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[y=mx+b.\]</span></div>
+<p>Sustituimos el punto \((4,27)\):</p>
+<div class="mate"><span class="mate-bloque">\[27 = 6(4)+b.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[27 = 24+b.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[b=3.\]</span></div>
+<p>La ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[y=6x+3.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-32-4"><div class="caja-titulo">Ejercicio 32.4</div><div class="caja-cuerpo"><p>Una empresa produce \(50\) artículos con un costo de:</p>
+<div class="mate"><span class="mate-bloque">\[\$4{,}500.\]</span></div>
+<p>Producir \(90\) artículos cuesta:</p>
+<div class="mate"><span class="mate-bloque">\[\$6{,}900.\]</span></div>
+<p>Suponiendo una relación lineal:</p>
+<ol><li>encuentra la función de costo;</li><li>identifica el costo fijo;</li><li>identifica el costo variable por artículo.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los datos corresponden a los puntos:</p>
+<div class="mate"><span class="mate-bloque">\[(50,4500)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[(90,6900).\]</span></div>
+<p>Calculamos la pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{6900-4500}{90-50}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[m = \frac{2400}{40}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[m=60.\]</span></div>
+<p>La pendiente representa un costo variable de:</p>
+<div class="mate"><span class="mate-bloque">\[\$60\text{ por artículo}.\]</span></div>
+<p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[C(x)=60x+b.\]</span></div>
+<p>Sustituimos el punto \((50,4500)\):</p>
+<div class="mate"><span class="mate-bloque">\[4500 = 60(50)+b.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[4500 = 3000+b.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[b=1500.\]</span></div>
+<p>La función de costo es:</p>
+<div class="mate"><span class="mate-bloque">\[C(x)=60x+1500.\]</span></div>
+<p>El costo fijo es:</p>
+<div class="mate"><span class="mate-bloque">\[\$1{,}500.\]</span></div>
+<p>El costo variable es:</p>
+<div class="mate"><span class="mate-bloque">\[\$60\text{ por artículo}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-32-5"><div class="caja-titulo">Ejercicio 32.5</div><div class="caja-cuerpo"><p>Un automóvil se encuentra inicialmente a:</p>
+<div class="mate"><span class="mate-bloque">\[35\text{ km}\]</span></div>
+<p>de una ciudad y se aleja a velocidad constante de:</p>
+<div class="mate"><span class="mate-bloque">\[75\text{ km/h}.\]</span></div>
+<ol><li>Escribe la función de posición.</li><li>Calcula su distancia después de \(4\) horas.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea:</p>
+<div class="mate"><span class="mate-bloque">\[t=\text{tiempo en horas}.\]</span></div>
+<p>La posición inicial es:</p>
+<div class="mate"><span class="mate-bloque">\[35\text{ km},\]</span></div>
+<p>y la velocidad constante es:</p>
+<div class="mate"><span class="mate-bloque">\[75\text{ km/h}.\]</span></div>
+<p>Por tanto, la función de posición es:</p>
+<div class="mate"><span class="mate-bloque">\[d(t)=35+75t.\]</span></div>
+<p>Después de \(4\) horas:</p>
+<div class="mate"><span class="mate-bloque">\[d(4) = 35+75(4).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[d(4) = 35+300.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[d(4)=335\text{ km}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-32-6"><div class="caja-titulo">Ejercicio 32.6</div><div class="caja-cuerpo"><p>Dos ciudades están separadas por:</p>
+<div class="mate"><span class="mate-bloque">\[420\text{ km}.\]</span></div>
+<p>Dos automóviles parten simultáneamente uno hacia el otro con velocidades de:</p>
+<div class="mate"><span class="mate-bloque">\[90\text{ km/h}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[70\text{ km/h}.\]</span></div>
+<p>Determina:</p>
+<ol><li>cuánto tiempo tardan en encontrarse;</li><li>a qué distancia de la primera ciudad ocurre el encuentro.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Tomamos la primera ciudad como origen.</p>
+<p>La posición del primer automóvil es:</p>
+<div class="mate"><span class="mate-bloque">\[d_1(t)=90t.\]</span></div>
+<p>El segundo automóvil comienza a \(420\) kilómetros del origen y se desplaza hacia la primera ciudad. Su posición es:</p>
+<div class="mate"><span class="mate-bloque">\[d_2(t)=420-70t.\]</span></div>
+<p>Los automóviles se encuentran cuando:</p>
+<div class="mate"><span class="mate-bloque">\[d_1(t)=d_2(t).\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[90t = 420-70t.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[160t=420.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[t = \frac{420}{160}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[t = \frac{21}{8} = 2.625.\]</span></div>
+<p>Por tanto, tardan:</p>
+<div class="mate"><span class="mate-bloque">\[2.625\text{ horas}\]</span></div>
+<p>en encontrarse.</p>
+<p>Esta cantidad equivale a:</p>
+<div class="mate"><span class="mate-bloque">\[2\text{ horas y }37.5\text{ minutos}.\]</span></div>
+<p>La distancia desde la primera ciudad es:</p>
+<div class="mate"><span class="mate-bloque">\[d_1(2.625) = 90(2.625).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[d_1(2.625) = 236.25.\]</span></div>
+<p>Por tanto, se encuentran a:</p>
+<div class="mate"><span class="mate-bloque">\[236.25\text{ km}\]</span></div>
+<p>de la primera ciudad.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-32-7"><div class="caja-titulo">Ejercicio 32.7</div><div class="caja-cuerpo"><p>Una empresa tiene un costo fijo de:</p>
+<div class="mate"><span class="mate-bloque">\[\$20{,}000\]</span></div>
+<p>y un costo variable de:</p>
+<div class="mate"><span class="mate-bloque">\[\$150\]</span></div>
+<p>por artículo.</p>
+<p>Cada artículo se vende en:</p>
+<div class="mate"><span class="mate-bloque">\[\$250.\]</span></div>
+<ol><li>Escribe la función de costo.</li><li>Escribe la función de ingreso.</li><li>Escribe la función de utilidad.</li><li>Calcula el punto de equilibrio.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El costo fijo es:</p>
+<div class="mate"><span class="mate-bloque">\[\$20{,}000,\]</span></div>
+<p>y el costo variable es:</p>
+<div class="mate"><span class="mate-bloque">\[\$150\text{ por artículo}.\]</span></div>
+<p>La función de costo es:</p>
+<div class="mate"><span class="mate-bloque">\[C(x)=150x+20000.\]</span></div>
+<p>Cada artículo se vende en:</p>
+<div class="mate"><span class="mate-bloque">\[\$250.\]</span></div>
+<p>Por tanto, la función de ingreso es:</p>
+<div class="mate"><span class="mate-bloque">\[R(x)=250x.\]</span></div>
+<p>La utilidad es:</p>
+<div class="mate"><span class="mate-bloque">\[U(x) = R(x)-C(x).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[U(x) = 250x-(150x+20000).\]</span></div>
+<p>Simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[U(x)=100x-20000.\]</span></div>
+<p>En el punto de equilibrio:</p>
+<div class="mate"><span class="mate-bloque">\[R(x)=C(x).\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[250x = 150x+20000.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[100x=20000.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x=200.\]</span></div>
+<p>El costo y el ingreso correspondientes son:</p>
+<div class="mate"><span class="mate-bloque">\[R(200) = 250(200).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[R(200)=50000.\]</span></div>
+<p>El punto de equilibrio es:</p>
+<div class="mate"><span class="mate-bloque">\[(200,50000).\]</span></div>
+<p>La empresa debe vender:</p>
+<div class="mate"><span class="mate-bloque">\[200\text{ artículos}\]</span></div>
+<p>para cubrir exactamente sus costos.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-32-8"><div class="caja-titulo">Ejercicio 32.8</div><div class="caja-cuerpo"><p>Dos compañías ofrecen los planes:</p>
+<div class="mate"><span class="mate-bloque">\[A(x)=180+2.50x\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(x)=330+1.25x.\]</span></div>
+<p>Determina:</p>
+<ol><li>para qué valor de \(x\) ambos planes cuestan lo mismo;</li><li>cuál es el costo común;</li><li>cuál plan conviene para valores mayores que la intersección.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los planes son:</p>
+<div class="mate"><span class="mate-bloque">\[A(x)=180+2.50x\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B(x)=330+1.25x.\]</span></div>
+<p>Igualamos los costos:</p>
+<div class="mate"><span class="mate-bloque">\[180+2.50x = 330+1.25x.\]</span></div>
+<p>Restamos \(1.25x\) en ambos lados:</p>
+<div class="mate"><span class="mate-bloque">\[180+1.25x = 330.\]</span></div>
+<p>Restamos \(180\):</p>
+<div class="mate"><span class="mate-bloque">\[1.25x=150.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x = \frac{150}{1.25}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[x=120.\]</span></div>
+<p>Calculamos el costo común:</p>
+<div class="mate"><span class="mate-bloque">\[A(120) = 180+2.50(120).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[A(120) = 180+300.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[A(120)=480.\]</span></div>
+<p>Verificamos con el segundo plan:</p>
+<div class="mate"><span class="mate-bloque">\[B(120) = 330+1.25(120).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[B(120) = 330+150.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[B(120)=480.\]</span></div>
+<p>Ambos planes cuestan lo mismo cuando:</p>
+<div class="mate"><span class="mate-bloque">\[x=120.\]</span></div>
+<p>El costo común es:</p>
+<div class="mate"><span class="mate-bloque">\[\$480.\]</span></div>
+<p>Para valores mayores que \(120\), conviene el plan \(B\), porque su pendiente es menor:</p>
+<div class="mate"><span class="mate-bloque">\[1.25&lt;2.50.\]</span></div>
+<p>Esto significa que el costo adicional por unidad de consumo es menor en el plan \(B\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-32-9"><div class="caja-titulo">Ejercicio 32.9</div><div class="caja-cuerpo"><p>Una computadora cuesta inicialmente:</p>
+<div class="mate"><span class="mate-bloque">\[\$36{,}000\]</span></div>
+<p>y pierde:</p>
+<div class="mate"><span class="mate-bloque">\[\$4{,}500\]</span></div>
+<p>de valor cada año.</p>
+<ol><li>Escribe la función de depreciación.</li><li>Calcula su valor después de \(5\) años.</li><li>Determina cuándo alcanzará un valor de \(\$9{,}000\).</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El valor inicial de la computadora es:</p>
+<div class="mate"><span class="mate-bloque">\[\$36{,}000.\]</span></div>
+<p>La computadora pierde:</p>
+<div class="mate"><span class="mate-bloque">\[\$4{,}500\]</span></div>
+<p>cada año.</p>
+<p>Por tanto, la función de depreciación es:</p>
+<div class="mate"><span class="mate-bloque">\[V(t)=36000-4500t.\]</span></div>
+<p>Después de \(5\) años:</p>
+<div class="mate"><span class="mate-bloque">\[V(5) = 36000-4500(5).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[V(5) = 36000-22500.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[V(5)=\$13{,}500.\]</span></div>
+<p>Para determinar cuándo alcanzará un valor de \(\$9{,}000\):</p>
+<div class="mate"><span class="mate-bloque">\[36000-4500t = 9000.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[27000 = 4500t.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[t=6.\]</span></div>
+<p>La computadora alcanzará un valor de:</p>
+<div class="mate"><span class="mate-bloque">\[\$9{,}000\]</span></div>
+<p>después de:</p>
+<div class="mate"><span class="mate-bloque">\[6\text{ años}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-32-10"><div class="caja-titulo">Ejercicio 32.10</div><div class="caja-cuerpo"><p>Utiliza:</p>
+<div class="mate"><span class="mate-bloque">\[F = \frac95C+32.\]</span></div>
+<p>Convierte:</p>
+<ol><li>\(30^\circ C\) a grados Fahrenheit;</li><li>\(68^\circ F\) a grados Celsius.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La fórmula de conversión es:</p>
+<div class="mate"><span class="mate-bloque">\[F = \frac95C+32.\]</span></div>
+<p>Para convertir:</p>
+<div class="mate"><span class="mate-bloque">\[30^\circ C\]</span></div>
+<p>a grados Fahrenheit:</p>
+<div class="mate"><span class="mate-bloque">\[F = \frac95(30)+32.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[F = 54+32.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[30^\circ C = 86^\circ F.\]</span></div>
+<p>Para convertir:</p>
+<div class="mate"><span class="mate-bloque">\[68^\circ F\]</span></div>
+<p>a grados Celsius, sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[68 = \frac95C+32.\]</span></div>
+<p>Restamos \(32\):</p>
+<div class="mate"><span class="mate-bloque">\[36 = \frac95C.\]</span></div>
+<p>Multiplicamos por:</p>
+<div class="mate"><span class="mate-bloque">\[\frac59.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[C = 36 \left( \frac59 \right).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[68^\circ F = 20^\circ C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-32-11"><div class="caja-titulo">Ejercicio 32.11</div><div class="caja-cuerpo"><p>La temperatura de una sustancia disminuye linealmente. A los \(2\) minutos es:</p>
+<div class="mate"><span class="mate-bloque">\[86^\circ C,\]</span></div>
+<p>y a los \(8\) minutos es:</p>
+<div class="mate"><span class="mate-bloque">\[62^\circ C.\]</span></div>
+<ol><li>Encuentra la función de temperatura.</li><li>Interpreta la pendiente.</li><li>Calcula la temperatura a los \(12\) minutos.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los datos corresponden a los puntos:</p>
+<div class="mate"><span class="mate-bloque">\[(2,86)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[(8,62).\]</span></div>
+<p>Calculamos la pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{62-86}{8-2}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[m = \frac{-24}{6}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[m=-4.\]</span></div>
+<p>La pendiente indica que la temperatura disminuye:</p>
+<div class="mate"><span class="mate-bloque">\[4^\circ C\]</span></div>
+<p>por minuto.</p>
+<p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[T(t)=mt+b.\]</span></div>
+<p>Sustituimos el punto \((2,86)\):</p>
+<div class="mate"><span class="mate-bloque">\[86 = -4(2)+b.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[86 = -8+b.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[b=94.\]</span></div>
+<p>La función de temperatura es:</p>
+<div class="mate"><span class="mate-bloque">\[T(t)=94-4t.\]</span></div>
+<p>A los \(12\) minutos:</p>
+<div class="mate"><span class="mate-bloque">\[T(12) = 94-4(12).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[T(12) = 94-48.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[T(12)=46^\circ C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-32-12"><div class="caja-titulo">Ejercicio 32.12</div><div class="caja-cuerpo"><p>Una empresa registra los siguientes datos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|ccccc} x &amp; 10 &amp; 20 &amp; 30 &amp; 40 &amp; 50\\ \hline y &amp; 125 &amp; 205 &amp; 285 &amp; 365 &amp; 445 \end{array}\]</span></div>
+<ol><li>Verifica que la relación es lineal.</li><li>Encuentra la pendiente.</li><li>Determina la ecuación.</li><li>Calcula el valor correspondiente a \(x=75\).</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los datos son:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|ccccc} x &amp; 10 &amp; 20 &amp; 30 &amp; 40 &amp; 50\\ \hline y &amp; 125 &amp; 205 &amp; 285 &amp; 365 &amp; 445 \end{array}\]</span></div>
+<p>Cuando \(x\) aumenta en:</p>
+<div class="mate"><span class="mate-bloque">\[10,\]</span></div>
+<p>el valor de \(y\) aumenta en:</p>
+<div class="mate"><span class="mate-bloque">\[80.\]</span></div>
+<p>Como la diferencia es constante, la relación es lineal.</p>
+<p>La pendiente es:</p>
+<div class="mate"><span class="mate-bloque">\[m = \frac{80}{10}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[m=8.\]</span></div>
+<p>Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[y=8x+b.\]</span></div>
+<p>Sustituimos el punto \((10,125)\):</p>
+<div class="mate"><span class="mate-bloque">\[125 = 8(10)+b.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[125 = 80+b.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[b=45.\]</span></div>
+<p>La ecuación es:</p>
+<div class="mate"><span class="mate-bloque">\[y=8x+45.\]</span></div>
+<p>Para:</p>
+<div class="mate"><span class="mate-bloque">\[x=75,\]</span></div>
+<p>calculamos:</p>
+<div class="mate"><span class="mate-bloque">\[y = 8(75)+45.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[y = 600+45.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[y=645.\]</span></div></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="31-la-recta.html"><span>← Anterior</span>31. La recta</a><a class="nav-siguiente" href="33-circunferencia.html"><span>Siguiente →</span>33. Circunferencia</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>10. Ecuaciones de primer grado · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte II: Álgebra</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#conceptos-basicos"><span class="num">10.1</span> Conceptos básicos</a></li><li class="nivel-2"><a href="#despejes"><span class="num">10.2</span> Despejes</a></li><li class="nivel-2"><a href="#ecuaciones-de-primer-grado"><span class="num">10.3</span> Ecuaciones de primer grado</a></li><li class="nivel-2"><a href="#clasificacion-segun-el-numero-de-soluciones"><span class="num">10.4</span> Clasificación según el número de soluciones</a></li><li class="nivel-2"><a href="#ecuaciones-con-denominadores"><span class="num">10.5</span> Ecuaciones con denominadores</a></li><li class="nivel-2"><a href="#problemas-de-aplicacion"><span class="num">10.6</span> Problemas de aplicación</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">10.7</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 10</p><h1>Ecuaciones de primer grado</h1></header>
+<p><span id="cap-ecuaciones-primer-grado" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Una ecuación expresa una igualdad entre dos expresiones algebraicas y contiene una o más cantidades desconocidas. Resolverla consiste en determinar los valores que hacen verdadera la igualdad. En este capítulo estudiarás las propiedades que permiten transformar una ecuación, realizar despejes, resolver ecuaciones de primer grado y plantear modelos algebraicos para problemas contextualizados.</p>
+<h2 id="conceptos-basicos"><span class="num">10.1</span> Conceptos básicos<a class="enlace-seccion" href="#conceptos-basicos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>ecuación</strong> es una igualdad entre dos expresiones algebraicas que contiene al menos una incógnita. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[3x+5=14.\]</span></div>
+<p>Cada expresión situada a un lado del signo de igualdad se denomina <strong>miembro</strong> de la ecuación. El valor de la incógnita que hace verdadera la igualdad se llama <strong>solución</strong> de la ecuación.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-1"><div class="caja-titulo">Ejemplo 10.1</div><div class="caja-cuerpo"><p>Verifica si \(x=3\) es solución de la ecuación</p>
+<div class="mate"><span class="mate-bloque">\[3x+5=14.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos \(x=3\) en el primer miembro:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x+5 &amp;=3(3)+5\\ &amp;=9+5\\ &amp;=14. \end{aligned}\]</span></div>
+<p>Como ambos miembros tienen el mismo valor, \(x=3\) es solución de la ecuación.</p></div></details></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>identidad</strong> es una igualdad que se cumple para todos los valores de la variable para los cuales las expresiones están definidas. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[(x+1)^2 = x^2+2x+1.\]</span></div>
+<p>En cambio, una <strong>ecuación condicional</strong> solo se cumple para determinados valores de la variable. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[3x+5=14\]</span></div>
+<p>únicamente se cumple cuando \(x=3\).</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Dos ecuaciones son <strong>equivalentes</strong> si tienen exactamente el mismo conjunto de soluciones.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[2x+4=10\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[2x=6\]</span></div>
+<p>son equivalentes, pues ambas tienen como única solución \(x=3\).</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades de la igualdad</div><div class="caja-cuerpo"><p>Sean \(a,b,c\in\R\).</p>
+<ul><li><strong>Propiedad reflexiva</strong> <span class="mate-bloque">\[a=a.\]</span></li><li><p><strong>Propiedad simétrica</strong></p>
+<p>Si \(a=b\), entonces: <span class="mate-bloque">\[b=a.\]</span></p></li><li><p><strong>Propiedad transitiva</strong></p>
+<p>Si \(a=b\) y \(b=c\), entonces: <span class="mate-bloque">\[a=c.\]</span></p></li><li><p><strong>Propiedad aditiva</strong></p>
+<p>Si \(a=b\), entonces: <span class="mate-bloque">\[a+c=b+c.\]</span></p></li><li><p><strong>Propiedad multiplicativa</strong></p>
+<p>Si \(a=b\), entonces: <span class="mate-bloque">\[ac=bc.\]</span></p></li><li><p><strong>Propiedad de la división</strong></p>
+<p>Si \(a=b\) y \(c\neq 0\), entonces: <span class="mate-bloque">\[\frac{a}{c} = \frac{b}{c}.\]</span></p></li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La expresión informal “pasar un término al otro miembro cambiando su signo” resume la aplicación de la misma operación en ambos miembros.</p>
+<p>Por ejemplo, en:</p>
+<div class="mate"><span class="mate-bloque">\[x+5=12,\]</span></div>
+<p>se resta \(5\) en ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x+5-5 &amp;=12-5,\\ x &amp;=7. \end{aligned}\]</span></div>
+<p>Del mismo modo, “pasar un factor dividiendo” significa dividir ambos miembros entre el mismo número distinto de cero.</p></div></section>
+<h2 id="despejes"><span class="num">10.2</span> Despejes<a class="enlace-seccion" href="#despejes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p><strong>Despejar</strong> una variable consiste en aislarla en uno de los miembros de una fórmula o ecuación y expresarla en términos de las demás cantidades.</p>
+<p>Para conservar la igualdad, toda operación aplicada en un miembro debe aplicarse también en el otro.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-2"><div class="caja-titulo">Ejemplo 10.2</div><div class="caja-cuerpo"><p>Despeja \(h\) de la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[V=\frac{\pi r^2h}{3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos ambos miembros por \(3\):</p>
+<div class="mate"><span class="mate-bloque">\[3V=\pi r^2h.\]</span></div>
+<p>Después dividimos entre \(\pi r^2\). Esta operación requiere \(r\neq 0\):</p>
+<div class="mate"><span class="mate-bloque">\[h = \frac{3V}{\pi r^2}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-3"><div class="caja-titulo">Ejemplo 10.3</div><div class="caja-cuerpo"><p>Despeja \(a\) de la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[V_f^2=V_0^2+2ad.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Restamos \(V_0^2\) en ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[V_f^2-V_0^2 = 2ad.\]</span></div>
+<p>Dividimos entre \(2d\), suponiendo que \(d\neq 0\):</p>
+<div class="mate"><span class="mate-bloque">\[a = \frac{V_f^2-V_0^2}{2d}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-4"><div class="caja-titulo">Ejemplo 10.4</div><div class="caja-cuerpo"><p>Despeja \(r\) de la fórmula del área de un círculo:</p>
+<div class="mate"><span class="mate-bloque">\[A=\pi r^2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Dividimos entre \(\pi\):</p>
+<div class="mate"><span class="mate-bloque">\[r^2 = \frac{A}{\pi}.\]</span></div>
+<p>Al resolver algebraicamente la ecuación, se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[r = \pm\sqrt{\frac{A}{\pi}}.\]</span></div>
+<p>Sin embargo, como \(r\) representa una longitud, debe cumplirse \(r\geq 0\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[r = \sqrt{\frac{A}{\pi}}.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La operación inversa debe aplicarse con atención a sus condiciones. Por ejemplo, de una igualdad de la forma</p>
+<div class="mate"><span class="mate-bloque">\[x^2=a\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[x=\pm\sqrt{a},\]</span></div>
+<p>si \(a\geq 0\). El signo depende del significado de la variable y del dominio del problema. Si la variable representa una longitud, puede ser necesario conservar únicamente la solución no negativa.</p></div></section>
+<h2 id="ecuaciones-de-primer-grado"><span class="num">10.3</span> Ecuaciones de primer grado<a class="enlace-seccion" href="#ecuaciones-de-primer-grado" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>ecuación de primer grado con una incógnita</strong> puede reducirse a la forma:</p>
+<div class="mate"><span class="mate-bloque">\[ax+b=0, \qquad a\neq 0.\]</span></div>
+<p>Su única solución es:</p>
+<div class="mate"><span class="mate-bloque">\[x=-\frac{b}{a}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Procedimiento general</div><div class="caja-cuerpo"><p>Para resolver una ecuación de primer grado puede seguirse este procedimiento:</p>
+<ol><li>eliminar los signos de agrupación mediante las propiedades distributivas correspondientes;</li><li>eliminar los denominadores, si los hay, multiplicando todos los términos por un denominador común;</li><li>reducir los términos semejantes en cada miembro;</li><li>reunir los términos que contienen la incógnita en un miembro y los términos constantes en el otro;</li><li>despejar la incógnita;</li><li>comprobar la solución en la ecuación original.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-5"><div class="caja-titulo">Ejemplo 10.5</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[6x-7=3x+2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Restamos \(3x\) en ambos miembros y sumamos \(7\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 6x-3x &amp;=2+7,\\ 3x &amp;=9,\\ x &amp;=3. \end{aligned}\]</span></div>
+<p>Comprobamos el resultado:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 6(3)-7 &amp;=18-7 =11,\\ 3(3)+2 &amp;=9+2 =11. \end{aligned}\]</span></div>
+<p>Por tanto, la solución es:</p>
+<div class="mate"><span class="mate-bloque">\[x=3.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-6"><div class="caja-titulo">Ejemplo 10.6</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[7-4x+2x=9+3x+8.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Reducimos los términos semejantes en cada miembro:</p>
+<div class="mate"><span class="mate-bloque">\[7-2x = 17+3x.\]</span></div>
+<p>Reunimos los términos con \(x\) en el primer miembro y los términos constantes en el segundo:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} -2x-3x &amp;=17-7,\\ -5x &amp;=10,\\ x &amp;=-2. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-7"><div class="caja-titulo">Ejemplo 10.7</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[4x-(3+5x)=2(x-1)+1.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Eliminamos los signos de agrupación:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 4x-3-5x &amp;=2x-2+1. \end{aligned}\]</span></div>
+<p>Reducimos los términos semejantes:</p>
+<div class="mate"><span class="mate-bloque">\[-x-3 = 2x-1.\]</span></div>
+<p>Reunimos los términos con \(x\) y las constantes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} -x-2x &amp;=-1+3,\\ -3x &amp;=2,\\ x &amp;=-\frac{2}{3}. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="clasificacion-segun-el-numero-de-soluciones"><span class="num">10.4</span> Clasificación según el número de soluciones<a class="enlace-seccion" href="#clasificacion-segun-el-numero-de-soluciones" aria-label="Enlace a esta sección">#</a></h2>
+<p>Al simplificar una ecuación aparentemente lineal, la variable puede eliminarse. En ese caso, es necesario interpretar la igualdad que queda.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Número de soluciones</div><div class="caja-cuerpo"><p>Una ecuación de primer grado puede presentar alguno de los siguientes casos:</p>
+<ul><li>Si se obtiene una igualdad verdadera, como <span class="mate-bloque">\[0=0,\]</span> la ecuación es una identidad y tiene infinitas soluciones dentro de su dominio.</li><li>Si se obtiene una igualdad falsa, como <span class="mate-bloque">\[0=5,\]</span> la ecuación no tiene solución.</li><li>Si se obtiene una igualdad de la forma <span class="mate-bloque">\[ax=b, \qquad a\neq 0,\]</span> la ecuación tiene una única solución.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-8"><div class="caja-titulo">Ejemplo 10.8</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[3(x+2)=3x+6.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la propiedad distributiva:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x+6 &amp;=3x+6. \end{aligned}\]</span></div>
+<p>Al restar \(3x+6\) en ambos miembros, obtenemos:</p>
+<div class="mate"><span class="mate-bloque">\[0=0.\]</span></div>
+<p>La igualdad es verdadera para todo número real. Por tanto, la ecuación tiene infinitas soluciones:</p>
+<div class="mate"><span class="mate-bloque">\[x\in\R.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-9"><div class="caja-titulo">Ejemplo 10.9</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[2(x+3)=2x+8.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la propiedad distributiva:</p>
+<div class="mate"><span class="mate-bloque">\[2x+6 = 2x+8.\]</span></div>
+<p>Restamos \(2x\) en ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[6=8.\]</span></div>
+<p>Como esta igualdad es falsa, la ecuación no tiene solución.</p></div></details></div></section>
+<h2 id="ecuaciones-con-denominadores"><span class="num">10.5</span> Ecuaciones con denominadores<a class="enlace-seccion" href="#ecuaciones-con-denominadores" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Eliminación de denominadores</div><div class="caja-cuerpo"><p>Para resolver una ecuación que contiene fracciones:</p>
+<ol><li>se identifican los valores que anulan los denominadores y se excluyen del dominio;</li><li>se determina un denominador común;</li><li>se multiplica cada término de la ecuación por ese denominador;</li><li>se resuelve la ecuación resultante;</li><li>se comprueba que las soluciones pertenezcan al dominio de la ecuación original.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-10"><div class="caja-titulo">Ejemplo 10.10</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x}{4} + \frac{2}{3} = x-\frac{1}{6}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El mínimo común múltiplo de \(4\), \(3\) y \(6\) es \(12\). Multiplicamos cada término por \(12\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 12\left(\frac{x}{4}\right) + 12\left(\frac{2}{3}\right) &amp;= 12x - 12\left(\frac{1}{6}\right),\\ 3x+8 &amp;=12x-2. \end{aligned}\]</span></div>
+<p>Reunimos los términos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x-12x &amp;=-2-8,\\ -9x &amp;=-10,\\ x &amp;=\frac{10}{9}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-11"><div class="caja-titulo">Ejemplo 10.11</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{5}{2x}+3 = \frac{6}{x}-2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los denominadores contienen la variable, por lo que primero establecemos la restricción:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq 0.\]</span></div>
+<p>Multiplicamos cada término por \(2x\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2x\left(\frac{5}{2x}\right)+2x(3) &amp;= 2x\left(\frac{6}{x}\right)-2x(2),\\ 5+6x &amp;=12-4x. \end{aligned}\]</span></div>
+<p>Reunimos los términos semejantes:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 6x+4x &amp;=12-5,\\ 10x &amp;=7,\\ x &amp;=\frac{7}{10}. \end{aligned}\]</span></div>
+<p>Como \(\frac{7}{10}\neq 0\), la solución pertenece al dominio de la ecuación original.</p></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Multiplicar una ecuación por una expresión que contiene la variable puede introducir valores que no pertenecen al dominio original. Por esta razón, las restricciones deben establecerse antes de eliminar los denominadores.</p>
+<p>Todo valor que anule un denominador original debe descartarse. Este tipo de valor se denomina <strong>solución extraña</strong> o <strong>solución no válida</strong> de la ecuación original.</p></div></section>
+<h2 id="problemas-de-aplicacion"><span class="num">10.6</span> Problemas de aplicación<a class="enlace-seccion" href="#problemas-de-aplicacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Estrategia de resolución</div><div class="caja-cuerpo"><p>Para resolver un problema mediante una ecuación:</p>
+<ol><li>identifica los datos conocidos y la cantidad que se busca;</li><li>asigna una variable a la incógnita y define claramente qué representa;</li><li>expresa las demás cantidades en términos de esa variable;</li><li>traduce las relaciones del problema a una ecuación;</li><li>resuelve la ecuación;</li><li>comprueba el resultado y verifica que sea razonable dentro del contexto;</li><li>expresa la respuesta con sus unidades correspondientes.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-12"><div class="caja-titulo">Ejemplo 10.12</div><div class="caja-cuerpo"><p>La suma de dos números es \(47\) y el mayor excede al menor en \(7\). ¿Cuáles son los números?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) el número mayor. Entonces, el número menor es:</p>
+<div class="mate"><span class="mate-bloque">\[x-7.\]</span></div>
+<p>Como la suma de ambos es \(47\):</p>
+<div class="mate"><span class="mate-bloque">\[x+(x-7)=47.\]</span></div>
+<p>Resolvemos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2x-7 &amp;=47,\\ 2x &amp;=54,\\ x &amp;=27. \end{aligned}\]</span></div>
+<p>El número mayor es \(27\) y el menor es:</p>
+<div class="mate"><span class="mate-bloque">\[27-7=20.\]</span></div>
+<p>Comprobamos:</p>
+<div class="mate"><span class="mate-bloque">\[27+20=47.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-13"><div class="caja-titulo">Ejemplo 10.13</div><div class="caja-cuerpo"><p>Tres números enteros consecutivos suman \(78\). ¿Cuál es el mayor?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) el número mayor. Los otros dos números son:</p>
+<div class="mate"><span class="mate-bloque">\[x-1 \qquad\text{y}\qquad x-2.\]</span></div>
+<p>Planteamos la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[x+(x-1)+(x-2)=78.\]</span></div>
+<p>Resolvemos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x-3 &amp;=78,\\ 3x &amp;=81,\\ x &amp;=27. \end{aligned}\]</span></div>
+<p>El mayor de los tres números es \(27\). Los otros números son \(26\) y \(25\), y se verifica que:</p>
+<div class="mate"><span class="mate-bloque">\[25+26+27=78.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-10-14"><div class="caja-titulo">Ejemplo 10.14</div><div class="caja-cuerpo"><p>Actualmente, una persona tiene \(36\) años y otra tiene \(13\) años. ¿Dentro de cuántos años la edad de la primera será el doble de la edad de la segunda?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) el número de años que deben transcurrir. Dentro de \(x\) años, las edades serán:</p>
+<div class="mate"><span class="mate-bloque">\[36+x \qquad\text{y}\qquad 13+x.\]</span></div>
+<p>Planteamos la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[36+x = 2(13+x).\]</span></div>
+<p>Resolvemos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 36+x &amp;=26+2x,\\ 36-26 &amp;=2x-x,\\ x &amp;=10. \end{aligned}\]</span></div>
+<p>Dentro de \(10\) años, las edades serán \(46\) y \(23\) años. Como:</p>
+<div class="mate"><span class="mate-bloque">\[46=2(23),\]</span></div>
+<p>la respuesta es correcta.</p></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">10.7</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-10-1"><div class="caja-titulo">Ejercicio 10.1</div><div class="caja-cuerpo"><p>Resuelve y comprueba:</p>
+<div class="mate"><span class="mate-bloque">\[10x-5=8x+7.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[10x - 5 = 8x + 7 \Longrightarrow 10x - 8x = 7 + 5 \Longrightarrow 2x = 12 \Longrightarrow x = 6.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-10-2"><div class="caja-titulo">Ejercicio 10.2</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[12-3x+4x=9+10x+8.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Reducimos: <span class="mate-bloque">\[12 + x = 17 + 10x \Longrightarrow x - 10x = 17 - 12 \Longrightarrow -9x = 5 \Longrightarrow x = -\frac{5}{9}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-10-3"><div class="caja-titulo">Ejercicio 10.3</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[3(x-4)-2(3x-6) = 2x-(7x-1).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Eliminamos signos de agrupación: <span class="mate-bloque">\[3x - 12 - 6x + 12 = 2x - 7x + 1.\]</span> Reducimos: <span class="mate-bloque">\[-3x = -5x + 1 \Longrightarrow -3x + 5x = 1 \Longrightarrow 2x = 1 \Longrightarrow x = \frac{1}{2}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-10-4"><div class="caja-titulo">Ejercicio 10.4</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x}{3} - \frac{x-5}{4} = 2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>mcm\((3, 4) = 12\). Multiplicamos: <span class="mate-bloque">\[4x - 3(x - 5) = 24 \Longrightarrow 4x - 3x + 15 = 24 \Longrightarrow x = 9.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-10-5"><div class="caja-titulo">Ejercicio 10.5</div><div class="caja-cuerpo"><p>Resuelve e indica las restricciones:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2}{x} + \frac{1}{3} = \frac{5}{x}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos por \(3x\) (\(x \neq 0\)): <span class="mate-bloque">\[6 + x = 15 \Longrightarrow x = 9.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-10-6"><div class="caja-titulo">Ejercicio 10.6</div><div class="caja-cuerpo"><p>Despeja \(t\) de la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[d=vt+\frac{1}{2}at^2,\]</span></div>
+<p>suponiendo que \(a=0\) y \(v\neq 0\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Si \(a = 0\), la fórmula queda \(d = vt\). Despejamos \(t\): <span class="mate-bloque">\[t = \frac{d}{v}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-10-7"><div class="caja-titulo">Ejercicio 10.7</div><div class="caja-cuerpo"><p>La suma de dos números es \(8\) y el mayor es el triple del menor. ¿Cuál es el número mayor?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) el menor. El mayor es \(3x\). <span class="mate-bloque">\[x + 3x = 8 \Longrightarrow 4x = 8 \Longrightarrow x = 2.\]</span> El mayor es \(3(2) = 6\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-10-8"><div class="caja-titulo">Ejercicio 10.8</div><div class="caja-cuerpo"><p>Actualmente, Manuel tiene el doble de la edad de Fabián. Dentro de \(12\) años, Fabián tendrá \(9\) años menos que Manuel. ¿Qué edad tiene Manuel actualmente?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) la edad de Fabián. Manuel tiene \(2x\). Dentro de 12 años: <span class="mate-bloque">\[2x + 12 = (x + 12) + 9 \Longrightarrow 2x + 12 = x + 21 \Longrightarrow x = 9.\]</span> Fabián tiene 9 años y Manuel tiene 18.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-10-9"><div class="caja-titulo">Ejercicio 10.9</div><div class="caja-cuerpo"><p>Un rectángulo tiene un perímetro de \(40\ \text{cm}\) y su largo mide el triple de su ancho. ¿Cuáles son sus dimensiones?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(a\) el ancho. El largo es \(3a\). <span class="mate-bloque">\[2(3a) + 2a = 40 \Longrightarrow 8a = 40 \Longrightarrow a = 5.\]</span> Ancho: 5 cm. Largo: 15 cm.</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="09-fracciones-algebraicas.html"><span>← Anterior</span>9. Fracciones algebraicas</a><a class="nav-siguiente" href="11-ecuaciones-segundo-grado.html"><span>Siguiente →</span>11. Ecuaciones de segundo grado</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

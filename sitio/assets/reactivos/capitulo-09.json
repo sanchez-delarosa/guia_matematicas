@@ -1,0 +1,1603 @@
+{
+  "metadata": {
+    "capitulo": "9",
+    "titulo": "Fracciones algebraicas",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 6,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 60,
+    "secciones_incluidas": [
+      {
+        "codigo": "9.1",
+        "nombre": "Concepto y dominio"
+      },
+      {
+        "codigo": "9.2",
+        "nombre": "Simplificación"
+      },
+      {
+        "codigo": "9.3",
+        "nombre": "Multiplicación y división"
+      },
+      {
+        "codigo": "9.4",
+        "nombre": "Suma y resta"
+      },
+      {
+        "codigo": "9.5",
+        "nombre": "Fracciones algebraicas complejas"
+      },
+      {
+        "codigo": "9.6",
+        "nombre": "Ecuaciones con fracciones algebraicas"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Reactivos distintos y específicos por subtema, inspirados en la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-9-1-01",
+      "pregunta": "¿Para qué valor no está definida $\\frac{3}{x-5}$?",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Concepto y dominio"
+      },
+      "respuestas_posibles": {
+        "A": "$x=5$",
+        "B": "$x=-5$",
+        "C": "$x=0$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar restricción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-1-02",
+      "pregunta": "Determine el dominio de $\\frac{x+1}{x^2-9}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Concepto y dominio"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\neq9$",
+        "B": "$x\\neq3$ solamente",
+        "C": "$x\\neq-9$",
+        "D": "$x\\neq3$ y $x\\neq-3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "hallar ceros del denominador",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-1-03",
+      "pregunta": "¿Cuál expresión es una fracción algebraica?",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Concepto y dominio"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt{x}+1$",
+        "B": "$x^{-1}+3$",
+        "C": "$\\frac{x^2-1}{x+3}$",
+        "D": "$x^2-1+x+3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer fracción algebraica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-1-04",
+      "pregunta": "En $\\frac{2x-1}{x+4}$, el numerador es:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Concepto y dominio"
+      },
+      "respuestas_posibles": {
+        "A": "$x$",
+        "B": "$2x-1$",
+        "C": "$x+4$",
+        "D": "$2x+3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar componentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-1-05",
+      "pregunta": "¿Para qué valores está definida $\\frac{1}{x(x-2)}$?",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Concepto y dominio"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\neq0$ y $x\\neq2$",
+        "B": "$x>2$",
+        "C": "$x\\neq2$ solamente",
+        "D": "$x\\neq-2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "establecer restricciones múltiples",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-1-06",
+      "pregunta": "¿Cuál es la restricción de $\\frac{x}{x^2+1}$ en los reales?",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Concepto y dominio"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\neq1$",
+        "B": "$x\\neq-1$",
+        "C": "$x\\neq0$",
+        "D": "No tiene restricciones reales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar denominador sin ceros reales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-1-07",
+      "pregunta": "Si $x=-2$, ¿está definida $\\frac{x+3}{x+2}$?",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Concepto y dominio"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, porque $x$ es real",
+        "B": "No, porque el numerador es cero",
+        "C": "No, porque el denominador es cero",
+        "D": "Sí, porque el numerador es uno"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "evaluar validez",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-1-08",
+      "pregunta": "El denominador de una fracción algebraica debe ser:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Concepto y dominio"
+      },
+      "respuestas_posibles": {
+        "A": "De grado mayor que el numerador",
+        "B": "Distinto de cero",
+        "C": "Siempre positivo",
+        "D": "Un monomio"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "comprender definición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-1-09",
+      "pregunta": "Determine las restricciones de $\\frac{4}{(x-1)(x+5)}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Concepto y dominio"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\neq1$ y $x\\neq-5$",
+        "B": "$x\\neq-1$ y $x\\neq5$",
+        "C": "$x\\neq4$",
+        "D": "$x\\neq1$ solamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "leer denominador factorizado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-1-10",
+      "pregunta": "¿Cuál valor pertenece al dominio de $\\frac{x}{x^2-4}$?",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Concepto y dominio"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2$",
+        "B": "$x=-2$",
+        "C": "$x=\\sqrt{4}$",
+        "D": "$x=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "seleccionar valor permitido",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-2-01",
+      "pregunta": "Simplifique $\\frac{x^2-9}{x-3}$, con $x\\neq3$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Simplificación"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+3$",
+        "B": "$1$",
+        "C": "$x+3$",
+        "D": "$x-3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "cancelar factor común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-2-02",
+      "pregunta": "Simplifique $\\frac{6x^2y}{9xy^2}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Simplificación"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{2x^2}{3y^2}$",
+        "B": "$\\frac{2x}{3y}$",
+        "C": "$\\frac{2y}{3x}$",
+        "D": "$\\frac{3x}{2y}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "simplificar monomios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-2-03",
+      "pregunta": "Simplifique $\\frac{x^2+5x+6}{x+2}$, con $x\\neq-2$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Simplificación"
+      },
+      "respuestas_posibles": {
+        "A": "$x+3$",
+        "B": "$x+2$",
+        "C": "$x+6$",
+        "D": "$x^2+3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "factorizar trinomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-2-04",
+      "pregunta": "Simplifique $\\frac{4x^2-16}{2x+4}$, con $x\\neq-2$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Simplificación"
+      },
+      "respuestas_posibles": {
+        "A": "$2(x+2)$",
+        "B": "$x-2$",
+        "C": "$2x-16$",
+        "D": "$2(x-2)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "factorizar diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-2-05",
+      "pregunta": "Simplifique $\\frac{x^2-2x+1}{x-1}$, con $x\\neq1$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Simplificación"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2-1$",
+        "B": "$1$",
+        "C": "$x-1$",
+        "D": "$x+1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "factorizar trinomio cuadrado perfecto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-2-06",
+      "pregunta": "Simplifique $\\frac{3a^2-12a}{6a}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Simplificación"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{a}{2}-12$",
+        "B": "$\\frac{a-4}{2}$",
+        "C": "$\\frac{a-12}{2}$",
+        "D": "$\\frac{a-4}{6}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "extraer factor común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-2-07",
+      "pregunta": "Simplifique $\\frac{x^2-x-6}{x^2-9}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Simplificación"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x+2}{x+3}$",
+        "B": "$\\frac{x-3}{x+3}$",
+        "C": "$\\frac{x+3}{x+2}$",
+        "D": "$\\frac{x-2}{x-3}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "factorizar numerador y denominador",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-2-08",
+      "pregunta": "Simplifique $\\frac{5m^3n^2}{10m^2n}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Simplificación"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{m^2n}{2}$",
+        "B": "$2mn$",
+        "C": "$\\frac{m}{2n}$",
+        "D": "$\\frac{mn}{2}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "usar leyes de exponentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-2-09",
+      "pregunta": "¿Es válido cancelar las $x$ en $\\frac{x+2}{x+5}$?",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Simplificación"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, queda $1$",
+        "B": "No, porque nunca se puede simplificar",
+        "C": "No, porque $x$ no es factor de todo el numerador y denominador",
+        "D": "Sí, queda $\\frac25$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "evitar cancelación de términos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-2-10",
+      "pregunta": "Simplifique $\\frac{a^2-b^2}{a-b}$, con $a\\neq b$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Simplificación"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$a+b$",
+        "C": "$a-b$",
+        "D": "$a^2+b^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "usar diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-3-01",
+      "pregunta": "Multiplique $\\frac{2x}{3y}\\cdot\\frac{9y^2}{4x^2}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{3y}{2x}$",
+        "B": "$\\frac{18xy^2}{12x^2y}$",
+        "C": "$\\frac{2x}{3y}$",
+        "D": "$\\frac{3x}{2y}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "multiplicar y simplificar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-3-02",
+      "pregunta": "Divida $\\frac{x}{x+1}\\div\\frac{x^2}{x^2-1}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x}{x-1}$",
+        "B": "$\\frac{x+1}{x}$",
+        "C": "$\\frac{x-1}{x+1}$",
+        "D": "$\\frac{x-1}{x}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "multiplicar por recíproco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-3-03",
+      "pregunta": "Multiplique $\\frac{x^2-4}{x^2+x-6}\\cdot\\frac{x+3}{x+2}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$x+3$",
+        "B": "$\\frac{x-2}{x+2}$",
+        "C": "$1$",
+        "D": "$x-2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "factorizar antes de multiplicar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-3-04",
+      "pregunta": "Multiplique $\\frac{3a}{5b}\\cdot\\frac{10b}{9a^2}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{2}{3b}$",
+        "B": "$\\frac{2}{3a}$",
+        "C": "$\\frac{2a}{3}$",
+        "D": "$\\frac{3}{2a}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "cancelar factores",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-3-05",
+      "pregunta": "Divida $\\frac{m^2-n^2}{m}\\div\\frac{m+n}{m^2}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$m(m-n)$",
+        "B": "$m-n$",
+        "C": "$m(m+n)$",
+        "D": "$\\frac{m-n}{m}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "dividir con factorización",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-3-06",
+      "pregunta": "Multiplique $\\frac{x-1}{x+2}\\cdot\\frac{x+2}{x+5}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x+1}{x+5}$",
+        "B": "$\\frac{x-1}{x+2}$",
+        "C": "$\\frac{x+2}{x+5}$",
+        "D": "$\\frac{x-1}{x+5}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "cancelar factor binomial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-3-07",
+      "pregunta": "Divida $\\frac{4x}{x-3}\\div\\frac{2x^2}{x^2-9}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{2x}{x+3}$",
+        "B": "$\\frac{x+3}{2x}$",
+        "C": "$\\frac{2(x+3)}{x}$",
+        "D": "$\\frac{2(x-3)}{x}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "invertir y factorizar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-3-08",
+      "pregunta": "Multiplique $\\frac{a^2}{b^3}\\cdot\\frac{b^5}{a^3}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{b}{a^2}$",
+        "B": "$\\frac{b^2}{a}$",
+        "C": "$\\frac{a}{b^2}$",
+        "D": "$\\frac{b^8}{a^5}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "restar exponentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-3-09",
+      "pregunta": "Al dividir por una fracción algebraica, se debe:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicar por su recíproco",
+        "B": "Sumar los denominadores",
+        "C": "Invertir la primera fracción",
+        "D": "Multiplicar solo los numeradores"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "enunciar regla de división",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-3-10",
+      "pregunta": "Simplifique $\\frac{x^2+2x}{x^2-4}\\cdot\\frac{x-2}{x}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$x+2$",
+        "B": "$x-2$",
+        "C": "$\\frac{x}{x+2}$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "factorizar y cancelar completamente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-4-01",
+      "pregunta": "Sume $\\frac{3}{x}+\\frac{5}{x}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{15}{x}$",
+        "B": "$\\frac{8}{x^2}$",
+        "C": "$\\frac{8}{x}$",
+        "D": "$\\frac{8}{2x}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "sumar con igual denominador",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-4-02",
+      "pregunta": "Reste $\\frac{7a}{b}-\\frac{2a}{b}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{5}{b}$",
+        "B": "$\\frac{5a}{b}$",
+        "C": "$\\frac{5a}{2b}$",
+        "D": "$\\frac{9a}{b}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "restar con igual denominador",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-4-03",
+      "pregunta": "Sume $\\frac{1}{x}+\\frac{1}{y}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x+y}{xy}$",
+        "B": "$\\frac{2}{x+y}$",
+        "C": "$\\frac{1}{xy}$",
+        "D": "$\\frac{xy}{x+y}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "usar denominador común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-4-04",
+      "pregunta": "Calcule $\\frac{2}{x}+\\frac{3}{x+1}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{5}{2x+1}$",
+        "B": "$\\frac{5x+3}{x(x+1)}$",
+        "C": "$\\frac{5x+2}{2x+1}$",
+        "D": "$\\frac{5x+2}{x(x+1)}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "sumar denominadores lineales distintos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-4-05",
+      "pregunta": "Calcule $\\frac{1}{x-2}-\\frac{1}{x+2}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{2}{x^2-4}$",
+        "B": "$\\frac{1}{x^2-4}$",
+        "C": "$\\frac{4}{x^2-4}$",
+        "D": "$\\frac{-4}{x^2-4}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "restar conjugados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-4-06",
+      "pregunta": "Sume $\\frac{x}{x-1}+\\frac{2}{x-1}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x+2}{x}$",
+        "B": "$\\frac{x+2}{x-1}$",
+        "C": "$\\frac{x+2}{2x-2}$",
+        "D": "$\\frac{3x}{x-1}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "combinar numeradores",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-4-07",
+      "pregunta": "Calcule $\\frac{3}{2x}-\\frac{1}{3x}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{7}{6x}$",
+        "B": "$\\frac{2}{x}$",
+        "C": "$\\frac{1}{6x}$",
+        "D": "$\\frac{2}{5x}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "usar mcm numérico y literal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-4-08",
+      "pregunta": "Sume $\\frac{x}{x+1}+\\frac{1}{x^2-1}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x+1}{x^2-1}$",
+        "B": "$\\frac{x^2+1}{x^2-1}$",
+        "C": "$\\frac{x^2-x}{x^2-1}$",
+        "D": "$\\frac{x^2-x+1}{x^2-1}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "usar denominador factorizado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-4-09",
+      "pregunta": "¿Cuál es el mínimo común denominador de $\\frac{1}{x}$ y $\\frac{1}{x+3}$?",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$x+3$",
+        "B": "$x^2+3$",
+        "C": "$x(x+3)$",
+        "D": "$2x+3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar mcd algebraico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-4-10",
+      "pregunta": "Calcule $\\frac{2}{x^2-1}+\\frac{1}{x-1}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x+2}{x^2-1}$",
+        "B": "$\\frac{x+3}{x^2-1}$",
+        "C": "$\\frac{3}{x^2-1}$",
+        "D": "$\\frac{x+1}{x^2-1}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "ampliar con factor faltante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-5-01",
+      "pregunta": "Simplifique $\\frac{\\frac{x}{y}}{\\frac{z}{w}}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Fracciones algebraicas complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{xw}{yz}$",
+        "B": "$\\frac{xz}{yw}$",
+        "C": "$\\frac{xy}{zw}$",
+        "D": "$\\frac{yw}{xz}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "dividir fracciones algebraicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-5-02",
+      "pregunta": "Simplifique $\\frac{\\frac1x+\\frac1y}{\\frac1x-\\frac1y}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Fracciones algebraicas complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x+y}{x-y}$",
+        "B": "$\\frac{y-x}{x+y}$",
+        "C": "$\\frac{2}{x-y}$",
+        "D": "$\\frac{x+y}{y-x}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "eliminar denominadores internos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-5-03",
+      "pregunta": "Simplifique $\\frac{\\frac{x^2-1}{x}}{\\frac{x-1}{x^2}}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Fracciones algebraicas complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x(x-1)$",
+        "B": "$\\frac{x+1}{x}$",
+        "C": "$x(x+1)$",
+        "D": "$x+1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "factorizar fracción compleja",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-5-04",
+      "pregunta": "Simplifique $\\frac{\\frac{2}{a}}{\\frac{4}{a^2}}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Fracciones algebraicas complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$2a$",
+        "B": "$\\frac{a}{2}$",
+        "C": "$\\frac{2}{a}$",
+        "D": "$\\frac{a^2}{2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "multiplicar por recíproco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-5-05",
+      "pregunta": "Simplifique $\\frac{1+\\frac1x}{1-\\frac1x}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Fracciones algebraicas complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x+1}{x-1}$",
+        "B": "$\\frac{x-1}{x+1}$",
+        "C": "$\\frac{1+x}{1-x}$",
+        "D": "$\\frac{x}{x-1}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "multiplicar por denominador común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-5-06",
+      "pregunta": "Simplifique $\\frac{\\frac{a}{b}+1}{\\frac{a}{b}-1}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Fracciones algebraicas complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{a-b}{a+b}$",
+        "B": "$\\frac{a+1}{a-1}$",
+        "C": "$\\frac{2a}{2b}$",
+        "D": "$\\frac{a+b}{a-b}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "eliminar denominador común interno",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-5-07",
+      "pregunta": "Simplifique $\\frac{\\frac1{x+1}}{\\frac{x}{x^2-1}}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Fracciones algebraicas complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x}{x-1}$",
+        "B": "$x-1$",
+        "C": "$\\frac{x-1}{x}$",
+        "D": "$\\frac{x+1}{x}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "factorizar antes de cancelar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-5-08",
+      "pregunta": "Simplifique $\\frac{\\frac{x}{2}+\\frac{x}{3}}{x}$, con $x\\neq0$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Fracciones algebraicas complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x}{6}$",
+        "B": "$\\frac56$",
+        "C": "$\\frac25$",
+        "D": "$\\frac53$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "sumar numerador complejo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-5-09",
+      "pregunta": "¿Qué estrategia elimina las fracciones internas de una fracción compleja?",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Fracciones algebraicas complejas"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicar numerador y denominador por el mínimo común denominador",
+        "B": "Sumar todos los denominadores",
+        "C": "Cancelar términos separados por suma",
+        "D": "Invertir solo el numerador"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "elegir estrategia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-5-10",
+      "pregunta": "Simplifique $\\frac{\\frac{2}{x}-\\frac{1}{x+1}}{\\frac{1}{x(x+1)}}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Fracciones algebraicas complejas"
+      },
+      "respuestas_posibles": {
+        "A": "$x+1$",
+        "B": "$2x+1$",
+        "C": "$1$",
+        "D": "$x+2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "simplificar fracción compleja completa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-6-01",
+      "pregunta": "Resuelva $\\frac{x}{3}=4$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Ecuaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$",
+        "B": "$x=\\frac43$",
+        "C": "$x=12$",
+        "D": "$x=7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver ecuación fraccionaria simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-6-02",
+      "pregunta": "Resuelva $\\frac{2}{x}=\\frac13$, con $x\\neq0$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Ecuaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-6$",
+        "B": "$x=6$",
+        "C": "$x=\\frac23$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "usar producto cruzado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-6-03",
+      "pregunta": "Resuelva $\\frac{x+1}{x-2}=2$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Ecuaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=5$",
+        "B": "$x=3$",
+        "C": "$x=-5$",
+        "D": "$x=2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver ecuación racional lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-6-04",
+      "pregunta": "Resuelva $\\frac1x+\\frac12=1$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Ecuaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$",
+        "B": "$x=-2$",
+        "C": "$x=\\frac12$",
+        "D": "$x=2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "eliminar denominadores",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-6-05",
+      "pregunta": "Resuelva $\\frac{3}{x-1}=\\frac{2}{x+1}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Ecuaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$",
+        "B": "$x=-1$",
+        "C": "$x=-5$",
+        "D": "$x=5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar producto cruzado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-6-06",
+      "pregunta": "Resuelva $\\frac{x}{x+2}=\\frac34$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Ecuaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=8$",
+        "B": "$x=6$",
+        "C": "$x=2$",
+        "D": "$x=-6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver proporción algebraica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-6-07",
+      "pregunta": "Resuelva $\\frac{2}{x}+\\frac{3}{x}=5$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Ecuaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$",
+        "B": "$x=5$",
+        "C": "$x=\\frac15$",
+        "D": "$x=-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "combinar fracciones antes de resolver",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-6-08",
+      "pregunta": "Resuelva $\\frac1{x-1}+\\frac1{x+1}=1$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Ecuaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "$x=2$ o $x=-2$",
+        "C": "$x=1$",
+        "D": "$x=1+\\sqrt2$ o $x=1-\\sqrt2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "resolver ecuación racional cuadrática",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-6-09",
+      "pregunta": "Al resolver una ecuación racional, una solución que anula un denominador debe:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Ecuaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "Convertirse en cero",
+        "B": "Duplicarse",
+        "C": "Descartarse como solución extraña",
+        "D": "Conservarse siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "verificar restricciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-9-6-10",
+      "pregunta": "Resuelva $\\frac{x+2}{x}=\\frac{x}{x-2}$.",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Fracciones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Ecuaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "No tiene solución real válida",
+        "C": "$x=2$",
+        "D": "$x=-2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "detectar contradicción y restricciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

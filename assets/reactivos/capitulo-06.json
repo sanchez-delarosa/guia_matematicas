@@ -1,0 +1,2131 @@
+{
+  "metadata": {
+    "capitulo": "6",
+    "titulo": "Expresiones algebraicas",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 8,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 80,
+    "secciones_incluidas": [
+      {
+        "codigo": "6.1",
+        "nombre": "Términos algebraicos"
+      },
+      {
+        "codigo": "6.2",
+        "nombre": "Lenguaje algebraico"
+      },
+      {
+        "codigo": "6.3",
+        "nombre": "Términos semejantes"
+      },
+      {
+        "codigo": "6.4",
+        "nombre": "Valor numérico"
+      },
+      {
+        "codigo": "6.5",
+        "nombre": "Polinomios"
+      },
+      {
+        "codigo": "6.6",
+        "nombre": "Suma y resta de polinomios"
+      },
+      {
+        "codigo": "6.7",
+        "nombre": "Multiplicación de polinomios"
+      },
+      {
+        "codigo": "6.8",
+        "nombre": "División entre monomios"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Cada reactivo fue diseñado específicamente para la habilidad de su subtema e inspirado en los ejemplos de la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-6-1-01",
+      "pregunta": "En el término $-7a^3b^2c$, ¿cuál es el coeficiente?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Términos algebraicos"
+      },
+      "respuestas_posibles": {
+        "A": "$-7$",
+        "B": "$7$",
+        "C": "$3$",
+        "D": "$a^3b^2c$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar coeficiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-1-02",
+      "pregunta": "¿Cuál es la parte literal de $12x^4y$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Términos algebraicos"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$4y$",
+        "C": "$12x$",
+        "D": "$x^4y$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar parte literal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-1-03",
+      "pregunta": "En $5m^2n^3$, ¿cuál es el exponente de $n$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Términos algebraicos"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$n^3$",
+        "C": "$3$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar exponentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-1-04",
+      "pregunta": "¿Cuál es el grado total del monomio $4x^2y^3$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Términos algebraicos"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$5$",
+        "C": "$2$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular grado de monomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-1-05",
+      "pregunta": "En el término $-x$, el coeficiente es:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Términos algebraicos"
+      },
+      "respuestas_posibles": {
+        "A": "$-1$",
+        "B": "$0$",
+        "C": "$1$",
+        "D": "$x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer coeficiente implícito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-1-06",
+      "pregunta": "¿Cuál expresión es un término constante?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Términos algebraicos"
+      },
+      "respuestas_posibles": {
+        "A": "$7x$",
+        "B": "$x^0y$",
+        "C": "$\\frac{7}{x}$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar constante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-1-07",
+      "pregunta": "¿Cuántas variables aparecen en $-3mn^2p$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Términos algebraicos"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$6$",
+        "C": "$3$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "contar variables",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-1-08",
+      "pregunta": "¿Cuál es el grado total de $-2a^4bc^2$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Términos algebraicos"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$7$",
+        "C": "$4$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular grado total",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-1-09",
+      "pregunta": "¿Cuál término tiene coeficiente fraccionario?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Términos algebraicos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{3}{5}x^2$",
+        "B": "$5x^2$",
+        "C": "$-3x$",
+        "D": "$x^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "clasificar coeficientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-1-10",
+      "pregunta": "¿Cuál descripción corresponde a $9r^2s$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Términos algebraicos"
+      },
+      "respuestas_posibles": {
+        "A": "Coeficiente $2$ y grado $9$",
+        "B": "Coeficiente $9$ y grado total $2$",
+        "C": "Coeficiente $1$ y grado total $9$",
+        "D": "Coeficiente $9$, variables $r,s$ y grado total $3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "describir un término algebraico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-2-01",
+      "pregunta": "Exprese algebraicamente “el doble de un número $x$”.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Lenguaje algebraico"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2$",
+        "B": "$\\frac{x}{2}$",
+        "C": "$2x$",
+        "D": "$x+2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "traducir frase a expresión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-2-02",
+      "pregunta": "Exprese “la suma de dos números $x$ e $y$”.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Lenguaje algebraico"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x}{y}$",
+        "B": "$x+y$",
+        "C": "$xy$",
+        "D": "$x-y$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "traducir suma verbal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-2-03",
+      "pregunta": "Exprese “el cuadrado de la diferencia entre $x$ e $y$”.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Lenguaje algebraico"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-y)^2$",
+        "B": "$x^2-y^2$",
+        "C": "$x-y^2$",
+        "D": "$(x+y)^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "usar paréntesis en traducción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-2-04",
+      "pregunta": "Exprese “cinco menos el triple de $n$”.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Lenguaje algebraico"
+      },
+      "respuestas_posibles": {
+        "A": "$3(5-n)$",
+        "B": "$3n-5$",
+        "C": "$5n-3$",
+        "D": "$5-3n$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "traducir orden de operaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-2-05",
+      "pregunta": "Exprese “la mitad de la suma de $a$ y $b$”.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Lenguaje algebraico"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{a}{2}+b$",
+        "B": "$2(a+b)$",
+        "C": "$\\frac{a+b}{2}$",
+        "D": "$a+\\frac{b}{2}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "traducir cociente de una suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-2-06",
+      "pregunta": "Si un rectángulo tiene base $x+3$ y altura $x$, ¿cuál es su área?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Lenguaje algebraico"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+3$",
+        "B": "$x(x+3)$",
+        "C": "$2x+3$",
+        "D": "$x+x+3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "modelar área algebraicamente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-2-07",
+      "pregunta": "La edad de Ana dentro de $4$ años, si hoy tiene $x$ años, se representa por:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Lenguaje algebraico"
+      },
+      "respuestas_posibles": {
+        "A": "$x+4$",
+        "B": "$4x$",
+        "C": "$x-4$",
+        "D": "$\\frac{x}{4}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "modelar cambio aditivo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-2-08",
+      "pregunta": "Exprese “tres veces un número aumentado en dos”.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Lenguaje algebraico"
+      },
+      "respuestas_posibles": {
+        "A": "$3x+2$",
+        "B": "$x+6$",
+        "C": "$3x-2$",
+        "D": "$3(x+2)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "distinguir alcance de una frase",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-2-09",
+      "pregunta": "El promedio de $x$, $y$ y $z$ se expresa como:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Lenguaje algebraico"
+      },
+      "respuestas_posibles": {
+        "A": "$3(x+y+z)$",
+        "B": "$\\frac{xyz}{3}$",
+        "C": "$\\frac{x+y+z}{3}$",
+        "D": "$x+y+\\frac{z}{3}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "modelar promedio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-2-10",
+      "pregunta": "Un taxi cobra $35$ pesos de cuota fija y $12$ pesos por kilómetro $k$. ¿Cuál es el costo?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Lenguaje algebraico"
+      },
+      "respuestas_posibles": {
+        "A": "$35(12+k)$",
+        "B": "$35+12k$",
+        "C": "$35k+12$",
+        "D": "$47k$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "construir modelo lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-3-01",
+      "pregunta": "Reduzca $4x-9x$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Términos semejantes"
+      },
+      "respuestas_posibles": {
+        "A": "$-5x$",
+        "B": "$5x$",
+        "C": "$-5x^2$",
+        "D": "$-13x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reducir términos semejantes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-3-02",
+      "pregunta": "Simplifique $8x-3x+2x-5x$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Términos semejantes"
+      },
+      "respuestas_posibles": {
+        "A": "$8x$",
+        "B": "$2x^2$",
+        "C": "$-2x$",
+        "D": "$2x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "sumar coeficientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-3-03",
+      "pregunta": "Simplifique $6a^2+3a-4a^2+5a$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Términos semejantes"
+      },
+      "respuestas_posibles": {
+        "A": "$2a^2+2a$",
+        "B": "$10a^3$",
+        "C": "$2a^2+8a$",
+        "D": "$10a^2+8a$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "agrupar términos semejantes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-3-04",
+      "pregunta": "¿Cuál término es semejante a $-7m^2n$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Términos semejantes"
+      },
+      "respuestas_posibles": {
+        "A": "$4mn$",
+        "B": "$4m^2n$",
+        "C": "$4mn^2$",
+        "D": "$4m^2n^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar términos semejantes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-3-05",
+      "pregunta": "Simplifique $\\frac{1}{2}x^2+\\frac{3}{4}x^2$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Términos semejantes"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{5}{4}x^2$",
+        "B": "$\\frac{4}{6}x^2$",
+        "C": "$\\frac{5}{4}x^4$",
+        "D": "$\\frac{1}{4}x^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "reducir coeficientes fraccionarios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-3-06",
+      "pregunta": "Simplifique $3ab-5a+2ab+7a$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Términos semejantes"
+      },
+      "respuestas_posibles": {
+        "A": "$5a^2b+2a$",
+        "B": "$ab+2a$",
+        "C": "$5ab-12a$",
+        "D": "$5ab+2a$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "agrupar dos tipos de términos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-3-07",
+      "pregunta": "¿Por qué $x$ y $x^2$ no son semejantes?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Términos semejantes"
+      },
+      "respuestas_posibles": {
+        "A": "Porque ambas contienen $x$",
+        "B": "Porque una variable no puede repetirse",
+        "C": "Porque sus exponentes son diferentes",
+        "D": "Porque sus coeficientes son iguales"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "explicar semejanza de términos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-3-08",
+      "pregunta": "Simplifique $-2p^3+7p^2+5p^3-p^2$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Términos semejantes"
+      },
+      "respuestas_posibles": {
+        "A": "$3p^3+8p^2$",
+        "B": "$3p^3+6p^2$",
+        "C": "$3p^5+6p^2$",
+        "D": "$7p^3+8p^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reducir polinomio por semejanza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-3-09",
+      "pregunta": "Simplifique $0.6y-1.4y+2y$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Términos semejantes"
+      },
+      "respuestas_posibles": {
+        "A": "$1.2y$",
+        "B": "$0.2y$",
+        "C": "$3y$",
+        "D": "$1.2y^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "reducir coeficientes decimales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-3-10",
+      "pregunta": "Simplifique $2x^2y-5xy^2+3x^2y+xy^2$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Términos semejantes"
+      },
+      "respuestas_posibles": {
+        "A": "$5x^4y^2-4x^2y^4$",
+        "B": "$5x^2y-6xy^2$",
+        "C": "$x^2y-4xy^2$",
+        "D": "$5x^2y-4xy^2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "reducir términos multivariables",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-4-01",
+      "pregunta": "Evalúe $3x^2y$ para $x=2$ y $y=-3$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Valor numérico"
+      },
+      "respuestas_posibles": {
+        "A": "$-18$",
+        "B": "$108$",
+        "C": "$-36$",
+        "D": "$36$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sustituir variables",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-4-02",
+      "pregunta": "Evalúe $2a-5$ para $a=7$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Valor numérico"
+      },
+      "respuestas_posibles": {
+        "A": "$19$",
+        "B": "$9$",
+        "C": "$4$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "evaluar expresión lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-4-03",
+      "pregunta": "Evalúe $x^2-3x+2$ para $x=-2$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Valor numérico"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$0$",
+        "C": "$-8$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "evaluar con número negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-4-04",
+      "pregunta": "Evalúe $\\frac{m+n}{2}$ para $m=8$ y $n=4$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Valor numérico"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$4$",
+        "C": "$2$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "evaluar cociente algebraico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-4-05",
+      "pregunta": "Evalúe $a^2-b^2$ para $a=5$ y $b=3$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Valor numérico"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$34$",
+        "C": "$16$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "evaluar diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-4-06",
+      "pregunta": "Evalúe $-2p^3$ para $p=-3$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Valor numérico"
+      },
+      "respuestas_posibles": {
+        "A": "$-18$",
+        "B": "$54$",
+        "C": "$-54$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "usar paréntesis con negativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-4-07",
+      "pregunta": "Evalúe $xy+z$ para $x=-4$, $y=3$ y $z=5$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Valor numérico"
+      },
+      "respuestas_posibles": {
+        "A": "$-7$",
+        "B": "$17$",
+        "C": "$-12$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "evaluar expresión multivariable",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-4-08",
+      "pregunta": "Evalúe $2(x-y)^2$ para $x=5$ y $y=2$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Valor numérico"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$36$",
+        "C": "$12$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "evaluar expresión agrupada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-4-09",
+      "pregunta": "Evalúe $\\frac{3r^2}{s}$ para $r=4$ y $s=6$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Valor numérico"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "$48$",
+        "C": "$8$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "evaluar expresión racional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-4-10",
+      "pregunta": "Evalúe $u^2+uv+v^2$ para $u=-2$ y $v=3$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Valor numérico"
+      },
+      "respuestas_posibles": {
+        "A": "$-7$",
+        "B": "$7$",
+        "C": "$1$",
+        "D": "$19$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "evaluar polinomio bivariado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-5-01",
+      "pregunta": "¿Cuál expresión es un polinomio?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^2-5x+1$",
+        "B": "$\\frac{2}{x}+1$",
+        "C": "$\\sqrt{x}+3$",
+        "D": "$x^{-2}+4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer polinomios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-5-02",
+      "pregunta": "Clasifique $7x^3$ según su número de términos.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "Binomio",
+        "B": "Trinomio",
+        "C": "Polinomio de cuatro términos",
+        "D": "Monomio"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "clasificar por número de términos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-5-03",
+      "pregunta": "Clasifique $x^2-9$ según su número de términos.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "Trinomio",
+        "B": "Polinomio nulo",
+        "C": "Binomio",
+        "D": "Monomio"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "clasificar binomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-5-04",
+      "pregunta": "¿Cuál es el grado de $4x^5-2x^3+x-8$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$5$",
+        "C": "$4$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar grado de polinomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-5-05",
+      "pregunta": "¿Cuál es el término independiente de $2x^3-7x+9$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$-7$",
+        "C": "$2$",
+        "D": "$x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar término independiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-5-06",
+      "pregunta": "¿Cuál es el coeficiente principal de $-6x^4+3x^2-1$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$4$",
+        "C": "$-1$",
+        "D": "$-6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar coeficiente principal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-5-07",
+      "pregunta": "Ordene en forma descendente $2+x^3-4x$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$-4x+x^3+2$",
+        "B": "$x^3+2x-4$",
+        "C": "$x^3-4x+2$",
+        "D": "$2-4x+x^3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "ordenar polinomio por grado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-5-08",
+      "pregunta": "¿Cuál es el grado total del polinomio $3x^2y^3+5xy$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$5$",
+        "C": "$3$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "hallar grado en varias variables",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-5-09",
+      "pregunta": "¿Cuántos términos tiene $5a^3-2a^2+a-7$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$3$",
+        "C": "$5$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "contar términos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-5-10",
+      "pregunta": "El polinomio $0$ se denomina:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "Monomio constante positivo",
+        "B": "Binomio incompleto",
+        "C": "Polinomio de grado uno",
+        "D": "Polinomio nulo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reconocer polinomio nulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-6-01",
+      "pregunta": "Sume $(3x^2-5x+4)+(2x^2+7x-1)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Suma y resta de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+2x+5$",
+        "B": "$6x^4+2x+3$",
+        "C": "$5x^2+2x+3$",
+        "D": "$5x^2-12x+3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "sumar polinomios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-6-02",
+      "pregunta": "Reste $(5x^2+3x-2)-(2x^2-x+4)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Suma y resta de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^2-4x+2$",
+        "B": "$3x^2+4x-6$",
+        "C": "$3x^2+2x+2$",
+        "D": "$7x^2+2x-6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "restar polinomios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-6-03",
+      "pregunta": "Sume $(4a^3-a+6)+(-2a^3+5a-9)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Suma y resta de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$2a^3+4a-3$",
+        "B": "$6a^3+4a-3$",
+        "C": "$2a^3-6a+15$",
+        "D": "$2a^6+4a-3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sumar polinomios cúbicos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-6-04",
+      "pregunta": "Reste $(7m^2-4m+1)-(3m^2+2m-5)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Suma y resta de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$4m^2-2m-4$",
+        "B": "$10m^2-6m+6$",
+        "C": "$4m^2+6m-4$",
+        "D": "$4m^2-6m+6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "distribuir signo negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-6-05",
+      "pregunta": "Calcule $(x^3+2x^2-x)+(3x^2+4x-6)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Suma y resta de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$x^3+5x^2-5x-6$",
+        "B": "$x^3+6x^2+4x$",
+        "C": "$x^3+5x^2+3x-6$",
+        "D": "$4x^3+6x^2+3x-6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "alinear grados en suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-6-06",
+      "pregunta": "Calcule $(2p^3-p^2+5)-(p^3+4p^2-3)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Suma y resta de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$p^3-3p^2+8$",
+        "B": "$p^3-5p^2+8$",
+        "C": "$p^3+3p^2+2$",
+        "D": "$3p^3-5p^2+2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "restar polinomios incompletos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-6-07",
+      "pregunta": "Si $P(x)=2x^2+3x-1$ y $Q(x)=x^2-5x+4$, calcule $P(x)+Q(x)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Suma y resta de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^2-2x+3$",
+        "B": "$x^2+8x-5$",
+        "C": "$3x^2+8x+3$",
+        "D": "$2x^4-2x+3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "sumar funciones polinomiales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-6-08",
+      "pregunta": "Con los mismos $P$ y $Q$, calcule $P(x)-Q(x)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Suma y resta de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^2-2x+3$",
+        "B": "$x^2-2x-5$",
+        "C": "$3x^2+8x-5$",
+        "D": "$x^2+8x-5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "restar funciones polinomiales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-6-09",
+      "pregunta": "Sume $(\\frac12x^2+3x)+(\\frac32x^2-x+2)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Suma y resta de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+2x+2$",
+        "B": "$\\frac34x^4+2x+2$",
+        "C": "$2x^2+2x+2$",
+        "D": "$2x^2+4x+2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "sumar coeficientes fraccionarios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-6-10",
+      "pregunta": "Reste $(0.8y^2-1.2y+3)-(0.3y^2+0.5y-1)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Suma y resta de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$0.5y^2+1.7y+2$",
+        "B": "$0.5y^2-1.7y+4$",
+        "C": "$0.5y^2-0.7y+2$",
+        "D": "$1.1y^2-1.7y+4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "restar coeficientes decimales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-7-01",
+      "pregunta": "Multiplique $3x(2x^2-5x+4)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Multiplicación de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$6x^3-15x^2+12x$",
+        "B": "$6x^2-15x+12$",
+        "C": "$5x^3-2x^2+7x$",
+        "D": "$6x^3-5x^2+4x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "multiplicar monomio por polinomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-7-02",
+      "pregunta": "Multiplique $(3x-2)(2x+5)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Multiplicación de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$6x^2+15x-10$",
+        "B": "$6x^2+4x-10$",
+        "C": "$5x^2+11x-10$",
+        "D": "$6x^2+11x-10$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "multiplicar binomios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-7-03",
+      "pregunta": "Multiplique $(x+4)(x-3)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Multiplicación de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+x+12$",
+        "B": "$2x^2+x-12$",
+        "C": "$x^2+x-12$",
+        "D": "$x^2-7x-12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "usar distributiva doble",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-7-04",
+      "pregunta": "Multiplique $(2a+1)(a^2-3a+4)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Multiplicación de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$3a^3-5a^2+5a+4$",
+        "B": "$2a^3-5a^2+5a+4$",
+        "C": "$2a^3-6a^2+8a+4$",
+        "D": "$2a^3-5a^2+a+4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "multiplicar binomio por trinomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-7-05",
+      "pregunta": "Multiplique $-2m^2(3m^3-m+5)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Multiplicación de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$-6m^5+2m^3-10m^2$",
+        "B": "$-6m^6+2m^2-10m$",
+        "C": "$6m^5-2m^3+10m^2$",
+        "D": "$-5m^5+2m^3-10m^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "multiplicar con signo negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-7-06",
+      "pregunta": "Multiplique $(x^2+2x+1)(x-1)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Multiplicación de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$x^3+x^2+x-1$",
+        "B": "$x^3-3x^2+x-1$",
+        "C": "$x^3-x^2-x+1$",
+        "D": "$x^3+x^2-x-1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "multiplicar trinomio por binomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-7-07",
+      "pregunta": "Calcule $(4x)(-3x^2)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Multiplicación de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$-7x^2$",
+        "B": "$-12x^2$",
+        "C": "$-12x^3$",
+        "D": "$12x^3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "multiplicar monomios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-7-08",
+      "pregunta": "Multiplique $(2x-3)(x+4)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Multiplicación de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^2+5x-12$",
+        "B": "$2x^2+5x-12$",
+        "C": "$2x^2+8x-12$",
+        "D": "$2x^2-x+12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "multiplicar binomios con signos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-7-09",
+      "pregunta": "Multiplique $(a+b)(c+d)$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Multiplicación de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$ac+ad+bc+bd$",
+        "B": "$ac+bd$",
+        "C": "$ab+cd$",
+        "D": "$ac+ab+cd+bd$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "generalizar distributiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-7-10",
+      "pregunta": "¿Cuál producto genera $x^2-5x+6$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Multiplicación de polinomios"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+2)(x+3)$",
+        "B": "$(x-1)(x-6)$",
+        "C": "$(x+2)(x-3)$",
+        "D": "$(x-2)(x-3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reconocer producto de binomios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-8-01",
+      "pregunta": "Divida $12x^5$ entre $3x^2$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.8",
+        "nombre": "División entre monomios"
+      },
+      "respuestas_posibles": {
+        "A": "$9x^3$",
+        "B": "$4x^2$",
+        "C": "$4x^3$",
+        "D": "$4x^7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "dividir monomios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-8-02",
+      "pregunta": "Divida $-20a^4b^3$ entre $5a^2b$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.8",
+        "nombre": "División entre monomios"
+      },
+      "respuestas_posibles": {
+        "A": "$-15a^2b^2$",
+        "B": "$-4a^2b^2$",
+        "C": "$-4a^6b^4$",
+        "D": "$4a^2b^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "dividir monomios multivariables",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-8-03",
+      "pregunta": "Simplifique $\\frac{18m^6n^2}{-6m^2n}$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.8",
+        "nombre": "División entre monomios"
+      },
+      "respuestas_posibles": {
+        "A": "$-3m^4n$",
+        "B": "$3m^4n$",
+        "C": "$-3m^3n$",
+        "D": "$-12m^4n$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "restar exponentes al dividir",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-8-04",
+      "pregunta": "Divida $(15x^3-10x^2+5x)$ entre $5x$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.8",
+        "nombre": "División entre monomios"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^3-2x^2+1$",
+        "B": "$10x^2-5x$",
+        "C": "$3x^2-2x$",
+        "D": "$3x^2-2x+1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "dividir polinomio término a término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-8-05",
+      "pregunta": "Simplifique $\\frac{8p^5q^2}{2p^3q^2}$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.8",
+        "nombre": "División entre monomios"
+      },
+      "respuestas_posibles": {
+        "A": "$6p^2$",
+        "B": "$4p^2q$",
+        "C": "$4p^2$",
+        "D": "$4p^8q^4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "cancelar exponentes iguales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-8-06",
+      "pregunta": "Divida $(-24y^7+12y^4)$ entre $-6y^3$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.8",
+        "nombre": "División entre monomios"
+      },
+      "respuestas_posibles": {
+        "A": "$4y^4-2$",
+        "B": "$4y^4-2y$",
+        "C": "$4y^{10}-2y^7$",
+        "D": "$-4y^4+2y$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "dividir polinomio entre monomio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-8-07",
+      "pregunta": "Simplifique $\\frac{35a^3b^5}{7ab^2}$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.8",
+        "nombre": "División entre monomios"
+      },
+      "respuestas_posibles": {
+        "A": "$5a^2b^3$",
+        "B": "$5a^3b^2$",
+        "C": "$28a^2b^3$",
+        "D": "$5a^4b^7$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "dividir potencias de igual base",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-8-08",
+      "pregunta": "¿Qué restricción debe indicarse al simplificar $\\frac{10x^4}{2x}$?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.8",
+        "nombre": "División entre monomios"
+      },
+      "respuestas_posibles": {
+        "A": "$x>0$",
+        "B": "$x=0$",
+        "C": "$x\\neq2$",
+        "D": "$x\\neq0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reconocer restricción de dominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-8-09",
+      "pregunta": "Divida $(6r^4s^2+9r^3s)$ entre $3r^2s$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.8",
+        "nombre": "División entre monomios"
+      },
+      "respuestas_posibles": {
+        "A": "$3r^2s+6r$",
+        "B": "$2r^6s^3+3r^5s^2$",
+        "C": "$2r^2s+3r$",
+        "D": "$2r^2s+3rs$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "dividir expresión multivariable",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-6-8-10",
+      "pregunta": "Simplifique $\\frac{-42x^8y^3}{14x^5y}$.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Expresiones algebraicas",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "6.8",
+        "nombre": "División entre monomios"
+      },
+      "respuestas_posibles": {
+        "A": "$-3x^{13}y^4$",
+        "B": "$-3x^3y^2$",
+        "C": "$3x^3y^2$",
+        "D": "$-28x^3y^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "dividir monomios con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

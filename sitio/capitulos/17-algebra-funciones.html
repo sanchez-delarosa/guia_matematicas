@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>17. Álgebra de funciones · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte III: Funciones</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#suma-y-resta-de-funciones"><span class="num">17.1</span> Suma y resta de funciones</a></li><li class="nivel-2"><a href="#multiplicacion-de-funciones"><span class="num">17.2</span> Multiplicación de funciones</a></li><li class="nivel-2"><a href="#division-de-funciones"><span class="num">17.3</span> División de funciones</a></li><li class="nivel-2"><a href="#composicion-de-funciones"><span class="num">17.4</span> Composición de funciones</a></li><li class="nivel-2"><a href="#composicion-con-funciones-radicales"><span class="num">17.5</span> Composición con funciones radicales</a></li><li class="nivel-2"><a href="#evaluacion-de-operaciones-entre-funciones"><span class="num">17.6</span> Evaluación de operaciones entre funciones</a></li><li class="nivel-2"><a href="#resumen-de-dominios"><span class="num">17.7</span> Resumen de dominios</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">17.8</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 17</p><h1>Álgebra de funciones</h1></header>
+<p><span id="cap-algebra-funciones" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span> <span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>A partir de dos funciones pueden construirse nuevas funciones mediante la suma, la resta, la multiplicación, la división y la composición. Al realizar estas operaciones no solo deben combinarse correctamente las reglas de correspondencia, sino que también debe determinarse el dominio de la función resultante. En este capítulo estudiarás cada operación y aprenderás a conservar las restricciones de las funciones originales.</p>
+<h2 id="suma-y-resta-de-funciones"><span class="num">17.1</span> Suma y resta de funciones<a class="enlace-seccion" href="#suma-y-resta-de-funciones" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Sean \(f\) y \(g\) dos funciones. Su suma y su diferencia se definen mediante:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (f+g)(x) &amp;=f(x)+g(x),\\ (f-g)(x) &amp;=f(x)-g(x). \end{aligned}\]</span></div>
+<p>Ambas operaciones están definidas en los valores de \(x\) que pertenecen simultáneamente a los dominios de \(f\) y \(g\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[D_{f+g} = D_f\cap D_g\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[D_{f-g} = D_f\cap D_g.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-17-1"><div class="caja-titulo">Ejemplo 17.1</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2+3x\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=-5x+7.\]</span></div>
+<p>Calcula \(f+g\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sumamos las reglas de correspondencia:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (f+g)(x) &amp;=f(x)+g(x)\\ &amp;=(x^2+3x)+(-5x+7)\\ &amp;=x^2+3x-5x+7\\ &amp;=x^2-2x+7. \end{aligned}\]</span></div>
+<p>Como ambas funciones son polinómicas, sus dominios son \(\R\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[D_{f+g}=\R.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-17-2"><div class="caja-titulo">Ejemplo 17.2</div><div class="caja-cuerpo"><p>Con las funciones:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2+3x\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=-5x+7,\]</span></div>
+<p>calcula \(f-g\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Restamos la regla de \(g\) de la regla de \(f\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (f-g)(x) &amp;=f(x)-g(x)\\ &amp;=(x^2+3x)-(-5x+7)\\ &amp;=x^2+3x+5x-7\\ &amp;=x^2+8x-7. \end{aligned}\]</span></div>
+<p>El dominio es:</p>
+<div class="mate"><span class="mate-bloque">\[D_{f-g}=\R.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al restar funciones, el signo negativo afecta a todos los términos de la segunda función.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[(x^2+3x)-(-5x+7)\]</span></div>
+<p>debe escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+3x+5x-7,\]</span></div>
+<p>no como \(x^2+3x+5x+7\).</p></div></section>
+<h2 id="multiplicacion-de-funciones"><span class="num">17.2</span> Multiplicación de funciones<a class="enlace-seccion" href="#multiplicacion-de-funciones" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Sean \(f\) y \(g\) dos funciones. Su producto se define mediante:</p>
+<div class="mate"><span class="mate-bloque">\[(fg)(x) = f(x)g(x).\]</span></div>
+<p>También puede escribirse:</p>
+<div class="mate"><span class="mate-bloque">\[(f\cdot g)(x) = f(x)\cdot g(x).\]</span></div>
+<p>El dominio del producto es la intersección de los dominios de las funciones originales:</p>
+<div class="mate"><span class="mate-bloque">\[D_{fg} = D_f\cap D_g.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-17-3"><div class="caja-titulo">Ejemplo 17.3</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2-4\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=\frac{1}{x+2}.\]</span></div>
+<p>Calcula \(f\cdot g\) y determina su dominio.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La función \(f\) es polinómica, por lo que:</p>
+<div class="mate"><span class="mate-bloque">\[D_f=\R.\]</span></div>
+<p>En la función \(g\), el denominador debe ser distinto de cero:</p>
+<div class="mate"><span class="mate-bloque">\[x+2\neq 0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq -2\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[D_g=\R\setminus\{-2\}.\]</span></div>
+<p>Multiplicamos las funciones:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (f\cdot g)(x) &amp;=(x^2-4)\left(\frac{1}{x+2}\right)\\ &amp;=\frac{x^2-4}{x+2}. \end{aligned}\]</span></div>
+<p>Factorizamos la diferencia de cuadrados:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-4 = (x-2)(x+2).\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (f\cdot g)(x) &amp;= \frac{(x-2)(x+2)}{x+2}\\ &amp;=x-2. \end{aligned}\]</span></div>
+<p>Aunque la expresión simplificada es \(x-2\), el valor \(x=-2\) continúa excluido porque no pertenecía al dominio de \(g\).</p>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[(f\cdot g)(x)=x-2, \qquad D_{fg}=\R\setminus\{-2\}.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Simplificar la regla de correspondencia no modifica el dominio original de la operación.</p>
+<p>En el ejemplo anterior:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{(x-2)(x+2)}{x+2} = x-2,\]</span></div>
+<p>pero únicamente cuando:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq -2.\]</span></div>
+<p>La gráfica del producto coincide con la recta \(y=x-2\), excepto que presenta un hueco en el punto correspondiente a \(x=-2\).</p></div></section>
+<h2 id="division-de-funciones"><span class="num">17.3</span> División de funciones<a class="enlace-seccion" href="#division-de-funciones" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Sean \(f\) y \(g\) dos funciones. El cociente de \(f\) entre \(g\) se define mediante:</p>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)}.\]</span></div>
+<p>Su dominio contiene los valores que pertenecen a los dominios de ambas funciones, excepto aquellos para los que el divisor vale cero:</p>
+<div class="mate"><span class="mate-bloque">\[D_{f/g} = \{x\in D_f\cap D_g:g(x)\neq 0\}.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-17-4"><div class="caja-titulo">Ejemplo 17.4</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x+1\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x-3.\]</span></div>
+<p>Calcula \(\frac{f}{g}\) y determina su dominio.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Formamos el cociente:</p>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{f}{g}\right)(x) = \frac{x+1}{x-3}.\]</span></div>
+<p>Las funciones \(f\) y \(g\) están definidas para todo número real. Sin embargo, el divisor no puede ser cero:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} g(x) &amp;\neq 0,\\ x-3 &amp;\neq 0,\\ x &amp;\neq 3. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[D_{f/g} = \R\setminus\{3\}.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En el cociente de funciones deben revisarse dos tipos de restricciones:</p>
+<ul><li>las restricciones propias de los dominios de \(f\) y \(g\);</li><li>los valores para los que \(g(x)=0\).</li></ul>
+<p>La segunda restricción es necesaria porque dividir entre cero no está definido.</p></div></section>
+<h2 id="composicion-de-funciones"><span class="num">17.4</span> Composición de funciones<a class="enlace-seccion" href="#composicion-de-funciones" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Sean \(f\) y \(g\) dos funciones. La <strong>composición de \(f\) con \(g\)</strong> se define mediante:</p>
+<div class="mate"><span class="mate-bloque">\[(f\circ g)(x) = f(g(x)).\]</span></div>
+<p>Se lee “\(f\) compuesta con \(g\)”.</p>
+<p>En esta operación se aplica primero la función \(g\) a la entrada \(x\). Después se aplica la función \(f\) al resultado obtenido.</p></div></section>
+<p>El orden de la composición puede representarse mediante el siguiente diagrama:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-99e7daa3ecec.svg" alt="Figura 17.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Dominio de una composición</div><div class="caja-cuerpo"><p>El dominio de la composición \(f\circ g\) está formado por los valores \(x\) que cumplen simultáneamente:</p>
+<ul><li>\(x\) pertenece al dominio de \(g\);</li><li>\(g(x)\) pertenece al dominio de \(f\).</li></ul>
+<p>En símbolos:</p>
+<div class="mate"><span class="mate-bloque">\[D_{f\circ g} = \{x\in D_g:g(x)\in D_f\}.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La composición no es conmutativa. En general:</p>
+<div class="mate"><span class="mate-bloque">\[f\circ g \neq g\circ f.\]</span></div>
+<p>Cambiar el orden de las funciones suele cambiar tanto la regla de correspondencia como el dominio.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-17-5"><div class="caja-titulo">Ejemplo 17.5</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x+1.\]</span></div>
+<p>Calcula \(f\circ g\) y \(g\circ f\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Para calcular \(f\circ g\), sustituimos \(g(x)\) en la regla de \(f\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (f\circ g)(x) &amp;=f(g(x))\\ &amp;=f(x+1)\\ &amp;=(x+1)^2\\ &amp;=x^2+2x+1. \end{aligned}\]</span></div>
+<p>Para calcular \(g\circ f\), sustituimos \(f(x)\) en la regla de \(g\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (g\circ f)(x) &amp;=g(f(x))\\ &amp;=g(x^2)\\ &amp;=x^2+1. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f\circ g \neq g\circ f.\]</span></div>
+<p>Como ambas funciones están definidas en \(\R\), los dominios de ambas composiciones son:</p>
+<div class="mate"><span class="mate-bloque">\[D_{f\circ g} = D_{g\circ f} = \R.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-17-6"><div class="caja-titulo">Ejemplo 17.6</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{x+1}{x-1}\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=\frac{1}{x}.\]</span></div>
+<p>Calcula \(f\circ g\) y determina su dominio.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primero consideramos el dominio de la función interior:</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=\frac{1}{x}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x\neq 0.\]</span></div>
+<p>Además, la salida de \(g\) debe pertenecer al dominio de \(f\). Como el denominador de \(f\) se anula cuando su entrada es \(1\), se requiere:</p>
+<div class="mate"><span class="mate-bloque">\[g(x)\neq 1.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{1}{x} &amp;\neq 1,\\ x &amp;\neq 1. \end{aligned}\]</span></div>
+<p>Ahora calculamos la composición:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (f\circ g)(x) &amp;=f\left(\frac{1}{x}\right)\\ &amp;= \frac{\frac{1}{x}+1} {\frac{1}{x}-1}. \end{aligned}\]</span></div>
+<p>Multiplicamos el numerador y el denominador por \(x\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (f\circ g)(x) &amp;= \frac{1+x}{1-x}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[(f\circ g)(x) = \frac{x+1}{1-x},\]</span></div>
+<p>con dominio:</p>
+<div class="mate"><span class="mate-bloque">\[D_{f\circ g} = \R\setminus\{0,1\}.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La expresión simplificada:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{x+1}{1-x}\]</span></div>
+<p>solo muestra directamente la restricción \(x\neq 1\). Sin embargo, el valor \(x=0\) también debe excluirse porque la función interior:</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=\frac{1}{x}\]</span></div>
+<p>no está definida en \(x=0\).</p>
+<p>Al componer funciones, las restricciones deben determinarse a partir de las funciones originales, no únicamente de la expresión final.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-17-7"><div class="caja-titulo">Ejemplo 17.7</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x-1\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x^2+1.\]</span></div>
+<p>Calcula \(f\circ g\) y \(g\circ f\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Para \(f\circ g\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (f\circ g)(x) &amp;=f(g(x))\\ &amp;=f(x^2+1)\\ &amp;=(x^2+1)-1\\ &amp;=x^2. \end{aligned}\]</span></div>
+<p>Para \(g\circ f\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (g\circ f)(x) &amp;=g(f(x))\\ &amp;=g(x-1)\\ &amp;=(x-1)^2+1\\ &amp;=x^2-2x+2. \end{aligned}\]</span></div>
+<p>Nuevamente:</p>
+<div class="mate"><span class="mate-bloque">\[f\circ g \neq g\circ f.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Para calcular una composición debe sustituirse cada aparición de la variable de la función exterior por la función interior.</p>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2+3x\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x+1,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[f(g(x)) = (x+1)^2+3(x+1),\]</span></div>
+<p>no:</p>
+<div class="mate"><span class="mate-bloque">\[(x+1)^2+3x.\]</span></div></div></section>
+<h2 id="composicion-con-funciones-radicales"><span class="num">17.5</span> Composición con funciones radicales<a class="enlace-seccion" href="#composicion-con-funciones-radicales" aria-label="Enlace a esta sección">#</a></h2>
+<p>El dominio de una composición puede requerir resolver una desigualdad después de sustituir la función interior.</p>
+<section class="caja caja-ejemplo" id="ejemplo-17-8"><div class="caja-titulo">Ejemplo 17.8</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{x}\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x-3.\]</span></div>
+<p>Calcula \(f\circ g\) y determina su dominio.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos \(g(x)\) en la regla de \(f\):</p>
+<div class="mate"><span class="mate-bloque">\[(f\circ g)(x) = \sqrt{x-3}.\]</span></div>
+<p>Para que la raíz cuadrada esté definida en los números reales, debe cumplirse:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x-3 &amp;\geq 0,\\ x &amp;\geq 3. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[(f\circ g)(x) = \sqrt{x-3}, \qquad D_{f\circ g}=[3,\infty).\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-17-9"><div class="caja-titulo">Ejemplo 17.9</div><div class="caja-cuerpo"><p>Con las mismas funciones:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{x} \qquad\text{y}\qquad g(x)=x-3,\]</span></div>
+<p>calcula \(g\circ f\) y determina su dominio.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos \(f(x)\) en la regla de \(g\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (g\circ f)(x) &amp;=g(\sqrt{x})\\ &amp;=\sqrt{x}-3. \end{aligned}\]</span></div>
+<p>La restricción proviene de la función interior \(f(x)=\sqrt{x}\):</p>
+<div class="mate"><span class="mate-bloque">\[x\geq 0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[(g\circ f)(x) = \sqrt{x}-3, \qquad D_{g\circ f}=[0,\infty).\]</span></div>
+<p>Este ejemplo muestra que cambiar el orden de la composición también puede cambiar el dominio.</p></div></details></div></section>
+<h2 id="evaluacion-de-operaciones-entre-funciones"><span class="num">17.6</span> Evaluación de operaciones entre funciones<a class="enlace-seccion" href="#evaluacion-de-operaciones-entre-funciones" aria-label="Enlace a esta sección">#</a></h2>
+<p>En ocasiones no se solicita determinar toda la regla de una operación, sino evaluar directamente una combinación de valores funcionales.</p>
+<section class="caja caja-ejemplo" id="ejemplo-17-10"><div class="caja-titulo">Ejemplo 17.10</div><div class="caja-cuerpo"><p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[f(2)=8 \qquad\text{y}\qquad g(2)=4,\]</span></div>
+<p>calcula:</p>
+<div class="mate"><span class="mate-bloque">\[2f(2)-3g(2).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos los valores conocidos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2f(2)-3g(2) &amp;=2(8)-3(4)\\ &amp;=16-12\\ &amp;=4. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="resumen-de-dominios"><span class="num">17.7</span> Resumen de dominios<a class="enlace-seccion" href="#resumen-de-dominios" aria-label="Enlace a esta sección">#</a></h2>
+<p>Al realizar operaciones entre funciones, el dominio se determina de la siguiente manera:</p>
+<ul><li><strong>Suma</strong> <span class="mate-bloque">\[D_{f+g}=D_f\cap D_g.\]</span></li><li><strong>Resta</strong> <span class="mate-bloque">\[D_{f-g}=D_f\cap D_g.\]</span></li><li><strong>Producto</strong> <span class="mate-bloque">\[D_{fg}=D_f\cap D_g.\]</span></li><li><strong>Cociente</strong> <span class="mate-bloque">\[D_{f/g} = \{x\in D_f\cap D_g:g(x)\neq 0\}.\]</span></li><li><strong>Composición</strong> <span class="mate-bloque">\[D_{f\circ g} = \{x\in D_g:g(x)\in D_f\}.\]</span></li></ul>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Para determinar correctamente el dominio de una función obtenida mediante operaciones, conviene establecer primero las restricciones de las funciones originales y simplificar la expresión después.</p>
+<p>Una simplificación algebraica puede ocultar una restricción, pero no puede incorporar al dominio un valor que originalmente estaba excluido.</p></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">17.8</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-17-1"><div class="caja-titulo">Ejercicio 17.1</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=2x-1\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x^2-2x+3.\]</span></div>
+<p>Calcula \(f+g\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(f + g)(x) = (2x - 1) + (x^2 - 2x + 3) = x^2 + 2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-17-2"><div class="caja-titulo">Ejercicio 17.2</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=3x+2\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x^2-4.\]</span></div>
+<p>Calcula \(f-g\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(f - g)(x) = (3x + 2) - (x^2 - 4) = -x^2 + 3x + 6.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-17-3"><div class="caja-titulo">Ejercicio 17.3</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{1-x}\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=\sqrt{1+x}.\]</span></div>
+<p>Calcula \(f\cdot g\) y determina su dominio.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[(f \cdot g)(x) = \sqrt{1 - x} \cdot \sqrt{1 + x} = \sqrt{(1 - x)(1 + x)} = \sqrt{1 - x^2}.\]</span> Dominio: \([-1, 1]\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-17-4"><div class="caja-titulo">Ejercicio 17.4</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x+5\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x-2.\]</span></div>
+<p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{f}{g}\]</span></div>
+<p>y determina su dominio.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[\left(\frac{f}{g}\right)(x) = \frac{x + 5}{x - 2}.\]</span> Dominio: \(\R - \{2\}\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-17-5"><div class="caja-titulo">Ejercicio 17.5</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x-1\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x^2+1.\]</span></div>
+<p>Calcula \(f\circ g\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[(f \circ g)(x) = f(x^2 + 1) = (x^2 + 1) - 1 = x^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-17-6"><div class="caja-titulo">Ejercicio 17.6</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=2x\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x+3.\]</span></div>
+<p>Calcula \(f\circ g\) y \(g\circ f\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[(f \circ g)(x) = f(x + 3) = 2(x + 3) = 2x + 6.\]</span> <span class="mate-bloque">\[(g \circ f)(x) = g(2x) = 2x + 3.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-17-7"><div class="caja-titulo">Ejercicio 17.7</div><div class="caja-cuerpo"><p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[f(2)=8 \qquad\text{y}\qquad g(2)=4,\]</span></div>
+<p>calcula:</p>
+<div class="mate"><span class="mate-bloque">\[2f(2)-3g(2).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[2f(2) - 3g(2) = 2(8) - 3(4) = 16 - 12 = 4.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-17-8"><div class="caja-titulo">Ejercicio 17.8</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x^2-2x.\]</span></div>
+<p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{g}{f}\]</span></div>
+<p>y determina su dominio.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[\left(\frac{g}{f}\right)(x) = \frac{x^2 - 2x}{x} = x - 2.\]</span> Dominio: \(\R - \{0\}\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-17-9"><div class="caja-titulo">Ejercicio 17.9</div><div class="caja-cuerpo"><p>Sean:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x+2\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[g(x)=x^2.\]</span></div>
+<p>Calcula \(f\circ g\) y \(g\circ f\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[(f \circ g)(x) = f(x^2) = x^2 + 2.\]</span> <span class="mate-bloque">\[(g \circ f)(x) = g(x + 2) = (x + 2)^2 = x^2 + 4x + 4.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="16-tipos-funciones.html"><span>← Anterior</span>16. Tipos de funciones</a><a class="nav-siguiente" href="18-exponenciales-logaritmicas.html"><span>Siguiente →</span>18. Funciones exponenciales y logarítmicas</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

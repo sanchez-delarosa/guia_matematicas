@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "29",
+    "titulo": "Funciones trigonométricas",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "29.1",
+        "nombre": "Funciones periódicas"
+      },
+      {
+        "codigo": "29.2",
+        "nombre": "Función seno"
+      },
+      {
+        "codigo": "29.3",
+        "nombre": "Función coseno"
+      },
+      {
+        "codigo": "29.4",
+        "nombre": "Relación entre el seno y el coseno"
+      },
+      {
+        "codigo": "29.5",
+        "nombre": "Función tangente"
+      },
+      {
+        "codigo": "29.6",
+        "nombre": "Funciones secante, cosecante y cotangente"
+      },
+      {
+        "codigo": "29.7",
+        "nombre": "Transformaciones del seno y el coseno"
+      },
+      {
+        "codigo": "29.8",
+        "nombre": "Puntos clave de una función sinusoidal"
+      },
+      {
+        "codigo": "29.9",
+        "nombre": "Transformaciones de la tangente"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas 29.1 a 29.9; se omitieron síntesis y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-29-1-01",
+      "pregunta": "Una función $f$ es periódica si existe $T>0$ tal que:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.1",
+        "nombre": "Funciones periódicas"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x+T)=f(x)$",
+        "B": "$f(x+T)=-f(x)$",
+        "C": "$f(x)=T$",
+        "D": "$f(T)=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-1-02",
+      "pregunta": "El menor valor positivo $T$ que repite una función se llama:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.1",
+        "nombre": "Funciones periódicas"
+      },
+      "respuestas_posibles": {
+        "A": "Amplitud",
+        "B": "Fase",
+        "C": "Ordenada al origen",
+        "D": "Periodo fundamental"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-1-03",
+      "pregunta": "El periodo fundamental de $\\sin x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.1",
+        "nombre": "Funciones periódicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\pi}{2}$",
+        "B": "$4\\pi$",
+        "C": "$2\\pi$",
+        "D": "$\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-1-04",
+      "pregunta": "El periodo fundamental de $\\cos x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.1",
+        "nombre": "Funciones periódicas"
+      },
+      "respuestas_posibles": {
+        "A": "$4\\pi$",
+        "B": "$2\\pi$",
+        "C": "$\\pi$",
+        "D": "$\\frac{\\pi}{2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-1-05",
+      "pregunta": "El periodo fundamental de $\\tan x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.1",
+        "nombre": "Funciones periódicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pi$",
+        "B": "$2\\pi$",
+        "C": "$\\frac{\\pi}{2}$",
+        "D": "$4\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-1-06",
+      "pregunta": "Si $f$ tiene periodo $6$, entonces:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.1",
+        "nombre": "Funciones periódicas"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x+3)=f(x)$ siempre",
+        "B": "$f(6)=x$",
+        "C": "$f(x+6)=-f(x)$",
+        "D": "$f(x+6)=f(x)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-1-07",
+      "pregunta": "Una función constante es periódica porque:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.1",
+        "nombre": "Funciones periódicas"
+      },
+      "respuestas_posibles": {
+        "A": "Su periodo es únicamente cero",
+        "B": "Tiene amplitud infinita",
+        "C": "Cualquier traslación positiva conserva su valor",
+        "D": "Nunca repite valores"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-1-08",
+      "pregunta": "Si una gráfica se repite cada $4$ unidades, un periodo es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.1",
+        "nombre": "Funciones periódicas"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$4$",
+        "C": "$2$",
+        "D": "$8$ únicamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-1-09",
+      "pregunta": "El periodo de $\\sin(3x)$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.1",
+        "nombre": "Funciones periódicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{2\\pi}{3}$",
+        "B": "$6\\pi$",
+        "C": "$3\\pi$",
+        "D": "$\\frac{\\pi}{3}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-1-10",
+      "pregunta": "El periodo de $\\cos(\\frac{x}{2})$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.1",
+        "nombre": "Funciones periódicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pi$",
+        "B": "$2\\pi$",
+        "C": "$\\frac{\\pi}{2}$",
+        "D": "$4\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-2-01",
+      "pregunta": "El dominio de $y=\\sin x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.2",
+        "nombre": "Función seno"
+      },
+      "respuestas_posibles": {
+        "A": "$[0,2\\pi]$",
+        "B": "$\\mathbb R\\setminus\\{0\\}$",
+        "C": "$\\mathbb R$",
+        "D": "$[-1,1]$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-2-02",
+      "pregunta": "El rango de $y=\\sin x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.2",
+        "nombre": "Función seno"
+      },
+      "respuestas_posibles": {
+        "A": "$(-\\infty,1]$",
+        "B": "$[-1,1]$",
+        "C": "$\\mathbb R$",
+        "D": "$[0,1]$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-2-03",
+      "pregunta": "El valor máximo de $\\sin x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.2",
+        "nombre": "Función seno"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$0$",
+        "C": "$-1$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-2-04",
+      "pregunta": "El valor mínimo de $\\sin x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.2",
+        "nombre": "Función seno"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$-2$",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-2-05",
+      "pregunta": "La función seno es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.2",
+        "nombre": "Función seno"
+      },
+      "respuestas_posibles": {
+        "A": "Constante",
+        "B": "Inyectiva en todo $\\mathbb R$",
+        "C": "Impar",
+        "D": "Par"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-2-06",
+      "pregunta": "Complete: $\\sin(-x)=$",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.2",
+        "nombre": "Función seno"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\cos x$",
+        "B": "$-\\sin x$",
+        "C": "$\\sin x$",
+        "D": "$\\cos x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-2-07",
+      "pregunta": "Los ceros de $\\sin x$ ocurren en:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.2",
+        "nombre": "Función seno"
+      },
+      "respuestas_posibles": {
+        "A": "$x=k\\pi$",
+        "B": "$x=\\frac{\\pi}{2}+k\\pi$",
+        "C": "$x=2k$",
+        "D": "$x=1+k\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-2-08",
+      "pregunta": "En $[0,2\\pi]$, $\\sin x$ alcanza su máximo en:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.2",
+        "nombre": "Función seno"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "$x=\\pi$",
+        "C": "$x=\\frac{3\\pi}{2}$",
+        "D": "$x=\\frac{\\pi}{2}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-2-09",
+      "pregunta": "En $[0,2\\pi]$, $\\sin x$ alcanza su mínimo en:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.2",
+        "nombre": "Función seno"
+      },
+      "respuestas_posibles": {
+        "A": "$x=\\pi$",
+        "B": "$x=2\\pi$",
+        "C": "$x=\\frac{3\\pi}{2}$",
+        "D": "$x=\\frac{\\pi}{2}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-2-10",
+      "pregunta": "La amplitud de $y=4\\sin x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.2",
+        "nombre": "Función seno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac14$",
+        "B": "$4$",
+        "C": "$2$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-3-01",
+      "pregunta": "El dominio de $y=\\cos x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.3",
+        "nombre": "Función coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb R$",
+        "B": "$[-1,1]$",
+        "C": "$[0,2\\pi]$",
+        "D": "$\\mathbb R\\setminus\\{0\\}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-3-02",
+      "pregunta": "El rango de $y=\\cos x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.3",
+        "nombre": "Función coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb R$",
+        "B": "$[0,1]$",
+        "C": "$(-\\infty,1]$",
+        "D": "$[-1,1]$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-3-03",
+      "pregunta": "El valor máximo de $\\cos x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.3",
+        "nombre": "Función coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$-1$",
+        "B": "$2$",
+        "C": "$1$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-3-04",
+      "pregunta": "El valor mínimo de $\\cos x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.3",
+        "nombre": "Función coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$-2$",
+        "B": "$-1$",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-3-05",
+      "pregunta": "La función coseno es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.3",
+        "nombre": "Función coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Par",
+        "B": "Impar",
+        "C": "Constante",
+        "D": "Inyectiva en todo $\\mathbb R$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-3-06",
+      "pregunta": "Complete: $\\cos(-x)=$",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.3",
+        "nombre": "Función coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\cos x$",
+        "B": "$\\sin x$",
+        "C": "$-\\sin x$",
+        "D": "$\\cos x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-3-07",
+      "pregunta": "Los ceros de $\\cos x$ ocurren en:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.3",
+        "nombre": "Función coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2k\\pi$",
+        "B": "$x=1+k\\pi$",
+        "C": "$x=\\frac{\\pi}{2}+k\\pi$",
+        "D": "$x=k\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-3-08",
+      "pregunta": "En $[0,2\\pi]$, $\\cos x$ alcanza un máximo en:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.3",
+        "nombre": "Función coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$x=\\frac{3\\pi}{2}$",
+        "B": "$x=0$ y $x=2\\pi$",
+        "C": "$x=\\frac{\\pi}{2}$",
+        "D": "$x=\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-3-09",
+      "pregunta": "En $[0,2\\pi]$, $\\cos x$ alcanza su mínimo en:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.3",
+        "nombre": "Función coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$x=\\pi$",
+        "B": "$x=0$",
+        "C": "$x=\\frac{\\pi}{2}$",
+        "D": "$x=2\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-3-10",
+      "pregunta": "La amplitud de $y=-3\\cos x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.3",
+        "nombre": "Función coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$-3$",
+        "B": "$6$",
+        "C": "$\\frac13$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-4-01",
+      "pregunta": "Una identidad de cofunción es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.4",
+        "nombre": "Relación entre el seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin x=-\\cos x$",
+        "B": "$\\sin x=1/\\cos x$",
+        "C": "$\\sin x=\\cos(\\frac{\\pi}{2}-x)$",
+        "D": "$\\sin x=\\cos x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-4-02",
+      "pregunta": "Otra identidad de cofunción es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.4",
+        "nombre": "Relación entre el seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos x=1/\\sin x$",
+        "B": "$\\cos x=\\sin(\\frac{\\pi}{2}-x)$",
+        "C": "$\\cos x=\\sin x$",
+        "D": "$\\cos x=-\\sin x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-4-03",
+      "pregunta": "La gráfica de $y=\\cos x$ se obtiene de $y=\\sin x$ desplazándola:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.4",
+        "nombre": "Relación entre el seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\pi}{2}$ a la izquierda",
+        "B": "$\\pi$ a la derecha",
+        "C": "$2\\pi$ hacia arriba",
+        "D": "$\\frac{\\pi}{2}$ hacia abajo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-4-04",
+      "pregunta": "Complete: $\\sin(x+\\frac{\\pi}{2})=$",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.4",
+        "nombre": "Relación entre el seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\cos x$",
+        "B": "$\\sin x$",
+        "C": "$-\\sin x$",
+        "D": "$\\cos x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-4-05",
+      "pregunta": "Complete: $\\cos(x-\\frac{\\pi}{2})=$",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.4",
+        "nombre": "Relación entre el seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos x$",
+        "B": "$-\\cos x$",
+        "C": "$\\sin x$",
+        "D": "$-\\sin x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-4-06",
+      "pregunta": "Complete: $\\sin(x+\\pi)=$",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.4",
+        "nombre": "Relación entre el seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\cos x$",
+        "B": "$-\\sin x$",
+        "C": "$\\sin x$",
+        "D": "$\\cos x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-4-07",
+      "pregunta": "Complete: $\\cos(x+\\pi)=$",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.4",
+        "nombre": "Relación entre el seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\cos x$",
+        "B": "$\\cos x$",
+        "C": "$\\sin x$",
+        "D": "$-\\sin x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-4-08",
+      "pregunta": "Ambas funciones seno y coseno tienen:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.4",
+        "nombre": "Relación entre el seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Periodo $\\pi$",
+        "B": "Rango $\\mathbb R$",
+        "C": "Asíntotas verticales",
+        "D": "Amplitud $1$ y periodo $2\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-4-09",
+      "pregunta": "Si $\\sin x=\\frac35$ y $x$ es agudo, entonces $\\cos(\\frac{\\pi}{2}-x)=$",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.4",
+        "nombre": "Relación entre el seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac35$",
+        "B": "$\\frac53$",
+        "C": "$\\frac35$",
+        "D": "$\\frac45$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-4-10",
+      "pregunta": "Las gráficas básicas de seno y coseno difieren principalmente por:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.4",
+        "nombre": "Relación entre el seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Su rango",
+        "B": "Un desplazamiento horizontal",
+        "C": "Su amplitud",
+        "D": "Su periodo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-5-01",
+      "pregunta": "El dominio de $y=\\tan x$ excluye:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.5",
+        "nombre": "Función tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$x=\\frac{\\pi}{2}+k\\pi$",
+        "B": "$x=k\\pi$",
+        "C": "$x=2k\\pi$",
+        "D": "$x=\\frac{\\pi}{4}+k\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-5-02",
+      "pregunta": "El rango de $y=\\tan x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.5",
+        "nombre": "Función tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$[-1,1]$",
+        "B": "$[0,\\infty)$",
+        "C": "$(-1,1)$",
+        "D": "$\\mathbb R$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-5-03",
+      "pregunta": "El periodo de $\\tan x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.5",
+        "nombre": "Función tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\pi}{2}$",
+        "B": "$4\\pi$",
+        "C": "$\\pi$",
+        "D": "$2\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-5-04",
+      "pregunta": "La función tangente es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.5",
+        "nombre": "Función tangente"
+      },
+      "respuestas_posibles": {
+        "A": "Acotada",
+        "B": "Impar",
+        "C": "Par",
+        "D": "Constante"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-5-05",
+      "pregunta": "Los ceros de $\\tan x$ son:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.5",
+        "nombre": "Función tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$x=k\\pi$",
+        "B": "$x=\\frac{\\pi}{2}+k\\pi$",
+        "C": "$x=\\frac{\\pi}{4}+k\\pi$",
+        "D": "$x=2k+1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-5-06",
+      "pregunta": "Las asíntotas verticales de $\\tan x$ son:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.5",
+        "nombre": "Función tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$y=\\frac{\\pi}{2}$",
+        "B": "$x=k\\pi$",
+        "C": "$y=k\\pi$",
+        "D": "$x=\\frac{\\pi}{2}+k\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-5-07",
+      "pregunta": "En cada intervalo entre asíntotas, $\\tan x$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.5",
+        "nombre": "Función tangente"
+      },
+      "respuestas_posibles": {
+        "A": "Constante",
+        "B": "Siempre negativa",
+        "C": "Creciente",
+        "D": "Decreciente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-5-08",
+      "pregunta": "Complete: $\\tan(-x)=$",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.5",
+        "nombre": "Función tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\cot x$",
+        "B": "$-\\tan x$",
+        "C": "$\\tan x$",
+        "D": "$\\cot x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-5-09",
+      "pregunta": "El periodo de $y=\\tan(2x)$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.5",
+        "nombre": "Función tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\pi}{2}$",
+        "B": "$2\\pi$",
+        "C": "$\\pi$",
+        "D": "$4\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-5-10",
+      "pregunta": "El periodo de $y=\\tan(\\frac{x}{3})$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.5",
+        "nombre": "Función tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\pi}{3}$",
+        "B": "$2\\pi$",
+        "C": "$6\\pi$",
+        "D": "$3\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-6-01",
+      "pregunta": "La función secante es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.6",
+        "nombre": "Funciones secante, cosecante y cotangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin x/\\cos x$",
+        "B": "$\\cos x/\\sin x$",
+        "C": "$\\sec x=\\frac1{\\cos x}$",
+        "D": "$1/\\sin x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-6-02",
+      "pregunta": "La función cosecante es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.6",
+        "nombre": "Funciones secante, cosecante y cotangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos x/\\sin x$",
+        "B": "$\\csc x=\\frac1{\\sin x}$",
+        "C": "$1/\\cos x$",
+        "D": "$\\sin x/\\cos x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-6-03",
+      "pregunta": "La función cotangente es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.6",
+        "nombre": "Funciones secante, cosecante y cotangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cot x=\\frac{\\cos x}{\\sin x}$",
+        "B": "$\\sin x/\\cos x$",
+        "C": "$1/\\cos x$",
+        "D": "$1/\\sin x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-6-04",
+      "pregunta": "El rango de la secante es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.6",
+        "nombre": "Funciones secante, cosecante y cotangente"
+      },
+      "respuestas_posibles": {
+        "A": "$[-1,1]$",
+        "B": "$\\mathbb R$",
+        "C": "$[0,\\infty)$",
+        "D": "$(-\\infty,-1]\\cup[1,\\infty)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-6-05",
+      "pregunta": "El rango de la cosecante es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.6",
+        "nombre": "Funciones secante, cosecante y cotangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb R$",
+        "B": "$[0,\\infty)$",
+        "C": "$(-\\infty,-1]\\cup[1,\\infty)$",
+        "D": "$[-1,1]$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-6-06",
+      "pregunta": "El periodo de la cotangente es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.6",
+        "nombre": "Funciones secante, cosecante y cotangente"
+      },
+      "respuestas_posibles": {
+        "A": "$4\\pi$",
+        "B": "$\\pi$",
+        "C": "$2\\pi$",
+        "D": "$\\frac{\\pi}{2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-6-07",
+      "pregunta": "Las asíntotas de $\\sec x$ aparecen donde:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.6",
+        "nombre": "Funciones secante, cosecante y cotangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos x=0$",
+        "B": "$\\sin x=0$",
+        "C": "$\\tan x=0$",
+        "D": "$x=0$ únicamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-6-08",
+      "pregunta": "Las asíntotas de $\\csc x$ aparecen donde:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.6",
+        "nombre": "Funciones secante, cosecante y cotangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos x=0$",
+        "B": "$\\tan x=1$",
+        "C": "$x=\\pi/2$ únicamente",
+        "D": "$\\sin x=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-6-09",
+      "pregunta": "Las asíntotas de $\\cot x$ aparecen en:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.6",
+        "nombre": "Funciones secante, cosecante y cotangente"
+      },
+      "respuestas_posibles": {
+        "A": "$x=\\frac{\\pi}{4}+k\\pi$",
+        "B": "$x=2k+1$",
+        "C": "$x=k\\pi$",
+        "D": "$x=\\frac{\\pi}{2}+k\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-6-10",
+      "pregunta": "La cotangente es recíproca de:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.6",
+        "nombre": "Funciones secante, cosecante y cotangente"
+      },
+      "respuestas_posibles": {
+        "A": "La secante",
+        "B": "La tangente",
+        "C": "El seno",
+        "D": "El coseno"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-7-01",
+      "pregunta": "Identifique amplitud, periodo y línea media de $y=2\\sin(3x)+1$.",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.7",
+        "nombre": "Transformaciones del seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Amplitud $2$, periodo $\\frac{2\\pi}{3}$ y línea media $y=1$",
+        "B": "Amplitud $3$, periodo $2\\pi$ y línea media $y=2$",
+        "C": "Amplitud $2$, periodo $6\\pi$ y línea media $y=0$",
+        "D": "Amplitud $1$, periodo $\\pi$ y línea media $y=3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "identificar transformaciones sinusoidales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-7-02",
+      "pregunta": "Identifique amplitud, periodo y línea media de $y=4\\cos(2x)+-1$.",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.7",
+        "nombre": "Transformaciones del seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Amplitud $2$, periodo $2\\pi$ y línea media $y=4$",
+        "B": "Amplitud $4$, periodo $4\\pi$ y línea media $y=0$",
+        "C": "Amplitud $1$, periodo $\\pi$ y línea media $y=2$",
+        "D": "Amplitud $4$, periodo $\\frac{2\\pi}{2}$ y línea media $y=-1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "identificar transformaciones sinusoidales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-7-03",
+      "pregunta": "Identifique amplitud, periodo y línea media de $y=3\\sin(1(x-\\pi/4))+2$.",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.7",
+        "nombre": "Transformaciones del seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Amplitud $3$, periodo $2\\pi$ y línea media $y=0$",
+        "B": "Amplitud $2$, periodo $\\pi$ y línea media $y=1$",
+        "C": "Amplitud $3$, periodo $\\frac{2\\pi}{1}$ y línea media $y=2$",
+        "D": "Amplitud $1$, periodo $2\\pi$ y línea media $y=3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "identificar transformaciones sinusoidales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-7-04",
+      "pregunta": "Identifique amplitud, periodo y línea media de $y=5\\cos(4(x-\\pi/2))+0$.",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.7",
+        "nombre": "Transformaciones del seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Amplitud $0$, periodo $\\pi$ y línea media $y=4$",
+        "B": "Amplitud $5$, periodo $\\frac{2\\pi}{4}$ y línea media $y=0$",
+        "C": "Amplitud $4$, periodo $2\\pi$ y línea media $y=5$",
+        "D": "Amplitud $5$, periodo $8\\pi$ y línea media $y=0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "identificar transformaciones sinusoidales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-7-05",
+      "pregunta": "Identifique amplitud, periodo y línea media de $y=1\\sin(2(x-\\pi/3))+-2$.",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.7",
+        "nombre": "Transformaciones del seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Amplitud $1$, periodo $\\frac{2\\pi}{2}$ y línea media $y=-2$",
+        "B": "Amplitud $2$, periodo $2\\pi$ y línea media $y=1$",
+        "C": "Amplitud $1$, periodo $4\\pi$ y línea media $y=0$",
+        "D": "Amplitud $2$, periodo $\\pi$ y línea media $y=2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "identificar transformaciones sinusoidales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-7-06",
+      "pregunta": "Identifique amplitud, periodo y línea media de $y=2\\cos(1(x-\\pi/6))+3$.",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.7",
+        "nombre": "Transformaciones del seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Amplitud $1$, periodo $2\\pi$ y línea media $y=2$",
+        "B": "Amplitud $2$, periodo $2\\pi$ y línea media $y=0$",
+        "C": "Amplitud $3$, periodo $\\pi$ y línea media $y=1$",
+        "D": "Amplitud $2$, periodo $\\frac{2\\pi}{1}$ y línea media $y=3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "identificar transformaciones sinusoidales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-7-07",
+      "pregunta": "Identifique amplitud, periodo y línea media de $y=6\\sin(3(x-\\pi))+0$.",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.7",
+        "nombre": "Transformaciones del seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Amplitud $6$, periodo $6\\pi$ y línea media $y=0$",
+        "B": "Amplitud $0$, periodo $\\pi$ y línea media $y=3$",
+        "C": "Amplitud $6$, periodo $\\frac{2\\pi}{3}$ y línea media $y=0$",
+        "D": "Amplitud $3$, periodo $2\\pi$ y línea media $y=6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "identificar transformaciones sinusoidales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-7-08",
+      "pregunta": "Identifique amplitud, periodo y línea media de $y=3\\cos(2(x-\\pi/4))+1$.",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.7",
+        "nombre": "Transformaciones del seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Amplitud $1$, periodo $\\pi$ y línea media $y=2$",
+        "B": "Amplitud $3$, periodo $\\frac{2\\pi}{2}$ y línea media $y=1$",
+        "C": "Amplitud $2$, periodo $2\\pi$ y línea media $y=3$",
+        "D": "Amplitud $3$, periodo $4\\pi$ y línea media $y=0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "identificar transformaciones sinusoidales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-7-09",
+      "pregunta": "Identifique amplitud, periodo y línea media de $y=4\\sin(4(x-\\pi/2))+-1$.",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.7",
+        "nombre": "Transformaciones del seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Amplitud $4$, periodo $\\frac{2\\pi}{4}$ y línea media $y=-1$",
+        "B": "Amplitud $4$, periodo $2\\pi$ y línea media $y=4$",
+        "C": "Amplitud $4$, periodo $8\\pi$ y línea media $y=0$",
+        "D": "Amplitud $1$, periodo $\\pi$ y línea media $y=4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "identificar transformaciones sinusoidales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-7-10",
+      "pregunta": "Identifique amplitud, periodo y línea media de $y=1\\cos(5x)+2$.",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.7",
+        "nombre": "Transformaciones del seno y el coseno"
+      },
+      "respuestas_posibles": {
+        "A": "Amplitud $5$, periodo $2\\pi$ y línea media $y=1$",
+        "B": "Amplitud $1$, periodo $10\\pi$ y línea media $y=0$",
+        "C": "Amplitud $2$, periodo $\\pi$ y línea media $y=5$",
+        "D": "Amplitud $1$, periodo $\\frac{2\\pi}{5}$ y línea media $y=2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "identificar transformaciones sinusoidales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-8-01",
+      "pregunta": "Para $y=\\sin x$, los cinco puntos clave de un periodo usan incrementos de:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.8",
+        "nombre": "Puntos clave de una función sinusoidal"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\pi}{4}$",
+        "B": "$2\\pi$",
+        "C": "$\\frac{\\pi}{2}$",
+        "D": "$\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-8-02",
+      "pregunta": "Los valores de $\\sin x$ en $0,\\frac\\pi2,\\pi,\\frac{3\\pi}2,2\\pi$ son:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.8",
+        "nombre": "Puntos clave de una función sinusoidal"
+      },
+      "respuestas_posibles": {
+        "A": "$1,1,0,-1,-1$",
+        "B": "$0,1,0,-1,0$",
+        "C": "$1,0,-1,0,1$",
+        "D": "$0,-1,0,1,0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-8-03",
+      "pregunta": "Los valores de $\\cos x$ en $0,\\frac\\pi2,\\pi,\\frac{3\\pi}2,2\\pi$ son:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.8",
+        "nombre": "Puntos clave de una función sinusoidal"
+      },
+      "respuestas_posibles": {
+        "A": "$1,0,-1,0,1$",
+        "B": "$0,1,0,-1,0$",
+        "C": "$-1,0,1,0,-1$",
+        "D": "$1,1,0,-1,-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-8-04",
+      "pregunta": "Para una sinusoidal de periodo $T$, la separación entre puntos clave es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.8",
+        "nombre": "Puntos clave de una función sinusoidal"
+      },
+      "respuestas_posibles": {
+        "A": "$T$",
+        "B": "$\\frac T2$",
+        "C": "$2T$",
+        "D": "$\\frac T4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-8-05",
+      "pregunta": "En $y=A\\sin(Bx)+D$, el máximo es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.8",
+        "nombre": "Puntos clave de una función sinusoidal"
+      },
+      "respuestas_posibles": {
+        "A": "$A+B$",
+        "B": "$D$",
+        "C": "$D+|A|$",
+        "D": "$D-|A|$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-8-06",
+      "pregunta": "En $y=A\\sin(Bx)+D$, el mínimo es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.8",
+        "nombre": "Puntos clave de una función sinusoidal"
+      },
+      "respuestas_posibles": {
+        "A": "$D$",
+        "B": "$D-|A|$",
+        "C": "$D+|A|$",
+        "D": "$A-B$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-8-07",
+      "pregunta": "La línea media de $y=3\\cos x-2$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.8",
+        "nombre": "Puntos clave de una función sinusoidal"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-2$",
+        "B": "$y=3$",
+        "C": "$y=2$",
+        "D": "$y=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-8-08",
+      "pregunta": "El máximo de $y=2\\sin x+5$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.8",
+        "nombre": "Puntos clave de una función sinusoidal"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$5$",
+        "C": "$10$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-8-09",
+      "pregunta": "El mínimo de $y=4\\cos x-1$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.8",
+        "nombre": "Puntos clave de una función sinusoidal"
+      },
+      "respuestas_posibles": {
+        "A": "$-1$",
+        "B": "$5$",
+        "C": "$-5$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-8-10",
+      "pregunta": "Los puntos clave permiten bosquejar una sinusoidal usando:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.8",
+        "nombre": "Puntos clave de una función sinusoidal"
+      },
+      "respuestas_posibles": {
+        "A": "Solo la ordenada al origen",
+        "B": "Máximos, mínimos y cruces de la línea media",
+        "C": "Solo asíntotas",
+        "D": "Únicamente ceros"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-9-01",
+      "pregunta": "En $y=A\\tan(B(x-C))+D$, el periodo es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.9",
+        "nombre": "Transformaciones de la tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\pi}{|B|}$",
+        "B": "$\\frac{2\\pi}{|B|}$",
+        "C": "$|A|\\pi$",
+        "D": "$2\\pi|B|$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-9-02",
+      "pregunta": "En $y=2\\tan x$, el factor $2$ produce:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.9",
+        "nombre": "Transformaciones de la tangente"
+      },
+      "respuestas_posibles": {
+        "A": "Cambio de periodo",
+        "B": "Traslación horizontal",
+        "C": "Traslación vertical",
+        "D": "Estiramiento vertical"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-9-03",
+      "pregunta": "El periodo de $y=\\tan(3x)$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.9",
+        "nombre": "Transformaciones de la tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{2\\pi}{3}$",
+        "B": "$2\\pi$",
+        "C": "$\\frac{\\pi}{3}$",
+        "D": "$3\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-9-04",
+      "pregunta": "El periodo de $y=\\tan(\\frac{x}{4})$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.9",
+        "nombre": "Transformaciones de la tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$8\\pi$",
+        "B": "$4\\pi$",
+        "C": "$\\frac{\\pi}{4}$",
+        "D": "$2\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-9-05",
+      "pregunta": "La gráfica de $y=\\tan(x-\\frac\\pi4)$ se traslada:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.9",
+        "nombre": "Transformaciones de la tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac\\pi4$ a la derecha",
+        "B": "$\\frac\\pi4$ a la izquierda",
+        "C": "$\\frac\\pi4$ hacia arriba",
+        "D": "$\\pi$ a la derecha"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-9-06",
+      "pregunta": "La gráfica de $y=\\tan x+2$ se traslada:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.9",
+        "nombre": "Transformaciones de la tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$2$ a la derecha",
+        "B": "$2$ hacia abajo",
+        "C": "$\\pi$ hacia arriba",
+        "D": "$2$ unidades hacia arriba"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-9-07",
+      "pregunta": "La línea central de $y=3\\tan(2x)-1$ es:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.9",
+        "nombre": "Transformaciones de la tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$y=2$",
+        "B": "$y=1$",
+        "C": "$y=-1$",
+        "D": "$y=3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-9-08",
+      "pregunta": "Las asíntotas de $y=\\tan(Bx)$ se separan por:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.9",
+        "nombre": "Transformaciones de la tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$2|B|$",
+        "B": "$\\frac{\\pi}{|B|}$",
+        "C": "$\\frac{2\\pi}{|B|}$",
+        "D": "$|B|\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-9-09",
+      "pregunta": "El coeficiente $A<0$ en $A\\tan x$ produce:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.9",
+        "nombre": "Transformaciones de la tangente"
+      },
+      "respuestas_posibles": {
+        "A": "Reflexión respecto del eje $x$",
+        "B": "Cambio de dominio total",
+        "C": "Traslación a la derecha",
+        "D": "Eliminación de asíntotas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-29-9-10",
+      "pregunta": "El centro de una rama de $y=A\\tan(B(x-C))+D$ está en:",
+      "tema": {
+        "codigo": "29",
+        "nombre": "Funciones trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "29.9",
+        "nombre": "Transformaciones de la tangente"
+      },
+      "respuestas_posibles": {
+        "A": "$(A,B)$",
+        "B": "$(B,C)$",
+        "C": "$(0,A)$",
+        "D": "$(C,D)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar funciones trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

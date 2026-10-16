@@ -1,0 +1,3984 @@
+{
+  "metadata": {
+    "capitulo": "42",
+    "titulo": "La integral",
+    "version": "6.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 15,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 150,
+    "secciones_incluidas": [
+      {
+        "codigo": "42.1",
+        "nombre": "Antiderivada o primitiva"
+      },
+      {
+        "codigo": "42.2",
+        "nombre": "Derivación e integración"
+      },
+      {
+        "codigo": "42.3",
+        "nombre": "Propiedades de la integral indefinida"
+      },
+      {
+        "codigo": "42.4",
+        "nombre": "Integrales inmediatas"
+      },
+      {
+        "codigo": "42.5",
+        "nombre": "Regla de la potencia"
+      },
+      {
+        "codigo": "42.6",
+        "nombre": "Raíces y potencias negativas"
+      },
+      {
+        "codigo": "42.7",
+        "nombre": "Ejemplos de integrales inmediatas"
+      },
+      {
+        "codigo": "42.8",
+        "nombre": "Sustitución simple"
+      },
+      {
+        "codigo": "42.9",
+        "nombre": "Verificación de una integral"
+      },
+      {
+        "codigo": "42.10",
+        "nombre": "Condiciones iniciales"
+      },
+      {
+        "codigo": "42.11",
+        "nombre": "Aplicación al movimiento"
+      },
+      {
+        "codigo": "42.12",
+        "nombre": "Integral definida"
+      },
+      {
+        "codigo": "42.13",
+        "nombre": "Teorema fundamental del cálculo"
+      },
+      {
+        "codigo": "42.14",
+        "nombre": "Propiedades de la integral definida"
+      },
+      {
+        "codigo": "42.15",
+        "nombre": "Área entre una curva y el eje"
+      }
+    ],
+    "secciones_editoriales_omitidas": [
+      "42.16 Procedimiento rápido",
+      "42.17 Resumen",
+      "42.18 Errores frecuentes",
+      "42.19 Ejercicios propuestos"
+    ],
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_validado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-42-1-01",
+      "pregunta": "Si $F'(x)=f(x)$ en un intervalo, entonces $F$ es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.1",
+        "nombre": "Antiderivada o primitiva"
+      },
+      "respuestas_posibles": {
+        "A": "Una antiderivada de $f$",
+        "B": "La inversa de $f$",
+        "C": "Una asíntota de $f$",
+        "D": "La segunda derivada de $f$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "antiderivada o primitiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-1-02",
+      "pregunta": "¿Cuál es una antiderivada de $6x^2$?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.1",
+        "nombre": "Antiderivada o primitiva"
+      },
+      "respuestas_posibles": {
+        "A": "$12x$",
+        "B": "$6x^3$",
+        "C": "$3x^2-5$",
+        "D": "$2x^3-5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "antiderivada o primitiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-1-03",
+      "pregunta": "Dos primitivas de una misma función difieren en:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.1",
+        "nombre": "Antiderivada o primitiva"
+      },
+      "respuestas_posibles": {
+        "A": "Un exponente",
+        "B": "Una variable distinta",
+        "C": "Una constante",
+        "D": "Un factor de $x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "antiderivada o primitiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-1-04",
+      "pregunta": "¿Cuál función tiene derivada $4x-3$?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.1",
+        "nombre": "Antiderivada o primitiva"
+      },
+      "respuestas_posibles": {
+        "A": "$4-3x$",
+        "B": "$2x^2-3x+7$",
+        "C": "$4x^2-3x$",
+        "D": "$2x^2-3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "antiderivada o primitiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-1-05",
+      "pregunta": "Si $F(x)=x^5+2x$, el integrando del que $F$ es primitiva es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.1",
+        "nombre": "Antiderivada o primitiva"
+      },
+      "respuestas_posibles": {
+        "A": "$5x^4+2$",
+        "B": "$x^4+2$",
+        "C": "$5x^4+2x$",
+        "D": "$5x+2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "antiderivada o primitiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-1-06",
+      "pregunta": "¿Cuál NO es antiderivada de $2x$?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.1",
+        "nombre": "Antiderivada o primitiva"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2$",
+        "B": "$x^2-8$",
+        "C": "$x^2+\\pi$",
+        "D": "$x^2+x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "antiderivada o primitiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-1-07",
+      "pregunta": "Una antiderivada de la constante $-4$ es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.1",
+        "nombre": "Antiderivada o primitiva"
+      },
+      "respuestas_posibles": {
+        "A": "$-x^4$",
+        "B": "$4x+9$",
+        "C": "$-4x+9$",
+        "D": "$-4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "antiderivada o primitiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-1-08",
+      "pregunta": "Si $F$ y $G$ son primitivas de $f$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.1",
+        "nombre": "Antiderivada o primitiva"
+      },
+      "respuestas_posibles": {
+        "A": "$F'(x)-G'(x)=1$",
+        "B": "$F(x)-G(x)$ es constante",
+        "C": "$F(x)+G(x)=0$",
+        "D": "$F(x)G(x)=1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "antiderivada o primitiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-1-09",
+      "pregunta": "¿Cuál es una primitiva de $\\cos x$?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.1",
+        "nombre": "Antiderivada o primitiva"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin x-2$",
+        "B": "$-\\sin x$",
+        "C": "$\\cos x-2$",
+        "D": "$\\tan x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "antiderivada o primitiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-1-10",
+      "pregunta": "La familia completa de primitivas de $f$ se expresa como:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.1",
+        "nombre": "Antiderivada o primitiva"
+      },
+      "respuestas_posibles": {
+        "A": "$F'(x)+C$",
+        "B": "$f(x)+x$",
+        "C": "$F(x)C$",
+        "D": "$F(x)+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "antiderivada o primitiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-2-01",
+      "pregunta": "Calcule $\\int 8x^3\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.2",
+        "nombre": "Derivación e integración"
+      },
+      "respuestas_posibles": {
+        "A": "$8x^4+C$",
+        "B": "$2x^3+C$",
+        "C": "$2x^4+C$",
+        "D": "$24x^2+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "derivación e integración",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-2-02",
+      "pregunta": "Si $F'(x)=7x^6$, entonces $\\int F'(x)\\,dx=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.2",
+        "nombre": "Derivación e integración"
+      },
+      "respuestas_posibles": {
+        "A": "$x^6+C$",
+        "B": "$x^7+C$",
+        "C": "$42x^5+C$",
+        "D": "$7x^7+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "derivación e integración",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-2-03",
+      "pregunta": "¿Qué se obtiene al derivar $\\int f(x)\\,dx$?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.2",
+        "nombre": "Derivación e integración"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)$",
+        "B": "$f'(x)$",
+        "C": "$F(x)+C$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "derivación e integración",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-2-04",
+      "pregunta": "Calcule $\\int \\cos x\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.2",
+        "nombre": "Derivación e integración"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\sin x+C$",
+        "B": "$\\cos x+C$",
+        "C": "$\\tan x+C$",
+        "D": "$\\sin x+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "derivación e integración",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-2-05",
+      "pregunta": "Si $F(x)=3x^2-5$, entonces $\\int F'(x)\\,dx=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.2",
+        "nombre": "Derivación e integración"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^2-5$ únicamente",
+        "B": "$x^3-5x+C$",
+        "C": "$3x^2+C$",
+        "D": "$6x+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "derivación e integración",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-2-06",
+      "pregunta": "La constante desaparece al derivar porque:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.2",
+        "nombre": "Derivación e integración"
+      },
+      "respuestas_posibles": {
+        "A": "La constante depende de $x$",
+        "B": "La derivada de una constante es $0$",
+        "C": "Toda constante vale $0$",
+        "D": "La integral la cancela"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "derivación e integración",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-2-07",
+      "pregunta": "¿Cuál igualdad muestra que integrar y derivar son operaciones inversas?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.2",
+        "nombre": "Derivación e integración"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{d}{dx}\\left[\\int f(x)\\,dx\\right]=f(x)$",
+        "B": "$\\int f'(x)\\,dx=f'(x)$",
+        "C": "$\\frac{d}{dx}f(x)=F(x)+C$",
+        "D": "$\\int f(x)\\,dx=f'(x)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "derivación e integración",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-2-08",
+      "pregunta": "Calcule $\\int (9x^2-4)\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.2",
+        "nombre": "Derivación e integración"
+      },
+      "respuestas_posibles": {
+        "A": "$18x-4+C$",
+        "B": "$9x^3-4x+C$",
+        "C": "$3x^3-4+C$",
+        "D": "$3x^3-4x+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "derivación e integración",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-2-09",
+      "pregunta": "Si $\\int f(x)\\,dx=x^4-2x+C$, entonces $f(x)=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.2",
+        "nombre": "Derivación e integración"
+      },
+      "respuestas_posibles": {
+        "A": "$4x^3-2x$",
+        "B": "$4x-2$",
+        "C": "$4x^3-2$",
+        "D": "$x^3-2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "derivación e integración",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-2-10",
+      "pregunta": "Omitir $C$ en una integral indefinida significa escribir:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.2",
+        "nombre": "Derivación e integración"
+      },
+      "respuestas_posibles": {
+        "A": "Una ecuación sin variable",
+        "B": "Solo una antiderivada, no la familia completa",
+        "C": "Una integral definida",
+        "D": "Una derivada incorrecta siempre"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "derivación e integración",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-3-01",
+      "pregunta": "Simplifique antes de integrar: $\\int[3f(x)+2g(x)]\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.3",
+        "nombre": "Propiedades de la integral indefinida"
+      },
+      "respuestas_posibles": {
+        "A": "$3\\int f(x)\\,dx+2\\int g(x)\\,dx$",
+        "B": "$5\\int[f(x)+g(x)]\\,dx$",
+        "C": "$6\\int f(x)g(x)\\,dx$",
+        "D": "$3f(x)+2g(x)+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral indefinida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-3-02",
+      "pregunta": "Calcule $\\int(4x^3+6x)\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.3",
+        "nombre": "Propiedades de la integral indefinida"
+      },
+      "respuestas_posibles": {
+        "A": "$12x^2+6+C$",
+        "B": "$4x^4+6x^2+C$",
+        "C": "$x^4+6x^2+C$",
+        "D": "$x^4+3x^2+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral indefinida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-3-03",
+      "pregunta": "Calcule $\\int(5x^2-8x+3)\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.3",
+        "nombre": "Propiedades de la integral indefinida"
+      },
+      "respuestas_posibles": {
+        "A": "$5x^3-4x^2+3+C$",
+        "B": "$\\frac{5}{3}x^3-8x^2+3x+C$",
+        "C": "$\\frac{5}{3}x^3-4x^2+3x+C$",
+        "D": "$10x-8+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral indefinida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-3-04",
+      "pregunta": "Para una constante $k$, la propiedad correcta es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.3",
+        "nombre": "Propiedades de la integral indefinida"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int kf(x)\\,dx=\\int k\\,dx\\int f(x)\\,dx$",
+        "B": "$\\int kf(x)\\,dx=k\\int f(x)\\,dx$",
+        "C": "$\\int kf(x)\\,dx=\\frac1k\\int f(x)\\,dx$",
+        "D": "$\\int kf(x)\\,dx=k+\\int f(x)\\,dx$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral indefinida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-3-05",
+      "pregunta": "Calcule $\\int(7-3x^2)\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.3",
+        "nombre": "Propiedades de la integral indefinida"
+      },
+      "respuestas_posibles": {
+        "A": "$7x-x^3+C$",
+        "B": "$7-6x+C$",
+        "C": "$7x-3x^3+C$",
+        "D": "$7x-x^2+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral indefinida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-3-06",
+      "pregunta": "La integral de una suma se obtiene:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.3",
+        "nombre": "Propiedades de la integral indefinida"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicando las primitivas",
+        "B": "Derivando cada término",
+        "C": "Sumando solo coeficientes",
+        "D": "Integrando término a término"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral indefinida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-3-07",
+      "pregunta": "Calcule $\\int(2e^x-3\\cos x)\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.3",
+        "nombre": "Propiedades de la integral indefinida"
+      },
+      "respuestas_posibles": {
+        "A": "$2xe^x-3\\sin x+C$",
+        "B": "$2e^x-3\\cos x+C$",
+        "C": "$2e^x-3\\sin x+C$",
+        "D": "$2e^x+3\\sin x+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral indefinida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-3-08",
+      "pregunta": "Si $\\int f=F+C$ y $\\int g=G+C$, entonces $\\int(f-g)=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.3",
+        "nombre": "Propiedades de la integral indefinida"
+      },
+      "respuestas_posibles": {
+        "A": "$F/G+C$",
+        "B": "$F-G+C$",
+        "C": "$F+G+C$",
+        "D": "$FG+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral indefinida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-3-09",
+      "pregunta": "Calcule $\\int\\left(\\frac{3}{x}+2x\\right)dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.3",
+        "nombre": "Propiedades de la integral indefinida"
+      },
+      "respuestas_posibles": {
+        "A": "$3\\ln|x|+x^2+C$",
+        "B": "$\\frac{3}{x^2}+2+C$",
+        "C": "$\\ln|3x|+x^2+C$",
+        "D": "$3\\ln|x|+2x^2+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral indefinida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-3-10",
+      "pregunta": "Las constantes de integración obtenidas por separado pueden reunirse como:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.3",
+        "nombre": "Propiedades de la integral indefinida"
+      },
+      "respuestas_posibles": {
+        "A": "Cero necesariamente",
+        "B": "La variable $x$",
+        "C": "El coeficiente mayor",
+        "D": "Una sola constante arbitraria $C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral indefinida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-4-01",
+      "pregunta": "Calcule $\\int 9\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.4",
+        "nombre": "Integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$x^9+C$",
+        "B": "$0$",
+        "C": "$9x+C$",
+        "D": "$9+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-4-02",
+      "pregunta": "Calcule $\\int e^x\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.4",
+        "nombre": "Integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\ln x+C$",
+        "B": "$e^x+C$",
+        "C": "$xe^x+C$",
+        "D": "$e^{x+1}+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-4-03",
+      "pregunta": "Calcule $\\int \\sec^2x\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.4",
+        "nombre": "Integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan x+C$",
+        "B": "$\\sec x+C$",
+        "C": "$-\\cot x+C$",
+        "D": "$\\sin x+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-4-04",
+      "pregunta": "Calcule $\\int \\frac1x\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.4",
+        "nombre": "Integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac1{x^2}+C$",
+        "B": "$\\frac{x^2}{2}+C$",
+        "C": "$e^x+C$",
+        "D": "$\\ln|x|+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-4-05",
+      "pregunta": "Calcule $\\int \\csc x\\cot x\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.4",
+        "nombre": "Integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\cot x+C$",
+        "B": "$\\sec x+C$",
+        "C": "$-\\csc x+C$",
+        "D": "$\\csc x+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-4-06",
+      "pregunta": "Calcule $\\int a^x\\,dx$, con $a>0$ y $a\\ne1$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.4",
+        "nombre": "Integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$a^{x+1}+C$",
+        "B": "$\\frac{a^x}{\\ln a}+C$",
+        "C": "$a^x\\ln a+C$",
+        "D": "$xa^{x-1}+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-4-07",
+      "pregunta": "Calcule $\\int \\frac1{1+x^2}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.4",
+        "nombre": "Integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\arctan x+C$",
+        "B": "$\\arcsin x+C$",
+        "C": "$\\ln(1+x^2)+C$",
+        "D": "$-\\frac1{(1+x^2)^2}+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-4-08",
+      "pregunta": "Calcule $\\int \\frac1{\\sqrt{1-x^2}}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.4",
+        "nombre": "Integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\arctan x+C$",
+        "B": "$\\sqrt{1-x^2}+C$",
+        "C": "$\\ln|x|+C$",
+        "D": "$\\arcsin x+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-4-09",
+      "pregunta": "Calcule $\\int \\sec x\\tan x\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.4",
+        "nombre": "Integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\sec x+C$",
+        "B": "$\\ln|\\sec x|+C$",
+        "C": "$\\sec x+C$",
+        "D": "$\\tan x+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-4-10",
+      "pregunta": "Una integral inmediata se identifica porque:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.4",
+        "nombre": "Integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "No incluye diferencial",
+        "B": "Coincide directamente con una fórmula básica",
+        "C": "Siempre requiere sustitución",
+        "D": "Siempre es definida"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-5-01",
+      "pregunta": "Calcule $\\int x^{2}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.5",
+        "nombre": "Regla de la potencia"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x^{3}}{3}+C$",
+        "B": "$2x^{1}+C$",
+        "C": "$x^{3}+C$",
+        "D": "$\\frac{x^{2}}{2}+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "regla de la potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-5-02",
+      "pregunta": "Calcule $\\int x^{3}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.5",
+        "nombre": "Regla de la potencia"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^{2}+C$",
+        "B": "$x^{4}+C$",
+        "C": "$\\frac{x^{3}}{3}+C$",
+        "D": "$\\frac{x^{4}}{4}+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "regla de la potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-5-03",
+      "pregunta": "Calcule $\\int x^{4}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.5",
+        "nombre": "Regla de la potencia"
+      },
+      "respuestas_posibles": {
+        "A": "$x^{5}+C$",
+        "B": "$\\frac{x^{4}}{4}+C$",
+        "C": "$\\frac{x^{5}}{5}+C$",
+        "D": "$4x^{3}+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "regla de la potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-5-04",
+      "pregunta": "Calcule $\\int x^{5}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.5",
+        "nombre": "Regla de la potencia"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x^{5}}{5}+C$",
+        "B": "$\\frac{x^{6}}{6}+C$",
+        "C": "$5x^{4}+C$",
+        "D": "$x^{6}+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "regla de la potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-5-05",
+      "pregunta": "Calcule $\\int x^{-2}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.5",
+        "nombre": "Regla de la potencia"
+      },
+      "respuestas_posibles": {
+        "A": "$-x^{-1}+C$",
+        "B": "$-2x^{-3}+C$",
+        "C": "$x^{-1}+C$",
+        "D": "$\\frac{x^{-2}}{-2}+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "regla de la potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-5-06",
+      "pregunta": "Calcule $\\int x^{-3}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.5",
+        "nombre": "Regla de la potencia"
+      },
+      "respuestas_posibles": {
+        "A": "$-3x^{-4}+C$",
+        "B": "$x^{-2}+C$",
+        "C": "$\\frac{x^{-3}}{-3}+C$",
+        "D": "$\\frac{x^{-2}}{-2}+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "regla de la potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-5-07",
+      "pregunta": "Calcule $\\int x^{\\frac{1}{2}}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.5",
+        "nombre": "Regla de la potencia"
+      },
+      "respuestas_posibles": {
+        "A": "$x^{3/2}+C$",
+        "B": "$\\frac{x^{1/2}}{1/2}+C$",
+        "C": "$\\frac{2}{3}x^{\\frac{3}{2}}+C$",
+        "D": "$1/2x^{-1/2}+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "regla de la potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-5-08",
+      "pregunta": "Calcule $\\int x^{\\frac{3}{2}}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.5",
+        "nombre": "Regla de la potencia"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x^{3/2}}{3/2}+C$",
+        "B": "$\\frac{2}{5}x^{\\frac{5}{2}}+C$",
+        "C": "$3/2x^{1/2}+C$",
+        "D": "$x^{5/2}+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "regla de la potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-5-09",
+      "pregunta": "Calcule $\\int x^{\\frac{-1}{2}}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.5",
+        "nombre": "Regla de la potencia"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{2}{1}x^{\\frac{1}{2}}+C$",
+        "B": "$-1/2x^{-3/2}+C$",
+        "C": "$x^{1/2}+C$",
+        "D": "$\\frac{x^{-1/2}}{-1/2}+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "regla de la potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-5-10",
+      "pregunta": "¿Por qué la regla de la potencia no se aplica con $n=-1$?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.5",
+        "nombre": "Regla de la potencia"
+      },
+      "respuestas_posibles": {
+        "A": "Porque $x^{-1}$ no existe",
+        "B": "Porque su integral es $0$",
+        "C": "Porque solo admite exponentes positivos",
+        "D": "Porque aparecería división entre cero y $\\int x^{-1}dx=\\ln|x|+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "regla de la potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-6-01",
+      "pregunta": "Calcule $\\int \\sqrt{x}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.6",
+        "nombre": "Raíces y potencias negativas"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\sqrt{x}+C$",
+        "B": "$\\frac32x^{2/3}+C$",
+        "C": "$\\frac23x^{3/2}+C$",
+        "D": "$\\frac1{2\\sqrt{x}}+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "raíces y potencias negativas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-6-02",
+      "pregunta": "Calcule $\\int \\sqrt[3]{x^2}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.6",
+        "nombre": "Raíces y potencias negativas"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^{2/3}+C$",
+        "B": "$\\frac35x^{5/3}+C$",
+        "C": "$\\frac23x^{-1/3}+C$",
+        "D": "$\\frac53x^{3/5}+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "raíces y potencias negativas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-6-03",
+      "pregunta": "Calcule $\\int \\frac1{x^2}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.6",
+        "nombre": "Raíces y potencias negativas"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac1x+C$",
+        "B": "$\\frac1x+C$",
+        "C": "$-\\frac2{x^3}+C$",
+        "D": "$\\ln|x|+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "raíces y potencias negativas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-6-04",
+      "pregunta": "Calcule $\\int \\frac1{\\sqrt{x}}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.6",
+        "nombre": "Raíces y potencias negativas"
+      },
+      "respuestas_posibles": {
+        "A": "$-2x^{-1/2}+C$",
+        "B": "$\\frac1{2\\sqrt{x}}+C$",
+        "C": "$\\ln|x|+C$",
+        "D": "$2\\sqrt{x}+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "raíces y potencias negativas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-6-05",
+      "pregunta": "Reescribir $\\frac1{x^4}$ antes de integrar da:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.6",
+        "nombre": "Raíces y potencias negativas"
+      },
+      "respuestas_posibles": {
+        "A": "$-x^4$",
+        "B": "$4x^{-1}$",
+        "C": "$x^{-4}$",
+        "D": "$x^4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "raíces y potencias negativas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-6-06",
+      "pregunta": "Calcule $\\int 6x^{-4}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.6",
+        "nombre": "Raíces y potencias negativas"
+      },
+      "respuestas_posibles": {
+        "A": "$6x^{-3}+C$",
+        "B": "$-2x^{-3}+C$",
+        "C": "$-24x^{-5}+C$",
+        "D": "$2x^{-3}+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "raíces y potencias negativas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-6-07",
+      "pregunta": "Calcule $\\int 4\\sqrt{x^3}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.6",
+        "nombre": "Raíces y potencias negativas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac85x^{5/2}+C$",
+        "B": "$6x^{1/2}+C$",
+        "C": "$\\frac45x^{5/2}+C$",
+        "D": "$8x^{3/2}+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "raíces y potencias negativas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-6-08",
+      "pregunta": "Calcule $\\int \\frac{3}{\\sqrt[3]{x}}\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.6",
+        "nombre": "Raíces y potencias negativas"
+      },
+      "respuestas_posibles": {
+        "A": "$-9x^{-4/3}+C$",
+        "B": "$2x^{3/2}+C$",
+        "C": "$\\frac32x^{2/3}+C$",
+        "D": "$\\frac92x^{2/3}+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "raíces y potencias negativas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-6-09",
+      "pregunta": "Para integrar radicales algebraicos conviene primero:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.6",
+        "nombre": "Raíces y potencias negativas"
+      },
+      "respuestas_posibles": {
+        "A": "Racionalizar siempre",
+        "B": "Convertirlos en logaritmos",
+        "C": "Expresarlos como potencias racionales",
+        "D": "Derivarlos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "raíces y potencias negativas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-6-10",
+      "pregunta": "Calcule $\\int(x^{1/2}+x^{-2})dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.6",
+        "nombre": "Raíces y potencias negativas"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\sqrt{x}-\\frac1x+C$",
+        "B": "$\\frac23x^{3/2}-\\frac1x+C$",
+        "C": "$\\frac1{2\\sqrt{x}}-2x^{-3}+C$",
+        "D": "$\\frac23x^{3/2}+\\frac1x+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "raíces y potencias negativas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-7-01",
+      "pregunta": "Calcule $\\int(3x^2-4x+5)dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.7",
+        "nombre": "Ejemplos de integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$x^3-2x^2+5x+C$",
+        "B": "$6x-4+C$",
+        "C": "$3x^3-4x^2+5x+C$",
+        "D": "$x^3-4x^2+5+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "ejemplos de integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-7-02",
+      "pregunta": "Calcule $\\int\\left(2e^x+\\frac3x\\right)dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.7",
+        "nombre": "Ejemplos de integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$2xe^x+\\frac3{x^2}+C$",
+        "B": "$e^{2x}+3\\ln|x|+C$",
+        "C": "$2e^x+\\ln|3x|+C$",
+        "D": "$2e^x+3\\ln|x|+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "ejemplos de integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-7-03",
+      "pregunta": "Calcule $\\int(4\\cos x-2\\sin x)dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.7",
+        "nombre": "Ejemplos de integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$-4\\sin x+2\\cos x+C$",
+        "B": "$4\\cos x-2\\sin x+C$",
+        "C": "$4\\sin x+2\\cos x+C$",
+        "D": "$4\\sin x-2\\cos x+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "ejemplos de integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-7-04",
+      "pregunta": "Calcule $\\int(5x^4-2x^{-2})dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.7",
+        "nombre": "Ejemplos de integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$5x^5+2x^{-1}+C$",
+        "B": "$x^5+\\frac2x+C$",
+        "C": "$20x^3+4x^{-3}+C$",
+        "D": "$x^5-\\frac2x+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "ejemplos de integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-7-05",
+      "pregunta": "Calcule $\\int(2^x+\\sec^2x)dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.7",
+        "nombre": "Ejemplos de integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{2^x}{\\ln2}+\\tan x+C$",
+        "B": "$2^x\\ln2+\\sec x+C$",
+        "C": "$\\frac{2^x}{2}+\\tan x+C$",
+        "D": "$\\frac{2^x}{\\ln2}-\\cot x+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "ejemplos de integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-7-06",
+      "pregunta": "Calcule $\\int\\left(\\sqrt{x}+\\frac1x\\right)dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.7",
+        "nombre": "Ejemplos de integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac1{2\\sqrt{x}}+\\frac1{x^2}+C$",
+        "B": "$2\\sqrt{x}+\\ln|x|+C$",
+        "C": "$\\frac23x^{3/2}+x\\ln x+C$",
+        "D": "$\\frac23x^{3/2}+\\ln|x|+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "ejemplos de integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-7-07",
+      "pregunta": "Calcule $\\int(7-3\\csc^2x)dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.7",
+        "nombre": "Ejemplos de integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$7x-3\\cot x+C$",
+        "B": "$7x+3\\csc x+C$",
+        "C": "$7x+3\\cot x+C$",
+        "D": "$7-3\\cot x+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "ejemplos de integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-7-08",
+      "pregunta": "Calcule $\\int\\left(\\frac2{1+x^2}-e^x\\right)dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.7",
+        "nombre": "Ejemplos de integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\arctan x+e^x+C$",
+        "B": "$2\\arctan x-e^x+C$",
+        "C": "$2\\arcsin x-e^x+C$",
+        "D": "$\\frac2{(1+x^2)^2}-e^x+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "ejemplos de integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-7-09",
+      "pregunta": "Calcule $\\int(3\\sec x\\tan x+4)dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.7",
+        "nombre": "Ejemplos de integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "$3\\sec x+4x+C$",
+        "B": "$3\\tan x+4+C$",
+        "C": "$-3\\sec x+4x+C$",
+        "D": "$3\\sec^2x+4x+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "ejemplos de integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-7-10",
+      "pregunta": "¿Qué procedimiento es adecuado para una suma de funciones básicas?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.7",
+        "nombre": "Ejemplos de integrales inmediatas"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicar todas las primitivas",
+        "B": "Usar partes obligatoriamente",
+        "C": "Eliminar el diferencial",
+        "D": "Separar por linealidad y aplicar la fórmula correspondiente a cada término"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "ejemplos de integrales inmediatas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-8-01",
+      "pregunta": "Calcule $\\int 2x(x^2+1)^4dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.8",
+        "nombre": "Sustitución simple"
+      },
+      "respuestas_posibles": {
+        "A": "$(x^2+1)^5+C$",
+        "B": "$\\frac{(x^2+1)^4}{4}+C$",
+        "C": "$\\frac{(x^2+1)^5}{5}+C$",
+        "D": "$2x\\frac{(x^2+1)^5}{5}+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "sustitución simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-8-02",
+      "pregunta": "Calcule $\\int 3x^2e^{x^3}dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.8",
+        "nombre": "Sustitución simple"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac13e^{x^3}+C$",
+        "B": "$e^{x^3}+C$",
+        "C": "$3e^{x^3}+C$",
+        "D": "$x^3e^{x^3}+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "sustitución simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-8-03",
+      "pregunta": "Calcule $\\int \\frac{2x}{x^2+5}dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.8",
+        "nombre": "Sustitución simple"
+      },
+      "respuestas_posibles": {
+        "A": "$\\ln(x^2+5)+C$",
+        "B": "$\\frac{x^2}{x^2+5}+C$",
+        "C": "$2\\ln(x^2+5)+C$",
+        "D": "$\\frac1{x^2+5}+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "sustitución simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-8-04",
+      "pregunta": "En $\\int 6x(3x^2+4)^5dx$, una sustitución conveniente es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.8",
+        "nombre": "Sustitución simple"
+      },
+      "respuestas_posibles": {
+        "A": "$u=6x$",
+        "B": "$u=x^5$",
+        "C": "$u=3x+4$",
+        "D": "$u=3x^2+4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "sustitución simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-8-05",
+      "pregunta": "Calcule $\\int \\cos(4x)dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.8",
+        "nombre": "Sustitución simple"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac14\\sin(4x)+C$",
+        "B": "$\\sin x+C$",
+        "C": "$\\frac14\\sin(4x)+C$",
+        "D": "$4\\sin(4x)+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "sustitución simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-8-06",
+      "pregunta": "Calcule $\\int \\frac{dx}{2x+1}$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.8",
+        "nombre": "Sustitución simple"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac1{2x+1}+C$",
+        "B": "$\\frac12\\ln|2x+1|+C$",
+        "C": "$2\\ln|2x+1|+C$",
+        "D": "$\\ln|2x+1|+C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "sustitución simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-8-07",
+      "pregunta": "Calcule $\\int 5e^{5x}dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.8",
+        "nombre": "Sustitución simple"
+      },
+      "respuestas_posibles": {
+        "A": "$e^{5x}+C$",
+        "B": "$5e^{5x}+C$",
+        "C": "$\\frac15e^{5x}+C$",
+        "D": "$xe^{5x}+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "sustitución simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-8-08",
+      "pregunta": "Calcule $\\int \\frac{x}{\\sqrt{x^2+9}}dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.8",
+        "nombre": "Sustitución simple"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac12\\sqrt{x^2+9}+C$",
+        "B": "$\\ln(x^2+9)+C$",
+        "C": "$\\frac{x^2}{\\sqrt{x^2+9}}+C$",
+        "D": "$\\sqrt{x^2+9}+C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "sustitución simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-8-09",
+      "pregunta": "La sustitución simple revierte principalmente:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.8",
+        "nombre": "Sustitución simple"
+      },
+      "respuestas_posibles": {
+        "A": "La fórmula cuadrática",
+        "B": "El teorema de Pitágoras",
+        "C": "La regla de la cadena",
+        "D": "La regla del producto"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "sustitución simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-8-10",
+      "pregunta": "Después de integrar en $u$, se debe:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.8",
+        "nombre": "Sustitución simple"
+      },
+      "respuestas_posibles": {
+        "A": "Eliminar $C$",
+        "B": "Regresar a la variable original",
+        "C": "Conservar siempre $u$",
+        "D": "Derivar el resultado"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "sustitución simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-9-01",
+      "pregunta": "Para verificar $\\int f(x)dx=F(x)+C$ se debe comprobar que:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.9",
+        "nombre": "Verificación de una integral"
+      },
+      "respuestas_posibles": {
+        "A": "$F'(x)=f(x)$",
+        "B": "$F(x)=f'(x)$",
+        "C": "$F'(x)=C$",
+        "D": "$F(x)f(x)=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "verificación de una integral",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-9-02",
+      "pregunta": "¿Es correcta $\\int 3x^2dx=x^3+C$?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.9",
+        "nombre": "Verificación de una integral"
+      },
+      "respuestas_posibles": {
+        "A": "No, debe ser $3x^3+C$",
+        "B": "No, falta dividir entre $2$",
+        "C": "Sí, porque $x^3=3x^2$",
+        "D": "Sí, porque $\\frac{d}{dx}(x^3+C)=3x^2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "verificación de una integral",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-9-03",
+      "pregunta": "Al derivar $-\\cos x+C$ se obtiene:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.9",
+        "nombre": "Verificación de una integral"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos x$",
+        "B": "$-\\cos x$",
+        "C": "$\\sin x$",
+        "D": "$-\\sin x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "verificación de una integral",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-9-04",
+      "pregunta": "¿Cuál propuesta es incorrecta para $\\int x^3dx$?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.9",
+        "nombre": "Verificación de una integral"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x^4+12}{4}$",
+        "B": "$3x^2+C$",
+        "C": "$\\frac{x^4}{4}+C$",
+        "D": "$\\frac14x^4-7$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "verificación de una integral",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-9-05",
+      "pregunta": "La derivada de $\\ln|x|+C$ es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.9",
+        "nombre": "Verificación de una integral"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac1x$",
+        "B": "$\\ln|x|$",
+        "C": "$x$",
+        "D": "$\\frac1{x^2}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "verificación de una integral",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-9-06",
+      "pregunta": "Verifique $F(x)=\\frac12e^{2x}$. Su derivada es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.9",
+        "nombre": "Verificación de una integral"
+      },
+      "respuestas_posibles": {
+        "A": "$2e^{2x}$",
+        "B": "$\\frac12e^x$",
+        "C": "$xe^{2x}$",
+        "D": "$e^{2x}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "verificación de una integral",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-9-07",
+      "pregunta": "Si al derivar una respuesta no se recupera el integrando:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.9",
+        "nombre": "Verificación de una integral"
+      },
+      "respuestas_posibles": {
+        "A": "El integrando cambia de variable",
+        "B": "La verificación no importa",
+        "C": "La integral propuesta es incorrecta",
+        "D": "La constante debe ser cero"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "verificación de una integral",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-9-08",
+      "pregunta": "La constante $C$ no afecta la verificación porque:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.9",
+        "nombre": "Verificación de una integral"
+      },
+      "respuestas_posibles": {
+        "A": "$C'=1$",
+        "B": "$C'=0$",
+        "C": "$C=0$ siempre",
+        "D": "$C=x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "verificación de una integral",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-9-09",
+      "pregunta": "¿Cuál derivada verifica $\\int \\sec^2x dx=\\tan x+C$?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.9",
+        "nombre": "Verificación de una integral"
+      },
+      "respuestas_posibles": {
+        "A": "$(\\tan x)'=\\sec^2x$",
+        "B": "$(\\tan x)'=\\csc^2x$",
+        "C": "$(\\sec x)'=\\tan x$",
+        "D": "$(\\tan x)'=\\sec x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "verificación de una integral",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-9-10",
+      "pregunta": "Una verificación también ayuda a detectar:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.9",
+        "nombre": "Verificación de una integral"
+      },
+      "respuestas_posibles": {
+        "A": "Solo errores de ortografía",
+        "B": "El dominio de toda función",
+        "C": "La falta de límites en integrales indefinidas",
+        "D": "Signos, coeficientes o exponentes incorrectos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "verificación de una integral",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-10-01",
+      "pregunta": "Si $F'(x)=2x$ y $F(0)=5$, determine $F(x)$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.10",
+        "nombre": "Condiciones iniciales"
+      },
+      "respuestas_posibles": {
+        "A": "$2x+5$",
+        "B": "$x^2-5$",
+        "C": "$x^2+5$",
+        "D": "$x^2+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "condiciones iniciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-10-02",
+      "pregunta": "Si $y'=3x^2$ y $y(1)=4$, determine $y$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.10",
+        "nombre": "Condiciones iniciales"
+      },
+      "respuestas_posibles": {
+        "A": "$x^3-3$",
+        "B": "$x^3+3$",
+        "C": "$x^3+4$",
+        "D": "$3x^3+1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "condiciones iniciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-10-03",
+      "pregunta": "Si $y'=4$ y $y(2)=11$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.10",
+        "nombre": "Condiciones iniciales"
+      },
+      "respuestas_posibles": {
+        "A": "$y=4x+3$",
+        "B": "$y=4x+11$",
+        "C": "$y=2x+7$",
+        "D": "$y=4x-3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "condiciones iniciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-10-04",
+      "pregunta": "Si $F'(x)=\\cos x$ y $F(0)=-2$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.10",
+        "nombre": "Condiciones iniciales"
+      },
+      "respuestas_posibles": {
+        "A": "$F(x)=\\cos x-3$",
+        "B": "$F(x)=-\\sin x-2$",
+        "C": "$F(x)=\\sin x+2$",
+        "D": "$F(x)=\\sin x-2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "condiciones iniciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-10-05",
+      "pregunta": "La condición inicial se usa para:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.10",
+        "nombre": "Condiciones iniciales"
+      },
+      "respuestas_posibles": {
+        "A": "Eliminar la variable",
+        "B": "Fijar límites de integración siempre",
+        "C": "Determinar la constante de integración",
+        "D": "Cambiar el integrando"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "condiciones iniciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-10-06",
+      "pregunta": "Si $y'=e^x$ y $y(0)=3$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.10",
+        "nombre": "Condiciones iniciales"
+      },
+      "respuestas_posibles": {
+        "A": "$y=e^x-2$",
+        "B": "$y=e^x+2$",
+        "C": "$y=e^x+3$",
+        "D": "$y=3e^x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "condiciones iniciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-10-07",
+      "pregunta": "Si $F'(x)=x^{-2}$ y $F(1)=2$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.10",
+        "nombre": "Condiciones iniciales"
+      },
+      "respuestas_posibles": {
+        "A": "$F(x)=-\\frac1x+3$",
+        "B": "$F(x)=\\frac1x+1$",
+        "C": "$F(x)=-\\frac1x+2$",
+        "D": "$F(x)=-2x^{-3}+4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "condiciones iniciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-10-08",
+      "pregunta": "Si $y'=6x-4$ y $y(1)=8$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.10",
+        "nombre": "Condiciones iniciales"
+      },
+      "respuestas_posibles": {
+        "A": "$y=3x^2-4x+8$",
+        "B": "$y=6x^2-4x+6$",
+        "C": "$y=3x^2-4x-9$",
+        "D": "$y=3x^2-4x+9$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "condiciones iniciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-10-09",
+      "pregunta": "Una solución particular se caracteriza porque:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.10",
+        "nombre": "Condiciones iniciales"
+      },
+      "respuestas_posibles": {
+        "A": "No puede derivarse",
+        "B": "Siempre es lineal",
+        "C": "La constante $C$ ya está determinada",
+        "D": "No contiene variable"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "condiciones iniciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-10-10",
+      "pregunta": "Si dos condiciones iniciales incompatibles producen valores distintos de $C$:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.10",
+        "nombre": "Condiciones iniciales"
+      },
+      "respuestas_posibles": {
+        "A": "La derivada cambia",
+        "B": "No existe una función de la familia que satisfaga ambas",
+        "C": "Se suman los valores de $C$",
+        "D": "Se elige cualquier $C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "condiciones iniciales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-11-01",
+      "pregunta": "Si $v(t)=3t^2$ y $s(0)=4$, determine $s(t)$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.11",
+        "nombre": "Aplicación al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$t^3+4$",
+        "B": "$6t+4$",
+        "C": "$3t^3+4$",
+        "D": "$t^3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicación al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-11-02",
+      "pregunta": "Si $a(t)=4t$ y $v(0)=2$, determine $v(t)$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.11",
+        "nombre": "Aplicación al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$4t^2+2$",
+        "B": "$2t^2$",
+        "C": "$4+2t$",
+        "D": "$2t^2+2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicación al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-11-03",
+      "pregunta": "La posición se obtiene de la velocidad mediante:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.11",
+        "nombre": "Aplicación al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "Una división entre tiempo",
+        "B": "Una raíz cuadrada",
+        "C": "Una antiderivada y la posición inicial",
+        "D": "Una derivada y la velocidad inicial"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "aplicación al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-11-04",
+      "pregunta": "Si $v(t)=5$ y $s(0)=-3$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.11",
+        "nombre": "Aplicación al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$s(t)=5t+3$",
+        "B": "$s(t)=5t-3$",
+        "C": "$s(t)=5t$",
+        "D": "$s(t)=-3t+5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicación al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-11-05",
+      "pregunta": "Si $a(t)=-6$ y $v(0)=10$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.11",
+        "nombre": "Aplicación al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$v(t)=10-6t$",
+        "B": "$v(t)=-6t$",
+        "C": "$v(t)=10+6t$",
+        "D": "$v(t)=-3t^2+10$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicación al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-11-06",
+      "pregunta": "Si $v(t)=2t-4$ y $s(0)=1$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.11",
+        "nombre": "Aplicación al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$s(t)=2-4t+1$",
+        "B": "$s(t)=t^2-4t$",
+        "C": "$s(t)=2t^2-4t+1$",
+        "D": "$s(t)=t^2-4t+1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicación al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-11-07",
+      "pregunta": "El desplazamiento entre $t=1$ y $t=3$ es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.11",
+        "nombre": "Aplicación al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$v(3)-v(1)$",
+        "B": "$|s(3)|+|s(1)|$",
+        "C": "$s(3)-s(1)$",
+        "D": "$s(3)+s(1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "aplicación al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-11-08",
+      "pregunta": "La distancia recorrida requiere separar intervalos cuando:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.11",
+        "nombre": "Aplicación al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "El tiempo es entero",
+        "B": "La velocidad cambia de signo",
+        "C": "La aceleración es constante",
+        "D": "La posición inicial es cero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicación al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-11-09",
+      "pregunta": "Si $a(t)=6t$ y $v(0)=1$, $s(0)=2$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.11",
+        "nombre": "Aplicación al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "$s(t)=t^3+t+2$",
+        "B": "$s(t)=3t^2+t+2$",
+        "C": "$s(t)=t^3+1$",
+        "D": "$s(t)=6t^2+t+2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicación al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-11-10",
+      "pregunta": "Para recuperar posición a partir de aceleración se necesitan:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.11",
+        "nombre": "Aplicación al movimiento"
+      },
+      "respuestas_posibles": {
+        "A": "Una derivación",
+        "B": "Una integración sin datos",
+        "C": "Tres derivaciones",
+        "D": "Dos integraciones y dos condiciones iniciales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicación al movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-12-01",
+      "pregunta": "Evalúe $\\int_0^2 x\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.12",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$0$",
+        "C": "$2$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-12-02",
+      "pregunta": "Evalúe $\\int_1^3 2x\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.12",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$8$",
+        "C": "$4$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-12-03",
+      "pregunta": "En $\\int_a^b f(x)dx$, $a$ y $b$ son:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.12",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "Los límites de integración",
+        "B": "Constantes arbitrarias",
+        "C": "Derivadas laterales",
+        "D": "Asíntotas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-12-04",
+      "pregunta": "Una integral definida produce generalmente:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.12",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "Una familia $F+C$",
+        "B": "Una ecuación diferencial",
+        "C": "Una variable nueva",
+        "D": "Un número"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-12-05",
+      "pregunta": "Evalúe $\\int_0^1 3x^2dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.12",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\frac13$",
+        "C": "$1$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-12-06",
+      "pregunta": "Evalúe $\\int_0^\\pi \\sin x\\,dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.12",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pi$",
+        "B": "$2$",
+        "C": "$0$",
+        "D": "$-2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-12-07",
+      "pregunta": "Evalúe $\\int_2^2 f(x)dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.12",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$f(2)$",
+        "C": "$2f(2)$",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-12-08",
+      "pregunta": "Al invertir los límites se cumple:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.12",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int_b^a f=\\int_a^b f$",
+        "B": "$\\int_b^a f=0$",
+        "C": "$\\int_b^a f=2\\int_a^b f$",
+        "D": "$\\int_b^a f(x)dx=-\\int_a^b f(x)dx$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-12-09",
+      "pregunta": "Evalúe $\\int_{-1}^{1}x^3dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.12",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$-2$",
+        "C": "$0$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-12-10",
+      "pregunta": "Si $f(x)\\ge0$ en $[a,b]$, entonces $\\int_a^b f(x)dx$ representa:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.12",
+        "nombre": "Integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "La longitud de la curva",
+        "B": "El área bajo la curva y sobre el eje $x$",
+        "C": "Siempre una pendiente",
+        "D": "Una antiderivada sin evaluar"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-13-01",
+      "pregunta": "Si $F'=f$, el teorema fundamental establece:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.13",
+        "nombre": "Teorema fundamental del cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int_a^b f(x)dx=F(b)-F(a)$",
+        "B": "$F(a)-F(b)$",
+        "C": "$F(a)+F(b)$",
+        "D": "$f(b)-f(a)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-13-02",
+      "pregunta": "Evalúe $\\int_0^2 3x^2dx$ mediante el teorema fundamental.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.13",
+        "nombre": "Teorema fundamental del cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$6$",
+        "C": "$12$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-13-03",
+      "pregunta": "Si $G(x)=\\int_1^x t^2dt$, entonces $G'(x)=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.13",
+        "nombre": "Teorema fundamental del cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$x^3/3$",
+        "B": "$1$",
+        "C": "$x^2$",
+        "D": "$2x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-13-04",
+      "pregunta": "Si $H(x)=\\int_0^{x^2}\\cos t\\,dt$, entonces $H'(x)=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.13",
+        "nombre": "Teorema fundamental del cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin(x^2)$",
+        "B": "$2x\\cos(x^2)$",
+        "C": "$\\cos(x^2)$",
+        "D": "$-2x\\sin(x^2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-13-05",
+      "pregunta": "Evalúe $\\int_1^e \\frac1x dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.13",
+        "nombre": "Teorema fundamental del cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$e-1$",
+        "C": "$0$",
+        "D": "$\\ln(e-1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-13-06",
+      "pregunta": "¿Por qué no aparece $C$ al evaluar una integral definida?",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.13",
+        "nombre": "Teorema fundamental del cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "Porque $C=0$ siempre",
+        "B": "Porque no existe antiderivada",
+        "C": "Porque los límites son variables",
+        "D": "Porque se cancela en $[F(b)+C]-[F(a)+C]$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-13-07",
+      "pregunta": "Evalúe $\\int_0^1 e^x dx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.13",
+        "nombre": "Teorema fundamental del cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$1-e$",
+        "B": "$1$",
+        "C": "$e-1$",
+        "D": "$e$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-13-08",
+      "pregunta": "Si $A(x)=\\int_2^x f(t)dt$, entonces $A(2)=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.13",
+        "nombre": "Teorema fundamental del cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$F(2)$",
+        "B": "$0$",
+        "C": "$f(2)$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-13-09",
+      "pregunta": "El teorema fundamental conecta:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.13",
+        "nombre": "Teorema fundamental del cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "Derivación e integración definida",
+        "B": "Factorización y límites",
+        "C": "Trigonometría y geometría",
+        "D": "Probabilidad y estadística"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-13-10",
+      "pregunta": "Evalúe $\\int_0^{\\pi/2}\\cos xdx$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.13",
+        "nombre": "Teorema fundamental del cálculo"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\pi/2$",
+        "C": "$-1$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "teorema fundamental del cálculo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-14-01",
+      "pregunta": "$\\int_a^a f(x)dx=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.14",
+        "nombre": "Propiedades de la integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$a$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$f(a)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-14-02",
+      "pregunta": "$\\int_b^a f(x)dx=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.14",
+        "nombre": "Propiedades de la integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\int_a^b f(x)dx$",
+        "B": "$-\\int_a^b f(x)dx$",
+        "C": "$\\int_a^b f(x)dx$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-14-03",
+      "pregunta": "Si $a<c<b$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.14",
+        "nombre": "Propiedades de la integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int_a^b f=\\int_a^c f+\\int_c^b f$",
+        "B": "$\\int_a^b f=\\int_a^c f-\\int_c^b f$",
+        "C": "$\\int_a^b f=\\int_a^c f\\int_c^b f$",
+        "D": "$\\int_a^b f=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-14-04",
+      "pregunta": "Si $\\int_0^2 f=5$ y $\\int_2^4 f=-1$, entonces $\\int_0^4 f=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.14",
+        "nombre": "Propiedades de la integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$-5$",
+        "C": "$-4$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-14-05",
+      "pregunta": "Si $\\int_a^b f=3$, entonces $\\int_a^b 4f=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.14",
+        "nombre": "Propiedades de la integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac34$",
+        "B": "$4$",
+        "C": "$12$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-14-06",
+      "pregunta": "Si $\\int_a^b f=2$ y $\\int_a^b g=5$, entonces $\\int_a^b(f+g)=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.14",
+        "nombre": "Propiedades de la integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac25$",
+        "B": "$7$",
+        "C": "$10$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-14-07",
+      "pregunta": "Si $f$ es impar, $\\int_{-a}^{a}f(x)dx=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.14",
+        "nombre": "Propiedades de la integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$2\\int_0^a f$",
+        "C": "$a$",
+        "D": "$f(a)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-14-08",
+      "pregunta": "Si $f$ es par, $\\int_{-a}^{a}f(x)dx=$",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.14",
+        "nombre": "Propiedades de la integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\int_0^a f$",
+        "C": "$-2\\int_0^a f$",
+        "D": "$2\\int_0^a f(x)dx$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-14-09",
+      "pregunta": "Si $f(x)\\ge g(x)$ en $[a,b]$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.14",
+        "nombre": "Propiedades de la integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "Ambas integrales son cero",
+        "B": "No puede compararse",
+        "C": "$\\int_a^b f(x)dx\\ge\\int_a^b g(x)dx$",
+        "D": "$\\int_a^b f\\le\\int_a^b g$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-14-10",
+      "pregunta": "Si $m\\le f(x)\\le M$ en $[a,b]$, entonces:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.14",
+        "nombre": "Propiedades de la integral definida"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int f=(M+m)(b-a)$",
+        "B": "$m(b-a)\\le\\int_a^b f(x)dx\\le M(b-a)$",
+        "C": "$m\\le\\int f\\le M$",
+        "D": "$\\int f=M-m$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "propiedades de la integral definida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-15-01",
+      "pregunta": "El área entre $y=f(x)\\ge0$ y el eje $x$ en $[a,b]$ es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.15",
+        "nombre": "Área entre una curva y el eje"
+      },
+      "respuestas_posibles": {
+        "A": "$\\int_a^b f(x)dx$",
+        "B": "$f(b)-f(a)$",
+        "C": "$\\int_a^b f'(x)dx$",
+        "D": "$\\frac{f(a)+f(b)}2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "área entre una curva y el eje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-15-02",
+      "pregunta": "Calcule el área bajo $y=x$ entre $x=0$ y $x=3$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.15",
+        "nombre": "Área entre una curva y el eje"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$9$",
+        "C": "$\\frac32$",
+        "D": "$\\frac92$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "área entre una curva y el eje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-15-03",
+      "pregunta": "Calcule el área bajo $y=x^2$ entre $0$ y $2$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.15",
+        "nombre": "Área entre una curva y el eje"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac43$",
+        "B": "$8$",
+        "C": "$\\frac83$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "área entre una curva y el eje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-15-04",
+      "pregunta": "Si $f(x)\\le0$ en $[a,b]$, el área geométrica es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.15",
+        "nombre": "Área entre una curva y el eje"
+      },
+      "respuestas_posibles": {
+        "A": "$f(b)-f(a)$",
+        "B": "$-\\int_a^b f(x)dx$",
+        "C": "$\\int_a^b f(x)dx$ siempre",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "área entre una curva y el eje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-15-05",
+      "pregunta": "El área entre $y=2-x$ y el eje $x$ de $0$ a $2$ es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.15",
+        "nombre": "Área entre una curva y el eje"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$4$",
+        "C": "$1$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "área entre una curva y el eje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-15-06",
+      "pregunta": "Cuando una función cambia de signo, el área total se obtiene:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.15",
+        "nombre": "Área entre una curva y el eje"
+      },
+      "respuestas_posibles": {
+        "A": "Con una sola integral sin revisar signos",
+        "B": "Restando siempre las áreas",
+        "C": "Derivando la función",
+        "D": "Separando en los ceros y sumando valores absolutos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "área entre una curva y el eje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-15-07",
+      "pregunta": "El área entre $y=x-1$ y el eje $x$ en $[0,2]$ es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.15",
+        "nombre": "Área entre una curva y el eje"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$-1$",
+        "C": "$1$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "área entre una curva y el eje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-15-08",
+      "pregunta": "Calcule el área bajo $y=4$ en $[1,5]$.",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.15",
+        "nombre": "Área entre una curva y el eje"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$16$",
+        "C": "$4$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "área entre una curva y el eje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-15-09",
+      "pregunta": "La integral definida representa área con signo porque:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.15",
+        "nombre": "Área entre una curva y el eje"
+      },
+      "respuestas_posibles": {
+        "A": "Las regiones bajo el eje $x$ aportan valores negativos",
+        "B": "Toda área es negativa",
+        "C": "La función siempre es positiva",
+        "D": "Los límites se cancelan"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "área entre una curva y el eje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-42-15-10",
+      "pregunta": "El área bajo $y=\\sin x$ en $[0,\\pi]$ es:",
+      "tema": {
+        "codigo": "42",
+        "nombre": "La integral",
+        "bloque": "Cálculo integral"
+      },
+      "subtema": {
+        "codigo": "42.15",
+        "nombre": "Área entre una curva y el eje"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\pi$",
+        "C": "$-2$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "área entre una curva y el eje",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_reactivos_UNAM_CENEVAL_y_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

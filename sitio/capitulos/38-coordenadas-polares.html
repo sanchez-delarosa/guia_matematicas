@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>38. Coordenadas polares · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte VI: Geometría analítica</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#sistema-de-coordenadas-polares"><span class="num">38.1</span> Sistema de coordenadas polares</a></li><li class="nivel-2"><a href="#representaciones-equivalentes"><span class="num">38.2</span> Representaciones equivalentes</a></li><li class="nivel-2"><a href="#conversion-entre-coordenadas"><span class="num">38.3</span> Conversión entre coordenadas</a></li><li class="nivel-3"><a href="#de-polares-a-cartesianas"><span class="num">38.3.1</span> De polares a cartesianas</a></li><li class="nivel-3"><a href="#de-cartesianas-a-polares"><span class="num">38.3.2</span> De cartesianas a polares</a></li><li class="nivel-2"><a href="#ejemplos-de-conversion"><span class="num">38.4</span> Ejemplos de conversión</a></li><li class="nivel-2"><a href="#formulas-de-conversion"><span class="num">38.5</span> Fórmulas de conversión</a></li><li class="nivel-2"><a href="#conversion-de-ecuaciones"><span class="num">38.6</span> Conversión de ecuaciones</a></li><li class="nivel-3"><a href="#de-polar-a-cartesiana"><span class="num">38.6.1</span> De polar a cartesiana</a></li><li class="nivel-3"><a href="#de-cartesiana-a-polar"><span class="num">38.6.2</span> De cartesiana a polar</a></li><li class="nivel-2"><a href="#curvas-polares-basicas"><span class="num">38.7</span> Curvas polares básicas</a></li><li class="nivel-3"><a href="#circunferencias"><span class="num">38.7.1</span> Circunferencias</a></li><li class="nivel-3"><a href="#cardioides"><span class="num">38.7.2</span> Cardioides</a></li><li class="nivel-3"><a href="#rosas-polares"><span class="num">38.7.3</span> Rosas polares</a></li><li class="nivel-2"><a href="#simetrias"><span class="num">38.8</span> Simetrías</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">38.9</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#para-convertir-un-punto-polar">Para convertir un punto polar</a></li><li class="nivel-3"><a href="#para-convertir-un-punto-cartesiano">Para convertir un punto cartesiano</a></li><li class="nivel-3"><a href="#para-graficar-una-ecuacion-polar">Para graficar una ecuación polar</a></li><li class="nivel-2"><a href="#resumen"><span class="num">38.10</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">38.11</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">38.12</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 38</p><h1>Coordenadas polares</h1></header>
+<p><span id="cap-coordenadas-polares" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>El sistema polar ubica un punto mediante una distancia y un ángulo. Este sistema es útil para describir curvas con simetría radial, como circunferencias, cardioides y rosas polares.</p>
+<p>En este capítulo aprenderás a representar puntos, convertir coordenadas y reconocer algunas ecuaciones polares básicas.</p>
+<h2 id="sistema-de-coordenadas-polares"><span class="num">38.1</span> Sistema de coordenadas polares<a class="enlace-seccion" href="#sistema-de-coordenadas-polares" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>sistema polar</strong> está formado por:</p>
+<ul><li>un punto fijo \(O\), llamado <strong>polo</strong>;</li><li>una semirrecta con origen en \(O\), llamada <strong>eje polar</strong>.</li></ul>
+<p>Un punto se representa mediante:</p>
+<div class="mate"><span class="mate-bloque">\[P(r,\theta),\]</span></div>
+<p>donde:</p>
+<ul><li>\(|r|\) es la distancia entre el polo y el punto;</li><li>\(\theta\) es el ángulo medido desde el eje polar.</li></ul></div></section>
+<p>Por convención, los ángulos positivos se miden en sentido antihorario y los negativos en sentido horario.</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-e1aa39508466.svg" alt="Figura 38.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="representaciones-equivalentes"><span class="num">38.2</span> Representaciones equivalentes<a class="enlace-seccion" href="#representaciones-equivalentes" aria-label="Enlace a esta sección">#</a></h2>
+<p>La representación polar de un punto no es única.</p>
+<p>Para cualquier número entero \(n\):</p>
+<div class="mate"><span class="mate-bloque">\[(r,\theta) = (r,\theta+2n\pi)\]</span></div>
+<p>porque los ángulos difieren en vueltas completas.</p>
+<p>También:</p>
+<div class="mate"><span class="mate-bloque">\[(r,\theta) = (-r,\theta+\pi) .\]</span></div>
+<p>Un radio negativo indica que el punto se localiza en la dirección opuesta al ángulo dado.</p>
+<section class="caja caja-ejemplo" id="ejemplo-38-1"><div class="caja-titulo">Ejemplo 38.1</div><div class="caja-cuerpo"><p>El punto:</p>
+<div class="mate"><span class="mate-bloque">\[\left(3,\frac{\pi}{4}\right)\]</span></div>
+<p>también puede escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[\left(3,\frac{9\pi}{4}\right)\]</span></div>
+<p>o como:</p>
+<div class="mate"><span class="mate-bloque">\[\left(-3,\frac{5\pi}{4}\right).\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El polo puede representarse como:</p>
+<div class="mate"><span class="mate-bloque">\[(0,\theta)\]</span></div>
+<p>para cualquier valor de \(\theta\).</p></div></section>
+<h2 id="conversion-entre-coordenadas"><span class="num">38.3</span> Conversión entre coordenadas<a class="enlace-seccion" href="#conversion-entre-coordenadas" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="de-polares-a-cartesianas"><span class="num">38.3.1</span> De polares a cartesianas<a class="enlace-seccion" href="#de-polares-a-cartesianas" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Conversión polar a cartesiana</div><div class="caja-cuerpo"><p>Si un punto tiene coordenadas polares:</p>
+<div class="mate"><span class="mate-bloque">\[P(r,\theta),\]</span></div>
+<p>sus coordenadas cartesianas son:</p>
+<div class="mate"><span class="mate-bloque">\[x=r\cos\theta\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[y=r\sen\theta.\]</span></div></div></section>
+<h3 id="de-cartesianas-a-polares"><span class="num">38.3.2</span> De cartesianas a polares<a class="enlace-seccion" href="#de-cartesianas-a-polares" aria-label="Enlace a esta sección">#</a></h3>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Conversión cartesiana a polar</div><div class="caja-cuerpo"><p>Si un punto tiene coordenadas cartesianas:</p>
+<div class="mate"><span class="mate-bloque">\[P(x,y),\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[r=\sqrt{x^2+y^2}.\]</span></div>
+<p>El ángulo satisface:</p>
+<div class="mate"><span class="mate-bloque">\[\tan\theta=\frac{y}{x},\]</span></div>
+<p>cuando \(x\neq0\).</p></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La expresión:</p>
+<div class="mate"><span class="mate-bloque">\[\theta=\arctan\left(\frac{y}{x}\right)\]</span></div>
+<p>no determina por sí sola el cuadrante. Siempre debe observarse el signo de \(x\) y de \(y\).</p>
+<ul><li>Cuadrante I: <span class="mate-bloque">\[x&gt;0,\qquad y&gt;0.\]</span></li><li>Cuadrante II: <span class="mate-bloque">\[x&lt;0,\qquad y&gt;0.\]</span></li><li>Cuadrante III: <span class="mate-bloque">\[x&lt;0,\qquad y&lt;0.\]</span></li><li>Cuadrante IV: <span class="mate-bloque">\[x&gt;0,\qquad y&lt;0.\]</span></li></ul></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-6a5b8bdafa1d.svg" alt="Figura 38.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="ejemplos-de-conversion"><span class="num">38.4</span> Ejemplos de conversión<a class="enlace-seccion" href="#ejemplos-de-conversion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-38-2"><div class="caja-titulo">Ejemplo 38.2</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[P\left(4,\frac{\pi}{6}\right)\]</span></div>
+<p>a coordenadas cartesianas.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[x = 4\cos\left(\frac{\pi}{6}\right) = 4\left(\frac{\sqrt{3}}{2}\right) = 2\sqrt{3},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[y = 4\sen\left(\frac{\pi}{6}\right) = 4\left(\frac{1}{2}\right) = 2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(2\sqrt{3},2) .\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-78bdbe45eb4c.svg" alt="Figura 38.3" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-38-3"><div class="caja-titulo">Ejemplo 38.3</div><div class="caja-cuerpo"><p>Convierte el punto cartesiano:</p>
+<div class="mate"><span class="mate-bloque">\[P(-1,1)\]</span></div>
+<p>a coordenadas polares.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos el radio:</p>
+<div class="mate"><span class="mate-bloque">\[r = \sqrt{(-1)^2+1^2} = \sqrt{2}.\]</span></div>
+<p>El punto se encuentra en el segundo cuadrante.</p>
+<p>El ángulo de referencia es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\pi}{4}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\theta = \pi-\frac{\pi}{4} = \frac{3\pi}{4}.\]</span></div>
+<p>Una representación polar es:</p>
+<div class="mate"><span class="mate-bloque">\[P\left(\sqrt{2},\frac{3\pi}{4}\right) .\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-38-4"><div class="caja-titulo">Ejemplo 38.4</div><div class="caja-cuerpo"><p>Convierte el punto:</p>
+<div class="mate"><span class="mate-bloque">\[Q(0,3)\]</span></div>
+<p>a coordenadas polares.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[r = \sqrt{0^2+3^2} = 3.\]</span></div>
+<p>El punto se encuentra sobre el eje \(y\) positivo, por lo que:</p>
+<div class="mate"><span class="mate-bloque">\[\theta=\frac{\pi}{2}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[Q\left(3,\frac{\pi}{2}\right) .\]</span></div></div></details></div></section>
+<h2 id="formulas-de-conversion"><span class="num">38.5</span> Fórmulas de conversión<a class="enlace-seccion" href="#formulas-de-conversion" aria-label="Enlace a esta sección">#</a></h2>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x&amp;=r\cos\theta,\\ y&amp;=r\sen\theta \end{aligned}\]</span></div>
+<div class="mate"><span class="mate-bloque">\[r^2=x^2+y^2\]</span></div>
+<p>También:</p>
+<div class="mate"><span class="mate-bloque">\[\cos\theta=\frac{x}{r}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta=\frac{y}{r}.\]</span></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La identidad:</p>
+<div class="mate"><span class="mate-bloque">\[r^2=x^2+y^2\]</span></div>
+<p>es especialmente útil para convertir ecuaciones completas entre los sistemas cartesiano y polar.</p></div></section>
+<h2 id="conversion-de-ecuaciones"><span class="num">38.6</span> Conversión de ecuaciones<a class="enlace-seccion" href="#conversion-de-ecuaciones" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="de-polar-a-cartesiana"><span class="num">38.6.1</span> De polar a cartesiana<a class="enlace-seccion" href="#de-polar-a-cartesiana" aria-label="Enlace a esta sección">#</a></h3>
+<p>Para convertir una ecuación polar se sustituyen:</p>
+<div class="mate"><span class="mate-bloque">\[r\cos\theta=x,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[r\sen\theta=y\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[r^2=x^2+y^2.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-38-5"><div class="caja-titulo">Ejemplo 38.5</div><div class="caja-cuerpo"><p>Convierte la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[r=4\]</span></div>
+<p>a coordenadas cartesianas.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elevamos al cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[r^2=16.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[r^2=x^2+y^2,\]</span></div>
+<p>obtenemos:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=16.\]</span></div>
+<p>La gráfica es una circunferencia con centro en el origen y radio \(4\).</p></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-38-6"><div class="caja-titulo">Ejemplo 38.6</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[r=2\cos\theta\]</span></div>
+<p>a coordenadas cartesianas.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos por \(r\):</p>
+<div class="mate"><span class="mate-bloque">\[r^2=2r\cos\theta.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=2x.\]</span></div>
+<p>Completamos el cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-2x+y^2=0,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[(x-1)^2+y^2=1.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[(x-1)^2+y^2=1 .\]</span></div>
+<p>La gráfica es una circunferencia con centro:</p>
+<div class="mate"><span class="mate-bloque">\[C(1,0)\]</span></div>
+<p>y radio:</p>
+<div class="mate"><span class="mate-bloque">\[1.\]</span></div></div></details></div></section>
+<h3 id="de-cartesiana-a-polar"><span class="num">38.6.2</span> De cartesiana a polar<a class="enlace-seccion" href="#de-cartesiana-a-polar" aria-label="Enlace a esta sección">#</a></h3>
+<p>Para convertir una ecuación cartesiana se sustituyen:</p>
+<div class="mate"><span class="mate-bloque">\[x=r\cos\theta,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[y=r\sen\theta\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=r^2.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-38-7"><div class="caja-titulo">Ejemplo 38.7</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=6x\]</span></div>
+<p>a coordenadas polares.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[r^2=6r\cos\theta.\]</span></div>
+<p>Para los puntos diferentes del polo, dividimos entre \(r\):</p>
+<div class="mate"><span class="mate-bloque">\[r=6\cos\theta .\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al dividir una ecuación entre \(r\), debe verificarse si el polo:</p>
+<div class="mate"><span class="mate-bloque">\[r=0\]</span></div>
+<p>también pertenece a la curva.</p></div></section>
+<h2 id="curvas-polares-basicas"><span class="num">38.7</span> Curvas polares básicas<a class="enlace-seccion" href="#curvas-polares-basicas" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="circunferencias"><span class="num">38.7.1</span> Circunferencias<a class="enlace-seccion" href="#circunferencias" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[r=a\]</span></div>
+<p>representa una circunferencia con centro en el polo y radio \(|a|\).</p>
+<div class="mate"><span class="mate-bloque">\[r=2a\cos\theta\]</span></div>
+<p>representa una circunferencia con centro:</p>
+<div class="mate"><span class="mate-bloque">\[(a,0)\]</span></div>
+<p>y radio:</p>
+<div class="mate"><span class="mate-bloque">\[|a|.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[r=2a\sen\theta\]</span></div>
+<p>representa una circunferencia con centro:</p>
+<div class="mate"><span class="mate-bloque">\[(0,a)\]</span></div>
+<p>y radio:</p>
+<div class="mate"><span class="mate-bloque">\[|a|.\]</span></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-628e3be93361.svg" alt="Figura 38.4" loading="lazy" decoding="async"></figure></div>
+<h3 id="cardioides"><span class="num">38.7.2</span> Cardioides<a class="enlace-seccion" href="#cardioides" aria-label="Enlace a esta sección">#</a></h3>
+<p>Las ecuaciones:</p>
+<div class="mate"><span class="mate-bloque">\[r=a(1+\cos\theta),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[r=a(1-\cos\theta),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[r=a(1+\sen\theta)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[r=a(1-\sen\theta)\]</span></div>
+<p>representan cardioides.</p>
+<p>La función trigonométrica determina su eje de simetría.</p>
+<section class="caja caja-ejemplo" id="ejemplo-38-8"><div class="caja-titulo">Ejemplo 38.8</div><div class="caja-cuerpo"><p>Identifica y grafica:</p>
+<div class="mate"><span class="mate-bloque">\[r=1+\cos\theta.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La ecuación tiene la forma:</p>
+<div class="mate"><span class="mate-bloque">\[r=a(1+\cos\theta)\]</span></div>
+<p>con:</p>
+<div class="mate"><span class="mate-bloque">\[a=1.\]</span></div>
+<p>Es una cardioide simétrica respecto del eje polar.</p>
+<p>Sus valores principales son:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|ccccc} \theta &amp; 0 &amp; \frac{\pi}{2} &amp; \pi &amp; \frac{3\pi}{2} &amp; 2\pi \\ \hline r &amp; 2 &amp; 1 &amp; 0 &amp; 1 &amp; 2 \end{array}\]</span></div>
+<p>La curva pasa por el polo cuando:</p>
+<div class="mate"><span class="mate-bloque">\[\theta=\pi.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-af1b2c1398bc.svg" alt="Figura 38.5" loading="lazy" decoding="async"></figure></div>
+<h3 id="rosas-polares"><span class="num">38.7.3</span> Rosas polares<a class="enlace-seccion" href="#rosas-polares" aria-label="Enlace a esta sección">#</a></h3>
+<p>Las ecuaciones:</p>
+<div class="mate"><span class="mate-bloque">\[r=a\cos(n\theta)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[r=a\sen(n\theta)\]</span></div>
+<p>representan rosas polares.</p>
+<p>El número de pétalos depende de \(n\):</p>
+<ul><li>si \(n\) es impar, la rosa tiene \(n\) pétalos;</li><li>si \(n\) es par, la rosa tiene \(2n\) pétalos.</li></ul>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-483f910aa7ed.svg" alt="Figura 38.6" loading="lazy" decoding="async"></figure></div>
+<h2 id="simetrias"><span class="num">38.8</span> Simetrías<a class="enlace-seccion" href="#simetrias" aria-label="Enlace a esta sección">#</a></h2>
+<p>Las siguientes sustituciones permiten comprobar posibles simetrías.</p>
+<ul><li><p><strong>Respecto del eje polar</strong></p>
+<p>Sustituir:</p>
+<div class="mate"><span class="mate-bloque">\[\theta \longrightarrow -\theta.\]</span></div></li><li><p><strong>Respecto del eje vertical</strong></p>
+<p>Sustituir:</p>
+<div class="mate"><span class="mate-bloque">\[\theta \longrightarrow \pi-\theta.\]</span></div></li><li><p><strong>Respecto del polo</strong></p>
+<p>Sustituir:</p>
+<div class="mate"><span class="mate-bloque">\[\theta \longrightarrow \theta+\pi\]</span></div>
+<p>o:</p>
+<div class="mate"><span class="mate-bloque">\[r \longrightarrow -r.\]</span></div></li></ul>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Si la ecuación no cambia después de una sustitución, la curva posee la simetría correspondiente.</p>
+<p>Si la ecuación cambia, la prueba no demuestra que la simetría sea imposible. Puede ser necesario estudiar la curva por otros medios.</p></div></section>
+<h2 id="procedimiento-rapido"><span class="num">38.9</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="para-convertir-un-punto-polar">Para convertir un punto polar<a class="enlace-seccion" href="#para-convertir-un-punto-polar" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Calcula: <span class="mate-bloque">\[x=r\cos\theta.\]</span></li><li>Calcula: <span class="mate-bloque">\[y=r\sen\theta.\]</span></li></ol>
+<h3 id="para-convertir-un-punto-cartesiano">Para convertir un punto cartesiano<a class="enlace-seccion" href="#para-convertir-un-punto-cartesiano" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Calcula: <span class="mate-bloque">\[r=\sqrt{x^2+y^2}.\]</span></li><li>Obtén el ángulo de referencia.</li><li>Ajusta el ángulo según el cuadrante.</li></ol>
+<h3 id="para-graficar-una-ecuacion-polar">Para graficar una ecuación polar<a class="enlace-seccion" href="#para-graficar-una-ecuacion-polar" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica el tipo de curva.</li><li>Busca posibles simetrías.</li><li>Encuentra los valores para los que: <span class="mate-bloque">\[r=0.\]</span></li><li>Evalúa algunos ángulos notables.</li><li>Traza los puntos y únelos suavemente.</li></ol>
+<h2 id="resumen"><span class="num">38.10</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<div class="mate"><span class="mate-bloque">\[x=r\cos\theta\]</span></div>
+<div class="mate"><span class="mate-bloque">\[y=r\sen\theta\]</span></div>
+<div class="mate"><span class="mate-bloque">\[r^2=x^2+y^2\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\tan\theta=\frac{y}{x}\]</span></div>
+<p>Representaciones equivalentes:</p>
+<div class="mate"><span class="mate-bloque">\[(r,\theta) = (r,\theta+2n\pi)\]</span></div>
+<div class="mate"><span class="mate-bloque">\[(r,\theta) = (-r,\theta+\pi)\]</span></div>
+<p>Curvas básicas:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|c} \text{Ecuación} &amp; \text{Curva}\\ \hline r=a &amp; \text{circunferencia}\\ r=2a\cos\theta &amp; \text{circunferencia horizontal}\\ r=2a\sen\theta &amp; \text{circunferencia vertical}\\ r=a(1\pm\cos\theta) &amp; \text{cardioide horizontal}\\ r=a(1\pm\sen\theta) &amp; \text{cardioide vertical}\\ r=a\cos(n\theta) &amp; \text{rosa polar}\\ r=a\sen(n\theta) &amp; \text{rosa polar} \end{array}\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">38.11</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>Las representaciones polares no son únicas.</li><li>Un radio negativo coloca el punto en la dirección opuesta.</li><li>El ángulo debe ajustarse según el cuadrante.</li><li>La calculadora debe estar en radianes si los ángulos se expresan con \(\pi\).</li><li>La relación correcta es: <span class="mate-bloque">\[r^2=x^2+y^2.\]</span></li><li>No debe confundirse: <span class="mate-bloque">\[r\cos\theta=x\]</span> con: <span class="mate-bloque">\[\cos\theta=x.\]</span></li><li>Al dividir entre \(r\), debe comprobarse si el polo pertenece a la curva.</li><li>En una rosa polar, el número de pétalos depende de si \(n\) es par o impar.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">38.12</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-38-1"><div class="caja-titulo">Ejercicio 38.1</div><div class="caja-cuerpo"><p>Convierte a coordenadas cartesianas:</p>
+<div class="mate"><span class="mate-bloque">\[\left(2,\frac{\pi}{4}\right).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos \(r=2\) y \(\theta=\frac{\pi}{4}\): <span class="mate-bloque">\[x=2\cos\left(\frac{\pi}{4}\right)=2\left(\frac{\sqrt{2}}{2}\right)=\sqrt{2},\]</span> <span class="mate-bloque">\[y=2\sen\left(\frac{\pi}{4}\right)=2\left(\frac{\sqrt{2}}{2}\right)=\sqrt{2}.\]</span> Por tanto, el punto es \((\sqrt{2},\sqrt{2})\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-38-2"><div class="caja-titulo">Ejercicio 38.2</div><div class="caja-cuerpo"><p>Convierte a coordenadas cartesianas:</p>
+<div class="mate"><span class="mate-bloque">\[\left(6,\frac{\pi}{3}\right).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos \(r=6\) y \(\theta=\frac{\pi}{3}\): <span class="mate-bloque">\[x=6\cos\left(\frac{\pi}{3}\right)=6\left(\frac{1}{2}\right)=3,\]</span> <span class="mate-bloque">\[y=6\sen\left(\frac{\pi}{3}\right)=6\left(\frac{\sqrt{3}}{2}\right)=3\sqrt{3}.\]</span> Por tanto, el punto es \((3,3\sqrt{3})\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-38-3"><div class="caja-titulo">Ejercicio 38.3</div><div class="caja-cuerpo"><p>Convierte a coordenadas cartesianas:</p>
+<div class="mate"><span class="mate-bloque">\[\left(-4,\frac{\pi}{6}\right).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos \(r=-4\) y \(\theta=\frac{\pi}{6}\): <span class="mate-bloque">\[x=-4\cos\left(\frac{\pi}{6}\right)=-4\left(\frac{\sqrt{3}}{2}\right)=-2\sqrt{3},\]</span> <span class="mate-bloque">\[y=-4\sen\left(\frac{\pi}{6}\right)=-4\left(\frac{1}{2}\right)=-2.\]</span> Por tanto, el punto es \((-2\sqrt{3},-2)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-38-4"><div class="caja-titulo">Ejercicio 38.4</div><div class="caja-cuerpo"><p>Convierte a coordenadas polares:</p>
+<div class="mate"><span class="mate-bloque">\[(3,3).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El radio es: <span class="mate-bloque">\[r=\sqrt{3^2+3^2}=\sqrt{18}=3\sqrt{2}.\]</span> El ángulo satisface \(\tan\theta=\frac{3}{3}=1\). Como el punto está en el primer cuadrante, \(\theta=\frac{\pi}{4}\). Por tanto, las coordenadas polares son \(\left(3\sqrt{2},\frac{\pi}{4}\right)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-38-5"><div class="caja-titulo">Ejercicio 38.5</div><div class="caja-cuerpo"><p>Convierte a coordenadas polares:</p>
+<div class="mate"><span class="mate-bloque">\[(-\sqrt{3},1).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El radio es: <span class="mate-bloque">\[r=\sqrt{(-\sqrt{3})^2+1^2}=\sqrt{3+1}=2.\]</span> El ángulo satisface \(\tan\theta=-\frac{1}{\sqrt{3}}\). El punto está en el segundo cuadrante, por lo que el ángulo es \(\theta=\pi-\frac{\pi}{6}=\frac{5\pi}{6}\). Por tanto, las coordenadas polares son \(\left(2,\frac{5\pi}{6}\right)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-38-6"><div class="caja-titulo">Ejercicio 38.6</div><div class="caja-cuerpo"><p>Convierte a coordenadas polares:</p>
+<div class="mate"><span class="mate-bloque">\[(0,-5).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El radio es \(r=\sqrt{0^2+(-5)^2}=5\). El punto está sobre el eje \(y\) negativo, así que el ángulo es \(\theta=\frac{3\pi}{2}\). Por tanto, las coordenadas polares son \(\left(5,\frac{3\pi}{2}\right)\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-38-7"><div class="caja-titulo">Ejercicio 38.7</div><div class="caja-cuerpo"><p>Convierte a coordenadas cartesianas e identifica la curva:</p>
+<div class="mate"><span class="mate-bloque">\[r=3.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elevamos al cuadrado ambos lados: <span class="mate-bloque">\[r^2=9.\]</span> Sustituimos \(r^2=x^2+y^2\): <span class="mate-bloque">\[x^2+y^2=9.\]</span> Representa una circunferencia con centro en el origen y radio \(3\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-38-8"><div class="caja-titulo">Ejercicio 38.8</div><div class="caja-cuerpo"><p>Convierte a coordenadas cartesianas e identifica la curva:</p>
+<div class="mate"><span class="mate-bloque">\[r=4\sen\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos la ecuación por \(r\): <span class="mate-bloque">\[r^2=4r\sen\theta.\]</span> Sustituimos por coordenadas cartesianas: <span class="mate-bloque">\[x^2+y^2=4y.\]</span> Agrupando términos y completando el cuadrado: <span class="mate-bloque">\[x^2+y^2-4y+4=4,\]</span> <span class="mate-bloque">\[x^2+(y-2)^2=4.\]</span> Representa una circunferencia con centro en \((0,2)\) y radio \(2\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-38-9"><div class="caja-titulo">Ejercicio 38.9</div><div class="caja-cuerpo"><p>Identifica la curva, su simetría y su orientación:</p>
+<div class="mate"><span class="mate-bloque">\[r=1+\sen\theta.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La ecuación \(r=1+\sen\theta\) representa una cardioide. Como la función seno está presente y el signo es positivo, es simétrica respecto al eje vertical y está orientada hacia arriba.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-38-10"><div class="caja-titulo">Ejercicio 38.10</div><div class="caja-cuerpo"><p>Determina el número de pétalos de:</p>
+<div class="mate"><span class="mate-bloque">\[r=3\cos(4\theta).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La ecuación es de la forma \(r=a\cos(n\theta)\) con \(n=4\). Como \(n\) es par, la rosa polar tiene \(2n=2(4)=8\) pétalos.</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="37-ecuacion-general-segundo-grado.html"><span>← Anterior</span>37. Ecuación general de segundo grado</a><a class="nav-siguiente" href="39-limites.html"><span>Siguiente →</span>39. Límites</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

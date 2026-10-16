@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>47. Probabilidad básica · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte IX: Probabilidad y estadística</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#experimentos-aleatorios"><span class="num">47.1</span> Experimentos aleatorios</a></li><li class="nivel-2"><a href="#eventos"><span class="num">47.2</span> Eventos</a></li><li class="nivel-3"><a href="#union-e-interseccion"><span class="num">47.2.1</span> Unión e intersección</a></li><li class="nivel-2"><a href="#eventos-mutuamente-excluyentes"><span class="num">47.3</span> Eventos mutuamente excluyentes</a></li><li class="nivel-2"><a href="#probabilidad-clasica"><span class="num">47.4</span> Probabilidad clásica</a></li><li class="nivel-3"><a href="#propiedades-basicas"><span class="num">47.4.1</span> Propiedades básicas</a></li><li class="nivel-2"><a href="#regla-de-la-suma"><span class="num">47.5</span> Regla de la suma</a></li><li class="nivel-2"><a href="#regla-del-complemento"><span class="num">47.6</span> Regla del complemento</a></li><li class="nivel-2"><a href="#probabilidad-condicional"><span class="num">47.7</span> Probabilidad condicional</a></li><li class="nivel-2"><a href="#regla-del-producto"><span class="num">47.8</span> Regla del producto</a></li><li class="nivel-2"><a href="#eventos-independientes"><span class="num">47.9</span> Eventos independientes</a></li><li class="nivel-2"><a href="#experimentos-con-y-sin-reemplazo"><span class="num">47.10</span> Experimentos con y sin reemplazo</a></li><li class="nivel-3"><a href="#con-reemplazo"><span class="num">47.10.1</span> Con reemplazo</a></li><li class="nivel-3"><a href="#sin-reemplazo"><span class="num">47.10.2</span> Sin reemplazo</a></li><li class="nivel-2"><a href="#diagramas-de-arbol"><span class="num">47.11</span> Diagramas de árbol</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">47.12</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#palabras-clave">Palabras clave</a></li><li class="nivel-2"><a href="#resumen"><span class="num">47.13</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">47.14</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">47.15</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 47</p><h1>Probabilidad básica</h1></header>
+<p><span id="cap-probabilidad-basica" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>La probabilidad mide la posibilidad de que ocurra un evento en un experimento aleatorio.</p>
+<p>En este capítulo aprenderás a:</p>
+<ul><li>construir espacios muestrales;</li><li>calcular probabilidades simples;</li><li>utilizar las reglas de la suma y del producto;</li><li>calcular probabilidades condicionales;</li><li>distinguir eventos excluyentes e independientes;</li><li>interpretar diagramas de árbol.</li></ul>
+<h2 id="experimentos-aleatorios"><span class="num">47.1</span> Experimentos aleatorios<a class="enlace-seccion" href="#experimentos-aleatorios" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>experimento aleatorio</strong> es un procedimiento cuyo resultado no puede conocerse con certeza antes de realizarlo.</p>
+<p>El conjunto de todos los resultados posibles se llama <strong>espacio muestral</strong> y se representa mediante:</p>
+<div class="mate"><span class="mate-bloque">\[\Omega.\]</span></div>
+<p>Cada resultado individual se denomina <strong>punto muestral</strong>.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-47-1"><div class="caja-titulo">Ejemplo 47.1</div><div class="caja-cuerpo"><p>Escribe el espacio muestral de los siguientes experimentos.</p>
+<ol><li>Lanzar una moneda.</li><li>Lanzar un dado de seis caras.</li><li>Lanzar dos monedas.</li></ol><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Si \(A\) representa águila y \(S\) representa sol:</p>
+<div class="mate"><span class="mate-bloque">\[\Omega_1 = \{A,S\}.\]</span></div>
+<p>Para el dado:</p>
+<div class="mate"><span class="mate-bloque">\[\Omega_2 = \{1,2,3,4,5,6\}.\]</span></div>
+<p>Para dos monedas:</p>
+<div class="mate"><span class="mate-bloque">\[\Omega_3 = \{AA,AS,SA,SS\}.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Los resultados:</p>
+<div class="mate"><span class="mate-bloque">\[AS \qquad\text{y}\qquad SA\]</span></div>
+<p>son diferentes porque representan órdenes distintos.</p></div></section>
+<h2 id="eventos"><span class="num">47.2</span> Eventos<a class="enlace-seccion" href="#eventos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>evento</strong> o <strong>suceso</strong> es un subconjunto del espacio muestral.</p></div></section>
+<p>Los eventos principales son:</p>
+<ul><li><strong>Evento elemental</strong>: contiene un solo resultado.</li><li><strong>Evento seguro</strong>: coincide con todo el espacio muestral.</li><li><strong>Evento imposible</strong>: no contiene resultados.</li><li><strong>Evento complemento</strong>: contiene los resultados que no pertenecen al evento original.</li></ul>
+<p>El complemento de \(A\) se representa mediante:</p>
+<div class="mate"><span class="mate-bloque">\[A^c\]</span></div>
+<p>o:</p>
+<div class="mate"><span class="mate-bloque">\[\overline{A}.\]</span></div>
+<h3 id="union-e-interseccion"><span class="num">47.2.1</span> Unión e intersección<a class="enlace-seccion" href="#union-e-interseccion" aria-label="Enlace a esta sección">#</a></h3>
+<p>La unión:</p>
+<div class="mate"><span class="mate-bloque">\[A\cup B\]</span></div>
+<p>contiene los resultados que pertenecen a \(A\), a \(B\) o a ambos.</p>
+<p>La intersección:</p>
+<div class="mate"><span class="mate-bloque">\[A\cap B\]</span></div>
+<p>contiene los resultados que pertenecen simultáneamente a \(A\) y a \(B\).</p>
+<section class="caja caja-ejemplo" id="ejemplo-47-2"><div class="caja-titulo">Ejemplo 47.2</div><div class="caja-cuerpo"><p>Al lanzar un dado, sean:</p>
+<div class="mate"><span class="mate-bloque">\[A = \{2,4,6\}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B = \{5,6\}.\]</span></div>
+<p>Determina la unión, la intersección y el complemento de \(A\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La unión es:</p>
+<div class="mate"><span class="mate-bloque">\[A\cup B = \{2,4,5,6\}.\]</span></div>
+<p>La intersección es:</p>
+<div class="mate"><span class="mate-bloque">\[A\cap B = \{6\}.\]</span></div>
+<p>El complemento de \(A\) es:</p>
+<div class="mate"><span class="mate-bloque">\[A^c = \{1,3,5\}.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-9dd904f3e905.svg" alt="Figura 47.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="eventos-mutuamente-excluyentes"><span class="num">47.3</span> Eventos mutuamente excluyentes<a class="enlace-seccion" href="#eventos-mutuamente-excluyentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Dos eventos son <strong>mutuamente excluyentes</strong> o <strong>disjuntos</strong> si no pueden ocurrir al mismo tiempo.</p>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[A\cap B = \varnothing.\]</span></div></div></section>
+<p>Por ejemplo, al lanzar un dado, los eventos:</p>
+<div class="mate"><span class="mate-bloque">\[A=\{\text{obtener un número par}\}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B=\{\text{obtener un número impar}\}\]</span></div>
+<p>son mutuamente excluyentes.</p>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Los eventos mutuamente excluyentes no son necesariamente independientes.</p>
+<p>Si un evento ocurre y eso impide que ocurra el otro, existe una dependencia entre ellos.</p></div></section>
+<h2 id="probabilidad-clasica"><span class="num">47.4</span> Probabilidad clásica<a class="enlace-seccion" href="#probabilidad-clasica" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si todos los resultados son igualmente probables:</p>
+<div class="mate"><span class="mate-bloque">\[P(A) = \frac{ \text{casos favorables} }{ \text{casos posibles} }.\]</span></div>
+<p>También puede escribirse:</p>
+<div class="mate"><span class="mate-bloque">\[P(A) = \frac{|A|}{|\Omega|}.\]</span></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La fórmula clásica solo puede utilizarse directamente cuando los resultados del espacio muestral son igualmente probables.</p></div></section>
+<h3 id="propiedades-basicas"><span class="num">47.4.1</span> Propiedades básicas<a class="enlace-seccion" href="#propiedades-basicas" aria-label="Enlace a esta sección">#</a></h3>
+<p>Para cualquier evento \(A\):</p>
+<div class="mate"><span class="mate-bloque">\[0\leq P(A)\leq1.\]</span></div>
+<p>Además:</p>
+<div class="mate"><span class="mate-bloque">\[P(\Omega)=1,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[P(\varnothing)=0.\]</span></div>
+<p>La probabilidad del complemento es:</p>
+<div class="mate"><span class="mate-bloque">\[P(A^c) = 1-P(A).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-47-3"><div class="caja-titulo">Ejemplo 47.3</div><div class="caja-cuerpo"><p>Al lanzar un dado, calcula la probabilidad de:</p>
+<ol><li>obtener un número par;</li><li>obtener un número mayor que \(4\);</li><li>obtener un \(7\).</li></ol><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El espacio muestral es:</p>
+<div class="mate"><span class="mate-bloque">\[\Omega = \{1,2,3,4,5,6\}.\]</span></div>
+<p>Para obtener un número par:</p>
+<div class="mate"><span class="mate-bloque">\[A = \{2,4,6\}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(A) = \frac36 = \frac12.\]</span></div>
+<p>Para obtener un número mayor que \(4\):</p>
+<div class="mate"><span class="mate-bloque">\[B = \{5,6\}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(B) = \frac26 = \frac13.\]</span></div>
+<p>Obtener un \(7\) es imposible:</p>
+<div class="mate"><span class="mate-bloque">\[P(\{7\})=0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-47-4"><div class="caja-titulo">Ejemplo 47.4</div><div class="caja-cuerpo"><p>Una urna contiene:</p>
+<div class="mate"><span class="mate-bloque">\[5\text{ canicas rojas}, \qquad 3\text{ azules}, \qquad 2\text{ verdes}.\]</span></div>
+<p>Calcula la probabilidad de extraer una canica roja o azul.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El total es:</p>
+<div class="mate"><span class="mate-bloque">\[5+3+2=10.\]</span></div>
+<p>Los casos favorables son:</p>
+<div class="mate"><span class="mate-bloque">\[5+3=8.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(\text{roja o azul}) = \frac{8}{10} = \frac45.\]</span></div></div></details></div></section>
+<h2 id="regla-de-la-suma"><span class="num">47.5</span> Regla de la suma<a class="enlace-seccion" href="#regla-de-la-suma" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para dos eventos cualesquiera:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cup B) = P(A)+P(B)-P(A\cap B).\]</span></div>
+<p>Se resta la intersección porque fue contada dos veces.</p>
+<p>Si los eventos son mutuamente excluyentes:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cap B)=0,\]</span></div>
+<p>por lo que:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cup B) = P(A)+P(B).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-47-5"><div class="caja-titulo">Ejemplo 47.5</div><div class="caja-cuerpo"><p>Al lanzar un dado, sean:</p>
+<div class="mate"><span class="mate-bloque">\[A=\{2,4,6\}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[B=\{5,6\}.\]</span></div>
+<p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cup B).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[P(A)=\frac36,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[P(B)=\frac26,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[P(A\cap B)=\frac16.\]</span></div>
+<p>Aplicamos la regla:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cup B) = \frac36+\frac26-\frac16.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cup B) = \frac46 = \frac23.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-47-6"><div class="caja-titulo">Ejemplo 47.6</div><div class="caja-cuerpo"><p>En una clase de \(30\) estudiantes:</p>
+<ul><li>\(18\) aprueban Matemáticas;</li><li>\(15\) aprueban Física;</li><li>\(8\) aprueban ambas materias.</li></ul>
+<p>Calcula la probabilidad de que un estudiante apruebe al menos una materia.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El número de estudiantes que aprueba al menos una es:</p>
+<div class="mate"><span class="mate-bloque">\[18+15-8=25.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(M\cup F) = \frac{25}{30} = \frac56.\]</span></div></div></details></div></section>
+<h2 id="regla-del-complemento"><span class="num">47.6</span> Regla del complemento<a class="enlace-seccion" href="#regla-del-complemento" aria-label="Enlace a esta sección">#</a></h2>
+<p>En algunos problemas es más fácil calcular que un evento no ocurra.</p>
+<div class="mate"><span class="mate-bloque">\[P(A^c) = 1-P(A).\]</span></div>
+<p>La regla del complemento es especialmente útil en expresiones como:</p>
+<ul><li>al menos uno;</li><li>ninguno;</li><li>no ocurra;</li><li>uno o más.</li></ul>
+<section class="caja caja-ejemplo" id="ejemplo-47-7"><div class="caja-titulo">Ejemplo 47.7</div><div class="caja-cuerpo"><p>Se lanza un dado cuatro veces. Calcula la probabilidad de obtener al menos un \(6\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Es más sencillo calcular la probabilidad de no obtener ningún \(6\).</p>
+<p>En un lanzamiento:</p>
+<div class="mate"><span class="mate-bloque">\[P(\text{no obtener }6) = \frac56.\]</span></div>
+<p>Los cuatro lanzamientos son independientes:</p>
+<div class="mate"><span class="mate-bloque">\[P(\text{ningún }6) = \left(\frac56\right)^4.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(\text{al menos un }6) = 1-\left(\frac56\right)^4.\]</span></div></div></details></div></section>
+<h2 id="probabilidad-condicional"><span class="num">47.7</span> Probabilidad condicional<a class="enlace-seccion" href="#probabilidad-condicional" aria-label="Enlace a esta sección">#</a></h2>
+<p>La probabilidad condicional de \(A\) dado que ocurrió \(B\) es:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\mid B) = \frac{P(A\cap B)}{P(B)},\]</span></div>
+<p>si:</p>
+<div class="mate"><span class="mate-bloque">\[P(B)&gt;0.\]</span></div>
+<p>Al conocer que ocurrió \(B\), el nuevo espacio muestral se reduce a los resultados de \(B\).</p>
+<section class="caja caja-ejemplo" id="ejemplo-47-8"><div class="caja-titulo">Ejemplo 47.8</div><div class="caja-cuerpo"><p>Se lanza un dado. Si se sabe que el resultado es par, calcula la probabilidad de que sea mayor que \(3\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El evento conocido es:</p>
+<div class="mate"><span class="mate-bloque">\[B = \{2,4,6\}.\]</span></div>
+<p>Dentro de este nuevo espacio, los resultados mayores que \(3\) son:</p>
+<div class="mate"><span class="mate-bloque">\[\{4,6\}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\mid B) = \frac23.\]</span></div>
+<p>También puede calcularse mediante:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\mid B) = \frac{P(A\cap B)}{P(B)} = \frac{2/6}{3/6} = \frac23.\]</span></div></div></details></div></section>
+<h2 id="regla-del-producto"><span class="num">47.8</span> Regla del producto<a class="enlace-seccion" href="#regla-del-producto" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para eventos dependientes:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cap B) = P(A)P(B\mid A).\]</span></div>
+<p>Equivalentemente:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cap B) = P(B)P(A\mid B).\]</span></div>
+<p>Si los eventos son independientes:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cap B) = P(A)P(B).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-47-9"><div class="caja-titulo">Ejemplo 47.9</div><div class="caja-cuerpo"><p>Se lanza una moneda dos veces. Calcula la probabilidad de obtener dos águilas.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los lanzamientos son independientes.</p>
+<div class="mate"><span class="mate-bloque">\[P(A)=\frac12.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(AA) = \frac12\left(\frac12\right).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[P(AA) = \frac14.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-47-10"><div class="caja-titulo">Ejemplo 47.10</div><div class="caja-cuerpo"><p>Una urna contiene \(4\) canicas rojas y \(6\) blancas. Se extraen dos canicas sin reemplazo.</p>
+<p>Calcula la probabilidad de que ambas sean rojas.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La probabilidad de que la primera sea roja es:</p>
+<div class="mate"><span class="mate-bloque">\[P(R_1) = \frac4{10}.\]</span></div>
+<p>Después de extraer una roja quedan \(3\) rojas entre \(9\) canicas:</p>
+<div class="mate"><span class="mate-bloque">\[P(R_2\mid R_1) = \frac39.\]</span></div>
+<p>Aplicamos la regla del producto:</p>
+<div class="mate"><span class="mate-bloque">\[P(R_1\cap R_2) = \frac4{10}\left(\frac39\right).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(R_1\cap R_2) = \frac{12}{90} = \frac2{15}.\]</span></div></div></details></div></section>
+<h2 id="eventos-independientes"><span class="num">47.9</span> Eventos independientes<a class="enlace-seccion" href="#eventos-independientes" aria-label="Enlace a esta sección">#</a></h2>
+<p>Dos eventos son independientes si la ocurrencia de uno no cambia la probabilidad del otro.</p>
+<p>Las condiciones equivalentes son:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\mid B)=P(A)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cap B) = P(A)P(B).\]</span></div>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Concepto</strong></th><th style="text-align:left"><strong>Condición</strong></th><th style="text-align:left"><strong>Significado</strong></th></tr></thead><tbody><tr><td style="text-align:left">Excluyentes</td><td style="text-align:left">\(A\cap B=\varnothing\)</td><td style="text-align:left">No ocurren juntos</td></tr><tr><td style="text-align:left">Independientes</td><td style="text-align:left">\(P(A\cap B)=P(A)P(B)\)</td><td style="text-align:left">Uno no afecta al otro</td></tr></tbody></table></div></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Los términos <strong>excluyentes</strong> e <strong>independientes</strong> no significan lo mismo.</p>
+<p>Si dos eventos con probabilidad positiva son excluyentes, entonces no pueden ser independientes.</p></div></section>
+<h2 id="experimentos-con-y-sin-reemplazo"><span class="num">47.10</span> Experimentos con y sin reemplazo<a class="enlace-seccion" href="#experimentos-con-y-sin-reemplazo" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="con-reemplazo"><span class="num">47.10.1</span> Con reemplazo<a class="enlace-seccion" href="#con-reemplazo" aria-label="Enlace a esta sección">#</a></h3>
+<p>El objeto seleccionado regresa al conjunto antes de la siguiente extracción.</p>
+<p>Las probabilidades normalmente permanecen iguales.</p>
+<h3 id="sin-reemplazo"><span class="num">47.10.2</span> Sin reemplazo<a class="enlace-seccion" href="#sin-reemplazo" aria-label="Enlace a esta sección">#</a></h3>
+<p>El objeto seleccionado no regresa al conjunto.</p>
+<p>El total de objetos y las probabilidades cambian.</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Extracción</strong></th><th style="text-align:left"><strong>Total</strong></th><th style="text-align:left"><strong>Relación</strong></th></tr></thead><tbody><tr><td style="text-align:left">Con reemplazo</td><td style="text-align:left">Permanece igual</td><td style="text-align:left">Generalmente independiente</td></tr><tr><td style="text-align:left">Sin reemplazo</td><td style="text-align:left">Disminuye</td><td style="text-align:left">Generalmente dependiente</td></tr></tbody></table></div></div>
+<h2 id="diagramas-de-arbol"><span class="num">47.11</span> Diagramas de árbol<a class="enlace-seccion" href="#diagramas-de-arbol" aria-label="Enlace a esta sección">#</a></h2>
+<p>Un diagrama de árbol representa experimentos realizados en varias etapas.</p>
+<p>Para utilizarlo:</p>
+<ul><li>multiplica las probabilidades a lo largo de una ruta;</li><li>suma las probabilidades de las rutas favorables.</li></ul>
+<section class="caja caja-ejemplo" id="ejemplo-47-11"><div class="caja-titulo">Ejemplo 47.11</div><div class="caja-cuerpo"><p>Una urna contiene \(3\) canicas rojas y \(2\) azules. Se extraen dos canicas sin reemplazo.</p>
+<p>Calcula la probabilidad de obtener una roja y una azul, en cualquier orden.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El diagrama es:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-0a5ca72cce24.svg" alt="Figura 47.2" loading="lazy" decoding="async"></figure></div>
+<p>Las rutas favorables son:</p>
+<div class="mate"><span class="mate-bloque">\[RA \qquad\text{y}\qquad AR.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(\text{una roja y una azul}) = P(RA)+P(AR).\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= \frac3{10}+\frac3{10}.\]</span></div>
+<p>Así:</p>
+<div class="mate"><span class="mate-bloque">\[P(\text{una roja y una azul}) = \frac35.\]</span></div></div></details></div></section>
+<h2 id="procedimiento-rapido"><span class="num">47.12</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<ol><li>Identifica el experimento.</li><li>Construye el espacio muestral si es necesario.</li><li>Define claramente los eventos.</li><li><p>Decide si se requiere:</p>
+<ul><li>suma;</li><li>producto;</li><li>complemento;</li><li>probabilidad condicional.</li></ul></li><li>Verifica si los eventos son independientes.</li><li>Revisa si existe reemplazo.</li><li>Simplifica la fracción y comprueba que: <span class="mate-bloque">\[0\leq P(A)\leq1.\]</span></li></ol>
+<h3 id="palabras-clave">Palabras clave<a class="enlace-seccion" href="#palabras-clave" aria-label="Enlace a esta sección">#</a></h3>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Expresión</strong></th><th style="text-align:left"><strong>Operación probable</strong></th></tr></thead><tbody><tr><td style="text-align:left">\(A\) o \(B\)</td><td style="text-align:left">Unión</td></tr><tr><td style="text-align:left">\(A\) y \(B\)</td><td style="text-align:left">Intersección</td></tr><tr><td style="text-align:left">No ocurra \(A\)</td><td style="text-align:left">Complemento</td></tr><tr><td style="text-align:left">\(A\) dado \(B\)</td><td style="text-align:left">Probabilidad condicional</td></tr><tr><td style="text-align:left">Al menos uno</td><td style="text-align:left">Complemento</td></tr><tr><td style="text-align:left">En cualquier orden</td><td style="text-align:left">Sumar rutas favorables</td></tr></tbody></table></div></div>
+<h2 id="resumen"><span class="num">47.13</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Probabilidad clásica:</p>
+<div class="mate"><span class="mate-bloque">\[P(A) = \frac{|A|}{|\Omega|}.\]</span></div>
+<p>Complemento:</p>
+<div class="mate"><span class="mate-bloque">\[P(A^c) = 1-P(A).\]</span></div>
+<p>Regla de la suma:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cup B) = P(A)+P(B)-P(A\cap B).\]</span></div>
+<p>Probabilidad condicional:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\mid B) = \frac{P(A\cap B)}{P(B)}.\]</span></div>
+<p>Regla del producto:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cap B) = P(A)P(B\mid A).\]</span></div>
+<p>Eventos independientes:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cap B) = P(A)P(B).\]</span></div>
+<p>Eventos mutuamente excluyentes:</p>
+<div class="mate"><span class="mate-bloque">\[A\cap B = \varnothing.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">47.14</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>La fórmula clásica requiere resultados igualmente probables.</li><li>En la regla de la suma debe restarse la intersección.</li><li>Los eventos excluyentes no son lo mismo que los eventos independientes.</li><li>La probabilidad condicional modifica el espacio muestral.</li><li>Sin reemplazo, las probabilidades cambian.</li><li>Con reemplazo, el total vuelve a ser el original.</li><li>En un árbol se multiplican probabilidades a lo largo de una ruta.</li><li>Si existen varias rutas favorables, sus probabilidades se suman.</li><li>Toda probabilidad debe encontrarse entre \(0\) y \(1\).</li><li>Si el resultado es un porcentaje, debe multiplicarse por: <span class="mate-bloque">\[100\%.\]</span></li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">47.15</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-47-1"><div class="caja-titulo">Ejercicio 47.1</div><div class="caja-cuerpo"><p>Describe el espacio muestral de lanzar dos dados de seis caras.</p>
+<p>Determina el número total de resultados posibles.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(\Omega = \{(1,1), (1,2), \dots, (6,6)\}\). El número total de resultados es \(6 \times 6 = 36\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-47-2"><div class="caja-titulo">Ejercicio 47.2</div><div class="caja-cuerpo"><p>Al lanzar un dado, calcula la probabilidad de obtener:</p>
+<ol><li>un número impar;</li><li>un número menor que \(3\);</li><li>un número primo.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(\Omega = \{1, 2, 3, 4, 5, 6\}\). 1. Impar \(\{1,3,5\}\): \(P = 3/6 = 1/2\). 2. Menor que \(3\) \(\{1,2\}\): \(P = 2/6 = 1/3\). 3. Primo \(\{2,3,5\}\): \(P = 3/6 = 1/2\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-47-3"><div class="caja-titulo">Ejercicio 47.3</div><div class="caja-cuerpo"><p>De una baraja inglesa de \(52\) cartas se extrae una carta al azar.</p>
+<p>Calcula la probabilidad de obtener:</p>
+<ol><li>un as;</li><li>una carta roja;</li><li>una figura: J, Q o K.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>1. As (hay \(4\)): \(P = 4/52 = 1/13\). 2. Carta roja (hay \(26\)): \(P = 26/52 = 1/2\). 3. Figura (\(3\) por palo, en total \(12\)): \(P = 12/52 = 3/13\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-47-4"><div class="caja-titulo">Ejercicio 47.4</div><div class="caja-cuerpo"><p>Una urna contiene:</p>
+<div class="mate"><span class="mate-bloque">\[6\text{ bolas rojas}, \qquad 4\text{ azules}, \qquad 5\text{ verdes}.\]</span></div>
+<p>Calcula la probabilidad de que una bola elegida al azar no sea verde.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Total \(= 6 + 4 + 5 = 15\). Las no verdes son rojas o azules: \(6 + 4 = 10\). \(P(\text{no verde}) = 10/15 = 2/3\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-47-5"><div class="caja-titulo">Ejercicio 47.5</div><div class="caja-cuerpo"><p>Sean \(A\) y \(B\) dos eventos con:</p>
+<div class="mate"><span class="mate-bloque">\[P(A)=0.5,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[P(B)=0.4\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cap B)=0.2.\]</span></div>
+<p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cup B).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0.5 + 0.4 - 0.2 = 0.7\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-47-6"><div class="caja-titulo">Ejercicio 47.6</div><div class="caja-cuerpo"><p>En una escuela:</p>
+<div class="mate"><span class="mate-bloque">\[P(I)=0.60,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[P(H)=0.50\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P(I\cap H)=0.30.\]</span></div>
+<p>Calcula la probabilidad de que un estudiante apruebe al menos una de las dos materias.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(P(I \cup H) = P(I) + P(H) - P(I \cap H) = 0.60 + 0.50 - 0.30 = 0.80\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-47-7"><div class="caja-titulo">Ejercicio 47.7</div><div class="caja-cuerpo"><p>Se lanza un dado. Si se sabe que el resultado es mayor que \(2\), calcula la probabilidad de que sea par.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(B = \{3,4,5,6\}\) y \(A \cap B = \{4,6\}\). \(P(A \mid B) = \frac{2}{4} = \frac{1}{2}\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-47-8"><div class="caja-titulo">Ejercicio 47.8</div><div class="caja-cuerpo"><p>Una caja contiene \(5\) focos buenos y \(2\) defectuosos.</p>
+<p>Se extraen dos focos sin reemplazo.</p>
+<p>Calcula la probabilidad de que ambos sean buenos.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Total \(= 7\). \(P(B_1 \cap B_2) = P(B_1)P(B_2 \mid B_1) = \left(\frac{5}{7}\right)\left(\frac{4}{6}\right) = \frac{20}{42} = \frac{10}{21}\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-47-9"><div class="caja-titulo">Ejercicio 47.9</div><div class="caja-cuerpo"><p>Se lanza una moneda tres veces.</p>
+<p>Calcula la probabilidad de obtener exactamente dos águilas.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los \(8\) resultados posibles son: \(AAA, AAS, ASA, SAA, ASS, SAS, SSA, SSS\). Casos con exactamente dos águilas: \(AAS, ASA, SAA\). Por tanto, \(P = 3/8\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-47-10"><div class="caja-titulo">Ejercicio 47.10</div><div class="caja-cuerpo"><p>En una ciudad:</p>
+<div class="mate"><span class="mate-bloque">\[P(A)=0.40,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[P(M)=0.25\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[P(A\cap M)=0.10.\]</span></div>
+<p>Calcula:</p>
+<ol><li>la probabilidad de que una persona tenga automóvil o motocicleta;</li><li>la probabilidad de que tenga motocicleta, sabiendo que tiene automóvil.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>1. \(P(A \cup M) = P(A) + P(M) - P(A \cap M) = 0.40 + 0.25 - 0.10 = 0.55\). 2. \(P(M \mid A) = \frac{P(A \cap M)}{P(A)} = \frac{0.10}{0.40} = 0.25\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-47-11"><div class="caja-titulo">Ejercicio 47.11</div><div class="caja-cuerpo"><p>Una urna contiene \(4\) bolas blancas y \(3\) negras.</p>
+<p>Se extraen dos bolas con reemplazo.</p>
+<p>Calcula la probabilidad de obtener dos bolas negras.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Con reemplazo, los eventos son independientes. \(P(N_1 \cap N_2) = \left(\frac{3}{7}\right)\left(\frac{3}{7}\right) = \frac{9}{49}\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-47-12"><div class="caja-titulo">Ejercicio 47.12</div><div class="caja-cuerpo"><p>Una urna contiene \(4\) bolas blancas y \(3\) negras.</p>
+<p>Se extraen dos bolas sin reemplazo.</p>
+<p>Calcula la probabilidad de obtener dos bolas negras y compara el resultado con el ejercicio anterior.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sin reemplazo, el segundo evento depende del primero. \(P(N_1 \cap N_2) = \left(\frac{3}{7}\right)\left(\frac{2}{6}\right) = \frac{6}{42} = \frac{1}{7}\). La probabilidad disminuye con respecto al caso con reemplazo, ya que \(\frac{1}{7} = \frac{7}{49} &lt; \frac{9}{49}\).</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="46-medidas-estadisticas.html"><span>← Anterior</span>46. Medidas estadísticas</a><a class="nav-siguiente" href="48-tecnicas-conteo.html"><span>Siguiente →</span>48. Técnicas de conteo y probabilidad avanzada</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

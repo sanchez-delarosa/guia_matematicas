@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "28",
+    "titulo": "Identidades trigonométricas",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "28.1",
+        "nombre": "Identidades y ecuaciones trigonométricas"
+      },
+      {
+        "codigo": "28.2",
+        "nombre": "Identidades recíprocas"
+      },
+      {
+        "codigo": "28.3",
+        "nombre": "Identidades de cociente"
+      },
+      {
+        "codigo": "28.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      {
+        "codigo": "28.5",
+        "nombre": "Obtención de las identidades pitagóricas"
+      },
+      {
+        "codigo": "28.6",
+        "nombre": "Equivalencias útiles"
+      },
+      {
+        "codigo": "28.7",
+        "nombre": "Expresión de funciones en términos de seno y coseno"
+      },
+      {
+        "codigo": "28.8",
+        "nombre": "Expresión de una función en términos de otra"
+      },
+      {
+        "codigo": "28.9",
+        "nombre": "Simplificación de expresiones"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas 28.1 a 28.9; se omitieron síntesis y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-28-1-01",
+      "pregunta": "Una identidad trigonométrica es una igualdad que:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.1",
+        "nombre": "Identidades y ecuaciones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Se cumple para todos los valores donde ambas expresiones están definidas",
+        "B": "Se cumple solo para un ángulo",
+        "C": "Siempre contiene una incógnita lineal",
+        "D": "Solo se verifica en $0^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-1-02",
+      "pregunta": "Una ecuación trigonométrica busca:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.1",
+        "nombre": "Identidades y ecuaciones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Probar una igualdad universal",
+        "B": "Calcular únicamente un lado",
+        "C": "Definir el círculo unitario",
+        "D": "Los valores del ángulo que hacen verdadera la igualdad"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-1-03",
+      "pregunta": "¿Cuál es una identidad?",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.1",
+        "nombre": "Identidades y ecuaciones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos x=3$",
+        "B": "$\\tan x=5$ para todo $x$",
+        "C": "$\\sin^2x+\\cos^2x=1$",
+        "D": "$\\sin x=2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-1-04",
+      "pregunta": "¿Cuál es una ecuación trigonométrica?",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.1",
+        "nombre": "Identidades y ecuaciones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan x=\\sin x/\\cos x$",
+        "B": "$\\sin x=\\frac12$",
+        "C": "$\\sec x=1/\\cos x$",
+        "D": "$1+\\tan^2x=\\sec^2x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-1-05",
+      "pregunta": "Para demostrar una identidad conviene:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.1",
+        "nombre": "Identidades y ecuaciones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Transformar un miembro hasta obtener el otro",
+        "B": "Sumar el mismo número al ángulo",
+        "C": "Sustituir siempre $x=0$",
+        "D": "Resolver una ecuación cuadrática obligatoriamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-1-06",
+      "pregunta": "Verificar una identidad con un valor numérico:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.1",
+        "nombre": "Identidades y ecuaciones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "La demuestra para todo ángulo",
+        "B": "Elimina restricciones de dominio",
+        "C": "Convierte la identidad en definición",
+        "D": "No constituye una demostración general"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-1-07",
+      "pregunta": "Las restricciones de dominio son importantes porque:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.1",
+        "nombre": "Identidades y ecuaciones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Hacen todos los senos positivos",
+        "B": "Eliminan la periodicidad",
+        "C": "Algunas funciones o cocientes pueden no estar definidos",
+        "D": "Cambian grados por radianes"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-1-08",
+      "pregunta": "Si dos expresiones son idénticas, sus valores:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.1",
+        "nombre": "Identidades y ecuaciones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Son necesariamente positivas",
+        "B": "Coinciden en todo su dominio común",
+        "C": "Coinciden solo en el primer cuadrante",
+        "D": "Son siempre cero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-1-09",
+      "pregunta": "Una estrategia útil al demostrar identidades es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.1",
+        "nombre": "Identidades y ecuaciones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Trabajar primero con el miembro más complejo",
+        "B": "Elevar ambos miembros al azar",
+        "C": "Dividir siempre entre cero",
+        "D": "Usar únicamente calculadora"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-1-10",
+      "pregunta": "Al simplificar una identidad debe evitarse:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.1",
+        "nombre": "Identidades y ecuaciones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Factorizar",
+        "B": "Usar denominador común",
+        "C": "Sustituir identidades conocidas",
+        "D": "Cancelar términos que forman parte de una suma"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-2-01",
+      "pregunta": "La identidad recíproca de seno es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.2",
+        "nombre": "Identidades recíprocas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cot x=1/\\sin x$",
+        "B": "$\\sin x=1/\\cos x$",
+        "C": "$\\csc x=\\frac1{\\sin x}$",
+        "D": "$\\sec x=1/\\sin x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-2-02",
+      "pregunta": "La identidad recíproca de coseno es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.2",
+        "nombre": "Identidades recíprocas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos x=1/\\sin x$",
+        "B": "$\\sec x=\\frac1{\\cos x}$",
+        "C": "$\\csc x=1/\\cos x$",
+        "D": "$\\tan x=1/\\cos x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-2-03",
+      "pregunta": "La identidad recíproca de tangente es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.2",
+        "nombre": "Identidades recíprocas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cot x=\\frac1{\\tan x}$",
+        "B": "$\\sec x=1/\\tan x$",
+        "C": "$\\csc x=1/\\tan x$",
+        "D": "$\\tan x=1/\\sin x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-2-04",
+      "pregunta": "Complete: $\\sin x\\,\\csc x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.2",
+        "nombre": "Identidades recíprocas"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\cos x$",
+        "C": "$\\tan x$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-2-05",
+      "pregunta": "Complete: $\\cos x\\,\\sec x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.2",
+        "nombre": "Identidades recíprocas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin x$",
+        "B": "$\\cot x$",
+        "C": "$1$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-2-06",
+      "pregunta": "Complete: $\\tan x\\,\\cot x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.2",
+        "nombre": "Identidades recíprocas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\csc x$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$\\sec x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-2-07",
+      "pregunta": "Si $\\sin x=\\frac35$, entonces $\\csc x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.2",
+        "nombre": "Identidades recíprocas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac53$",
+        "B": "$\\frac35$",
+        "C": "$\\frac45$",
+        "D": "$\\frac54$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-2-08",
+      "pregunta": "Si $\\cos x=\\frac4{7}$, entonces $\\sec x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.2",
+        "nombre": "Identidades recíprocas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac47$",
+        "B": "$\\frac37$",
+        "C": "$\\frac73$",
+        "D": "$\\frac74$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-2-09",
+      "pregunta": "Si $\\tan x=2$, entonces $\\cot x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.2",
+        "nombre": "Identidades recíprocas"
+      },
+      "respuestas_posibles": {
+        "A": "$-2$",
+        "B": "$4$",
+        "C": "$\\frac12$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-2-10",
+      "pregunta": "Simplifique $\\frac1{\\sec x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.2",
+        "nombre": "Identidades recíprocas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\csc x$",
+        "B": "$\\cos x$",
+        "C": "$\\sin x$",
+        "D": "$\\tan x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-3-01",
+      "pregunta": "La identidad de cociente para tangente es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.3",
+        "nombre": "Identidades de cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan x=\\frac{\\sin x}{\\cos x}$",
+        "B": "$\\tan x=\\cos x/\\sin x$",
+        "C": "$\\tan x=1/\\cos x$",
+        "D": "$\\tan x=\\sin x\\cos x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-3-02",
+      "pregunta": "La identidad de cociente para cotangente es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.3",
+        "nombre": "Identidades de cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cot x=\\sin x/\\cos x$",
+        "B": "$\\cot x=1/\\sin x$",
+        "C": "$\\cot x=\\sin x\\cos x$",
+        "D": "$\\cot x=\\frac{\\cos x}{\\sin x}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-3-03",
+      "pregunta": "Simplifique $\\frac{\\sin x}{\\cos x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.3",
+        "nombre": "Identidades de cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sec x$",
+        "B": "$\\csc x$",
+        "C": "$\\tan x$",
+        "D": "$\\cot x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-3-04",
+      "pregunta": "Simplifique $\\frac{\\cos x}{\\sin x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.3",
+        "nombre": "Identidades de cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\csc x$",
+        "B": "$\\cot x$",
+        "C": "$\\tan x$",
+        "D": "$\\sec x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-3-05",
+      "pregunta": "Simplifique $\\frac{\\tan x}{\\sin x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.3",
+        "nombre": "Identidades de cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sec x$",
+        "B": "$\\csc x$",
+        "C": "$\\cos x$",
+        "D": "$\\cot x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-3-06",
+      "pregunta": "Simplifique $\\frac{\\cot x}{\\cos x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.3",
+        "nombre": "Identidades de cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sec x$",
+        "B": "$\\sin x$",
+        "C": "$\\tan x$",
+        "D": "$\\csc x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-3-07",
+      "pregunta": "Simplifique $\\tan x\\cos x$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.3",
+        "nombre": "Identidades de cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$\\cot x$",
+        "C": "$\\sin x$",
+        "D": "$\\cos x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-3-08",
+      "pregunta": "Simplifique $\\cot x\\sin x$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.3",
+        "nombre": "Identidades de cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan x$",
+        "B": "$\\cos x$",
+        "C": "$\\sin x$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-3-09",
+      "pregunta": "Si $\\sin x=\\frac45$ y $\\cos x=\\frac35$, entonces $\\tan x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.3",
+        "nombre": "Identidades de cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac43$",
+        "B": "$\\frac34$",
+        "C": "$\\frac45$",
+        "D": "$\\frac35$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-3-10",
+      "pregunta": "Si $\\cos x=-\\frac5{13}$ y $\\sin x=\\frac{12}{13}$, entonces $\\cot x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.3",
+        "nombre": "Identidades de cociente"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac5{12}$",
+        "B": "$-\\frac{12}{5}$",
+        "C": "$\\frac{12}{5}$",
+        "D": "$-\\frac5{12}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-4-01",
+      "pregunta": "La identidad pitagórica fundamental es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin^2x-\\cos^2x=1$",
+        "B": "$\\tan^2x+\\cot^2x=1$",
+        "C": "$\\sin^2x+\\cos^2x=1$",
+        "D": "$\\sin x+\\cos x=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-4-02",
+      "pregunta": "Otra identidad pitagórica es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan^2x=\\sec x$",
+        "B": "$1+\\tan^2x=\\sec^2x$",
+        "C": "$1-\\tan^2x=\\sec^2x$",
+        "D": "$1+\\sec^2x=\\tan^2x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-4-03",
+      "pregunta": "La tercera identidad pitagórica es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$1+\\cot^2x=\\csc^2x$",
+        "B": "$1-\\cot^2x=\\csc^2x$",
+        "C": "$1+\\csc^2x=\\cot^2x$",
+        "D": "$\\cot^2x=\\csc x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-4-04",
+      "pregunta": "Despeje $\\sin^2x$ de la identidad fundamental.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin^2x=1+\\cos^2x$",
+        "B": "$\\sin^2x=\\cos^2x-1$",
+        "C": "$\\sin^2x=1/\\cos^2x$",
+        "D": "$\\sin^2x=1-\\cos^2x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-4-05",
+      "pregunta": "Despeje $\\cos^2x$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos^2x=\\sin^2x-1$",
+        "B": "$\\cos^2x=1/\\sin^2x$",
+        "C": "$\\cos^2x=1-\\sin^2x$",
+        "D": "$\\cos^2x=1+\\sin^2x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-4-06",
+      "pregunta": "Simplifique $\\sec^2x-\\tan^2x$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin^2x$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$\\cos^2x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-4-07",
+      "pregunta": "Simplifique $\\csc^2x-\\cot^2x$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$0$",
+        "C": "$\\sec^2x$",
+        "D": "$\\tan^2x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-4-08",
+      "pregunta": "Si $\\sin x=\\frac35$ y $x$ es agudo, $\\cos x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac25$",
+        "B": "$\\frac34$",
+        "C": "$\\frac54$",
+        "D": "$\\frac45$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-4-09",
+      "pregunta": "Si $\\tan x=\\frac34$, entonces $\\sec^2x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{16}{25}$",
+        "B": "$\\frac9{16}$",
+        "C": "$\\frac{25}{16}$",
+        "D": "$\\frac7{4}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-4-10",
+      "pregunta": "Si $\\cot x=\\frac5{12}$, entonces $\\csc^2x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.4",
+        "nombre": "Identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{13}{12}$",
+        "B": "$\\frac{169}{144}$",
+        "C": "$\\frac{25}{144}$",
+        "D": "$\\frac{144}{169}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-5-01",
+      "pregunta": "Al dividir $\\sin^2x+\\cos^2x=1$ entre $\\cos^2x$ se obtiene:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.5",
+        "nombre": "Obtención de las identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan^2x+1=\\sec^2x$",
+        "B": "$\\cot^2x+1=\\csc^2x$",
+        "C": "$\\sin x+\\cos x=1$",
+        "D": "$1-\\tan^2x=\\sec^2x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-5-02",
+      "pregunta": "En esa división, $\\frac{\\sin^2x}{\\cos^2x}$ es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.5",
+        "nombre": "Obtención de las identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cot^2x$",
+        "B": "$\\sec^2x$",
+        "C": "$\\csc^2x$",
+        "D": "$\\tan^2x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-5-03",
+      "pregunta": "En esa división, $\\frac1{\\cos^2x}$ es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.5",
+        "nombre": "Obtención de las identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan^2x$",
+        "B": "$\\cot^2x$",
+        "C": "$\\sec^2x$",
+        "D": "$\\csc^2x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-5-04",
+      "pregunta": "Al dividir la identidad fundamental entre $\\sin^2x$ se obtiene:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.5",
+        "nombre": "Obtención de las identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin^2x+\\cos^2x=0$",
+        "B": "$1+\\cot^2x=\\csc^2x$",
+        "C": "$1+\\tan^2x=\\sec^2x$",
+        "D": "$1-\\cot^2x=\\csc^2x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-5-05",
+      "pregunta": "En esa división, $\\frac{\\cos^2x}{\\sin^2x}$ es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.5",
+        "nombre": "Obtención de las identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cot^2x$",
+        "B": "$\\tan^2x$",
+        "C": "$\\sec^2x$",
+        "D": "$\\csc^2x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-5-06",
+      "pregunta": "En esa división, $\\frac1{\\sin^2x}$ es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.5",
+        "nombre": "Obtención de las identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sec^2x$",
+        "B": "$\\cot^2x$",
+        "C": "$\\tan^2x$",
+        "D": "$\\csc^2x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-5-07",
+      "pregunta": "La identidad $1+\\tan^2x=\\sec^2x$ requiere que:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.5",
+        "nombre": "Obtención de las identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos x=1$",
+        "B": "$\\tan x=0$",
+        "C": "$\\cos x\\ne0$",
+        "D": "$\\sin x=0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-5-08",
+      "pregunta": "La identidad $1+\\cot^2x=\\csc^2x$ requiere que:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.5",
+        "nombre": "Obtención de las identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cot x=0$",
+        "B": "$\\sin x\\ne0$",
+        "C": "$\\cos x=0$",
+        "D": "$\\sin x=1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-5-09",
+      "pregunta": "Las identidades pitagóricas derivadas provienen de:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.5",
+        "nombre": "Obtención de las identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin^2x+\\cos^2x=1$",
+        "B": "$\\sin x+\\cos x=0$",
+        "C": "$\\tan x=1$",
+        "D": "$\\sec x=\\csc x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-5-10",
+      "pregunta": "Dividir una identidad entre una expresión que puede ser cero obliga a:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.5",
+        "nombre": "Obtención de las identidades pitagóricas"
+      },
+      "respuestas_posibles": {
+        "A": "Ignorar el denominador",
+        "B": "Declarar todos los ángulos válidos",
+        "C": "Cambiar seno por coseno",
+        "D": "Considerar las restricciones del dominio"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-6-01",
+      "pregunta": "Una equivalencia de $1-\\sin^2x$ es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.6",
+        "nombre": "Equivalencias útiles"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan^2x$",
+        "B": "$\\sec^2x$",
+        "C": "$\\cos^2x$",
+        "D": "$\\sin^2x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-6-02",
+      "pregunta": "Una equivalencia de $1-\\cos^2x$ es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.6",
+        "nombre": "Equivalencias útiles"
+      },
+      "respuestas_posibles": {
+        "A": "$\\csc^2x$",
+        "B": "$\\sin^2x$",
+        "C": "$\\cos^2x$",
+        "D": "$\\cot^2x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-6-03",
+      "pregunta": "Una equivalencia de $\\sec^2x-1$ es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.6",
+        "nombre": "Equivalencias útiles"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan^2x$",
+        "B": "$\\cot^2x$",
+        "C": "$\\cos^2x$",
+        "D": "$\\sin^2x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-6-04",
+      "pregunta": "Una equivalencia de $\\csc^2x-1$ es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.6",
+        "nombre": "Equivalencias útiles"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan^2x$",
+        "B": "$\\cos^2x$",
+        "C": "$\\sec^2x$",
+        "D": "$\\cot^2x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-6-05",
+      "pregunta": "Una equivalencia de $1+\\tan^2x$ es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.6",
+        "nombre": "Equivalencias útiles"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos^2x$",
+        "B": "$\\cot^2x$",
+        "C": "$\\sec^2x$",
+        "D": "$\\csc^2x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-6-06",
+      "pregunta": "Una equivalencia de $1+\\cot^2x$ es:",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.6",
+        "nombre": "Equivalencias útiles"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan^2x$",
+        "B": "$\\csc^2x$",
+        "C": "$\\sec^2x$",
+        "D": "$\\sin^2x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-6-07",
+      "pregunta": "Factorice $1-\\sin^2x$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.6",
+        "nombre": "Equivalencias útiles"
+      },
+      "respuestas_posibles": {
+        "A": "$(1-\\sin x)(1+\\sin x)$",
+        "B": "$(1-\\sin x)^2$",
+        "C": "$(1+\\sin x)^2$",
+        "D": "$1-2\\sin x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-6-08",
+      "pregunta": "Factorice $1-\\cos^2x$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.6",
+        "nombre": "Equivalencias útiles"
+      },
+      "respuestas_posibles": {
+        "A": "$(1-\\cos x)^2$",
+        "B": "$(1+\\cos x)^2$",
+        "C": "$1-2\\cos x$",
+        "D": "$(1-\\cos x)(1+\\cos x)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-6-09",
+      "pregunta": "Simplifique $(1-\\sin x)(1+\\sin x)$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.6",
+        "nombre": "Equivalencias útiles"
+      },
+      "respuestas_posibles": {
+        "A": "$1+\\sin^2x$",
+        "B": "$\\tan^2x$",
+        "C": "$\\cos^2x$",
+        "D": "$\\sin^2x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-6-10",
+      "pregunta": "Simplifique $(1-\\cos x)(1+\\cos x)$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.6",
+        "nombre": "Equivalencias útiles"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cot^2x$",
+        "B": "$\\sin^2x$",
+        "C": "$\\cos^2x$",
+        "D": "$1+\\cos^2x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-7-01",
+      "pregunta": "Exprese $\\tan x$ en términos de seno y coseno.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.7",
+        "nombre": "Expresión de funciones en términos de seno y coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\sin x}{\\cos x}$",
+        "B": "$\\frac{\\cos x}{\\sin x}$",
+        "C": "$\\frac1{\\sin x}$",
+        "D": "$\\frac1{\\cos x}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-7-02",
+      "pregunta": "Exprese $\\cot x$ en términos de seno y coseno.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.7",
+        "nombre": "Expresión de funciones en términos de seno y coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\sin x}{\\cos x}$",
+        "B": "$\\frac1{\\cos x}$",
+        "C": "$\\frac1{\\sin x}$",
+        "D": "$\\frac{\\cos x}{\\sin x}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-7-03",
+      "pregunta": "Exprese $\\sec x$ en términos de coseno.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.7",
+        "nombre": "Expresión de funciones en términos de seno y coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\sin x}{\\cos x}$",
+        "B": "$\\cos x$",
+        "C": "$\\frac1{\\cos x}$",
+        "D": "$\\frac1{\\sin x}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-7-04",
+      "pregunta": "Exprese $\\csc x$ en términos de seno.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.7",
+        "nombre": "Expresión de funciones en términos de seno y coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin x$",
+        "B": "$\\frac1{\\sin x}$",
+        "C": "$\\frac1{\\cos x}$",
+        "D": "$\\frac{\\cos x}{\\sin x}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-7-05",
+      "pregunta": "Exprese $\\tan x\\sec x$ con seno y coseno.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.7",
+        "nombre": "Expresión de funciones en términos de seno y coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\sin x}{\\cos^2x}$",
+        "B": "$\\frac{\\cos x}{\\sin^2x}$",
+        "C": "$\\sin x\\cos x$",
+        "D": "$\\frac1{\\sin x\\cos x}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-7-06",
+      "pregunta": "Exprese $\\cot x\\csc x$ con seno y coseno.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.7",
+        "nombre": "Expresión de funciones en términos de seno y coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\sin x}{\\cos^2x}$",
+        "B": "$\\sin x\\cos x$",
+        "C": "$\\frac1{\\sin x\\cos x}$",
+        "D": "$\\frac{\\cos x}{\\sin^2x}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-7-07",
+      "pregunta": "Exprese $\\sec x+\\tan x$ con denominador común.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.7",
+        "nombre": "Expresión de funciones en términos de seno y coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\sin x+\\cos x}{1}$",
+        "B": "$\\frac1{\\sin x+\\cos x}$",
+        "C": "$\\frac{1+\\sin x}{\\cos x}$",
+        "D": "$\\frac{1+\\cos x}{\\sin x}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-7-08",
+      "pregunta": "Exprese $\\csc x-\\cot x$ con denominador común.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.7",
+        "nombre": "Expresión de funciones en términos de seno y coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac1{\\sin x-\\cos x}$",
+        "B": "$\\frac{1-\\cos x}{\\sin x}$",
+        "C": "$\\frac{1-\\sin x}{\\cos x}$",
+        "D": "$\\frac{\\sin x-\\cos x}{1}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-7-09",
+      "pregunta": "Exprese $\\sec^2x$ con coseno.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.7",
+        "nombre": "Expresión de funciones en términos de seno y coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac1{\\cos^2x}$",
+        "B": "$\\frac1{\\sin^2x}$",
+        "C": "$\\cos^2x$",
+        "D": "$\\frac{\\sin^2x}{\\cos^2x}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-7-10",
+      "pregunta": "Exprese $\\csc^2x$ con seno.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.7",
+        "nombre": "Expresión de funciones en términos de seno y coseno"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac1{\\cos^2x}$",
+        "B": "$\\sin^2x$",
+        "C": "$\\frac{\\cos^2x}{\\sin^2x}$",
+        "D": "$\\frac1{\\sin^2x}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-8-01",
+      "pregunta": "Si $\\sin x=s$ y $x$ es agudo, entonces $\\cos x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.8",
+        "nombre": "Expresión de una función en términos de otra"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt{1+s^2}$",
+        "B": "$1/s$",
+        "C": "$\\sqrt{1-s^2}$",
+        "D": "$1-s$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-8-02",
+      "pregunta": "Si $\\cos x=c$ y $x$ es agudo, entonces $\\sin x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.8",
+        "nombre": "Expresión de una función en términos de otra"
+      },
+      "respuestas_posibles": {
+        "A": "$1/c$",
+        "B": "$\\sqrt{1-c^2}$",
+        "C": "$1-c$",
+        "D": "$\\sqrt{1+c^2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-8-03",
+      "pregunta": "Si $\\tan x=t$, entonces $\\sec^2x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.8",
+        "nombre": "Expresión de una función en términos de otra"
+      },
+      "respuestas_posibles": {
+        "A": "$1+t^2$",
+        "B": "$1-t^2$",
+        "C": "$t^2-1$",
+        "D": "$1/t^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-8-04",
+      "pregunta": "Si $\\cot x=u$, entonces $\\csc^2x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.8",
+        "nombre": "Expresión de una función en términos de otra"
+      },
+      "respuestas_posibles": {
+        "A": "$1-u^2$",
+        "B": "$u^2-1$",
+        "C": "$1/u^2$",
+        "D": "$1+u^2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-8-05",
+      "pregunta": "Si $\\sec x=s$, entonces $\\tan^2x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.8",
+        "nombre": "Expresión de una función en términos de otra"
+      },
+      "respuestas_posibles": {
+        "A": "$s^2+1$",
+        "B": "$1/s^2$",
+        "C": "$s^2-1$",
+        "D": "$1-s^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-8-06",
+      "pregunta": "Si $\\csc x=c$, entonces $\\cot^2x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.8",
+        "nombre": "Expresión de una función en términos de otra"
+      },
+      "respuestas_posibles": {
+        "A": "$1/c^2$",
+        "B": "$c^2-1$",
+        "C": "$1-c^2$",
+        "D": "$c^2+1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-8-07",
+      "pregunta": "Si $\\sin x=\\frac5{13}$ y $x$ es agudo, $\\tan x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.8",
+        "nombre": "Expresión de una función en términos de otra"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac5{12}$",
+        "B": "$\\frac{12}{5}$",
+        "C": "$\\frac5{13}$",
+        "D": "$\\frac{13}{12}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-8-08",
+      "pregunta": "Si $\\cos x=\\frac8{17}$ y $x$ es agudo, $\\tan x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.8",
+        "nombre": "Expresión de una función en términos de otra"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac8{15}$",
+        "B": "$\\frac{15}{17}$",
+        "C": "$\\frac{17}{8}$",
+        "D": "$\\frac{15}{8}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-8-09",
+      "pregunta": "Si $\\tan x=\\frac{12}{5}$ y $x$ es agudo, $\\sin x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.8",
+        "nombre": "Expresión de una función en términos de otra"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{12}{5}$",
+        "B": "$\\frac{13}{12}$",
+        "C": "$\\frac{12}{13}$",
+        "D": "$\\frac5{13}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-8-10",
+      "pregunta": "Si $\\cot x=\\frac34$ y $x$ es agudo, $\\cos x=$",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.8",
+        "nombre": "Expresión de una función en términos de otra"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac43$",
+        "B": "$\\frac35$",
+        "C": "$\\frac45$",
+        "D": "$\\frac34$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-9-01",
+      "pregunta": "Simplifique $\\frac{1-\\cos^2x}{\\sin x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.9",
+        "nombre": "Simplificación de expresiones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin x$",
+        "B": "$\\cos x$",
+        "C": "$\\tan x$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-9-02",
+      "pregunta": "Simplifique $\\frac{1-\\sin^2x}{\\cos x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.9",
+        "nombre": "Simplificación de expresiones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin x$",
+        "B": "$\\cot x$",
+        "C": "$1$",
+        "D": "$\\cos x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-9-03",
+      "pregunta": "Simplifique $\\frac{\\sec^2x-1}{\\tan x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.9",
+        "nombre": "Simplificación de expresiones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cot x$",
+        "B": "$1$",
+        "C": "$\\tan x$",
+        "D": "$\\sec x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-9-04",
+      "pregunta": "Simplifique $\\frac{\\csc^2x-1}{\\cot x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.9",
+        "nombre": "Simplificación de expresiones"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$\\cot x$",
+        "C": "$\\csc x$",
+        "D": "$\\tan x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-9-05",
+      "pregunta": "Simplifique $\\sin x\\csc x+\\cos x\\sec x$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.9",
+        "nombre": "Simplificación de expresiones"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$0$",
+        "C": "$1$",
+        "D": "$\\sin x+\\cos x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-9-06",
+      "pregunta": "Simplifique $\\frac{\\tan x}{\\sec x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.9",
+        "nombre": "Simplificación de expresiones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos x$",
+        "B": "$\\cot x$",
+        "C": "$\\csc x$",
+        "D": "$\\sin x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-9-07",
+      "pregunta": "Simplifique $\\frac{\\cot x}{\\csc x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.9",
+        "nombre": "Simplificación de expresiones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan x$",
+        "B": "$\\sec x$",
+        "C": "$\\cos x$",
+        "D": "$\\sin x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-9-08",
+      "pregunta": "Simplifique $(\\sec x-\\tan x)(\\sec x+\\tan x)$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.9",
+        "nombre": "Simplificación de expresiones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan^2x$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$\\sec^2x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-9-09",
+      "pregunta": "Simplifique $(\\csc x-\\cot x)(\\csc x+\\cot x)$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.9",
+        "nombre": "Simplificación de expresiones"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$0$",
+        "C": "$\\csc^2x$",
+        "D": "$\\cot^2x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-28-9-10",
+      "pregunta": "Simplifique $\\frac{\\sin x}{1+\\cos x}+\\frac{1+\\cos x}{\\sin x}$.",
+      "tema": {
+        "codigo": "28",
+        "nombre": "Identidades trigonométricas",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "28.9",
+        "nombre": "Simplificación de expresiones"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\sec x$",
+        "B": "$2\\sin x$",
+        "C": "$2\\cos x$",
+        "D": "$2\\csc x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "aplicar identidades trigonométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

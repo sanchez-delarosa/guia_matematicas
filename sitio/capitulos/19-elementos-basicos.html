@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>19. Elementos básicos de geometría · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte IV: Geometría euclidiana</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#punto-recta-y-plano"><span class="num">19.1</span> Punto, recta y plano</a></li><li class="nivel-2"><a href="#angulos"><span class="num">19.2</span> Ángulos</a></li><li class="nivel-2"><a href="#relaciones-entre-angulos"><span class="num">19.3</span> Relaciones entre ángulos</a></li><li class="nivel-2"><a href="#rectas-paralelas-perpendiculares-y-oblicuas"><span class="num">19.4</span> Rectas paralelas, perpendiculares y oblicuas</a></li><li class="nivel-2"><a href="#paralelas-cortadas-por-una-transversal"><span class="num">19.5</span> Paralelas cortadas por una transversal</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">19.6</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 19</p><h1>Elementos básicos de geometría</h1></header>
+<p><span id="cap-elementos-basicos" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>La geometría euclidiana estudia las propiedades de puntos, rectas, planos y figuras construidas a partir de ellos. Estos conceptos permiten describir posiciones, direcciones, distancias y relaciones angulares. En este capítulo estudiarás los elementos fundamentales de la geometría, la clasificación de los ángulos y las relaciones que se producen cuando dos rectas paralelas son cortadas por una transversal.</p>
+<h2 id="punto-recta-y-plano"><span class="num">19.1</span> Punto, recta y plano<a class="enlace-seccion" href="#punto-recta-y-plano" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Los conceptos fundamentales de la geometría euclidiana son:</p>
+<ul><li>Un <strong>punto</strong> representa una posición exacta y carece de longitud, anchura y altura. Se nombra mediante una letra mayúscula, como \(A\), \(B\), \(P\) o \(Q\).</li><li>Una <strong>recta</strong> se extiende indefinidamente en dos direcciones y no tiene extremos. Puede nombrarse mediante una letra minúscula, como \(r\) o \(s\), o mediante dos de sus puntos: <span class="mate-bloque">\[\overleftrightarrow{AB}.\]</span></li><li>Un <strong>plano</strong> es una superficie plana que se extiende indefinidamente en todas las direcciones y no tiene grosor. Puede nombrarse mediante una letra griega o mediante tres puntos no colineales.</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Los puntos, las rectas y los planos se consideran conceptos primitivos de la geometría. Esto significa que se describen mediante sus propiedades y relaciones, pero no se definen a partir de objetos geométricos más sencillos.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>A partir de una recta pueden distinguirse los siguientes objetos:</p>
+<ul><li>El <strong>segmento</strong> \(\overline{AB}\) es la parte de una recta comprendida entre los puntos \(A\) y \(B\), incluidos ambos extremos.</li><li>La <strong>semirrecta</strong> \(\overrightarrow{AB}\) tiene como origen el punto \(A\), pasa por el punto \(B\) y se extiende indefinidamente en esa dirección.</li><li>La <strong>recta</strong> \(\overleftrightarrow{AB}\) pasa por \(A\) y \(B\) y se extiende indefinidamente en ambas direcciones.</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Los términos <strong>semirrecta</strong> y <strong>rayo</strong> se utilizan con frecuencia como sinónimos. En ambos casos existe un punto de origen y una dirección determinada.</p>
+<p>El orden de las letras es importante. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\overrightarrow{AB}\]</span></div>
+<p>tiene su origen en \(A\) y pasa por \(B\), mientras que:</p>
+<div class="mate"><span class="mate-bloque">\[\overrightarrow{BA}\]</span></div>
+<p>tiene su origen en \(B\) y pasa por \(A\).</p></div></section>
+<p>Las diferencias entre un segmento, una semirrecta y una recta pueden observarse en las siguientes representaciones:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-92f03c1248c0.svg" alt="Figura 19.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="angulos"><span class="num">19.2</span> Ángulos<a class="enlace-seccion" href="#angulos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>ángulo</strong> es la figura formada por dos semirrectas que tienen el mismo punto de origen. Las semirrectas son los <strong>lados</strong> del ángulo y el origen común es su <strong>vértice</strong>.</p>
+<p>Un ángulo puede denotarse mediante:</p>
+<div class="mate"><span class="mate-bloque">\[\angle ABC,\]</span></div>
+<p>donde \(B\) es el vértice, o mediante una letra griega, como \(\alpha\), \(\beta\) o \(\theta\).</p></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En la notación de tres letras, la letra correspondiente al vértice siempre se escribe en la posición central.</p>
+<p>Por ejemplo, en:</p>
+<div class="mate"><span class="mate-bloque">\[\angle ABC,\]</span></div>
+<p>el vértice es \(B\), no \(A\) ni \(C\).</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Clasificación de los ángulos por su medida</div><div class="caja-cuerpo"><p>Sea \(\theta\) la medida de un ángulo.</p>
+<ul><li>Es un <strong>ángulo nulo</strong> si: <span class="mate-bloque">\[\theta=0^\circ.\]</span></li><li>Es un <strong>ángulo agudo</strong> si: <span class="mate-bloque">\[0^\circ&lt;\theta&lt;90^\circ.\]</span></li><li>Es un <strong>ángulo recto</strong> si: <span class="mate-bloque">\[\theta=90^\circ.\]</span></li><li>Es un <strong>ángulo obtuso</strong> si: <span class="mate-bloque">\[90^\circ&lt;\theta&lt;180^\circ.\]</span></li><li>Es un <strong>ángulo llano</strong> si: <span class="mate-bloque">\[\theta=180^\circ.\]</span></li><li>Es un <strong>ángulo cóncavo</strong> o <strong>reflejo</strong> si: <span class="mate-bloque">\[180^\circ&lt;\theta&lt;360^\circ.\]</span></li><li>Es un <strong>ángulo completo</strong> si: <span class="mate-bloque">\[\theta=360^\circ.\]</span></li></ul></div></section>
+<p>Los ángulos agudo, recto, obtuso y llano pueden compararse mediante figuras construidas con la misma escala:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-1468bd5aabaf.svg" alt="Figura 19.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="relaciones-entre-angulos"><span class="num">19.3</span> Relaciones entre ángulos<a class="enlace-seccion" href="#relaciones-entre-angulos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Dos ángulos son <strong>complementarios</strong> si la suma de sus medidas es:</p>
+<div class="mate"><span class="mate-bloque">\[90^\circ.\]</span></div>
+<p>Dos ángulos son <strong>suplementarios</strong> si la suma de sus medidas es:</p>
+<div class="mate"><span class="mate-bloque">\[180^\circ.\]</span></div></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Dos ángulos son <strong>opuestos por el vértice</strong> si se forman al intersecarse dos rectas y no comparten lado. Los ángulos opuestos por el vértice tienen la misma medida.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Dos ángulos son <strong>adyacentes</strong> si comparten el mismo vértice y un lado común, mientras que sus interiores no se superponen.</p>
+<p>Si, además, sus lados no comunes son semirrectas opuestas, forman un <strong>par lineal</strong> y sus medidas suman:</p>
+<div class="mate"><span class="mate-bloque">\[180^\circ.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>No todos los ángulos adyacentes son necesariamente suplementarios. Solo forman un par suplementario cuando sus lados no comunes son semirrectas opuestas.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-19-1"><div class="caja-titulo">Ejemplo 19.1</div><div class="caja-cuerpo"><p>Dos ángulos son complementarios y uno de ellos mide \(35^\circ\). ¿Cuánto mide el otro?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como los ángulos complementarios suman \(90^\circ\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 90^\circ-35^\circ &amp;=55^\circ. \end{aligned}\]</span></div>
+<p>El otro ángulo mide:</p>
+<div class="mate"><span class="mate-bloque">\[55^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-19-2"><div class="caja-titulo">Ejemplo 19.2</div><div class="caja-cuerpo"><p>Dos ángulos son suplementarios y uno de ellos mide \(125^\circ\). ¿Cuánto mide el otro?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como los ángulos suplementarios suman \(180^\circ\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 180^\circ-125^\circ &amp;=55^\circ. \end{aligned}\]</span></div>
+<p>El otro ángulo mide:</p>
+<div class="mate"><span class="mate-bloque">\[55^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-19-3"><div class="caja-titulo">Ejemplo 19.3</div><div class="caja-cuerpo"><p>Dos ángulos opuestos por el vértice miden:</p>
+<div class="mate"><span class="mate-bloque">\[3x-10 \qquad\text{y}\qquad x+30.\]</span></div>
+<p>Encuentra el valor de \(x\) y la medida de cada ángulo.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como los ángulos opuestos por el vértice tienen la misma medida:</p>
+<div class="mate"><span class="mate-bloque">\[3x-10=x+30.\]</span></div>
+<p>Resolvemos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3x-x &amp;=30+10,\\ 2x &amp;=40,\\ x &amp;=20. \end{aligned}\]</span></div>
+<p>Sustituimos este valor:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 3(20)-10 &amp;=60-10\\ &amp;=50. \end{aligned}\]</span></div>
+<p>Cada ángulo mide:</p>
+<div class="mate"><span class="mate-bloque">\[50^\circ.\]</span></div></div></details></div></section>
+<h2 id="rectas-paralelas-perpendiculares-y-oblicuas"><span class="num">19.4</span> Rectas paralelas, perpendiculares y oblicuas<a class="enlace-seccion" href="#rectas-paralelas-perpendiculares-y-oblicuas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Dos rectas coplanares pueden relacionarse de las siguientes maneras:</p>
+<ul><li>Son <strong>paralelas</strong> si no tienen ningún punto en común. Se escribe: <span class="mate-bloque">\[r\parallel s.\]</span></li><li>Son <strong>perpendiculares</strong> si se intersecan formando cuatro ángulos rectos. Se escribe: <span class="mate-bloque">\[r\perp s.\]</span></li><li>Son <strong>oblicuas</strong> si se intersecan, pero no forman ángulos rectos.</li></ul></div></section>
+<p>Las tres relaciones pueden compararse mediante representaciones de la misma escala:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-bbb2719d7aa4.svg" alt="Figura 19.3" loading="lazy" decoding="async"></figure></div>
+<h2 id="paralelas-cortadas-por-una-transversal"><span class="num">19.5</span> Paralelas cortadas por una transversal<a class="enlace-seccion" href="#paralelas-cortadas-por-una-transversal" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>recta transversal</strong> es una recta que interseca a otras dos o más rectas en puntos distintos.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Relaciones angulares entre paralelas</div><div class="caja-cuerpo"><p>Si dos rectas paralelas son cortadas por una transversal, se cumplen las siguientes propiedades:</p>
+<ul><li>los ángulos correspondientes tienen la misma medida;</li><li>los ángulos alternos internos tienen la misma medida;</li><li>los ángulos alternos externos tienen la misma medida;</li><li>los ángulos colaterales internos, también llamados consecutivos internos, son suplementarios.</li></ul></div></section>
+<p>La posición de los ocho ángulos formados puede visualizarse en la siguiente figura:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-644136ef7618.svg" alt="Figura 19.4" loading="lazy" decoding="async"></figure></div>
+<p>En esta numeración se tienen, por ejemplo, las siguientes relaciones:</p>
+<ul><li>\(\angle 1\) y \(\angle 5\) son correspondientes;</li><li>\(\angle 4\) y \(\angle 6\) son alternos internos;</li><li>\(\angle 1\) y \(\angle 7\) son alternos externos;</li><li>\(\angle 4\) y \(\angle 5\) son colaterales internos.</li></ul>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} m\angle 1 &amp;=m\angle 5,\\ m\angle 4 &amp;=m\angle 6,\\ m\angle 1 &amp;=m\angle 7,\\ m\angle 4+m\angle 5 &amp;=180^\circ. \end{aligned}\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-19-4"><div class="caja-titulo">Ejemplo 19.4</div><div class="caja-cuerpo"><p>Dos rectas paralelas son cortadas por una transversal. Si uno de los ángulos mide \(65^\circ\), determina la medida de un ángulo correspondiente, un ángulo alterno interno y un ángulo colateral interno.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los ángulos correspondientes tienen la misma medida. Por tanto, el ángulo correspondiente mide:</p>
+<div class="mate"><span class="mate-bloque">\[65^\circ.\]</span></div>
+<p>Los ángulos alternos internos también son iguales. Por tanto, el ángulo alterno interno mide:</p>
+<div class="mate"><span class="mate-bloque">\[65^\circ.\]</span></div>
+<p>Los ángulos colaterales internos son suplementarios. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 180^\circ-65^\circ &amp;=115^\circ. \end{aligned}\]</span></div>
+<p>El ángulo colateral interno mide:</p>
+<div class="mate"><span class="mate-bloque">\[115^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-19-5"><div class="caja-titulo">Ejemplo 19.5</div><div class="caja-cuerpo"><p>En dos rectas paralelas cortadas por una transversal, un ángulo mide:</p>
+<div class="mate"><span class="mate-bloque">\[2x+10\]</span></div>
+<p>y su colateral interno mide:</p>
+<div class="mate"><span class="mate-bloque">\[3x+20.\]</span></div>
+<p>Encuentra el valor de \(x\) y las medidas de ambos ángulos.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como los ángulos colaterales internos son suplementarios:</p>
+<div class="mate"><span class="mate-bloque">\[(2x+10)+(3x+20)=180.\]</span></div>
+<p>Resolvemos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 5x+30 &amp;=180,\\ 5x &amp;=150,\\ x &amp;=30. \end{aligned}\]</span></div>
+<p>Calculamos las medidas:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 2(30)+10 &amp;=70^\circ,\\ 3(30)+20 &amp;=110^\circ. \end{aligned}\]</span></div>
+<p>Comprobamos:</p>
+<div class="mate"><span class="mate-bloque">\[70^\circ+110^\circ=180^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Las relaciones de igualdad entre ángulos correspondientes, alternos internos y alternos externos dependen de que las rectas sean paralelas.</p>
+<p>Si las rectas no son paralelas, estas propiedades no deben aplicarse automáticamente.</p></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">19.6</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-19-1"><div class="caja-titulo">Ejercicio 19.1</div><div class="caja-cuerpo"><p>Clasifica cada ángulo según su medida:</p>
+<div class="mate"><span class="mate-bloque">\[45^\circ, \qquad 90^\circ, \qquad 120^\circ, \qquad 180^\circ, \qquad 270^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(45^\circ\) es agudo, \(90^\circ\) es recto, \(120^\circ\) es obtuso, \(180^\circ\) es llano y \(270^\circ\) es cóncavo (o reflejo).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-19-2"><div class="caja-titulo">Ejercicio 19.2</div><div class="caja-cuerpo"><p>Encuentra el complemento y el suplemento de un ángulo de:</p>
+<div class="mate"><span class="mate-bloque">\[42^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El complemento es \(90^\circ - 42^\circ = 48^\circ\). El suplemento es \(180^\circ - 42^\circ = 138^\circ\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-19-3"><div class="caja-titulo">Ejercicio 19.3</div><div class="caja-cuerpo"><p>Dos ángulos son suplementarios. Si sus medidas son:</p>
+<div class="mate"><span class="mate-bloque">\[4x+10 \qquad\text{y}\qquad 2x+20,\]</span></div>
+<p>encuentra el valor de \(x\) y la medida de cada ángulo.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los ángulos suplementarios suman \(180^\circ\): <span class="mate-bloque">\[(4x+10) + (2x+20) = 180 \implies 6x + 30 = 180 \implies 6x = 150 \implies x = 25.\]</span> Los ángulos miden \(4(25)+10 = 110^\circ\) y \(2(25)+20 = 70^\circ\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-19-4"><div class="caja-titulo">Ejercicio 19.4</div><div class="caja-cuerpo"><p>Dos ángulos opuestos por el vértice miden:</p>
+<div class="mate"><span class="mate-bloque">\[5x-15 \qquad\text{y}\qquad 3x+25.\]</span></div>
+<p>Encuentra el valor de \(x\) y la medida de cada ángulo.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los ángulos opuestos por el vértice son iguales: <span class="mate-bloque">\[5x-15 = 3x+25 \implies 2x = 40 \implies x = 20.\]</span> Cada ángulo mide \(5(20)-15 = 85^\circ\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-19-5"><div class="caja-titulo">Ejercicio 19.5</div><div class="caja-cuerpo"><p>Dos rectas paralelas son cortadas por una transversal. Si uno de los ángulos mide \(72^\circ\), determina las medidas de:</p>
+<ul><li>un ángulo correspondiente;</li><li>un ángulo alterno interno;</li><li>un ángulo colateral interno.</li></ul><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><ul><li>Ángulo correspondiente: mide \(72^\circ\).</li><li>Ángulo alterno interno: mide \(72^\circ\).</li><li>Ángulo colateral interno: mide \(180^\circ - 72^\circ = 108^\circ\).</li></ul></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-19-6"><div class="caja-titulo">Ejercicio 19.6</div><div class="caja-cuerpo"><p>En dos rectas paralelas cortadas por una transversal, un ángulo mide:</p>
+<div class="mate"><span class="mate-bloque">\[3x-5\]</span></div>
+<p>y su correspondiente mide:</p>
+<div class="mate"><span class="mate-bloque">\[2x+15.\]</span></div>
+<p>Encuentra el valor de \(x\) y la medida de ambos ángulos.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los ángulos correspondientes entre paralelas son iguales: <span class="mate-bloque">\[3x-5 = 2x+15 \implies x = 20.\]</span> Ambos ángulos miden \(3(20)-5 = 55^\circ\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-19-7"><div class="caja-titulo">Ejercicio 19.7</div><div class="caja-cuerpo"><p>Clasifica cada pareja de rectas como paralelas, perpendiculares u oblicuas:</p>
+<ol><li>Dos rectas que se intersecan formando un ángulo de \(90^\circ\).</li><li>Dos rectas coplanares que no tienen puntos en común.</li><li>Dos rectas que se intersecan formando un ángulo de \(45^\circ\).</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><ol><li>Perpendiculares.</li><li>Paralelas.</li><li>Oblicuas.</li></ol></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="18-exponenciales-logaritmicas.html"><span>← Anterior</span>18. Funciones exponenciales y logarítmicas</a><a class="nav-siguiente" href="20-triangulos.html"><span>Siguiente →</span>20. Triángulos</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

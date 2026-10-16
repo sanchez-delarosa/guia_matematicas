@@ -1,0 +1,5534 @@
+{
+  "metadata": {
+    "titulo": "Banco de reactivos mockup de matemáticas",
+    "descripcion": "Reactivos originales inspirados en estilo de opción múltiple. No son reactivos oficiales ni reproducciones textuales.",
+    "version": "1.0",
+    "total_temas": 17,
+    "total_subtemas": 92,
+    "reactivos_por_subtema": 3,
+    "total_reactivos": 276,
+    "idioma": "es-MX"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-0001",
+      "pregunta": "La temperatura cambia de -7 °C a 12 °C. ¿Cuál es la diferencia?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.1.1",
+        "nombre": "Suma y resta de números reales"
+      },
+      "respuestas_posibles": {
+        "A": "5 °C",
+        "B": "19 °C",
+        "C": "-19 °C",
+        "D": "-5 °C"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0002",
+      "pregunta": "Calcula: -8.4 + 3.7 - 1.6.",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.1.1",
+        "nombre": "Suma y resta de números reales"
+      },
+      "respuestas_posibles": {
+        "A": "-6.3",
+        "B": "-3.1",
+        "C": "6.3",
+        "D": "-13.7"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0003",
+      "pregunta": "Un saldo de -$125 recibe un depósito de $80. ¿Cuál es el nuevo saldo?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.1.1",
+        "nombre": "Suma y resta de números reales"
+      },
+      "respuestas_posibles": {
+        "A": "-$205",
+        "B": "-$45",
+        "C": "$45",
+        "D": "$205"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0004",
+      "pregunta": "Calcula: (3/5) ÷ (-9/10).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.1.2",
+        "nombre": "Multiplicación y división de números reales"
+      },
+      "respuestas_posibles": {
+        "A": "-2/3",
+        "B": "2/3",
+        "C": "-3/2",
+        "D": "3/2"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0005",
+      "pregunta": "Un vehículo recorre 72 km con 8 L. ¿Cuál es su rendimiento?",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.1.2",
+        "nombre": "Multiplicación y división de números reales"
+      },
+      "respuestas_posibles": {
+        "A": "8 km/L",
+        "B": "9 km/L",
+        "C": "10 km/L",
+        "D": "12 km/L"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0006",
+      "pregunta": "Calcula: 4[2^(-1)+3/2].",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.1.2",
+        "nombre": "Multiplicación y división de números reales"
+      },
+      "respuestas_posibles": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0007",
+      "pregunta": "Calcula: 27^(2/3).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.1.3",
+        "nombre": "Raíces y potencias con exponente racional"
+      },
+      "respuestas_posibles": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "18"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0008",
+      "pregunta": "Simplifica: √(144/25).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.1.3",
+        "nombre": "Raíces y potencias con exponente racional"
+      },
+      "respuestas_posibles": {
+        "A": "12/5",
+        "B": "5/12",
+        "C": "24/5",
+        "D": "6/5"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0009",
+      "pregunta": "El valor de 16^(-3/4) es:",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.1.3",
+        "nombre": "Raíces y potencias con exponente racional"
+      },
+      "respuestas_posibles": {
+        "A": "1/4",
+        "B": "1/8",
+        "C": "1/16",
+        "D": "8"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0010",
+      "pregunta": "Calcula: (3-2i)+(5+7i).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.2.1",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "8+5i",
+        "B": "2+9i",
+        "C": "8+9i",
+        "D": "2+5i"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0011",
+      "pregunta": "Calcula: (4+6i)-(1-3i).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.2.1",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "3+3i",
+        "B": "3+9i",
+        "C": "5+3i",
+        "D": "5+9i"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0012",
+      "pregunta": "Simplifica: 2i-(3-5i)+4.",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.2.1",
+        "nombre": "Suma y resta de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "1+7i",
+        "B": "7+i",
+        "C": "1-3i",
+        "D": "-7+7i"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0013",
+      "pregunta": "Calcula: (2+3i)(1-2i).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.2.2",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "8-i",
+        "B": "-4-i",
+        "C": "8+i",
+        "D": "-4+i"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0014",
+      "pregunta": "Calcula: (4-i)(4+i).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.2.2",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "15",
+        "B": "16",
+        "C": "17",
+        "D": "8"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0015",
+      "pregunta": "El producto i(3-5i) es:",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.2.2",
+        "nombre": "Multiplicación de números complejos"
+      },
+      "respuestas_posibles": {
+        "A": "-5+3i",
+        "B": "5+3i",
+        "C": "3-5i",
+        "D": "-3+5i"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0016",
+      "pregunta": "Simplifica: (4x²-3x+2)+(x²+5x-7).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.1",
+        "nombre": "Suma y resta de expresiones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "5x²+2x-5",
+        "B": "3x²+2x-5",
+        "C": "5x²-8x+9",
+        "D": "5x²+8x-5"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0017",
+      "pregunta": "Simplifica: (6a-2b)-(3a+5b).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.1",
+        "nombre": "Suma y resta de expresiones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "3a+3b",
+        "B": "9a-7b",
+        "C": "3a-7b",
+        "D": "3a+7b"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0018",
+      "pregunta": "Reduce: 2m²-3m+4-m²+8m-1.",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.1",
+        "nombre": "Suma y resta de expresiones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "m²+5m+3",
+        "B": "3m²+5m+3",
+        "C": "m²-11m+5",
+        "D": "m²+5m+5"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0019",
+      "pregunta": "Desarrolla: (2x-3)(x+4).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.2",
+        "nombre": "Multiplicación y división de expresiones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "2x²+5x-12",
+        "B": "2x²+11x-12",
+        "C": "2x²-5x+12",
+        "D": "2x²+8x-3"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0020",
+      "pregunta": "Simplifica: (12x³y²)/(3xy).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.2",
+        "nombre": "Multiplicación y división de expresiones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "4x²y",
+        "B": "4x³y",
+        "C": "9x²y",
+        "D": "4x²y²"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0021",
+      "pregunta": "El cociente (x²-9)/(x-3), con x≠3, es:",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.2",
+        "nombre": "Multiplicación y división de expresiones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "x-3",
+        "B": "x+3",
+        "C": "x²+3",
+        "D": "1"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0022",
+      "pregunta": "Simplifica: (8x^6)^(1/3).",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.3",
+        "nombre": "Raíces y potencias con exponente racional en expresiones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "2x²",
+        "B": "4x²",
+        "C": "2x³",
+        "D": "8x²"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0023",
+      "pregunta": "Simplifica: (a^8)^(3/4), suponiendo a>0.",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.3",
+        "nombre": "Raíces y potencias con exponente racional en expresiones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "a^6",
+        "B": "a^5",
+        "C": "a^11",
+        "D": "a^2"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0024",
+      "pregunta": "La expresión x^(5/2)/x^(1/2), con x>0, es:",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.3",
+        "nombre": "Raíces y potencias con exponente racional en expresiones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "x",
+        "B": "x²",
+        "C": "x³",
+        "D": "x^(5/4)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0025",
+      "pregunta": "Simplifica: 2√12+√27.",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.4",
+        "nombre": "Operaciones con radicales"
+      },
+      "respuestas_posibles": {
+        "A": "5√3",
+        "B": "7√3",
+        "C": "6√3",
+        "D": "3√39"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0026",
+      "pregunta": "Racionaliza: 5/√5.",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.4",
+        "nombre": "Operaciones con radicales"
+      },
+      "respuestas_posibles": {
+        "A": "√5",
+        "B": "5√5",
+        "C": "1/√5",
+        "D": "25"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0027",
+      "pregunta": "Calcula: √8·√18.",
+      "tema": {
+        "codigo": "1",
+        "nombre": "Operaciones con números reales, complejos y expresiones algebraicas"
+      },
+      "subtema": {
+        "codigo": "1.3.4",
+        "nombre": "Operaciones con radicales"
+      },
+      "respuestas_posibles": {
+        "A": "6",
+        "B": "12",
+        "C": "12√2",
+        "D": "24"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0028",
+      "pregunta": "El término central de (x+2)^2 es:",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "2x",
+        "B": "4x",
+        "C": "4",
+        "D": "x²"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0029",
+      "pregunta": "Desarrolla: (a-b)^3.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "a³-3a²b+3ab²-b³",
+        "B": "a³-3ab-b³",
+        "C": "a³+3a²b+3ab²+b³",
+        "D": "a³-b³"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0030",
+      "pregunta": "El coeficiente de x² en (x+1)^4 es:",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0031",
+      "pregunta": "Si P(x)=x³-2x²-5x+6, ¿cuál es el residuo al dividir entre x-1?",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Teorema del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "6"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0032",
+      "pregunta": "¿Cuál es factor de P(x)=x³+x²-4x-4?",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Teorema del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "x-1",
+        "B": "x+1",
+        "C": "x-2",
+        "D": "x+4"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0033",
+      "pregunta": "Si al dividir P(x) entre x+3 el residuo es 5, entonces:",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Teorema del residuo y del factor"
+      },
+      "respuestas_posibles": {
+        "A": "P(3)=5",
+        "B": "P(-3)=5",
+        "C": "P(5)=-3",
+        "D": "P(-5)=3"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0034",
+      "pregunta": "Simplifica: (x²-4)/(x+2), x≠-2.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Simplificación de fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "x+2",
+        "B": "x-2",
+        "C": "x²-2",
+        "D": "1"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0035",
+      "pregunta": "Simplifica: (a²-2a)/a, a≠0.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Simplificación de fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "a-2",
+        "B": "a²-2",
+        "C": "a+2",
+        "D": "1-2a"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0036",
+      "pregunta": "Simplifica: (y²+5y+6)/(y+2), y≠-2.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Simplificación de fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "y+2",
+        "B": "y+3",
+        "C": "y-3",
+        "D": "y²+3"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0037",
+      "pregunta": "Calcula: 1/x+2/x.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Operaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "3/x",
+        "B": "3/(2x)",
+        "C": "2/x²",
+        "D": "3x"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0038",
+      "pregunta": "Calcula: 1/a-1/b.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Operaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "(a-b)/(ab)",
+        "B": "(b-a)/(ab)",
+        "C": "1/(a-b)",
+        "D": "(a+b)/(ab)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0039",
+      "pregunta": "Multiplica: [x/(x+1)]·[(x+1)/3].",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Productos notables y factorización"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Operaciones con fracciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "x/3",
+        "B": "(x+1)/3",
+        "C": "x(x+1)/3",
+        "D": "3x"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0040",
+      "pregunta": "¿Cuál expresión es una identidad?",
+      "tema": {
+        "codigo": "3",
+        "nombre": "Ecuaciones"
+      },
+      "subtema": {
+        "codigo": "3.1",
+        "nombre": "Ecuación, identidad y propiedades de la igualdad"
+      },
+      "respuestas_posibles": {
+        "A": "2x+1=7",
+        "B": "(x+1)²=x²+2x+1",
+        "C": "x-3>0",
+        "D": "x²=9"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0041",
+      "pregunta": "¿Cuál expresión es una ecuación?",
+      "tema": {
+        "codigo": "3",
+        "nombre": "Ecuaciones"
+      },
+      "subtema": {
+        "codigo": "3.1",
+        "nombre": "Ecuación, identidad y propiedades de la igualdad"
+      },
+      "respuestas_posibles": {
+        "A": "3x-5=10",
+        "B": "x+2<7",
+        "C": "2(x+1)=2x+2 para todo x",
+        "D": "x≥0"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0042",
+      "pregunta": "Si a=b, ¿cuál operación conserva la igualdad?",
+      "tema": {
+        "codigo": "3",
+        "nombre": "Ecuaciones"
+      },
+      "subtema": {
+        "codigo": "3.1",
+        "nombre": "Ecuación, identidad y propiedades de la igualdad"
+      },
+      "respuestas_posibles": {
+        "A": "Sumar el mismo número a ambos miembros",
+        "B": "Sumar números distintos",
+        "C": "Multiplicar un miembro por cero solamente",
+        "D": "Cambiar un signo en un miembro"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0043",
+      "pregunta": "Resuelve: 4x-7=13.",
+      "tema": {
+        "codigo": "3",
+        "nombre": "Ecuaciones"
+      },
+      "subtema": {
+        "codigo": "3.2",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "x=3",
+        "B": "x=4",
+        "C": "x=5",
+        "D": "x=6"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0044",
+      "pregunta": "Resuelve: x/3+2=5.",
+      "tema": {
+        "codigo": "3",
+        "nombre": "Ecuaciones"
+      },
+      "subtema": {
+        "codigo": "3.2",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "x=1",
+        "B": "x=7",
+        "C": "x=9",
+        "D": "x=15"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0045",
+      "pregunta": "Resuelve: 2(x-3)=x+5.",
+      "tema": {
+        "codigo": "3",
+        "nombre": "Ecuaciones"
+      },
+      "subtema": {
+        "codigo": "3.2",
+        "nombre": "Ecuaciones de primer grado"
+      },
+      "respuestas_posibles": {
+        "A": "x=8",
+        "B": "x=11",
+        "C": "x=-1",
+        "D": "x=5"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0046",
+      "pregunta": "Resuelve: x²-5x+6=0.",
+      "tema": {
+        "codigo": "3",
+        "nombre": "Ecuaciones"
+      },
+      "subtema": {
+        "codigo": "3.3",
+        "nombre": "Ecuaciones de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "x=1,6",
+        "B": "x=2,3",
+        "C": "x=-2,-3",
+        "D": "x=-1,6"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0047",
+      "pregunta": "Las raíces de 2x²-8=0 son:",
+      "tema": {
+        "codigo": "3",
+        "nombre": "Ecuaciones"
+      },
+      "subtema": {
+        "codigo": "3.3",
+        "nombre": "Ecuaciones de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "±2",
+        "B": "±4",
+        "C": "2 y 4",
+        "D": "-2 y 4"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0048",
+      "pregunta": "El discriminante de x²+4x+5=0 es:",
+      "tema": {
+        "codigo": "3",
+        "nombre": "Ecuaciones"
+      },
+      "subtema": {
+        "codigo": "3.3",
+        "nombre": "Ecuaciones de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "4",
+        "B": "-4",
+        "C": "16",
+        "D": "36"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0049",
+      "pregunta": "Resuelve: 3x-4≤8.",
+      "tema": {
+        "codigo": "4",
+        "nombre": "Desigualdades"
+      },
+      "subtema": {
+        "codigo": "4.1",
+        "nombre": "Desigualdad de primer grado en una variable y sus propiedades"
+      },
+      "respuestas_posibles": {
+        "A": "x≤4",
+        "B": "x≥4",
+        "C": "x<12",
+        "D": "x≥12"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0050",
+      "pregunta": "Resuelve: -2x>6.",
+      "tema": {
+        "codigo": "4",
+        "nombre": "Desigualdades"
+      },
+      "subtema": {
+        "codigo": "4.1",
+        "nombre": "Desigualdad de primer grado en una variable y sus propiedades"
+      },
+      "respuestas_posibles": {
+        "A": "x> -3",
+        "B": "x< -3",
+        "C": "x>3",
+        "D": "x<3"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0051",
+      "pregunta": "El intervalo solución de 5≤x+2<9 es:",
+      "tema": {
+        "codigo": "4",
+        "nombre": "Desigualdades"
+      },
+      "subtema": {
+        "codigo": "4.1",
+        "nombre": "Desigualdad de primer grado en una variable y sus propiedades"
+      },
+      "respuestas_posibles": {
+        "A": "[3,7)",
+        "B": "(3,7]",
+        "C": "[-3,11)",
+        "D": "[7,11)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0052",
+      "pregunta": "Resuelve: x+y=7, x-y=1.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Sistemas de ecuaciones"
+      },
+      "subtema": {
+        "codigo": "5.1.1",
+        "nombre": "Métodos de solución de sistemas de dos ecuaciones lineales con dos incógnitas"
+      },
+      "respuestas_posibles": {
+        "A": "x=3,y=4",
+        "B": "x=4,y=3",
+        "C": "x=6,y=1",
+        "D": "x=5,y=2"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0053",
+      "pregunta": "Resuelve: 2x+y=8, x-y=1.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Sistemas de ecuaciones"
+      },
+      "subtema": {
+        "codigo": "5.1.1",
+        "nombre": "Métodos de solución de sistemas de dos ecuaciones lineales con dos incógnitas"
+      },
+      "respuestas_posibles": {
+        "A": "x=2,y=4",
+        "B": "x=3,y=2",
+        "C": "x=4,y=0",
+        "D": "x=1,y=6"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0054",
+      "pregunta": "Dos boletos y tres snacks cuestan $190; un boleto y un snack cuestan $70. ¿Precio del boleto?",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Sistemas de ecuaciones"
+      },
+      "subtema": {
+        "codigo": "5.1.1",
+        "nombre": "Métodos de solución de sistemas de dos ecuaciones lineales con dos incógnitas"
+      },
+      "respuestas_posibles": {
+        "A": "$20",
+        "B": "$40",
+        "C": "$50",
+        "D": "$60"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0055",
+      "pregunta": "Resuelve: x+y+z=6, x-y=0, z=2.",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Sistemas de ecuaciones"
+      },
+      "subtema": {
+        "codigo": "5.2.1",
+        "nombre": "Métodos de solución de sistemas de tres ecuaciones lineales con tres incógnitas"
+      },
+      "respuestas_posibles": {
+        "A": "(2,2,2)",
+        "B": "(1,1,4)",
+        "C": "(3,3,0)",
+        "D": "(2,1,3)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0056",
+      "pregunta": "En el sistema x+y+z=4, x+y-z=0, x-y=0, el valor de z es:",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Sistemas de ecuaciones"
+      },
+      "subtema": {
+        "codigo": "5.2.1",
+        "nombre": "Métodos de solución de sistemas de tres ecuaciones lineales con tres incógnitas"
+      },
+      "respuestas_posibles": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0057",
+      "pregunta": "El determinante principal del sistema x+y+z=1, 2x-y+z=2, x+2y-z=3 es:",
+      "tema": {
+        "codigo": "5",
+        "nombre": "Sistemas de ecuaciones"
+      },
+      "subtema": {
+        "codigo": "5.2.1",
+        "nombre": "Métodos de solución de sistemas de tres ecuaciones lineales con tres incógnitas"
+      },
+      "respuestas_posibles": {
+        "A": "-5",
+        "B": "5",
+        "C": "0",
+        "D": "3"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0058",
+      "pregunta": "El dominio de f(x)=1/(x-4) es:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Dominio, contradominio y regla de correspondencia"
+      },
+      "respuestas_posibles": {
+        "A": "R",
+        "B": "R\\{4}",
+        "C": "(4,∞)",
+        "D": "[-4,4]"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0059",
+      "pregunta": "Si f:{1,2,3}→R y f(x)=2x, el dominio es:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Dominio, contradominio y regla de correspondencia"
+      },
+      "respuestas_posibles": {
+        "A": "{2,4,6}",
+        "B": "R",
+        "C": "{1,2,3}",
+        "D": "{1,2,3,4,6}"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0060",
+      "pregunta": "El dominio de f(x)=√(x+5) es:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.1",
+        "nombre": "Dominio, contradominio y regla de correspondencia"
+      },
+      "respuestas_posibles": {
+        "A": "x>-5",
+        "B": "x≥-5",
+        "C": "x≤-5",
+        "D": "R\\{-5}"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0061",
+      "pregunta": "El rango de f(x)=x²+2 es:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Rango o imagen"
+      },
+      "respuestas_posibles": {
+        "A": "[0,∞)",
+        "B": "[2,∞)",
+        "C": "(-∞,2]",
+        "D": "R"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0062",
+      "pregunta": "El rango de f(x)=-x²+4 es:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Rango o imagen"
+      },
+      "respuestas_posibles": {
+        "A": "[4,∞)",
+        "B": "(-∞,4]",
+        "C": "[0,4]",
+        "D": "R"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0063",
+      "pregunta": "Si f(x)=3 para todo x, su rango es:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.2",
+        "nombre": "Rango o imagen"
+      },
+      "respuestas_posibles": {
+        "A": "R",
+        "B": "{0,3}",
+        "C": "{3}",
+        "D": "[3,∞)"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0064",
+      "pregunta": "¿Qué gráfica corresponde a y=2x+1?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Gráfica"
+      },
+      "respuestas_posibles": {
+        "A": "Recta creciente con ordenada 1",
+        "B": "Recta decreciente con ordenada 1",
+        "C": "Parábola con vértice 1",
+        "D": "Recta horizontal y=1"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0065",
+      "pregunta": "La gráfica de y=|x-2| tiene vértice en:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Gráfica"
+      },
+      "respuestas_posibles": {
+        "A": "(0,2)",
+        "B": "(2,0)",
+        "C": "(-2,0)",
+        "D": "(0,-2)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0066",
+      "pregunta": "La gráfica de y=-(x+1)²+3 abre:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.3",
+        "nombre": "Gráfica"
+      },
+      "respuestas_posibles": {
+        "A": "A la derecha",
+        "B": "A la izquierda",
+        "C": "Hacia arriba",
+        "D": "Hacia abajo"
+      },
+      "respuesta_correcta": "D",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0067",
+      "pregunta": "¿Cuál relación está escrita en forma implícita?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Funciones implícitas y explícitas"
+      },
+      "respuestas_posibles": {
+        "A": "y=2x+3",
+        "B": "y=√x",
+        "C": "x²+xy+y²=7",
+        "D": "y=1/x"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0068",
+      "pregunta": "Despeja y de 3x+2y=8.",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Funciones implícitas y explícitas"
+      },
+      "respuestas_posibles": {
+        "A": "y=(8-3x)/2",
+        "B": "y=8-3x/2",
+        "C": "y=(3x-8)/2",
+        "D": "y=4+3x/2"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0069",
+      "pregunta": "La ecuación x²+y²=9 define y explícitamente como:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.4",
+        "nombre": "Funciones implícitas y explícitas"
+      },
+      "respuestas_posibles": {
+        "A": "y=9-x²",
+        "B": "y=±√(9-x²)",
+        "C": "y=x²-9",
+        "D": "y=√(x²-9)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0070",
+      "pregunta": "¿Cuál función es creciente en todo R?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Funciones crecientes y decrecientes"
+      },
+      "respuestas_posibles": {
+        "A": "f(x)=-2x",
+        "B": "f(x)=x³",
+        "C": "f(x)=1/x",
+        "D": "f(x)=-x²"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0071",
+      "pregunta": "La función f(x)=-3x+1 es:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Funciones crecientes y decrecientes"
+      },
+      "respuestas_posibles": {
+        "A": "Creciente",
+        "B": "Decreciente",
+        "C": "Constante",
+        "D": "Periódica"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0072",
+      "pregunta": "En el intervalo (0,∞), f(x)=x² es:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.5",
+        "nombre": "Funciones crecientes y decrecientes"
+      },
+      "respuestas_posibles": {
+        "A": "Decreciente",
+        "B": "Constante",
+        "C": "Creciente",
+        "D": "Discontinua"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0073",
+      "pregunta": "¿En qué punto es discontinua f(x)=1/(x-2)?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Funciones continuas y discontinuas"
+      },
+      "respuestas_posibles": {
+        "A": "x=-2",
+        "B": "x=0",
+        "C": "x=1",
+        "D": "x=2"
+      },
+      "respuesta_correcta": "D",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0074",
+      "pregunta": "Para que f(x)={(x+1 si x<1),(k si x=1),(3x-1 si x>1)} sea continua en x=1, k debe ser:",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Funciones continuas y discontinuas"
+      },
+      "respuestas_posibles": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0075",
+      "pregunta": "¿Cuál función es continua en todo R?",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.6",
+        "nombre": "Funciones continuas y discontinuas"
+      },
+      "respuestas_posibles": {
+        "A": "1/x",
+        "B": "√x",
+        "C": "x²-3x+1",
+        "D": "tan x"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0076",
+      "pregunta": "Si f(x)=x+1 y g(x)=2x, entonces (f+g)(x)=",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Álgebra de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "3x+1",
+        "B": "2x²+2x",
+        "C": "x+3",
+        "D": "3x"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0077",
+      "pregunta": "Si f(x)=x² y g(x)=x-1, entonces (f∘g)(x)=",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Álgebra de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "x²-1",
+        "B": "(x-1)²",
+        "C": "x³-x²",
+        "D": "x²+x-1"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0078",
+      "pregunta": "Si f(x)=3x y g(x)=x+2, entonces (f/g)(x)=",
+      "tema": {
+        "codigo": "6",
+        "nombre": "Funciones algebraicas"
+      },
+      "subtema": {
+        "codigo": "6.7",
+        "nombre": "Álgebra de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "3x/(x+2)",
+        "B": "3x²+6x",
+        "C": "4x+2",
+        "D": "(x+2)/(3x)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0079",
+      "pregunta": "Convierte 150° a radianes.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.1",
+        "nombre": "Medida de un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "5π/6",
+        "B": "3π/4",
+        "C": "2π/3",
+        "D": "7π/6"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0080",
+      "pregunta": "Convierte 7π/4 radianes a grados.",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.1",
+        "nombre": "Medida de un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "225°",
+        "B": "270°",
+        "C": "315°",
+        "D": "350°"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0081",
+      "pregunta": "Un ángulo de π/3 radianes equivale a:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.1",
+        "nombre": "Medida de un ángulo"
+      },
+      "respuestas_posibles": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "90°"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0082",
+      "pregunta": "En un triángulo rectángulo, respecto a θ, sen θ es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.2",
+        "nombre": "Razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "adyacente/hipotenusa",
+        "B": "opuesto/hipotenusa",
+        "C": "opuesto/adyacente",
+        "D": "hipotenusa/opuesto"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0083",
+      "pregunta": "Si los catetos miden 5 y 12, la hipotenusa es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.2",
+        "nombre": "Razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "13",
+        "B": "15",
+        "C": "17",
+        "D": "7"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0084",
+      "pregunta": "Si tan θ=3/4 y θ es agudo, cos θ es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.2",
+        "nombre": "Razones trigonométricas"
+      },
+      "respuestas_posibles": {
+        "A": "3/5",
+        "B": "4/5",
+        "C": "5/4",
+        "D": "4/3"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0085",
+      "pregunta": "Una escalera de 10 m forma 30° con el piso. ¿Qué altura alcanza?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.3",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "5 m",
+        "B": "5√3 m",
+        "C": "10√3 m",
+        "D": "20 m"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0086",
+      "pregunta": "Una sombra mide 6 m y el ángulo de elevación es 45°. ¿Altura del objeto?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.3",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "3 m",
+        "B": "6 m",
+        "C": "6√2 m",
+        "D": "12 m"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0087",
+      "pregunta": "En un triángulo rectángulo, hipotenusa 8 y ángulo 60°. El cateto adyacente mide:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.3",
+        "nombre": "Resolución de triángulos rectángulos"
+      },
+      "respuestas_posibles": {
+        "A": "4",
+        "B": "4√3",
+        "C": "8√3",
+        "D": "2"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0088",
+      "pregunta": "En un triángulo, a=7, b=9 y C=60°. Por ley de cosenos, c² es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.4",
+        "nombre": "Ley de los Senos y Ley de los Cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "67",
+        "B": "81",
+        "C": "109",
+        "D": "130"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0089",
+      "pregunta": "La ley de senos establece:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.4",
+        "nombre": "Ley de los Senos y Ley de los Cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "a/sen A=b/sen B",
+        "B": "a cos A=b cos B",
+        "C": "a²+b²=c²",
+        "D": "a+b=c"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0090",
+      "pregunta": "Si A=30°, a=5 y B=90°, entonces b es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.4",
+        "nombre": "Ley de los Senos y Ley de los Cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "5",
+        "B": "5√2",
+        "C": "10",
+        "D": "10√3"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0091",
+      "pregunta": "En un triángulo, A=40°, B=65°. El ángulo C es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.5",
+        "nombre": "Resolución de triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "65°",
+        "B": "75°",
+        "C": "85°",
+        "D": "105°"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0092",
+      "pregunta": "Si a=8, b=10 y C=60°, entonces c es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.5",
+        "nombre": "Resolución de triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "√84",
+        "B": "√164",
+        "C": "18",
+        "D": "2"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0093",
+      "pregunta": "En un triángulo oblicuángulo, A=30°, a=6 y B=45°. El lado b es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.5",
+        "nombre": "Resolución de triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "3√2",
+        "B": "6√2",
+        "C": "12",
+        "D": "6"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0094",
+      "pregunta": "El valor de sen 150° es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.6",
+        "nombre": "Razones trigonométricas para un ángulo en cualquier cuadrante y fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "-1/2",
+        "B": "1/2",
+        "C": "-√3/2",
+        "D": "√3/2"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0095",
+      "pregunta": "El valor de cos 210° es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.6",
+        "nombre": "Razones trigonométricas para un ángulo en cualquier cuadrante y fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "√3/2",
+        "B": "-√3/2",
+        "C": "1/2",
+        "D": "-1/2"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0096",
+      "pregunta": "La expresión tan(π+θ) es igual a:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.1.6",
+        "nombre": "Razones trigonométricas para un ángulo en cualquier cuadrante y fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "-tan θ",
+        "B": "tan θ",
+        "C": "cot θ",
+        "D": "-cot θ"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0097",
+      "pregunta": "En el círculo unitario, el punto para θ=π/2 es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.1",
+        "nombre": "El círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "(1,0)",
+        "B": "(0,1)",
+        "C": "(-1,0)",
+        "D": "(0,-1)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0098",
+      "pregunta": "La coordenada x del punto del círculo unitario es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.1",
+        "nombre": "El círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "sen θ",
+        "B": "cos θ",
+        "C": "tan θ",
+        "D": "sec θ"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0099",
+      "pregunta": "El punto (-1,0) corresponde al ángulo:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.1",
+        "nombre": "El círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "0",
+        "B": "π/2",
+        "C": "π",
+        "D": "3π/2"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0100",
+      "pregunta": "El dominio de f(x)=sen x es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.1",
+        "nombre": "Dominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "[-1,1]",
+        "B": "R",
+        "C": "R\\{0}",
+        "D": "[0,∞)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0101",
+      "pregunta": "El rango de f(x)=cos x es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.1",
+        "nombre": "Dominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "R",
+        "B": "[0,1]",
+        "C": "[-1,1]",
+        "D": "(-1,1)"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0102",
+      "pregunta": "El dominio de f(x)=tan x excluye:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.1",
+        "nombre": "Dominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "x=kπ",
+        "B": "x=π/2+kπ",
+        "C": "x=2kπ",
+        "D": "x=π/4+kπ"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0103",
+      "pregunta": "La amplitud de y=4sen x es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.2",
+        "nombre": "Periodo y amplitud"
+      },
+      "respuestas_posibles": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "2π"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0104",
+      "pregunta": "El periodo de y=cos(3x) es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.2",
+        "nombre": "Periodo y amplitud"
+      },
+      "respuestas_posibles": {
+        "A": "2π",
+        "B": "3π",
+        "C": "2π/3",
+        "D": "π/3"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0105",
+      "pregunta": "La amplitud y periodo de y=-2sen(x/2) son:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.2",
+        "nombre": "Periodo y amplitud"
+      },
+      "respuestas_posibles": {
+        "A": "2 y 4π",
+        "B": "-2 y 4π",
+        "C": "2 y π",
+        "D": "1/2 y 2π"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0106",
+      "pregunta": "y=sen(x-π/3) se desplaza:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.3",
+        "nombre": "Desfasamiento"
+      },
+      "respuestas_posibles": {
+        "A": "π/3 a la derecha",
+        "B": "π/3 a la izquierda",
+        "C": "3π a la derecha",
+        "D": "π a la izquierda"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0107",
+      "pregunta": "y=cos(x+π/4) se desplaza:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.3",
+        "nombre": "Desfasamiento"
+      },
+      "respuestas_posibles": {
+        "A": "π/4 a la derecha",
+        "B": "π/4 a la izquierda",
+        "C": "4π a la izquierda",
+        "D": "No se desplaza"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0108",
+      "pregunta": "¿Cuál función tiene desplazamiento π/2 a la derecha?",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.3",
+        "nombre": "Desfasamiento"
+      },
+      "respuestas_posibles": {
+        "A": "sen(x+π/2)",
+        "B": "sen(x-π/2)",
+        "C": "sen(2x)",
+        "D": "sen x+π/2"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0109",
+      "pregunta": "Las asíntotas verticales de tan x son:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.4",
+        "nombre": "Asíntotas de la gráfica"
+      },
+      "respuestas_posibles": {
+        "A": "x=kπ",
+        "B": "x=π/2+kπ",
+        "C": "y=π/2+kπ",
+        "D": "x=2kπ"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0110",
+      "pregunta": "Las asíntotas verticales de sec x ocurren cuando:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.4",
+        "nombre": "Asíntotas de la gráfica"
+      },
+      "respuestas_posibles": {
+        "A": "sen x=0",
+        "B": "cos x=0",
+        "C": "tan x=0",
+        "D": "x=0 solamente"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0111",
+      "pregunta": "Una asíntota vertical de csc x es:",
+      "tema": {
+        "codigo": "7",
+        "nombre": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "7.2.2.4",
+        "nombre": "Asíntotas de la gráfica"
+      },
+      "respuestas_posibles": {
+        "A": "x=π/2",
+        "B": "x=π",
+        "C": "x=π/4",
+        "D": "x=3π/2"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0112",
+      "pregunta": "El dominio de log(x+4) es:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Dominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "x>-4",
+        "B": "x≥-4",
+        "C": "x<4",
+        "D": "R"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0113",
+      "pregunta": "El rango de e^x-3 es:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Dominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "(-3,∞)",
+        "B": "[-3,∞)",
+        "C": "(0,∞)",
+        "D": "R"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0114",
+      "pregunta": "El dominio de 2^x es:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "subtema": {
+        "codigo": "8.1",
+        "nombre": "Dominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "(0,∞)",
+        "B": "[0,∞)",
+        "C": "R",
+        "D": "R\\{0}"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0115",
+      "pregunta": "La asíntota vertical de log₂(x-5) es:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Gráficas y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "x=0",
+        "B": "x=5",
+        "C": "y=5",
+        "D": "y=0"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0116",
+      "pregunta": "La asíntota horizontal de 3^x+2 es:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Gráficas y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "x=2",
+        "B": "y=0",
+        "C": "y=2",
+        "D": "x=0"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0117",
+      "pregunta": "La gráfica de y=(1/2)^x es:",
+      "tema": {
+        "codigo": "8",
+        "nombre": "Funciones exponenciales y logarítmicas"
+      },
+      "subtema": {
+        "codigo": "8.2",
+        "nombre": "Gráficas y asíntotas"
+      },
+      "respuestas_posibles": {
+        "A": "Exponencial creciente",
+        "B": "Exponencial decreciente",
+        "C": "Logarítmica creciente",
+        "D": "Recta"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0118",
+      "pregunta": "Distancia entre (1,2) y (4,6):",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Distancia entre dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "7"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0119",
+      "pregunta": "Distancia entre (-2,3) y (-2,-5):",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Distancia entre dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "2",
+        "B": "5",
+        "C": "8",
+        "D": "10"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0120",
+      "pregunta": "Distancia entre (0,0) y (6,8):",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.1",
+        "nombre": "Distancia entre dos puntos"
+      },
+      "respuestas_posibles": {
+        "A": "7",
+        "B": "10",
+        "C": "12",
+        "D": "14"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0121",
+      "pregunta": "Punto medio entre (2,-1) y (8,5):",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Coordenadas de un punto que divide un segmento de acuerdo con una razón dada"
+      },
+      "respuestas_posibles": {
+        "A": "(5,2)",
+        "B": "(3,4)",
+        "C": "(10,4)",
+        "D": "(5,3)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0122",
+      "pregunta": "El punto que divide A(0,0), B(9,6) en razón AP:PB=1:2 es:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Coordenadas de un punto que divide un segmento de acuerdo con una razón dada"
+      },
+      "respuestas_posibles": {
+        "A": "(3,2)",
+        "B": "(6,4)",
+        "C": "(4.5,3)",
+        "D": "(1,2)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0123",
+      "pregunta": "Punto medio de A(2m,m+2) y B(4m,m-2):",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.2",
+        "nombre": "Coordenadas de un punto que divide un segmento de acuerdo con una razón dada"
+      },
+      "respuestas_posibles": {
+        "A": "(3m,m)",
+        "B": "(6m,2m)",
+        "C": "(m,3m)",
+        "D": "(2m,m)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0124",
+      "pregunta": "Pendiente entre (1,4) y (5,12):",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Pendiente de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "1/2",
+        "B": "2",
+        "C": "4",
+        "D": "-2"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0125",
+      "pregunta": "Pendiente de 2x+4y-7=0:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Pendiente de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "2",
+        "B": "-2",
+        "C": "1/2",
+        "D": "-1/2"
+      },
+      "respuesta_correcta": "D",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0126",
+      "pregunta": "Una recta horizontal tiene pendiente:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.3",
+        "nombre": "Pendiente de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "Indefinida"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0127",
+      "pregunta": "Recta con pendiente 3 y ordenada -2:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Formas de la ecuación de la recta y su gráfica"
+      },
+      "respuestas_posibles": {
+        "A": "y=3x-2",
+        "B": "y=-2x+3",
+        "C": "3y=x-2",
+        "D": "y=3x+2"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0128",
+      "pregunta": "Recta por (2,5) con pendiente -1:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Formas de la ecuación de la recta y su gráfica"
+      },
+      "respuestas_posibles": {
+        "A": "y=-x+7",
+        "B": "y=x+3",
+        "C": "y=-x+3",
+        "D": "y=2x+1"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0129",
+      "pregunta": "La forma general de y=2x+4 es:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.4",
+        "nombre": "Formas de la ecuación de la recta y su gráfica"
+      },
+      "respuestas_posibles": {
+        "A": "2x-y+4=0",
+        "B": "2x-y-4=0",
+        "C": "x-2y+4=0",
+        "D": "2x+y+4=0"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0130",
+      "pregunta": "Una recta paralela a y=4x-1 tiene pendiente:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Condiciones de paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "-4",
+        "B": "1/4",
+        "C": "4",
+        "D": "-1/4"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0131",
+      "pregunta": "Una recta perpendicular a y=-2x+3 tiene pendiente:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Condiciones de paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "-2",
+        "B": "2",
+        "C": "1/2",
+        "D": "-1/2"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0132",
+      "pregunta": "Las rectas 3x-y=2 y 6x-2y=5 son:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.5",
+        "nombre": "Condiciones de paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "Paralelas",
+        "B": "Perpendiculares",
+        "C": "Coincidentes",
+        "D": "Verticales"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0133",
+      "pregunta": "Distancia de (0,0) a 3x+4y-10=0:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "1",
+        "B": "2",
+        "C": "5",
+        "D": "10"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0134",
+      "pregunta": "Distancia de (2,1) a x-y+3=0:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "2√2",
+        "B": "√2",
+        "C": "4",
+        "D": "1"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0135",
+      "pregunta": "Distancia de (-1,2) a y=5:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.6",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0136",
+      "pregunta": "La mediana de un triángulo une un vértice con:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.7",
+        "nombre": "Medianas, mediatrices y alturas de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "El punto medio del lado opuesto",
+        "B": "El ortocentro",
+        "C": "Un ángulo recto",
+        "D": "El centro de una circunferencia"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0137",
+      "pregunta": "El punto de intersección de las alturas es:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.7",
+        "nombre": "Medianas, mediatrices y alturas de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Baricentro",
+        "B": "Circuncentro",
+        "C": "Ortocentro",
+        "D": "Incentro"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0138",
+      "pregunta": "La mediatriz del segmento entre (0,0) y (4,0) es:",
+      "tema": {
+        "codigo": "9",
+        "nombre": "Recta"
+      },
+      "subtema": {
+        "codigo": "9.7",
+        "nombre": "Medianas, mediatrices y alturas de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "x=0",
+        "B": "x=2",
+        "C": "y=2",
+        "D": "y=0"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0139",
+      "pregunta": "Una circunferencia es el conjunto de puntos cuya distancia a un punto fijo es:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Circunferencia como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "Variable",
+        "B": "Constante",
+        "C": "Cero",
+        "D": "Infinita"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0140",
+      "pregunta": "Si el centro es C y el radio r, un punto P pertenece a la circunferencia cuando:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Circunferencia como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "d(P,C)<r",
+        "B": "d(P,C)=r",
+        "C": "d(P,C)>r",
+        "D": "d(P,C)=2r"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0141",
+      "pregunta": "El lugar geométrico de puntos a 6 unidades de (2,-1) es:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.1",
+        "nombre": "Circunferencia como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "Una recta",
+        "B": "Una parábola",
+        "C": "Una circunferencia",
+        "D": "Una elipse"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0142",
+      "pregunta": "Circunferencia con centro (0,0) y radio 5:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Ecuación de la circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "x²+y²=5",
+        "B": "x²+y²=25",
+        "C": "(x-5)²+y²=25",
+        "D": "x²-y²=25"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0143",
+      "pregunta": "El radio de x²+y²-49=0 es:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Ecuación de la circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "7",
+        "B": "49",
+        "C": "√7",
+        "D": "14"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0144",
+      "pregunta": "¿Cuál tiene centro en el origen?",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.2",
+        "nombre": "Ecuación de la circunferencia con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "(x-1)²+y²=9",
+        "B": "x²+y²=16",
+        "C": "x²+(y+2)²=4",
+        "D": "x²-y²=1"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0145",
+      "pregunta": "Circunferencia con centro (3,-2) y radio 4:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuación de la circunferencia con centro en (h,k)"
+      },
+      "respuestas_posibles": {
+        "A": "(x-3)²+(y+2)²=16",
+        "B": "(x+3)²+(y-2)²=16",
+        "C": "(x-3)²+(y-2)²=4",
+        "D": "x²+y²=16"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0146",
+      "pregunta": "El centro de (x+5)²+(y-1)²=9 es:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuación de la circunferencia con centro en (h,k)"
+      },
+      "respuestas_posibles": {
+        "A": "(5,-1)",
+        "B": "(-5,1)",
+        "C": "(-5,-1)",
+        "D": "(5,1)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0147",
+      "pregunta": "La forma general de (x-1)²+(y+2)²=4 es:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.3",
+        "nombre": "Ecuación de la circunferencia con centro en (h,k)"
+      },
+      "respuestas_posibles": {
+        "A": "x²+y²-2x+4y+1=0",
+        "B": "x²+y²+2x-4y+1=0",
+        "C": "x²+y²-2x+4y-4=0",
+        "D": "x²+y²=4"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0148",
+      "pregunta": "Centro y radio de x²+y²-6x+4y-12=0:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "C(3,-2), r=5",
+        "B": "C(-3,2), r=5",
+        "C": "C(3,2), r=1",
+        "D": "C(-3,-2), r=5"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0149",
+      "pregunta": "El diámetro de una circunferencia de radio 7 es:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "3.5",
+        "B": "7",
+        "C": "14",
+        "D": "49"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0150",
+      "pregunta": "Los extremos de un diámetro son (-2,0) y (6,0). El centro es:",
+      "tema": {
+        "codigo": "10",
+        "nombre": "Circunferencia"
+      },
+      "subtema": {
+        "codigo": "10.4",
+        "nombre": "Elementos de una circunferencia"
+      },
+      "respuestas_posibles": {
+        "A": "(2,0)",
+        "B": "(4,0)",
+        "C": "(2,3)",
+        "D": "(-4,0)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0151",
+      "pregunta": "Una parábola es el lugar geométrico de puntos equidistantes de:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Parábola como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "Dos focos",
+        "B": "Un foco y una directriz",
+        "C": "Un centro y una recta",
+        "D": "Dos rectas"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0152",
+      "pregunta": "En una parábola, el punto fijo se llama:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Parábola como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "Centro",
+        "B": "Vértice",
+        "C": "Foco",
+        "D": "Radio"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0153",
+      "pregunta": "La recta fija usada en la definición de parábola se llama:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Parábola como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "Asíntota",
+        "B": "Directriz",
+        "C": "Tangente",
+        "D": "Eje mayor"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0154",
+      "pregunta": "Parábola con vértice en el origen, foco (3,0):",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Ecuación de la parábola con vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "y²=12x",
+        "B": "x²=12y",
+        "C": "y²=-12x",
+        "D": "x²=-12y"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0155",
+      "pregunta": "El foco de x²=8y es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Ecuación de la parábola con vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "(2,0)",
+        "B": "(0,2)",
+        "C": "(0,8)",
+        "D": "(-2,0)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0156",
+      "pregunta": "La directriz de y²=-4x es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Ecuación de la parábola con vértice en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "x=-1",
+        "B": "x=1",
+        "C": "y=1",
+        "D": "y=-1"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0157",
+      "pregunta": "Parábola con vértice (2,-1) y p=3, eje vertical:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Ecuación de la parábola con vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "(x-2)²=12(y+1)",
+        "B": "(y+1)²=12(x-2)",
+        "C": "(x+2)²=3(y-1)",
+        "D": "(x-2)²=-12(y+1)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0158",
+      "pregunta": "El vértice de (y-4)²=8(x+1) es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Ecuación de la parábola con vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "(4,-1)",
+        "B": "(-1,4)",
+        "C": "(1,-4)",
+        "D": "(-4,1)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0159",
+      "pregunta": "Parábola con vértice (-2,3), foco (-2,1):",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Ecuación de la parábola con vértice fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "(x+2)²=-8(y-3)",
+        "B": "(y-3)²=-8(x+2)",
+        "C": "(x-2)²=8(y+3)",
+        "D": "(x+2)²=8(y-3)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0160",
+      "pregunta": "En y²=16x, el lado recto mide:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Elementos de una parábola"
+      },
+      "respuestas_posibles": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "32"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0161",
+      "pregunta": "Vértice y foco de (x-1)²=12(y+2):",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Elementos de una parábola"
+      },
+      "respuestas_posibles": {
+        "A": "V(1,-2), F(1,1)",
+        "B": "V(-1,2), F(-1,5)",
+        "C": "V(1,2), F(4,2)",
+        "D": "V(1,-2), F(4,-2)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0162",
+      "pregunta": "El eje de simetría de y²-6y-8x+9=0 es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Parábola"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Elementos de una parábola"
+      },
+      "respuestas_posibles": {
+        "A": "x=3",
+        "B": "y=3",
+        "C": "x=-3",
+        "D": "y=-3"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0163",
+      "pregunta": "Una elipse es el lugar geométrico cuya suma de distancias a dos focos es:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Elipse como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "Constante",
+        "B": "Cero",
+        "C": "Variable",
+        "D": "Infinita"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0164",
+      "pregunta": "Si los focos de una elipse coinciden, se obtiene:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Elipse como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "Una parábola",
+        "B": "Una circunferencia",
+        "C": "Una hipérbola",
+        "D": "Una recta"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0165",
+      "pregunta": "En una elipse no circular, la excentricidad cumple:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Elipse como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "e=0",
+        "B": "0<e<1",
+        "C": "e=1",
+        "D": "e>1"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0166",
+      "pregunta": "En una elipse con a=5 y b=3, c es:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Relación entre los parámetros a, b y c"
+      },
+      "respuestas_posibles": {
+        "A": "2",
+        "B": "4",
+        "C": "√34",
+        "D": "8"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0167",
+      "pregunta": "En una elipse, la relación correcta es:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Relación entre los parámetros a, b y c"
+      },
+      "respuestas_posibles": {
+        "A": "c²=a²+b²",
+        "B": "a²=b²+c²",
+        "C": "b²=a²+c²",
+        "D": "a=b+c"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0168",
+      "pregunta": "Si a=13 y c=5, b es:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Relación entre los parámetros a, b y c"
+      },
+      "respuestas_posibles": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "18"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0169",
+      "pregunta": "Elipse horizontal con centro en el origen, a=5, b=3:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Ecuación de la elipse con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "x²/25+y²/9=1",
+        "B": "x²/9+y²/25=1",
+        "C": "x²/5+y²/3=1",
+        "D": "x²/25-y²/9=1"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0170",
+      "pregunta": "Los vértices de x²/16+y²/4=1 son:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Ecuación de la elipse con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "(0,±4)",
+        "B": "(±4,0)",
+        "C": "(±2,0)",
+        "D": "(0,±2)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0171",
+      "pregunta": "El eje mayor de x²/9+y²/36=1 es:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Ecuación de la elipse con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "Horizontal",
+        "B": "Vertical",
+        "C": "Inclinado",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0172",
+      "pregunta": "Elipse con centro (2,-1), eje mayor horizontal, a=4,b=2:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Ecuación de la elipse con centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "(x-2)²/16+(y+1)²/4=1",
+        "B": "(x+2)²/16+(y-1)²/4=1",
+        "C": "(x-2)²/4+(y+1)²/16=1",
+        "D": "x²/16+y²/4=1"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0173",
+      "pregunta": "Centro de (x+3)²/25+(y-4)²/9=1:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Ecuación de la elipse con centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "(3,-4)",
+        "B": "(-3,4)",
+        "C": "(-3,-4)",
+        "D": "(3,4)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0174",
+      "pregunta": "La elipse (x-1)²/9+(y+2)²/16=1 tiene eje mayor:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Ecuación de la elipse con centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "Horizontal",
+        "B": "Vertical",
+        "C": "Inclinado",
+        "D": "Nulo"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0175",
+      "pregunta": "Focos de x²/25+y²/9=1:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Elementos de una elipse"
+      },
+      "respuestas_posibles": {
+        "A": "(±4,0)",
+        "B": "(0,±4)",
+        "C": "(±5,0)",
+        "D": "(0,±3)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0176",
+      "pregunta": "La longitud del eje mayor de x²/36+y²/16=1 es:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Elementos de una elipse"
+      },
+      "respuestas_posibles": {
+        "A": "6",
+        "B": "8",
+        "C": "12",
+        "D": "16"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0177",
+      "pregunta": "La excentricidad de x²/25+y²/16=1 es:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Elipse"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Elementos de una elipse"
+      },
+      "respuestas_posibles": {
+        "A": "3/5",
+        "B": "4/5",
+        "C": "1/5",
+        "D": "5/3"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0178",
+      "pregunta": "Una hipérbola es el lugar geométrico cuya diferencia absoluta de distancias a dos focos es:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Hipérbola como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "Constante",
+        "B": "Cero",
+        "C": "Variable",
+        "D": "Igual a la suma"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0179",
+      "pregunta": "La excentricidad de una hipérbola cumple:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Hipérbola como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "e=0",
+        "B": "0<e<1",
+        "C": "e=1",
+        "D": "e>1"
+      },
+      "respuesta_correcta": "D",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0180",
+      "pregunta": "Una hipérbola tiene:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.1",
+        "nombre": "Hipérbola como lugar geométrico"
+      },
+      "respuestas_posibles": {
+        "A": "Una rama",
+        "B": "Dos ramas",
+        "C": "Ningún foco",
+        "D": "Un solo vértice"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0181",
+      "pregunta": "En una hipérbola con a=3 y b=4, c es:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Relación entre los parámetros a, b y c"
+      },
+      "respuestas_posibles": {
+        "A": "1",
+        "B": "5",
+        "C": "7",
+        "D": "√7"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0182",
+      "pregunta": "En una hipérbola, la relación correcta es:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Relación entre los parámetros a, b y c"
+      },
+      "respuestas_posibles": {
+        "A": "c²=a²+b²",
+        "B": "a²=b²+c²",
+        "C": "b²=a²+c²",
+        "D": "c=a-b"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0183",
+      "pregunta": "Si c=13 y a=5, b es:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.2",
+        "nombre": "Relación entre los parámetros a, b y c"
+      },
+      "respuestas_posibles": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "18"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0184",
+      "pregunta": "Hipérbola horizontal con centro en el origen, a=4,b=3:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Ecuación de la hipérbola con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "x²/16-y²/9=1",
+        "B": "y²/16-x²/9=1",
+        "C": "x²/4-y²/3=1",
+        "D": "x²/16+y²/9=1"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0185",
+      "pregunta": "Los vértices de y²/25-x²/9=1 son:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Ecuación de la hipérbola con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "(±5,0)",
+        "B": "(0,±5)",
+        "C": "(±3,0)",
+        "D": "(0,±3)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0186",
+      "pregunta": "Las asíntotas de x²/4-y²/9=1 son:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.3",
+        "nombre": "Ecuación de la hipérbola con centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "y=±(3/2)x",
+        "B": "y=±(2/3)x",
+        "C": "y=±6x",
+        "D": "x=±2"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0187",
+      "pregunta": "Hipérbola con centro (1,-2), eje horizontal, a=3,b=2:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Ecuación de la hipérbola con centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "(x-1)²/9-(y+2)²/4=1",
+        "B": "(y+2)²/9-(x-1)²/4=1",
+        "C": "(x+1)²/9-(y-2)²/4=1",
+        "D": "x²/9-y²/4=1"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0188",
+      "pregunta": "Centro de (x+4)²/16-(y-3)²/25=1:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Ecuación de la hipérbola con centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "(4,-3)",
+        "B": "(-4,3)",
+        "C": "(-4,-3)",
+        "D": "(4,3)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0189",
+      "pregunta": "La hipérbola (y-1)²/4-(x+2)²/9=1 abre:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.4",
+        "nombre": "Ecuación de la hipérbola con centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "Izquierda y derecha",
+        "B": "Arriba y abajo",
+        "C": "En cuatro direcciones",
+        "D": "No abre"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0190",
+      "pregunta": "Focos de x²/9-y²/16=1:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Elementos de una hipérbola"
+      },
+      "respuestas_posibles": {
+        "A": "(±5,0)",
+        "B": "(0,±5)",
+        "C": "(±3,0)",
+        "D": "(0,±4)"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0191",
+      "pregunta": "La longitud del eje transverso de x²/25-y²/9=1 es:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Elementos de una hipérbola"
+      },
+      "respuestas_posibles": {
+        "A": "5",
+        "B": "6",
+        "C": "10",
+        "D": "18"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0192",
+      "pregunta": "La excentricidad de x²/9-y²/16=1 es:",
+      "tema": {
+        "codigo": "13",
+        "nombre": "Hipérbola"
+      },
+      "subtema": {
+        "codigo": "13.5",
+        "nombre": "Elementos de una hipérbola"
+      },
+      "respuestas_posibles": {
+        "A": "3/5",
+        "B": "4/3",
+        "C": "5/3",
+        "D": "5/4"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0193",
+      "pregunta": "¿Cuál no es una cónica no degenerada?",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Las cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "Circunferencia",
+        "B": "Elipse",
+        "C": "Triángulo",
+        "D": "Hipérbola"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0194",
+      "pregunta": "La intersección de un plano paralelo a una generatriz de un cono produce una:",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Las cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "Circunferencia",
+        "B": "Parábola",
+        "C": "Elipse",
+        "D": "Recta"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0195",
+      "pregunta": "La circunferencia es un caso particular de:",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.1",
+        "nombre": "Las cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "Parábola",
+        "B": "Hipérbola",
+        "C": "Elipse",
+        "D": "Recta"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0196",
+      "pregunta": "La ecuación general de segundo grado en x,y es:",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Ax²+Bxy+Cy²+Dx+Ey+F=0",
+        "B": "Ax+B=0",
+        "C": "Ax³+By³=0",
+        "D": "Ax²+Bx+C=0"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0197",
+      "pregunta": "En Ax²+Bxy+Cy²+Dx+Ey+F=0, el término que indica posible rotación es:",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Dx",
+        "B": "Ey",
+        "C": "Bxy",
+        "D": "F"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0198",
+      "pregunta": "Si B=0, los ejes de la cónica son, en general:",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.2",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Paralelos a los ejes coordenados",
+        "B": "Siempre oblicuos",
+        "C": "Siempre verticales",
+        "D": "Inexistentes"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0199",
+      "pregunta": "Si B²-4AC<0, la cónica puede ser una:",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Criterios para identificar la cónica que representa una ecuación de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Hipérbola",
+        "B": "Parábola",
+        "C": "Elipse",
+        "D": "Recta"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0200",
+      "pregunta": "Si B²-4AC=0, la cónica no degenerada es una:",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Criterios para identificar la cónica que representa una ecuación de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Circunferencia",
+        "B": "Parábola",
+        "C": "Elipse",
+        "D": "Hipérbola"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0201",
+      "pregunta": "Si B²-4AC>0, la cónica es una:",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.3",
+        "nombre": "Criterios para identificar la cónica que representa una ecuación de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Elipse",
+        "B": "Circunferencia",
+        "C": "Parábola",
+        "D": "Hipérbola"
+      },
+      "respuesta_correcta": "D",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0202",
+      "pregunta": "Trasladar el origen a (h,k) equivale a usar:",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "x=X+h, y=Y+k",
+        "B": "x=X-h, y=Y-k",
+        "C": "x=hX, y=kY",
+        "D": "x=X+k, y=Y+h"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0203",
+      "pregunta": "La circunferencia x²+y²=9 trasladada al centro (2,-1) es:",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "(x-2)²+(y+1)²=9",
+        "B": "(x+2)²+(y-1)²=9",
+        "C": "(x-2)²+(y-1)²=3",
+        "D": "x²+y²=9"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0204",
+      "pregunta": "La traslación de ejes cambia:",
+      "tema": {
+        "codigo": "14",
+        "nombre": "Ecuación general de segundo grado"
+      },
+      "subtema": {
+        "codigo": "14.4",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "La forma de la cónica",
+        "B": "Su tamaño siempre",
+        "C": "Las coordenadas respecto del nuevo origen",
+        "D": "La excentricidad"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0205",
+      "pregunta": "Si f(x) toma valores cada vez más cercanos a 5 cuando x se aproxima a 2, entonces intuitivamente:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Concepto intuitivo"
+      },
+      "respuestas_posibles": {
+        "A": "lim x→2 f(x)=5",
+        "B": "f(2)=0",
+        "C": "lim x→5 f(x)=2",
+        "D": "No existe límite"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0206",
+      "pregunta": "Para f(x)=(x²-4)/(x-2), x≠2, los valores se aproximan a:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Concepto intuitivo"
+      },
+      "respuestas_posibles": {
+        "A": "0",
+        "B": "2",
+        "C": "4",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0207",
+      "pregunta": "Que exista lim x→a f(x)=L significa que f(x):",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Concepto intuitivo"
+      },
+      "respuestas_posibles": {
+        "A": "Vale L solo en x=a",
+        "B": "Se aproxima a L cuando x se aproxima a a",
+        "C": "Es constante",
+        "D": "Nunca vale L"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0208",
+      "pregunta": "La definición ε-δ de lim x→a f(x)=L exige que para todo ε>0 exista δ>0 tal que:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Definición formal"
+      },
+      "respuestas_posibles": {
+        "A": "|x-a|<ε",
+        "B": "0<|x-a|<δ implica |f(x)-L|<ε",
+        "C": "|f(x)|<δ",
+        "D": "x=a"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0209",
+      "pregunta": "En la definición formal, δ controla la cercanía de:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Definición formal"
+      },
+      "respuestas_posibles": {
+        "A": "f(x) a L",
+        "B": "x a a",
+        "C": "L a cero",
+        "D": "ε a infinito"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0210",
+      "pregunta": "En la definición formal, ε mide la tolerancia en:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Definición formal"
+      },
+      "respuestas_posibles": {
+        "A": "La variable x",
+        "B": "Los valores f(x) respecto de L",
+        "C": "El punto a respecto de cero",
+        "D": "El dominio completo"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0211",
+      "pregunta": "Si lim f=3 y lim g=4, entonces lim(f+g)=",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Teoremas sobre límites"
+      },
+      "respuestas_posibles": {
+        "A": "1",
+        "B": "7",
+        "C": "12",
+        "D": "3/4"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0212",
+      "pregunta": "Si lim f=-2, entonces lim[5f]=",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Teoremas sobre límites"
+      },
+      "respuestas_posibles": {
+        "A": "-10",
+        "B": "3",
+        "C": "10",
+        "D": "-2"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0213",
+      "pregunta": "Si lim f=6 y lim g=2, entonces lim(f/g)=",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Teoremas sobre límites"
+      },
+      "respuestas_posibles": {
+        "A": "3",
+        "B": "4",
+        "C": "8",
+        "D": "12"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0214",
+      "pregunta": "Calcula: lim x→2 (3x+1).",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Obtención de límites"
+      },
+      "respuestas_posibles": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0215",
+      "pregunta": "Calcula: lim x→3 (x²-9)/(x-3).",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Obtención de límites"
+      },
+      "respuestas_posibles": {
+        "A": "0",
+        "B": "3",
+        "C": "6",
+        "D": "9"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0216",
+      "pregunta": "Calcula: lim x→0 sen x/x.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Obtención de límites"
+      },
+      "respuestas_posibles": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0217",
+      "pregunta": "La sustitución directa en lim x→2 (x²-4)/(x-2) produce:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Formas indeterminadas"
+      },
+      "respuestas_posibles": {
+        "A": "0/0",
+        "B": "∞/∞",
+        "C": "0·∞",
+        "D": "∞-∞"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0218",
+      "pregunta": "La forma obtenida en lim x→∞ (2x²+1)/(x²-3) es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Formas indeterminadas"
+      },
+      "respuestas_posibles": {
+        "A": "0/0",
+        "B": "∞/∞",
+        "C": "1^∞",
+        "D": "∞-∞"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0219",
+      "pregunta": "¿Cuál es una forma indeterminada?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Formas indeterminadas"
+      },
+      "respuestas_posibles": {
+        "A": "5/0",
+        "B": "0/0",
+        "C": "3/2",
+        "D": "∞+∞"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0220",
+      "pregunta": "Para que f sea continua en x=a debe cumplirse:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Continuidad en un punto y en un intervalo"
+      },
+      "respuestas_posibles": {
+        "A": "f(a)=0",
+        "B": "lim x→a f(x)=f(a)",
+        "C": "f'(a)=0",
+        "D": "a=0"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0221",
+      "pregunta": "La función f(x)=1/(x+3) es discontinua en:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Continuidad en un punto y en un intervalo"
+      },
+      "respuestas_posibles": {
+        "A": "x=3",
+        "B": "x=-3",
+        "C": "x=0",
+        "D": "Todo R"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0222",
+      "pregunta": "¿Cuál es continua en todo R?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Límites"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Continuidad en un punto y en un intervalo"
+      },
+      "respuestas_posibles": {
+        "A": "tan x",
+        "B": "1/x",
+        "C": "x³-2x+1",
+        "D": "√x"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0223",
+      "pregunta": "La derivada de f en a se define como:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Definición de derivada y sus notaciones"
+      },
+      "respuestas_posibles": {
+        "A": "lim h→0 [f(a+h)-f(a)]/h",
+        "B": "f(a)/a",
+        "C": "lim x→a f(x)",
+        "D": "∫f(x)dx"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0224",
+      "pregunta": "Otra notación para la derivada de y respecto de x es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Definición de derivada y sus notaciones"
+      },
+      "respuestas_posibles": {
+        "A": "dy/dx",
+        "B": "dx/dy",
+        "C": "∫y dx",
+        "D": "Δx/Δy"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0225",
+      "pregunta": "Si f(x)=|x|, f no es derivable en:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.1",
+        "nombre": "Definición de derivada y sus notaciones"
+      },
+      "respuestas_posibles": {
+        "A": "x=-1",
+        "B": "x=0",
+        "C": "x=1",
+        "D": "x=2"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0226",
+      "pregunta": "Deriva: f(x)=4x³-2x.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Obtención de derivadas"
+      },
+      "respuestas_posibles": {
+        "A": "12x²-2",
+        "B": "4x²-2",
+        "C": "12x-2",
+        "D": "x⁴-x²"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0227",
+      "pregunta": "Deriva: f(x)=√x.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Obtención de derivadas"
+      },
+      "respuestas_posibles": {
+        "A": "√x/2",
+        "B": "1/(2√x)",
+        "C": "2√x",
+        "D": "1/√x"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0228",
+      "pregunta": "Deriva: f(x)=5/x.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.2",
+        "nombre": "Obtención de derivadas"
+      },
+      "respuestas_posibles": {
+        "A": "5/x²",
+        "B": "-5/x²",
+        "C": "-x²/5",
+        "D": "5ln x"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0229",
+      "pregunta": "Deriva: (3x+1)^5.",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "5(3x+1)^4",
+        "B": "15(3x+1)^4",
+        "C": "15(3x+1)^5",
+        "D": "3(3x+1)^4"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0230",
+      "pregunta": "Deriva: sen(x²).",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "cos(x²)",
+        "B": "2x cos(x²)",
+        "C": "-2x sen(x²)",
+        "D": "2x sen(x²)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0231",
+      "pregunta": "Deriva: ln(2x+3).",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.3",
+        "nombre": "Regla de la cadena"
+      },
+      "respuestas_posibles": {
+        "A": "1/(2x+3)",
+        "B": "2/(2x+3)",
+        "C": "ln 2",
+        "D": "2x/(2x+3)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0232",
+      "pregunta": "Si x²+y²=25, entonces dy/dx=",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Derivada de funciones implícitas"
+      },
+      "respuestas_posibles": {
+        "A": "x/y",
+        "B": "-x/y",
+        "C": "-y/x",
+        "D": "2x+2y"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0233",
+      "pregunta": "Si xy=6, entonces dy/dx=",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Derivada de funciones implícitas"
+      },
+      "respuestas_posibles": {
+        "A": "y/x",
+        "B": "-y/x",
+        "C": "-x/y",
+        "D": "1/(xy)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0234",
+      "pregunta": "Si x²+xy+y²=7, entonces dy/dx=",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.4",
+        "nombre": "Derivada de funciones implícitas"
+      },
+      "respuestas_posibles": {
+        "A": "-(2x+y)/(x+2y)",
+        "B": "(2x+y)/(x+2y)",
+        "C": "-(x+2y)/(2x+y)",
+        "D": "-2x/y"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0235",
+      "pregunta": "Si f(x)=x⁴, entonces f''(x)=",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Derivadas sucesivas de una función"
+      },
+      "respuestas_posibles": {
+        "A": "4x³",
+        "B": "12x²",
+        "C": "24x",
+        "D": "24"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0236",
+      "pregunta": "La tercera derivada de f(x)=x³ es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Derivadas sucesivas de una función"
+      },
+      "respuestas_posibles": {
+        "A": "3x²",
+        "B": "6x",
+        "C": "6",
+        "D": "0"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0237",
+      "pregunta": "Si f(x)=e^x, entonces f^(4)(x)=",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.5",
+        "nombre": "Derivadas sucesivas de una función"
+      },
+      "respuestas_posibles": {
+        "A": "4e^x",
+        "B": "e^x",
+        "C": "-e^x",
+        "D": "0"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0238",
+      "pregunta": "Geométricamente, f'(a) representa:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Interpretación geométrica y física"
+      },
+      "respuestas_posibles": {
+        "A": "Área bajo la curva",
+        "B": "Pendiente de la tangente",
+        "C": "Ordenada al origen",
+        "D": "Longitud de arco"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0239",
+      "pregunta": "Si f'(x)<0 en un intervalo, f es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Interpretación geométrica y física"
+      },
+      "respuestas_posibles": {
+        "A": "Creciente",
+        "B": "Decreciente",
+        "C": "Constante",
+        "D": "Discontinua"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0240",
+      "pregunta": "Físicamente, si s(t) es posición, s'(t) es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.6",
+        "nombre": "Interpretación geométrica y física"
+      },
+      "respuestas_posibles": {
+        "A": "Aceleración",
+        "B": "Velocidad",
+        "C": "Distancia total",
+        "D": "Tiempo"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0241",
+      "pregunta": "Tangente a y=x² en x=1:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Ecuaciones de la tangente y de la normal a una curva"
+      },
+      "respuestas_posibles": {
+        "A": "y=2x-1",
+        "B": "y=x+1",
+        "C": "y=-2x+3",
+        "D": "y=2x+1"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0242",
+      "pregunta": "La pendiente de la normal a una curva con pendiente tangente 3 es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Ecuaciones de la tangente y de la normal a una curva"
+      },
+      "respuestas_posibles": {
+        "A": "3",
+        "B": "-3",
+        "C": "1/3",
+        "D": "-1/3"
+      },
+      "respuesta_correcta": "D",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0243",
+      "pregunta": "Normal a y=x² en (0,0):",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.7",
+        "nombre": "Ecuaciones de la tangente y de la normal a una curva"
+      },
+      "respuestas_posibles": {
+        "A": "y=0",
+        "B": "x=0",
+        "C": "y=x",
+        "D": "y=-x"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0244",
+      "pregunta": "Si s(t)=t³-3t, la velocidad en t=2 es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Cálculo de velocidad y aceleración de un móvil"
+      },
+      "respuestas_posibles": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "12"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0245",
+      "pregunta": "Si s(t)=4t²+2t, la aceleración es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Cálculo de velocidad y aceleración de un móvil"
+      },
+      "respuestas_posibles": {
+        "A": "4t+2",
+        "B": "8t+2",
+        "C": "8",
+        "D": "4"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0246",
+      "pregunta": "Si v(t)=5t-1, la aceleración es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.8",
+        "nombre": "Cálculo de velocidad y aceleración de un móvil"
+      },
+      "respuestas_posibles": {
+        "A": "5t",
+        "B": "5",
+        "C": "-1",
+        "D": "0"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0247",
+      "pregunta": "Los puntos críticos de f(x)=x²-4x+1 incluyen x=",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Máximos y mínimos relativos de una función"
+      },
+      "respuestas_posibles": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0248",
+      "pregunta": "f(x)=-x²+6x tiene un máximo relativo en x=",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Máximos y mínimos relativos de una función"
+      },
+      "respuestas_posibles": {
+        "A": "-3",
+        "B": "0",
+        "C": "3",
+        "D": "6"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0249",
+      "pregunta": "Si f' cambia de negativa a positiva en c, f tiene en c un:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.9",
+        "nombre": "Máximos y mínimos relativos de una función"
+      },
+      "respuestas_posibles": {
+        "A": "Máximo",
+        "B": "Mínimo",
+        "C": "Punto discontinuo",
+        "D": "Punto sin derivada siempre"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0250",
+      "pregunta": "El máximo absoluto de f(x)=x en [0,5] es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.10",
+        "nombre": "Máximos y mínimos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "0",
+        "B": "1",
+        "C": "5",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0251",
+      "pregunta": "El mínimo absoluto de f(x)=x² en [-2,3] es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.10",
+        "nombre": "Máximos y mínimos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "-2",
+        "B": "0",
+        "C": "4",
+        "D": "9"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0252",
+      "pregunta": "Para hallar extremos absolutos en [a,b] se evalúan:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.10",
+        "nombre": "Máximos y mínimos absolutos en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "Solo puntos críticos",
+        "B": "Solo extremos",
+        "C": "Puntos críticos y extremos",
+        "D": "Todos los reales"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0253",
+      "pregunta": "El punto de inflexión de f(x)=x³ ocurre en x=",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.11",
+        "nombre": "Puntos de inflexión y concavidad en una curva"
+      },
+      "respuestas_posibles": {
+        "A": "-1",
+        "B": "0",
+        "C": "1",
+        "D": "3"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0254",
+      "pregunta": "Si f''(x)>0, la gráfica es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.11",
+        "nombre": "Puntos de inflexión y concavidad en una curva"
+      },
+      "respuestas_posibles": {
+        "A": "Cóncava hacia arriba",
+        "B": "Cóncava hacia abajo",
+        "C": "Decreciente siempre",
+        "D": "Discontinua"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0255",
+      "pregunta": "Para f(x)=x³-3x², la abscisa de inflexión es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.11",
+        "nombre": "Puntos de inflexión y concavidad en una curva"
+      },
+      "respuestas_posibles": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0256",
+      "pregunta": "Un rectángulo tiene perímetro 20. ¿Qué dimensiones maximizan el área?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.12",
+        "nombre": "Problemas de la vida cotidiana"
+      },
+      "respuestas_posibles": {
+        "A": "1 y 9",
+        "B": "2 y 8",
+        "C": "5 y 5",
+        "D": "4 y 6"
+      },
+      "respuesta_correcta": "C",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0257",
+      "pregunta": "La altura de un proyectil es h(t)=-5t²+20t+1. ¿Cuándo alcanza su máximo?",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.12",
+        "nombre": "Problemas de la vida cotidiana"
+      },
+      "respuestas_posibles": {
+        "A": "1 s",
+        "B": "2 s",
+        "C": "4 s",
+        "D": "5 s"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0258",
+      "pregunta": "Una caja sin tapa se forma cortando cuadrados de lado x de una lámina 12×12. Su volumen es:",
+      "tema": {
+        "codigo": "16",
+        "nombre": "La derivada"
+      },
+      "subtema": {
+        "codigo": "16.12",
+        "nombre": "Problemas de la vida cotidiana"
+      },
+      "respuestas_posibles": {
+        "A": "x(12-2x)²",
+        "B": "x²(12-x)",
+        "C": "12x²",
+        "D": "(12-x)³"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0259",
+      "pregunta": "¿Cuál función es integrable en [0,1]?",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Función integrable en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "f(x)=x²",
+        "B": "f(x)=1/x con f(0) no definida",
+        "C": "Una función no acotada",
+        "D": "Una función con infinitas oscilaciones no acotadas"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0260",
+      "pregunta": "Toda función continua en [a,b] es:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Función integrable en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "No integrable",
+        "B": "Integrable",
+        "C": "Constante",
+        "D": "Derivable siempre"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0261",
+      "pregunta": "Una función acotada con un número finito de discontinuidades en [a,b] es, en el sentido elemental usado aquí:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.1",
+        "nombre": "Función integrable en un intervalo cerrado"
+      },
+      "respuestas_posibles": {
+        "A": "Integrable",
+        "B": "Siempre derivable",
+        "C": "No acotada",
+        "D": "Periódica"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0262",
+      "pregunta": "Si ∫f=3 y ∫g=2 en [a,b], entonces ∫(f+g)=",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Teoremas que justifican las propiedades de la integral de una función"
+      },
+      "respuestas_posibles": {
+        "A": "1",
+        "B": "5",
+        "C": "6",
+        "D": "3/2"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0263",
+      "pregunta": "La propiedad ∫[cf(x)]dx=c∫f(x)dx se llama:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Teoremas que justifican las propiedades de la integral de una función"
+      },
+      "respuestas_posibles": {
+        "A": "Linealidad",
+        "B": "Periodicidad",
+        "C": "Concavidad",
+        "D": "Derivabilidad"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0264",
+      "pregunta": "Si ∫_a^b f(x)dx=7, entonces ∫_b^a f(x)dx=",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.2",
+        "nombre": "Teoremas que justifican las propiedades de la integral de una función"
+      },
+      "respuestas_posibles": {
+        "A": "7",
+        "B": "-7",
+        "C": "0",
+        "D": "14"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0265",
+      "pregunta": "Integra: ∫x³ dx.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Integral inmediata"
+      },
+      "respuestas_posibles": {
+        "A": "x⁴/4+C",
+        "B": "3x²+C",
+        "C": "x⁴+C",
+        "D": "x²/2+C"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0266",
+      "pregunta": "Integra: ∫5 dx.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Integral inmediata"
+      },
+      "respuestas_posibles": {
+        "A": "5x+C",
+        "B": "x⁵+C",
+        "C": "5+C",
+        "D": "ln5+C"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0267",
+      "pregunta": "Integra: ∫1/x dx.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.3",
+        "nombre": "Integral inmediata"
+      },
+      "respuestas_posibles": {
+        "A": "1/x²+C",
+        "B": "ln|x|+C",
+        "C": "x ln x+C",
+        "D": "e^x+C"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0268",
+      "pregunta": "Integra: ∫cos(3x)dx.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Tabla de fórmulas de integración"
+      },
+      "respuestas_posibles": {
+        "A": "sen(3x)+C",
+        "B": "(1/3)sen(3x)+C",
+        "C": "-3sen x+C",
+        "D": "3sen(3x)+C"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0269",
+      "pregunta": "Integra: ∫e^(2x)dx.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Tabla de fórmulas de integración"
+      },
+      "respuestas_posibles": {
+        "A": "2e^(2x)+C",
+        "B": "(1/2)e^(2x)+C",
+        "C": "e^x+C",
+        "D": "e^(2x)+C"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0270",
+      "pregunta": "Integra: ∫sec²x dx.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.4",
+        "nombre": "Tabla de fórmulas de integración"
+      },
+      "respuestas_posibles": {
+        "A": "sec x+C",
+        "B": "tan x+C",
+        "C": "-cot x+C",
+        "D": "sen x+C"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0271",
+      "pregunta": "Para ∫2x cos(x²)dx, una sustitución conveniente es:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Métodos de integración"
+      },
+      "respuestas_posibles": {
+        "A": "u=2x",
+        "B": "u=x²",
+        "C": "u=cos x",
+        "D": "u=x+2"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0272",
+      "pregunta": "Integra por partes: ∫x e^x dx.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Métodos de integración"
+      },
+      "respuestas_posibles": {
+        "A": "xe^x-e^x+C",
+        "B": "xe^x+e^x+C",
+        "C": "e^x+C",
+        "D": "x²e^x/2+C"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0273",
+      "pregunta": "Integra: ∫dx/(x²-1) por fracciones parciales. Una descomposición correcta es:",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.5",
+        "nombre": "Métodos de integración"
+      },
+      "respuestas_posibles": {
+        "A": "1/2[1/(x-1)-1/(x+1)]",
+        "B": "1/(x-1)+1/(x+1)",
+        "C": "1/2[1/(x-1)+1/(x+1)]",
+        "D": "1/x²-1"
+      },
+      "respuesta_correcta": "A",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0274",
+      "pregunta": "Calcula: ∫_0^2 x dx.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Integral definida y su notación"
+      },
+      "respuestas_posibles": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0275",
+      "pregunta": "Si F'=f, entonces ∫_a^b f(x)dx=",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Integral definida y su notación"
+      },
+      "respuestas_posibles": {
+        "A": "F(a)+F(b)",
+        "B": "F(b)-F(a)",
+        "C": "F(a)-F(b)",
+        "D": "f(b)-f(a)"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    },
+    {
+      "id": "MOCK-0276",
+      "pregunta": "Calcula: ∫_1^3 2 dx.",
+      "tema": {
+        "codigo": "17",
+        "nombre": "La integral"
+      },
+      "subtema": {
+        "codigo": "17.6",
+        "nombre": "Integral definida y su notación"
+      },
+      "respuestas_posibles": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "respuesta_correcta": "B",
+      "origen": "reactivo_original_mockup"
+    }
+  ]
+}

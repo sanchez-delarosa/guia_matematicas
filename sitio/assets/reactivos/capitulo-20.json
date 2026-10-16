@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "20",
+    "titulo": "Triángulos",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "20.1",
+        "nombre": "Definición y notación"
+      },
+      {
+        "codigo": "20.2",
+        "nombre": "Clasificación de triángulos"
+      },
+      {
+        "codigo": "20.3",
+        "nombre": "Propiedades angulares"
+      },
+      {
+        "codigo": "20.4",
+        "nombre": "Ángulo exterior"
+      },
+      {
+        "codigo": "20.5",
+        "nombre": "Desigualdad triangular"
+      },
+      {
+        "codigo": "20.6",
+        "nombre": "Rectas y puntos notables"
+      },
+      {
+        "codigo": "20.7",
+        "nombre": "Teorema de Pitágoras"
+      },
+      {
+        "codigo": "20.8",
+        "nombre": "Congruencia de triángulos"
+      },
+      {
+        "codigo": "20.9",
+        "nombre": "Semejanza de triángulos"
+      }
+    ],
+    "criterio_de_inclusion": "Se incluyeron las nueve secciones temáticas 20.1 a 20.9; se omitieron las secciones de síntesis, errores frecuentes y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-20-1-01",
+      "pregunta": "Un triángulo es una figura formada por:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.1",
+        "nombre": "Definición y notación"
+      },
+      "respuestas_posibles": {
+        "A": "Tres segmentos que unen tres puntos no colineales",
+        "B": "Dos semirrectas con origen común",
+        "C": "Cuatro segmentos iguales",
+        "D": "Tres rectas paralelas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "definir triángulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-1-02",
+      "pregunta": "En $\\triangle ABC$, los vértices son:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.1",
+        "nombre": "Definición y notación"
+      },
+      "respuestas_posibles": {
+        "A": "$AB$, $BC$ y $CA$",
+        "B": "$a$, $b$ y $c$ solamente",
+        "C": "$A+B+C$",
+        "D": "$A$, $B$ y $C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar vértices",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-1-03",
+      "pregunta": "En la notación usual, el lado $a$ es opuesto al vértice:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.1",
+        "nombre": "Definición y notación"
+      },
+      "respuestas_posibles": {
+        "A": "$C$",
+        "B": "No tiene vértice opuesto",
+        "C": "$A$",
+        "D": "$B$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "relacionar lado y vértice",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-1-04",
+      "pregunta": "En $\\triangle ABC$, el lado opuesto a $B$ es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.1",
+        "nombre": "Definición y notación"
+      },
+      "respuestas_posibles": {
+        "A": "$ABC$",
+        "B": "$AC$",
+        "C": "$AB$",
+        "D": "$BC$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar lado opuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-1-05",
+      "pregunta": "¿Cuántos lados y ángulos interiores tiene un triángulo?",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.1",
+        "nombre": "Definición y notación"
+      },
+      "respuestas_posibles": {
+        "A": "Tres lados y tres ángulos",
+        "B": "Dos lados y tres ángulos",
+        "C": "Tres lados y cuatro ángulos",
+        "D": "Cuatro lados y tres ángulos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer elementos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-1-06",
+      "pregunta": "La notación $\\triangle ABC$ y $\\triangle BCA$ puede nombrar:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.1",
+        "nombre": "Definición y notación"
+      },
+      "respuestas_posibles": {
+        "A": "Triángulos necesariamente distintos",
+        "B": "Una recta",
+        "C": "Un cuadrilátero",
+        "D": "El mismo triángulo con distinto orden cíclico"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "interpretar notación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-1-07",
+      "pregunta": "Si $a=BC$, entonces $a$ es la longitud del lado:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.1",
+        "nombre": "Definición y notación"
+      },
+      "respuestas_posibles": {
+        "A": "$AB$",
+        "B": "$AC+AB$",
+        "C": "$BC$",
+        "D": "$CA$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "leer convención",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-1-08",
+      "pregunta": "El perímetro de un triángulo con lados $4$, $6$ y $9$ es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.1",
+        "nombre": "Definición y notación"
+      },
+      "respuestas_posibles": {
+        "A": "$216$",
+        "B": "$19$",
+        "C": "$13$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-1-09",
+      "pregunta": "Si el perímetro es $30$ y dos lados miden $8$ y $11$, el tercer lado mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.1",
+        "nombre": "Definición y notación"
+      },
+      "respuestas_posibles": {
+        "A": "$11$",
+        "B": "$9$",
+        "C": "$19$",
+        "D": "$30$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "hallar lado por perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-1-10",
+      "pregunta": "¿Qué condición deben cumplir los tres vértices para formar un triángulo no degenerado?",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.1",
+        "nombre": "Definición y notación"
+      },
+      "respuestas_posibles": {
+        "A": "Estar sobre una misma recta",
+        "B": "Ser equidistantes siempre",
+        "C": "Formar un ángulo recto siempre",
+        "D": "No ser colineales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reconocer no colinealidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-2-01",
+      "pregunta": "Un triángulo con tres lados iguales es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.2",
+        "nombre": "Clasificación de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Escaleno",
+        "B": "Rectángulo",
+        "C": "Equilátero",
+        "D": "Isósceles"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "clasificar por lados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-2-02",
+      "pregunta": "Un triángulo con exactamente dos lados iguales es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.2",
+        "nombre": "Clasificación de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Obtusángulo",
+        "B": "Isósceles",
+        "C": "Equilátero",
+        "D": "Escaleno"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar isósceles",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-2-03",
+      "pregunta": "Un triángulo con tres lados diferentes es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.2",
+        "nombre": "Clasificación de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Escaleno",
+        "B": "Isósceles",
+        "C": "Equilátero",
+        "D": "Acutángulo necesariamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "clasificar escaleno",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-2-04",
+      "pregunta": "Un triángulo con tres ángulos menores de $90^\\circ$ es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.2",
+        "nombre": "Clasificación de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Rectángulo",
+        "B": "Obtusángulo",
+        "C": "Equilátero por definición",
+        "D": "Acutángulo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "clasificar por ángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-2-05",
+      "pregunta": "Un triángulo con un ángulo de $90^\\circ$ es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.2",
+        "nombre": "Clasificación de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Obtusángulo",
+        "B": "Escaleno necesariamente",
+        "C": "Rectángulo",
+        "D": "Acutángulo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "clasificar rectángulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-2-06",
+      "pregunta": "Un triángulo con un ángulo mayor de $90^\\circ$ es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.2",
+        "nombre": "Clasificación de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Equilátero",
+        "B": "Obtusángulo",
+        "C": "Acutángulo",
+        "D": "Rectángulo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar obtusángulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-2-07",
+      "pregunta": "Los ángulos interiores de un triángulo equilátero miden:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.2",
+        "nombre": "Clasificación de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$60^\\circ$ cada uno",
+        "B": "$45^\\circ$ cada uno",
+        "C": "$90^\\circ$ cada uno",
+        "D": "$120^\\circ$ cada uno"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer propiedad equilátera",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-2-08",
+      "pregunta": "Los lados $5$, $5$ y $8$ forman un triángulo:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.2",
+        "nombre": "Clasificación de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Equilátero",
+        "B": "Escaleno",
+        "C": "Rectángulo necesariamente",
+        "D": "Isósceles"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "clasificar por medidas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-2-09",
+      "pregunta": "Los ángulos $30^\\circ$, $60^\\circ$ y $90^\\circ$ forman un triángulo:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.2",
+        "nombre": "Clasificación de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Obtusángulo",
+        "B": "Equilátero",
+        "C": "Rectángulo",
+        "D": "Acutángulo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "clasificar por ángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-2-10",
+      "pregunta": "Un triángulo no puede tener:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.2",
+        "nombre": "Clasificación de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Un ángulo recto",
+        "B": "Dos ángulos obtusos",
+        "C": "Dos ángulos agudos",
+        "D": "Tres ángulos agudos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "razonar con suma angular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-3-01",
+      "pregunta": "La suma de los ángulos interiores de un triángulo es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.3",
+        "nombre": "Propiedades angulares"
+      },
+      "respuestas_posibles": {
+        "A": "$180^\\circ$",
+        "B": "$90^\\circ$",
+        "C": "$270^\\circ$",
+        "D": "$360^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "recordar suma angular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-3-02",
+      "pregunta": "Si dos ángulos miden $48^\\circ$ y $67^\\circ$, el tercero mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.3",
+        "nombre": "Propiedades angulares"
+      },
+      "respuestas_posibles": {
+        "A": "$55^\\circ$",
+        "B": "$75^\\circ$",
+        "C": "$115^\\circ$",
+        "D": "$65^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "hallar tercer ángulo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-3-03",
+      "pregunta": "Un triángulo tiene ángulos $x$, $2x$ y $3x$. Halle $x$.",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.3",
+        "nombre": "Propiedades angulares"
+      },
+      "respuestas_posibles": {
+        "A": "$45^\\circ$",
+        "B": "$60^\\circ$",
+        "C": "$30^\\circ$",
+        "D": "$20^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver ecuación angular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-3-04",
+      "pregunta": "En un triángulo isósceles, los ángulos opuestos a los lados iguales son:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.3",
+        "nombre": "Propiedades angulares"
+      },
+      "respuestas_posibles": {
+        "A": "Diferentes",
+        "B": "Iguales",
+        "C": "Suplementarios",
+        "D": "Rectos siempre"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "usar propiedad isósceles",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-3-05",
+      "pregunta": "El ángulo del vértice de un isósceles es $50^\\circ$. Cada ángulo de la base mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.3",
+        "nombre": "Propiedades angulares"
+      },
+      "respuestas_posibles": {
+        "A": "$65^\\circ$",
+        "B": "$50^\\circ$",
+        "C": "$130^\\circ$",
+        "D": "$25^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular ángulos base",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-3-06",
+      "pregunta": "Los ángulos de la base de un isósceles miden $40^\\circ$. El ángulo del vértice mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.3",
+        "nombre": "Propiedades angulares"
+      },
+      "respuestas_posibles": {
+        "A": "$80^\\circ$",
+        "B": "$40^\\circ$",
+        "C": "$140^\\circ$",
+        "D": "$100^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular ángulo vértice",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-3-07",
+      "pregunta": "Si los ángulos de un triángulo son $2x+10$, $3x$ y $x+20$, entonces $x=$",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.3",
+        "nombre": "Propiedades angulares"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$15^\\circ$",
+        "C": "$25^\\circ$",
+        "D": "$20^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "plantear suma de ángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-3-08",
+      "pregunta": "En un triángulo rectángulo, los dos ángulos agudos son:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.3",
+        "nombre": "Propiedades angulares"
+      },
+      "respuestas_posibles": {
+        "A": "Opuestos por el vértice",
+        "B": "Complementarios",
+        "C": "Suplementarios",
+        "D": "Iguales siempre"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "deducir complementariedad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-3-09",
+      "pregunta": "Un ángulo agudo de un triángulo rectángulo mide $32^\\circ$. El otro mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.3",
+        "nombre": "Propiedades angulares"
+      },
+      "respuestas_posibles": {
+        "A": "$58^\\circ$",
+        "B": "$68^\\circ$",
+        "C": "$148^\\circ$",
+        "D": "$32^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular complementario",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-3-10",
+      "pregunta": "Si dos ángulos de un triángulo son iguales, entonces los lados opuestos son:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.3",
+        "nombre": "Propiedades angulares"
+      },
+      "respuestas_posibles": {
+        "A": "Perpendiculares",
+        "B": "Paralelos",
+        "C": "Suplementarios",
+        "D": "Iguales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar recíproco isósceles",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-4-01",
+      "pregunta": "Un ángulo exterior de un triángulo es igual a:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.4",
+        "nombre": "Ángulo exterior"
+      },
+      "respuestas_posibles": {
+        "A": "La suma de los tres interiores",
+        "B": "La mitad del ángulo adyacente",
+        "C": "La suma de los dos interiores no adyacentes",
+        "D": "El interior adyacente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "recordar teorema exterior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-4-02",
+      "pregunta": "Si los interiores remotos miden $45^\\circ$ y $70^\\circ$, el exterior mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.4",
+        "nombre": "Ángulo exterior"
+      },
+      "respuestas_posibles": {
+        "A": "$180^\\circ$",
+        "B": "$115^\\circ$",
+        "C": "$25^\\circ$",
+        "D": "$125^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "sumar interiores remotos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-4-03",
+      "pregunta": "Un ángulo exterior y su interior adyacente son:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.4",
+        "nombre": "Ángulo exterior"
+      },
+      "respuestas_posibles": {
+        "A": "Suplementarios",
+        "B": "Complementarios",
+        "C": "Iguales siempre",
+        "D": "Opuestos por el vértice"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "relacionar ángulos adyacentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-4-04",
+      "pregunta": "Si un interior adyacente mide $68^\\circ$, el exterior mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.4",
+        "nombre": "Ángulo exterior"
+      },
+      "respuestas_posibles": {
+        "A": "$68^\\circ$",
+        "B": "$22^\\circ$",
+        "C": "$248^\\circ$",
+        "D": "$112^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular suplemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-4-05",
+      "pregunta": "Un exterior mide $130^\\circ$ y un interior remoto $55^\\circ$. El otro remoto mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.4",
+        "nombre": "Ángulo exterior"
+      },
+      "respuestas_posibles": {
+        "A": "$130^\\circ$",
+        "B": "$25^\\circ$",
+        "C": "$75^\\circ$",
+        "D": "$85^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "usar teorema exterior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-4-06",
+      "pregunta": "Los interiores remotos miden $x+10$ y $2x$, y el exterior $100^\\circ$. Halle $x$.",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.4",
+        "nombre": "Ángulo exterior"
+      },
+      "respuestas_posibles": {
+        "A": "$45^\\circ$",
+        "B": "$30^\\circ$",
+        "C": "$20^\\circ$",
+        "D": "$40^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver ecuación exterior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-4-07",
+      "pregunta": "Un ángulo exterior es siempre mayor que:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.4",
+        "nombre": "Ángulo exterior"
+      },
+      "respuestas_posibles": {
+        "A": "Cada interior remoto por separado",
+        "B": "El interior adyacente siempre",
+        "C": "La suma de los tres interiores",
+        "D": "Cualquier ángulo llano"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interpretar desigualdad angular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-4-08",
+      "pregunta": "Si el exterior mide $90^\\circ$, los interiores remotos son:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.4",
+        "nombre": "Ángulo exterior"
+      },
+      "respuestas_posibles": {
+        "A": "Suplementarios",
+        "B": "Iguales necesariamente",
+        "C": "Obtusos ambos",
+        "D": "Complementarios"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "deducir suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-4-09",
+      "pregunta": "En un triángulo equilátero, cada ángulo exterior mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.4",
+        "nombre": "Ángulo exterior"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$180^\\circ$",
+        "C": "$120^\\circ$",
+        "D": "$60^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular exterior regular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-4-10",
+      "pregunta": "La suma de un ángulo exterior en cada vértice, tomados en el mismo sentido, es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.4",
+        "nombre": "Ángulo exterior"
+      },
+      "respuestas_posibles": {
+        "A": "$540^\\circ$",
+        "B": "$360^\\circ$",
+        "C": "$180^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reconocer suma exterior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-5-01",
+      "pregunta": "Para que tres longitudes formen un triángulo, la suma de dos lados cualesquiera debe ser:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.5",
+        "nombre": "Desigualdad triangular"
+      },
+      "respuestas_posibles": {
+        "A": "Mayor que el tercer lado",
+        "B": "Igual al tercer lado",
+        "C": "Menor que el tercer lado",
+        "D": "El doble del tercer lado"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "enunciar desigualdad triangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-5-02",
+      "pregunta": "¿Forman triángulo los lados $4$, $6$ y $9$?",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.5",
+        "nombre": "Desigualdad triangular"
+      },
+      "respuestas_posibles": {
+        "A": "No, porque $4+6<9$",
+        "B": "No, porque falta un ángulo recto",
+        "C": "Solo si es equilátero",
+        "D": "Sí"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "verificar existencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-5-03",
+      "pregunta": "¿Forman triángulo los lados $2$, $3$ y $6$?",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.5",
+        "nombre": "Desigualdad triangular"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, rectángulo",
+        "B": "Sí, isósceles",
+        "C": "No",
+        "D": "Sí, escaleno"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "detectar incumplimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-5-04",
+      "pregunta": "Si dos lados miden $5$ y $8$, el tercero $x$ debe cumplir:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.5",
+        "nombre": "Desigualdad triangular"
+      },
+      "respuestas_posibles": {
+        "A": "$5<x<8$",
+        "B": "$3<x<13$",
+        "C": "$x<3$",
+        "D": "$x>13$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "establecer intervalo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-5-05",
+      "pregunta": "Si dos lados miden $7$ y $11$, ¿cuál puede ser el tercero?",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.5",
+        "nombre": "Desigualdad triangular"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$4$",
+        "C": "$18$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "probar longitud",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-5-06",
+      "pregunta": "Los lados $3$, $4$ y $7$ forman:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.5",
+        "nombre": "Desigualdad triangular"
+      },
+      "respuestas_posibles": {
+        "A": "Un triángulo rectángulo",
+        "B": "Un triángulo equilátero",
+        "C": "Un triángulo obtusángulo ordinario",
+        "D": "Un triángulo degenerado, no un triángulo ordinario"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reconocer igualdad límite",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-5-07",
+      "pregunta": "El lado mayor de un triángulo es siempre:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.5",
+        "nombre": "Desigualdad triangular"
+      },
+      "respuestas_posibles": {
+        "A": "Igual a la suma de los otros dos",
+        "B": "La mitad del perímetro",
+        "C": "Menor que la suma de los otros dos",
+        "D": "Mayor que la suma de los otros dos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "interpretar desigualdad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-5-08",
+      "pregunta": "Un triángulo tiene lados enteros $6$, $9$ y $x$. ¿Cuál es el menor valor entero posible de $x$?",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.5",
+        "nombre": "Desigualdad triangular"
+      },
+      "respuestas_posibles": {
+        "A": "$15$",
+        "B": "$4$",
+        "C": "$3$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "usar diferencia estricta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-5-09",
+      "pregunta": "Si el tercer lado debe satisfacer $|a-b|<c<a+b$, para $a=12$ y $b=5$ se obtiene:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.5",
+        "nombre": "Desigualdad triangular"
+      },
+      "respuestas_posibles": {
+        "A": "$7<c<17$",
+        "B": "$5<c<12$",
+        "C": "$7\\leq c\\leq17$",
+        "D": "$c>17$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar forma compacta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-5-10",
+      "pregunta": "¿Cuál terna sí forma un triángulo?",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.5",
+        "nombre": "Desigualdad triangular"
+      },
+      "respuestas_posibles": {
+        "A": "$1,2,4$",
+        "B": "$5,5,10$",
+        "C": "$3,7,11$",
+        "D": "$8,10,12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "seleccionar terna válida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-6-01",
+      "pregunta": "La mediana une un vértice con:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.6",
+        "nombre": "Rectas y puntos notables"
+      },
+      "respuestas_posibles": {
+        "A": "El centro de un ángulo",
+        "B": "Un punto exterior cualquiera",
+        "C": "El punto medio del lado opuesto",
+        "D": "El vértice opuesto"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "definir mediana",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-6-02",
+      "pregunta": "Las tres medianas se intersectan en el:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.6",
+        "nombre": "Rectas y puntos notables"
+      },
+      "respuestas_posibles": {
+        "A": "Circuncentro",
+        "B": "Baricentro",
+        "C": "Ortocentro",
+        "D": "Incentro"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar baricentro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-6-03",
+      "pregunta": "El baricentro divide cada mediana en razón:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.6",
+        "nombre": "Rectas y puntos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$2:1$ desde el vértice",
+        "B": "$1:1$",
+        "C": "$3:1$",
+        "D": "$1:2$ desde el vértice"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "recordar razón del baricentro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-6-04",
+      "pregunta": "Si una mediana mide $18$ cm, la distancia del vértice al baricentro es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.6",
+        "nombre": "Rectas y puntos notables"
+      },
+      "respuestas_posibles": {
+        "A": "$6$ cm",
+        "B": "$9$ cm",
+        "C": "$18$ cm",
+        "D": "$12$ cm"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar razón 2 a 1",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-6-05",
+      "pregunta": "Las tres alturas se intersectan en el:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.6",
+        "nombre": "Rectas y puntos notables"
+      },
+      "respuestas_posibles": {
+        "A": "Incentro",
+        "B": "Circuncentro",
+        "C": "Ortocentro",
+        "D": "Baricentro"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar ortocentro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-6-06",
+      "pregunta": "Las tres bisectrices interiores se intersectan en el:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.6",
+        "nombre": "Rectas y puntos notables"
+      },
+      "respuestas_posibles": {
+        "A": "Circuncentro",
+        "B": "Incentro",
+        "C": "Ortocentro",
+        "D": "Baricentro"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar incentro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-6-07",
+      "pregunta": "El incentro equidista de:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.6",
+        "nombre": "Rectas y puntos notables"
+      },
+      "respuestas_posibles": {
+        "A": "Los tres lados",
+        "B": "Los tres vértices",
+        "C": "Los puntos medios",
+        "D": "Las alturas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer propiedad del incentro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-6-08",
+      "pregunta": "Las mediatrices de los lados se intersectan en el:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.6",
+        "nombre": "Rectas y puntos notables"
+      },
+      "respuestas_posibles": {
+        "A": "Incentro",
+        "B": "Baricentro",
+        "C": "Ortocentro",
+        "D": "Circuncentro"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar circuncentro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-6-09",
+      "pregunta": "El circuncentro equidista de:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.6",
+        "nombre": "Rectas y puntos notables"
+      },
+      "respuestas_posibles": {
+        "A": "Las medianas",
+        "B": "Los ángulos exteriores",
+        "C": "Los tres vértices",
+        "D": "Los tres lados"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer propiedad del circuncentro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-6-10",
+      "pregunta": "En un triángulo rectángulo, el ortocentro está:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.6",
+        "nombre": "Rectas y puntos notables"
+      },
+      "respuestas_posibles": {
+        "A": "En el incentro",
+        "B": "En el vértice del ángulo recto",
+        "C": "En el punto medio de la hipotenusa",
+        "D": "Siempre fuera del triángulo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "ubicar ortocentro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-7-01",
+      "pregunta": "En un triángulo rectángulo con catetos $a,b$ e hipotenusa $c$:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.7",
+        "nombre": "Teorema de Pitágoras"
+      },
+      "respuestas_posibles": {
+        "A": "$c^2=a^2+b^2$",
+        "B": "$c=a+b$",
+        "C": "$c^2=a^2-b^2$",
+        "D": "$a^2=b^2+c^2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "enunciar Pitágoras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-7-02",
+      "pregunta": "Halle la hipotenusa si los catetos miden $3$ y $4$.",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.7",
+        "nombre": "Teorema de Pitágoras"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$6$",
+        "C": "$12$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular hipotenusa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-7-03",
+      "pregunta": "Halle la hipotenusa si los catetos miden $5$ y $12$.",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.7",
+        "nombre": "Teorema de Pitágoras"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$169$",
+        "C": "$13$",
+        "D": "$17$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer terna pitagórica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-7-04",
+      "pregunta": "La hipotenusa mide $13$ y un cateto $5$. El otro cateto mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.7",
+        "nombre": "Teorema de Pitágoras"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt{194}$",
+        "B": "$12$",
+        "C": "$8$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular cateto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-7-05",
+      "pregunta": "La hipotenusa mide $17$ y un cateto $8$. El otro cateto mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.7",
+        "nombre": "Teorema de Pitágoras"
+      },
+      "respuestas_posibles": {
+        "A": "$15$",
+        "B": "$9$",
+        "C": "$25$",
+        "D": "$\\sqrt{353}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "usar diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-7-06",
+      "pregunta": "La diagonal de un cuadrado de lado $5$ mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.7",
+        "nombre": "Teorema de Pitágoras"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$25$",
+        "C": "$\\sqrt5$",
+        "D": "$5\\sqrt2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar Pitágoras a cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-7-07",
+      "pregunta": "¿Es rectángulo un triángulo de lados $6$, $8$ y $10$?",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.7",
+        "nombre": "Teorema de Pitágoras"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, porque todos los lados son iguales",
+        "B": "No, porque la hipotenusa es $8$",
+        "C": "Sí, porque $6^2+8^2=10^2$",
+        "D": "No, porque $6+8\\neq10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar recíproco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-7-08",
+      "pregunta": "Un triángulo de lados $5$, $6$ y $8$ es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.7",
+        "nombre": "Teorema de Pitágoras"
+      },
+      "respuestas_posibles": {
+        "A": "Degenerado",
+        "B": "No rectángulo, porque $5^2+6^2\\neq8^2$",
+        "C": "Rectángulo",
+        "D": "Equilátero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "verificar recíproco",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-7-09",
+      "pregunta": "Una escalera de $10$ m alcanza $8$ m de altura. Su base está a:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.7",
+        "nombre": "Teorema de Pitágoras"
+      },
+      "respuestas_posibles": {
+        "A": "$6$ m de la pared",
+        "B": "$2$ m",
+        "C": "$18$ m",
+        "D": "$\\sqrt{164}$ m"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "modelar aplicación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-7-10",
+      "pregunta": "El teorema de Pitágoras se aplica directamente a:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.7",
+        "nombre": "Teorema de Pitágoras"
+      },
+      "respuestas_posibles": {
+        "A": "Todo triángulo sin condición",
+        "B": "Solo equiláteros",
+        "C": "Solo isósceles obtusos",
+        "D": "Triángulos rectángulos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reconocer alcance",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-8-01",
+      "pregunta": "Dos triángulos son congruentes si tienen:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.8",
+        "nombre": "Congruencia de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Solo el mismo perímetro",
+        "B": "Áreas proporcionales",
+        "C": "La misma forma y el mismo tamaño",
+        "D": "Solo la misma forma"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "definir congruencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-8-02",
+      "pregunta": "El criterio LLL exige:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.8",
+        "nombre": "Congruencia de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Un lado y dos ángulos no correspondientes",
+        "B": "Tres pares de lados correspondientes iguales",
+        "C": "Dos lados proporcionales",
+        "D": "Tres ángulos iguales solamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "reconocer LLL",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-8-03",
+      "pregunta": "El criterio LAL exige:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.8",
+        "nombre": "Congruencia de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Dos lados y el ángulo comprendido iguales",
+        "B": "Dos lados y cualquier ángulo",
+        "C": "Tres lados proporcionales",
+        "D": "Dos ángulos y ningún lado"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer LAL",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-8-04",
+      "pregunta": "El criterio ALA exige:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.8",
+        "nombre": "Congruencia de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Tres ángulos solamente",
+        "B": "Dos lados y un ángulo",
+        "C": "Una altura y un lado",
+        "D": "Dos ángulos y el lado comprendido iguales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reconocer ALA",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-8-05",
+      "pregunta": "En triángulos rectángulos, el criterio HC compara:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.8",
+        "nombre": "Congruencia de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Dos medianas",
+        "B": "Perímetro y área",
+        "C": "Hipotenusa y un cateto",
+        "D": "Dos ángulos agudos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer HC",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-8-06",
+      "pregunta": "¿Cuál dato no garantiza congruencia en general?",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.8",
+        "nombre": "Congruencia de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "ALA",
+        "B": "LLA",
+        "C": "LLL",
+        "D": "LAL"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "detectar caso ambiguo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-8-07",
+      "pregunta": "Si $\\triangle ABC\\cong\\triangle DEF$, entonces el vértice correspondiente a $B$ es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.8",
+        "nombre": "Congruencia de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$E$",
+        "B": "$D$",
+        "C": "$F$",
+        "D": "$A$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "leer correspondencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-8-08",
+      "pregunta": "Si $\\triangle ABC\\cong\\triangle DEF$ y $AB=7$, entonces $DE=$",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.8",
+        "nombre": "Congruencia de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$14$",
+        "B": "$3.5$",
+        "C": "No se puede determinar",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "transferir longitud",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-8-09",
+      "pregunta": "Los elementos correspondientes de triángulos congruentes son:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.8",
+        "nombre": "Congruencia de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre perpendiculares",
+        "B": "Suplementarios",
+        "C": "Iguales",
+        "D": "Solo proporcionales"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar CPCTC",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-8-10",
+      "pregunta": "Dos triángulos tienen lados $4,6,9$ cada uno. Son congruentes por:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.8",
+        "nombre": "Congruencia de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "HC",
+        "B": "LLL",
+        "C": "AA",
+        "D": "LAL sin ángulo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "seleccionar criterio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-9-01",
+      "pregunta": "Dos triángulos son semejantes si tienen:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.9",
+        "nombre": "Semejanza de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "La misma forma, aunque no necesariamente el mismo tamaño",
+        "B": "El mismo tamaño exclusivamente",
+        "C": "Los tres lados iguales entre sí",
+        "D": "El mismo perímetro siempre"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "definir semejanza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-9-02",
+      "pregunta": "El criterio AA establece semejanza cuando:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.9",
+        "nombre": "Semejanza de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Dos lados son iguales",
+        "B": "Las áreas son iguales",
+        "C": "Un ángulo exterior coincide",
+        "D": "Dos ángulos correspondientes son iguales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "reconocer AA",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-9-03",
+      "pregunta": "En triángulos semejantes, los lados correspondientes son:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.9",
+        "nombre": "Semejanza de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Perpendiculares",
+        "B": "Suplementarios",
+        "C": "Proporcionales",
+        "D": "Iguales siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "usar proporcionalidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-9-04",
+      "pregunta": "Si la razón de semejanza es $3$, los perímetros están en razón:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.9",
+        "nombre": "Semejanza de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt3$",
+        "B": "$3$",
+        "C": "$9$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "escalar perímetros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-9-05",
+      "pregunta": "Si la razón de semejanza es $3$, las áreas están en razón:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.9",
+        "nombre": "Semejanza de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$3$",
+        "C": "$6$",
+        "D": "$27$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "escalar áreas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-9-06",
+      "pregunta": "Un triángulo tiene lados $3,4,5$ y otro $6,8,10$. La razón del primero al segundo es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.9",
+        "nombre": "Semejanza de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$\\frac14$",
+        "C": "$1$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular razón",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-9-07",
+      "pregunta": "Si dos triángulos semejantes tienen razón $2:5$ y un lado menor mide $6$, el correspondiente mayor mide:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.9",
+        "nombre": "Semejanza de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$30$",
+        "C": "$15$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "usar proporción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-9-08",
+      "pregunta": "Una persona de $1.5$ m proyecta sombra de $2$ m. Una torre proyecta sombra de $12$ m. Su altura es:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.9",
+        "nombre": "Semejanza de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$18$ m",
+        "B": "$9$ m",
+        "C": "$8$ m",
+        "D": "$6$ m"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar semejanza a sombras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-9-09",
+      "pregunta": "Dos triángulos con lados proporcionales $2:3$ son semejantes por:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.9",
+        "nombre": "Semejanza de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "LLL de semejanza",
+        "B": "LLL de congruencia",
+        "C": "HC",
+        "D": "Solo por tener igual perímetro"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "reconocer criterio LLL",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-20-9-10",
+      "pregunta": "El criterio LAL de semejanza requiere:",
+      "tema": {
+        "codigo": "20",
+        "nombre": "Triángulos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "20.9",
+        "nombre": "Semejanza de triángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Dos lados iguales y cualquier ángulo",
+        "B": "Tres ángulos diferentes",
+        "C": "Una mediana proporcional",
+        "D": "Dos pares de lados proporcionales y el ángulo comprendido igual"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reconocer LAL de semejanza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

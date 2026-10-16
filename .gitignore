@@ -1,0 +1,16 @@
+# Entornos y temporales
+.tmp/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini

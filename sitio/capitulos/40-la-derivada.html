@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>40. La derivada · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte VII: Cálculo diferencial</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#concepto-de-derivada"><span class="num">40.1</span> Concepto de derivada</a></li><li class="nivel-2"><a href="#interpretacion-del-signo"><span class="num">40.2</span> Interpretación del signo</a></li><li class="nivel-2"><a href="#reglas-basicas-de-derivacion"><span class="num">40.3</span> Reglas básicas de derivación</a></li><li class="nivel-3"><a href="#constante"><span class="num">40.3.1</span> Constante</a></li><li class="nivel-3"><a href="#potencia"><span class="num">40.3.2</span> Potencia</a></li><li class="nivel-3"><a href="#multiplo-constante"><span class="num">40.3.3</span> Múltiplo constante</a></li><li class="nivel-3"><a href="#suma-y-resta"><span class="num">40.3.4</span> Suma y resta</a></li><li class="nivel-2"><a href="#producto-y-cociente"><span class="num">40.4</span> Producto y cociente</a></li><li class="nivel-3"><a href="#regla-del-producto"><span class="num">40.4.1</span> Regla del producto</a></li><li class="nivel-3"><a href="#regla-del-cociente"><span class="num">40.4.2</span> Regla del cociente</a></li><li class="nivel-2"><a href="#regla-de-la-cadena"><span class="num">40.5</span> Regla de la cadena</a></li><li class="nivel-2"><a href="#derivadas-trigonometricas"><span class="num">40.6</span> Derivadas trigonométricas</a></li><li class="nivel-2"><a href="#funciones-exponenciales-y-logaritmicas"><span class="num">40.7</span> Funciones exponenciales y logarítmicas</a></li><li class="nivel-2"><a href="#resumen-de-reglas"><span class="num">40.8</span> Resumen de reglas</a></li><li class="nivel-2"><a href="#derivacion-implicita"><span class="num">40.9</span> Derivación implícita</a></li><li class="nivel-2"><a href="#recta-tangente-y-recta-normal"><span class="num">40.10</span> Recta tangente y recta normal</a></li><li class="nivel-2"><a href="#razon-de-cambio"><span class="num">40.11</span> Razón de cambio</a></li><li class="nivel-2"><a href="#derivadas-sucesivas"><span class="num">40.12</span> Derivadas sucesivas</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">40.13</span> Procedimiento rápido</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">40.14</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">40.15</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 40</p><h1>La derivada</h1></header>
+<p><span id="cap-la-derivada" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span> <span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>La derivada mide la rapidez con la que cambia una función.</p>
+<p>Geométricamente, representa la pendiente de la recta tangente a una curva. En aplicaciones físicas puede representar velocidad, aceleración, crecimiento o cualquier razón de cambio instantánea.</p>
+<h2 id="concepto-de-derivada"><span class="num">40.1</span> Concepto de derivada<a class="enlace-seccion" href="#concepto-de-derivada" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>derivada</strong> de una función \(f\) se define mediante:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = \lim_{h\to0} \frac{f(x+h)-f(x)}{h}\]</span></div>
+<p>si el límite existe.</p></div></section>
+<p>También puede escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x), \qquad y', \qquad \frac{dy}{dx}, \qquad \frac{df}{dx}.\]</span></div>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La derivada en un punto:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x_0)\]</span></div>
+<p>es la pendiente de la recta tangente a la gráfica de \(f\) en:</p>
+<div class="mate"><span class="mate-bloque">\[P(x_0,f(x_0)).\]</span></div></div></section>
+<p>La ecuación de la recta tangente es:</p>
+<div class="mate"><span class="mate-bloque">\[y-f(x_0) = f'(x_0)(x-x_0).\]</span></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-6628ef96f54b.svg" alt="Figura 40.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La recta secante pasa por dos puntos de la curva. Cuando el segundo punto se aproxima al primero, la recta secante se aproxima a la recta tangente.</p></div></section>
+<h2 id="interpretacion-del-signo"><span class="num">40.2</span> Interpretación del signo<a class="enlace-seccion" href="#interpretacion-del-signo" aria-label="Enlace a esta sección">#</a></h2>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|c} \text{Signo de }f'(x) &amp; \text{Comportamiento de }f\\ \hline f'(x)&gt;0 &amp; \text{creciente}\\ f'(x)&lt;0 &amp; \text{decreciente}\\ f'(x)=0 &amp; \text{tangente horizontal} \end{array}\]</span></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-f0d3cdc1382b.svg" alt="Figura 40.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="reglas-basicas-de-derivacion"><span class="num">40.3</span> Reglas básicas de derivación<a class="enlace-seccion" href="#reglas-basicas-de-derivacion" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="constante"><span class="num">40.3.1</span> Constante<a class="enlace-seccion" href="#constante" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(c)=0\]</span></div>
+<h3 id="potencia"><span class="num">40.3.2</span> Potencia<a class="enlace-seccion" href="#potencia" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(x^n)=nx^{n-1}\]</span></div>
+<h3 id="multiplo-constante"><span class="num">40.3.3</span> Múltiplo constante<a class="enlace-seccion" href="#multiplo-constante" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}[c\,f(x)] = c\,f'(x)\]</span></div>
+<h3 id="suma-y-resta"><span class="num">40.3.4</span> Suma y resta<a class="enlace-seccion" href="#suma-y-resta" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}[f(x)\pm g(x)] = f'(x)\pm g'(x)\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-40-1"><div class="caja-titulo">Ejemplo 40.1</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=5x^4-3x^2+7x-2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Derivamos término a término:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = 5(4x^3)-3(2x)+7.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=20x^3-6x+7\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-40-2"><div class="caja-titulo">Ejemplo 40.2</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=4x^{-2}+3\sqrt{x}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{x}=x^{1/2}.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = 4(-2)x^{-3} + 3\left(\frac12\right)x^{-1/2}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = -\frac{8}{x^3} + \frac{3}{2\sqrt{x}}\]</span></div></div></details></div></section>
+<h2 id="producto-y-cociente"><span class="num">40.4</span> Producto y cociente<a class="enlace-seccion" href="#producto-y-cociente" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="regla-del-producto"><span class="num">40.4.1</span> Regla del producto<a class="enlace-seccion" href="#regla-del-producto" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[(fg)' = f'g+fg'\]</span></div>
+<p>Una forma útil de recordarla es:</p>
+<div class="mate"><span class="mate-bloque">\[\text{derivada del primero por el segundo} + \text{primero por la derivada del segundo}.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-40-3"><div class="caja-titulo">Ejemplo 40.3</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=(3x^2+1)(x-2).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Definimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=3x^2+1, \qquad v=x-2.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[u'=6x, \qquad v'=1.\]</span></div>
+<p>Aplicamos la regla del producto:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = 6x(x-2) + (3x^2+1)(1).\]</span></div>
+<p>Simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=9x^2-12x+1\]</span></div></div></details></div></section>
+<h3 id="regla-del-cociente"><span class="num">40.4.2</span> Regla del cociente<a class="enlace-seccion" href="#regla-del-cociente" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{f}{g}\right)' = \frac{f'g-fg'}{g^2}\]</span></div>
+<p>con:</p>
+<div class="mate"><span class="mate-bloque">\[g(x)\neq0.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-40-4"><div class="caja-titulo">Ejemplo 40.4</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{2x+1}{x-3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[u=2x+1, \qquad v=x-3,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[u'=2, \qquad v'=1.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = \frac{2(x-3)-(2x+1)(1)} {(x-3)^2}.\]</span></div>
+<p>Simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = -\frac{7}{(x-3)^2}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La derivada de un producto no es:</p>
+<div class="mate"><span class="mate-bloque">\[f'g'.\]</span></div>
+<p>La derivada de un cociente tampoco es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{f'}{g'}.\]</span></div>
+<p>Deben utilizarse las reglas completas.</p></div></section>
+<h2 id="regla-de-la-cadena"><span class="num">40.5</span> Regla de la cadena<a class="enlace-seccion" href="#regla-de-la-cadena" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Regla de la cadena</div><div class="caja-cuerpo"><p>Si una función está compuesta dentro de otra:</p>
+<div class="mate"><span class="mate-bloque">\[y=f(g(x)),\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{dy}{dx} = f'(g(x))\,g'(x)\]</span></div></div></section>
+<p>De manera práctica:</p>
+<div class="mate"><span class="mate-bloque">\[\text{derivada exterior} \times \text{derivada interior}\]</span></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-56599af6069c.svg" alt="Figura 40.3" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-40-5"><div class="caja-titulo">Ejemplo 40.5</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=(2x^3+5)^4.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La función exterior es la cuarta potencia:</p>
+<div class="mate"><span class="mate-bloque">\[4(2x^3+5)^3.\]</span></div>
+<p>La derivada interior es:</p>
+<div class="mate"><span class="mate-bloque">\[6x^2.\]</span></div>
+<p>Multiplicamos:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = 24x^2(2x^3+5)^3\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-40-6"><div class="caja-titulo">Ejemplo 40.6</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{3x+1}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=(3x+1)^{1/2}.\]</span></div>
+<p>Aplicamos la regla de la cadena:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = \frac12(3x+1)^{-1/2}(3).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = \frac{3}{2\sqrt{3x+1}}\]</span></div></div></details></div></section>
+<h2 id="derivadas-trigonometricas"><span class="num">40.6</span> Derivadas trigonométricas<a class="enlace-seccion" href="#derivadas-trigonometricas" aria-label="Enlace a esta sección">#</a></h2>
+<p>Los ángulos deben estar expresados en radianes.</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{d}{dx}(\sen x) &amp;= \cos x,\\[4pt] \frac{d}{dx}(\cos x) &amp;= -\sen x,\\[4pt] \frac{d}{dx}(\tan x) &amp;= \sec^2x,\\[4pt] \frac{d}{dx}(\cot x) &amp;= -\csc^2x,\\[4pt] \frac{d}{dx}(\sec x) &amp;= \sec x\tan x,\\[4pt] \frac{d}{dx}(\csc x) &amp;= -\csc x\cot x. \end{aligned}\]</span></div>
+<p>Con regla de la cadena:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}[\sen u] = \cos u\cdot u'\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}[\cos u] = -\sen u\cdot u'\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}[\tan u] = \sec^2u\cdot u'\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-40-7"><div class="caja-titulo">Ejemplo 40.7</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=3\sen x+2\cos x.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[f'(x) = 3\cos x-2\sen x\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-40-8"><div class="caja-titulo">Ejemplo 40.8</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sen(3x^2+1).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la regla de la cadena:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = \cos(3x^2+1)(6x).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = 6x\cos(3x^2+1)\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-40-9"><div class="caja-titulo">Ejemplo 40.9</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=4\cot(2x).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[f'(x) = 42.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = -8\csc^2(2x)\]</span></div></div></details></div></section>
+<h2 id="funciones-exponenciales-y-logaritmicas"><span class="num">40.7</span> Funciones exponenciales y logarítmicas<a class="enlace-seccion" href="#funciones-exponenciales-y-logaritmicas" aria-label="Enlace a esta sección">#</a></h2>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(e^x)=e^x\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(a^x)=a^x\ln a\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(\ln x)=\frac{1}{x}\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(\log_a x) = \frac{1}{x\ln a}\]</span></div>
+<p>Con regla de la cadena:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(e^u) = e^u u'\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(\ln u) = \frac{u'}{u}\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(a^u) = a^u\ln(a)\,u'\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-40-10"><div class="caja-titulo">Ejemplo 40.10</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=e^{5x}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[f'(x) = e^{5x}(5).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=5e^{5x}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-40-11"><div class="caja-titulo">Ejemplo 40.11</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\ln(x^2+1).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[f'(x) = \frac{2x}{x^2+1}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = \frac{2x}{x^2+1}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-40-12"><div class="caja-titulo">Ejemplo 40.12</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=2^{3x}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[f'(x) = 2^{3x}\ln2\,(3).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x) = 3\ln2\,2^{3x}\]</span></div></div></details></div></section>
+<h2 id="resumen-de-reglas"><span class="num">40.8</span> Resumen de reglas<a class="enlace-seccion" href="#resumen-de-reglas" aria-label="Enlace a esta sección">#</a></h2>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (c)'&amp;=0,\\ (x^n)'&amp;=nx^{n-1},\\ (cf)'&amp;=cf',\\ (f\pm g)'&amp;=f'\pm g',\\ (fg)'&amp;=f'g+fg',\\ \left(\frac{f}{g}\right)' &amp;= \frac{f'g-fg'}{g^2},\\ [f(g(x))]' &amp;= f'(g(x))g'(x). \end{aligned}\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (\sen x)'&amp;=\cos x,\\ (\cos x)'&amp;=-\sen x,\\ (\tan x)'&amp;=\sec^2x,\\ (e^x)'&amp;=e^x,\\ (a^x)'&amp;=a^x\ln a,\\ (\ln x)'&amp;=\frac1x. \end{aligned}\]</span></div>
+<h2 id="derivacion-implicita"><span class="num">40.9</span> Derivación implícita<a class="enlace-seccion" href="#derivacion-implicita" aria-label="Enlace a esta sección">#</a></h2>
+<p>Cuando una ecuación contiene a \(x\) y \(y\) sin despejar, se deriva implícitamente.</p>
+<p>Cada vez que se deriva una expresión con \(y\), debe multiplicarse por:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{dy}{dx}.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-40-13"><div class="caja-titulo">Ejemplo 40.13</div><div class="caja-cuerpo"><p>Encuentra:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{dy}{dx}\]</span></div>
+<p>si:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=25.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Derivamos:</p>
+<div class="mate"><span class="mate-bloque">\[2x+2y\frac{dy}{dx}=0.\]</span></div>
+<p>Despejamos:</p>
+<div class="mate"><span class="mate-bloque">\[2y\frac{dy}{dx} = -2x.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{dy}{dx} = -\frac{x}{y}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-40-14"><div class="caja-titulo">Ejemplo 40.14</div><div class="caja-cuerpo"><p>Encuentra:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{dy}{dx}\]</span></div>
+<p>si:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+xy-y^2=4.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Derivamos término a término:</p>
+<div class="mate"><span class="mate-bloque">\[2x + \left( y+x\frac{dy}{dx} \right) - 2y\frac{dy}{dx} = 0.\]</span></div>
+<p>Agrupamos:</p>
+<div class="mate"><span class="mate-bloque">\[2x+y + (x-2y)\frac{dy}{dx} = 0.\]</span></div>
+<p>Despejamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x-2y)\frac{dy}{dx} = -2x-y.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{dy}{dx} = \frac{2x+y}{2y-x}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al derivar el producto:</p>
+<div class="mate"><span class="mate-bloque">\[xy,\]</span></div>
+<p>debe utilizarse la regla del producto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx}(xy) = y+x\frac{dy}{dx}.\]</span></div></div></section>
+<h2 id="recta-tangente-y-recta-normal"><span class="num">40.10</span> Recta tangente y recta normal<a class="enlace-seccion" href="#recta-tangente-y-recta-normal" aria-label="Enlace a esta sección">#</a></h2>
+<p>Sea:</p>
+<div class="mate"><span class="mate-bloque">\[P(x_0,f(x_0)).\]</span></div>
+<p>La pendiente tangente es:</p>
+<div class="mate"><span class="mate-bloque">\[m_t=f'(x_0)\]</span></div>
+<p>La recta tangente es:</p>
+<div class="mate"><span class="mate-bloque">\[y-f(x_0) = f'(x_0)(x-x_0)\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x_0)\neq0,\]</span></div>
+<p>la pendiente de la recta normal es:</p>
+<div class="mate"><span class="mate-bloque">\[m_n = -\frac{1}{f'(x_0)}\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-40-15"><div class="caja-titulo">Ejemplo 40.15</div><div class="caja-cuerpo"><p>Encuentra la recta tangente a:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2\]</span></div>
+<p>en:</p>
+<div class="mate"><span class="mate-bloque">\[x=2.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El punto es:</p>
+<div class="mate"><span class="mate-bloque">\[P(2,4).\]</span></div>
+<p>Derivamos:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=2x.\]</span></div>
+<p>La pendiente en \(x=2\) es:</p>
+<div class="mate"><span class="mate-bloque">\[f'(2)=4.\]</span></div>
+<p>Utilizamos la forma punto-pendiente:</p>
+<div class="mate"><span class="mate-bloque">\[y-4 = 4(x-2).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[y=4x-4\]</span></div></div></details></div></section>
+<h2 id="razon-de-cambio"><span class="num">40.11</span> Razón de cambio<a class="enlace-seccion" href="#razon-de-cambio" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si una posición está dada por:</p>
+<div class="mate"><span class="mate-bloque">\[s(t),\]</span></div>
+<p>entonces la velocidad instantánea es:</p>
+<div class="mate"><span class="mate-bloque">\[v(t)=s'(t)\]</span></div>
+<p>La aceleración es:</p>
+<div class="mate"><span class="mate-bloque">\[a(t)=v'(t)=s''(t).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-40-16"><div class="caja-titulo">Ejemplo 40.16</div><div class="caja-cuerpo"><p>La posición de una partícula es:</p>
+<div class="mate"><span class="mate-bloque">\[s(t)=t^3-6t^2+9t.\]</span></div>
+<p>Encuentra la velocidad y la aceleración.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La velocidad es:</p>
+<div class="mate"><span class="mate-bloque">\[v(t) = s'(t) = 3t^2-12t+9.\]</span></div>
+<p>La aceleración es:</p>
+<div class="mate"><span class="mate-bloque">\[a(t) = v'(t) = 6t-12.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[v(t)=3t^2-12t+9\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[a(t)=6t-12\]</span></div></div></details></div></section>
+<h2 id="derivadas-sucesivas"><span class="num">40.12</span> Derivadas sucesivas<a class="enlace-seccion" href="#derivadas-sucesivas" aria-label="Enlace a esta sección">#</a></h2>
+<p>La segunda derivada es:</p>
+<div class="mate"><span class="mate-bloque">\[f''(x) = \frac{d}{dx}[f'(x)].\]</span></div>
+<p>También se escribe:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d^2y}{dx^2}.\]</span></div>
+<p>Las derivadas posteriores se representan mediante:</p>
+<div class="mate"><span class="mate-bloque">\[f'''(x), \qquad f^{(4)}(x), \qquad \dots, \qquad f^{(n)}(x).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-40-17"><div class="caja-titulo">Ejemplo 40.17</div><div class="caja-cuerpo"><p>Encuentra la segunda derivada de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^4-3x^2+2x-5.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Primera derivada:</p>
+<div class="mate"><span class="mate-bloque">\[f'(x)=4x^3-6x+2.\]</span></div>
+<p>Segunda derivada:</p>
+<div class="mate"><span class="mate-bloque">\[f''(x)=12x^2-6\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-40-18"><div class="caja-titulo">Ejemplo 40.18</div><div class="caja-cuerpo"><p>Encuentra:</p>
+<div class="mate"><span class="mate-bloque">\[f^{(5)}(x)\]</span></div>
+<p>si:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=e^{2x}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Cada derivada introduce un factor \(2\):</p>
+<div class="mate"><span class="mate-bloque">\[f^{(n)}(x)=2^n e^{2x}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[f^{(5)}(x)=32e^{2x}\]</span></div></div></details></div></section>
+<h2 id="procedimiento-rapido"><span class="num">40.13</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<ol><li>Simplifica la función si es posible.</li><li><p>Identifica la operación principal:</p>
+<ul><li>suma o resta;</li><li>producto;</li><li>cociente;</li><li>composición.</li></ul></li><li>Selecciona la regla correspondiente.</li><li>Si existe una función dentro de otra, aplica la regla de la cadena.</li><li>Simplifica la derivada.</li><li>Verifica el dominio de la función original.</li></ol>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-ebaba35097ca.svg" alt="Figura 40.4" loading="lazy" decoding="async"></figure></div>
+<h2 id="errores-frecuentes"><span class="num">40.14</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>En la regla de la potencia, el exponente disminuye en una unidad: <span class="mate-bloque">\[x^n\longrightarrow nx^{n-1}.\]</span></li><li>La derivada de una constante es cero.</li><li>La derivada de un producto no es el producto de las derivadas.</li><li>La derivada de un cociente no es el cociente de las derivadas.</li><li>En una función compuesta debe incluirse la derivada de la función interior.</li><li>Se cumple: <span class="mate-bloque">\[(\cos x)'=-\sen x.\]</span></li><li>Se cumple: <span class="mate-bloque">\[(\ln u)'=\frac{u'}{u},\]</span> no solamente \(1/u\).</li><li>En derivación implícita, cada derivada de \(y\) incluye: <span class="mate-bloque">\[\frac{dy}{dx}.\]</span></li><li>Las fórmulas trigonométricas de derivación suponen que los ángulos se expresan en radianes.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">40.15</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-40-1"><div class="caja-titulo">Ejercicio 40.1</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=7x^3-4x^2+6x-1.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Derivamos término a término: <span class="mate-bloque">\[f'(x)=21x^2-8x+6.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-40-2"><div class="caja-titulo">Ejercicio 40.2</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{3x+2}{x-1}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la regla del cociente: <span class="mate-bloque">\[f'(x)=\frac{3(x-1)-(3x+2)(1)}{(x-1)^2}=\frac{3x-3-3x-2}{(x-1)^2}=-\frac{5}{(x-1)^2}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-40-3"><div class="caja-titulo">Ejercicio 40.3</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=(x^2+1)(2x-3).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la regla del producto: <span class="mate-bloque">\[f'(x)=(2x)(2x-3)+(x^2+1)(2)=4x^2-6x+2x^2+2=6x^2-6x+2.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-40-4"><div class="caja-titulo">Ejercicio 40.4</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sen(2x)+\cos(3x).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos las reglas trigonométricas con regla de la cadena: <span class="mate-bloque">\[f'(x)=2\cos(2x)-3\sen(3x).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-40-5"><div class="caja-titulo">Ejercicio 40.5</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\tan x\,\sen x.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la regla del producto: <span class="mate-bloque">\[f'(x)=\sec^2 x\sen x+\tan x\cos x.\]</span> (Esto puede simplificarse a \(\sec x\tan x+\sen x\)).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-40-6"><div class="caja-titulo">Ejercicio 40.6</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\ln(x^3+2x).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la regla del logaritmo: <span class="mate-bloque">\[f'(x)=\frac{3x^2+2}{x^3+2x}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-40-7"><div class="caja-titulo">Ejercicio 40.7</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=e^{x^2+1}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la regla exponencial con regla de la cadena: <span class="mate-bloque">\[f'(x)=e^{x^2+1}(2x)=2x e^{x^2+1}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-40-8"><div class="caja-titulo">Ejercicio 40.8</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=(3x^2-1)^5.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la regla de la cadena (potencia): <span class="mate-bloque">\[f'(x)=5(3x^2-1)^4(6x)=30x(3x^2-1)^4.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-40-9"><div class="caja-titulo">Ejercicio 40.9</div><div class="caja-cuerpo"><p>Deriva:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{2x^2+5}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos \(f(x)=(2x^2+5)^{1/2}\) y aplicamos regla de la cadena: <span class="mate-bloque">\[f'(x)=\frac{1}{2}(2x^2+5)^{-1/2}(4x)=\frac{2x}{\sqrt{2x^2+5}}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-40-10"><div class="caja-titulo">Ejercicio 40.10</div><div class="caja-cuerpo"><p>Encuentra:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{dy}{dx}\]</span></div>
+<p>si:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+y^2=16.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Derivamos implícitamente: <span class="mate-bloque">\[2x+2y\frac{dy}{dx}=0.\]</span> Despejando: <span class="mate-bloque">\[\frac{dy}{dx}=-\frac{x}{y}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-40-11"><div class="caja-titulo">Ejercicio 40.11</div><div class="caja-cuerpo"><p>Encuentra la recta tangente a:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^3-2x\]</span></div>
+<p>en:</p>
+<div class="mate"><span class="mate-bloque">\[x=1.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El punto es \((1,f(1))=(1,-1)\). La derivada es \(f'(x)=3x^2-2\), por lo que la pendiente es \(m_t=f'(1)=1\). La recta tangente es \(y-(-1)=1(x-1)\), lo que da \(y=x-2\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-40-12"><div class="caja-titulo">Ejercicio 40.12</div><div class="caja-cuerpo"><p>Encuentra la segunda derivada de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^5-2x^3+x.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos la primera derivada: <span class="mate-bloque">\[f'(x)=5x^4-6x^2+1.\]</span> Calculamos la segunda derivada: <span class="mate-bloque">\[f''(x)=20x^3-12x.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="39-limites.html"><span>← Anterior</span>39. Límites</a><a class="nav-siguiente" href="41-aplicaciones-derivada.html"><span>Siguiente →</span>41. Aplicaciones de la derivada</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

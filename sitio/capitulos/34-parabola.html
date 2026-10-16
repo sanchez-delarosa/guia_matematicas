@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>34. Parábola · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte VI: Geometría analítica</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#definicion-y-elementos"><span class="num">34.1</span> Definición y elementos</a></li><li class="nivel-2"><a href="#formas-ordinarias"><span class="num">34.2</span> Formas ordinarias</a></li><li class="nivel-3"><a href="#parabola-horizontal"><span class="num">34.2.1</span> Parábola horizontal</a></li><li class="nivel-3"><a href="#parabola-vertical"><span class="num">34.2.2</span> Parábola vertical</a></li><li class="nivel-2"><a href="#vertice-en-el-origen"><span class="num">34.3</span> Vértice en el origen</a></li><li class="nivel-2"><a href="#vertice-fuera-del-origen"><span class="num">34.4</span> Vértice fuera del origen</a></li><li class="nivel-2"><a href="#de-la-forma-general-a-la-ordinaria"><span class="num">34.5</span> De la forma general a la ordinaria</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">34.6</span> Procedimiento rápido</a></li><li class="nivel-2"><a href="#resumen"><span class="num">34.7</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">34.8</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">34.9</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 34</p><h1>Parábola</h1></header>
+<p><span id="cap-parabola" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>La parábola es una sección cónica definida mediante un foco y una directriz. Para resolver ejercicios es importante reconocer su orientación, identificar el parámetro \(p\) y calcular el vértice, el foco, la directriz, el eje focal y el lado recto.</p>
+<h2 id="definicion-y-elementos"><span class="num">34.1</span> Definición y elementos<a class="enlace-seccion" href="#definicion-y-elementos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>parábola</strong> es el conjunto de puntos del plano que se encuentran a la misma distancia de un punto fijo, llamado <strong>foco</strong>, y de una recta fija, llamada <strong>directriz</strong>:</p>
+<div class="mate"><span class="mate-bloque">\[d(P,F)=d(P,\ell).\]</span></div></div></section>
+<p>Sus elementos principales son:</p>
+<ul><li><strong>Vértice \(V\)</strong>: punto donde inicia la abertura.</li><li><strong>Foco \(F\)</strong>: punto fijo situado dentro de la parábola.</li><li><strong>Directriz</strong>: recta situada frente a la abertura.</li><li><strong>Eje focal</strong>: eje de simetría que pasa por \(V\) y \(F\).</li><li><strong>Parámetro \(p\)</strong>: número que determina la orientación y la distancia entre el vértice y el foco.</li><li><strong>Lado recto</strong>: cuerda que pasa por el foco y es perpendicular al eje focal.</li></ul>
+<p>Las relaciones fundamentales son:</p>
+<div class="mate"><span class="mate-bloque">\[VF=|p|\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[|LR|=|4p|.\]</span></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-6dcc83d36052.svg" alt="Figura 34.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="formas-ordinarias"><span class="num">34.2</span> Formas ordinarias<a class="enlace-seccion" href="#formas-ordinarias" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="parabola-horizontal"><span class="num">34.2.1</span> Parábola horizontal<a class="enlace-seccion" href="#parabola-horizontal" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[(y-k)^2=4p(x-h)\]</span></div>
+<div class="mate"><span class="mate-bloque">\[V(h,k), \qquad F(h+p,k),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{directriz: }x=h-p, \qquad \text{eje focal: }y=k.\]</span></div>
+<ul><li>Si \(p&gt;0\), abre hacia la derecha.</li><li>Si \(p&lt;0\), abre hacia la izquierda.</li></ul>
+<h3 id="parabola-vertical"><span class="num">34.2.2</span> Parábola vertical<a class="enlace-seccion" href="#parabola-vertical" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2=4p(y-k)\]</span></div>
+<div class="mate"><span class="mate-bloque">\[V(h,k), \qquad F(h,k+p),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{directriz: }y=k-p, \qquad \text{eje focal: }x=h.\]</span></div>
+<ul><li>Si \(p&gt;0\), abre hacia arriba.</li><li>Si \(p&lt;0\), abre hacia abajo.</li></ul>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Regla rápida</div><div class="caja-cuerpo"><p>La variable elevada al cuadrado determina la orientación del eje:</p>
+<div class="mate"><span class="mate-bloque">\[y^2 \quad\Longrightarrow\quad \text{parábola horizontal},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[x^2 \quad\Longrightarrow\quad \text{parábola vertical}.\]</span></div></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-8f01636ae448.svg" alt="Figura 34.2" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El coeficiente que aparece en la ecuación es \(4p\), no \(p\).</p>
+<p>Por ejemplo, si:</p>
+<div class="mate"><span class="mate-bloque">\[4p=12,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[p=3.\]</span></div></div></section>
+<h2 id="vertice-en-el-origen"><span class="num">34.3</span> Vértice en el origen<a class="enlace-seccion" href="#vertice-en-el-origen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Cuando:</p>
+<div class="mate"><span class="mate-bloque">\[V(0,0),\]</span></div>
+<p>se utilizan las formas:</p>
+<div class="mate"><span class="mate-bloque">\[y^2=4px\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[x^2=4py.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-34-1"><div class="caja-titulo">Ejemplo 34.1</div><div class="caja-cuerpo"><p>Encuentra los elementos de:</p>
+<div class="mate"><span class="mate-bloque">\[y^2=8x.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Comparamos con:</p>
+<div class="mate"><span class="mate-bloque">\[y^2=4px.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[4p=8 \quad\Longrightarrow\quad p=2.\]</span></div>
+<p>Como \(p&gt;0\), abre hacia la derecha.</p>
+<div class="mate"><span class="mate-bloque">\[V(0,0), \qquad F(2,0),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{directriz: }x=-2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{eje focal: }y=0,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[|LR|=8.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-fc7773aa0836.svg" alt="Figura 34.3" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-34-2"><div class="caja-titulo">Ejemplo 34.2</div><div class="caja-cuerpo"><p>Encuentra los elementos de:</p>
+<div class="mate"><span class="mate-bloque">\[x^2=-12y.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Comparamos con:</p>
+<div class="mate"><span class="mate-bloque">\[x^2=4py.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[4p=-12 \quad\Longrightarrow\quad p=-3.\]</span></div>
+<p>Como \(p&lt;0\), abre hacia abajo.</p>
+<div class="mate"><span class="mate-bloque">\[V(0,0), \qquad F(0,-3),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{directriz: }y=3,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{eje focal: }x=0,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[|LR|=12.\]</span></div></div></details></div></section>
+<h2 id="vertice-fuera-del-origen"><span class="num">34.4</span> Vértice fuera del origen<a class="enlace-seccion" href="#vertice-fuera-del-origen" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-34-3"><div class="caja-titulo">Ejemplo 34.3</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la parábola con:</p>
+<div class="mate"><span class="mate-bloque">\[V(2,1) \qquad\text{y}\qquad F(2,4).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El vértice y el foco tienen la misma coordenada \(x\). Por tanto, la parábola es vertical.</p>
+<div class="mate"><span class="mate-bloque">\[p=4-1=3.\]</span></div>
+<p>Como \(p&gt;0\), abre hacia arriba.</p>
+<div class="mate"><span class="mate-bloque">\[(x-h)^2=4p(y-k).\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[(x-2)^2=12(y-1).\]</span></div>
+<p>Sus elementos son:</p>
+<div class="mate"><span class="mate-bloque">\[F(2,4),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{directriz: }y=-2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{eje focal: }x=2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[|LR|=12.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-235d2fa79d4e.svg" alt="Figura 34.4" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-34-4"><div class="caja-titulo">Ejemplo 34.4</div><div class="caja-cuerpo"><p>Encuentra la ecuación de la parábola con:</p>
+<div class="mate"><span class="mate-bloque">\[V(-1,-2) \qquad\text{y}\qquad F(2,-2).\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El vértice y el foco tienen la misma coordenada \(y\). Por tanto, la parábola es horizontal.</p>
+<div class="mate"><span class="mate-bloque">\[p=2-(-1)=3.\]</span></div>
+<p>Como \(p&gt;0\), abre hacia la derecha.</p>
+<div class="mate"><span class="mate-bloque">\[(y-k)^2=4p(x-h).\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[(y+2)^2=12(x+1).\]</span></div>
+<p>Sus elementos son:</p>
+<div class="mate"><span class="mate-bloque">\[F(2,-2),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{directriz: }x=-4,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{eje focal: }y=-2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[|LR|=12.\]</span></div></div></details></div></section>
+<h2 id="de-la-forma-general-a-la-ordinaria"><span class="num">34.5</span> De la forma general a la ordinaria<a class="enlace-seccion" href="#de-la-forma-general-a-la-ordinaria" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una parábola no rotada contiene solo una variable elevada al cuadrado.</p>
+<div class="mate"><span class="mate-bloque">\[Ax^2+Dx+Ey+F=0\]</span></div>
+<p>representa una parábola vertical, mientras que:</p>
+<div class="mate"><span class="mate-bloque">\[Cy^2+Dx+Ey+F=0\]</span></div>
+<p>representa una parábola horizontal.</p>
+<p>Para obtener sus elementos se completa el cuadrado.</p>
+<section class="caja caja-ejemplo" id="ejemplo-34-5"><div class="caja-titulo">Ejemplo 34.5</div><div class="caja-cuerpo"><p>Transforma:</p>
+<div class="mate"><span class="mate-bloque">\[y^2-6y-8x+25=0\]</span></div>
+<p>a la forma ordinaria.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[y^2-6y=8x-25.\]</span></div>
+<p>Completamos el cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[y^2-6y+9=8x-25+9.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[(y-3)^2=8x-16.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[(y-3)^2=8(x-2).\]</span></div>
+<p>Comparamos con:</p>
+<div class="mate"><span class="mate-bloque">\[(y-k)^2=4p(x-h).\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[V(2,3), \qquad 4p=8, \qquad p=2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[F(4,3),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{directriz: }x=0,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{eje focal: }y=3,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[|LR|=8.\]</span></div></div></details></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-6e123b492350.svg" alt="Figura 34.5" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-34-6"><div class="caja-titulo">Ejemplo 34.6</div><div class="caja-cuerpo"><p>Transforma:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+4x+6y-8=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[x^2+4x=-6y+8.\]</span></div>
+<p>Completamos el cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+4x+4=-6y+12.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[(x+2)^2=-6(y-2).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[V(-2,2), \qquad 4p=-6, \qquad p=-\frac{3}{2}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[F\left(-2,\frac{1}{2}\right),\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{directriz: }y=\frac{7}{2},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\text{eje focal: }x=-2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[|LR|=6.\]</span></div></div></details></div></section>
+<h2 id="procedimiento-rapido"><span class="num">34.6</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<ol><li>Escribe la ecuación en forma ordinaria.</li><li>Identifica la variable elevada al cuadrado.</li><li>Lee el vértice: <span class="mate-bloque">\[V(h,k).\]</span></li><li>Iguala el coeficiente a: <span class="mate-bloque">\[4p.\]</span></li><li>Calcula: <span class="mate-bloque">\[p=\frac{4p}{4}.\]</span></li><li>Usa el signo de \(p\) para determinar la abertura.</li><li>Calcula el foco y la directriz.</li><li>Calcula: <span class="mate-bloque">\[|LR|=|4p|.\]</span></li></ol>
+<h2 id="resumen"><span class="num">34.7</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (y-k)^2&amp;=4p(x-h) &amp;&amp;\text{horizontal},\\ (x-h)^2&amp;=4p(y-k) &amp;&amp;\text{vertical}. \end{aligned}\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{c|c|c} \text{Forma} &amp; \text{Foco} &amp; \text{Directriz}\\ \hline (y-k)^2=4p(x-h) &amp; (h+p,k) &amp; x=h-p \\[4pt] (x-h)^2=4p(y-k) &amp; (h,k+p) &amp; y=k-p \end{array}\]</span></div>
+<div class="mate"><span class="mate-bloque">\[|LR|=|4p|\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">34.8</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>\(y^2\) produce una parábola horizontal.</li><li>\(x^2\) produce una parábola vertical.</li><li>El coeficiente es \(4p\), no \(p\).</li><li>El signo de \(p\) determina la abertura.</li><li>La directriz es una recta, no un punto.</li><li>El foco y la directriz quedan en lados opuestos del vértice.</li><li>La longitud del lado recto es \(|4p|\).</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">34.9</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-34-1"><div class="caja-titulo">Ejercicio 34.1</div><div class="caja-cuerpo"><p>Encuentra la ecuación, la directriz y la longitud del lado recto de la parábola con:</p>
+<div class="mate"><span class="mate-bloque">\[V(0,0) \qquad\text{y}\qquad F(3,0).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Eje focal sobre el eje \(x\) con \(p = 3\), abre hacia la derecha: <span class="mate-bloque">\[y^2 = 4(3)x \Longrightarrow y^2 = 12x.\]</span> Directriz: \(x = -3\). Lado recto: \(|LR| = 12\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-34-2"><div class="caja-titulo">Ejercicio 34.2</div><div class="caja-cuerpo"><p>Encuentra la ecuación, la directriz y la longitud del lado recto de la parábola con:</p>
+<div class="mate"><span class="mate-bloque">\[V(0,0) \qquad\text{y}\qquad F(0,-2).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Eje focal sobre el eje \(y\) con \(p = -2\), abre hacia abajo: <span class="mate-bloque">\[x^2 = 4(-2)y \Longrightarrow x^2 = -8y.\]</span> Directriz: \(y = 2\). Lado recto: \(|LR| = 8\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-34-3"><div class="caja-titulo">Ejercicio 34.3</div><div class="caja-cuerpo"><p>Encuentra el vértice, el foco, la directriz y el lado recto de:</p>
+<div class="mate"><span class="mate-bloque">\[y^2=16x.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>De la ecuación \(y^2 = 16x\), \(V(0,0)\) y \(4p = 16 \Longrightarrow p = 4\), abre hacia la derecha. <span class="mate-bloque">\[F(4, 0), \qquad \text{directriz: } x = -4, \qquad |LR| = 16.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-34-4"><div class="caja-titulo">Ejercicio 34.4</div><div class="caja-cuerpo"><p>Encuentra el vértice, el foco, la directriz y el lado recto de:</p>
+<div class="mate"><span class="mate-bloque">\[x^2=-8y.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>De la ecuación \(x^2 = -8y\), \(V(0,0)\) y \(4p = -8 \Longrightarrow p = -2\), abre hacia abajo. <span class="mate-bloque">\[F(0, -2), \qquad \text{directriz: } y = 2, \qquad |LR| = 8.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-34-5"><div class="caja-titulo">Ejercicio 34.5</div><div class="caja-cuerpo"><p>Encuentra la ecuación y la directriz de la parábola con:</p>
+<div class="mate"><span class="mate-bloque">\[V(1,2) \qquad\text{y}\qquad F(1,5).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Eje focal paralelo al eje \(y\) con \(p = 5 - 2 = 3\), abre hacia arriba: <span class="mate-bloque">\[(x - 1)^2 = 4(3)(y - 2) \Longrightarrow (x - 1)^2 = 12(y - 2).\]</span> Directriz: \(y = 2 - 3 = -1\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-34-6"><div class="caja-titulo">Ejercicio 34.6</div><div class="caja-cuerpo"><p>Transforma a la forma ordinaria y determina sus elementos:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-4x-6y+10=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Agrupamos y completamos TCP: <span class="mate-bloque">\[x^2 - 4x = 6y - 10 \Longrightarrow x^2 - 4x + 4 = 6y - 10 + 4.\]</span> <span class="mate-bloque">\[(x - 2)^2 = 6y - 6 \Longrightarrow (x - 2)^2 = 6(y - 1).\]</span> Comparando con \((x - h)^2 = 4p(y - k)\): <span class="mate-bloque">\[V(2, 1), \quad 4p = 6 \Longrightarrow p = \frac{3}{2}.\]</span> <span class="mate-bloque">\[F\left(2, 1 + \frac{3}{2}\right) = F\left(2, \frac{5}{2}\right), \qquad \text{directriz: } y = 1 - \frac{3}{2} = -\frac{1}{2}, \qquad |LR| = 6.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-34-7"><div class="caja-titulo">Ejercicio 34.7</div><div class="caja-cuerpo"><p>Transforma a la forma ordinaria y determina sus elementos:</p>
+<div class="mate"><span class="mate-bloque">\[y^2+8y+12x+4=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Agrupamos y completamos TCP: <span class="mate-bloque">\[y^2 + 8y = -12x - 4 \Longrightarrow y^2 + 8y + 16 = -12x - 4 + 16.\]</span> <span class="mate-bloque">\[(y + 4)^2 = -12x + 12 \Longrightarrow (y + 4)^2 = -12(x - 1).\]</span> Comparando con \((y - k)^2 = 4p(x - h)\): <span class="mate-bloque">\[V(1, -4), \quad 4p = -12 \Longrightarrow p = -3.\]</span> <span class="mate-bloque">\[F(1 - 3, -4) = F(-2, -4), \qquad \text{directriz: } x = 1 - (-3) = 4, \qquad |LR| = 12.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="33-circunferencia.html"><span>← Anterior</span>33. Circunferencia</a><a class="nav-siguiente" href="35-elipse.html"><span>Siguiente →</span>35. Elipse</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

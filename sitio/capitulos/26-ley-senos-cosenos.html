@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>26. Ley de senos y ley de cosenos · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte V: Trigonometría</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#triangulos-oblicuangulos"><span class="num">26.1</span> Triángulos oblicuángulos</a></li><li class="nivel-2"><a href="#notacion-de-los-elementos-de-un-triangulo"><span class="num">26.2</span> Notación de los elementos de un triángulo</a></li><li class="nivel-2"><a href="#resolver-un-triangulo"><span class="num">26.3</span> Resolver un triángulo</a></li><li class="nivel-2"><a href="#ley-de-senos"><span class="num">26.4</span> Ley de senos</a></li><li class="nivel-2"><a href="#cuando-utilizar-la-ley-de-senos"><span class="num">26.5</span> Cuándo utilizar la ley de senos</a></li><li class="nivel-2"><a href="#caso-ambiguo-de-la-ley-de-senos"><span class="num">26.6</span> Caso ambiguo de la ley de senos</a></li><li class="nivel-2"><a href="#ley-de-cosenos"><span class="num">26.7</span> Ley de cosenos</a></li><li class="nivel-2"><a href="#cuando-utilizar-la-ley-de-cosenos"><span class="num">26.8</span> Cuándo utilizar la ley de cosenos</a></li><li class="nivel-2"><a href="#calculo-de-un-lado-mediante-la-ley-de-cosenos"><span class="num">26.9</span> Cálculo de un lado mediante la ley de cosenos</a></li><li class="nivel-2"><a href="#calculo-de-un-angulo-mediante-la-ley-de-cosenos"><span class="num">26.10</span> Cálculo de un ángulo mediante la ley de cosenos</a></li><li class="nivel-2"><a href="#relacion-con-el-teorema-de-pitagoras"><span class="num">26.11</span> Relación con el teorema de Pitágoras</a></li><li class="nivel-2"><a href="#clasificacion-de-un-triangulo-mediante-sus-lados"><span class="num">26.12</span> Clasificación de un triángulo mediante sus lados</a></li><li class="nivel-2"><a href="#area-con-dos-lados-y-el-angulo-comprendido"><span class="num">26.13</span> Área con dos lados y el ángulo comprendido</a></li><li class="nivel-2"><a href="#eleccion-de-la-ley-adecuada"><span class="num">26.14</span> Elección de la ley adecuada</a></li><li class="nivel-2"><a href="#problemas-de-aplicacion"><span class="num">26.15</span> Problemas de aplicación</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">26.16</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 26</p><h1>Ley de senos y ley de cosenos</h1></header>
+<p><span id="cap-ley-senos-cosenos" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span> <span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Las razones trigonométricas permiten resolver triángulos rectángulos. Sin embargo, muchos problemas geométricos producen triángulos que no contienen un ángulo recto. Estos triángulos reciben el nombre de triángulos oblicuángulos.</p>
+<p>Para resolverlos se utilizan principalmente la ley de senos y la ley de cosenos. La elección depende de los lados y ángulos conocidos. En este capítulo aprenderás a identificar la ley adecuada, resolver triángulos y analizar el caso ambiguo que puede presentarse al usar la ley de senos.</p>
+<h2 id="triangulos-oblicuangulos"><span class="num">26.1</span> Triángulos oblicuángulos<a class="enlace-seccion" href="#triangulos-oblicuangulos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>triángulo oblicuángulo</strong> es un triángulo que no contiene ningún ángulo recto.</p>
+<p>Un triángulo oblicuángulo puede ser:</p>
+<ul><li><strong>acutángulo</strong>, si sus tres ángulos son menores que \(90^\circ\);</li><li><strong>obtusángulo</strong>, si uno de sus ángulos es mayor que \(90^\circ\).</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Un triángulo no puede tener más de un ángulo obtuso, pues la suma de sus ángulos interiores es:</p>
+<div class="mate"><span class="mate-bloque">\[180^\circ.\]</span></div></div></section>
+<h2 id="notacion-de-los-elementos-de-un-triangulo"><span class="num">26.2</span> Notación de los elementos de un triángulo<a class="enlace-seccion" href="#notacion-de-los-elementos-de-un-triangulo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>En un triángulo \(\triangle ABC\) se utiliza la siguiente convención:</p>
+<ul><li>los vértices se nombran: <span class="mate-bloque">\[A,\qquad B,\qquad C;\]</span></li><li>las medidas de los ángulos interiores se representan mediante: <span class="mate-bloque">\[A,\qquad B,\qquad C;\]</span></li><li>el lado opuesto al ángulo \(A\) se representa mediante \(a\);</li><li>el lado opuesto al ángulo \(B\) se representa mediante \(b\);</li><li>el lado opuesto al ángulo \(C\) se representa mediante \(c\).</li></ul></div></section>
+<p>La correspondencia entre los ángulos y sus lados opuestos puede observarse en la siguiente figura:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-76178f37b123.svg" alt="Figura 26.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La correspondencia entre un lado y su ángulo opuesto debe conservarse en todas las fórmulas:</p>
+<div class="mate"><span class="mate-bloque">\[a\longleftrightarrow A, \qquad b\longleftrightarrow B, \qquad c\longleftrightarrow C.\]</span></div>
+<p>En la ley de senos no debe emparejarse un lado con un ángulo que no sea su opuesto.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Suma de los ángulos interiores</div><div class="caja-cuerpo"><p>En todo triángulo se cumple:</p>
+<div class="mate"><span class="mate-bloque">\[A+B+C=180^\circ.\]</span></div>
+<p>Por tanto, si se conocen dos ángulos, el tercero puede calcularse mediante:</p>
+<div class="mate"><span class="mate-bloque">\[C=180^\circ-A-B.\]</span></div></div></section>
+<h2 id="resolver-un-triangulo"><span class="num">26.3</span> Resolver un triángulo<a class="enlace-seccion" href="#resolver-un-triangulo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p><strong>Resolver un triángulo</strong> significa determinar:</p>
+<ul><li>las longitudes de sus tres lados;</li><li>las medidas de sus tres ángulos interiores.</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Un triángulo queda determinado de manera única por algunos conjuntos de datos, como:</p>
+<ul><li>dos ángulos y un lado;</li><li>dos lados y el ángulo comprendido;</li><li>sus tres lados.</li></ul>
+<p>En cambio, conocer dos lados y un ángulo no comprendido puede producir cero, uno o dos triángulos. Esta situación se denomina <strong>caso ambiguo</strong>.</p></div></section>
+<h2 id="ley-de-senos"><span class="num">26.4</span> Ley de senos<a class="enlace-seccion" href="#ley-de-senos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ley de senos</div><div class="caja-cuerpo"><p>En todo triángulo, las longitudes de los lados son proporcionales a los senos de sus ángulos opuestos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{\sen A} = \frac{b}{\sen B} = \frac{c}{\sen C}.\]</span></div>
+<p>También puede escribirse en forma recíproca:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\sen A}{a} = \frac{\sen B}{b} = \frac{\sen C}{c}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Relación con el circunradio</div><div class="caja-cuerpo"><p>Si \(R\) es el radio de la circunferencia circunscrita al triángulo, entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{\sen A} = \frac{b}{\sen B} = \frac{c}{\sen C} = 2R.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Cada fracción de la ley de senos debe contener un lado y el seno de su ángulo opuesto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{\sen A}, \qquad \frac{b}{\sen B}, \qquad \frac{c}{\sen C}.\]</span></div></div></section>
+<h2 id="cuando-utilizar-la-ley-de-senos"><span class="num">26.5</span> Cuándo utilizar la ley de senos<a class="enlace-seccion" href="#cuando-utilizar-la-ley-de-senos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Casos principales</div><div class="caja-cuerpo"><p>La ley de senos es especialmente útil cuando se conocen:</p>
+<ul><li>dos ángulos y cualquier lado, caso AAL o ALA;</li><li>dos lados y un ángulo opuesto a uno de ellos, caso LLA.</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Si se conocen dos ángulos, el tercer ángulo se obtiene primero mediante:</p>
+<div class="mate"><span class="mate-bloque">\[A+B+C=180^\circ.\]</span></div>
+<p>Después puede utilizarse la ley de senos para calcular los lados desconocidos.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-26-1"><div class="caja-titulo">Ejemplo 26.1</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[A=45^\circ, \qquad B=60^\circ, \qquad a=10\ \text{cm}.\]</span></div>
+<p>Encuentra el lado \(b\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Emparejamos cada lado con su ángulo opuesto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{\sen A} = \frac{b}{\sen B}.\]</span></div>
+<p>Sustituimos los datos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{10}{\sen45^\circ} = \frac{b}{\sen60^\circ}.\]</span></div>
+<p>Despejamos \(b\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} b &amp;= \frac{10\sen60^\circ}{\sen45^\circ}\\ &amp;= \frac{ 10\left(\frac{\sqrt{3}}{2}\right) }{ \frac{\sqrt{2}}{2} }\\ &amp;= \frac{10\sqrt{3}}{\sqrt{2}}\\ &amp;= \frac{10\sqrt{6}}{2}\\ &amp;= 5\sqrt{6}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[b=5\sqrt{6}\ \text{cm}.\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[b\approx12.25\ \text{cm}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-26-2"><div class="caja-titulo">Ejemplo 26.2</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[B=30^\circ, \qquad C=100^\circ, \qquad b=8\ \text{cm}.\]</span></div>
+<p>Encuentra el lado \(c\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la ley de senos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{b}{\sen B} = \frac{c}{\sen C}.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{8}{\sen30^\circ} = \frac{c}{\sen100^\circ}.\]</span></div>
+<p>Despejamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} c &amp;= \frac{8\sen100^\circ}{\sen30^\circ}\\ &amp;= \frac{8\sen100^\circ}{0.5}\\ &amp;= 16\sen100^\circ. \end{aligned}\]</span></div>
+<p>Utilizando:</p>
+<div class="mate"><span class="mate-bloque">\[\sen100^\circ\approx0.9848,\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} c &amp;\approx16(0.9848)\\ &amp;\approx15.76. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[c\approx15.76\ \text{cm}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-26-3"><div class="caja-titulo">Ejemplo 26.3</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[a=12\ \text{cm}, \qquad b=8\ \text{cm}, \qquad A=50^\circ.\]</span></div>
+<p>Encuentra el ángulo \(B\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la ley de senos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{\sen A} = \frac{b}{\sen B}.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{12}{\sen50^\circ} = \frac{8}{\sen B}.\]</span></div>
+<p>Despejamos \(\sen B\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sen B &amp;= \frac{8\sen50^\circ}{12}\\ &amp;\approx \frac{8(0.7660)}{12}\\ &amp;\approx0.5107. \end{aligned}\]</span></div>
+<p>Calculamos la primera posibilidad:</p>
+<div class="mate"><span class="mate-bloque">\[B_1 = \arcsen(0.5107) \approx30.71^\circ.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta = \sen(180^\circ-\theta),\]</span></div>
+<p>la segunda posibilidad sería:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} B_2 &amp;=180^\circ-30.71^\circ\\ &amp;=149.29^\circ. \end{aligned}\]</span></div>
+<p>Sin embargo:</p>
+<div class="mate"><span class="mate-bloque">\[A+B_2 = 50^\circ+149.29^\circ &gt; 180^\circ.\]</span></div>
+<p>Por tanto, \(B_2\) no puede ser un ángulo del triángulo.</p>
+<p>La única solución es:</p>
+<div class="mate"><span class="mate-bloque">\[B\approx30.71^\circ.\]</span></div></div></details></div></section>
+<h2 id="caso-ambiguo-de-la-ley-de-senos"><span class="num">26.6</span> Caso ambiguo de la ley de senos<a class="enlace-seccion" href="#caso-ambiguo-de-la-ley-de-senos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Cuando se conocen dos lados y un ángulo no comprendido, caso LLA, la ley de senos puede producir:</p>
+<ul><li>ningún triángulo;</li><li>un solo triángulo;</li><li>dos triángulos distintos.</li></ul>
+<p>Esto ocurre porque:</p>
+<div class="mate"><span class="mate-bloque">\[\sen\theta = \sen(180^\circ-\theta).\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Análisis del caso ambiguo</div><div class="caja-cuerpo"><p>Supongamos que se conocen el ángulo agudo \(A\), el lado opuesto \(a\) y otro lado \(b\). Definimos la altura:</p>
+<div class="mate"><span class="mate-bloque">\[h=b\sen A.\]</span></div>
+<p>Entonces:</p>
+<ul><li>si <span class="mate-bloque">\[a&lt;h,\]</span> no existe ningún triángulo;</li><li>si <span class="mate-bloque">\[a=h,\]</span> existe un triángulo rectángulo;</li><li>si <span class="mate-bloque">\[h&lt;a&lt;b,\]</span> existen dos triángulos;</li><li>si <span class="mate-bloque">\[a\geq b,\]</span> existe un solo triángulo.</li></ul></div></section>
+<p>Las posibilidades pueden visualizarse comparando el lado \(a\) con la altura \(h\) y el lado \(b\):</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-72e7587df040.svg" alt="Figura 26.2" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-26-4"><div class="caja-titulo">Ejemplo 26.4</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[A=30^\circ, \qquad a=10\ \text{cm}, \qquad b=14\ \text{cm}.\]</span></div>
+<p>Determina las posibles medidas del ángulo \(B\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la ley de senos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{a}{\sen A} = \frac{b}{\sen B}.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{10}{\sen30^\circ} = \frac{14}{\sen B}.\]</span></div>
+<p>Despejamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \sen B &amp;= \frac{14\sen30^\circ}{10}\\ &amp;= \frac{14(0.5)}{10}\\ &amp;=0.7. \end{aligned}\]</span></div>
+<p>La primera posibilidad es:</p>
+<div class="mate"><span class="mate-bloque">\[B_1=\arcsen(0.7)\approx44.43^\circ.\]</span></div>
+<p>La segunda posibilidad es:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} B_2 &amp;=180^\circ-B_1\\ &amp;\approx180^\circ-44.43^\circ\\ &amp;\approx135.57^\circ. \end{aligned}\]</span></div>
+<p>Comprobamos ambas sumas:</p>
+<div class="mate"><span class="mate-bloque">\[30^\circ+44.43^\circ&lt;180^\circ\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[30^\circ+135.57^\circ&lt;180^\circ.\]</span></div>
+<p>Ambas posibilidades son válidas. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[B\approx44.43^\circ\]</span></div>
+<p>o:</p>
+<div class="mate"><span class="mate-bloque">\[B\approx135.57^\circ.\]</span></div>
+<p>Los datos determinan dos triángulos distintos.</p></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La calculadora devuelve normalmente solo el valor principal de \(\arcsen\). Al resolver un caso LLA, siempre debe analizarse también:</p>
+<div class="mate"><span class="mate-bloque">\[180^\circ-\arcsen(u).\]</span></div>
+<p>La segunda posibilidad se acepta únicamente si la suma de los ángulos permanece menor que \(180^\circ\).</p></div></section>
+<h2 id="ley-de-cosenos"><span class="num">26.7</span> Ley de cosenos<a class="enlace-seccion" href="#ley-de-cosenos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ley de cosenos</div><div class="caja-cuerpo"><p>En todo triángulo se cumplen las siguientes relaciones:</p>
+<div class="mate"><span class="mate-bloque">\[a^2 = b^2+c^2-2bc\cos A,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[b^2 = a^2+c^2-2ac\cos B,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[c^2 = a^2+b^2-2ab\cos C.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En cada fórmula:</p>
+<ul><li>el lado aislado en el primer miembro es opuesto al ángulo del coseno;</li><li>los otros dos lados forman el ángulo utilizado.</li></ul>
+<p>Por ejemplo, en:</p>
+<div class="mate"><span class="mate-bloque">\[a^2=b^2+c^2-2bc\cos A,\]</span></div>
+<p>el lado \(a\) es opuesto al ángulo \(A\), mientras que los lados \(b\) y \(c\) forman dicho ángulo.</p></div></section>
+<h2 id="cuando-utilizar-la-ley-de-cosenos"><span class="num">26.8</span> Cuándo utilizar la ley de cosenos<a class="enlace-seccion" href="#cuando-utilizar-la-ley-de-cosenos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Casos principales</div><div class="caja-cuerpo"><p>La ley de cosenos es especialmente útil cuando se conocen:</p>
+<ul><li>dos lados y el ángulo comprendido entre ellos, caso LAL;</li><li>los tres lados del triángulo, caso LLL.</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La ley de cosenos no presenta el caso ambiguo de la ley de senos.</p>
+<p>Los datos LAL y LLL, siempre que satisfagan las condiciones geométricas necesarias, determinan un único triángulo.</p></div></section>
+<h2 id="calculo-de-un-lado-mediante-la-ley-de-cosenos"><span class="num">26.9</span> Cálculo de un lado mediante la ley de cosenos<a class="enlace-seccion" href="#calculo-de-un-lado-mediante-la-ley-de-cosenos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-26-5"><div class="caja-titulo">Ejemplo 26.5</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[b=6\ \text{cm}, \qquad c=9\ \text{cm}, \qquad A=60^\circ.\]</span></div>
+<p>Encuentra el lado \(a\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El lado \(a\) es opuesto al ángulo \(A\). Aplicamos:</p>
+<div class="mate"><span class="mate-bloque">\[a^2 = b^2+c^2-2bc\cos A.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} a^2 &amp;= 6^2+9^2-2(6)(9)\cos60^\circ\\ &amp;= 36+81-108\left(\frac{1}{2}\right)\\ &amp;= 117-54\\ &amp;=63. \end{aligned}\]</span></div>
+<p>Como \(a\) es una longitud:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} a &amp;=\sqrt{63}\\ &amp;=3\sqrt{7}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[a=3\sqrt{7}\ \text{cm}.\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[a\approx7.94\ \text{cm}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-26-6"><div class="caja-titulo">Ejemplo 26.6</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[a=10\ \text{cm}, \qquad b=12\ \text{cm}, \qquad C=45^\circ.\]</span></div>
+<p>Encuentra el lado \(c\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El lado \(c\) es opuesto al ángulo \(C\). Utilizamos:</p>
+<div class="mate"><span class="mate-bloque">\[c^2 = a^2+b^2-2ab\cos C.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} c^2 &amp;= 10^2+12^2-2(10)(12)\cos45^\circ\\ &amp;= 100+144-240\left(\frac{\sqrt{2}}{2}\right)\\ &amp;= 244-120\sqrt{2}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[c = \sqrt{244-120\sqrt{2}}\ \text{cm}.\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[c\approx8.62\ \text{cm}.\]</span></div></div></details></div></section>
+<h2 id="calculo-de-un-angulo-mediante-la-ley-de-cosenos"><span class="num">26.10</span> Cálculo de un ángulo mediante la ley de cosenos<a class="enlace-seccion" href="#calculo-de-un-angulo-mediante-la-ley-de-cosenos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Formas despejadas</div><div class="caja-cuerpo"><p>Los ángulos pueden determinarse mediante:</p>
+<div class="mate"><span class="mate-bloque">\[\cos A = \frac{b^2+c^2-a^2}{2bc},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cos B = \frac{a^2+c^2-b^2}{2ac},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\cos C = \frac{a^2+b^2-c^2}{2ab}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[A = \arccos\left( \frac{b^2+c^2-a^2}{2bc} \right),\]</span></div>
+<p>y de manera análoga para \(B\) y \(C\).</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-26-7"><div class="caja-titulo">Ejemplo 26.7</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[a=7\ \text{cm}, \qquad b=8\ \text{cm}, \qquad c=9\ \text{cm}.\]</span></div>
+<p>Encuentra el ángulo \(C\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El ángulo \(C\) es opuesto al lado \(c\). Aplicamos:</p>
+<div class="mate"><span class="mate-bloque">\[\cos C = \frac{a^2+b^2-c^2}{2ab}.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \cos C &amp;= \frac{7^2+8^2-9^2}{2(7)(8)}\\ &amp;= \frac{49+64-81}{112}\\ &amp;= \frac{32}{112}\\ &amp;= \frac{2}{7}. \end{aligned}\]</span></div>
+<p>Aplicamos la función inversa:</p>
+<div class="mate"><span class="mate-bloque">\[C = \arccos\left(\frac{2}{7}\right).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[C\approx73.40^\circ.\]</span></div></div></details></div></section>
+<h2 id="relacion-con-el-teorema-de-pitagoras"><span class="num">26.11</span> Relación con el teorema de Pitágoras<a class="enlace-seccion" href="#relacion-con-el-teorema-de-pitagoras" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Pitágoras como caso particular</div><div class="caja-cuerpo"><p>La ley de cosenos generaliza el teorema de Pitágoras.</p>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[A=90^\circ,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\cos90^\circ=0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} a^2 &amp;=b^2+c^2-2bc\cos90^\circ\\ &amp;=b^2+c^2. \end{aligned}\]</span></div>
+<p>Esta es precisamente la relación del teorema de Pitágoras.</p></div></section>
+<h2 id="clasificacion-de-un-triangulo-mediante-sus-lados"><span class="num">26.12</span> Clasificación de un triángulo mediante sus lados<a class="enlace-seccion" href="#clasificacion-de-un-triangulo-mediante-sus-lados" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Tipo de triángulo según el lado mayor</div><div class="caja-cuerpo"><p>Sea \(c\) el lado de mayor longitud de un triángulo.</p>
+<ul><li>Si: <span class="mate-bloque">\[c^2&lt;a^2+b^2,\]</span> el triángulo es acutángulo.</li><li>Si: <span class="mate-bloque">\[c^2=a^2+b^2,\]</span> el triángulo es rectángulo.</li><li>Si: <span class="mate-bloque">\[c^2&gt;a^2+b^2,\]</span> el triángulo es obtusángulo.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-26-8"><div class="caja-titulo">Ejemplo 26.8</div><div class="caja-cuerpo"><p>Clasifica según sus ángulos un triángulo cuyos lados miden:</p>
+<div class="mate"><span class="mate-bloque">\[5\ \text{cm}, \qquad 7\ \text{cm}, \qquad 9\ \text{cm}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El lado mayor es:</p>
+<div class="mate"><span class="mate-bloque">\[c=9.\]</span></div>
+<p>Comparamos:</p>
+<div class="mate"><span class="mate-bloque">\[c^2=9^2=81\]</span></div>
+<p>con:</p>
+<div class="mate"><span class="mate-bloque">\[5^2+7^2=25+49=74.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[81&gt;74,\]</span></div>
+<p>el triángulo es obtusángulo.</p></div></details></div></section>
+<h2 id="area-con-dos-lados-y-el-angulo-comprendido"><span class="num">26.13</span> Área con dos lados y el ángulo comprendido<a class="enlace-seccion" href="#area-con-dos-lados-y-el-angulo-comprendido" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Área mediante el seno</div><div class="caja-cuerpo"><p>El área de un triángulo puede calcularse si se conocen dos lados y el ángulo comprendido entre ellos:</p>
+<div class="mate"><span class="mate-bloque">\[K = \frac{1}{2}bc\sen A.\]</span></div>
+<p>De manera equivalente:</p>
+<div class="mate"><span class="mate-bloque">\[K = \frac{1}{2}ac\sen B\]</span></div>
+<p>o:</p>
+<div class="mate"><span class="mate-bloque">\[K = \frac{1}{2}ab\sen C.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Se utiliza la letra \(K\) para representar el área y evitar confundirla con el ángulo \(A\).</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-26-9"><div class="caja-titulo">Ejemplo 26.9</div><div class="caja-cuerpo"><p>Encuentra el área de un triángulo si:</p>
+<div class="mate"><span class="mate-bloque">\[b=8\ \text{cm}, \qquad c=11\ \text{cm}, \qquad A=40^\circ.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los lados \(b\) y \(c\) forman el ángulo \(A\). Aplicamos:</p>
+<div class="mate"><span class="mate-bloque">\[K = \frac{1}{2}bc\sen A.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} K &amp;= \frac{1}{2}(8)(11)\sen40^\circ\\ &amp;= 44\sen40^\circ. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[K\approx28.28\ \text{cm}^2.\]</span></div></div></details></div></section>
+<h2 id="eleccion-de-la-ley-adecuada"><span class="num">26.14</span> Elección de la ley adecuada<a class="enlace-seccion" href="#eleccion-de-la-ley-adecuada" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Guía de decisión</div><div class="caja-cuerpo"><p>Para seleccionar el procedimiento adecuado, identifica los datos conocidos:</p>
+<ul><li>Si se conocen <strong>dos ángulos y un lado</strong>, utiliza la ley de senos.</li><li>Si se conocen <strong>dos lados y un ángulo opuesto a uno de ellos</strong>, utiliza la ley de senos y analiza el caso ambiguo.</li><li>Si se conocen <strong>dos lados y el ángulo comprendido</strong>, utiliza la ley de cosenos.</li><li>Si se conocen <strong>los tres lados</strong>, utiliza la ley de cosenos para encontrar primero un ángulo.</li><li>Si el triángulo es rectángulo, pueden utilizarse directamente el teorema de Pitágoras y las razones trigonométricas.</li></ul></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Antes de sustituir en una fórmula, conviene dibujar un esquema y verificar la correspondencia:</p>
+<div class="mate"><span class="mate-bloque">\[a\leftrightarrow A, \qquad b\leftrightarrow B, \qquad c\leftrightarrow C.\]</span></div>
+<p>Una correspondencia incorrecta entre lados y ángulos produce una ecuación equivocada, aunque las operaciones posteriores estén bien realizadas.</p></div></section>
+<h2 id="problemas-de-aplicacion"><span class="num">26.15</span> Problemas de aplicación<a class="enlace-seccion" href="#problemas-de-aplicacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejemplo" id="ejemplo-26-10"><div class="caja-titulo">Ejemplo 26.10</div><div class="caja-cuerpo"><p>Dos embarcaciones salen de un mismo puerto. Una recorre \(15\ \text{km}\) y la otra \(20\ \text{km}\). Sus trayectorias forman un ángulo de \(70^\circ\). Encuentra la distancia entre las embarcaciones.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Las rutas recorridas forman dos lados de un triángulo y el ángulo entre ellas es el ángulo comprendido. Sea \(d\) la distancia entre las embarcaciones.</p>
+<p>Aplicamos la ley de cosenos:</p>
+<div class="mate"><span class="mate-bloque">\[d^2 = 15^2+20^2-2(15)(20)\cos70^\circ.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} d^2 &amp;= 225+400-600\cos70^\circ\\ &amp;\approx 625-600(0.3420)\\ &amp;\approx419.79. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[d\approx\sqrt{419.79}.\]</span></div>
+<p>Así:</p>
+<div class="mate"><span class="mate-bloque">\[d\approx20.49\ \text{km}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-26-11"><div class="caja-titulo">Ejemplo 26.11</div><div class="caja-cuerpo"><p>Un topógrafo mide dos lados de un terreno triangular:</p>
+<div class="mate"><span class="mate-bloque">\[40\ \text{m} \qquad\text{y}\qquad 55\ \text{m}.\]</span></div>
+<p>El ángulo comprendido entre ellos mide:</p>
+<div class="mate"><span class="mate-bloque">\[75^\circ.\]</span></div>
+<p>Encuentra la longitud del tercer lado.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) la longitud desconocida. Aplicamos la ley de cosenos:</p>
+<div class="mate"><span class="mate-bloque">\[x^2 = 40^2+55^2-2(40)(55)\cos75^\circ.\]</span></div>
+<p>Calculamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x^2 &amp;= 1600+3025-4400\cos75^\circ\\ &amp;\approx 4625-4400(0.2588)\\ &amp;\approx3486.20. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x\approx\sqrt{3486.20}.\]</span></div>
+<p>Así:</p>
+<div class="mate"><span class="mate-bloque">\[x\approx59.04\ \text{m}.\]</span></div></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">26.16</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-26-1"><div class="caja-titulo">Ejercicio 26.1</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[A=40^\circ, \qquad B=75^\circ, \qquad a=12\ \text{cm}.\]</span></div>
+<p>Encuentra el lado \(b\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[b = \frac{a \cdot \sen B}{\sen A} = \frac{12 \cdot \sen 75^\circ}{\sen 40^\circ} \approx \frac{12 \cdot 0.9659}{0.6428} \approx 18.03 \text{ cm}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-26-2"><div class="caja-titulo">Ejercicio 26.2</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[A=35^\circ, \qquad C=80^\circ, \qquad c=15\ \text{cm}.\]</span></div>
+<p>Encuentra el lado \(a\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(A + B + C = 180^\circ\), entonces \(B = 180^\circ - 35^\circ - 80^\circ = 65^\circ\). <span class="mate-bloque">\[a = \frac{c \cdot \sen A}{\sen C} = \frac{15 \cdot \sen 35^\circ}{\sen 80^\circ} \approx \frac{15 \cdot 0.5736}{0.9848} \approx 8.74 \text{ cm}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-26-3"><div class="caja-titulo">Ejercicio 26.3</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[a=10\ \text{cm}, \qquad b=14\ \text{cm}, \qquad A=30^\circ.\]</span></div>
+<p>Encuentra todos los valores posibles del ángulo \(B\) y determina cuántos triángulos pueden construirse.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[\sen B = \frac{b \cdot \sen A}{a} = \frac{14 \cdot \sen 30^\circ}{10} = \frac{14 \cdot 0.5}{10} = 0.7.\]</span> <span class="mate-bloque">\[B = \arcsen(0.7) \approx 44.4^\circ.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-26-4"><div class="caja-titulo">Ejercicio 26.4</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[b=5\ \text{cm}, \qquad c=8\ \text{cm}, \qquad A=60^\circ.\]</span></div>
+<p>Encuentra el lado \(a\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[a^2 = 5^2 + 8^2 - 2(5)(8)\cos 60^\circ = 25 + 64 - 80 \cdot \frac{1}{2} = 89 - 40 = 49.\]</span> <span class="mate-bloque">\[a = 7 \text{ cm}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-26-5"><div class="caja-titulo">Ejercicio 26.5</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[a=9\ \text{cm}, \qquad b=12\ \text{cm}, \qquad C=120^\circ.\]</span></div>
+<p>Encuentra el lado \(c\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[c^2 = 9^2 + 12^2 - 2(9)(12)\cos 120^\circ = 81 + 144 - 216 \cdot \left(-\frac{1}{2}\right) = 225 + 108 = 333.\]</span> <span class="mate-bloque">\[c = \sqrt{333} \approx 18.25 \text{ cm}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-26-6"><div class="caja-titulo">Ejercicio 26.6</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[a=5\ \text{cm}, \qquad b=7\ \text{cm}, \qquad c=9\ \text{cm}.\]</span></div>
+<p>Encuentra el ángulo \(B\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[\cos B = \frac{a^2 + c^2 - b^2}{2ac} = \frac{25 + 81 - 49}{2(5)(9)} = \frac{57}{90} \approx 0.6333.\]</span> <span class="mate-bloque">\[B = \arccos(0.6333) \approx 50.7^\circ.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-26-7"><div class="caja-titulo">Ejercicio 26.7</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[a=6\ \text{cm}, \qquad b=10\ \text{cm}, \qquad c=12\ \text{cm}.\]</span></div>
+<p>Encuentra el ángulo mayor.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El ángulo mayor es el opuesto al lado mayor, es decir, el opuesto a \(c = 12\). <span class="mate-bloque">\[\cos C = \frac{a^2 + b^2 - c^2}{2ab} = \frac{36 + 100 - 144}{2(6)(10)} = \frac{-8}{120} \approx -0.0667.\]</span> <span class="mate-bloque">\[C = \arccos(-0.0667) \approx 93.8^\circ.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-26-8"><div class="caja-titulo">Ejercicio 26.8</div><div class="caja-cuerpo"><p>Dos embarcaciones salen del mismo puerto. Una recorre \(15\ \text{km}\) hacia el norte y la otra recorre \(20\ \text{km}\) en una dirección que forma un ángulo de \(70^\circ\) con la trayectoria de la primera. ¿Qué distancia separa las embarcaciones?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los barcos y el puerto forman un triángulo con lados 15 km, 20 km y ángulo comprendido \(70^\circ\). <span class="mate-bloque">\[d^2 = 15^2 + 20^2 - 2(15)(20)\cos 70^\circ = 225 + 400 - 600 \cdot 0.3420 \approx 625 - 205.2 = 419.8.\]</span> <span class="mate-bloque">\[d = \sqrt{419.8} \approx 20.49 \text{ km}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-26-9"><div class="caja-titulo">Ejercicio 26.9</div><div class="caja-cuerpo"><p>Un topógrafo mide dos lados de un terreno triangular:</p>
+<div class="mate"><span class="mate-bloque">\[40\ \text{m} \qquad\text{y}\qquad 55\ \text{m}.\]</span></div>
+<p>El ángulo comprendido entre ellos mide:</p>
+<div class="mate"><span class="mate-bloque">\[75^\circ.\]</span></div>
+<p>Encuentra la longitud del tercer lado.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[c^2 = 40^2 + 55^2 - 2(40)(55)\cos 75^\circ = 1600 + 3025 - 4400 \cdot 0.2588 \approx 4625 - 1138.7 = 3486.3.\]</span> <span class="mate-bloque">\[c = \sqrt{3486.3} \approx 59.04 \text{ m}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-26-10"><div class="caja-titulo">Ejercicio 26.10</div><div class="caja-cuerpo"><p>En un triángulo se conocen:</p>
+<div class="mate"><span class="mate-bloque">\[A=50^\circ, \qquad B=60^\circ, \qquad c=10\ \text{cm}.\]</span></div>
+<p>Encuentra el lado \(a\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(C = 180^\circ - 50^\circ - 60^\circ = 70^\circ\). <span class="mate-bloque">\[a = \frac{c \cdot \sen A}{\sen C} = \frac{10 \cdot \sen 50^\circ}{\sen 70^\circ} \approx \frac{10 \cdot 0.7660}{0.9397} \approx 8.15 \text{ cm}.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="25-razones-trigonometricas.html"><span>← Anterior</span>25. Razones trigonométricas</a><a class="nav-siguiente" href="27-circulo-trigonometrico.html"><span>Siguiente →</span>27. Círculo trigonométrico</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

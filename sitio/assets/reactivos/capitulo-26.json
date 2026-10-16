@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "26",
+    "titulo": "Ley de senos y ley de cosenos",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "26.1",
+        "nombre": "Triángulos oblicuángulos"
+      },
+      {
+        "codigo": "26.2",
+        "nombre": "Notación de los elementos de un triángulo"
+      },
+      {
+        "codigo": "26.3",
+        "nombre": "Resolver un triángulo"
+      },
+      {
+        "codigo": "26.4",
+        "nombre": "Ley de senos"
+      },
+      {
+        "codigo": "26.5",
+        "nombre": "Cuándo utilizar la ley de senos"
+      },
+      {
+        "codigo": "26.6",
+        "nombre": "Caso ambiguo de la ley de senos"
+      },
+      {
+        "codigo": "26.7",
+        "nombre": "Ley de cosenos"
+      },
+      {
+        "codigo": "26.8",
+        "nombre": "Cuándo utilizar la ley de cosenos"
+      },
+      {
+        "codigo": "26.9",
+        "nombre": "Cálculo de un lado mediante la ley de cosenos"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas 26.1 a 26.9; se omitieron síntesis y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-26-1-01",
+      "pregunta": "Un triángulo oblicuángulo es aquel que:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.1",
+        "nombre": "Triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "No tiene ángulo recto",
+        "B": "Tiene dos ángulos rectos",
+        "C": "Es siempre equilátero",
+        "D": "Tiene un ángulo de $180^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-1-02",
+      "pregunta": "Un triángulo acutángulo tiene:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.1",
+        "nombre": "Triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Un ángulo recto",
+        "B": "Un ángulo obtuso",
+        "C": "Dos ángulos rectos",
+        "D": "Tres ángulos agudos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-1-03",
+      "pregunta": "Un triángulo obtusángulo tiene:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.1",
+        "nombre": "Triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Un ángulo recto",
+        "B": "Dos ángulos obtusos",
+        "C": "Un ángulo obtuso",
+        "D": "Tres ángulos obtusos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-1-04",
+      "pregunta": "La suma de los ángulos interiores de un triángulo es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.1",
+        "nombre": "Triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$360^\\circ$",
+        "B": "$180^\\circ$",
+        "C": "$90^\\circ$",
+        "D": "$270^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-1-05",
+      "pregunta": "Si $A=48^\\circ$ y $B=67^\\circ$, entonces $C=$",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.1",
+        "nombre": "Triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "$65^\\circ$",
+        "B": "$55^\\circ$",
+        "C": "$75^\\circ$",
+        "D": "$115^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-1-06",
+      "pregunta": "Un triángulo con ángulos $40^\\circ$, $60^\\circ$ y $80^\\circ$ es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.1",
+        "nombre": "Triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Rectángulo",
+        "B": "Obtusángulo",
+        "C": "Degenerado",
+        "D": "Acutángulo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-1-07",
+      "pregunta": "Un triángulo con ángulos $25^\\circ$, $35^\\circ$ y $120^\\circ$ es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.1",
+        "nombre": "Triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Rectángulo",
+        "B": "Equilátero",
+        "C": "Obtusángulo",
+        "D": "Acutángulo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-1-08",
+      "pregunta": "Para resolver un triángulo oblicuángulo se emplean principalmente:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.1",
+        "nombre": "Triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "La fórmula cuadrática",
+        "B": "La ley de senos y la ley de cosenos",
+        "C": "Solo el teorema de Pitágoras",
+        "D": "Únicamente razones de triángulo rectángulo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-1-09",
+      "pregunta": "El teorema de Pitágoras se aplica directamente solo si el triángulo es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.1",
+        "nombre": "Triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Rectángulo",
+        "B": "Oblicuángulo cualquiera",
+        "C": "Obtusángulo exclusivamente",
+        "D": "Acutángulo exclusivamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-1-10",
+      "pregunta": "Un triángulo oblicuángulo puede ser:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.1",
+        "nombre": "Triángulos oblicuángulos"
+      },
+      "respuestas_posibles": {
+        "A": "Solo rectángulo",
+        "B": "Solo equilátero",
+        "C": "Siempre isósceles",
+        "D": "Acutángulo u obtusángulo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-2-01",
+      "pregunta": "En $\\triangle ABC$, el lado $a$ se encuentra opuesto a:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.2",
+        "nombre": "Notación de los elementos de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$C$",
+        "B": "$AB$",
+        "C": "$A$",
+        "D": "$B$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-2-02",
+      "pregunta": "En $\\triangle ABC$, el lado opuesto a $B$ se denota:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.2",
+        "nombre": "Notación de los elementos de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$AB$",
+        "B": "$b$",
+        "C": "$a$",
+        "D": "$c$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-2-03",
+      "pregunta": "El lado $c$ es opuesto al ángulo:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.2",
+        "nombre": "Notación de los elementos de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$C$",
+        "B": "$A$",
+        "C": "$B$",
+        "D": "$A+B$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-2-04",
+      "pregunta": "Si $AB=9$, en la notación usual $AB$ corresponde al lado:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.2",
+        "nombre": "Notación de los elementos de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$a$",
+        "B": "$b$",
+        "C": "$C$",
+        "D": "$c$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-2-05",
+      "pregunta": "Si $BC=12$, en la notación usual $BC$ corresponde al lado:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.2",
+        "nombre": "Notación de los elementos de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$c$",
+        "B": "$A$",
+        "C": "$a$",
+        "D": "$b$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-2-06",
+      "pregunta": "Si $CA=7$, en la notación usual $CA$ corresponde al lado:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.2",
+        "nombre": "Notación de los elementos de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$B$",
+        "B": "$b$",
+        "C": "$a$",
+        "D": "$c$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-2-07",
+      "pregunta": "En la ley de senos, cada lado se relaciona con:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.2",
+        "nombre": "Notación de los elementos de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "El seno de su ángulo opuesto",
+        "B": "El coseno de su ángulo adyacente",
+        "C": "El seno de cualquier ángulo",
+        "D": "La tangente del ángulo recto"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-2-08",
+      "pregunta": "¿Cuál pareja es correspondiente?",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.2",
+        "nombre": "Notación de los elementos de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$a$ y $B$",
+        "B": "$b$ y $C$",
+        "C": "$c$ y $A$",
+        "D": "$a$ y $A$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-2-09",
+      "pregunta": "Si $A$ es el mayor ángulo, entonces normalmente $a$ es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.2",
+        "nombre": "Notación de los elementos de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Igual a cero",
+        "B": "La altura",
+        "C": "El mayor lado",
+        "D": "El menor lado"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-2-10",
+      "pregunta": "Si $a=b$, entonces los ángulos opuestos cumplen:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.2",
+        "nombre": "Notación de los elementos de un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$A-B=90^\\circ$",
+        "B": "$A=B$",
+        "C": "$A+B=90^\\circ$",
+        "D": "$A=2B$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-3-01",
+      "pregunta": "Resolver un triángulo significa determinar:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.3",
+        "nombre": "Resolver un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Todos sus lados y ángulos desconocidos",
+        "B": "Solo su perímetro",
+        "C": "Solo su área",
+        "D": "Únicamente el ángulo mayor"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-3-02",
+      "pregunta": "Con tres ángulos conocidos, ¿queda determinado el tamaño del triángulo?",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.3",
+        "nombre": "Resolver un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, siempre",
+        "B": "Solo si es obtuso",
+        "C": "Solo si un ángulo es $60^\\circ$",
+        "D": "No, solo su forma"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-3-03",
+      "pregunta": "¿Qué conjunto determina un triángulo de manera única?",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.3",
+        "nombre": "Resolver un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Un solo lado",
+        "B": "Un solo ángulo",
+        "C": "Tres lados compatibles",
+        "D": "Tres ángulos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-3-04",
+      "pregunta": "Si se conocen dos ángulos y un lado, el tercer ángulo se obtiene con:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.3",
+        "nombre": "Resolver un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$C=360^\\circ-A-B$",
+        "B": "$C=180^\\circ-A-B$",
+        "C": "$C=A+B$",
+        "D": "$C=90^\\circ-A$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-3-05",
+      "pregunta": "Después de hallar un lado, una verificación básica es comprobar:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.3",
+        "nombre": "Resolver un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Que el mayor lado quede opuesto al mayor ángulo",
+        "B": "Que todos los lados sean iguales",
+        "C": "Que el perímetro sea $180$",
+        "D": "Que un ángulo sea recto"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-3-06",
+      "pregunta": "Los datos LAL significan conocer:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.3",
+        "nombre": "Resolver un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Dos ángulos y un lado",
+        "B": "Tres lados",
+        "C": "Dos lados y un ángulo no comprendido",
+        "D": "Dos lados y el ángulo comprendido"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-3-07",
+      "pregunta": "Los datos AAL significan conocer:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.3",
+        "nombre": "Resolver un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Dos lados y el ángulo comprendido",
+        "B": "Un ángulo solamente",
+        "C": "Dos ángulos y un lado",
+        "D": "Tres lados"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-3-08",
+      "pregunta": "Los datos LLL significan conocer:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.3",
+        "nombre": "Resolver un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Un lado y dos alturas",
+        "B": "Los tres lados",
+        "C": "Los tres ángulos",
+        "D": "Dos lados y un ángulo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-3-09",
+      "pregunta": "Si $A=72^\\circ$ y $B=43^\\circ$, el tercer ángulo es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.3",
+        "nombre": "Resolver un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "$65^\\circ$",
+        "B": "$55^\\circ$",
+        "C": "$115^\\circ$",
+        "D": "$29^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-3-10",
+      "pregunta": "Una solución válida debe satisfacer que:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.3",
+        "nombre": "Resolver un triángulo"
+      },
+      "respuestas_posibles": {
+        "A": "Los lados sumen $180$",
+        "B": "Cada ángulo sea agudo",
+        "C": "Los tres lados sean enteros",
+        "D": "Los tres ángulos sumen $180^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-4-01",
+      "pregunta": "La ley de senos establece:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.4",
+        "nombre": "Ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "$a+b+c=180$",
+        "B": "$\\frac a{\\cos A}=1$",
+        "C": "$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$",
+        "D": "$a^2=b^2+c^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-4-02",
+      "pregunta": "Una forma equivalente es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.4",
+        "nombre": "Ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin A+\\sin B=1$",
+        "B": "$\\frac{\\sin A}{a}=\\frac{\\sin B}{b}=\\frac{\\sin C}{c}$",
+        "C": "$a\\sin A=b\\sin B$ siempre",
+        "D": "$a+b=c$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-4-03",
+      "pregunta": "Si $A=30^\\circ$, $B=90^\\circ$ y $a=5$, entonces $b=$",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.4",
+        "nombre": "Ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$5$",
+        "C": "$5\\sqrt3$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-4-04",
+      "pregunta": "Si $A=30^\\circ$, $B=60^\\circ$ y $a=4$, entonces $b=$",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.4",
+        "nombre": "Ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$2\\sqrt3$",
+        "C": "$4$",
+        "D": "$4\\sqrt3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-4-05",
+      "pregunta": "Si $A=45^\\circ$, $B=90^\\circ$ y $a=7$, entonces $b=$",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.4",
+        "nombre": "Ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$\\frac{7\\sqrt2}{2}$",
+        "C": "$7\\sqrt2$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-4-06",
+      "pregunta": "Si $A=60^\\circ$, $B=30^\\circ$ y $a=6\\sqrt3$, entonces $b=$",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.4",
+        "nombre": "Ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "$6\\sqrt2$",
+        "B": "$6$",
+        "C": "$3$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-4-07",
+      "pregunta": "Al despejar $b$ de $\\frac a{\\sin A}=\\frac b{\\sin B}$ se obtiene:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.4",
+        "nombre": "Ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "$b=\\frac{a\\sin B}{\\sin A}$",
+        "B": "$b=\\frac{a\\sin A}{\\sin B}$",
+        "C": "$b=a\\sin A\\sin B$",
+        "D": "$b=\\frac{\\sin A}{a\\sin B}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-4-08",
+      "pregunta": "Si $a=10$, $A=45^\\circ$ y $B=45^\\circ$, entonces $b=$",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.4",
+        "nombre": "Ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$10\\sqrt2$",
+        "C": "$20$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-4-09",
+      "pregunta": "La ley de senos usa pares formados por:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.4",
+        "nombre": "Ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Un lado y el coseno del mismo ángulo",
+        "B": "Dos ángulos sin lados",
+        "C": "Un lado y el seno de su ángulo opuesto",
+        "D": "Dos lados adyacentes"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-4-10",
+      "pregunta": "Si $a/\\sin A=20$ y $\\sin B=0.6$, entonces $b=$",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.4",
+        "nombre": "Ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$12$",
+        "C": "$20.6$",
+        "D": "$33.3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-5-01",
+      "pregunta": "La ley de senos es especialmente conveniente en el caso:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.5",
+        "nombre": "Cuándo utilizar la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "AAL o ALA",
+        "B": "LLL",
+        "C": "LAL",
+        "D": "Cuatro lados"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-5-02",
+      "pregunta": "También puede usarse en el caso:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.5",
+        "nombre": "Cuándo utilizar la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "LLL sin ángulos",
+        "B": "LAL como primera opción siempre",
+        "C": "Solo en triángulos rectángulos",
+        "D": "LLA, considerando el caso ambiguo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-5-03",
+      "pregunta": "Si se conocen $A$, $B$ y $a$, conviene usar:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.5",
+        "nombre": "Cuándo utilizar la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Teorema de Pitágoras",
+        "B": "Fórmula de Herón primero",
+        "C": "Ley de senos",
+        "D": "Ley de cosenos exclusivamente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-5-04",
+      "pregunta": "Si se conocen $a$, $b$ y $C$, conviene iniciar con:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.5",
+        "nombre": "Cuándo utilizar la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Tangente",
+        "B": "Ley de cosenos",
+        "C": "Ley de senos",
+        "D": "Identidad pitagórica"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-5-05",
+      "pregunta": "Si se conocen $a$, $b$ y $c$, conviene iniciar con:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.5",
+        "nombre": "Cuándo utilizar la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Ley de cosenos",
+        "B": "Ley de senos sin hallar ángulos",
+        "C": "Seno de ángulo doble",
+        "D": "Pitágoras"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-5-06",
+      "pregunta": "Si se conoce un par lado-ángulo opuesto y otro ángulo, conviene usar:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.5",
+        "nombre": "Cuándo utilizar la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Ley de cosenos",
+        "B": "Solo suma de ángulos",
+        "C": "Fórmula de distancia",
+        "D": "Ley de senos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-5-07",
+      "pregunta": "En ALA, antes de aplicar la ley de senos puede calcularse:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.5",
+        "nombre": "Cuándo utilizar la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "La altura",
+        "B": "El semiperímetro",
+        "C": "El tercer ángulo",
+        "D": "El área obligatoriamente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-5-08",
+      "pregunta": "La ley de senos requiere al menos:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.5",
+        "nombre": "Cuándo utilizar la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Dos alturas",
+        "B": "Un par conocido de lado y ángulo opuesto",
+        "C": "Tres lados",
+        "D": "Un ángulo recto"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-5-09",
+      "pregunta": "Para datos LAL, la ley de senos no es inmediata porque:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.5",
+        "nombre": "Cuándo utilizar la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "No se conoce un par lado-ángulo opuesto",
+        "B": "No existen senos",
+        "C": "Los lados no tienen medida",
+        "D": "El triángulo es rectángulo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-5-10",
+      "pregunta": "Después de usar cosenos para hallar un lado en LAL, puede continuarse con:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.5",
+        "nombre": "Cuándo utilizar la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Solo Pitágoras",
+        "B": "Ningún método",
+        "C": "Área del círculo",
+        "D": "Ley de senos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-6-01",
+      "pregunta": "El caso ambiguo puede presentarse con datos:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.6",
+        "nombre": "Caso ambiguo de la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "AAL",
+        "B": "LLL",
+        "C": "LLA",
+        "D": "ALA"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-6-02",
+      "pregunta": "En el caso LLA pueden existir:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.6",
+        "nombre": "Caso ambiguo de la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Infinitos triángulos",
+        "B": "Cero, uno o dos triángulos",
+        "C": "Siempre tres triángulos",
+        "D": "Solo un triángulo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-6-03",
+      "pregunta": "Si $A$ es agudo, $h=b\\sin A$ y $a<h$, existen:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.6",
+        "nombre": "Caso ambiguo de la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Cero triángulos",
+        "B": "Un triángulo rectángulo",
+        "C": "Dos triángulos",
+        "D": "Infinitos triángulos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-6-04",
+      "pregunta": "Si $A$ es agudo y $a=h$, existe:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.6",
+        "nombre": "Caso ambiguo de la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Cero triángulos",
+        "B": "Dos triángulos",
+        "C": "Tres triángulos",
+        "D": "Un triángulo rectángulo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-6-05",
+      "pregunta": "Si $A$ es agudo y $h<a<b$, existen:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.6",
+        "nombre": "Caso ambiguo de la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Un triángulo",
+        "B": "Infinitos triángulos",
+        "C": "Dos triángulos",
+        "D": "Cero triángulos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-6-06",
+      "pregunta": "Si $A$ es agudo y $a\\ge b$, existe:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.6",
+        "nombre": "Caso ambiguo de la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Infinitos triángulos",
+        "B": "Un triángulo",
+        "C": "Dos triángulos",
+        "D": "Cero triángulos siempre"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-6-07",
+      "pregunta": "Al usar $\\sin^{-1}$ para hallar $B$, la segunda posibilidad es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.6",
+        "nombre": "Caso ambiguo de la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "$180^\\circ-B$",
+        "B": "$90^\\circ-B$",
+        "C": "$360^\\circ-B$",
+        "D": "$B+360^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-6-08",
+      "pregunta": "La segunda solución se acepta solo si:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.6",
+        "nombre": "Caso ambiguo de la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "El tercer ángulo es negativo",
+        "B": "Los lados son iguales",
+        "C": "El ángulo dado es recto",
+        "D": "La suma de ángulos permanece menor que $180^\\circ$ antes del tercero"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-6-09",
+      "pregunta": "Si el ángulo dado $A$ es obtuso, el lado opuesto $a$ debe ser:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.6",
+        "nombre": "Caso ambiguo de la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Igual a cualquier lado",
+        "B": "Cero",
+        "C": "El lado mayor",
+        "D": "El lado menor"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-6-10",
+      "pregunta": "Si $A$ es obtuso y $a\\le b$, entonces existen:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.6",
+        "nombre": "Caso ambiguo de la ley de senos"
+      },
+      "respuestas_posibles": {
+        "A": "Infinitos triángulos",
+        "B": "Cero triángulos",
+        "C": "Dos triángulos",
+        "D": "Un triángulo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-7-01",
+      "pregunta": "La ley de cosenos para el lado $a$ es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.7",
+        "nombre": "Ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$a^2=b^2+c^2-2bc\\cos A$",
+        "B": "$a=b+c-2bc$",
+        "C": "$a^2=b^2+c^2$ siempre",
+        "D": "$a^2=b^2-c^2+2bc\\cos A$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-7-02",
+      "pregunta": "Para el lado $b$ se escribe:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.7",
+        "nombre": "Ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$b^2=a^2+c^2+2ac\\cos B$",
+        "B": "$b=a+c$",
+        "C": "$b^2=a^2-c^2$",
+        "D": "$b^2=a^2+c^2-2ac\\cos B$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-7-03",
+      "pregunta": "Para el lado $c$ se escribe:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.7",
+        "nombre": "Ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$c=a+b$",
+        "B": "$c^2=a^2-b^2$",
+        "C": "$c^2=a^2+b^2-2ab\\cos C$",
+        "D": "$c^2=a^2+b^2+2ab\\cos C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-7-04",
+      "pregunta": "Si $A=90^\\circ$, la ley de cosenos se reduce a:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.7",
+        "nombre": "Ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$a^2=2bc$",
+        "B": "$a^2=b^2+c^2$",
+        "C": "$a=b+c$",
+        "D": "$a^2=b^2-c^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-7-05",
+      "pregunta": "Al despejar $\\cos A$ se obtiene:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.7",
+        "nombre": "Ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos A=\\frac{b^2+c^2-a^2}{2bc}$",
+        "B": "$\\frac{a^2+b^2-c^2}{2ab}$",
+        "C": "$\\frac{a}{b+c}$",
+        "D": "$\\frac{2bc}{b^2+c^2-a^2}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-7-06",
+      "pregunta": "Si $A$ es obtuso, $\\cos A$ es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.7",
+        "nombre": "Ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "Positivo",
+        "B": "Cero siempre",
+        "C": "Mayor que uno",
+        "D": "Negativo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-7-07",
+      "pregunta": "Si $A$ es agudo, $\\cos A$ es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.7",
+        "nombre": "Ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "Cero",
+        "B": "No existe",
+        "C": "Positivo",
+        "D": "Negativo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-7-08",
+      "pregunta": "Si $A=60^\\circ$, $b=5$ y $c=5$, entonces $a=$",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.7",
+        "nombre": "Ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt{75}$",
+        "B": "$5$",
+        "C": "$5\\sqrt2$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-7-09",
+      "pregunta": "Si $A=120^\\circ$, $b=4$ y $c=6$, entonces $a^2=$",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.7",
+        "nombre": "Ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$76$",
+        "B": "$28$",
+        "C": "$52$",
+        "D": "$100$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-7-10",
+      "pregunta": "La ley de cosenos generaliza:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.7",
+        "nombre": "Ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "La ley de senos",
+        "B": "La fórmula del círculo",
+        "C": "La identidad de Euler",
+        "D": "El teorema de Pitágoras"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-8-01",
+      "pregunta": "La ley de cosenos es la opción directa para datos:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.8",
+        "nombre": "Cuándo utilizar la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "ALA",
+        "B": "Un ángulo solamente",
+        "C": "LAL",
+        "D": "AAL"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-8-02",
+      "pregunta": "También es la opción inicial para datos:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.8",
+        "nombre": "Cuándo utilizar la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "Un lado",
+        "B": "LLL",
+        "C": "AAL",
+        "D": "Dos ángulos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-8-03",
+      "pregunta": "Si se conocen dos lados y el ángulo comprendido, se usa:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.8",
+        "nombre": "Cuándo utilizar la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "Ley de cosenos",
+        "B": "Ley de senos de inmediato",
+        "C": "Solo Pitágoras",
+        "D": "Tangente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-8-04",
+      "pregunta": "Si se conocen los tres lados y se busca un ángulo, se usa:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.8",
+        "nombre": "Cuándo utilizar la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "Ley de senos sin conocer ángulos",
+        "B": "Área del círculo",
+        "C": "Teorema de Tales",
+        "D": "Ley de cosenos despejada"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-8-05",
+      "pregunta": "Si se conocen dos ángulos y un lado, se prefiere:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.8",
+        "nombre": "Cuándo utilizar la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "Fórmula de Herón",
+        "B": "Pitágoras",
+        "C": "Ley de senos",
+        "D": "Ley de cosenos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-8-06",
+      "pregunta": "El ángulo comprendido entre los lados $b$ y $c$ es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.8",
+        "nombre": "Cuándo utilizar la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$A+B$",
+        "B": "$A$",
+        "C": "$B$",
+        "D": "$C$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-8-07",
+      "pregunta": "El ángulo comprendido entre los lados $a$ y $c$ es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.8",
+        "nombre": "Cuándo utilizar la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$B$",
+        "B": "$A$",
+        "C": "$C$",
+        "D": "$A+C$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-8-08",
+      "pregunta": "El ángulo comprendido entre los lados $a$ y $b$ es:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.8",
+        "nombre": "Cuándo utilizar la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$A$",
+        "B": "$B$",
+        "C": "$B+C$",
+        "D": "$C$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-8-09",
+      "pregunta": "En un problema LAL, el primer resultado suele ser:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.8",
+        "nombre": "Cuándo utilizar la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "El área obligatoriamente",
+        "B": "El perímetro solamente",
+        "C": "El tercer lado",
+        "D": "Los tres ángulos de inmediato"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-8-10",
+      "pregunta": "En un problema LLL, conviene hallar primero:",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.8",
+        "nombre": "Cuándo utilizar la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "Una altura aleatoria",
+        "B": "El ángulo opuesto al lado mayor",
+        "C": "El ángulo opuesto al lado menor siempre",
+        "D": "El área del círculo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver triángulos oblicuángulos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-9-01",
+      "pregunta": "Calcule el lado $a$ si $b=3$, $c=4$ y $A=90^\\circ$.",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.9",
+        "nombre": "Cálculo de un lado mediante la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$7$",
+        "C": "$1$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular lado con ley de cosenos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-9-02",
+      "pregunta": "Calcule el lado $a$ si $b=5$, $c=5$ y $A=60^\\circ$.",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.9",
+        "nombre": "Cálculo de un lado mediante la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$0$",
+        "C": "$25$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular lado con ley de cosenos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-9-03",
+      "pregunta": "Calcule el lado $a$ si $b=6$, $c=8$ y $A=90^\\circ$.",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.9",
+        "nombre": "Cálculo de un lado mediante la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$48$",
+        "C": "$10$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular lado con ley de cosenos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-9-04",
+      "pregunta": "Calcule el lado $a$ si $b=7$, $c=7$ y $A=60^\\circ$.",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.9",
+        "nombre": "Cálculo de un lado mediante la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$49$",
+        "B": "$7$",
+        "C": "$14$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular lado con ley de cosenos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-9-05",
+      "pregunta": "Calcule el lado $a$ si $b=5$, $c=5$ y $A=120^\\circ$.",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.9",
+        "nombre": "Cálculo de un lado mediante la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$5\\sqrt3$",
+        "B": "$10$",
+        "C": "$0$",
+        "D": "$25$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular lado con ley de cosenos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-9-06",
+      "pregunta": "Calcule el lado $a$ si $b=4$, $c=6$ y $A=60^\\circ$.",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.9",
+        "nombre": "Cálculo de un lado mediante la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$2$",
+        "C": "$24$",
+        "D": "$2\\sqrt7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular lado con ley de cosenos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-9-07",
+      "pregunta": "Calcule el lado $a$ si $b=8$, $c=10$ y $A=60^\\circ$.",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.9",
+        "nombre": "Cálculo de un lado mediante la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$80$",
+        "C": "$2\\sqrt{21}$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular lado con ley de cosenos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-9-08",
+      "pregunta": "Calcule el lado $a$ si $b=9$, $c=12$ y $A=90^\\circ$.",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.9",
+        "nombre": "Cálculo de un lado mediante la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$108$",
+        "B": "$15$",
+        "C": "$21$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular lado con ley de cosenos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-9-09",
+      "pregunta": "Calcule el lado $a$ si $b=6$, $c=6$ y $A=120^\\circ$.",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.9",
+        "nombre": "Cálculo de un lado mediante la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$6\\sqrt3$",
+        "B": "$12$",
+        "C": "$0$",
+        "D": "$36$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular lado con ley de cosenos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-26-9-10",
+      "pregunta": "Calcule el lado $a$ si $b=5$, $c=12$ y $A=90^\\circ$.",
+      "tema": {
+        "codigo": "26",
+        "nombre": "Ley de senos y ley de cosenos",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "26.9",
+        "nombre": "Cálculo de un lado mediante la ley de cosenos"
+      },
+      "respuestas_posibles": {
+        "A": "$17$",
+        "B": "$7$",
+        "C": "$60$",
+        "D": "$13$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular lado con ley de cosenos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

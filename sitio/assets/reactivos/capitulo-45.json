@@ -1,0 +1,1872 @@
+{
+  "metadata": {
+    "capitulo": "45",
+    "titulo": "Estadística descriptiva",
+    "version": "6.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 7,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 70,
+    "secciones_incluidas": [
+      {
+        "codigo": "45.1",
+        "nombre": "Población y muestra"
+      },
+      {
+        "codigo": "45.2",
+        "nombre": "Parámetro y estadístico"
+      },
+      {
+        "codigo": "45.3",
+        "nombre": "Variables estadísticas"
+      },
+      {
+        "codigo": "45.4",
+        "nombre": "Tablas de frecuencias"
+      },
+      {
+        "codigo": "45.5",
+        "nombre": "Tabla para datos no agrupados"
+      },
+      {
+        "codigo": "45.6",
+        "nombre": "Datos agrupados en intervalos"
+      },
+      {
+        "codigo": "45.7",
+        "nombre": "Representaciones gráficas"
+      }
+    ],
+    "secciones_editoriales_omitidas": [
+      "45.8 Procedimiento rápido",
+      "45.9 Resumen",
+      "45.10 Errores frecuentes",
+      "45.11 Ejercicios propuestos"
+    ],
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_validado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-45-1-01",
+      "pregunta": "En un estudio sobre el tiempo de traslado de todo el alumnado de una universidad, ¿cuál es la población?",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.1",
+        "nombre": "Población y muestra"
+      },
+      "respuestas_posibles": {
+        "A": "Todo el alumnado de la universidad",
+        "B": "Las primeras $50$ personas encuestadas",
+        "C": "Los tiempos mayores a una hora",
+        "D": "El personal investigador"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "población y muestra",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-1-02",
+      "pregunta": "Se eligen $120$ hogares de una ciudad para estimar el consumo de agua. Los $120$ hogares forman:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.1",
+        "nombre": "Población y muestra"
+      },
+      "respuestas_posibles": {
+        "A": "La población completa",
+        "B": "Una variable continua",
+        "C": "Un parámetro",
+        "D": "Una muestra"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "población y muestra",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-1-03",
+      "pregunta": "La población de interés en un censo nacional es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.1",
+        "nombre": "Población y muestra"
+      },
+      "respuestas_posibles": {
+        "A": "Una selección de municipios",
+        "B": "El promedio de edades",
+        "C": "El conjunto total de habitantes del país",
+        "D": "Solo quienes respondieron primero"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "población y muestra",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-1-04",
+      "pregunta": "Una muestra representativa debe:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.1",
+        "nombre": "Población y muestra"
+      },
+      "respuestas_posibles": {
+        "A": "Excluir la variabilidad",
+        "B": "Reflejar las características relevantes de la población",
+        "C": "Incluir únicamente casos extremos",
+        "D": "Ser siempre mayor que la población"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "población y muestra",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-1-05",
+      "pregunta": "Se estudia la duración de todas las lámparas producidas en una fábrica durante un día. ¿Cuál es la unidad estadística?",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.1",
+        "nombre": "Población y muestra"
+      },
+      "respuestas_posibles": {
+        "A": "Cada lámpara producida",
+        "B": "La fábrica completa",
+        "C": "La duración promedio",
+        "D": "El día de producción"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "población y muestra",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-1-06",
+      "pregunta": "¿Cuál situación describe un muestreo?",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.1",
+        "nombre": "Población y muestra"
+      },
+      "respuestas_posibles": {
+        "A": "Revisar todas las piezas del lote",
+        "B": "Calcular una media sin datos",
+        "C": "Clasificar una sola pieza",
+        "D": "Examinar $200$ piezas de un lote de $10{,}000$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "población y muestra",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-1-07",
+      "pregunta": "Una ventaja de trabajar con una muestra es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.1",
+        "nombre": "Población y muestra"
+      },
+      "respuestas_posibles": {
+        "A": "Conocer exactamente a cada elemento",
+        "B": "Evitar definir la población",
+        "C": "Reducir tiempo y costo de recolección",
+        "D": "Eliminar todo error posible"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "población y muestra",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-1-08",
+      "pregunta": "Para estudiar hábitos de lectura de estudiantes de preparatoria, ¿cuál muestra es menos sesgada?",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.1",
+        "nombre": "Población y muestra"
+      },
+      "respuestas_posibles": {
+        "A": "Elegir únicamente un salón avanzado",
+        "B": "Seleccionar estudiantes al azar de todos los grados",
+        "C": "Encuestar solo al club de lectura",
+        "D": "Encuestar solo a quienes no leen"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "población y muestra",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-1-09",
+      "pregunta": "La diferencia principal entre población y muestra es que:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.1",
+        "nombre": "Población y muestra"
+      },
+      "respuestas_posibles": {
+        "A": "La muestra es un subconjunto de la población",
+        "B": "La población es siempre pequeña",
+        "C": "La muestra contiene parámetros",
+        "D": "La población no tiene variables"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "población y muestra",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-1-10",
+      "pregunta": "En una encuesta sobre ingresos de empleados de una empresa, la población accesible está formada por:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.1",
+        "nombre": "Población y muestra"
+      },
+      "respuestas_posibles": {
+        "A": "Los ingresos promedio",
+        "B": "Las preguntas del cuestionario",
+        "C": "Las respuestas ordenadas",
+        "D": "Los empleados que pueden ser incluidos en el estudio"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "población y muestra",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-2-01",
+      "pregunta": "La media de edad de todos los habitantes de una ciudad es un:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.2",
+        "nombre": "Parámetro y estadístico"
+      },
+      "respuestas_posibles": {
+        "A": "Dato cualitativo",
+        "B": "Intervalo de clase",
+        "C": "Parámetro",
+        "D": "Estadístico"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "parámetro y estadístico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-2-02",
+      "pregunta": "La proporción de personas con empleo calculada en una muestra es un:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.2",
+        "nombre": "Parámetro y estadístico"
+      },
+      "respuestas_posibles": {
+        "A": "Censo",
+        "B": "Estadístico",
+        "C": "Parámetro poblacional conocido",
+        "D": "Histograma"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "parámetro y estadístico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-2-03",
+      "pregunta": "Un parámetro describe:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.2",
+        "nombre": "Parámetro y estadístico"
+      },
+      "respuestas_posibles": {
+        "A": "A una población",
+        "B": "A una muestra únicamente",
+        "C": "A una gráfica",
+        "D": "A una variable nominal"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "parámetro y estadístico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-2-04",
+      "pregunta": "Un estadístico se calcula a partir de:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.2",
+        "nombre": "Parámetro y estadístico"
+      },
+      "respuestas_posibles": {
+        "A": "Toda la población forzosamente",
+        "B": "Una hipótesis sin datos",
+        "C": "Una frecuencia acumulada únicamente",
+        "D": "Una muestra"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "parámetro y estadístico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-2-05",
+      "pregunta": "La desviación estándar de las calificaciones de todo un plantel es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.2",
+        "nombre": "Parámetro y estadístico"
+      },
+      "respuestas_posibles": {
+        "A": "Una muestra",
+        "B": "Una categoría ordinal",
+        "C": "Un parámetro",
+        "D": "Un estadístico"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "parámetro y estadístico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-2-06",
+      "pregunta": "La media de una muestra suele denotarse por:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.2",
+        "nombre": "Parámetro y estadístico"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sigma$",
+        "B": "$\\bar{x}$",
+        "C": "$\\mu$",
+        "D": "$N$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "parámetro y estadístico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-2-07",
+      "pregunta": "La media poblacional suele denotarse por:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.2",
+        "nombre": "Parámetro y estadístico"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mu$",
+        "B": "$\\bar{x}$",
+        "C": "$n$",
+        "D": "$f_i$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "parámetro y estadístico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-2-08",
+      "pregunta": "¿Cuál cantidad puede emplearse para estimar un parámetro?",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.2",
+        "nombre": "Parámetro y estadístico"
+      },
+      "respuestas_posibles": {
+        "A": "Una etiqueta nominal",
+        "B": "El nombre de la población",
+        "C": "Un eje cartesiano",
+        "D": "Un estadístico muestral"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "parámetro y estadístico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-2-09",
+      "pregunta": "La proporción real de votantes de una ciudad que apoya una propuesta es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.2",
+        "nombre": "Parámetro y estadístico"
+      },
+      "respuestas_posibles": {
+        "A": "Una frecuencia de clase",
+        "B": "Una variable discreta",
+        "C": "Un parámetro",
+        "D": "Un estadístico si se conoce mediante censo parcial"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "parámetro y estadístico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-2-10",
+      "pregunta": "El promedio obtenido con $80$ respuestas de una encuesta es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.2",
+        "nombre": "Parámetro y estadístico"
+      },
+      "respuestas_posibles": {
+        "A": "La unidad estadística",
+        "B": "Un estadístico",
+        "C": "Un parámetro exacto de toda la población",
+        "D": "La población"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "parámetro y estadístico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-3-01",
+      "pregunta": "El tipo de sangre es una variable:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.3",
+        "nombre": "Variables estadísticas"
+      },
+      "respuestas_posibles": {
+        "A": "Cualitativa nominal",
+        "B": "Cualitativa ordinal",
+        "C": "Cuantitativa discreta",
+        "D": "Cuantitativa continua"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "variables estadísticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-3-02",
+      "pregunta": "El nivel de satisfacción: bajo, medio o alto, es una variable:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.3",
+        "nombre": "Variables estadísticas"
+      },
+      "respuestas_posibles": {
+        "A": "Cualitativa nominal",
+        "B": "Cuantitativa continua",
+        "C": "Cuantitativa discreta",
+        "D": "Cualitativa ordinal"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "variables estadísticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-3-03",
+      "pregunta": "El número de mascotas en un hogar es una variable:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.3",
+        "nombre": "Variables estadísticas"
+      },
+      "respuestas_posibles": {
+        "A": "Cualitativa nominal",
+        "B": "Cualitativa ordinal",
+        "C": "Cuantitativa discreta",
+        "D": "Cuantitativa continua"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "variables estadísticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-3-04",
+      "pregunta": "La estatura medida en centímetros es una variable:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.3",
+        "nombre": "Variables estadísticas"
+      },
+      "respuestas_posibles": {
+        "A": "Cualitativa ordinal",
+        "B": "Cuantitativa continua",
+        "C": "Cuantitativa discreta",
+        "D": "Cualitativa nominal"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "variables estadísticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-3-05",
+      "pregunta": "La marca de teléfono que utiliza una persona es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.3",
+        "nombre": "Variables estadísticas"
+      },
+      "respuestas_posibles": {
+        "A": "Cualitativa nominal",
+        "B": "Cuantitativa continua",
+        "C": "Cualitativa ordinal",
+        "D": "Cuantitativa discreta"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "variables estadísticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-3-06",
+      "pregunta": "El lugar obtenido en una competencia, primero, segundo o tercero, es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.3",
+        "nombre": "Variables estadísticas"
+      },
+      "respuestas_posibles": {
+        "A": "Cualitativa nominal",
+        "B": "Cuantitativa continua",
+        "C": "Cuantitativa discreta",
+        "D": "Cualitativa ordinal"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "variables estadísticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-3-07",
+      "pregunta": "La cantidad de llamadas recibidas en una hora es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.3",
+        "nombre": "Variables estadísticas"
+      },
+      "respuestas_posibles": {
+        "A": "Cualitativa nominal",
+        "B": "Cualitativa ordinal",
+        "C": "Cuantitativa discreta",
+        "D": "Cuantitativa continua"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "variables estadísticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-3-08",
+      "pregunta": "La temperatura de una habitación es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.3",
+        "nombre": "Variables estadísticas"
+      },
+      "respuestas_posibles": {
+        "A": "Cualitativa ordinal",
+        "B": "Cuantitativa continua",
+        "C": "Cuantitativa discreta",
+        "D": "Cualitativa nominal"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "variables estadísticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-3-09",
+      "pregunta": "¿Cuál variable es cuantitativa continua?",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.3",
+        "nombre": "Variables estadísticas"
+      },
+      "respuestas_posibles": {
+        "A": "El tiempo empleado en resolver un examen",
+        "B": "El número de respuestas correctas",
+        "C": "El color del cuaderno",
+        "D": "El nivel de acuerdo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "variables estadísticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-3-10",
+      "pregunta": "¿Cuál variable es cualitativa ordinal?",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.3",
+        "nombre": "Variables estadísticas"
+      },
+      "respuestas_posibles": {
+        "A": "La masa corporal",
+        "B": "El número de hermanos",
+        "C": "La ciudad de nacimiento",
+        "D": "La talla clasificada como chica, mediana o grande"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "variables estadísticas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-4-01",
+      "pregunta": "En una encuesta de $40$ personas, una categoría aparece $10$ veces. Su frecuencia relativa es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.4",
+        "nombre": "Tablas de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$0.40$",
+        "B": "$4$",
+        "C": "$0.25$",
+        "D": "$0.10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "tablas de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-4-02",
+      "pregunta": "Si una categoría tiene frecuencia relativa $0.35$ en una muestra de $200$, su frecuencia absoluta es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.4",
+        "nombre": "Tablas de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$165$",
+        "B": "$70$",
+        "C": "$35$",
+        "D": "$57$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "tablas de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-4-03",
+      "pregunta": "La suma de las frecuencias absolutas es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.4",
+        "nombre": "Tablas de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "El número total de datos",
+        "B": "Siempre $1$",
+        "C": "Siempre $100$",
+        "D": "La marca de clase"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "tablas de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-4-04",
+      "pregunta": "La suma de las frecuencias relativas es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.4",
+        "nombre": "Tablas de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$n$",
+        "B": "$100$",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "tablas de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-4-05",
+      "pregunta": "Una frecuencia relativa de $0.18$ equivale a:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.4",
+        "nombre": "Tablas de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$180\\%$",
+        "B": "$0.18\\%$",
+        "C": "$18\\%$",
+        "D": "$1.8\\%$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "tablas de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-4-06",
+      "pregunta": "Las frecuencias absolutas son $4,7,9$. La frecuencia acumulada final es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.4",
+        "nombre": "Tablas de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$20$",
+        "C": "$9$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "tablas de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-4-07",
+      "pregunta": "En frecuencias $3,5,8,4$, la frecuencia acumulada hasta la tercera categoría es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.4",
+        "nombre": "Tablas de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$8$",
+        "C": "$12$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "tablas de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-4-08",
+      "pregunta": "Si $f_i=12$ y $n=48$, entonces $h_i=$",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.4",
+        "nombre": "Tablas de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$0.40$",
+        "C": "$0.12$",
+        "D": "$0.25$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "tablas de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-4-09",
+      "pregunta": "¿Qué columna permite saber cuántas observaciones no exceden cierto valor?",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.4",
+        "nombre": "Tablas de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "Marca de clase",
+        "B": "Nombre de variable",
+        "C": "Frecuencia acumulada",
+        "D": "Frecuencia absoluta aislada"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "tablas de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-4-10",
+      "pregunta": "En una tabla porcentual, los porcentajes deben sumar:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.4",
+        "nombre": "Tablas de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$50\\%$",
+        "B": "$100\\%$",
+        "C": "$1\\%$",
+        "D": "$n\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "tablas de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-5-01",
+      "pregunta": "Para los datos $2,2,3,4,4,4$, la frecuencia absoluta de $4$ es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.5",
+        "nombre": "Tabla para datos no agrupados"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$4$",
+        "C": "$2$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "tabla para datos no agrupados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-5-02",
+      "pregunta": "En los datos $1,1,2,3,3,5$, la frecuencia acumulada hasta $3$ es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.5",
+        "nombre": "Tabla para datos no agrupados"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$3$",
+        "C": "$6$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "tabla para datos no agrupados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-5-03",
+      "pregunta": "Los datos $5,4,5,6,4$ ordenados son:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.5",
+        "nombre": "Tabla para datos no agrupados"
+      },
+      "respuestas_posibles": {
+        "A": "$4,5,4,5,6$",
+        "B": "$4,4,5,6,5$",
+        "C": "$4,4,5,5,6$",
+        "D": "$6,5,5,4,4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "tabla para datos no agrupados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-5-04",
+      "pregunta": "Para las frecuencias $2,3,5$ con total $10$, la frecuencia relativa de la tercera categoría es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.5",
+        "nombre": "Tabla para datos no agrupados"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$0.5$",
+        "C": "$0.2$",
+        "D": "$0.3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "tabla para datos no agrupados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-5-05",
+      "pregunta": "En una tabla no agrupada, cada fila representa típicamente:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.5",
+        "nombre": "Tabla para datos no agrupados"
+      },
+      "respuestas_posibles": {
+        "A": "Un valor distinto y sus frecuencias",
+        "B": "Un intervalo necesariamente",
+        "C": "Una gráfica circular",
+        "D": "Una población diferente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "tabla para datos no agrupados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-5-06",
+      "pregunta": "Los datos son $A,A,B,C,C,C$. La frecuencia relativa de $C$ es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.5",
+        "nombre": "Tabla para datos no agrupados"
+      },
+      "respuestas_posibles": {
+        "A": "$0.3$",
+        "B": "$3$",
+        "C": "$0.6$",
+        "D": "$0.5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "tabla para datos no agrupados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-5-07",
+      "pregunta": "Para valores $10,20,30$ con frecuencias $1,2,1$, el total de observaciones es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.5",
+        "nombre": "Tabla para datos no agrupados"
+      },
+      "respuestas_posibles": {
+        "A": "$40$",
+        "B": "$60$",
+        "C": "$4$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "tabla para datos no agrupados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-5-08",
+      "pregunta": "Si la frecuencia acumulada de una categoría es $18$ y la anterior es $11$, su frecuencia absoluta es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.5",
+        "nombre": "Tabla para datos no agrupados"
+      },
+      "respuestas_posibles": {
+        "A": "$11$",
+        "B": "$7$",
+        "C": "$29$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "tabla para datos no agrupados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-5-09",
+      "pregunta": "Una tabla de datos no agrupados es más adecuada cuando:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.5",
+        "nombre": "Tabla para datos no agrupados"
+      },
+      "respuestas_posibles": {
+        "A": "Hay pocos valores distintos",
+        "B": "Los datos cubren cientos de valores continuos",
+        "C": "No existen datos",
+        "D": "Solo se requiere una ecuación"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "tabla para datos no agrupados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-5-10",
+      "pregunta": "En una tabla con valores $1,2,3$ y frecuencias $2,4,4$, el porcentaje del valor $2$ es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.5",
+        "nombre": "Tabla para datos no agrupados"
+      },
+      "respuestas_posibles": {
+        "A": "$20\\%$",
+        "B": "$4\\%$",
+        "C": "$60\\%$",
+        "D": "$40\\%$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "tabla para datos no agrupados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-6-01",
+      "pregunta": "La marca de clase del intervalo $[10,20)$ es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.6",
+        "nombre": "Datos agrupados en intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$20$",
+        "B": "$30$",
+        "C": "$15$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "datos agrupados en intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-6-02",
+      "pregunta": "La amplitud del intervalo $[30,40)$ es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.6",
+        "nombre": "Datos agrupados en intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$10$",
+        "C": "$35$",
+        "D": "$70$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "datos agrupados en intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-6-03",
+      "pregunta": "Para datos con mínimo $12$ y máximo $47$, el rango es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.6",
+        "nombre": "Datos agrupados en intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$35$",
+        "B": "$59$",
+        "C": "$47$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "datos agrupados en intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-6-04",
+      "pregunta": "Si se usan $5$ intervalos para un rango de $40$, una amplitud conveniente es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.6",
+        "nombre": "Datos agrupados en intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$40$",
+        "C": "$200$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "datos agrupados en intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-6-05",
+      "pregunta": "El intervalo $[20,30)$ incluye:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.6",
+        "nombre": "Datos agrupados en intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "Ambos extremos siempre",
+        "B": "Ningún extremo",
+        "C": "$20$ pero no $30$",
+        "D": "$30$ pero no $20$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "datos agrupados en intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-6-06",
+      "pregunta": "La marca de clase se calcula como:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.6",
+        "nombre": "Datos agrupados en intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$L_i+L_s$",
+        "B": "$\\frac{L_i+L_s}{2}$",
+        "C": "$L_s-L_i$",
+        "D": "$L_iL_s$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "datos agrupados en intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-6-07",
+      "pregunta": "En intervalos contiguos $[0,5)$ y $[5,10)$, el dato $5$ pertenece a:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.6",
+        "nombre": "Datos agrupados en intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$[5,10)$",
+        "B": "$[0,5)$",
+        "C": "A ambos",
+        "D": "A ninguno"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "datos agrupados en intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-6-08",
+      "pregunta": "Agrupar datos en intervalos es útil cuando:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.6",
+        "nombre": "Datos agrupados en intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "Solo existen dos datos",
+        "B": "La variable es nominal siempre",
+        "C": "Se quiere conservar cada valor exacto",
+        "D": "Hay muchos valores o una variable continua"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "datos agrupados en intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-6-09",
+      "pregunta": "Las frecuencias de cuatro intervalos son $6,9,10,5$. El total es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.6",
+        "nombre": "Datos agrupados en intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$20$",
+        "C": "$30$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "datos agrupados en intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-6-10",
+      "pregunta": "La frecuencia relativa de un intervalo con $12$ casos de un total de $60$ es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.6",
+        "nombre": "Datos agrupados en intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$20$",
+        "B": "$0.20$",
+        "C": "$0.12$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "datos agrupados en intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-7-01",
+      "pregunta": "La gráfica más adecuada para comparar frecuencias de categorías es:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.7",
+        "nombre": "Representaciones gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Gráfica de barras",
+        "B": "Histograma",
+        "C": "Ojiva",
+        "D": "Diagrama de dispersión"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "representaciones gráficas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-7-02",
+      "pregunta": "La gráfica circular representa cada categoría mediante:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.7",
+        "nombre": "Representaciones gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Una barra contigua",
+        "B": "Un punto acumulado",
+        "C": "Una recta de pendiente constante",
+        "D": "Un sector proporcional a su frecuencia"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "representaciones gráficas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-7-03",
+      "pregunta": "En una gráfica circular, una categoría del $25\\%$ ocupa:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.7",
+        "nombre": "Representaciones gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "$45^{\\circ}$",
+        "B": "$180^{\\circ}$",
+        "C": "$90^{\\circ}$",
+        "D": "$25^{\\circ}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "representaciones gráficas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-7-04",
+      "pregunta": "El histograma se usa principalmente para:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.7",
+        "nombre": "Representaciones gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Sistemas de ecuaciones",
+        "B": "Datos cuantitativos agrupados en intervalos",
+        "C": "Categorías nominales sin orden",
+        "D": "Funciones algebraicas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "representaciones gráficas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-7-05",
+      "pregunta": "A diferencia de una gráfica de barras, en un histograma las barras:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.7",
+        "nombre": "Representaciones gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Son contiguas cuando los intervalos también lo son",
+        "B": "Siempre están separadas",
+        "C": "Representan nombres",
+        "D": "No tienen altura"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "representaciones gráficas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-7-06",
+      "pregunta": "El polígono de frecuencias une puntos ubicados en:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.7",
+        "nombre": "Representaciones gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Los límites inferiores únicamente",
+        "B": "Los porcentajes acumulados exclusivamente",
+        "C": "Los nombres de las categorías",
+        "D": "Las marcas de clase y sus frecuencias"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "representaciones gráficas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-7-07",
+      "pregunta": "La ojiva representa:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.7",
+        "nombre": "Representaciones gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Solo variables nominales",
+        "B": "La media y la moda",
+        "C": "Frecuencias acumuladas",
+        "D": "Frecuencias simples no acumuladas"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "representaciones gráficas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-7-08",
+      "pregunta": "¿Qué gráfica permite estimar cuántos datos están por debajo de un valor?",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.7",
+        "nombre": "Representaciones gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Pictograma",
+        "B": "Ojiva",
+        "C": "Gráfica circular",
+        "D": "Diagrama de sectores sin escala"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "representaciones gráficas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-7-09",
+      "pregunta": "Si una barra tiene altura $12$, esa altura puede representar:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.7",
+        "nombre": "Representaciones gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "La frecuencia de la categoría",
+        "B": "El límite de clase siempre",
+        "C": "El tamaño de la población completa siempre",
+        "D": "La marca de clase necesariamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "representaciones gráficas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-45-7-10",
+      "pregunta": "Para mostrar la evolución de una variable a través del tiempo suele ser adecuada:",
+      "tema": {
+        "codigo": "45",
+        "nombre": "Estadística descriptiva",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "45.7",
+        "nombre": "Representaciones gráficas"
+      },
+      "respuestas_posibles": {
+        "A": "Una gráfica circular únicamente",
+        "B": "Una tabla sin orden",
+        "C": "Un histograma de categorías",
+        "D": "Una gráfica de líneas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "representaciones gráficas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

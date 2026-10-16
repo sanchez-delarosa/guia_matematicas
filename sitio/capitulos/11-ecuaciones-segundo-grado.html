@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>11. Ecuaciones de segundo grado · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte II: Álgebra</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#forma-general-y-clasificacion"><span class="num">11.1</span> Forma general y clasificación</a></li><li class="nivel-2"><a href="#formula-general"><span class="num">11.2</span> Fórmula general</a></li><li class="nivel-2"><a href="#solucion-por-factorizacion"><span class="num">11.3</span> Solución por factorización</a></li><li class="nivel-2"><a href="#completar-el-cuadrado"><span class="num">11.4</span> Completar el cuadrado</a></li><li class="nivel-2"><a href="#eleccion-del-metodo-de-solucion"><span class="num">11.5</span> Elección del método de solución</a></li><li class="nivel-2"><a href="#relaciones-entre-las-raices-y-los-coeficientes"><span class="num">11.6</span> Relaciones entre las raíces y los coeficientes</a></li><li class="nivel-2"><a href="#problemas-de-aplicacion"><span class="num">11.7</span> Problemas de aplicación</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">11.8</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 11</p><h1>Ecuaciones de segundo grado</h1></header>
+<p><span id="cap-ecuaciones-segundo-grado" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Una ecuación de segundo grado, también llamada ecuación cuadrática, puede reducirse a una expresión polinómica cuyo mayor exponente es \(2\). Estas ecuaciones se utilizan para resolver problemas de geometría, movimiento y optimización, además de permitir el estudio de las raíces de un polinomio cuadrático. En este capítulo aprenderás a resolverlas mediante la fórmula general, la factorización y la completación del cuadrado.</p>
+<h2 id="forma-general-y-clasificacion"><span class="num">11.1</span> Forma general y clasificación<a class="enlace-seccion" href="#forma-general-y-clasificacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>ecuación de segundo grado con una incógnita</strong> puede escribirse en la forma general:</p>
+<div class="mate"><span class="mate-bloque">\[ax^2+bx+c=0, \qquad a\neq 0,\]</span></div>
+<p>donde \(a\), \(b\) y \(c\) son números reales.</p>
+<p>En esta expresión:</p>
+<ul><li>\(ax^2\) es el <strong>término cuadrático</strong>;</li><li>\(bx\) es el <strong>término lineal</strong>;</li><li>\(c\) es el <strong>término constante</strong>;</li><li>\(a\), \(b\) y \(c\) son los <strong>coeficientes</strong> de la ecuación.</li></ul></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Según los términos que aparecen, las ecuaciones cuadráticas pueden clasificarse de la siguiente manera:</p>
+<ul><li><p><strong>Ecuación completa</strong></p>
+<p>Tiene la forma: <span class="mate-bloque">\[ax^2+bx+c=0,\]</span> con <span class="mate-bloque">\[a\neq 0, \qquad b\neq 0, \qquad c\neq 0.\]</span></p>
+<p>Por ejemplo: <span class="mate-bloque">\[2x^2-3x+1=0.\]</span></p></li><li><p><strong>Ecuación incompleta mixta</strong></p>
+<p>No tiene término constante: <span class="mate-bloque">\[ax^2+bx=0, \qquad a\neq 0, \qquad b\neq 0.\]</span></p>
+<p>Por ejemplo: <span class="mate-bloque">\[3x^2-6x=0.\]</span></p></li><li><p><strong>Ecuación incompleta pura</strong></p>
+<p>No tiene término lineal: <span class="mate-bloque">\[ax^2+c=0, \qquad a\neq 0, \qquad c\neq 0.\]</span></p>
+<p>Por ejemplo: <span class="mate-bloque">\[4x^2-9=0.\]</span></p></li><li><p><strong>Ecuación monomial</strong></p>
+<p>Solo contiene el término cuadrático: <span class="mate-bloque">\[ax^2=0, \qquad a\neq 0.\]</span></p>
+<p>Su única solución es: <span class="mate-bloque">\[x=0.\]</span></p></li></ul></div></section>
+<h2 id="formula-general"><span class="num">11.2</span> Fórmula general<a class="enlace-seccion" href="#formula-general" aria-label="Enlace a esta sección">#</a></h2>
+<p>La fórmula general proporciona un procedimiento directo para resolver cualquier ecuación cuadrática, incluso cuando su factorización no es evidente. Para aplicarla correctamente, primero se escribe la ecuación en la forma \(ax^2+bx+c=0\) y se identifican con cuidado los valores de \(a\), \(b\) y \(c\), incluidos sus signos.</p>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fórmula general</div><div class="caja-cuerpo"><p>Las soluciones de la ecuación</p>
+<div class="mate"><span class="mate-bloque">\[ax^2+bx+c=0, \qquad a\neq 0,\]</span></div>
+<p>están dadas por:</p>
+<div class="mate"><span class="mate-bloque">\[x = \frac{-b\pm\sqrt{b^2-4ac}}{2a}.\]</span></div>
+<p>Esta fórmula permite resolver cualquier ecuación de segundo grado, siempre que se trabaje en un conjunto numérico que contenga las raíces obtenidas.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La expresión</p>
+<div class="mate"><span class="mate-bloque">\[\Delta=b^2-4ac\]</span></div>
+<p>se denomina <strong>discriminante</strong> de la ecuación cuadrática. Su signo permite determinar la naturaleza de las soluciones antes de calcularlas.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Interpretación del discriminante</div><div class="caja-cuerpo"><p>Para una ecuación cuadrática con coeficientes reales:</p>
+<ul><li>Si <span class="mate-bloque">\[\Delta&gt;0,\]</span> la ecuación tiene dos soluciones reales distintas.</li><li>Si <span class="mate-bloque">\[\Delta=0,\]</span> la ecuación tiene una solución real doble.</li><li>Si <span class="mate-bloque">\[\Delta&lt;0,\]</span> la ecuación no tiene soluciones reales. En el conjunto de los números complejos tiene dos soluciones conjugadas.</li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-1"><div class="caja-titulo">Ejemplo 11.1</div><div class="caja-cuerpo"><p>Resuelve mediante la fórmula general:</p>
+<div class="mate"><span class="mate-bloque">\[6x^2+11x-10=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos los coeficientes:</p>
+<div class="mate"><span class="mate-bloque">\[a=6, \qquad b=11, \qquad c=-10.\]</span></div>
+<p>Calculamos el discriminante:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \Delta &amp;=b^2-4ac\\ &amp;=11^2-4(6)(-10)\\ &amp;=121+240\\ &amp;=361. \end{aligned}\]</span></div>
+<p>Como \(\Delta&gt;0\), la ecuación tiene dos soluciones reales distintas. Aplicamos la fórmula general:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x &amp;= \frac{-11\pm\sqrt{361}}{2(6)}\\ &amp;= \frac{-11\pm 19}{12}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x_1 &amp;=\frac{-11+19}{12} =\frac{8}{12} =\frac{2}{3},\\ x_2 &amp;=\frac{-11-19}{12} =\frac{-30}{12} =-\frac{5}{2}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-2"><div class="caja-titulo">Ejemplo 11.2</div><div class="caja-cuerpo"><p>Resuelve:</p>
+<div class="mate"><span class="mate-bloque">\[3x^2-9x=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los coeficientes son:</p>
+<div class="mate"><span class="mate-bloque">\[a=3, \qquad b=-9, \qquad c=0.\]</span></div>
+<p>Aplicamos la fórmula general:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x &amp;= \frac{-(-9)\pm\sqrt{(-9)^2-4(3)(0)}}{2(3)}\\ &amp;= \frac{9\pm\sqrt{81}}{6}\\ &amp;= \frac{9\pm 9}{6}. \end{aligned}\]</span></div>
+<p>Las soluciones son:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x_1 &amp;=\frac{9+9}{6} =3,\\ x_2 &amp;=\frac{9-9}{6} =0. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-3"><div class="caja-titulo">Ejemplo 11.3</div><div class="caja-cuerpo"><p>Analiza y resuelve en los números reales:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+x+1=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Identificamos:</p>
+<div class="mate"><span class="mate-bloque">\[a=1, \qquad b=1, \qquad c=1.\]</span></div>
+<p>Calculamos el discriminante:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \Delta &amp;=1^2-4(1)(1)\\ &amp;=1-4\\ &amp;=-3. \end{aligned}\]</span></div>
+<p>Como \(\Delta&lt;0\), la ecuación no tiene soluciones reales.</p>
+<p>Si se trabaja en el conjunto de los números complejos, las soluciones son:</p>
+<div class="mate"><span class="mate-bloque">\[x = \frac{-1\pm i\sqrt{3}}{2}.\]</span></div></div></details></div></section>
+<h2 id="solucion-por-factorizacion"><span class="num">11.3</span> Solución por factorización<a class="enlace-seccion" href="#solucion-por-factorizacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedad del producto cero</div><div class="caja-cuerpo"><p>Si el producto de dos números o expresiones algebraicas es cero, entonces al menos uno de los factores es cero:</p>
+<div class="mate"><span class="mate-bloque">\[AB=0 \quad\Longrightarrow\quad A=0 \quad\text{o}\quad B=0.\]</span></div>
+<p>Esta propiedad permite resolver una ecuación cuadrática después de escribirla como un producto igualado a cero.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-4"><div class="caja-titulo">Ejemplo 11.4</div><div class="caja-cuerpo"><p>Resuelve por factorización:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-9x+20=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Buscamos dos números cuya suma sea \(-9\) y cuyo producto sea \(20\):</p>
+<div class="mate"><span class="mate-bloque">\[-5+(-4)=-9, \qquad (-5)(-4)=20.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-9x+20 = (x-5)(x-4).\]</span></div>
+<p>La ecuación queda:</p>
+<div class="mate"><span class="mate-bloque">\[(x-5)(x-4)=0.\]</span></div>
+<p>Aplicamos la propiedad del producto cero:</p>
+<div class="mate"><span class="mate-bloque">\[x-5=0 \qquad\text{o}\qquad x-4=0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=5, \qquad x_2=4.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-5"><div class="caja-titulo">Ejemplo 11.5</div><div class="caja-cuerpo"><p>Resuelve por factorización:</p>
+<div class="mate"><span class="mate-bloque">\[3x^2-4x=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Extraemos el factor común \(x\):</p>
+<div class="mate"><span class="mate-bloque">\[x(3x-4)=0.\]</span></div>
+<p>Aplicamos la propiedad del producto cero:</p>
+<div class="mate"><span class="mate-bloque">\[x=0 \qquad\text{o}\qquad 3x-4=0.\]</span></div>
+<p>De la segunda ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[3x=4 \quad\Longrightarrow\quad x=\frac{4}{3}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=0, \qquad x_2=\frac{4}{3}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-6"><div class="caja-titulo">Ejemplo 11.6</div><div class="caja-cuerpo"><p>Resuelve por factorización:</p>
+<div class="mate"><span class="mate-bloque">\[4x^2-9=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El primer miembro es una diferencia de cuadrados:</p>
+<div class="mate"><span class="mate-bloque">\[4x^2-9 = (2x)^2-3^2.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[(2x-3)(2x+3)=0.\]</span></div>
+<p>Aplicamos la propiedad del producto cero:</p>
+<div class="mate"><span class="mate-bloque">\[2x-3=0 \qquad\text{o}\qquad 2x+3=0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=\frac{3}{2}, \qquad x_2=-\frac{3}{2}.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La factorización suele ser el método más breve cuando el trinomio puede descomponerse fácilmente en factores. Si la factorización no es evidente, puede utilizarse la fórmula general, que funciona para toda ecuación cuadrática.</p></div></section>
+<h2 id="completar-el-cuadrado"><span class="num">11.4</span> Completar el cuadrado<a class="enlace-seccion" href="#completar-el-cuadrado" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Procedimiento para completar el cuadrado</div><div class="caja-cuerpo"><p>Para resolver</p>
+<div class="mate"><span class="mate-bloque">\[ax^2+bx+c=0, \qquad a\neq 0,\]</span></div>
+<p>mediante completación del cuadrado:</p>
+<ol><li>se divide toda la ecuación entre \(a\);</li><li>se traslada el término constante al segundo miembro;</li><li>se suma en ambos miembros: <span class="mate-bloque">\[\left(\frac{b}{2a}\right)^2;\]</span></li><li>se factoriza el primer miembro como un binomio al cuadrado;</li><li>se extrae la raíz cuadrada considerando ambos signos;</li><li>se despeja la variable.</li></ol></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Después de dividir entre \(a\), el coeficiente del término lineal es \(\frac{b}{a}\). La cantidad que debe añadirse en ambos miembros es la mitad de ese coeficiente elevada al cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[\left(\frac{1}{2}\cdot\frac{b}{a}\right)^2 = \left(\frac{b}{2a}\right)^2.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-7"><div class="caja-titulo">Ejemplo 11.7</div><div class="caja-cuerpo"><p>Resuelve completando el cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+6x+5=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Trasladamos el término constante:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+6x=-5.\]</span></div>
+<p>La mitad del coeficiente de \(x\) es \(3\). Sumamos \(3^2=9\) en ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x^2+6x+9 &amp;=-5+9,\\ (x+3)^2 &amp;=4. \end{aligned}\]</span></div>
+<p>Extraemos la raíz cuadrada:</p>
+<div class="mate"><span class="mate-bloque">\[x+3=\pm 2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x_1 &amp;=-3+2 =-1,\\ x_2 &amp;=-3-2 =-5. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-8"><div class="caja-titulo">Ejemplo 11.8</div><div class="caja-cuerpo"><p>Resuelve completando el cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-8x-20=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Trasladamos el término constante:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-8x=20.\]</span></div>
+<p>La mitad del coeficiente de \(x\) es \(-4\). Sumamos \((-4)^2=16\) en ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x^2-8x+16 &amp;=20+16,\\ (x-4)^2 &amp;=36. \end{aligned}\]</span></div>
+<p>Extraemos la raíz cuadrada:</p>
+<div class="mate"><span class="mate-bloque">\[x-4=\pm 6.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x_1 &amp;=4+6 =10,\\ x_2 &amp;=4-6 =-2. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-9"><div class="caja-titulo">Ejemplo 11.9</div><div class="caja-cuerpo"><p>Resuelve completando el cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+3x-10=0.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Trasladamos el término constante:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+3x=10.\]</span></div>
+<p>La mitad del coeficiente de \(x\) es \(\frac{3}{2}\). Sumamos \(\left(\frac{3}{2}\right)^2=\frac{9}{4}\) en ambos miembros:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x^2+3x+\frac{9}{4} &amp;=10+\frac{9}{4},\\ \left(x+\frac{3}{2}\right)^2 &amp;=\frac{49}{4}. \end{aligned}\]</span></div>
+<p>Extraemos la raíz cuadrada:</p>
+<div class="mate"><span class="mate-bloque">\[x+\frac{3}{2} = \pm\frac{7}{2}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x_1 &amp;=-\frac{3}{2}+\frac{7}{2} =2,\\ x_2 &amp;=-\frac{3}{2}-\frac{7}{2} =-5. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="eleccion-del-metodo-de-solucion"><span class="num">11.5</span> Elección del método de solución<a class="enlace-seccion" href="#eleccion-del-metodo-de-solucion" aria-label="Enlace a esta sección">#</a></h2>
+<p>Los tres métodos estudiados producen las mismas soluciones cuando se aplican correctamente. La elección depende de la forma de la ecuación.</p>
+<ul><li>Utiliza la <strong>factorización</strong> cuando el polinomio pueda descomponerse fácilmente en factores.</li><li>Utiliza la <strong>fórmula general</strong> cuando la factorización no sea evidente o cuando necesites analizar previamente el discriminante.</li><li>Utiliza la <strong>completación del cuadrado</strong> cuando el problema solicite ese procedimiento o cuando sea útil transformar la expresión en la forma de un binomio al cuadrado.</li></ul>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Antes de aplicar cualquier método, la ecuación debe escribirse en la forma:</p>
+<div class="mate"><span class="mate-bloque">\[ax^2+bx+c=0.\]</span></div>
+<p>Si todos los términos tienen un factor común distinto de \(1\), conviene extraerlo o dividir la ecuación entre él antes de continuar.</p></div></section>
+<h2 id="relaciones-entre-las-raices-y-los-coeficientes"><span class="num">11.6</span> Relaciones entre las raíces y los coeficientes<a class="enlace-seccion" href="#relaciones-entre-las-raices-y-los-coeficientes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fórmulas de Viète</div><div class="caja-cuerpo"><p>Si \(x_1\) y \(x_2\) son las raíces de la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[ax^2+bx+c=0, \qquad a\neq 0,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[x_1+x_2 = -\frac{b}{a}\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[x_1x_2 = \frac{c}{a}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ecuación a partir de sus raíces</div><div class="caja-cuerpo"><p>Si \(x_1\) y \(x_2\) son las raíces de una ecuación cuadrática, puede construirse una ecuación mediante:</p>
+<div class="mate"><span class="mate-bloque">\[a(x-x_1)(x-x_2)=0, \qquad a\neq 0.\]</span></div>
+<p>Si se elige \(a=1\), se obtiene la ecuación mónica:</p>
+<div class="mate"><span class="mate-bloque">\[(x-x_1)(x-x_2)=0.\]</span></div>
+<p>Al desarrollar:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-(x_1+x_2)x+x_1x_2=0.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Un mismo par de raíces determina infinitas ecuaciones equivalentes, pues la ecuación puede multiplicarse por cualquier constante distinta de cero.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-5x+6=0\]</span></div>
+<p>y</p>
+<div class="mate"><span class="mate-bloque">\[2x^2-10x+12=0\]</span></div>
+<p>tienen las mismas raíces.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-10"><div class="caja-titulo">Ejemplo 11.10</div><div class="caja-cuerpo"><p>Encuentra una ecuación cuadrática mónica cuyas raíces sean:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=2 \qquad\text{y}\qquad x_2=5.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Construimos los factores:</p>
+<div class="mate"><span class="mate-bloque">\[(x-2)(x-5)=0.\]</span></div>
+<p>Desarrollamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (x-2)(x-5) &amp;=x^2-7x+10. \end{aligned}\]</span></div>
+<p>Por tanto, una ecuación con esas raíces es:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-7x+10=0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-11"><div class="caja-titulo">Ejemplo 11.11</div><div class="caja-cuerpo"><p>Encuentra una ecuación cuadrática mónica cuyas raíces sean:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=3 \qquad\text{y}\qquad x_2=-7.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Construimos los factores:</p>
+<div class="mate"><span class="mate-bloque">\[(x-3)(x+7)=0.\]</span></div>
+<p>Desarrollamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} (x-3)(x+7) &amp;=x^2+4x-21. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+4x-21=0.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-12"><div class="caja-titulo">Ejemplo 11.12</div><div class="caja-cuerpo"><p>Encuentra una ecuación con coeficientes enteros cuyas raíces sean:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=-\frac{1}{2} \qquad\text{y}\qquad x_2=\frac{1}{3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Construimos la ecuación mónica:</p>
+<div class="mate"><span class="mate-bloque">\[\left(x+\frac{1}{2}\right) \left(x-\frac{1}{3}\right) =0.\]</span></div>
+<p>Desarrollamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x^2 +\left(\frac{1}{2}-\frac{1}{3}\right)x -\frac{1}{6} &amp;=0,\\ x^2+\frac{1}{6}x-\frac{1}{6} &amp;=0. \end{aligned}\]</span></div>
+<p>Multiplicamos toda la ecuación por \(6\) para obtener coeficientes enteros:</p>
+<div class="mate"><span class="mate-bloque">\[6x^2+x-1=0.\]</span></div></div></details></div></section>
+<h2 id="problemas-de-aplicacion"><span class="num">11.7</span> Problemas de aplicación<a class="enlace-seccion" href="#problemas-de-aplicacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Estrategia de resolución</div><div class="caja-cuerpo"><p>Para resolver un problema mediante una ecuación cuadrática:</p>
+<ol><li>identifica la incógnita y define la variable;</li><li>expresa las demás cantidades en términos de esa variable;</li><li>traduce las condiciones del problema a una ecuación;</li><li>escribe la ecuación en la forma general;</li><li>resuelve mediante el método más conveniente;</li><li>analiza las soluciones y descarta las que no tengan sentido en el contexto;</li><li>comprueba el resultado y expresa la respuesta con sus unidades.</li></ol></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-13"><div class="caja-titulo">Ejemplo 11.13</div><div class="caja-cuerpo"><p>Un rectángulo tiene un área de \(60\ \text{cm}^2\) y su largo mide \(7\ \text{cm}\) más que su ancho. ¿Cuáles son sus dimensiones?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) el ancho del rectángulo. Entonces, su largo es:</p>
+<div class="mate"><span class="mate-bloque">\[x+7.\]</span></div>
+<p>Utilizamos la fórmula del área:</p>
+<div class="mate"><span class="mate-bloque">\[x(x+7)=60.\]</span></div>
+<p>Escribimos la ecuación en forma general:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+7x-60=0.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x+12)(x-5)=0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x=-12 \qquad\text{o}\qquad x=5.\]</span></div>
+<p>Como una longitud no puede ser negativa, descartamos \(x=-12\). El ancho mide:</p>
+<div class="mate"><span class="mate-bloque">\[5\ \text{cm}.\]</span></div>
+<p>El largo mide:</p>
+<div class="mate"><span class="mate-bloque">\[5+7=12\ \text{cm}.\]</span></div>
+<p>Comprobamos:</p>
+<div class="mate"><span class="mate-bloque">\[(5)(12)=60.\]</span></div>
+<p>Las dimensiones son \(5\ \text{cm}\) por \(12\ \text{cm}\).</p></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-11-14"><div class="caja-titulo">Ejemplo 11.14</div><div class="caja-cuerpo"><p>La edad de una persona es \(3\) años mayor que la edad de otra. La suma de los cuadrados de sus edades es \(65\). ¿Cuál es la edad de la persona mayor?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(x\) la edad de la persona mayor. Entonces, la edad de la persona menor es:</p>
+<div class="mate"><span class="mate-bloque">\[x-3.\]</span></div>
+<p>Planteamos la ecuación:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+(x-3)^2=65.\]</span></div>
+<p>Desarrollamos y simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x^2+x^2-6x+9 &amp;=65,\\ 2x^2-6x-56 &amp;=0. \end{aligned}\]</span></div>
+<p>Dividimos entre \(2\):</p>
+<div class="mate"><span class="mate-bloque">\[x^2-3x-28=0.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x-7)(x+4)=0.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[x=7 \qquad\text{o}\qquad x=-4.\]</span></div>
+<p>Como una edad no puede ser negativa, descartamos \(x=-4\). La persona mayor tiene \(7\) años y la menor tiene:</p>
+<div class="mate"><span class="mate-bloque">\[7-3=4\]</span></div>
+<p>años.</p>
+<p>Comprobamos:</p>
+<div class="mate"><span class="mate-bloque">\[7^2+4^2 = 49+16 = 65.\]</span></div></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">11.8</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-11-1"><div class="caja-titulo">Ejercicio 11.1</div><div class="caja-cuerpo"><p>Resuelve mediante la fórmula general:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-7x+10=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(a = 1\), \(b = -7\), \(c = 10\). <span class="mate-bloque">\[x = \frac{7 \pm \sqrt{49 - 40}}{2} = \frac{7 \pm 3}{2}.\]</span> \(x_1 = 5\), \(x_2 = 2\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-11-2"><div class="caja-titulo">Ejercicio 11.2</div><div class="caja-cuerpo"><p>Resuelve por factorización:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-16=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\((x - 4)(x + 4) = 0\). \(x_1 = 4\), \(x_2 = -4\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-11-3"><div class="caja-titulo">Ejercicio 11.3</div><div class="caja-cuerpo"><p>Resuelve por factorización:</p>
+<div class="mate"><span class="mate-bloque">\[5x^2-10x=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(5x(x - 2) = 0\). \(x_1 = 0\), \(x_2 = 2\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-11-4"><div class="caja-titulo">Ejercicio 11.4</div><div class="caja-cuerpo"><p>Resuelve completando el cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-5x+6=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(x^2 - 5x = -6\). Sumamos \(\left(\frac{5}{2}\right)^2 = \frac{25}{4}\): <span class="mate-bloque">\[\left(x - \frac{5}{2}\right)^2 = \frac{1}{4} \Longrightarrow x - \frac{5}{2} = \pm \frac{1}{2}.\]</span> \(x_1 = 3\), \(x_2 = 2\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-11-5"><div class="caja-titulo">Ejercicio 11.5</div><div class="caja-cuerpo"><p>Resuelve completando el cuadrado:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+4x-12=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(x^2 + 4x = 12\). Sumamos 4: <span class="mate-bloque">\[(x + 2)^2 = 16 \Longrightarrow x + 2 = \pm 4.\]</span> \(x_1 = 2\), \(x_2 = -6\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-11-6"><div class="caja-titulo">Ejercicio 11.6</div><div class="caja-cuerpo"><p>Determina el discriminante y el número de soluciones reales de:</p>
+<div class="mate"><span class="mate-bloque">\[3x^2-2x+5=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(\Delta = (-2)^2 - 4(3)(5) = 4 - 60 = -56 &lt; 0\). <strong>No hay soluciones reales</strong>.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-11-7"><div class="caja-titulo">Ejercicio 11.7</div><div class="caja-cuerpo"><p>Determina el discriminante y el número de soluciones reales de:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-6x+9=0.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(\Delta = 36 - 36 = 0\). <strong>Una solución real doble</strong> (\(x = 3\)).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-11-8"><div class="caja-titulo">Ejercicio 11.8</div><div class="caja-cuerpo"><p>Encuentra una ecuación cuadrática mónica cuyas raíces sean:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=4 \qquad\text{y}\qquad x_2=-2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Suma: \(4 + (-2) = 2\). Producto: \((4)(-2) = -8\). <span class="mate-bloque">\[x^2 - 2x - 8 = 0.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-11-9"><div class="caja-titulo">Ejercicio 11.9</div><div class="caja-cuerpo"><p>Encuentra una ecuación cuadrática con coeficientes enteros cuyas raíces sean:</p>
+<div class="mate"><span class="mate-bloque">\[x_1=\frac{3}{2} \qquad\text{y}\qquad x_2=-\frac{1}{4}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Suma: \(\frac{3}{2} - \frac{1}{4} = \frac{5}{4}\). Producto: \(\frac{3}{2} \cdot \left(-\frac{1}{4}\right) = -\frac{3}{8}\). <span class="mate-bloque">\[x^2 - \frac{5}{4}x - \frac{3}{8} = 0.\]</span> Multiplicando por 8: <span class="mate-bloque">\[8x^2 - 10x - 3 = 0.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-11-10"><div class="caja-titulo">Ejercicio 11.10</div><div class="caja-cuerpo"><p>El largo de un rectángulo mide el doble de su ancho. Si el ancho y el largo aumentan \(2\ \text{m}\) cada uno, el área aumenta \(34\ \text{m}^2\). ¿Cuánto mide el largo original?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sea \(a\) el ancho original. Largo: \(2a\). <span class="mate-bloque">\[(a + 2)(2a + 2) = 2a^2 + 34.\]</span> <span class="mate-bloque">\[2a^2 + 6a + 4 = 2a^2 + 34 \Longrightarrow 6a = 30 \Longrightarrow a = 5.\]</span> Ancho original: 5 m. Largo original: 10 m.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-11-11"><div class="caja-titulo">Ejercicio 11.11</div><div class="caja-cuerpo"><p>La suma de dos números es \(7\) y la suma de sus cuadrados es \(29\). ¿Cuál es el número mayor?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sean \(x\) y \(7 - x\) los números. <span class="mate-bloque">\[x^2 + (7 - x)^2 = 29 \Longrightarrow x^2 + 49 - 14x + x^2 = 29.\]</span> <span class="mate-bloque">\[2x^2 - 14x + 20 = 0 \Longrightarrow x^2 - 7x + 10 = 0.\]</span> Factorizamos: \((x - 5)(x - 2) = 0\). Los números son 5 y 2. El mayor es 5.</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="10-ecuaciones-primer-grado.html"><span>← Anterior</span>10. Ecuaciones de primer grado</a><a class="nav-siguiente" href="12-desigualdades.html"><span>Siguiente →</span>12. Desigualdades</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

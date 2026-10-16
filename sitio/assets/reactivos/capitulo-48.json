@@ -1,0 +1,3456 @@
+{
+  "metadata": {
+    "capitulo": "48",
+    "titulo": "Técnicas de conteo y probabilidad avanzada",
+    "version": "6.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 13,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 130,
+    "secciones_incluidas": [
+      {
+        "codigo": "48.1",
+        "nombre": "¿Qué técnica conviene utilizar?"
+      },
+      {
+        "codigo": "48.2",
+        "nombre": "Principios de conteo"
+      },
+      {
+        "codigo": "48.3",
+        "nombre": "Representación mediante un árbol"
+      },
+      {
+        "codigo": "48.4",
+        "nombre": "Factorial"
+      },
+      {
+        "codigo": "48.5",
+        "nombre": "Permutaciones"
+      },
+      {
+        "codigo": "48.6",
+        "nombre": "Permutaciones con elementos repetidos"
+      },
+      {
+        "codigo": "48.7",
+        "nombre": "Arreglos con repetición"
+      },
+      {
+        "codigo": "48.8",
+        "nombre": "Combinaciones"
+      },
+      {
+        "codigo": "48.9",
+        "nombre": "¿Permutación o combinación?"
+      },
+      {
+        "codigo": "48.10",
+        "nombre": "Selecciones con cargos"
+      },
+      {
+        "codigo": "48.11",
+        "nombre": "Probabilidad mediante técnicas de conteo"
+      },
+      {
+        "codigo": "48.12",
+        "nombre": "Binomio de Newton"
+      },
+      {
+        "codigo": "48.13",
+        "nombre": "Coeficiente de un término"
+      }
+    ],
+    "secciones_editoriales_omitidas": [
+      "48.14 Procedimiento rápido",
+      "48.15 Resumen",
+      "48.16 Errores frecuentes",
+      "48.17 Ejercicios propuestos"
+    ],
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_validado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-48-1-01",
+      "pregunta": "Formar un comité de $3$ personas entre $10$, sin cargos, requiere:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.1",
+        "nombre": "¿Qué técnica conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "Combinaciones",
+        "B": "Permutaciones",
+        "C": "Arreglos con repetición",
+        "D": "Principio aditivo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "¿qué técnica conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-1-02",
+      "pregunta": "Ordenar $6$ libros distintos en una repisa requiere:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.1",
+        "nombre": "¿Qué técnica conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "Combinación",
+        "B": "Principio aditivo",
+        "C": "Arreglo con repetición",
+        "D": "Permutación de todos los elementos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "¿qué técnica conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-1-03",
+      "pregunta": "Crear una clave de $4$ dígitos permitiendo repetición requiere:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.1",
+        "nombre": "¿Qué técnica conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "Permutaciones sin repetición",
+        "B": "Principio aditivo",
+        "C": "Arreglos con repetición",
+        "D": "Combinaciones"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "¿qué técnica conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-1-04",
+      "pregunta": "Elegir presidencia, secretaría y tesorería entre $8$ personas requiere:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.1",
+        "nombre": "¿Qué técnica conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "Principio aditivo",
+        "B": "Permutaciones de $8$ tomados de $3$",
+        "C": "Combinaciones de $8$ tomados de $3$",
+        "D": "Factorial de $3$ únicamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "¿qué técnica conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-1-05",
+      "pregunta": "Contar las formas de elegir una bebida o un postre de menús separados requiere:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.1",
+        "nombre": "¿Qué técnica conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "Principio aditivo",
+        "B": "Principio multiplicativo",
+        "C": "Combinaciones",
+        "D": "Permutaciones"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "¿qué técnica conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-1-06",
+      "pregunta": "Contar conjuntos de camisa, pantalón y calzado requiere:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.1",
+        "nombre": "¿Qué técnica conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "Principio aditivo",
+        "B": "Combinaciones",
+        "C": "Factorial con repetición",
+        "D": "Principio multiplicativo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "¿qué técnica conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-1-07",
+      "pregunta": "Contar ordenamientos de la palabra CASA requiere:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.1",
+        "nombre": "¿Qué técnica conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "Arreglos con repetición libre",
+        "B": "Principio aditivo",
+        "C": "Permutaciones con elementos repetidos",
+        "D": "Combinaciones"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "¿qué técnica conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-1-08",
+      "pregunta": "Determinar una probabilidad con resultados equiprobables numerosos conviene hacerlo mediante:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.1",
+        "nombre": "¿Qué técnica conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "Regla de la cadena",
+        "B": "Conteo de casos favorables y posibles",
+        "C": "Media ponderada",
+        "D": "Varianza"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "¿qué técnica conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-1-09",
+      "pregunta": "Para desarrollar $(x+y)^8$ conviene usar:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.1",
+        "nombre": "¿Qué técnica conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "Binomio de Newton",
+        "B": "Fracciones parciales",
+        "C": "Regla del producto probabilístico",
+        "D": "Permutación circular"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "¿qué técnica conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-1-10",
+      "pregunta": "Para visualizar decisiones sucesivas con distintas opciones conviene usar:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.1",
+        "nombre": "¿Qué técnica conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "Histograma",
+        "B": "Ojiva",
+        "C": "Diagrama de caja",
+        "D": "Diagrama de árbol"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "¿qué técnica conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-2-01",
+      "pregunta": "Hay $4$ camisas y $3$ pantalones. ¿Cuántos atuendos pueden formarse?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.2",
+        "nombre": "Principios de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$24$",
+        "C": "$12$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "principios de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-2-02",
+      "pregunta": "Un menú ofrece $3$ entradas, $5$ platos y $2$ postres. ¿Cuántos menús completos hay?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.2",
+        "nombre": "Principios de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$60$",
+        "B": "$30$",
+        "C": "$10$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "principios de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-2-03",
+      "pregunta": "Para viajar se elige autobús entre $4$ opciones o tren entre $3$. ¿Cuántas opciones hay?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.2",
+        "nombre": "Principios de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$12$",
+        "C": "$1$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "principios de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-2-04",
+      "pregunta": "Una placa usa $2$ letras seguidas de $3$ dígitos, con repetición. ¿Cuántas placas hay?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.2",
+        "nombre": "Principios de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$26^5$",
+        "B": "$36^5$",
+        "C": "$2\\cdot3\\cdot26\\cdot10$",
+        "D": "$26^2\\cdot10^3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "principios de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-2-05",
+      "pregunta": "Una tarea puede resolverse por $5$ métodos manuales o $2$ digitales. ¿Cuántas alternativas existen?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.2",
+        "nombre": "Principios de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$25$",
+        "C": "$7$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "principios de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-2-06",
+      "pregunta": "Un dado y una moneda se lanzan juntos. ¿Cuántos resultados hay?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.2",
+        "nombre": "Principios de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$12$",
+        "C": "$8$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "principios de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-2-07",
+      "pregunta": "Una ruta consta de $3$ opciones para el primer tramo y $4$ para el segundo. ¿Cuántas rutas hay?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.2",
+        "nombre": "Principios de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$7$",
+        "C": "$24$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "principios de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-2-08",
+      "pregunta": "¿Cuándo se aplica el principio aditivo?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.2",
+        "nombre": "Principios de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "Cuando se realizan etapas sucesivas",
+        "B": "Cuando el orden importa siempre",
+        "C": "Cuando hay repetición",
+        "D": "Cuando se elige una alternativa entre casos disjuntos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "principios de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-2-09",
+      "pregunta": "¿Cuándo se aplica el principio multiplicativo?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.2",
+        "nombre": "Principios de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "Solo en permutaciones",
+        "B": "Solo con dados",
+        "C": "Cuando un proceso se realiza por etapas sucesivas",
+        "D": "Cuando las opciones son excluyentes y alternativas"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "principios de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-2-10",
+      "pregunta": "Una cafetería ofrece $4$ bebidas calientes y $6$ frías. Si se elige una sola bebida, hay:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.2",
+        "nombre": "Principios de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$4$ opciones",
+        "B": "$10$ opciones",
+        "C": "$24$ opciones",
+        "D": "$2$ opciones"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "principios de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-3-01",
+      "pregunta": "Un árbol con $3$ opciones en la primera etapa y $2$ en la segunda tiene:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.3",
+        "nombre": "Representación mediante un árbol"
+      },
+      "respuestas_posibles": {
+        "A": "$6$ rutas terminales",
+        "B": "$5$ rutas",
+        "C": "$3$ rutas",
+        "D": "$2$ rutas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "representación mediante un árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-3-02",
+      "pregunta": "En un árbol, la cantidad de resultados completos se obtiene:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.3",
+        "nombre": "Representación mediante un árbol"
+      },
+      "respuestas_posibles": {
+        "A": "Contando solo el nodo inicial",
+        "B": "Sumando niveles",
+        "C": "Restando ramas",
+        "D": "Contando las hojas terminales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "representación mediante un árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-3-03",
+      "pregunta": "Dos monedas lanzadas sucesivamente producen en el árbol:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.3",
+        "nombre": "Representación mediante un árbol"
+      },
+      "respuestas_posibles": {
+        "A": "$3$ hojas",
+        "B": "$8$ hojas",
+        "C": "$4$ hojas",
+        "D": "$2$ hojas"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "representación mediante un árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-3-04",
+      "pregunta": "Un dado seguido de una moneda genera:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.3",
+        "nombre": "Representación mediante un árbol"
+      },
+      "respuestas_posibles": {
+        "A": "$3$ rutas",
+        "B": "$12$ rutas",
+        "C": "$6$ rutas",
+        "D": "$8$ rutas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "representación mediante un árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-3-05",
+      "pregunta": "Cada nivel de un árbol representa:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.3",
+        "nombre": "Representación mediante un árbol"
+      },
+      "respuestas_posibles": {
+        "A": "Una etapa del experimento",
+        "B": "Una probabilidad total",
+        "C": "Una combinación final",
+        "D": "Un factorial"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "representación mediante un árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-3-06",
+      "pregunta": "Las rutas distintas de un árbol representan:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.3",
+        "nombre": "Representación mediante un árbol"
+      },
+      "respuestas_posibles": {
+        "A": "El mismo resultado",
+        "B": "Solo eventos imposibles",
+        "C": "Medias estadísticas",
+        "D": "Resultados compuestos distintos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "representación mediante un árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-3-07",
+      "pregunta": "Un árbol tiene ramas $A,B$; desde $A$ salen $3$ ramas y desde $B$ salen $2$. ¿Cuántas hojas hay?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.3",
+        "nombre": "Representación mediante un árbol"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$2$",
+        "C": "$5$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "representación mediante un árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-3-08",
+      "pregunta": "Para contar rutas con una restricción se deben:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.3",
+        "nombre": "Representación mediante un árbol"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicar siempre por cero",
+        "B": "Contar solo las hojas que cumplen la condición",
+        "C": "Contar todas dos veces",
+        "D": "Eliminar el nodo inicial"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "representación mediante un árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-3-09",
+      "pregunta": "Un árbol para códigos de $3$ bits tiene:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.3",
+        "nombre": "Representación mediante un árbol"
+      },
+      "respuestas_posibles": {
+        "A": "$8$ hojas",
+        "B": "$6$ hojas",
+        "C": "$3$ hojas",
+        "D": "$9$ hojas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "representación mediante un árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-3-10",
+      "pregunta": "La representación mediante árbol ayuda a evitar:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.3",
+        "nombre": "Representación mediante un árbol"
+      },
+      "respuestas_posibles": {
+        "A": "Usar el principio multiplicativo",
+        "B": "Distinguir etapas",
+        "C": "Contar hojas",
+        "D": "Omitir o duplicar resultados"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "representación mediante un árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-4-01",
+      "pregunta": "Calcule $3!$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.4",
+        "nombre": "Factorial"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$2$",
+        "C": "$6$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "factorial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-4-02",
+      "pregunta": "Calcule $4!$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.4",
+        "nombre": "Factorial"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$24$",
+        "C": "$23$",
+        "D": "$28$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "factorial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-4-03",
+      "pregunta": "Calcule $5!$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.4",
+        "nombre": "Factorial"
+      },
+      "respuestas_posibles": {
+        "A": "$120$",
+        "B": "$119$",
+        "C": "$125$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "factorial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-4-04",
+      "pregunta": "Calcule $6!$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.4",
+        "nombre": "Factorial"
+      },
+      "respuestas_posibles": {
+        "A": "$719$",
+        "B": "$726$",
+        "C": "$120$",
+        "D": "$720$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "factorial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-4-05",
+      "pregunta": "Calcule $7!$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.4",
+        "nombre": "Factorial"
+      },
+      "respuestas_posibles": {
+        "A": "$5047$",
+        "B": "$720$",
+        "C": "$5040$",
+        "D": "$5039$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "factorial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-4-06",
+      "pregunta": "Calcule $8!$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.4",
+        "nombre": "Factorial"
+      },
+      "respuestas_posibles": {
+        "A": "$5040$",
+        "B": "$40320$",
+        "C": "$40319$",
+        "D": "$40328$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "factorial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-4-07",
+      "pregunta": "Por definición, $0!=$",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.4",
+        "nombre": "Factorial"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$0$",
+        "C": "No existe",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "factorial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-4-08",
+      "pregunta": "Simplifique $\\frac{8!}{6!}$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.4",
+        "nombre": "Factorial"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$8$",
+        "C": "$48$",
+        "D": "$56$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "factorial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-4-09",
+      "pregunta": "Simplifique $\\frac{10!}{9!}$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.4",
+        "nombre": "Factorial"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$90$",
+        "C": "$10$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "factorial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-4-10",
+      "pregunta": "La relación recursiva correcta es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.4",
+        "nombre": "Factorial"
+      },
+      "respuestas_posibles": {
+        "A": "$n!=n^n$",
+        "B": "$n!=n(n-1)!$",
+        "C": "$n!=n+(n-1)!$",
+        "D": "$n!=(n-1)!/n$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "factorial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-5-01",
+      "pregunta": "¿De cuántas formas se ordenan $5$ personas en fila?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.5",
+        "nombre": "Permutaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$120$",
+        "B": "$25$",
+        "C": "$60$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "permutaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-5-02",
+      "pregunta": "¿De cuántas formas se ordenan $7$ libros distintos?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.5",
+        "nombre": "Permutaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$720$",
+        "B": "$49$",
+        "C": "$210$",
+        "D": "$5040$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "permutaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-5-03",
+      "pregunta": "¿Cuántas maneras hay de asignar oro, plata y bronce entre $8$ finalistas?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.5",
+        "nombre": "Permutaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "$512$",
+        "C": "$336$",
+        "D": "$56$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "permutaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-5-04",
+      "pregunta": "Calcule $P(6,2)$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.5",
+        "nombre": "Permutaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$36$",
+        "B": "$30$",
+        "C": "$15$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "permutaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-5-05",
+      "pregunta": "Calcule $P(7,3)$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.5",
+        "nombre": "Permutaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$210$",
+        "B": "$35$",
+        "C": "$105$",
+        "D": "$343$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "permutaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-5-06",
+      "pregunta": "La fórmula de permutaciones de $n$ tomados de $r$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.5",
+        "nombre": "Permutaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$P(n,r)=\\frac{n!}{r!(n-r)!}$",
+        "B": "$P(n,r)=n^r$",
+        "C": "$P(n,r)=r!$",
+        "D": "$P(n,r)=\\frac{n!}{(n-r)!}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "permutaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-5-07",
+      "pregunta": "Con $9$ personas, ¿cuántas formas hay de elegir y ordenar $4$ en una fila?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.5",
+        "nombre": "Permutaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$36$",
+        "B": "$6561$",
+        "C": "$3024$",
+        "D": "$126$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "permutaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-5-08",
+      "pregunta": "Si el orden cambia el resultado, normalmente se usa:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.5",
+        "nombre": "Permutaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Promedio ponderado",
+        "B": "Una permutación",
+        "C": "Una combinación",
+        "D": "Solo suma"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "permutaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-5-09",
+      "pregunta": "¿Cuántas palabras de $4$ letras distintas se forman con $6$ letras sin repetir?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.5",
+        "nombre": "Permutaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$360$",
+        "B": "$15$",
+        "C": "$1296$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "permutaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-5-10",
+      "pregunta": "Ordenar todos los $n$ objetos distintos produce:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.5",
+        "nombre": "Permutaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$n^2$",
+        "B": "$2n$",
+        "C": "$n$",
+        "D": "$n!$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "permutaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-6-01",
+      "pregunta": "¿Cuántos ordenamientos distintos tiene CASA?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.6",
+        "nombre": "Permutaciones con elementos repetidos"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$4$",
+        "C": "$12$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "permutaciones con elementos repetidos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-6-02",
+      "pregunta": "¿Cuántos ordenamientos distintos tiene MAMA?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.6",
+        "nombre": "Permutaciones con elementos repetidos"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$6$",
+        "C": "$24$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "permutaciones con elementos repetidos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-6-03",
+      "pregunta": "¿Cuántos ordenamientos distintos tiene BANANA?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.6",
+        "nombre": "Permutaciones con elementos repetidos"
+      },
+      "respuestas_posibles": {
+        "A": "$60$",
+        "B": "$720$",
+        "C": "$120$",
+        "D": "$30$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "permutaciones con elementos repetidos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-6-04",
+      "pregunta": "¿Cuántos ordenamientos distintos tiene MISSISSIPPI?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.6",
+        "nombre": "Permutaciones con elementos repetidos"
+      },
+      "respuestas_posibles": {
+        "A": "$39916800$",
+        "B": "$11550$",
+        "C": "$69300$",
+        "D": "$34650$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "permutaciones con elementos repetidos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-6-05",
+      "pregunta": "La fórmula para $n$ elementos con repeticiones $n_1,n_2,\\ldots$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.6",
+        "nombre": "Permutaciones con elementos repetidos"
+      },
+      "respuestas_posibles": {
+        "A": "$n^r$",
+        "B": "$\\frac{n!}{(n-r)!}$",
+        "C": "$\\frac{n!}{n_1!n_2!\\cdots}$",
+        "D": "$n_1!n_2!\\cdots$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "permutaciones con elementos repetidos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-6-06",
+      "pregunta": "¿Cuántas secuencias distintas se forman con $3$ A y $2$ B?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.6",
+        "nombre": "Permutaciones con elementos repetidos"
+      },
+      "respuestas_posibles": {
+        "A": "$25$",
+        "B": "$10$",
+        "C": "$120$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "permutaciones con elementos repetidos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-6-07",
+      "pregunta": "¿Cuántos ordenamientos tiene LEVEL?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.6",
+        "nombre": "Permutaciones con elementos repetidos"
+      },
+      "respuestas_posibles": {
+        "A": "$30$",
+        "B": "$120$",
+        "C": "$60$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "permutaciones con elementos repetidos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-6-08",
+      "pregunta": "¿Cuántos ordenamientos tiene COCO?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.6",
+        "nombre": "Permutaciones con elementos repetidos"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "$12$",
+        "C": "$4$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "permutaciones con elementos repetidos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-6-09",
+      "pregunta": "Al dividir entre factoriales de repeticiones se corrige:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.6",
+        "nombre": "Permutaciones con elementos repetidos"
+      },
+      "respuestas_posibles": {
+        "A": "La ausencia de elementos",
+        "B": "El principio aditivo",
+        "C": "El conteo múltiple de arreglos indistinguibles",
+        "D": "La falta de orden"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "permutaciones con elementos repetidos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-6-10",
+      "pregunta": "¿Cuántos ordenamientos tiene AAABB?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.6",
+        "nombre": "Permutaciones con elementos repetidos"
+      },
+      "respuestas_posibles": {
+        "A": "$120$",
+        "B": "$10$",
+        "C": "$5$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "permutaciones con elementos repetidos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-7-01",
+      "pregunta": "¿Cuántas claves de $4$ dígitos se forman con $10$ dígitos si se permite repetición?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.7",
+        "nombre": "Arreglos con repetición"
+      },
+      "respuestas_posibles": {
+        "A": "$10^4$",
+        "B": "$10!$",
+        "C": "$P(10,4)$",
+        "D": "$C(10,4)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "arreglos con repetición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-7-02",
+      "pregunta": "¿Cuántas cadenas de $5$ bits existen?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.7",
+        "nombre": "Arreglos con repetición"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$5!$",
+        "C": "$2\\cdot5$",
+        "D": "$2^5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "arreglos con repetición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-7-03",
+      "pregunta": "Con $6$ símbolos, ¿cuántas secuencias de longitud $3$ con repetición hay?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.7",
+        "nombre": "Arreglos con repetición"
+      },
+      "respuestas_posibles": {
+        "A": "$20$",
+        "B": "$18$",
+        "C": "$216$",
+        "D": "$120$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "arreglos con repetición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-7-04",
+      "pregunta": "La fórmula de arreglos de longitud $r$ con $n$ opciones y repetición es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.7",
+        "nombre": "Arreglos con repetición"
+      },
+      "respuestas_posibles": {
+        "A": "$\\binom nr$",
+        "B": "$n^r$",
+        "C": "$n!$",
+        "D": "$\\frac{n!}{(n-r)!}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "arreglos con repetición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-7-05",
+      "pregunta": "¿Cuántos PIN de $6$ dígitos hay si se permiten ceros iniciales?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.7",
+        "nombre": "Arreglos con repetición"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}000{,}000$",
+        "B": "$900{,}000$",
+        "C": "$720$",
+        "D": "$60$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "arreglos con repetición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-7-06",
+      "pregunta": "¿Cuántas palabras de longitud $4$ se forman con las letras A, B y C permitiendo repetición?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.7",
+        "nombre": "Arreglos con repetición"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$24$",
+        "C": "$64$",
+        "D": "$81$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "arreglos con repetición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-7-07",
+      "pregunta": "Una contraseña tiene $2$ letras y $2$ dígitos, con repetición. ¿Cuántas hay?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.7",
+        "nombre": "Arreglos con repetición"
+      },
+      "respuestas_posibles": {
+        "A": "$26!10!$",
+        "B": "$52\\cdot20$",
+        "C": "$26^2\\cdot10^2$",
+        "D": "$36^4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "arreglos con repetición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-7-08",
+      "pregunta": "Si hay $4$ sabores y se eligen $3$ veces de manera ordenada con repetición, hay:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.7",
+        "nombre": "Arreglos con repetición"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$64$",
+        "C": "$12$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "arreglos con repetición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-7-09",
+      "pregunta": "La diferencia clave frente a $P(n,r)$ es que:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.7",
+        "nombre": "Arreglos con repetición"
+      },
+      "respuestas_posibles": {
+        "A": "Un elemento puede usarse más de una vez",
+        "B": "El orden deja de importar",
+        "C": "No hay posiciones",
+        "D": "Se suman opciones"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "arreglos con repetición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-7-10",
+      "pregunta": "¿Cuántas secuencias de longitud $2$ hay con $8$ símbolos y repetición?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.7",
+        "nombre": "Arreglos con repetición"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$56$",
+        "C": "$28$",
+        "D": "$64$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "arreglos con repetición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-8-01",
+      "pregunta": "Calcule $\\binom{5}{2}$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.8",
+        "nombre": "Combinaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$25$",
+        "C": "$10$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "combinaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-8-02",
+      "pregunta": "Calcule $\\binom{8}{3}$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.8",
+        "nombre": "Combinaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$512$",
+        "B": "$56$",
+        "C": "$336$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "combinaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-8-03",
+      "pregunta": "¿Cuántos comités de $4$ se forman entre $10$ personas?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.8",
+        "nombre": "Combinaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$210$",
+        "B": "$5040$",
+        "C": "$40$",
+        "D": "$10000$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "combinaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-8-04",
+      "pregunta": "La fórmula de combinaciones es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.8",
+        "nombre": "Combinaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{n!}{(n-r)!}$",
+        "B": "$n^r$",
+        "C": "$r!$",
+        "D": "$\\binom nr=\\frac{n!}{r!(n-r)!}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "combinaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-8-05",
+      "pregunta": "¿Cuántas parejas pueden formarse entre $12$ personas?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.8",
+        "nombre": "Combinaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "$144$",
+        "C": "$66$",
+        "D": "$132$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "combinaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-8-06",
+      "pregunta": "¿Cuántas manos de $5$ cartas se forman de una baraja de $52$?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.8",
+        "nombre": "Combinaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$5!$",
+        "B": "$\\binom{52}{5}$",
+        "C": "$P(52,5)$",
+        "D": "$52^5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "combinaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-8-07",
+      "pregunta": "Calcule $\\binom{9}{1}$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.8",
+        "nombre": "Combinaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$1$",
+        "C": "$8$",
+        "D": "$90$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "combinaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-8-08",
+      "pregunta": "Calcule $\\binom{9}{8}$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.8",
+        "nombre": "Combinaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$72$",
+        "B": "$1$",
+        "C": "$362880$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "combinaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-8-09",
+      "pregunta": "La identidad $\\binom nr=\\binom n{n-r}$ expresa:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.8",
+        "nombre": "Combinaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Permutación circular",
+        "B": "Principio aditivo",
+        "C": "Simetría de las combinaciones",
+        "D": "Regla factorial inversa"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "combinaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-8-10",
+      "pregunta": "Elegir $3$ libros de $7$ sin importar el orden da:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.8",
+        "nombre": "Combinaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$343$",
+        "B": "$35$",
+        "C": "$210$",
+        "D": "$21$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "combinaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-9-01",
+      "pregunta": "Elegir $3$ representantes sin cargos entre $12$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.9",
+        "nombre": "¿Permutación o combinación?"
+      },
+      "respuestas_posibles": {
+        "A": "Combinación",
+        "B": "Permutación",
+        "C": "Arreglo con repetición",
+        "D": "Principio aditivo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "¿permutación o combinación?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-9-02",
+      "pregunta": "Asignar primero, segundo y tercer lugar entre $12$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.9",
+        "nombre": "¿Permutación o combinación?"
+      },
+      "respuestas_posibles": {
+        "A": "Combinación",
+        "B": "Suma",
+        "C": "Media",
+        "D": "Permutación"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "¿permutación o combinación?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-9-03",
+      "pregunta": "Elegir $5$ ingredientes distintos para una pizza es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.9",
+        "nombre": "¿Permutación o combinación?"
+      },
+      "respuestas_posibles": {
+        "A": "Arreglo con repetición ordenado",
+        "B": "Factorial total",
+        "C": "Combinación",
+        "D": "Permutación"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "¿permutación o combinación?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-9-04",
+      "pregunta": "Formar una clave con $4$ letras distintas es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.9",
+        "nombre": "¿Permutación o combinación?"
+      },
+      "respuestas_posibles": {
+        "A": "Cuartil",
+        "B": "Permutación",
+        "C": "Combinación",
+        "D": "Principio aditivo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "¿permutación o combinación?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-9-05",
+      "pregunta": "La pregunta decisiva para distinguir ambas técnicas es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.9",
+        "nombre": "¿Permutación o combinación?"
+      },
+      "respuestas_posibles": {
+        "A": "¿Importa el orden?",
+        "B": "¿Hay números?",
+        "C": "¿Existe una media?",
+        "D": "¿El resultado es positivo?"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "¿permutación o combinación?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-9-06",
+      "pregunta": "Elegir capitán y subcapitán entre $9$ personas es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.9",
+        "nombre": "¿Permutación o combinación?"
+      },
+      "respuestas_posibles": {
+        "A": "Combinación",
+        "B": "Principio aditivo",
+        "C": "Arreglo sin posiciones",
+        "D": "Permutación"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "¿permutación o combinación?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-9-07",
+      "pregunta": "Escoger $2$ materias optativas entre $6$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.9",
+        "nombre": "¿Permutación o combinación?"
+      },
+      "respuestas_posibles": {
+        "A": "Arreglo con repetición",
+        "B": "Árbol obligatorio",
+        "C": "Combinación",
+        "D": "Permutación"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "¿permutación o combinación?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-9-08",
+      "pregunta": "Ordenar $4$ de $7$ fotografías es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.9",
+        "nombre": "¿Permutación o combinación?"
+      },
+      "respuestas_posibles": {
+        "A": "Complemento",
+        "B": "Permutación",
+        "C": "Combinación",
+        "D": "Suma"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "¿permutación o combinación?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-9-09",
+      "pregunta": "Seleccionar $6$ números para una lotería sin tomar en cuenta su orden es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.9",
+        "nombre": "¿Permutación o combinación?"
+      },
+      "respuestas_posibles": {
+        "A": "Combinación",
+        "B": "Permutación",
+        "C": "Factorial de $6$ únicamente",
+        "D": "Principio multiplicativo simple"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "¿permutación o combinación?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-9-10",
+      "pregunta": "Si intercambiar dos elementos produce un resultado diferente, conviene usar:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.9",
+        "nombre": "¿Permutación o combinación?"
+      },
+      "respuestas_posibles": {
+        "A": "Combinación",
+        "B": "Media",
+        "C": "Varianza",
+        "D": "Permutación"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "¿permutación o combinación?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-10-01",
+      "pregunta": "Entre $8$ personas, ¿cuántas formas hay de elegir presidencia y secretaría?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.10",
+        "nombre": "Selecciones con cargos"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$64$",
+        "C": "$56$",
+        "D": "$28$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "selecciones con cargos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-10-02",
+      "pregunta": "Entre $10$ personas, ¿cuántas formas hay de asignar tres cargos distintos?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.10",
+        "nombre": "Selecciones con cargos"
+      },
+      "respuestas_posibles": {
+        "A": "$1000$",
+        "B": "$720$",
+        "C": "$120$",
+        "D": "$30$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "selecciones con cargos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-10-03",
+      "pregunta": "Un comité tiene presidencia, tesorería y dos vocalías indistinguibles. Entre $7$ personas, el número de selecciones es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.10",
+        "nombre": "Selecciones con cargos"
+      },
+      "respuestas_posibles": {
+        "A": "$420$",
+        "B": "$840$",
+        "C": "$35$",
+        "D": "$210$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "selecciones con cargos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-10-04",
+      "pregunta": "Elegir primero un comité de $4$ entre $9$ y luego presidencia entre sus integrantes da:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.10",
+        "nombre": "Selecciones con cargos"
+      },
+      "respuestas_posibles": {
+        "A": "$126$",
+        "B": "$3024$",
+        "C": "$36$",
+        "D": "$504$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "selecciones con cargos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-10-05",
+      "pregunta": "Entre $6$ personas se asignan dirección y subdirección. ¿Cuántas formas hay?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.10",
+        "nombre": "Selecciones con cargos"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$36$",
+        "C": "$30$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "selecciones con cargos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-10-06",
+      "pregunta": "Si los cargos son distintos, el orden de asignación:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.10",
+        "nombre": "Selecciones con cargos"
+      },
+      "respuestas_posibles": {
+        "A": "Se elimina",
+        "B": "Importa",
+        "C": "No importa",
+        "D": "Solo importa con repetición"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "selecciones con cargos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-10-07",
+      "pregunta": "Para asignar $r$ cargos distintos entre $n$ personas se usa:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.10",
+        "nombre": "Selecciones con cargos"
+      },
+      "respuestas_posibles": {
+        "A": "$P(n,r)$",
+        "B": "$C(n,r)$",
+        "C": "$n^r$ con repetición necesaria",
+        "D": "$n+r$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "selecciones con cargos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-10-08",
+      "pregunta": "¿Cuántas formas hay de elegir presidencia, secretaría y tesorería entre $5$ personas?",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.10",
+        "nombre": "Selecciones con cargos"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$15$",
+        "C": "$125$",
+        "D": "$60$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "selecciones con cargos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-10-09",
+      "pregunta": "Si una persona no puede ocupar dos cargos, se trabaja:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.10",
+        "nombre": "Selecciones con cargos"
+      },
+      "respuestas_posibles": {
+        "A": "Solo con suma",
+        "B": "Con combinaciones sin cargos",
+        "C": "Sin repetición",
+        "D": "Con repetición"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "selecciones con cargos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-10-10",
+      "pregunta": "Seleccionar $3$ personas entre $8$ y asignarles tres cargos equivale a:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.10",
+        "nombre": "Selecciones con cargos"
+      },
+      "respuestas_posibles": {
+        "A": "$3!$",
+        "B": "$\\binom83 3!$",
+        "C": "$\\binom83$",
+        "D": "$8^3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "selecciones con cargos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-11-01",
+      "pregunta": "Se eligen $2$ personas de $8$. La probabilidad de que ambas estén entre $3$ personas específicas es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.11",
+        "nombre": "Probabilidad mediante técnicas de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\binom32}{\\binom82}=\\frac3{28}$",
+        "B": "$\\frac38$",
+        "C": "$\\frac6{64}$",
+        "D": "$\\frac{2}{8}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "probabilidad mediante técnicas de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-11-02",
+      "pregunta": "De $10$ focos, $3$ son defectuosos. Al elegir $2$, $P(\\text{ambos defectuosos})=$",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.11",
+        "nombre": "Probabilidad mediante técnicas de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac3{10}$",
+        "B": "$\\frac9{100}$",
+        "C": "$\\frac2{10}$",
+        "D": "$\\frac{\\binom32}{\\binom{10}2}=\\frac1{15}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "probabilidad mediante técnicas de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-11-03",
+      "pregunta": "En una mano de $5$ cartas, la probabilidad de que todas sean ases es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.11",
+        "nombre": "Probabilidad mediante técnicas de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac4{52}$",
+        "B": "$\\frac1{13}$",
+        "C": "$0$",
+        "D": "$\\frac{\\binom45}{\\binom{52}5}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "probabilidad mediante técnicas de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-11-04",
+      "pregunta": "Al elegir $3$ números de $1$ a $8$, la probabilidad de que todos sean pares es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.11",
+        "nombre": "Probabilidad mediante técnicas de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac3{8}$",
+        "B": "$\\frac{\\binom43}{\\binom83}=\\frac1{14}$",
+        "C": "$\\frac12$",
+        "D": "$\\frac8{56}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "probabilidad mediante técnicas de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-11-05",
+      "pregunta": "Una urna tiene $5$ rojas y $4$ azules. Al elegir $3$, la probabilidad de exactamente $2$ rojas es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.11",
+        "nombre": "Probabilidad mediante técnicas de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\binom52\\binom41}{\\binom93}=\\frac{10}{21}$",
+        "B": "$\\frac{20}{84}$",
+        "C": "$\\frac59$",
+        "D": "$\\frac{40}{729}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "probabilidad mediante técnicas de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-11-06",
+      "pregunta": "La probabilidad mediante conteo se obtiene como:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.11",
+        "nombre": "Probabilidad mediante técnicas de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{favorables}+\\text{posibles}$",
+        "B": "$\\frac{\\text{posibles}}{\\text{favorables}}$",
+        "C": "$1-\\text{posibles}$",
+        "D": "$\\frac{\\text{casos favorables}}{\\text{casos posibles}}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "probabilidad mediante técnicas de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-11-07",
+      "pregunta": "De $6$ personas, se eligen $2$. La probabilidad de incluir a una persona determinada es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.11",
+        "nombre": "Probabilidad mediante técnicas de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac2{15}$",
+        "B": "$\\frac12$",
+        "C": "$\\frac{5}{15}=\\frac13$",
+        "D": "$\\frac16$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "probabilidad mediante técnicas de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-11-08",
+      "pregunta": "Se ordenan al azar $5$ libros. La probabilidad de que dos libros específicos queden juntos es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.11",
+        "nombre": "Probabilidad mediante técnicas de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac4{25}$",
+        "B": "$\\frac{2\\cdot4!}{5!}=\\frac25$",
+        "C": "$\\frac15$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "probabilidad mediante técnicas de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-11-09",
+      "pregunta": "En una permutación aleatoria de $6$ personas, la probabilidad de que una persona quede primero es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.11",
+        "nombre": "Probabilidad mediante técnicas de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac16$",
+        "B": "$\\frac15$",
+        "C": "$\\frac1{36}$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "probabilidad mediante técnicas de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-11-10",
+      "pregunta": "Al formar un comité de $3$ entre $7$, la probabilidad de incluir a dos personas específicas es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.11",
+        "nombre": "Probabilidad mediante técnicas de conteo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac2{7}$",
+        "B": "$\\frac1{35}$",
+        "C": "$\\frac{10}{49}$",
+        "D": "$\\frac{5}{35}=\\frac17$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "probabilidad mediante técnicas de conteo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-12-01",
+      "pregunta": "El desarrollo de $(a+b)^n$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.12",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sum_{k=1}^n a^kb^k$",
+        "B": "$n(a+b)$",
+        "C": "$\\sum_{k=0}^n\\binom nk a^{n-k}b^k$",
+        "D": "$a^n+b^n$ siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "binomio de newton",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-12-02",
+      "pregunta": "Desarrolle $(x+1)^3$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.12",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$x^3+1$",
+        "B": "$x^3+3x^2+3x+1$",
+        "C": "$x^3+x^2+x+1$",
+        "D": "$x^3+3x+1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "binomio de newton",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-12-03",
+      "pregunta": "Desarrolle $(x+2)^2$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.12",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+4x+4$",
+        "B": "$x^2+2x+4$",
+        "C": "$x^2+4$",
+        "D": "$x^2+2x+2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "binomio de newton",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-12-04",
+      "pregunta": "Los coeficientes de $(a+b)^4$ son:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.12",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$1,3,3,1$",
+        "B": "$1,5,10,10,5,1$",
+        "C": "$1,4,4,4,1$",
+        "D": "$1,4,6,4,1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "binomio de newton",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-12-05",
+      "pregunta": "La suma de los coeficientes de $(x+1)^n$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.12",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$n^2$",
+        "B": "$1$",
+        "C": "$2^n$",
+        "D": "$n!$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "binomio de newton",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-12-06",
+      "pregunta": "El triángulo de Pascal genera:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.12",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "Permutaciones circulares",
+        "B": "Coeficientes binomiales",
+        "C": "Solo factoriales",
+        "D": "Probabilidades condicionales"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "binomio de newton",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-12-07",
+      "pregunta": "Desarrolle $(x-1)^3$.",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.12",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$x^3-3x^2+3x-1$",
+        "B": "$x^3+3x^2+3x+1$",
+        "C": "$x^3-3x-1$",
+        "D": "$x^3-x^2+x-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "binomio de newton",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-12-08",
+      "pregunta": "El número de términos de $(a+b)^n$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.12",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$n$",
+        "B": "$2n$",
+        "C": "$n!$",
+        "D": "$n+1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "binomio de newton",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-12-09",
+      "pregunta": "En la fila correspondiente a $n=5$, los coeficientes son:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.12",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$1,6,15,20,15,6,1$",
+        "B": "$5,10,10,5$",
+        "C": "$1,5,10,10,5,1$",
+        "D": "$1,4,6,4,1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "binomio de newton",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-12-10",
+      "pregunta": "El término general puede escribirse:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.12",
+        "nombre": "Binomio de Newton"
+      },
+      "respuestas_posibles": {
+        "A": "$T_{k+1}=n(a+b)$",
+        "B": "$T_{k+1}=\\binom nk a^{n-k}b^k$",
+        "C": "$T_k=n!a^kb^k$",
+        "D": "$T_k=a^n+b^n$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "binomio de newton",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-13-01",
+      "pregunta": "El coeficiente de $x^2$ en $(1+x)^5$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.13",
+        "nombre": "Coeficiente de un término"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$5$",
+        "C": "$20$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de un término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-13-02",
+      "pregunta": "El coeficiente de $x^3$ en $(1+x)^6$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.13",
+        "nombre": "Coeficiente de un término"
+      },
+      "respuestas_posibles": {
+        "A": "$15$",
+        "B": "$6$",
+        "C": "$120$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de un término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-13-03",
+      "pregunta": "El coeficiente de $x^2$ en $(2+x)^4$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.13",
+        "nombre": "Coeficiente de un término"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$12$",
+        "C": "$24$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de un término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-13-04",
+      "pregunta": "El coeficiente de $x^3$ en $(1+2x)^4$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.13",
+        "nombre": "Coeficiente de un término"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$32$",
+        "C": "$4$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de un término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-13-05",
+      "pregunta": "El término independiente de $(x+3)^5$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.13",
+        "nombre": "Coeficiente de un término"
+      },
+      "respuestas_posibles": {
+        "A": "$243$",
+        "B": "$3$",
+        "C": "$15$",
+        "D": "$81$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de un término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-13-06",
+      "pregunta": "El coeficiente de $x$ en $(2+x)^6$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.13",
+        "nombre": "Coeficiente de un término"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$64$",
+        "C": "$384$",
+        "D": "$192$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de un término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-13-07",
+      "pregunta": "El coeficiente de $x^4$ en $(1-x)^6$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.13",
+        "nombre": "Coeficiente de un término"
+      },
+      "respuestas_posibles": {
+        "A": "$20$",
+        "B": "$-20$",
+        "C": "$15$",
+        "D": "$-15$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de un término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-13-08",
+      "pregunta": "El coeficiente de $x^2$ en $(1-2x)^5$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.13",
+        "nombre": "Coeficiente de un término"
+      },
+      "respuestas_posibles": {
+        "A": "$80$",
+        "B": "$40$",
+        "C": "$-40$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de un término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-13-09",
+      "pregunta": "Para hallar el coeficiente de $x^r$ en $(a+bx)^n$ se usa:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.13",
+        "nombre": "Coeficiente de un término"
+      },
+      "respuestas_posibles": {
+        "A": "$\\binom nr a^{n-r}b^r$",
+        "B": "$n!a^rb^{n-r}$",
+        "C": "$a^n+b^n$",
+        "D": "$\\binom nr a^rb^{n-r}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de un término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-48-13-10",
+      "pregunta": "El coeficiente central de $(1+x)^8$ es:",
+      "tema": {
+        "codigo": "48",
+        "nombre": "Técnicas de conteo y probabilidad avanzada",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "48.13",
+        "nombre": "Coeficiente de un término"
+      },
+      "respuestas_posibles": {
+        "A": "$56$",
+        "B": "$28$",
+        "C": "$8$",
+        "D": "$70$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de un término",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

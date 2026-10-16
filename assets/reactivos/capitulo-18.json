@@ -1,0 +1,1867 @@
+{
+  "metadata": {
+    "capitulo": "18",
+    "titulo": "Funciones exponenciales y logarítmicas",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 7,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 70,
+    "secciones_incluidas": [
+      {
+        "codigo": "18.1",
+        "nombre": "Función exponencial"
+      },
+      {
+        "codigo": "18.2",
+        "nombre": "Propiedades de los exponentes"
+      },
+      {
+        "codigo": "18.3",
+        "nombre": "Ecuaciones exponenciales"
+      },
+      {
+        "codigo": "18.4",
+        "nombre": "Función logarítmica"
+      },
+      {
+        "codigo": "18.5",
+        "nombre": "Propiedades de los logaritmos"
+      },
+      {
+        "codigo": "18.6",
+        "nombre": "Ecuaciones logarítmicas"
+      },
+      {
+        "codigo": "18.7",
+        "nombre": "Aplicaciones exponenciales y logarítmicas"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Reactivos distintos y específicos por subtema, inspirados en la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-18-1-01",
+      "pregunta": "¿Cuál expresión define una función exponencial?",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.1",
+        "nombre": "Función exponencial"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=3^x$",
+        "B": "$f(x)=x^3$",
+        "C": "$f(x)=3x$",
+        "D": "$f(x)=\\log_3x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer exponencial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-1-02",
+      "pregunta": "El dominio de $f(x)=2^x$ es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.1",
+        "nombre": "Función exponencial"
+      },
+      "respuestas_posibles": {
+        "A": "$[0,\\infty)$",
+        "B": "$(0,\\infty)$",
+        "C": "$\\mathbb R\\setminus\\{0\\}$",
+        "D": "$\\mathbb R$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "determinar dominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-1-03",
+      "pregunta": "El rango de $f(x)=2^x$ es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.1",
+        "nombre": "Función exponencial"
+      },
+      "respuestas_posibles": {
+        "A": "$[0,\\infty)$",
+        "B": "$(-\\infty,0)$",
+        "C": "$(0,\\infty)$",
+        "D": "$\\mathbb R$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "determinar rango",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-1-04",
+      "pregunta": "La gráfica de $f(x)=5^x$ pasa por:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.1",
+        "nombre": "Función exponencial"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,0)$",
+        "B": "$(0,1)$",
+        "C": "$(1,0)$",
+        "D": "$(0,5)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar punto común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-1-05",
+      "pregunta": "Si $b>1$, la función $f(x)=b^x$ es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.1",
+        "nombre": "Función exponencial"
+      },
+      "respuestas_posibles": {
+        "A": "Creciente",
+        "B": "Decreciente",
+        "C": "Constante",
+        "D": "Par"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "clasificar crecimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-1-06",
+      "pregunta": "Si $0<b<1$, la función $f(x)=b^x$ es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.1",
+        "nombre": "Función exponencial"
+      },
+      "respuestas_posibles": {
+        "A": "Creciente",
+        "B": "Constante",
+        "C": "Cuadrática",
+        "D": "Decreciente"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "clasificar decrecimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-1-07",
+      "pregunta": "Calcule $3^4$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.1",
+        "nombre": "Función exponencial"
+      },
+      "respuestas_posibles": {
+        "A": "$64$",
+        "B": "$27$",
+        "C": "$81$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "evaluar potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-1-08",
+      "pregunta": "Calcule $2^{-3}$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.1",
+        "nombre": "Función exponencial"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac16$",
+        "B": "$\\frac18$",
+        "C": "$-8$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "evaluar exponente negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-1-09",
+      "pregunta": "La asíntota horizontal de $f(x)=4^x$ es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.1",
+        "nombre": "Función exponencial"
+      },
+      "respuestas_posibles": {
+        "A": "$y=0$",
+        "B": "$x=0$",
+        "C": "$y=4$",
+        "D": "$x=4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "identificar asíntota",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-1-10",
+      "pregunta": "La función $g(x)=2^x+3$ es $2^x$ desplazada:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.1",
+        "nombre": "Función exponencial"
+      },
+      "respuestas_posibles": {
+        "A": "$3$ a la derecha",
+        "B": "$3$ hacia abajo",
+        "C": "$3$ a la izquierda",
+        "D": "$3$ unidades hacia arriba"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "interpretar transformación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-2-01",
+      "pregunta": "Simplifique $a^3a^5$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.2",
+        "nombre": "Propiedades de los exponentes"
+      },
+      "respuestas_posibles": {
+        "A": "$a^2$",
+        "B": "$2a^8$",
+        "C": "$a^8$",
+        "D": "$a^{15}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "producto de potencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-2-02",
+      "pregunta": "Simplifique $\\frac{x^9}{x^4}$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.2",
+        "nombre": "Propiedades de los exponentes"
+      },
+      "respuestas_posibles": {
+        "A": "$x^{-5}$",
+        "B": "$x^5$",
+        "C": "$x^{13}$",
+        "D": "$x^{36}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "cociente de potencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-2-03",
+      "pregunta": "Simplifique $(m^3)^4$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.2",
+        "nombre": "Propiedades de los exponentes"
+      },
+      "respuestas_posibles": {
+        "A": "$m^{12}$",
+        "B": "$m^7$",
+        "C": "$m^{64}$",
+        "D": "$4m^3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "potencia de potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-2-04",
+      "pregunta": "Simplifique $(2x)^3$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.2",
+        "nombre": "Propiedades de los exponentes"
+      },
+      "respuestas_posibles": {
+        "A": "$2x^3$",
+        "B": "$6x^3$",
+        "C": "$8x$",
+        "D": "$8x^3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "potencia de producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-2-05",
+      "pregunta": "Exprese $x^{-4}$ con exponente positivo.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.2",
+        "nombre": "Propiedades de los exponentes"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac1{4x}$",
+        "B": "$x^4$",
+        "C": "$\\frac1{x^4}$",
+        "D": "$-x^4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "exponente negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-2-06",
+      "pregunta": "Simplifique $a^0$, con $a\\neq0$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.2",
+        "nombre": "Propiedades de los exponentes"
+      },
+      "respuestas_posibles": {
+        "A": "No existe",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$a$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "exponente cero",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-2-07",
+      "pregunta": "Simplifique $\\sqrt[3]{x^2}$ como potencia.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.2",
+        "nombre": "Propiedades de los exponentes"
+      },
+      "respuestas_posibles": {
+        "A": "$x^{2/3}$",
+        "B": "$x^{3/2}$",
+        "C": "$x^6$",
+        "D": "$x^{1/6}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "convertir radical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-2-08",
+      "pregunta": "Simplifique $27^{2/3}$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.2",
+        "nombre": "Propiedades de los exponentes"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$18$",
+        "C": "$3$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "evaluar exponente racional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-2-09",
+      "pregunta": "Simplifique $\\frac{2^7}{2^3}$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.2",
+        "nombre": "Propiedades de los exponentes"
+      },
+      "respuestas_posibles": {
+        "A": "$32$",
+        "B": "$1024$",
+        "C": "$16$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar cociente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-2-10",
+      "pregunta": "Simplifique $(x^2y^{-1})^3$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.2",
+        "nombre": "Propiedades de los exponentes"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x^6}{y}$",
+        "B": "$\\frac{x^6}{y^3}$",
+        "C": "$\\frac{x^5}{y^2}$",
+        "D": "$x^6y^3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "combinar leyes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-3-01",
+      "pregunta": "Resuelva $2^x=32$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.3",
+        "nombre": "Ecuaciones exponenciales"
+      },
+      "respuestas_posibles": {
+        "A": "$x=5$",
+        "B": "$x=4$",
+        "C": "$x=16$",
+        "D": "$x=6$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "igualar bases",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-3-02",
+      "pregunta": "Resuelva $3^{x+1}=81$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.3",
+        "nombre": "Ecuaciones exponenciales"
+      },
+      "respuestas_posibles": {
+        "A": "$x=4$",
+        "B": "$x=2$",
+        "C": "$x=80$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "igualar exponentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-3-03",
+      "pregunta": "Resuelva $5^{2x}=125$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.3",
+        "nombre": "Ecuaciones exponenciales"
+      },
+      "respuestas_posibles": {
+        "A": "$x=\\frac23$",
+        "B": "$x=2$",
+        "C": "$x=\\frac32$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver exponente lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-3-04",
+      "pregunta": "Resuelva $4^x=\\frac1{16}$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.3",
+        "nombre": "Ecuaciones exponenciales"
+      },
+      "respuestas_posibles": {
+        "A": "$x=\\frac14$",
+        "B": "$x=-2$",
+        "C": "$x=2$",
+        "D": "$x=-4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "usar exponente negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-3-05",
+      "pregunta": "Resuelva $2^{x-1}=8$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.3",
+        "nombre": "Ecuaciones exponenciales"
+      },
+      "respuestas_posibles": {
+        "A": "$x=4$",
+        "B": "$x=3$",
+        "C": "$x=2$",
+        "D": "$x=9$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver desplazamiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-3-06",
+      "pregunta": "Resuelva $9^x=27$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.3",
+        "nombre": "Ecuaciones exponenciales"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3$",
+        "B": "$x=\\frac23$",
+        "C": "$x=2$",
+        "D": "$x=\\frac32$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reescribir base común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-3-07",
+      "pregunta": "Resuelva $e^x=7$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.3",
+        "nombre": "Ecuaciones exponenciales"
+      },
+      "respuestas_posibles": {
+        "A": "$x=7e$",
+        "B": "$x=\\log7$ obligatoriamente en base 10",
+        "C": "$x=\\ln7$",
+        "D": "$x=e^7$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "usar logaritmo natural",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-3-08",
+      "pregunta": "Resuelva $2^x=10$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.3",
+        "nombre": "Ecuaciones exponenciales"
+      },
+      "respuestas_posibles": {
+        "A": "$x=10\\ln2$",
+        "B": "$x=\\frac{\\ln10}{\\ln2}$",
+        "C": "$x=5$",
+        "D": "$x=\\ln5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "cambio de base",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-3-09",
+      "pregunta": "Resuelva $3^{2x-1}=3^7$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.3",
+        "nombre": "Ecuaciones exponenciales"
+      },
+      "respuestas_posibles": {
+        "A": "$x=4$",
+        "B": "$x=3$",
+        "C": "$x=7$",
+        "D": "$x=8$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "igualar exponentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-3-10",
+      "pregunta": "Resuelva $25^{x+1}=5^{3x}$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.3",
+        "nombre": "Ecuaciones exponenciales"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$",
+        "B": "$x=3$",
+        "C": "$x=-2$",
+        "D": "$x=2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reescribir potencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-4-01",
+      "pregunta": "La igualdad $\\log_ba=c$ equivale a:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.4",
+        "nombre": "Función logarítmica"
+      },
+      "respuestas_posibles": {
+        "A": "$c^a=b$",
+        "B": "$b^a=c$",
+        "C": "$b^c=a$",
+        "D": "$a^b=c$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "convertir formas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-4-02",
+      "pregunta": "Calcule $\\log_2 8$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.4",
+        "nombre": "Función logarítmica"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$3$",
+        "C": "$2$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "evaluar logaritmo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-4-03",
+      "pregunta": "Calcule $\\log_{10}1000$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.4",
+        "nombre": "Función logarítmica"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$10$",
+        "C": "$100$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "evaluar logaritmo decimal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-4-04",
+      "pregunta": "Calcule $\\ln e^5$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.4",
+        "nombre": "Función logarítmica"
+      },
+      "respuestas_posibles": {
+        "A": "$e^5$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "usar inversas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-4-05",
+      "pregunta": "El dominio de $f(x)=\\log_3x$ es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.4",
+        "nombre": "Función logarítmica"
+      },
+      "respuestas_posibles": {
+        "A": "$[0,\\infty)$",
+        "B": "$(-\\infty,0)$",
+        "C": "$(0,\\infty)$",
+        "D": "$\\mathbb R$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "determinar dominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-4-06",
+      "pregunta": "El rango de $f(x)=\\log_3x$ es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.4",
+        "nombre": "Función logarítmica"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{0\\}$",
+        "B": "$\\mathbb R$",
+        "C": "$(0,\\infty)$",
+        "D": "$[0,\\infty)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "determinar rango",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-4-07",
+      "pregunta": "La gráfica de $y=\\log_bx$ pasa por:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.4",
+        "nombre": "Función logarítmica"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,0)$",
+        "B": "$(0,1)$",
+        "C": "$(b,0)$",
+        "D": "$(0,b)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "identificar punto común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-4-08",
+      "pregunta": "La asíntota vertical de $y=\\log_2x$ es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.4",
+        "nombre": "Función logarítmica"
+      },
+      "respuestas_posibles": {
+        "A": "$y=0$",
+        "B": "$x=2$",
+        "C": "$y=2$",
+        "D": "$x=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "identificar asíntota",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-4-09",
+      "pregunta": "Si $b>1$, $\\log_bx$ es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.4",
+        "nombre": "Función logarítmica"
+      },
+      "respuestas_posibles": {
+        "A": "Constante",
+        "B": "Par",
+        "C": "Creciente",
+        "D": "Decreciente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "clasificar logarítmica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-4-10",
+      "pregunta": "La función logarítmica es inversa de:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.4",
+        "nombre": "Función logarítmica"
+      },
+      "respuestas_posibles": {
+        "A": "La función valor absoluto",
+        "B": "La función exponencial con la misma base",
+        "C": "La función cuadrática",
+        "D": "La función identidad únicamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "relacionar inversas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-5-01",
+      "pregunta": "Expanda $\\log_b(xy)$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.5",
+        "nombre": "Propiedades de los logaritmos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\log_bx+\\log_by$",
+        "B": "$\\log_bx\\log_by$",
+        "C": "$\\log_bx-\\log_by$",
+        "D": "$\\log_b(x+y)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "producto logarítmico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-5-02",
+      "pregunta": "Expanda $\\log_b\\left(\\frac{x}{y}\\right)$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.5",
+        "nombre": "Propiedades de los logaritmos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\log_bx+\\log_by$",
+        "B": "$\\frac{\\log_bx}{\\log_by}$",
+        "C": "$\\log_b(x-y)$",
+        "D": "$\\log_bx-\\log_by$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "cociente logarítmico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-5-03",
+      "pregunta": "Expanda $\\log_b(x^5)$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.5",
+        "nombre": "Propiedades de los logaritmos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\log_b(5x)$",
+        "B": "$\\frac15\\log_bx$",
+        "C": "$5\\log_bx$",
+        "D": "$(\\log_bx)^5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "potencia logarítmica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-5-04",
+      "pregunta": "Condense $\\ln x+\\ln y$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.5",
+        "nombre": "Propiedades de los logaritmos"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\ln(x+y)$",
+        "B": "$\\ln(xy)$",
+        "C": "$\\ln(x+y)$",
+        "D": "$\\ln\\left(\\frac{x}{y}\\right)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "condensar suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-5-05",
+      "pregunta": "Condense $2\\log x-\\log y$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.5",
+        "nombre": "Propiedades de los logaritmos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\log\\left(\\frac{x^2}{y}\\right)$",
+        "B": "$\\log(2x-y)$",
+        "C": "$\\log(x^2y)$",
+        "D": "$\\log\\left(\\frac{x}{y^2}\\right)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "condensar expresión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-5-06",
+      "pregunta": "Use cambio de base para $\\log_2 7$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.5",
+        "nombre": "Propiedades de los logaritmos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\ln2}{\\ln7}$",
+        "B": "$\\ln14$",
+        "C": "$7\\ln2$",
+        "D": "$\\frac{\\ln7}{\\ln2}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "cambio de base",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-5-07",
+      "pregunta": "Calcule $\\log_5 1$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.5",
+        "nombre": "Propiedades de los logaritmos"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "No existe",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "logaritmo de uno",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-5-08",
+      "pregunta": "Calcule $\\log_7 7$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.5",
+        "nombre": "Propiedades de los logaritmos"
+      },
+      "respuestas_posibles": {
+        "A": "$49$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "logaritmo de la base",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-5-09",
+      "pregunta": "¿Para qué valores es válida $\\ln(x-4)$?",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.5",
+        "nombre": "Propiedades de los logaritmos"
+      },
+      "respuestas_posibles": {
+        "A": "$x>4$",
+        "B": "$x\\geq4$",
+        "C": "$x<4$",
+        "D": "$x\\neq4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "restricción de argumento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-5-10",
+      "pregunta": "Expanda $\\ln\\sqrt{x}$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.5",
+        "nombre": "Propiedades de los logaritmos"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\ln x$",
+        "B": "$\\ln x+\\ln2$",
+        "C": "$\\sqrt{\\ln x}$",
+        "D": "$\\frac12\\ln x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "usar exponente racional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-6-01",
+      "pregunta": "Resuelva $\\log_2x=5$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.6",
+        "nombre": "Ecuaciones logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=25$",
+        "B": "$x=\\frac52$",
+        "C": "$x=32$",
+        "D": "$x=10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "convertir a exponencial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-6-02",
+      "pregunta": "Resuelva $\\log_3(x-1)=2$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.6",
+        "nombre": "Ecuaciones logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3$",
+        "B": "$x=10$",
+        "C": "$x=7$",
+        "D": "$x=9$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver argumento lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-6-03",
+      "pregunta": "Resuelva $\\ln x=3$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.6",
+        "nombre": "Ecuaciones logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=e^3$",
+        "B": "$x=3e$",
+        "C": "$x=\\ln3$",
+        "D": "$x=e+3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "invertir logaritmo natural",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-6-04",
+      "pregunta": "Resuelva $\\log_{10}(2x)=2$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.6",
+        "nombre": "Ecuaciones logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=100$",
+        "B": "$x=5$",
+        "C": "$x=20$",
+        "D": "$x=50$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver logaritmo decimal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-6-05",
+      "pregunta": "Resuelva $\\log_2x+\\log_2(x-2)=3$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.6",
+        "nombre": "Ecuaciones logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2$",
+        "B": "$x=8$",
+        "C": "$x=4$",
+        "D": "$x=-2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "condensar y verificar dominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-6-06",
+      "pregunta": "Resuelva $\\ln(x+1)-\\ln x=\\ln2$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.6",
+        "nombre": "Ecuaciones logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "$x=1$",
+        "C": "$x=-1$",
+        "D": "$x=2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "usar cociente logarítmico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-6-07",
+      "pregunta": "Resuelva $2\\log_3x=4$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.6",
+        "nombre": "Ecuaciones logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=9$",
+        "B": "$x=2$",
+        "C": "$x=6$",
+        "D": "$x=81$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar potencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-6-08",
+      "pregunta": "Una solución que hace no positivo un argumento logarítmico debe:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.6",
+        "nombre": "Ecuaciones logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "Conservarse siempre",
+        "B": "Convertirse en cero",
+        "C": "Duplicarse",
+        "D": "Descartarse"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "verificar dominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-6-09",
+      "pregunta": "Resuelva $\\log_5(x+4)=1$.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.6",
+        "nombre": "Ecuaciones logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=9$",
+        "B": "$x=-1$",
+        "C": "$x=1$",
+        "D": "$x=5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver ecuación simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-6-10",
+      "pregunta": "Resuelva $\\ln(x^2)=0$ en los reales.",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.6",
+        "nombre": "Ecuaciones logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=e$",
+        "B": "$x=1$ o $x=-1$",
+        "C": "$x=0$",
+        "D": "$x=1$ solamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver argumento cuadrático",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-7-01",
+      "pregunta": "Una población inicial de $500$ crece $8\\%$ anual. El modelo es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.7",
+        "nombre": "Aplicaciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$P(t)=500(1.08)^t$",
+        "B": "$P(t)=500+0.08t$",
+        "C": "$P(t)=500(0.92)^t$",
+        "D": "$P(t)=508^t$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "modelar crecimiento exponencial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-7-02",
+      "pregunta": "Una sustancia de $200$ g pierde $15\\%$ por hora. El modelo es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.7",
+        "nombre": "Aplicaciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$A(t)=200(1.15)^t$",
+        "B": "$A(t)=200-0.15t$",
+        "C": "$A(t)=170t$",
+        "D": "$A(t)=200(0.85)^t$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "modelar decaimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-7-03",
+      "pregunta": "El interés compuesto anual se modela mediante:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.7",
+        "nombre": "Aplicaciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$A=Prt$",
+        "B": "$A=P(1-r)t$",
+        "C": "$A=P(1+r)^t$",
+        "D": "$A=P+rt$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer modelo financiero",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-7-04",
+      "pregunta": "Una cantidad se duplica cada $5$ años. Un modelo es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.7",
+        "nombre": "Aplicaciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$Q(t)=2Q_0t$",
+        "B": "$Q(t)=Q_0 2^{t/5}$",
+        "C": "$Q(t)=Q_0+2t$",
+        "D": "$Q(t)=Q_0 5^{t/2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "modelar duplicación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-7-05",
+      "pregunta": "La vida media de una sustancia es $10$ años. El modelo es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.7",
+        "nombre": "Aplicaciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$A(t)=A_0\\left(\\frac12\\right)^{t/10}$",
+        "B": "$A(t)=A_0(2)^{t/10}$",
+        "C": "$A(t)=A_0-\\frac t{10}$",
+        "D": "$A(t)=\\frac{A_0}{10t}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "modelar vida media",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-7-06",
+      "pregunta": "En $P(t)=1200(1.04)^t$, el factor $1.04$ indica:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.7",
+        "nombre": "Aplicaciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "Decrecimiento de $4\\%$",
+        "B": "Crecimiento de $104\\%$",
+        "C": "Valor inicial de $1.04$",
+        "D": "Crecimiento de $4\\%$ por periodo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "interpretar factor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-7-07",
+      "pregunta": "En $N(t)=800(0.7)^t$, la tasa de decrecimiento es:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.7",
+        "nombre": "Aplicaciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$7\\%$",
+        "B": "$0.7\\%$",
+        "C": "$30\\%$",
+        "D": "$70\\%$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "interpretar decaimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-7-08",
+      "pregunta": "El tiempo para que $Q_0e^{kt}$ alcance $Q$ se obtiene como:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.7",
+        "nombre": "Aplicaciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$t=\\ln(Q-Q_0)$",
+        "B": "$t=\\frac{\\ln(Q/Q_0)}{k}$",
+        "C": "$t=k\\ln(QQ_0)$",
+        "D": "$t=\\frac{k}{\\ln(Q/Q_0)}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "despejar tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-7-09",
+      "pregunta": "La escala de pH es logarítmica. Una disminución de una unidad representa:",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.7",
+        "nombre": "Aplicaciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "Un cambio por factor $10$ en la concentración relacionada",
+        "B": "Un cambio aditivo de una unidad solamente",
+        "C": "Un factor $2$",
+        "D": "Ningún cambio multiplicativo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interpretar escala logarítmica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-18-7-10",
+      "pregunta": "Si una inversión de $1000$ crece al $10\\%$ anual, ¿cuánto vale tras $2$ años?",
+      "tema": {
+        "codigo": "18",
+        "nombre": "Funciones exponenciales y logarítmicas",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "18.7",
+        "nombre": "Aplicaciones exponenciales y logarítmicas"
+      },
+      "respuestas_posibles": {
+        "A": "$1200$",
+        "B": "$1100$",
+        "C": "$1002$",
+        "D": "$1210$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "evaluar interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

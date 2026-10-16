@@ -1,0 +1,2396 @@
+{
+  "metadata": {
+    "capitulo": "21",
+    "titulo": "Cuadriláteros y polígonos",
+    "version": "5.0.1",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "21.1",
+        "nombre": "Cuadriláteros"
+      },
+      {
+        "codigo": "21.2",
+        "nombre": "Clasificación de los cuadriláteros"
+      },
+      {
+        "codigo": "21.3",
+        "nombre": "Propiedades de los paralelogramos"
+      },
+      {
+        "codigo": "21.4",
+        "nombre": "Propiedades de rectángulos, rombos y cuadrados"
+      },
+      {
+        "codigo": "21.5",
+        "nombre": "Polígonos"
+      },
+      {
+        "codigo": "21.6",
+        "nombre": "Suma de los ángulos interiores"
+      },
+      {
+        "codigo": "21.7",
+        "nombre": "Ángulos de un polígono regular"
+      },
+      {
+        "codigo": "21.8",
+        "nombre": "Diagonales de un polígono"
+      },
+      {
+        "codigo": "21.9",
+        "nombre": "Perímetros de cuadriláteros"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas 21.1 a 21.9; se omitieron síntesis, errores frecuentes y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "corregido_en_21.8_y_revisado",
+    "nota_correccion": "Se sustituyeron exclusivamente los distractores de 21.8 por valores numéricos plausibles; se eliminaron textos de opción alternativa."
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-21-1-01",
+      "pregunta": "¿Cuántos lados tiene un cuadrilátero?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.1",
+        "nombre": "Cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$3$",
+        "C": "$5$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-1-02",
+      "pregunta": "La suma de los ángulos interiores de cualquier cuadrilátero es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.1",
+        "nombre": "Cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$180^\\circ$",
+        "B": "$540^\\circ$",
+        "C": "$720^\\circ$",
+        "D": "$360^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-1-03",
+      "pregunta": "¿Cuántas diagonales tiene un cuadrilátero?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.1",
+        "nombre": "Cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$6$",
+        "C": "$2$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-1-04",
+      "pregunta": "Un cuadrilátero convexo tiene todos sus ángulos interiores:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.1",
+        "nombre": "Cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Iguales a $90^\\circ$",
+        "B": "Menores de $180^\\circ$",
+        "C": "Mayores de $180^\\circ$",
+        "D": "Iguales a $180^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-1-05",
+      "pregunta": "Si tres ángulos de un cuadrilátero miden $80^\\circ$, $95^\\circ$ y $105^\\circ$, el cuarto mide:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.1",
+        "nombre": "Cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$80^\\circ$",
+        "B": "$70^\\circ$",
+        "C": "$90^\\circ$",
+        "D": "$100^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-1-06",
+      "pregunta": "Los vértices consecutivos de $ABCD$ determinan los lados:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.1",
+        "nombre": "Cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$AC,BD,AB,CD$",
+        "B": "$AB,CD$ solamente",
+        "C": "$AC,BD$ solamente",
+        "D": "$AB,BC,CD,DA$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-1-07",
+      "pregunta": "Las diagonales del cuadrilátero $ABCD$ son:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.1",
+        "nombre": "Cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$AD$ y $BC$",
+        "B": "$AB$ y $BC$",
+        "C": "$AC$ y $BD$",
+        "D": "$AB$ y $CD$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-1-08",
+      "pregunta": "Un cuadrilátero cóncavo tiene:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.1",
+        "nombre": "Cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Dos pares de lados paralelos",
+        "B": "Al menos un ángulo interior mayor de $180^\\circ$",
+        "C": "Cuatro ángulos rectos",
+        "D": "Todos los lados iguales"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-1-09",
+      "pregunta": "Si los cuatro ángulos de un cuadrilátero son iguales, cada uno mide:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.1",
+        "nombre": "Cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$60^\\circ$",
+        "D": "$120^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-1-10",
+      "pregunta": "El perímetro de un cuadrilátero se obtiene:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.1",
+        "nombre": "Cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicando sus diagonales",
+        "B": "Sumando solo dos lados",
+        "C": "Dividiendo el área entre cuatro",
+        "D": "Sumando las longitudes de sus cuatro lados"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-2-01",
+      "pregunta": "Un cuadrilátero con dos pares de lados opuestos paralelos es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.2",
+        "nombre": "Clasificación de los cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Trapezoide",
+        "B": "Deltoide",
+        "C": "Paralelogramo",
+        "D": "Trapecio"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-2-02",
+      "pregunta": "Un cuadrilátero con exactamente un par de lados paralelos es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.2",
+        "nombre": "Clasificación de los cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Cuadrado",
+        "B": "Trapecio",
+        "C": "Paralelogramo",
+        "D": "Rombo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-2-03",
+      "pregunta": "Un paralelogramo con cuatro ángulos rectos es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.2",
+        "nombre": "Clasificación de los cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Rectángulo",
+        "B": "Rombo necesariamente no rectangular",
+        "C": "Trapecio",
+        "D": "Trapezoide"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-2-04",
+      "pregunta": "Un paralelogramo con cuatro lados iguales es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.2",
+        "nombre": "Clasificación de los cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Rectángulo siempre",
+        "B": "Trapecio isósceles",
+        "C": "Trapezoide",
+        "D": "Rombo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-2-05",
+      "pregunta": "Un cuadrilátero con cuatro lados iguales y cuatro ángulos rectos es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.2",
+        "nombre": "Clasificación de los cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Rectángulo no cuadrado",
+        "B": "Trapecio",
+        "C": "Cuadrado",
+        "D": "Rombo no cuadrado"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-2-06",
+      "pregunta": "Un trapecio cuyos lados no paralelos son iguales es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.2",
+        "nombre": "Clasificación de los cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Deltoide",
+        "B": "Trapecio isósceles",
+        "C": "Trapecio rectángulo",
+        "D": "Rombo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-2-07",
+      "pregunta": "Un trapecio con dos ángulos rectos es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.2",
+        "nombre": "Clasificación de los cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Trapecio rectángulo",
+        "B": "Trapecio escaleno",
+        "C": "Paralelogramo",
+        "D": "Rombo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-2-08",
+      "pregunta": "Un cuadrilátero sin lados paralelos se denomina:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.2",
+        "nombre": "Clasificación de los cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Paralelogramo",
+        "B": "Trapecio",
+        "C": "Rectángulo",
+        "D": "Trapezoide"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-2-09",
+      "pregunta": "Un deltoide se caracteriza por tener:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.2",
+        "nombre": "Clasificación de los cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Cuatro ángulos rectos",
+        "B": "Todos los lados distintos",
+        "C": "Dos pares de lados consecutivos iguales",
+        "D": "Dos pares de lados opuestos paralelos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-2-10",
+      "pregunta": "Todo cuadrado es también:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.2",
+        "nombre": "Clasificación de los cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "Deltoide exclusivamente",
+        "B": "Rectángulo y rombo",
+        "C": "Trapecio con un solo par de paralelas",
+        "D": "Trapezoide"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-3-01",
+      "pregunta": "En todo paralelogramo, los lados opuestos son:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.3",
+        "nombre": "Propiedades de los paralelogramos"
+      },
+      "respuestas_posibles": {
+        "A": "Paralelos e iguales",
+        "B": "Perpendiculares",
+        "C": "Iguales pero nunca paralelos",
+        "D": "Paralelos pero siempre distintos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-3-02",
+      "pregunta": "Los ángulos opuestos de un paralelogramo son:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.3",
+        "nombre": "Propiedades de los paralelogramos"
+      },
+      "respuestas_posibles": {
+        "A": "Complementarios",
+        "B": "Siempre rectos",
+        "C": "Diferentes",
+        "D": "Iguales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-3-03",
+      "pregunta": "Los ángulos consecutivos de un paralelogramo son:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.3",
+        "nombre": "Propiedades de los paralelogramos"
+      },
+      "respuestas_posibles": {
+        "A": "Complementarios",
+        "B": "Opuestos por el vértice",
+        "C": "Suplementarios",
+        "D": "Iguales siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-3-04",
+      "pregunta": "Las diagonales de un paralelogramo:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.3",
+        "nombre": "Propiedades de los paralelogramos"
+      },
+      "respuestas_posibles": {
+        "A": "No se intersectan",
+        "B": "Se bisecan mutuamente",
+        "C": "Son siempre iguales",
+        "D": "Son siempre perpendiculares"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-3-05",
+      "pregunta": "Si un ángulo de un paralelogramo mide $70^\\circ$, el consecutivo mide:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.3",
+        "nombre": "Propiedades de los paralelogramos"
+      },
+      "respuestas_posibles": {
+        "A": "$110^\\circ$",
+        "B": "$70^\\circ$",
+        "C": "$20^\\circ$",
+        "D": "$290^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-3-06",
+      "pregunta": "Si un lado de un paralelogramo mide $8$ y el adyacente $5$, su perímetro es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.3",
+        "nombre": "Propiedades de los paralelogramos"
+      },
+      "respuestas_posibles": {
+        "A": "$13$",
+        "B": "$40$",
+        "C": "$16$",
+        "D": "$26$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-3-07",
+      "pregunta": "En $ABCD$ paralelogramo, si $AB=12$, entonces $CD=$",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.3",
+        "nombre": "Propiedades de los paralelogramos"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "No se puede determinar",
+        "C": "$12$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-3-08",
+      "pregunta": "Si las diagonales de un cuadrilátero se bisecan mutuamente, el cuadrilátero es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.3",
+        "nombre": "Propiedades de los paralelogramos"
+      },
+      "respuestas_posibles": {
+        "A": "Un triángulo",
+        "B": "Un paralelogramo",
+        "C": "Siempre un trapecio",
+        "D": "Siempre un deltoide"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-3-09",
+      "pregunta": "Una diagonal de un paralelogramo lo divide en:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.3",
+        "nombre": "Propiedades de los paralelogramos"
+      },
+      "respuestas_posibles": {
+        "A": "Dos triángulos congruentes",
+        "B": "Dos triángulos siempre equiláteros",
+        "C": "Un triángulo y un pentágono",
+        "D": "Dos trapecios"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-3-10",
+      "pregunta": "Si los ángulos consecutivos son $3x$ y $2x$, entonces $x=$",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.3",
+        "nombre": "Propiedades de los paralelogramos"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$60^\\circ$",
+        "D": "$36^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-4-01",
+      "pregunta": "Las diagonales de un rectángulo son:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.4",
+        "nombre": "Propiedades de rectángulos, rombos y cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "Desiguales",
+        "B": "Paralelas",
+        "C": "Iguales y se bisecan",
+        "D": "Perpendiculares siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-4-02",
+      "pregunta": "Las diagonales de un rombo son:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.4",
+        "nombre": "Propiedades de rectángulos, rombos y cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "No se cortan",
+        "B": "Perpendiculares y se bisecan",
+        "C": "Iguales siempre",
+        "D": "Paralelas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-4-03",
+      "pregunta": "Las diagonales de un cuadrado son:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.4",
+        "nombre": "Propiedades de rectángulos, rombos y cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "Iguales, perpendiculares y se bisecan",
+        "B": "Solo iguales",
+        "C": "Solo perpendiculares",
+        "D": "Paralelas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-4-04",
+      "pregunta": "Cada ángulo interior de un rectángulo mide:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.4",
+        "nombre": "Propiedades de rectángulos, rombos y cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$45^\\circ$",
+        "B": "$60^\\circ$",
+        "C": "$120^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-4-05",
+      "pregunta": "Un rombo tiene lado $7$. Su perímetro es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.4",
+        "nombre": "Propiedades de rectángulos, rombos y cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$49$",
+        "B": "$21$",
+        "C": "$28$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-4-06",
+      "pregunta": "Un rectángulo mide $9$ por $4$. Su perímetro es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.4",
+        "nombre": "Propiedades de rectángulos, rombos y cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$18$",
+        "B": "$26$",
+        "C": "$36$",
+        "D": "$13$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-4-07",
+      "pregunta": "La diagonal de un rectángulo de lados $6$ y $8$ mide:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.4",
+        "nombre": "Propiedades de rectángulos, rombos y cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$14$",
+        "C": "$7$",
+        "D": "$48$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-4-08",
+      "pregunta": "Si un paralelogramo tiene diagonales iguales, entonces es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.4",
+        "nombre": "Propiedades de rectángulos, rombos y cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "Rombo necesariamente",
+        "B": "Trapecio",
+        "C": "Trapezoide",
+        "D": "Rectángulo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-4-09",
+      "pregunta": "Si un paralelogramo tiene diagonales perpendiculares, entonces es:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.4",
+        "nombre": "Propiedades de rectángulos, rombos y cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "Trapecio",
+        "B": "Trapezoide",
+        "C": "Rombo",
+        "D": "Rectángulo necesariamente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-4-10",
+      "pregunta": "Un cuadrado de lado $5$ tiene diagonal:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.4",
+        "nombre": "Propiedades de rectángulos, rombos y cuadrados"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt5$",
+        "B": "$5\\sqrt2$",
+        "C": "$10$",
+        "D": "$25$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-5-01",
+      "pregunta": "¿Cómo se llama un polígono de $3$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.5",
+        "nombre": "Polígonos"
+      },
+      "respuestas_posibles": {
+        "A": "triángulo",
+        "B": "cuadrilátero",
+        "C": "pentágono",
+        "D": "hexágono"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "nombrar polígonos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-5-02",
+      "pregunta": "¿Cómo se llama un polígono de $4$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.5",
+        "nombre": "Polígonos"
+      },
+      "respuestas_posibles": {
+        "A": "triángulo",
+        "B": "pentágono",
+        "C": "hexágono",
+        "D": "cuadrilátero"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "nombrar polígonos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-5-03",
+      "pregunta": "¿Cómo se llama un polígono de $5$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.5",
+        "nombre": "Polígonos"
+      },
+      "respuestas_posibles": {
+        "A": "cuadrilátero",
+        "B": "hexágono",
+        "C": "pentágono",
+        "D": "triángulo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "nombrar polígonos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-5-04",
+      "pregunta": "¿Cómo se llama un polígono de $6$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.5",
+        "nombre": "Polígonos"
+      },
+      "respuestas_posibles": {
+        "A": "pentágono",
+        "B": "hexágono",
+        "C": "triángulo",
+        "D": "cuadrilátero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "nombrar polígonos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-5-05",
+      "pregunta": "¿Cómo se llama un polígono de $7$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.5",
+        "nombre": "Polígonos"
+      },
+      "respuestas_posibles": {
+        "A": "heptágono",
+        "B": "triángulo",
+        "C": "cuadrilátero",
+        "D": "pentágono"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "nombrar polígonos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-5-06",
+      "pregunta": "¿Cómo se llama un polígono de $8$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.5",
+        "nombre": "Polígonos"
+      },
+      "respuestas_posibles": {
+        "A": "triángulo",
+        "B": "cuadrilátero",
+        "C": "pentágono",
+        "D": "octágono"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "nombrar polígonos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-5-07",
+      "pregunta": "¿Cómo se llama un polígono de $9$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.5",
+        "nombre": "Polígonos"
+      },
+      "respuestas_posibles": {
+        "A": "cuadrilátero",
+        "B": "pentágono",
+        "C": "eneágono",
+        "D": "triángulo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "nombrar polígonos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-5-08",
+      "pregunta": "¿Cómo se llama un polígono de $10$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.5",
+        "nombre": "Polígonos"
+      },
+      "respuestas_posibles": {
+        "A": "pentágono",
+        "B": "decágono",
+        "C": "triángulo",
+        "D": "cuadrilátero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "nombrar polígonos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-5-09",
+      "pregunta": "Un polígono regular tiene:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.5",
+        "nombre": "Polígonos"
+      },
+      "respuestas_posibles": {
+        "A": "Todos sus lados y ángulos iguales",
+        "B": "Solo lados iguales",
+        "C": "Solo ángulos iguales",
+        "D": "Todos sus diagonales iguales necesariamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-5-10",
+      "pregunta": "Un polígono convexo cumple que:",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.5",
+        "nombre": "Polígonos"
+      },
+      "respuestas_posibles": {
+        "A": "Tiene un ángulo reflejo",
+        "B": "No posee diagonales",
+        "C": "Todos sus lados son paralelos",
+        "D": "Todos sus ángulos interiores son menores de $180^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver propiedades geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-6-01",
+      "pregunta": "Calcule la suma de ángulos interiores de un polígono de $4$ lados.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.6",
+        "nombre": "Suma de los ángulos interiores"
+      },
+      "respuestas_posibles": {
+        "A": "$540^\\circ$",
+        "B": "$\\text{opcion alternativa 3}$",
+        "C": "$360^\\circ$",
+        "D": "$720^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de suma interior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-6-02",
+      "pregunta": "Calcule la suma de ángulos interiores de un polígono de $5$ lados.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.6",
+        "nombre": "Suma de los ángulos interiores"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opcion alternativa 3}$",
+        "B": "$540^\\circ$",
+        "C": "$900^\\circ$",
+        "D": "$720^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de suma interior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-6-03",
+      "pregunta": "Calcule la suma de ángulos interiores de un polígono de $6$ lados.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.6",
+        "nombre": "Suma de los ángulos interiores"
+      },
+      "respuestas_posibles": {
+        "A": "$720^\\circ$",
+        "B": "$1080^\\circ$",
+        "C": "$900^\\circ$",
+        "D": "$\\text{opcion alternativa 3}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de suma interior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-6-04",
+      "pregunta": "Calcule la suma de ángulos interiores de un polígono de $7$ lados.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.6",
+        "nombre": "Suma de los ángulos interiores"
+      },
+      "respuestas_posibles": {
+        "A": "$1260^\\circ$",
+        "B": "$1080^\\circ$",
+        "C": "$\\text{opcion alternativa 3}$",
+        "D": "$900^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de suma interior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-6-05",
+      "pregunta": "Calcule la suma de ángulos interiores de un polígono de $8$ lados.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.6",
+        "nombre": "Suma de los ángulos interiores"
+      },
+      "respuestas_posibles": {
+        "A": "$1260^\\circ$",
+        "B": "$\\text{opcion alternativa 3}$",
+        "C": "$1080^\\circ$",
+        "D": "$1440^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de suma interior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-6-06",
+      "pregunta": "Calcule la suma de ángulos interiores de un polígono de $9$ lados.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.6",
+        "nombre": "Suma de los ángulos interiores"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opcion alternativa 3}$",
+        "B": "$1260^\\circ$",
+        "C": "$1620^\\circ$",
+        "D": "$1440^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de suma interior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-6-07",
+      "pregunta": "Calcule la suma de ángulos interiores de un polígono de $10$ lados.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.6",
+        "nombre": "Suma de los ángulos interiores"
+      },
+      "respuestas_posibles": {
+        "A": "$1440^\\circ$",
+        "B": "$1800^\\circ$",
+        "C": "$1620^\\circ$",
+        "D": "$\\text{opcion alternativa 3}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de suma interior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-6-08",
+      "pregunta": "Calcule la suma de ángulos interiores de un polígono de $11$ lados.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.6",
+        "nombre": "Suma de los ángulos interiores"
+      },
+      "respuestas_posibles": {
+        "A": "$1980^\\circ$",
+        "B": "$1800^\\circ$",
+        "C": "$\\text{opcion alternativa 3}$",
+        "D": "$1620^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de suma interior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-6-09",
+      "pregunta": "Calcule la suma de ángulos interiores de un polígono de $12$ lados.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.6",
+        "nombre": "Suma de los ángulos interiores"
+      },
+      "respuestas_posibles": {
+        "A": "$1980^\\circ$",
+        "B": "$\\text{opcion alternativa 3}$",
+        "C": "$1800^\\circ$",
+        "D": "$2160^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de suma interior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-6-10",
+      "pregunta": "Calcule la suma de ángulos interiores de un polígono de $13$ lados.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.6",
+        "nombre": "Suma de los ángulos interiores"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{opcion alternativa 3}$",
+        "B": "$1980^\\circ$",
+        "C": "$2340^\\circ$",
+        "D": "$2160^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de suma interior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-7-01",
+      "pregunta": "¿Cuánto mide cada ángulo interior de un polígono regular de $3$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.7",
+        "nombre": "Ángulos de un polígono regular"
+      },
+      "respuestas_posibles": {
+        "A": "$60^\\circ$",
+        "B": "$120^\\circ$",
+        "C": "$180^\\circ$",
+        "D": "$60.0^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular ángulo interior regular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-7-02",
+      "pregunta": "¿Cuánto mide cada ángulo interior de un polígono regular de $4$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.7",
+        "nombre": "Ángulos de un polígono regular"
+      },
+      "respuestas_posibles": {
+        "A": "$360^\\circ$",
+        "B": "$45.0^\\circ$",
+        "C": "$\\text{opcion alternativa 3}$",
+        "D": "$90^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular ángulo interior regular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-7-03",
+      "pregunta": "¿Cuánto mide cada ángulo interior de un polígono regular de $5$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.7",
+        "nombre": "Ángulos de un polígono regular"
+      },
+      "respuestas_posibles": {
+        "A": "$540^\\circ$",
+        "B": "$36.0^\\circ$",
+        "C": "$108^\\circ$",
+        "D": "$72^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular ángulo interior regular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-7-04",
+      "pregunta": "¿Cuánto mide cada ángulo interior de un polígono regular de $6$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.7",
+        "nombre": "Ángulos de un polígono regular"
+      },
+      "respuestas_posibles": {
+        "A": "$30.0^\\circ$",
+        "B": "$120^\\circ$",
+        "C": "$60^\\circ$",
+        "D": "$720^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular ángulo interior regular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-7-05",
+      "pregunta": "¿Cuánto mide cada ángulo interior de un polígono regular de $7$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.7",
+        "nombre": "Ángulos de un polígono regular"
+      },
+      "respuestas_posibles": {
+        "A": "$128.57142857142858^\\circ$",
+        "B": "$51.42857142857143^\\circ$",
+        "C": "$900^\\circ$",
+        "D": "$25.714285714285715^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular ángulo interior regular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-7-06",
+      "pregunta": "¿Cuánto mide cada ángulo interior de un polígono regular de $8$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.7",
+        "nombre": "Ángulos de un polígono regular"
+      },
+      "respuestas_posibles": {
+        "A": "$45^\\circ$",
+        "B": "$1080^\\circ$",
+        "C": "$22.5^\\circ$",
+        "D": "$135^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular ángulo interior regular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-7-07",
+      "pregunta": "¿Cuánto mide cada ángulo interior de un polígono regular de $9$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.7",
+        "nombre": "Ángulos de un polígono regular"
+      },
+      "respuestas_posibles": {
+        "A": "$1260^\\circ$",
+        "B": "$20.0^\\circ$",
+        "C": "$140^\\circ$",
+        "D": "$40^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular ángulo interior regular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-7-08",
+      "pregunta": "¿Cuánto mide cada ángulo interior de un polígono regular de $10$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.7",
+        "nombre": "Ángulos de un polígono regular"
+      },
+      "respuestas_posibles": {
+        "A": "$18.0^\\circ$",
+        "B": "$144^\\circ$",
+        "C": "$36^\\circ$",
+        "D": "$1440^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular ángulo interior regular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-7-09",
+      "pregunta": "¿Cuánto mide cada ángulo interior de un polígono regular de $11$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.7",
+        "nombre": "Ángulos de un polígono regular"
+      },
+      "respuestas_posibles": {
+        "A": "$147.27272727272728^\\circ$",
+        "B": "$32.72727272727273^\\circ$",
+        "C": "$1620^\\circ$",
+        "D": "$16.363636363636363^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular ángulo interior regular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-7-10",
+      "pregunta": "¿Cuánto mide cada ángulo interior de un polígono regular de $12$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.7",
+        "nombre": "Ángulos de un polígono regular"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$1800^\\circ$",
+        "C": "$15.0^\\circ$",
+        "D": "$150^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular ángulo interior regular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-8-01",
+      "pregunta": "¿Cuántas diagonales tiene un polígono de $4$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.8",
+        "nombre": "Diagonales de un polígono"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$4$",
+        "C": "$2$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de diagonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "corregido_y_revisado_matematicamente"
+    },
+    {
+      "id": "MOCK-21-8-02",
+      "pregunta": "¿Cuántas diagonales tiene un polígono de $5$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.8",
+        "nombre": "Diagonales de un polígono"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$5$",
+        "C": "$7$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de diagonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "corregido_y_revisado_matematicamente"
+    },
+    {
+      "id": "MOCK-21-8-03",
+      "pregunta": "¿Cuántas diagonales tiene un polígono de $6$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.8",
+        "nombre": "Diagonales de un polígono"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$3$",
+        "C": "$12$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de diagonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "corregido_y_revisado_matematicamente"
+    },
+    {
+      "id": "MOCK-21-8-04",
+      "pregunta": "¿Cuántas diagonales tiene un polígono de $7$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.8",
+        "nombre": "Diagonales de un polígono"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$21$",
+        "C": "$28$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de diagonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "corregido_y_revisado_matematicamente"
+    },
+    {
+      "id": "MOCK-21-8-05",
+      "pregunta": "¿Cuántas diagonales tiene un polígono de $8$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.8",
+        "nombre": "Diagonales de un polígono"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$28$",
+        "C": "$20$",
+        "D": "$40$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de diagonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "corregido_y_revisado_matematicamente"
+    },
+    {
+      "id": "MOCK-21-8-06",
+      "pregunta": "¿Cuántas diagonales tiene un polígono de $9$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.8",
+        "nombre": "Diagonales de un polígono"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$27$",
+        "C": "$36$",
+        "D": "$54$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de diagonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "corregido_y_revisado_matematicamente"
+    },
+    {
+      "id": "MOCK-21-8-07",
+      "pregunta": "¿Cuántas diagonales tiene un polígono de $10$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.8",
+        "nombre": "Diagonales de un polígono"
+      },
+      "respuestas_posibles": {
+        "A": "$35$",
+        "B": "$7$",
+        "C": "$45$",
+        "D": "$70$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de diagonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "corregido_y_revisado_matematicamente"
+    },
+    {
+      "id": "MOCK-21-8-08",
+      "pregunta": "¿Cuántas diagonales tiene un polígono de $11$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.8",
+        "nombre": "Diagonales de un polígono"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$55$",
+        "C": "$88$",
+        "D": "$44$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de diagonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "corregido_y_revisado_matematicamente"
+    },
+    {
+      "id": "MOCK-21-8-09",
+      "pregunta": "¿Cuántas diagonales tiene un polígono de $12$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.8",
+        "nombre": "Diagonales de un polígono"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$66$",
+        "C": "$54$",
+        "D": "$108$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de diagonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "corregido_y_revisado_matematicamente"
+    },
+    {
+      "id": "MOCK-21-8-10",
+      "pregunta": "¿Cuántas diagonales tiene un polígono de $13$ lados?",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.8",
+        "nombre": "Diagonales de un polígono"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$65$",
+        "C": "$78$",
+        "D": "$130$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula de diagonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "corregido_y_revisado_matematicamente"
+    },
+    {
+      "id": "MOCK-21-9-01",
+      "pregunta": "Calcule el perímetro de un cuadrado de lado $6$.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.9",
+        "nombre": "Perímetros de cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "$20$",
+        "C": "$28$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-9-02",
+      "pregunta": "Calcule el perímetro de un rectángulo de lados $8$ y $5$.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.9",
+        "nombre": "Perímetros de cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$22$",
+        "B": "$30$",
+        "C": "$13$",
+        "D": "$26$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-9-03",
+      "pregunta": "Calcule el perímetro de un rombo de lado $9$.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.9",
+        "nombre": "Perímetros de cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$40$",
+        "B": "$18$",
+        "C": "$36$",
+        "D": "$32$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-9-04",
+      "pregunta": "Calcule el perímetro de un paralelogramo de lados $7$ y $4$.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.9",
+        "nombre": "Perímetros de cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$11$",
+        "B": "$22$",
+        "C": "$18$",
+        "D": "$26$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-9-05",
+      "pregunta": "Calcule el perímetro de un trapecio de lados $5,7,8,10$.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.9",
+        "nombre": "Perímetros de cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$30$",
+        "B": "$26$",
+        "C": "$34$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-9-06",
+      "pregunta": "Calcule el perímetro de un cuadrado de lado $12$.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.9",
+        "nombre": "Perímetros de cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$44$",
+        "B": "$52$",
+        "C": "$24$",
+        "D": "$48$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "calcular perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-9-07",
+      "pregunta": "Calcule el perímetro de un rectángulo de lados $15$ y $6$.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.9",
+        "nombre": "Perímetros de cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$46$",
+        "B": "$21$",
+        "C": "$42$",
+        "D": "$38$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-9-08",
+      "pregunta": "Calcule el perímetro de un rombo de lado $11$.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.9",
+        "nombre": "Perímetros de cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$22$",
+        "B": "$44$",
+        "C": "$40$",
+        "D": "$48$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-9-09",
+      "pregunta": "Calcule el perímetro de un paralelogramo de lados $13$ y $9$.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.9",
+        "nombre": "Perímetros de cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$44$",
+        "B": "$40$",
+        "C": "$48$",
+        "D": "$22$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-21-9-10",
+      "pregunta": "Calcule el perímetro de un cuadrilátero de lados $4,6,9,11$.",
+      "tema": {
+        "codigo": "21",
+        "nombre": "Cuadriláteros y polígonos",
+        "bloque": "Geometría"
+      },
+      "subtema": {
+        "codigo": "21.9",
+        "nombre": "Perímetros de cuadriláteros"
+      },
+      "respuestas_posibles": {
+        "A": "$26$",
+        "B": "$34$",
+        "C": "$15$",
+        "D": "$30$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

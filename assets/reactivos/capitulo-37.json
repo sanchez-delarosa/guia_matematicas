@@ -1,0 +1,1075 @@
+{
+  "metadata": {
+    "capitulo": "37",
+    "titulo": "Ecuación general de segundo grado",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 4,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 40,
+    "secciones_incluidas": [
+      {
+        "codigo": "37.1",
+        "nombre": "La ecuación general de segundo grado"
+      },
+      {
+        "codigo": "37.2",
+        "nombre": "El discriminante y la identificación de cónicas"
+      },
+      {
+        "codigo": "37.3",
+        "nombre": "Traslación de ejes"
+      },
+      {
+        "codigo": "37.4",
+        "nombre": "Ejercicios propuestos"
+      }
+    ],
+    "criterio_de_inclusion": "Secciones 37.1 a 37.4 conforme al temario del capítulo.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-37-1-01",
+      "pregunta": "La ecuación general de segundo grado en dos variables es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.1",
+        "nombre": "La ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "$Ax^2+Bxy+Cy^2+Dx+Ey+F=0$",
+        "B": "$Ax+By+C=0$",
+        "C": "$y=mx+b$",
+        "D": "$Ax^3+By^3=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-1-02",
+      "pregunta": "Para que la ecuación sea realmente de segundo grado se requiere que:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.1",
+        "nombre": "La ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "$D=E=F=0$",
+        "B": "$A=C=0$ siempre",
+        "C": "$B=1$ necesariamente",
+        "D": "$A$, $B$ y $C$ no sean simultáneamente cero"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-1-03",
+      "pregunta": "El término $Bxy$ se denomina:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.1",
+        "nombre": "La ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Término lineal",
+        "B": "Discriminante",
+        "C": "Término mixto",
+        "D": "Término constante"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-1-04",
+      "pregunta": "Si $B=0$, los ejes principales de la cónica son:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.1",
+        "nombre": "La ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre coincidentes",
+        "B": "Paralelos a los ejes coordenados, salvo casos degenerados",
+        "C": "Obligatoriamente rotados $45^\\circ$",
+        "D": "Siempre inexistentes"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-1-05",
+      "pregunta": "La presencia de $Bxy$ suele indicar:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.1",
+        "nombre": "La ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Una cónica rotada respecto de los ejes coordenados",
+        "B": "Una traslación únicamente",
+        "C": "Una ecuación lineal",
+        "D": "Una circunferencia con centro en el origen"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-1-06",
+      "pregunta": "Los términos $Dx$ y $Ey$ son:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.1",
+        "nombre": "La ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Términos cuadráticos",
+        "B": "Términos mixtos",
+        "C": "Factores del discriminante",
+        "D": "Términos lineales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-1-07",
+      "pregunta": "El término $F$ es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.1",
+        "nombre": "La ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "La excentricidad",
+        "B": "La pendiente de la cónica",
+        "C": "El término constante",
+        "D": "El coeficiente de rotación"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-1-08",
+      "pregunta": "La ecuación $x^2+y^2-4x+6y-12=0$ corresponde a una ecuación:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.1",
+        "nombre": "La ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Cuadrática con término $xy$",
+        "B": "Cuadrática sin término mixto",
+        "C": "Lineal",
+        "D": "Cúbica"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-1-09",
+      "pregunta": "La ecuación $3x^2+4xy+2y^2-1=0$ contiene:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.1",
+        "nombre": "La ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Un término mixto con coeficiente $4$",
+        "B": "Un término lineal en $x$",
+        "C": "Un término lineal en $y$",
+        "D": "Un término cúbico"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-1-10",
+      "pregunta": "Multiplicar toda la ecuación por una constante no nula:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.1",
+        "nombre": "La ecuación general de segundo grado"
+      },
+      "respuestas_posibles": {
+        "A": "Cambia siempre la cónica",
+        "B": "Elimina el término mixto",
+        "C": "Traslada el centro",
+        "D": "No cambia el lugar geométrico"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-2-01",
+      "pregunta": "El discriminante usado para clasificar una cónica es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.2",
+        "nombre": "El discriminante y la identificación de cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "$D^2-4EF$",
+        "B": "$A+C-B$",
+        "C": "$B^2-4AC$",
+        "D": "$A^2+B^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-2-02",
+      "pregunta": "Si $B^2-4AC<0$, la ecuación puede representar:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.2",
+        "nombre": "El discriminante y la identificación de cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "Una recta no degenerada únicamente",
+        "B": "Una elipse, circunferencia o caso degenerado",
+        "C": "Una hipérbola únicamente",
+        "D": "Una parábola únicamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-2-03",
+      "pregunta": "Si $B^2-4AC=0$, la ecuación puede representar:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.2",
+        "nombre": "El discriminante y la identificación de cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "Una parábola o caso degenerado",
+        "B": "Una elipse únicamente",
+        "C": "Una hipérbola únicamente",
+        "D": "Una circunferencia necesariamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-2-04",
+      "pregunta": "Si $B^2-4AC>0$, la ecuación puede representar:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.2",
+        "nombre": "El discriminante y la identificación de cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "Una elipse real únicamente",
+        "B": "Una parábola únicamente",
+        "C": "Una circunferencia",
+        "D": "Una hipérbola o un par de rectas secantes"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-2-05",
+      "pregunta": "Para $x^2+4y^2-8=0$, el discriminante es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.2",
+        "nombre": "El discriminante y la identificación de cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$-8$",
+        "C": "$-16$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-2-06",
+      "pregunta": "La ecuación $x^2+4y^2-8=0$ se clasifica como:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.2",
+        "nombre": "El discriminante y la identificación de cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "Par de rectas",
+        "B": "Elipse",
+        "C": "Hipérbola",
+        "D": "Parábola"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-2-07",
+      "pregunta": "Para $x^2-4y^2=1$, el discriminante es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.2",
+        "nombre": "El discriminante y la identificación de cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$-16$",
+        "C": "$0$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-2-08",
+      "pregunta": "La ecuación $x^2-4y^2=1$ se clasifica como:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.2",
+        "nombre": "El discriminante y la identificación de cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "Elipse",
+        "B": "Parábola",
+        "C": "Circunferencia",
+        "D": "Hipérbola"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-2-09",
+      "pregunta": "Para $y^2-8x=0$, el discriminante es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.2",
+        "nombre": "El discriminante y la identificación de cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "$-32$",
+        "B": "$8$",
+        "C": "$0$",
+        "D": "$64$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-2-10",
+      "pregunta": "La ecuación $y^2-8x=0$ se clasifica como:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.2",
+        "nombre": "El discriminante y la identificación de cónicas"
+      },
+      "respuestas_posibles": {
+        "A": "Circunferencia",
+        "B": "Parábola",
+        "C": "Elipse",
+        "D": "Hipérbola"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-3-01",
+      "pregunta": "Una traslación de ejes se expresa como:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.3",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "$x=X+h$, $y=Y+k$",
+        "B": "$x=XY$, $y=h+k$",
+        "C": "$x=X-hY$, $y=Y$",
+        "D": "$x=h$, $y=k$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-3-02",
+      "pregunta": "El propósito principal de trasladar los ejes es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.3",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "Eliminar siempre el término $xy$",
+        "B": "Cambiar el tipo de cónica",
+        "C": "Convertir toda cónica en recta",
+        "D": "Eliminar términos lineales y simplificar la ecuación"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-3-03",
+      "pregunta": "La traslación por sí sola no elimina generalmente:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.3",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "El término constante",
+        "B": "Las coordenadas del centro",
+        "C": "El término mixto $xy$",
+        "D": "Los términos lineales"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-3-04",
+      "pregunta": "Para eliminar un término mixto suele requerirse:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.3",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicar por cero",
+        "B": "Una rotación de ejes",
+        "C": "Una traslación vertical",
+        "D": "Completar cuadrados únicamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-3-05",
+      "pregunta": "Al trasladar el origen al punto $(h,k)$ se usa:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.3",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "$x=X+h$, $y=Y+k$",
+        "B": "$x=X-h$, $y=Y-k$ necesariamente",
+        "C": "$x=hX$, $y=kY$",
+        "D": "$x=X+k$, $y=Y+h$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-3-06",
+      "pregunta": "La ecuación $(x-3)^2+(y+2)^2=25$ se simplifica con:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.3",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "$X=x+3$, $Y=y-2$",
+        "B": "$X=3x$, $Y=-2y$",
+        "C": "$X=x-y$, $Y=x+y$",
+        "D": "$X=x-3$, $Y=y+2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-3-07",
+      "pregunta": "Con esa traslación, la ecuación queda:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.3",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "$X^2+Y^2=5$",
+        "B": "$X+Y=25$",
+        "C": "$X^2+Y^2=25$",
+        "D": "$X^2-Y^2=25$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-3-08",
+      "pregunta": "Para $x^2-6x$, completar el cuadrado produce:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.3",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+3)^2-9$",
+        "B": "$(x-3)^2-9$",
+        "C": "$(x-6)^2-36$",
+        "D": "$(x-3)^2+9$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-3-09",
+      "pregunta": "Para $y^2+8y$, completar el cuadrado produce:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.3",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "$(y+4)^2-16$",
+        "B": "$(y+8)^2-64$",
+        "C": "$(y-4)^2+16$",
+        "D": "$(y+4)^2+16$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-3-10",
+      "pregunta": "Una traslación conserva:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.3",
+        "nombre": "Traslación de ejes"
+      },
+      "respuestas_posibles": {
+        "A": "La posición del centro original",
+        "B": "Los términos lineales necesariamente",
+        "C": "Todas las coordenadas de los puntos",
+        "D": "La forma y el tipo de la cónica"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-4-01",
+      "pregunta": "Clasifique $4x^2+9y^2-36=0$.",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.4",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "Parábola",
+        "B": "Par de rectas",
+        "C": "Elipse",
+        "D": "Hipérbola"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-4-02",
+      "pregunta": "Clasifique $9x^2-4y^2-36=0$.",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.4",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "Circunferencia",
+        "B": "Hipérbola",
+        "C": "Elipse",
+        "D": "Parábola"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-4-03",
+      "pregunta": "Clasifique $x^2-6x-4y+5=0$.",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.4",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "Parábola",
+        "B": "Elipse",
+        "C": "Hipérbola",
+        "D": "Circunferencia"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-4-04",
+      "pregunta": "La forma ordinaria de $x^2+y^2-6x+4y-12=0$ es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.4",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+3)^2+(y-2)^2=25$",
+        "B": "$(x-3)^2-(y+2)^2=25$",
+        "C": "$(x-3)^2+(y+2)^2=5$",
+        "D": "$(x-3)^2+(y+2)^2=25$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-4-05",
+      "pregunta": "La forma ordinaria de $4x^2+9y^2-8x+36y+4=0$ es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.4",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(x-1)^2}{4}+\\frac{(y+2)^2}{9}=1$",
+        "B": "$\\frac{x^2}{9}+\\frac{y^2}{4}=1$",
+        "C": "$\\frac{(x-1)^2}{9}+\\frac{(y+2)^2}{4}=1$",
+        "D": "$\\frac{(x+1)^2}{9}+\\frac{(y-2)^2}{4}=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-4-06",
+      "pregunta": "La forma ordinaria de $9x^2-16y^2-54x-64y-127=0$ es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.4",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{x^2}{16}-\\frac{y^2}{9}=1$",
+        "B": "$\\frac{(x-3)^2}{16}-\\frac{(y+2)^2}{9}=1$",
+        "C": "$\\frac{(x+3)^2}{16}-\\frac{(y-2)^2}{9}=1$",
+        "D": "$\\frac{(x-3)^2}{9}-\\frac{(y+2)^2}{16}=1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-4-07",
+      "pregunta": "La forma ordinaria de $y^2-4y-8x+20=0$ es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.4",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(y-2)^2=8(x-2)$",
+        "B": "$(y+2)^2=8(x+2)$",
+        "C": "$(y-2)^2=-8(x-2)$",
+        "D": "$(x-2)^2=8(y-2)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-4-08",
+      "pregunta": "El centro de $x^2+y^2-10x+6y+9=0$ es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.4",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(-5,3)$",
+        "B": "$(5,3)$",
+        "C": "$(-3,5)$",
+        "D": "$(5,-3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-4-09",
+      "pregunta": "Para $3x^2+2xy+3y^2-8=0$, el discriminante es:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.4",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$-8$",
+        "C": "$-32$",
+        "D": "$32$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-37-4-10",
+      "pregunta": "La ecuación $x^2-2xy+y^2=0$ representa:",
+      "tema": {
+        "codigo": "37",
+        "nombre": "Ecuación general de segundo grado",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "37.4",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "Una hipérbola no degenerada",
+        "B": "La recta doble $x-y=0$",
+        "C": "Una circunferencia",
+        "D": "Una elipse no degenerada"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "clasificar y transformar cónicas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

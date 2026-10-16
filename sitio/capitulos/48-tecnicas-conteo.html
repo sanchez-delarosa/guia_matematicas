@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>48. Técnicas de conteo y probabilidad avanzada · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte IX: Probabilidad y estadística</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#que-tecnica-conviene-utilizar"><span class="num">48.1</span> ¿Qué técnica conviene utilizar?</a></li><li class="nivel-2"><a href="#principios-de-conteo"><span class="num">48.2</span> Principios de conteo</a></li><li class="nivel-3"><a href="#principio-multiplicativo"><span class="num">48.2.1</span> Principio multiplicativo</a></li><li class="nivel-3"><a href="#principio-aditivo"><span class="num">48.2.2</span> Principio aditivo</a></li><li class="nivel-2"><a href="#representacion-mediante-un-arbol"><span class="num">48.3</span> Representación mediante un árbol</a></li><li class="nivel-2"><a href="#factorial"><span class="num">48.4</span> Factorial</a></li><li class="nivel-2"><a href="#permutaciones"><span class="num">48.5</span> Permutaciones</a></li><li class="nivel-3"><a href="#permutacion-de-todos-los-elementos"><span class="num">48.5.1</span> Permutación de todos los elementos</a></li><li class="nivel-3"><a href="#permutaciones-de-elementos-tomados-de"><span class="num">48.5.2</span> Permutaciones de  elementos tomados de</a></li><li class="nivel-2"><a href="#permutaciones-con-elementos-repetidos"><span class="num">48.6</span> Permutaciones con elementos repetidos</a></li><li class="nivel-2"><a href="#arreglos-con-repeticion"><span class="num">48.7</span> Arreglos con repetición</a></li><li class="nivel-2"><a href="#combinaciones"><span class="num">48.8</span> Combinaciones</a></li><li class="nivel-2"><a href="#permutacion-o-combinacion"><span class="num">48.9</span> ¿Permutación o combinación?</a></li><li class="nivel-2"><a href="#selecciones-con-cargos"><span class="num">48.10</span> Selecciones con cargos</a></li><li class="nivel-2"><a href="#probabilidad-mediante-tecnicas-de-conteo"><span class="num">48.11</span> Probabilidad mediante técnicas de conteo</a></li><li class="nivel-2"><a href="#binomio-de-newton"><span class="num">48.12</span> Binomio de Newton</a></li><li class="nivel-3"><a href="#triangulo-de-pascal"><span class="num">48.12.1</span> Triángulo de Pascal</a></li><li class="nivel-2"><a href="#coeficiente-de-un-termino"><span class="num">48.13</span> Coeficiente de un término</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">48.14</span> Procedimiento rápido</a></li><li class="nivel-3"><a href="#problemas-de-conteo">Problemas de conteo</a></li><li class="nivel-3"><a href="#probabilidad-con-conteo">Probabilidad con conteo</a></li><li class="nivel-3"><a href="#binomio-de-newton-2">Binomio de Newton</a></li><li class="nivel-2"><a href="#resumen"><span class="num">48.15</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">48.16</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">48.17</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 48</p><h1>Técnicas de conteo y probabilidad avanzada</h1></header>
+<p><span id="cap-tecnicas-conteo" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Las técnicas de conteo permiten calcular el número de resultados posibles sin enumerarlos uno por uno.</p>
+<p>Sus principales aplicaciones son:</p>
+<ul><li>contar resultados de experimentos con varias etapas;</li><li>ordenar objetos;</li><li>seleccionar grupos;</li><li>calcular probabilidades;</li><li>desarrollar potencias de binomios.</li></ul>
+<h2 id="que-tecnica-conviene-utilizar"><span class="num">48.1</span> ¿Qué técnica conviene utilizar?<a class="enlace-seccion" href="#que-tecnica-conviene-utilizar" aria-label="Enlace a esta sección">#</a></h2>
+<p>Antes de aplicar una fórmula, responde las siguientes preguntas:</p>
+<ol><li>¿El procedimiento tiene varias etapas?</li><li>¿Se utilizan todos los elementos o solo algunos?</li><li>¿Importa el orden?</li><li>¿Se permite la repetición?</li></ol>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Situación</strong></th><th style="text-align:left"><strong>¿Importa el orden?</strong></th><th style="text-align:left"><strong>Técnica</strong></th></tr></thead><tbody><tr><td style="text-align:left">Varias etapas</td><td style="text-align:left">Depende</td><td style="text-align:left">Principio multiplicativo</td></tr><tr><td style="text-align:left">Ordenar todos los elementos</td><td style="text-align:left">Sí</td><td style="text-align:left">Factorial</td></tr><tr><td style="text-align:left">Elegir y ordenar \(r\) de \(n\)</td><td style="text-align:left">Sí</td><td style="text-align:left">Permutación</td></tr><tr><td style="text-align:left">Elegir \(r\) de \(n\)</td><td style="text-align:left">No</td><td style="text-align:left">Combinación</td></tr></tbody></table></div></div>
+<h2 id="principios-de-conteo"><span class="num">48.2</span> Principios de conteo<a class="enlace-seccion" href="#principios-de-conteo" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="principio-multiplicativo"><span class="num">48.2.1</span> Principio multiplicativo<a class="enlace-seccion" href="#principio-multiplicativo" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si una actividad se realiza en varias etapas y las cantidades de opciones son:</p>
+<div class="mate"><span class="mate-bloque">\[n_1,\ n_2,\ \ldots,\ n_k,\]</span></div>
+<p>el número total de resultados es:</p>
+<div class="mate"><span class="mate-bloque">\[n_1n_2\cdots n_k.\]</span></div>
+<p>En palabras:</p>
+<div class="mate"><span class="mate-bloque">\[\text{total} = \text{opciones de la primera etapa} \times \text{opciones de la segunda etapa} \times\cdots.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-48-1"><div class="caja-titulo">Ejemplo 48.1</div><div class="caja-cuerpo"><p>Un restaurante ofrece:</p>
+<div class="mate"><span class="mate-bloque">\[3\text{ entradas}, \qquad 5\text{ platillos fuertes}, \qquad 4\text{ postres}.\]</span></div>
+<p>¿Cuántos menús de tres tiempos pueden formarse?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Por cada entrada existen \(5\) opciones de platillo y, para cada una, \(4\) opciones de postre.</p>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[3\cdot5\cdot4=60.\]</span></div>
+<p>Se pueden formar:</p>
+<div class="mate"><span class="mate-bloque">\[60\text{ menús}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-48-2"><div class="caja-titulo">Ejemplo 48.2</div><div class="caja-cuerpo"><p>¿Cuántas placas pueden formarse con \(3\) letras seguidas de \(3\) dígitos si se permite la repetición?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Cada letra tiene:</p>
+<div class="mate"><span class="mate-bloque">\[26\]</span></div>
+<p>posibilidades y cada dígito tiene:</p>
+<div class="mate"><span class="mate-bloque">\[10\]</span></div>
+<p>posibilidades.</p>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[26^3\cdot10^3.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 17576(1000).\]</span></div>
+<p>El número de placas es:</p>
+<div class="mate"><span class="mate-bloque">\[17{,}576{,}000.\]</span></div></div></details></div></section>
+<h3 id="principio-aditivo"><span class="num">48.2.2</span> Principio aditivo<a class="enlace-seccion" href="#principio-aditivo" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si una elección puede realizarse mediante procedimientos mutuamente excluyentes con:</p>
+<div class="mate"><span class="mate-bloque">\[m\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[n\]</span></div>
+<p>posibilidades, el total es:</p>
+<div class="mate"><span class="mate-bloque">\[m+n.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-48-3"><div class="caja-titulo">Ejemplo 48.3</div><div class="caja-cuerpo"><p>Una persona puede viajar a una ciudad mediante \(4\) rutas de autobús o \(3\) rutas de tren.</p>
+<p>¿Cuántas opciones de viaje existen?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como se elige autobús o tren:</p>
+<div class="mate"><span class="mate-bloque">\[4+3=7.\]</span></div>
+<p>Existen:</p>
+<div class="mate"><span class="mate-bloque">\[7\text{ opciones}.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El principio multiplicativo se relaciona con la palabra <strong>y</strong>.</p>
+<p>El principio aditivo se relaciona con la palabra <strong>o</strong>, cuando las opciones no se traslapan.</p></div></section>
+<h2 id="representacion-mediante-un-arbol"><span class="num">48.3</span> Representación mediante un árbol<a class="enlace-seccion" href="#representacion-mediante-un-arbol" aria-label="Enlace a esta sección">#</a></h2>
+<p>El principio multiplicativo puede visualizarse mediante un diagrama de árbol.</p>
+<section class="caja caja-ejemplo" id="ejemplo-48-4"><div class="caja-titulo">Ejemplo 48.4</div><div class="caja-cuerpo"><p>Una persona elige una camisa blanca o azul y un pantalón negro, gris o café.</p>
+<p>El número de conjuntos es:</p>
+<div class="mate"><span class="mate-bloque">\[2\cdot3=6.\]</span></div>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-c02f7f65e2b6.svg" alt="Figura 48.1" loading="lazy" decoding="async"></figure></div></div></section>
+<h2 id="factorial"><span class="num">48.4</span> Factorial<a class="enlace-seccion" href="#factorial" aria-label="Enlace a esta sección">#</a></h2>
+<p>El factorial de un entero positivo \(n\) es:</p>
+<div class="mate"><span class="mate-bloque">\[n! = n(n-1)(n-2)\cdots3\cdot2\cdot1.\]</span></div>
+<p>Por definición:</p>
+<div class="mate"><span class="mate-bloque">\[0!=1.\]</span></div>
+<p>Algunos valores son:</p>
+<div class="mate"><span class="mate-bloque">\[1!=1,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[2!=2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[3!=6,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[4!=24,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[5!=120.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-48-5"><div class="caja-titulo">Ejemplo 48.5</div><div class="caja-cuerpo"><p>Simplifica:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{8!}{5!}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Desarrollamos solamente los factores necesarios:</p>
+<div class="mate"><span class="mate-bloque">\[8! = 8\cdot7\cdot6\cdot5!.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{8!}{5!} = \frac{8\cdot7\cdot6\cdot5!}{5!}.\]</span></div>
+<p>Cancelamos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{8!}{5!} = 8\cdot7\cdot6.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{8!}{5!} = 336.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El factorial no se distribuye sobre una suma:</p>
+<div class="mate"><span class="mate-bloque">\[(a+b)! \neq a!+b!.\]</span></div>
+<p>Tampoco debe calcularse un factorial completo cuando existen factores que pueden cancelarse.</p></div></section>
+<h2 id="permutaciones"><span class="num">48.5</span> Permutaciones<a class="enlace-seccion" href="#permutaciones" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una permutación es un arreglo en el que el orden importa.</p>
+<h3 id="permutacion-de-todos-los-elementos"><span class="num">48.5.1</span> Permutación de todos los elementos<a class="enlace-seccion" href="#permutacion-de-todos-los-elementos" aria-label="Enlace a esta sección">#</a></h3>
+<p>El número de maneras de ordenar \(n\) elementos distintos es:</p>
+<div class="mate"><span class="mate-bloque">\[n!.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-48-6"><div class="caja-titulo">Ejemplo 48.6</div><div class="caja-cuerpo"><p>¿De cuántas formas pueden ordenarse las letras de la palabra <strong>AMOR</strong>?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La palabra tiene \(4\) letras diferentes.</p>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[4!=24.\]</span></div>
+<p>Existen:</p>
+<div class="mate"><span class="mate-bloque">\[24\text{ ordenamientos}.\]</span></div></div></details></div></section>
+<h3 id="permutaciones-de-elementos-tomados-de"><span class="num">48.5.2</span> Permutaciones de \(n\) elementos tomados de \(r\)<a class="enlace-seccion" href="#permutaciones-de-elementos-tomados-de" aria-label="Enlace a esta sección">#</a></h3>
+<p>Si se seleccionan y ordenan \(r\) elementos de un conjunto de \(n\), se utiliza:</p>
+<div class="mate"><span class="mate-bloque">\[P(n,r) = \frac{n!}{(n-r)!}.\]</span></div>
+<p>También puede escribirse:</p>
+<div class="mate"><span class="mate-bloque">\[{}_nP_r = \frac{n!}{(n-r)!}.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-48-7"><div class="caja-titulo">Ejemplo 48.7</div><div class="caja-cuerpo"><p>En una carrera participan \(8\) corredores.</p>
+<p>¿De cuántas formas pueden asignarse oro, plata y bronce?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El orden importa porque los lugares son diferentes.</p>
+<div class="mate"><span class="mate-bloque">\[P(8,3) = \frac{8!}{5!}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 8\cdot7\cdot6.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(8,3)=336.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-48-8"><div class="caja-titulo">Ejemplo 48.8</div><div class="caja-cuerpo"><p>¿Cuántas palabras de \(3\) letras pueden formarse con las letras de <strong>MESA</strong>, sin repetición?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Se eligen y ordenan \(3\) de las \(4\) letras:</p>
+<div class="mate"><span class="mate-bloque">\[P(4,3) = \frac{4!}{(4-3)!}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[P(4,3) = \frac{4!}{1!}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P(4,3)=24.\]</span></div></div></details></div></section>
+<h2 id="permutaciones-con-elementos-repetidos"><span class="num">48.6</span> Permutaciones con elementos repetidos<a class="enlace-seccion" href="#permutaciones-con-elementos-repetidos" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si hay \(n\) elementos, pero algunos son iguales, el número de ordenamientos distintos es:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{n!}{n_1!n_2!\cdots n_k!},\]</span></div>
+<p>donde:</p>
+<div class="mate"><span class="mate-bloque">\[n_1+n_2+\cdots+n_k=n.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-48-9"><div class="caja-titulo">Ejemplo 48.9</div><div class="caja-cuerpo"><p>¿Cuántos ordenamientos diferentes pueden formarse con las letras de la palabra <strong>CASA</strong>?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La palabra tiene \(4\) letras, pero la letra A aparece \(2\) veces.</p>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{4!}{2!} = \frac{24}{2}.\]</span></div>
+<p>El número de ordenamientos es:</p>
+<div class="mate"><span class="mate-bloque">\[12.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-48-10"><div class="caja-titulo">Ejemplo 48.10</div><div class="caja-cuerpo"><p>¿Cuántos ordenamientos diferentes pueden formarse con las letras de la palabra <strong>MATEMATICA</strong>?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La palabra tiene \(10\) letras.</p>
+<p>Las repeticiones son:</p>
+<div class="mate"><span class="mate-bloque">\[A:3, \qquad M:2, \qquad T:2.\]</span></div>
+<p>Las demás letras aparecen una vez.</p>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{10!}{3!2!2!}.\]</span></div></div></details></div></section>
+<h2 id="arreglos-con-repeticion"><span class="num">48.7</span> Arreglos con repetición<a class="enlace-seccion" href="#arreglos-con-repeticion" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si se forman secuencias de longitud \(r\) utilizando \(n\) opciones y se permite repetir, el número de resultados es:</p>
+<div class="mate"><span class="mate-bloque">\[n^r.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-48-11"><div class="caja-titulo">Ejemplo 48.11</div><div class="caja-cuerpo"><p>¿Cuántas claves de \(4\) dígitos pueden formarse utilizando los dígitos del \(0\) al \(9\) si se permite repetición?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Cada posición tiene \(10\) posibilidades.</p>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[10^4=10{,}000.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Una clave puede comenzar con cero.</p>
+<p>Un número de cuatro cifras no puede comenzar con cero.</p>
+<p>Aunque ambos problemas utilizan dígitos, no tienen la misma cantidad de resultados.</p></div></section>
+<h2 id="combinaciones"><span class="num">48.8</span> Combinaciones<a class="enlace-seccion" href="#combinaciones" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una combinación es una selección en la que el orden no importa.</p>
+<p>El número de maneras de elegir \(r\) elementos de un conjunto de \(n\) es:</p>
+<div class="mate"><span class="mate-bloque">\[C(n,r) = \binom{n}{r} = \frac{n!}{r!(n-r)!}.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-48-12"><div class="caja-titulo">Ejemplo 48.12</div><div class="caja-cuerpo"><p>¿De cuántas formas puede elegirse un comité de \(3\) personas de un grupo de \(10\)?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El orden no importa.</p>
+<div class="mate"><span class="mate-bloque">\[\binom{10}{3} = \frac{10!}{3!7!}.\]</span></div>
+<p>Simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{10}{3} = \frac{10\cdot9\cdot8}{3\cdot2\cdot1}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{10}{3} = 120.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-48-13"><div class="caja-titulo">Ejemplo 48.13</div><div class="caja-cuerpo"><p>De una baraja de \(52\) cartas se eligen \(5\).</p>
+<p>¿Cuántas manos diferentes pueden formarse?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El orden de las cartas no importa.</p>
+<div class="mate"><span class="mate-bloque">\[\binom{52}{5} = \frac{52!}{5!47!}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{52}{5} = 2{,}598{,}960.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-48-14"><div class="caja-titulo">Ejemplo 48.14</div><div class="caja-cuerpo"><p>Una urna contiene \(5\) canicas rojas y \(4\) azules.</p>
+<p>¿De cuántas formas pueden elegirse \(2\) rojas y \(1\) azul?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos \(2\) de las \(5\) rojas:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{5}{2}.\]</span></div>
+<p>Elegimos \(1\) de las \(4\) azules:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{4}{1}.\]</span></div>
+<p>Por el principio multiplicativo:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{5}{2} \binom{4}{1}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 10(4).\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[40.\]</span></div></div></details></div></section>
+<h2 id="permutacion-o-combinacion"><span class="num">48.9</span> ¿Permutación o combinación?<a class="enlace-seccion" href="#permutacion-o-combinacion" aria-label="Enlace a esta sección">#</a></h2>
+<p>La pregunta principal es:</p>
+<div class="mate"><span class="mate-bloque">\[\text{¿Importa el orden?}\]</span></div>
+<p>Si la respuesta es sí, se utiliza una permutación.</p>
+<p>Si la respuesta es no, se utiliza una combinación.</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Situación</strong></th><th style="text-align:left"><strong>¿Importa el orden?</strong></th><th style="text-align:left"><strong>Técnica</strong></th></tr></thead><tbody><tr><td style="text-align:left">Oro, plata y bronce</td><td style="text-align:left">Sí</td><td style="text-align:left">Permutación</td></tr><tr><td style="text-align:left">Presidente y secretario</td><td style="text-align:left">Sí</td><td style="text-align:left">Permutación</td></tr><tr><td style="text-align:left">Comité de tres personas</td><td style="text-align:left">No</td><td style="text-align:left">Combinación</td></tr><tr><td style="text-align:left">Mano de cinco cartas</td><td style="text-align:left">No</td><td style="text-align:left">Combinación</td></tr><tr><td style="text-align:left">Código o contraseña</td><td style="text-align:left">Sí</td><td style="text-align:left">Principio multiplicativo</td></tr></tbody></table></div></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Existe la relación:</p>
+<div class="mate"><span class="mate-bloque">\[P(n,r) = r!\binom{n}{r}.\]</span></div>
+<p>Cada selección de \(r\) elementos puede ordenarse de:</p>
+<div class="mate"><span class="mate-bloque">\[r!\]</span></div>
+<p>formas diferentes.</p></div></section>
+<h2 id="selecciones-con-cargos"><span class="num">48.10</span> Selecciones con cargos<a class="enlace-seccion" href="#selecciones-con-cargos" aria-label="Enlace a esta sección">#</a></h2>
+<p>Cuando un grupo incluye cargos diferentes, el orden sí importa.</p>
+<section class="caja caja-ejemplo" id="ejemplo-48-15"><div class="caja-titulo">Ejemplo 48.15</div><div class="caja-cuerpo"><p>De un grupo de \(8\) personas se eligen:</p>
+<ul><li>una presidencia;</li><li>una secretaría;</li><li>una tercera persona sin cargo.</li></ul>
+<p>¿Cuántas elecciones son posibles?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos la presidencia de:</p>
+<div class="mate"><span class="mate-bloque">\[8\]</span></div>
+<p>formas.</p>
+<p>Después elegimos la secretaría de:</p>
+<div class="mate"><span class="mate-bloque">\[7\]</span></div>
+<p>formas.</p>
+<p>Finalmente elegimos la tercera persona de:</p>
+<div class="mate"><span class="mate-bloque">\[6\]</span></div>
+<p>formas.</p>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[8\cdot7\cdot6=336.\]</span></div>
+<p>También puede verse como:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{8}{3}(3)(2).\]</span></div>
+<p>Primero se elige el grupo de tres y después se asignan los dos cargos.</p></div></details></div></section>
+<h2 id="probabilidad-mediante-tecnicas-de-conteo"><span class="num">48.11</span> Probabilidad mediante técnicas de conteo<a class="enlace-seccion" href="#probabilidad-mediante-tecnicas-de-conteo" aria-label="Enlace a esta sección">#</a></h2>
+<p>Si todos los resultados son igualmente probables:</p>
+<div class="mate"><span class="mate-bloque">\[P(A) = \frac{ \text{casos favorables} }{ \text{casos totales} }.\]</span></div>
+<p>Las combinaciones y permutaciones permiten calcular ambas cantidades.</p>
+<section class="caja caja-ejemplo" id="ejemplo-48-16"><div class="caja-titulo">Ejemplo 48.16</div><div class="caja-cuerpo"><p>De un grupo de \(6\) hombres y \(4\) mujeres se elige al azar un comité de \(3\) personas.</p>
+<p>Calcula la probabilidad de que el comité esté formado por \(2\) hombres y \(1\) mujer.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El total de personas es:</p>
+<div class="mate"><span class="mate-bloque">\[6+4=10.\]</span></div>
+<p>El número total de comités es:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{10}{3} = 120.\]</span></div>
+<p>Los comités favorables se forman eligiendo:</p>
+<div class="mate"><span class="mate-bloque">\[2\text{ hombres de }6\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[1\text{ mujer de }4.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{6}{2} \binom{4}{1} = 15(4) = 60.\]</span></div>
+<p>La probabilidad es:</p>
+<div class="mate"><span class="mate-bloque">\[P = \frac{60}{120}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P=\frac12.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-48-17"><div class="caja-titulo">Ejemplo 48.17</div><div class="caja-cuerpo"><p>Se lanzan \(3\) monedas.</p>
+<p>Calcula la probabilidad de obtener exactamente \(2\) águilas.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Cada lanzamiento tiene \(2\) resultados posibles.</p>
+<p>El número total de secuencias es:</p>
+<div class="mate"><span class="mate-bloque">\[2^3=8.\]</span></div>
+<p>Elegimos en cuáles \(2\) de los \(3\) lanzamientos aparece águila:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{3}{2}=3.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P = \frac38.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-48-18"><div class="caja-titulo">Ejemplo 48.18</div><div class="caja-cuerpo"><p>Una urna contiene \(6\) canicas rojas y \(5\) verdes. Se eligen \(4\) canicas al azar.</p>
+<p>Calcula la probabilidad de obtener exactamente \(2\) rojas y \(2\) verdes.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El total de canicas es:</p>
+<div class="mate"><span class="mate-bloque">\[11.\]</span></div>
+<p>El número total de selecciones es:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{11}{4}.\]</span></div>
+<p>Los casos favorables son:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{6}{2} \binom{5}{2}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P = \frac{ \binom{6}{2}\binom{5}{2} }{ \binom{11}{4} }.\]</span></div>
+<p>Calculamos:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{6}{2}=15,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\binom{5}{2}=10,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\binom{11}{4}=330.\]</span></div>
+<p>Así:</p>
+<div class="mate"><span class="mate-bloque">\[P = \frac{150}{330}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P = \frac5{11}.\]</span></div></div></details></div></section>
+<h2 id="binomio-de-newton"><span class="num">48.12</span> Binomio de Newton<a class="enlace-seccion" href="#binomio-de-newton" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para un entero no negativo \(n\):</p>
+<div class="mate"><span class="mate-bloque">\[(a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k}b^k.\]</span></div>
+<p>El término general es:</p>
+<div class="mate"><span class="mate-bloque">\[T_{k+1} = \binom{n}{k} a^{n-k}b^k.\]</span></div>
+<p>Los coeficientes:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{n}{0}, \binom{n}{1}, \ldots, \binom{n}{n}\]</span></div>
+<p>son llamados coeficientes binomiales.</p>
+<h3 id="triangulo-de-pascal"><span class="num">48.12.1</span> Triángulo de Pascal<a class="enlace-seccion" href="#triangulo-de-pascal" aria-label="Enlace a esta sección">#</a></h3>
+<div class="mate"><span class="mate-bloque">\[\begin{array}{ccccccccc} &amp;&amp;&amp;&amp;1&amp;&amp;&amp;&amp;\\ &amp;&amp;&amp;1&amp;&amp;1&amp;&amp;&amp;\\ &amp;&amp;1&amp;&amp;2&amp;&amp;1&amp;&amp;\\ &amp;1&amp;&amp;3&amp;&amp;3&amp;&amp;1&amp;\\ 1&amp;&amp;4&amp;&amp;6&amp;&amp;4&amp;&amp;1 \end{array}\]</span></div>
+<p>Cada número interior es la suma de los dos números colocados arriba.</p>
+<p>Las primeras expansiones son:</p>
+<div class="mate"><span class="mate-bloque">\[(a+b)^2 = a^2+2ab+b^2,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[(a+b)^3 = a^3+3a^2b+3ab^2+b^3,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[(a+b)^4 = a^4+4a^3b+6a^2b^2+4ab^3+b^4.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-48-19"><div class="caja-titulo">Ejemplo 48.19</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(x+2)^3.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Los coeficientes de la fila correspondiente a \(n=3\) son:</p>
+<div class="mate"><span class="mate-bloque">\[1,\ 3,\ 3,\ 1.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[(x+2)^3 = x^3 + 3x^2(2) + 3x(2^2) + 2^3.\]</span></div>
+<p>Simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[(x+2)^3 = x^3+6x^2+12x+8.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-48-20"><div class="caja-titulo">Ejemplo 48.20</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(2x-1)^4.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos:</p>
+<div class="mate"><span class="mate-bloque">\[(2x+(-1))^4.\]</span></div>
+<p>Aplicamos el binomio:</p>
+<div class="mate"><span class="mate-bloque">\[(2x-1)^4 = \binom40(2x)^4 + \binom41(2x)^3(-1) + \binom42(2x)^2(-1)^2\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\qquad + \binom43(2x)(-1)^3 + \binom44(-1)^4.\]</span></div>
+<p>Simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[(2x-1)^4 = 16x^4-32x^3+24x^2-8x+1.\]</span></div></div></details></div></section>
+<h2 id="coeficiente-de-un-termino"><span class="num">48.13</span> Coeficiente de un término<a class="enlace-seccion" href="#coeficiente-de-un-termino" aria-label="Enlace a esta sección">#</a></h2>
+<p>Para encontrar un término específico no es necesario desarrollar todo el binomio.</p>
+<p>Se utiliza:</p>
+<div class="mate"><span class="mate-bloque">\[T_{k+1} = \binom{n}{k} a^{n-k}b^k.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-48-21"><div class="caja-titulo">Ejemplo 48.21</div><div class="caja-cuerpo"><p>Encuentra el coeficiente de \(x^2\) en:</p>
+<div class="mate"><span class="mate-bloque">\[(x+3)^5.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El término general es:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{5}{k} x^{5-k} 3^k.\]</span></div>
+<p>Para obtener \(x^2\):</p>
+<div class="mate"><span class="mate-bloque">\[5-k=2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[k=3.\]</span></div>
+<p>El término correspondiente es:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{5}{3} x^2 3^3.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 10(27)x^2.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 270x^2.\]</span></div>
+<p>El coeficiente es:</p>
+<div class="mate"><span class="mate-bloque">\[270.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-48-22"><div class="caja-titulo">Ejemplo 48.22</div><div class="caja-cuerpo"><p>Encuentra el coeficiente de \(x^3\) en:</p>
+<div class="mate"><span class="mate-bloque">\[(x+2)^6.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El término general es:</p>
+<div class="mate"><span class="mate-bloque">\[\binom{6}{k} x^{6-k} 2^k.\]</span></div>
+<p>Para obtener \(x^3\):</p>
+<div class="mate"><span class="mate-bloque">\[6-k=3.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[k=3.\]</span></div>
+<p>El coeficiente es:</p>
+<div class="mate"><span class="mate-bloque">\[\binom63 2^3.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 20(8).\]</span></div>
+<p>Por tanto, el coeficiente es:</p>
+<div class="mate"><span class="mate-bloque">\[160.\]</span></div></div></details></div></section>
+<h2 id="procedimiento-rapido"><span class="num">48.14</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<h3 id="problemas-de-conteo">Problemas de conteo<a class="enlace-seccion" href="#problemas-de-conteo" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica las etapas.</li><li>Determina si importa el orden.</li><li>Revisa si se permite repetición.</li><li>Selecciona la fórmula.</li><li>Simplifica antes de calcular factoriales completos.</li></ol>
+<h3 id="probabilidad-con-conteo">Probabilidad con conteo<a class="enlace-seccion" href="#probabilidad-con-conteo" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Cuenta todos los resultados posibles.</li><li>Cuenta los resultados favorables.</li><li>Calcula: <span class="mate-bloque">\[P(A) = \frac{\text{favorables}}{\text{totales}}.\]</span></li><li>Simplifica la fracción.</li></ol>
+<h3 id="binomio-de-newton-2">Binomio de Newton<a class="enlace-seccion" href="#binomio-de-newton-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica: <span class="mate-bloque">\[a,\quad b,\quad n.\]</span></li><li>Utiliza: <span class="mate-bloque">\[T_{k+1} = \binom nk a^{n-k}b^k.\]</span></li><li>Controla los exponentes y los signos.</li><li>Simplifica cada término.</li></ol>
+<h2 id="resumen"><span class="num">48.15</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Principio multiplicativo:</p>
+<div class="mate"><span class="mate-bloque">\[n_1n_2\cdots n_k.\]</span></div>
+<p>Factorial:</p>
+<div class="mate"><span class="mate-bloque">\[n! = n(n-1)\cdots2\cdot1.\]</span></div>
+<p>Permutación:</p>
+<div class="mate"><span class="mate-bloque">\[P(n,r) = \frac{n!}{(n-r)!}.\]</span></div>
+<p>Combinación:</p>
+<div class="mate"><span class="mate-bloque">\[\binom nr = \frac{n!}{r!(n-r)!}.\]</span></div>
+<p>Permutación con elementos repetidos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{n!}{n_1!n_2!\cdots n_k!}.\]</span></div>
+<p>Secuencias con repetición:</p>
+<div class="mate"><span class="mate-bloque">\[n^r.\]</span></div>
+<p>Relación entre permutación y combinación:</p>
+<div class="mate"><span class="mate-bloque">\[P(n,r) = r!\binom nr.\]</span></div>
+<p>Binomio de Newton:</p>
+<div class="mate"><span class="mate-bloque">\[(a+b)^n = \sum_{k=0}^{n} \binom nk a^{n-k}b^k.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">48.16</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>Antes de utilizar una fórmula, determina si el orden importa.</li><li>En una combinación, cambiar el orden no produce una nueva selección.</li><li>En una permutación, cambiar el orden sí produce un nuevo resultado.</li><li>Si se permite repetición, las opciones pueden permanecer iguales en cada posición.</li><li>Si no se permite repetición, las opciones disminuyen.</li><li>En las permutaciones con objetos repetidos deben dividirse los factoriales de las repeticiones.</li><li>Se cumple: <span class="mate-bloque">\[0!=1.\]</span></li><li>La probabilidad clásica requiere resultados igualmente probables.</li><li>En el binomio, el exponente de la primera expresión disminuye y el de la segunda aumenta.</li><li>Si el binomio contiene una resta, deben cuidarse los signos de las potencias.</li><li>No es necesario desarrollar todo el binomio para encontrar un solo coeficiente.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">48.17</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-48-1"><div class="caja-titulo">Ejercicio 48.1</div><div class="caja-cuerpo"><p>Una tienda vende:</p>
+<div class="mate"><span class="mate-bloque">\[4\text{ modelos de pantalón},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[6\text{ modelos de camisa}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[3\text{ modelos de zapatos}.\]</span></div>
+<p>¿Cuántos conjuntos diferentes pueden formarse?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[4 \cdot 6 \cdot 3 = 72 \text{ conjuntos}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-2"><div class="caja-titulo">Ejercicio 48.2</div><div class="caja-cuerpo"><p>¿Cuántas placas pueden formarse con \(2\) letras seguidas de \(4\) dígitos si se permite la repetición?</p>
+<p>Utiliza un alfabeto de \(26\) letras y los dígitos del \(0\) al \(9\).</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[26^2 \cdot 10^4 = 676 \cdot 10{,}000 = 6{,}760{,}000 \text{ placas}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-3"><div class="caja-titulo">Ejercicio 48.3</div><div class="caja-cuerpo"><p>Evalúa:</p>
+<ol><li>\(P(6,2)\);</li><li>\(P(5,5)\);</li><li>\(\displaystyle\binom73\);</li><li>\(\displaystyle\binom{10}{7}\).</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><ol><li>\(P(6, 2) = \dfrac{6!}{4!} = 6 \cdot 5 = 30\).</li><li>\(P(5, 5) = 5! = 120\).</li><li>\(\binom{7}{3} = \dfrac{7!}{3!\,4!} = \dfrac{7 \cdot 6 \cdot 5}{3 \cdot 2 \cdot 1} = 35\).</li><li>\(\binom{10}{7} = \binom{10}{3} = \dfrac{10 \cdot 9 \cdot 8}{3 \cdot 2 \cdot 1} = 120\).</li></ol></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-4"><div class="caja-titulo">Ejercicio 48.4</div><div class="caja-cuerpo"><p>¿De cuántas formas pueden sentarse \(5\) personas en una fila de \(5\) asientos?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El orden importa y se usan todos los elementos: <span class="mate-bloque">\[5! = 120 \text{ formas}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-5"><div class="caja-titulo">Ejercicio 48.5</div><div class="caja-cuerpo"><p>¿Cuántas palabras de \(4\) letras distintas pueden formarse con las letras de la palabra <strong>PERÚ</strong>?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Son 4 letras distintas y se usan todas: <span class="mate-bloque">\[P(4, 4) = 4! = 24 \text{ palabras}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-6"><div class="caja-titulo">Ejercicio 48.6</div><div class="caja-cuerpo"><p>¿Cuántos ordenamientos distintos pueden formarse con las letras de la palabra <strong>CASA</strong>?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La palabra CASA tiene 4 letras, pero la 'A' se repite 2 veces. Por lo tanto, se usan permutaciones con elementos repetidos: <span class="mate-bloque">\[\frac{4!}{2!} = \frac{24}{2} = 12 \text{ ordenamientos}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-7"><div class="caja-titulo">Ejercicio 48.7</div><div class="caja-cuerpo"><p>Un equipo tiene \(15\) jugadores.</p>
+<p>¿De cuántas formas pueden elegirse los \(11\) titulares?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El orden no importa al elegir a los titulares: <span class="mate-bloque">\[\binom{15}{11} = \binom{15}{4} = \frac{15 \cdot 14 \cdot 13 \cdot 12}{24} = 1365 \text{ formas}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-8"><div class="caja-titulo">Ejercicio 48.8</div><div class="caja-cuerpo"><p>De un grupo de \(8\) personas se eligen \(3\) para un comité.</p>
+<p>Una de las personas seleccionadas será presidenta y otra será secretaria. La tercera no tendrá un cargo especial.</p>
+<p>¿De cuántas formas puede realizarse la elección?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Importa el orden para los cargos. Primero elegimos a la presidenta (8 opciones), luego a la secretaria (7 opciones) y por último al miembro sin cargo de entre las restantes (6 opciones). <span class="mate-bloque">\[8 \cdot 7 \cdot 6 = 336 \text{ formas}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-9"><div class="caja-titulo">Ejercicio 48.9</div><div class="caja-cuerpo"><p>En una urna hay \(6\) canicas rojas y \(5\) verdes. Se extraen \(4\) canicas al azar.</p>
+<p>Calcula la probabilidad de obtener exactamente \(2\) rojas y \(2\) verdes.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Casos totales: \(\binom{11}{4} = 330\). <br> Casos favorables: \(\binom{6}{2} \cdot \binom{5}{2} = 15 \cdot 10 = 150\). <span class="mate-bloque">\[P = \frac{150}{330} = \frac{5}{11} \approx 0.4545.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-10"><div class="caja-titulo">Ejercicio 48.10</div><div class="caja-cuerpo"><p>Se lanzan \(5\) monedas.</p>
+<p>Calcula la probabilidad de obtener exactamente \(3\) águilas.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Cada moneda tiene 2 resultados posibles, en total hay \(2^5 = 32\) resultados posibles. <br> Para obtener exactamente 3 águilas, se usa la combinación \(\binom{5}{3} = 10\). <span class="mate-bloque">\[P = \frac{10}{32} = \frac{5}{16}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-11"><div class="caja-titulo">Ejercicio 48.11</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(2x-1)^4.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Con \(a = 2x\), \(b = -1\) y \(n = 4\): <span class="mate-bloque">\[\begin{aligned} (2x - 1)^4 &amp;= \binom{4}{0}(2x)^4 + \binom{4}{1}(2x)^3(-1) \\ &amp;\quad + \binom{4}{2}(2x)^2(-1)^2 + \binom{4}{3}(2x)(-1)^3 + \binom{4}{4}(-1)^4 \\ &amp;= 16x^4 - 4(8x^3) + 6(4x^2) - 4(2x) + 1 \\ &amp;= 16x^4 - 32x^3 + 24x^2 - 8x + 1. \end{aligned}\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-12"><div class="caja-titulo">Ejercicio 48.12</div><div class="caja-cuerpo"><p>Desarrolla:</p>
+<div class="mate"><span class="mate-bloque">\[(x+3)^5.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Con \(a = x\), \(b = 3\) y \(n = 5\): <span class="mate-bloque">\[\begin{aligned} (x + 3)^5 &amp;= \binom{5}{0}x^5 + \binom{5}{1}x^4(3) + \binom{5}{2}x^3(3)^2 \\ &amp;\quad + \binom{5}{3}x^2(3)^3 + \binom{5}{4}x(3)^4 + \binom{5}{5}(3)^5 \\ &amp;= x^5 + 5x^4(3) + 10x^3(9) + 10x^2(27) + 5x(81) + 243 \\ &amp;= x^5 + 15x^4 + 90x^3 + 270x^2 + 405x + 243. \end{aligned}\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-13"><div class="caja-titulo">Ejercicio 48.13</div><div class="caja-cuerpo"><p>Encuentra el coeficiente de \(x^3\) en:</p>
+<div class="mate"><span class="mate-bloque">\[(x+2)^6.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El término general es \(\binom{6}{k} x^{6-k} 2^k\). Para que el término tenga \(x^3\), se requiere \(6 - k = 3\), es decir, \(k = 3\): <span class="mate-bloque">\[\binom{6}{3} x^3 \cdot 2^3 = 20 \cdot x^3 \cdot 8 = 160x^3.\]</span> El coeficiente es \(160\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-48-14"><div class="caja-titulo">Ejercicio 48.14</div><div class="caja-cuerpo"><p>Encuentra el término que contiene \(x^4\) en:</p>
+<div class="mate"><span class="mate-bloque">\[(2x-3)^7.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El término general es \(\binom{7}{k} (2x)^{7-k} (-3)^k\). Para obtener \(x^4\), necesitamos \(7 - k = 4 \implies k = 3\): <span class="mate-bloque">\[\binom{7}{3} (2x)^4 (-3)^3 = 35 \cdot (16x^4) \cdot (-27) = -15120x^4.\]</span> El término que contiene \(x^4\) es \(-15120x^4\).</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="47-probabilidad-basica.html"><span>← Anterior</span>47. Probabilidad básica</a><a class="nav-siguiente" href="49-sucesiones-series.html"><span>Siguiente →</span>49. Sucesiones y series</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

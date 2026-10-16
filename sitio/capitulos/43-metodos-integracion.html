@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>43. Métodos de integración · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte VIII: Cálculo integral</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#que-metodo-conviene-utilizar"><span class="num">43.1</span> ¿Qué método conviene utilizar?</a></li><li class="nivel-2"><a href="#integracion-por-sustitucion"><span class="num">43.2</span> Integración por sustitución</a></li><li class="nivel-3"><a href="#procedimiento">Procedimiento</a></li><li class="nivel-3"><a href="#sustitucion-en-integrales-definidas"><span class="num">43.2.1</span> Sustitución en integrales definidas</a></li><li class="nivel-2"><a href="#integracion-por-partes"><span class="num">43.3</span> Integración por partes</a></li><li class="nivel-3"><a href="#eleccion-de">Elección de</a></li><li class="nivel-2"><a href="#sustitucion-o-integracion-por-partes"><span class="num">43.4</span> Sustitución o integración por partes</a></li><li class="nivel-2"><a href="#sustitucion-trigonometrica"><span class="num">43.5</span> Sustitución trigonométrica</a></li><li class="nivel-3"><a href="#procedimiento-2">Procedimiento</a></li><li class="nivel-2"><a href="#fracciones-parciales"><span class="num">43.6</span> Fracciones parciales</a></li><li class="nivel-3"><a href="#formas-de-descomposicion"><span class="num">43.6.1</span> Formas de descomposición</a></li><li class="nivel-3"><a href="#procedimiento-3">Procedimiento</a></li><li class="nivel-2"><a href="#verificacion-del-resultado"><span class="num">43.7</span> Verificación del resultado</a></li><li class="nivel-2"><a href="#procedimiento-rapido"><span class="num">43.8</span> Procedimiento rápido</a></li><li class="nivel-2"><a href="#resumen"><span class="num">43.9</span> Resumen</a></li><li class="nivel-2"><a href="#errores-frecuentes"><span class="num">43.10</span> Errores frecuentes</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">43.11</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 43</p><h1>Métodos de integración</h1></header>
+<p><span id="cap-metodos-integracion" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span></span> <span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Cuando una integral no coincide directamente con una fórmula inmediata, es necesario transformar el integrando.</p>
+<p>Los métodos principales son:</p>
+<ul><li>sustitución o cambio de variable;</li><li>integración por partes;</li><li>sustitución trigonométrica;</li><li>fracciones parciales.</li></ul>
+<p>Antes de elegir un método, conviene simplificar el integrando, factorizar cuando sea posible e identificar su estructura.</p>
+<h2 id="que-metodo-conviene-utilizar"><span class="num">43.1</span> ¿Qué método conviene utilizar?<a class="enlace-seccion" href="#que-metodo-conviene-utilizar" aria-label="Enlace a esta sección">#</a></h2>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Estructura del integrando</strong></th><th style="text-align:left"><strong>Método sugerido</strong></th></tr></thead><tbody><tr><td style="text-align:left">Función compuesta y aparece su derivada</td><td style="text-align:left">Sustitución</td></tr><tr><td style="text-align:left">Producto de funciones de distinto tipo</td><td style="text-align:left">Integración por partes</td></tr><tr><td style="text-align:left">Radical con \(a^2-x^2\), \(a^2+x^2\) o \(x^2-a^2\)</td><td style="text-align:left">Sustitución trigonométrica</td></tr><tr><td style="text-align:left">Cociente de polinomios</td><td style="text-align:left">Fracciones parciales</td></tr></tbody></table></div></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La tabla anterior es una guía, no una regla absoluta.</p>
+<p>Antes de aplicar un método, revisa si la integral puede resolverse mediante una simplificación algebraica o una fórmula inmediata.</p></div></section>
+<h2 id="integracion-por-sustitucion"><span class="num">43.2</span> Integración por sustitución<a class="enlace-seccion" href="#integracion-por-sustitucion" aria-label="Enlace a esta sección">#</a></h2>
+<p>La sustitución se utiliza cuando aparece una función compuesta junto con la derivada de su parte interior.</p>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[u=g(x),\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=g'(x)\,dx.\]</span></div>
+<p>La transformación básica es:</p>
+<div class="mate"><span class="mate-bloque">\[\int f(g(x))g'(x)\,dx = \int f(u)\,du.\]</span></div>
+<h3 id="procedimiento">Procedimiento<a class="enlace-seccion" href="#procedimiento" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Elige: <span class="mate-bloque">\[u=g(x).\]</span></li><li>Calcula: <span class="mate-bloque">\[du=g'(x)\,dx.\]</span></li><li>Reescribe toda la integral en términos de \(u\).</li><li>Integra respecto de \(u\).</li><li>Regresa a la variable original.</li></ol>
+<section class="caja caja-ejemplo" id="ejemplo-43-1"><div class="caja-titulo">Ejemplo 43.1</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int(2x+1)^5\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=2x+1.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=2\,dx,\]</span></div>
+<p>por lo que:</p>
+<div class="mate"><span class="mate-bloque">\[dx=\frac{du}{2}.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\int(2x+1)^5\,dx = \frac12\int u^5\,du.\]</span></div>
+<p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac12\left(\frac{u^6}{6}\right)+C = \frac{u^6}{12}+C.\]</span></div>
+<p>Regresamos a \(x\):</p>
+<div class="mate"><span class="mate-bloque">\[\int(2x+1)^5\,dx = \frac{(2x+1)^6}{12}+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-43-2"><div class="caja-titulo">Ejemplo 43.2</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int2x\cos(x^2)\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=x^2.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=2x\,dx.\]</span></div>
+<p>La integral se transforma en:</p>
+<div class="mate"><span class="mate-bloque">\[\int\cos u\,du.\]</span></div>
+<p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[\sen u+C.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int2x\cos(x^2)\,dx = \sen(x^2)+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-43-3"><div class="caja-titulo">Ejemplo 43.3</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{3x+2}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=3x+2.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=3\,dx,\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[dx=\frac{du}{3}.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{3x+2} = \frac13\int\frac{du}{u}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{3x+2} = \frac13\ln|3x+2|+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-43-4"><div class="caja-titulo">Ejemplo 43.4</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int xe^{x^2}\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=x^2.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=2x\,dx,\]</span></div>
+<p>por lo que:</p>
+<div class="mate"><span class="mate-bloque">\[x\,dx=\frac{du}{2}.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\int xe^{x^2}\,dx = \frac12\int e^u\,du.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int xe^{x^2}\,dx = \frac12e^{x^2}+C.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Si la derivada de la expresión elegida no aparece exactamente, puede ajustarse mediante un factor constante.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\int x\cos(x^2)\,dx = \frac12\int2x\cos(x^2)\,dx.\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>En una integral indefinida, la respuesta final debe escribirse en la variable original.</p>
+<p>No debe quedar la variable \(u\) en el resultado final.</p></div></section>
+<h3 id="sustitucion-en-integrales-definidas"><span class="num">43.2.1</span> Sustitución en integrales definidas<a class="enlace-seccion" href="#sustitucion-en-integrales-definidas" aria-label="Enlace a esta sección">#</a></h3>
+<p>En una integral definida pueden transformarse también los límites de integración.</p>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[u=g(x),\]</span></div>
+<p>los nuevos límites se obtienen evaluando:</p>
+<div class="mate"><span class="mate-bloque">\[u_a=g(a)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[u_b=g(b).\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-43-5"><div class="caja-titulo">Ejemplo 43.5</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int_0^1 2x(x^2+1)^3\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=x^2+1.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=2x\,dx.\]</span></div>
+<p>Transformamos los límites:</p>
+<div class="mate"><span class="mate-bloque">\[x=0 \quad\Longrightarrow\quad u=1,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[x=1 \quad\Longrightarrow\quad u=2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int_0^1 2x(x^2+1)^3\,dx = \int_1^2 u^3\,du.\]</span></div>
+<p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[\left[ \frac{u^4}{4} \right]_1^2.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= \frac{2^4}{4} - \frac{1^4}{4}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 4-\frac14.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int_0^1 2x(x^2+1)^3\,dx = \frac{15}{4}.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Si se cambian los límites de integración, no es necesario regresar a la variable \(x\).</p>
+<p>También puede conservarse la variable original y evaluar después de deshacer la sustitución, pero no deben mezclarse ambos procedimientos.</p></div></section>
+<h2 id="integracion-por-partes"><span class="num">43.3</span> Integración por partes<a class="enlace-seccion" href="#integracion-por-partes" aria-label="Enlace a esta sección">#</a></h2>
+<p>La integración por partes se utiliza principalmente en productos de funciones de distinto tipo.</p>
+<p>La fórmula es:</p>
+<div class="mate"><span class="mate-bloque">\[\int u\,dv = uv-\int v\,du.\]</span></div>
+<h3 id="eleccion-de">Elección de \(u\)<a class="enlace-seccion" href="#eleccion-de" aria-label="Enlace a esta sección">#</a></h3>
+<p>Una guía útil es el orden <strong>LIATE</strong>:</p>
+<ol><li><strong>L</strong>: funciones logarítmicas;</li><li><strong>I</strong>: funciones trigonométricas inversas;</li><li><strong>A</strong>: funciones algebraicas;</li><li><strong>T</strong>: funciones trigonométricas;</li><li><strong>E</strong>: funciones exponenciales.</li></ol>
+<p>Se elige como \(u\) la función que aparece primero en esta lista.</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:center"><strong>Se elige</strong></th><th style="text-align:center"><strong>Operación</strong></th></tr></thead><tbody><tr><td style="text-align:center">\(u\)</td><td style="text-align:center">Se deriva para obtener \(du\)</td></tr><tr><td style="text-align:center">\(dv\)</td><td style="text-align:center">Se integra para obtener \(v\)</td></tr></tbody></table></div></div>
+<section class="caja caja-ejemplo" id="ejemplo-43-6"><div class="caja-titulo">Ejemplo 43.6</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int xe^x\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=x, \qquad dv=e^x\,dx.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=dx, \qquad v=e^x.\]</span></div>
+<p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\int xe^x\,dx = xe^x-\int e^x\,dx.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int xe^x\,dx = xe^x-e^x+C.\]</span></div>
+<p>También puede escribirse:</p>
+<div class="mate"><span class="mate-bloque">\[\int xe^x\,dx = e^x(x-1)+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-43-7"><div class="caja-titulo">Ejemplo 43.7</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int x\cos x\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=x, \qquad dv=\cos x\,dx.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=dx, \qquad v=\sen x.\]</span></div>
+<p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\int x\cos x\,dx = x\sen x-\int\sen x\,dx.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[\int\sen x\,dx = -\cos x,\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[\int x\cos x\,dx = x\sen x+\cos x+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-43-8"><div class="caja-titulo">Ejemplo 43.8</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int\ln x\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Escribimos:</p>
+<div class="mate"><span class="mate-bloque">\[\int\ln x\cdot1\,dx.\]</span></div>
+<p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=\ln x, \qquad dv=dx.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=\frac{1}{x}\,dx, \qquad v=x.\]</span></div>
+<p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\int\ln x\,dx = x\ln x - \int x\left(\frac1x\right)dx.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= x\ln x-\int1\,dx.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\int\ln x\,dx = x\ln x-x+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-43-9"><div class="caja-titulo">Ejemplo 43.9</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int x^2e^x\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[u=x^2, \qquad dv=e^x\,dx.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[du=2x\,dx, \qquad v=e^x.\]</span></div>
+<p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\int x^2e^x\,dx = x^2e^x - 2\int xe^x\,dx.\]</span></div>
+<p>Del ejemplo anterior:</p>
+<div class="mate"><span class="mate-bloque">\[\int xe^x\,dx = e^x(x-1).\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\int x^2e^x\,dx = x^2e^x - 2e^x(x-1)+C.\]</span></div>
+<p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[\int x^2e^x\,dx = e^x(x^2-2x+2)+C.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La fórmula contiene una resta:</p>
+<div class="mate"><span class="mate-bloque">\[\int u\,dv = uv-\int v\,du.\]</span></div>
+<p>Un error frecuente es olvidar el signo negativo.</p></div></section>
+<h2 id="sustitucion-o-integracion-por-partes"><span class="num">43.4</span> Sustitución o integración por partes<a class="enlace-seccion" href="#sustitucion-o-integracion-por-partes" aria-label="Enlace a esta sección">#</a></h2>
+<p>Conviene utilizar sustitución cuando aparece una función y la derivada de su parte interior:</p>
+<div class="mate"><span class="mate-bloque">\[\int2x\cos(x^2)\,dx.\]</span></div>
+<p>Conviene utilizar integración por partes cuando aparece un producto como:</p>
+<div class="mate"><span class="mate-bloque">\[\int xe^x\,dx\]</span></div>
+<p>o:</p>
+<div class="mate"><span class="mate-bloque">\[\int x\cos x\,dx.\]</span></div>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Integral</strong></th><th style="text-align:left"><strong>Patrón</strong></th><th style="text-align:left"><strong>Método</strong></th></tr></thead><tbody><tr><td style="text-align:left">\(\displaystyle\int2x\cos(x^2)\,dx\)</td><td style="text-align:left">Función compuesta</td><td style="text-align:left">Sustitución</td></tr><tr><td style="text-align:left">\(\displaystyle\int xe^x\,dx\)</td><td style="text-align:left">Producto de tipos distintos</td><td style="text-align:left">Por partes</td></tr><tr><td style="text-align:left">\(\displaystyle\int\frac{2x}{x^2+1}\,dx\)</td><td style="text-align:left">Interior y derivada</td><td style="text-align:left">Sustitución</td></tr><tr><td style="text-align:left">\(\displaystyle\int x\ln x\,dx\)</td><td style="text-align:left">Producto con logaritmo</td><td style="text-align:left">Por partes</td></tr></tbody></table></div></div>
+<h2 id="sustitucion-trigonometrica"><span class="num">43.5</span> Sustitución trigonométrica<a class="enlace-seccion" href="#sustitucion-trigonometrica" aria-label="Enlace a esta sección">#</a></h2>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>La sustitución trigonométrica se utiliza principalmente cuando aparecen radicales con expresiones cuadráticas.</p>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:center"><strong>Expresión</strong></th><th style="text-align:center"><strong>Sustitución</strong></th><th style="text-align:center"><strong>Identidad</strong></th></tr></thead><tbody><tr><td style="text-align:center">\(\sqrt{a^2-x^2}\)</td><td style="text-align:center">\(x=a\sen\theta\)</td><td style="text-align:center">\(1-\sen^2\theta=\cos^2\theta\)</td></tr><tr><td style="text-align:center">\(\sqrt{a^2+x^2}\)</td><td style="text-align:center">\(x=a\tan\theta\)</td><td style="text-align:center">\(1+\tan^2\theta=\sec^2\theta\)</td></tr><tr><td style="text-align:center">\(\sqrt{x^2-a^2}\)</td><td style="text-align:center">\(x=a\sec\theta\)</td><td style="text-align:center">\(\sec^2\theta-1=\tan^2\theta\)</td></tr></tbody></table></div></div>
+<h3 id="procedimiento-2">Procedimiento<a class="enlace-seccion" href="#procedimiento-2" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Identifica el patrón del radical.</li><li>Elige la sustitución correspondiente.</li><li>Calcula \(dx\).</li><li>Simplifica mediante una identidad trigonométrica.</li><li>Integra respecto de \(\theta\).</li><li>Regresa a la variable \(x\).</li></ol>
+<section class="caja caja-ejemplo" id="ejemplo-43-10"><div class="caja-titulo">Ejemplo 43.10</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{\sqrt{4-x^2}}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La expresión tiene la forma:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{a^2-x^2}\]</span></div>
+<p>con:</p>
+<div class="mate"><span class="mate-bloque">\[a=2.\]</span></div>
+<p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[x=2\sen\theta.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[dx=2\cos\theta\,d\theta.\]</span></div>
+<p>Además:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{4-x^2} = \sqrt{4-4\sen^2\theta}.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[= 2\sqrt{1-\sen^2\theta}.\]</span></div>
+<p>En el intervalo adecuado:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{4-x^2} = 2\cos\theta.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\int \frac{2\cos\theta\,d\theta} {2\cos\theta} = \int d\theta.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\theta+C.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[x=2\sen\theta,\]</span></div>
+<p>se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[\theta = \arcsen\left(\frac{x}{2}\right).\]</span></div>
+<p>Finalmente:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{\sqrt{4-x^2}} = \arcsen\left(\frac{x}{2}\right)+C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-43-11"><div class="caja-titulo">Ejemplo 43.11</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{x^2+1}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Elegimos:</p>
+<div class="mate"><span class="mate-bloque">\[x=\tan\theta.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[dx=\sec^2\theta\,d\theta.\]</span></div>
+<p>Además:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+1 = \tan^2\theta+1 = \sec^2\theta.\]</span></div>
+<p>Sustituimos:</p>
+<div class="mate"><span class="mate-bloque">\[\int \frac{\sec^2\theta\,d\theta} {\sec^2\theta} = \int d\theta.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\theta+C.\]</span></div>
+<p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[x=\tan\theta,\]</span></div>
+<p>se tiene:</p>
+<div class="mate"><span class="mate-bloque">\[\theta=\arctan x.\]</span></div>
+<p>Finalmente:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{x^2+1} = \arctan x+C.\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La integral anterior también puede reconocerse como una fórmula inmediata:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{1+x^2} = \arctan x+C.\]</span></div>
+<p>La sustitución trigonométrica explica el origen de esta fórmula.</p></div></section>
+<h2 id="fracciones-parciales"><span class="num">43.6</span> Fracciones parciales<a class="enlace-seccion" href="#fracciones-parciales" aria-label="Enlace a esta sección">#</a></h2>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Las fracciones parciales se utilizan para integrar funciones racionales:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{P(x)}{Q(x)}.\]</span></div>
+<p>Primero debe cumplirse:</p>
+<div class="mate"><span class="mate-bloque">\[\deg P&lt;\deg Q.\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[\deg P\geq\deg Q,\]</span></div>
+<p>debe realizarse primero la división de polinomios.</p>
+<h3 id="formas-de-descomposicion"><span class="num">43.6.1</span> Formas de descomposición<a class="enlace-seccion" href="#formas-de-descomposicion" aria-label="Enlace a esta sección">#</a></h3>
+<h4 id="factores-lineales-distintos">Factores lineales distintos<a class="enlace-seccion" href="#factores-lineales-distintos" aria-label="Enlace a esta sección">#</a></h4>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[Q(x)=(x-a)(x-b),\]</span></div>
+<p>se plantea:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{P(x)}{Q(x)} = \frac{A}{x-a} + \frac{B}{x-b}.\]</span></div>
+<h4 id="factor-lineal-repetido">Factor lineal repetido<a class="enlace-seccion" href="#factor-lineal-repetido" aria-label="Enlace a esta sección">#</a></h4>
+<p>Si aparece:</p>
+<div class="mate"><span class="mate-bloque">\[(x-a)^n,\]</span></div>
+<p>se incluyen todos los términos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{A_1}{x-a} + \frac{A_2}{(x-a)^2} + \cdots + \frac{A_n}{(x-a)^n}.\]</span></div>
+<h4 id="factor-cuadratico-irreducible">Factor cuadrático irreducible<a class="enlace-seccion" href="#factor-cuadratico-irreducible" aria-label="Enlace a esta sección">#</a></h4>
+<p>Si aparece un factor:</p>
+<div class="mate"><span class="mate-bloque">\[ax^2+bx+c\]</span></div>
+<p>que no puede factorizarse en números reales, se utiliza:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{Ax+B}{ax^2+bx+c}.\]</span></div>
+<h3 id="procedimiento-3">Procedimiento<a class="enlace-seccion" href="#procedimiento-3" aria-label="Enlace a esta sección">#</a></h3>
+<ol><li>Verifica que la fracción sea propia.</li><li>Factoriza el denominador.</li><li>Plantea la descomposición.</li><li>Multiplica por el denominador común.</li><li>Encuentra las constantes.</li><li>Integra cada fracción.</li></ol>
+<section class="caja caja-ejemplo" id="ejemplo-43-12"><div class="caja-titulo">Ejemplo 43.12</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{x^2-1}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[x^2-1 = (x-1)(x+1).\]</span></div>
+<p>Planteamos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{(x-1)(x+1)} = \frac{A}{x-1} + \frac{B}{x+1}.\]</span></div>
+<p>Multiplicamos por:</p>
+<div class="mate"><span class="mate-bloque">\[(x-1)(x+1).\]</span></div>
+<p>Obtenemos:</p>
+<div class="mate"><span class="mate-bloque">\[1 = A(x+1)+B(x-1).\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[x=1,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[1=2A,\]</span></div>
+<p>por lo que:</p>
+<div class="mate"><span class="mate-bloque">\[A=\frac12.\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[x=-1,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[1=-2B,\]</span></div>
+<p>por lo que:</p>
+<div class="mate"><span class="mate-bloque">\[B=-\frac12.\]</span></div>
+<p>Así:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{1}{x^2-1} = \frac{1}{2(x-1)} - \frac{1}{2(x+1)}.\]</span></div>
+<p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{x^2-1} = \frac12\ln|x-1| - \frac12\ln|x+1| + C.\]</span></div>
+<p>También puede escribirse:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{x^2-1} = \frac12 \ln\left| \frac{x-1}{x+1} \right| +C.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-43-13"><div class="caja-titulo">Ejemplo 43.13</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int \frac{3x+5}{x^2+3x+2}\,dx.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+3x+2 = (x+1)(x+2).\]</span></div>
+<p>Planteamos:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{3x+5}{(x+1)(x+2)} = \frac{A}{x+1} + \frac{B}{x+2}.\]</span></div>
+<p>Multiplicamos por el denominador común:</p>
+<div class="mate"><span class="mate-bloque">\[3x+5 = A(x+2)+B(x+1).\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[x=-1,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[2=A.\]</span></div>
+<p>Si:</p>
+<div class="mate"><span class="mate-bloque">\[x=-2,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[-1=-B,\]</span></div>
+<p>por lo que:</p>
+<div class="mate"><span class="mate-bloque">\[B=1.\]</span></div>
+<p>Así:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{3x+5}{x^2+3x+2} = \frac{2}{x+1} + \frac{1}{x+2}.\]</span></div>
+<p>Integramos:</p>
+<div class="mate"><span class="mate-bloque">\[\int \frac{3x+5}{x^2+3x+2}\,dx = 2\ln|x+1| + \ln|x+2| + C.\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Si un factor lineal está repetido, deben incluirse todas sus potencias.</p>
+<p>Por ejemplo, para:</p>
+<div class="mate"><span class="mate-bloque">\[(x-1)^3,\]</span></div>
+<p>deben aparecer:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{A}{x-1} + \frac{B}{(x-1)^2} + \frac{C}{(x-1)^3}.\]</span></div></div></section>
+<h2 id="verificacion-del-resultado"><span class="num">43.7</span> Verificación del resultado<a class="enlace-seccion" href="#verificacion-del-resultado" aria-label="Enlace a esta sección">#</a></h2>
+<p>Toda integral indefinida puede comprobarse derivando el resultado.</p>
+<section class="caja caja-ejemplo" id="ejemplo-43-14"><div class="caja-titulo">Ejemplo 43.14</div><div class="caja-cuerpo"><p>Comprueba:</p>
+<div class="mate"><span class="mate-bloque">\[\int xe^x\,dx = e^x(x-1)+C.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Derivamos mediante la regla del producto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{d}{dx} \left[ e^x(x-1) \right] = e^x(x-1)+e^x.\]</span></div>
+<p>Simplificamos:</p>
+<div class="mate"><span class="mate-bloque">\[e^x(x-1+1) = xe^x.\]</span></div>
+<p>La derivada coincide con el integrando, por lo que el resultado es correcto.</p></div></details></div></section>
+<h2 id="procedimiento-rapido"><span class="num">43.8</span> Procedimiento rápido<a class="enlace-seccion" href="#procedimiento-rapido" aria-label="Enlace a esta sección">#</a></h2>
+<p>Antes de integrar:</p>
+<ol><li>simplifica el integrando;</li><li>factoriza si es posible;</li><li>revisa si corresponde a una fórmula inmediata;</li><li>identifica la estructura principal;</li><li>elige el método más conveniente;</li><li>agrega \(C\) si la integral es indefinida;</li><li>comprueba derivando.</li></ol>
+<div class="centro"><div class="tabla-contenedor"><table><thead><tr><th style="text-align:left"><strong>Pregunta</strong></th><th style="text-align:left"><strong>Decisión</strong></th></tr></thead><tbody><tr><td style="text-align:left">¿Aparece una función y su derivada?</td><td style="text-align:left">Sustitución</td></tr><tr><td style="text-align:left">¿Es un producto de funciones de distinto tipo?</td><td style="text-align:left">Por partes</td></tr><tr><td style="text-align:left">¿Hay un radical cuadrático especial?</td><td style="text-align:left">Sustitución trigonométrica</td></tr><tr><td style="text-align:left">¿Es un cociente de polinomios?</td><td style="text-align:left">Fracciones parciales</td></tr></tbody></table></div></div>
+<h2 id="resumen"><span class="num">43.9</span> Resumen<a class="enlace-seccion" href="#resumen" aria-label="Enlace a esta sección">#</a></h2>
+<p>Sustitución:</p>
+<div class="mate"><span class="mate-bloque">\[u=g(x), \qquad du=g'(x)\,dx.\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\int f(g(x))g'(x)\,dx = \int f(u)\,du.\]</span></div>
+<p>Integración por partes:</p>
+<div class="mate"><span class="mate-bloque">\[\int u\,dv = uv-\int v\,du.\]</span></div>
+<p>Sustituciones trigonométricas:</p>
+<div class="mate"><span class="mate-bloque">\[\sqrt{a^2-x^2} \quad\Longrightarrow\quad x=a\sen\theta,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sqrt{a^2+x^2} \quad\Longrightarrow\quad x=a\tan\theta,\]</span></div>
+<div class="mate"><span class="mate-bloque">\[\sqrt{x^2-a^2} \quad\Longrightarrow\quad x=a\sec\theta.\]</span></div>
+<p>Fracciones parciales:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{P(x)}{Q(x)} = \text{suma de fracciones simples}.\]</span></div>
+<h2 id="errores-frecuentes"><span class="num">43.10</span> Errores frecuentes<a class="enlace-seccion" href="#errores-frecuentes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Recuerda:</p>
+<ul><li>En sustitución, toda la integral debe escribirse en la nueva variable.</li><li>La respuesta final de una integral indefinida no debe conservar la variable \(u\).</li><li>En integración por partes aparece una resta: <span class="mate-bloque">\[uv-\int v\,du.\]</span></li><li>La elección de \(u\) debe simplificar la integral.</li><li>En una integral definida, si se transforman los límites, no debe evaluarse después con los límites originales.</li><li>En fracciones parciales, la fracción debe ser propia.</li><li>El denominador debe factorizarse antes de plantear la descomposición.</li><li>Los factores repetidos requieren términos para todas sus potencias.</li><li>Un factor cuadrático irreducible requiere un numerador lineal: <span class="mate-bloque">\[Ax+B.\]</span></li><li>Toda integral indefinida debe incluir: <span class="mate-bloque">\[+C.\]</span></li><li>El resultado puede comprobarse derivando.</li></ul></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">43.11</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-43-1"><div class="caja-titulo">Ejercicio 43.1</div><div class="caja-cuerpo"><p>Calcula por sustitución:</p>
+<div class="mate"><span class="mate-bloque">\[\int(3x-2)^4\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Con \(u = 3x - 2\), \(du = 3\, dx\): <span class="mate-bloque">\[\int u^4 \cdot \frac{du}{3} = \frac{u^5}{15} + C = \frac{(3x - 2)^5}{15} + C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-2"><div class="caja-titulo">Ejercicio 43.2</div><div class="caja-cuerpo"><p>Calcula por sustitución:</p>
+<div class="mate"><span class="mate-bloque">\[\int\sen(5x)\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Con \(u = 5x\), \(du = 5\, dx\): <span class="mate-bloque">\[\int \sen u \cdot \frac{du}{5} = -\frac{\cos u}{5} + C = -\frac{\cos(5x)}{5} + C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-3"><div class="caja-titulo">Ejercicio 43.3</div><div class="caja-cuerpo"><p>Calcula por sustitución:</p>
+<div class="mate"><span class="mate-bloque">\[\int xe^{3x^2}\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Con \(u = 3x^2\), \(du = 6x\, dx\): <span class="mate-bloque">\[\int e^u \cdot \frac{du}{6} = \frac{e^u}{6} + C = \frac{e^{3x^2}}{6} + C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-4"><div class="caja-titulo">Ejercicio 43.4</div><div class="caja-cuerpo"><p>Calcula por sustitución:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{4x}{2x^2+3}\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Con \(u = 2x^2 + 3\), \(du = 4x\, dx\): <span class="mate-bloque">\[\int \frac{du}{u} = \ln|u| + C = \ln(2x^2 + 3) + C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-5"><div class="caja-titulo">Ejercicio 43.5</div><div class="caja-cuerpo"><p>Calcula por partes:</p>
+<div class="mate"><span class="mate-bloque">\[\int x\sen x\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(u = x\), \(dv = \sen x\, dx\), \(du = dx\), \(v = -\cos x\): <span class="mate-bloque">\[\int x \sen x\, dx = -x\cos x + \int \cos x\, dx = -x\cos x + \sen x + C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-6"><div class="caja-titulo">Ejercicio 43.6</div><div class="caja-cuerpo"><p>Calcula por partes:</p>
+<div class="mate"><span class="mate-bloque">\[\int x\ln x\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(u = \ln x\), \(dv = x\, dx\), \(du = \frac{dx}{x}\), \(v = \frac{x^2}{2}\): <span class="mate-bloque">\[\int x \ln x\, dx = \frac{x^2}{2}\ln x - \int \frac{x^2}{2}\cdot\frac{dx}{x} = \frac{x^2}{2}\ln x - \frac{1}{2}\int x\, dx = \frac{x^2}{2}\ln x - \frac{x^2}{4} + C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-7"><div class="caja-titulo">Ejercicio 43.7</div><div class="caja-cuerpo"><p>Calcula por partes:</p>
+<div class="mate"><span class="mate-bloque">\[\int x^2\cos x\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(u = x^2\), \(dv = \cos x\, dx\), \(du = 2x\, dx\), \(v = \sen x\): <span class="mate-bloque">\[\int x^2 \cos x\, dx = x^2 \sen x - 2 \int x \sen x\, dx.\]</span> Del ejercicio 43.5, sabemos que \(\int x \sen x\, dx = -x\cos x + \sen x\). Así: <span class="mate-bloque">\[= x^2 \sen x - 2(-x\cos x + \sen x) + C = x^2 \sen x + 2x \cos x - 2 \sen x + C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-8"><div class="caja-titulo">Ejercicio 43.8</div><div class="caja-cuerpo"><p>Calcula:</p>
+<div class="mate"><span class="mate-bloque">\[\int_0^1 2x(x^2+2)^2\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Con \(u = x^2 + 2\), \(du = 2x\, dx\). Los límites cambian: si \(x=0\), \(u=2\); si \(x=1\), \(u=3\). <span class="mate-bloque">\[\int_2^3 u^2\, du = \left[ \frac{u^3}{3} \right]_2^3 = \frac{3^3}{3} - \frac{2^3}{3} = 9 - \frac{8}{3} = \frac{19}{3}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-9"><div class="caja-titulo">Ejercicio 43.9</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Calcula mediante sustitución trigonométrica:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{\sqrt{9-x^2}}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Tiene la forma \(\sqrt{a^2 - x^2}\) con \(a=3\). <span class="mate-bloque">\[\int \frac{dx}{\sqrt{9 - x^2}} = \arcsen\!\left(\frac{x}{3}\right) + C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-10"><div class="caja-titulo">Ejercicio 43.10</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Calcula mediante sustitución trigonométrica:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{x^2+4}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Tiene la forma \(x^2 + a^2\) con \(a=2\). <span class="mate-bloque">\[\int \frac{dx}{x^2 + 4} = \frac{1}{2}\arctan\!\left(\frac{x}{2}\right) + C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-11"><div class="caja-titulo">Ejercicio 43.11</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Calcula mediante fracciones parciales:</p>
+<div class="mate"><span class="mate-bloque">\[\int\frac{dx}{x^2-4}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(x^2 - 4 = (x - 2)(x + 2)\). <span class="mate-bloque">\[\frac{1}{(x - 2)(x + 2)} = \frac{A}{x - 2} + \frac{B}{x + 2}.\]</span> \(1 = A(x + 2) + B(x - 2)\). En \(x = 2\): \(A = \frac{1}{4}\). En \(x = -2\): \(B = -\frac{1}{4}\). <span class="mate-bloque">\[\int \frac{dx}{x^2 - 4} = \frac{1}{4}\ln|x - 2| - \frac{1}{4}\ln|x + 2| + C = \frac{1}{4}\ln\left|\frac{x - 2}{x + 2}\right| + C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-12"><div class="caja-titulo">Ejercicio 43.12</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Calcula mediante fracciones parciales:</p>
+<div class="mate"><span class="mate-bloque">\[\int \frac{2x+1}{(x-1)(x+2)}\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[\frac{2x + 1}{(x - 1)(x + 2)} = \frac{A}{x - 1} + \frac{B}{x + 2}.\]</span> \(2x + 1 = A(x + 2) + B(x - 1)\). En \(x = 1\): \(3 = 3A \Rightarrow A = 1\). En \(x = -2\): \(-3 = -3B \Rightarrow B = 1\). <span class="mate-bloque">\[\int \frac{2x + 1}{(x - 1)(x + 2)}\, dx = \ln|x - 1| + \ln|x + 2| + C = \ln|(x - 1)(x + 2)| + C.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-43-13"><div class="caja-titulo">Ejercicio 43.13</div><div class="caja-cuerpo"><p><span class="marcas"><span class="marca marca-ipn">IPN</span></span></p>
+<p>Calcula mediante fracciones parciales:</p>
+<div class="mate"><span class="mate-bloque">\[\int \frac{5x+3}{x^2+x-2}\,dx.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(x^2 + x - 2 = (x + 2)(x - 1)\). <span class="mate-bloque">\[\frac{5x + 3}{(x - 1)(x + 2)} = \frac{A}{x - 1} + \frac{B}{x + 2}.\]</span> \(5x + 3 = A(x + 2) + B(x - 1)\). En \(x = 1\): \(8 = 3A \Rightarrow A = \frac{8}{3}\). En \(x = -2\): \(-7 = -3B \Rightarrow B = \frac{7}{3}\). <span class="mate-bloque">\[\int \frac{5x + 3}{x^2 + x - 2}\, dx = \frac{8}{3}\ln|x - 1| + \frac{7}{3}\ln|x + 2| + C.\]</span></p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="42-la-integral.html"><span>← Anterior</span>42. La integral</a><a class="nav-siguiente" href="44-integral-definida.html"><span>Siguiente →</span>44. Integral definida y aplicaciones</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

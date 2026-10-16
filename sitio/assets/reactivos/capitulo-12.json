@@ -1,0 +1,1603 @@
+{
+  "metadata": {
+    "capitulo": "12",
+    "titulo": "Desigualdades",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 6,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 60,
+    "secciones_incluidas": [
+      {
+        "codigo": "12.1",
+        "nombre": "Conceptos y propiedades de las desigualdades"
+      },
+      {
+        "codigo": "12.2",
+        "nombre": "Desigualdades lineales"
+      },
+      {
+        "codigo": "12.3",
+        "nombre": "Desigualdades compuestas e intervalos"
+      },
+      {
+        "codigo": "12.4",
+        "nombre": "Desigualdades con valor absoluto"
+      },
+      {
+        "codigo": "12.5",
+        "nombre": "Desigualdades cuadráticas"
+      },
+      {
+        "codigo": "12.6",
+        "nombre": "Problemas de aplicación"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Reactivos distintos y específicos por subtema, inspirados en la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-12-1-01",
+      "pregunta": "Seleccione la desigualdad verdadera.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Conceptos y propiedades de las desigualdades"
+      },
+      "respuestas_posibles": {
+        "A": "$-7<-3$",
+        "B": "$-3<-7$",
+        "C": "$5<2$",
+        "D": "$0<-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "comparar números reales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-1-02",
+      "pregunta": "Si $a<b$, entonces al sumar $5$ a ambos miembros se obtiene:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Conceptos y propiedades de las desigualdades"
+      },
+      "respuestas_posibles": {
+        "A": "$a+5>b+5$",
+        "B": "$5a<5b$ solamente",
+        "C": "$a-5>b-5$",
+        "D": "$a+5<b+5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar propiedad aditiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-1-03",
+      "pregunta": "Si $a<b$ y se multiplican ambos miembros por $-2$, resulta:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Conceptos y propiedades de las desigualdades"
+      },
+      "respuestas_posibles": {
+        "A": "$2a>2b$",
+        "B": "$-2a=-2b$",
+        "C": "$-2a>-2b$",
+        "D": "$-2a<-2b$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "invertir signo con factor negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-1-04",
+      "pregunta": "¿Qué símbolo significa “mayor o igual que”?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Conceptos y propiedades de las desigualdades"
+      },
+      "respuestas_posibles": {
+        "A": "$\\neq$",
+        "B": "$\\geq$",
+        "C": "$\\leq$",
+        "D": "$>$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "reconocer símbolos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-1-05",
+      "pregunta": "¿Cuál expresión verbal corresponde a $x<8$?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Conceptos y propiedades de las desigualdades"
+      },
+      "respuestas_posibles": {
+        "A": "$x$ es menor que $8$",
+        "B": "$x$ es mayor que $8$",
+        "C": "$x$ es al menos $8$",
+        "D": "$x$ es distinto de $8$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "interpretar desigualdad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-1-06",
+      "pregunta": "Si $3<7$, al multiplicar por $4$ se obtiene:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Conceptos y propiedades de las desigualdades"
+      },
+      "respuestas_posibles": {
+        "A": "$12>28$",
+        "B": "$7<3$",
+        "C": "$3<28$",
+        "D": "$12<28$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "usar propiedad multiplicativa positiva",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-1-07",
+      "pregunta": "Si $a\\leq b$ y $b\\leq c$, entonces:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Conceptos y propiedades de las desigualdades"
+      },
+      "respuestas_posibles": {
+        "A": "$c\\leq a$",
+        "B": "$a=c$ siempre",
+        "C": "$a\\leq c$",
+        "D": "$a>c$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar transitividad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-1-08",
+      "pregunta": "¿Cuál número satisface $x>2$?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Conceptos y propiedades de las desigualdades"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$5$",
+        "C": "$2$",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "probar solución",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-1-09",
+      "pregunta": "La expresión $x\\neq4$ indica que:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Conceptos y propiedades de las desigualdades"
+      },
+      "respuestas_posibles": {
+        "A": "$x$ puede ser cualquier real excepto $4$",
+        "B": "$x$ debe ser mayor que $4$",
+        "C": "$x$ debe ser menor que $4$",
+        "D": "$x=4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "interpretar exclusión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-1-10",
+      "pregunta": "¿Qué ocurre con el sentido de una desigualdad al dividir entre un número negativo?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.1",
+        "nombre": "Conceptos y propiedades de las desigualdades"
+      },
+      "respuestas_posibles": {
+        "A": "Se conserva",
+        "B": "Se elimina",
+        "C": "Se convierte en igualdad",
+        "D": "Se invierte"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "recordar regla de signos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-2-01",
+      "pregunta": "Resuelva $3x+5<17$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Desigualdades lineales"
+      },
+      "respuestas_posibles": {
+        "A": "$x<12$",
+        "B": "$x>12$",
+        "C": "$x<4$",
+        "D": "$x>4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver desigualdad lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-2-02",
+      "pregunta": "Resuelva $5x-2\\geq18$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Desigualdades lineales"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\leq20$",
+        "B": "$x\\geq4$",
+        "C": "$x\\leq4$",
+        "D": "$x\\geq20$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aislar variable",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-2-03",
+      "pregunta": "Resuelva $-2x+7>15$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Desigualdades lineales"
+      },
+      "respuestas_posibles": {
+        "A": "$x<-4$",
+        "B": "$x>4$",
+        "C": "$x>-4$",
+        "D": "$x<4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "invertir desigualdad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-2-04",
+      "pregunta": "Resuelva $4(x-1)\\leq2x+6$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Desigualdades lineales"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\geq5$",
+        "B": "$x\\leq1$",
+        "C": "$x\\geq1$",
+        "D": "$x\\leq5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "distribuir y resolver",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-2-05",
+      "pregunta": "Resuelva $7-3(x+2)<10$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Desigualdades lineales"
+      },
+      "respuestas_posibles": {
+        "A": "$x<-3$",
+        "B": "$x>3$",
+        "C": "$x>-3$",
+        "D": "$x<3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "manejar signo negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-2-06",
+      "pregunta": "Resuelva $0.5x+2\\geq6$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Desigualdades lineales"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\leq4$",
+        "B": "$x\\geq8$",
+        "C": "$x\\leq8$",
+        "D": "$x\\geq4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver con decimales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-2-07",
+      "pregunta": "Resuelva $\\frac{x}{3}-2>1$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Desigualdades lineales"
+      },
+      "respuestas_posibles": {
+        "A": "$x>9$",
+        "B": "$x<9$",
+        "C": "$x>3$",
+        "D": "$x<3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "resolver con fracción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-2-08",
+      "pregunta": "Resuelva $2(3x-1)-4x\\leq10$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Desigualdades lineales"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\geq6$",
+        "B": "$x\\leq4$",
+        "C": "$x\\geq4$",
+        "D": "$x\\leq6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reducir términos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-2-09",
+      "pregunta": "Resuelva $5x+3>5x-2$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Desigualdades lineales"
+      },
+      "respuestas_posibles": {
+        "A": "$x>5$",
+        "B": "$x<-5$",
+        "C": "Todos los números reales",
+        "D": "Ningún número real"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "reconocer desigualdad universal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-2-10",
+      "pregunta": "Resuelva $4x-1<4x-6$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.2",
+        "nombre": "Desigualdades lineales"
+      },
+      "respuestas_posibles": {
+        "A": "$x>-5$",
+        "B": "No tiene solución",
+        "C": "Todos los números reales",
+        "D": "$x<5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reconocer contradicción",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-3-01",
+      "pregunta": "Resuelva $2<x+1\\leq6$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Desigualdades compuestas e intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$1<x\\leq5$",
+        "B": "$1\\leq x<5$",
+        "C": "$3<x\\leq7$",
+        "D": "$-1<x\\leq5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver desigualdad doble",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-3-02",
+      "pregunta": "Exprese $-3\\leq x<4$ como intervalo.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Desigualdades compuestas e intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,4)$",
+        "B": "$[-3,4]$",
+        "C": "$(-3,4]$",
+        "D": "$[-3,4)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "convertir a intervalo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-3-03",
+      "pregunta": "Exprese $x<-2$ o $x\\geq5$ como intervalos.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Desigualdades compuestas e intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,5]$",
+        "B": "$(-\\infty,5]$",
+        "C": "$(-\\infty,-2)\\cup[5,\\infty)$",
+        "D": "$[-2,5)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "representar unión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-3-04",
+      "pregunta": "La intersección de $x>1$ y $x<6$ es:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Desigualdades compuestas e intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$x<6$",
+        "B": "$1<x<6$",
+        "C": "$x<1$ o $x>6$",
+        "D": "$x>6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "hallar intersección",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-3-05",
+      "pregunta": "La unión de $x\\leq0$ y $x>0$ es:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Desigualdades compuestas e intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "Todos los números reales",
+        "B": "El conjunto vacío",
+        "C": "$x=0$",
+        "D": "$x>0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "hallar unión complementaria",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-3-06",
+      "pregunta": "Resuelva $-5\\leq2x+1<7$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Desigualdades compuestas e intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$-2\\leq x<4$",
+        "B": "$-6\\leq x<6$",
+        "C": "$-3<x\\leq3$",
+        "D": "$-3\\leq x<3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver desigualdad compuesta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-3-07",
+      "pregunta": "¿Cuál intervalo representa $x>4$?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Desigualdades compuestas e intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$(-\\infty,4)$",
+        "B": "$(-\\infty,4]$",
+        "C": "$(4,\\infty)$",
+        "D": "$[4,\\infty)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "usar extremo abierto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-3-08",
+      "pregunta": "¿Cuál intervalo representa $x\\leq-1$?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Desigualdades compuestas e intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,\\infty)$",
+        "B": "$(-\\infty,-1]$",
+        "C": "$(-\\infty,-1)$",
+        "D": "$[-1,\\infty)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "usar extremo cerrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-3-09",
+      "pregunta": "Resuelva $x+2<0$ o $3x\\geq12$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Desigualdades compuestas e intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$x<-2$ o $x\\geq4$",
+        "B": "$-2<x<4$",
+        "C": "$x<-2$ y $x\\geq4$",
+        "D": "$x>2$ o $x\\leq4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver unión de desigualdades",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-3-10",
+      "pregunta": "La intersección de $[-2,5)$ y $(1,8]$ es:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.3",
+        "nombre": "Desigualdades compuestas e intervalos"
+      },
+      "respuestas_posibles": {
+        "A": "$[-2,8]$",
+        "B": "$[1,5]$",
+        "C": "$(-2,8)$",
+        "D": "$(1,5)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "intersectar intervalos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-4-01",
+      "pregunta": "Resuelva $|x|<5$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Desigualdades con valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$-5\\leq x\\leq5$",
+        "B": "$x>5$",
+        "C": "$-5<x<5$",
+        "D": "$x<-5$ o $x>5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "resolver valor absoluto menor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-4-02",
+      "pregunta": "Resuelva $|x|\\geq3$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Desigualdades con valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\geq-3$",
+        "B": "$x\\leq-3$ o $x\\geq3$",
+        "C": "$-3\\leq x\\leq3$",
+        "D": "$-3<x<3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "resolver valor absoluto mayor",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-4-03",
+      "pregunta": "Resuelva $|x-2|<4$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Desigualdades con valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$-2<x<6$",
+        "B": "$-4<x<4$",
+        "C": "$x<-2$ o $x>6$",
+        "D": "$2<x<4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interpretar distancia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-4-04",
+      "pregunta": "Resuelva $|2x+1|\\leq5$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Desigualdades con valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$-2\\leq x\\leq3$",
+        "B": "$x\\leq-3$ o $x\\geq2$",
+        "C": "$-5\\leq x\\leq5$",
+        "D": "$-3\\leq x\\leq2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver doble desigualdad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-4-05",
+      "pregunta": "Resuelva $|x+3|>2$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Desigualdades con valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$x<-1$",
+        "B": "$x>-5$",
+        "C": "$x<-5$ o $x>-1$",
+        "D": "$-5<x<-1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver valor absoluto exterior",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-4-06",
+      "pregunta": "La desigualdad $|x-7|\\leq2$ expresa que:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Desigualdades con valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$x$ es igual a $7$ únicamente",
+        "B": "$x$ está a una distancia máxima de $2$ respecto de $7$",
+        "C": "$x$ está a más de $2$ de $7$",
+        "D": "$x$ es menor que $2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "interpretar distancia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-4-07",
+      "pregunta": "Resuelva $|3x|<12$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Desigualdades con valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$-4<x<4$",
+        "B": "$x<-4$ o $x>4$",
+        "C": "$-12<x<12$",
+        "D": "$0<x<4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "simplificar valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-4-08",
+      "pregunta": "Resuelva $|x-1|\\geq0$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Desigualdades con valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "Ningún número real",
+        "B": "$x=1$ solamente",
+        "C": "$x\\neq1$",
+        "D": "Todos los números reales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "usar no negatividad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-4-09",
+      "pregunta": "Resuelva $|x+2|<-1$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Desigualdades con valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$-3<x<-1$",
+        "B": "$x<-3$ o $x>-1$",
+        "C": "No tiene solución",
+        "D": "Todos los números reales"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "detectar imposibilidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-4-10",
+      "pregunta": "Resuelva $2|x-4|>6$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.4",
+        "nombre": "Desigualdades con valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$x>7$ solamente",
+        "B": "$x<1$ o $x>7$",
+        "C": "$1<x<7$",
+        "D": "$x<3$ o $x>5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aislar valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-5-01",
+      "pregunta": "Resuelva $x^2-5x+6>0$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Desigualdades cuadráticas"
+      },
+      "respuestas_posibles": {
+        "A": "$x<2$ o $x>3$",
+        "B": "$2<x<3$",
+        "C": "$x\\leq2$ o $x\\geq3$",
+        "D": "$x>2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar signos de cuadrática",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-5-02",
+      "pregunta": "Resuelva $x^2-9\\leq0$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Desigualdades cuadráticas"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\leq-3$ o $x\\geq3$",
+        "B": "$-3<x<3$",
+        "C": "$x\\geq3$",
+        "D": "$-3\\leq x\\leq3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-5-03",
+      "pregunta": "Resuelva $(x-1)(x+4)<0$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Desigualdades cuadráticas"
+      },
+      "respuestas_posibles": {
+        "A": "$-4\\leq x\\leq1$",
+        "B": "$x>1$",
+        "C": "$-4<x<1$",
+        "D": "$x<-4$ o $x>1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "usar tabla de signos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-5-04",
+      "pregunta": "Resuelva $x^2+4x+4\\geq0$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Desigualdades cuadráticas"
+      },
+      "respuestas_posibles": {
+        "A": "No tiene solución",
+        "B": "Todos los números reales",
+        "C": "$x=-2$ solamente",
+        "D": "$x\\neq-2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reconocer cuadrado no negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-5-05",
+      "pregunta": "Resuelva $-x^2+4>0$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Desigualdades cuadráticas"
+      },
+      "respuestas_posibles": {
+        "A": "$-2<x<2$",
+        "B": "$x<-2$ o $x>2$",
+        "C": "$-2\\leq x\\leq2$",
+        "D": "$x>2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar parábola invertida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-5-06",
+      "pregunta": "Los puntos críticos de $x^2-x-6\\geq0$ son:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Desigualdades cuadráticas"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2$ y $x=-3$",
+        "B": "$x=-1$ y $x=6$",
+        "C": "$x=0$ y $x=6$",
+        "D": "$x=-2$ y $x=3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "hallar ceros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-5-07",
+      "pregunta": "Resuelva $x(x-5)\\leq0$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Desigualdades cuadráticas"
+      },
+      "respuestas_posibles": {
+        "A": "$0<x<5$",
+        "B": "$x\\geq5$",
+        "C": "$0\\leq x\\leq5$",
+        "D": "$x\\leq0$ o $x\\geq5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "incluir raíces",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-5-08",
+      "pregunta": "Resuelva $2x^2+2x-4<0$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Desigualdades cuadráticas"
+      },
+      "respuestas_posibles": {
+        "A": "$-2\\leq x\\leq1$",
+        "B": "$-2<x<1$",
+        "C": "$x<-2$ o $x>1$",
+        "D": "$-1<x<2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "factorizar cuadrática no mónica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-5-09",
+      "pregunta": "Resuelva $(x+1)^2>0$.",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Desigualdades cuadráticas"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\neq-1$",
+        "B": "$x=-1$",
+        "C": "$x>-1$",
+        "D": "$x<-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "excluir raíz doble",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-5-10",
+      "pregunta": "¿Qué método ayuda a resolver una desigualdad cuadrática factorizada?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.5",
+        "nombre": "Desigualdades cuadráticas"
+      },
+      "respuestas_posibles": {
+        "A": "Producto cruzado",
+        "B": "Regla de tres",
+        "C": "Suma de coeficientes",
+        "D": "Tabla de signos por intervalos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "elegir estrategia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-6-01",
+      "pregunta": "Para aprobar se necesitan al menos $70$ puntos. Si $x$ es la puntuación, la condición es:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\leq70$",
+        "B": "$x<70$",
+        "C": "$x\\geq70$",
+        "D": "$x>70$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "modelar mínimo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-6-02",
+      "pregunta": "Un elevador soporta como máximo $600\\,\\text{kg}$. Si lleva $420\\,\\text{kg}$ y cada caja pesa $30\\,\\text{kg}$, ¿cuántas cajas adicionales como máximo puede cargar?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$20$",
+        "B": "$6$",
+        "C": "$5$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver capacidad máxima",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-6-03",
+      "pregunta": "Un taxi cobra $40$ pesos más $12$ por km. Si se dispone de hasta $160$ pesos, ¿cuántos km como máximo se pueden recorrer?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$8$",
+        "C": "$12$",
+        "D": "$13$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "modelar presupuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-6-04",
+      "pregunta": "Una temperatura debe mantenerse entre $18$ y $24$ grados, inclusive. Si $T$ es la temperatura:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$18<T<24$",
+        "B": "$T\\leq18$ o $T\\geq24$",
+        "C": "$T>24$",
+        "D": "$18\\leq T\\leq24$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "modelar intervalo permitido",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-6-05",
+      "pregunta": "Para obtener promedio mínimo de $8$, la suma de cuatro calificaciones debe ser al menos:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$40$",
+        "C": "$32$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "modelar promedio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-6-06",
+      "pregunta": "Una persona desea ahorrar al menos $5000$ pesos en $10$ meses. Si ya tiene $1200$, ¿cuánto debe ahorrar como mínimo cada mes?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$620$ pesos",
+        "B": "$380$ pesos",
+        "C": "$500$ pesos",
+        "D": "$320$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver ahorro mínimo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-6-07",
+      "pregunta": "El perímetro de un rectángulo de ancho $x$ y largo $x+3$ no debe exceder $30$. ¿Cuál condición satisface $x$?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\leq6$",
+        "B": "$x\\geq6$",
+        "C": "$x\\leq12$",
+        "D": "$x>3$ únicamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "modelar perímetro máximo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-6-08",
+      "pregunta": "La diferencia entre una medición $x$ y $50$ debe ser menor que $3$. ¿Qué intervalo describe $x$?",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$x<47$ o $x>53$",
+        "B": "$-3<x<3$",
+        "C": "$50<x<53$",
+        "D": "$47<x<53$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "modelar tolerancia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-6-09",
+      "pregunta": "Un producto cuesta $250$ pesos y tiene un descuento de $d$ pesos. Para pagar como máximo $210$, se requiere:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$d>210$",
+        "B": "$d\\geq250$",
+        "C": "$d\\geq40$",
+        "D": "$d\\leq40$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "modelar descuento mínimo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-12-6-10",
+      "pregunta": "El área de un cuadrado de lado $x$ debe ser menor que $49\\,\\text{m}^2$. Si $x>0$, entonces:",
+      "tema": {
+        "codigo": "12",
+        "nombre": "Desigualdades",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "12.6",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$x\\geq7$",
+        "B": "$0<x<7$",
+        "C": "$x>7$",
+        "D": "$-7<x<7$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver restricción geométrica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

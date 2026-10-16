@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulador de Práctica · {{titulo_sitio}}</title>
+  <meta name="description" content="Simulador de reactivos interactivos con retroalimentación inmediata estilo examen de admisión UNAM, IPN y CENEVAL.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" onload="if (typeof renderizarMatematicas === 'function') renderizarMatematicas();"></script>
+  <script>window.MACROS_KATEX = {{macros}};</script>
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body class="pagina-practica pagina-simulador">
+
+  <!-- Barra de navegación fija superior -->
+  <nav class="barra-superior-simulador" aria-label="Navegación del simulador">
+    <div class="barra-superior-simulador-interior">
+      <a href="practica.html" class="enlace-volver-catalogo">
+        <span class="icono-flecha">←</span>
+        <span>Volver a Temas</span>
+      </a>
+      <a href="index.html" class="simulador-marca-logo">
+        <img src="assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+        <span>Práctica Interactiva</span>
+      </a>
+      <a href="index.html" class="enlace-guia-estudio">
+        <span>📖 Guía de Estudio</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- VISTA 1: Carrusel de Preguntas de Práctica -->
+  <main class="pantalla-carrusel" id="vista-carrusel" aria-live="polite">
+    <div class="carrusel-contenedor">
+      
+      <!-- Barra superior interna del carrusel -->
+      <header class="carrusel-barra-superior">
+        <div class="carrusel-info-tema">
+          <span class="carrusel-subtema-titulo" id="carrusel-titulo-subtema">Cargando tema…</span>
+        </div>
+        <div class="carrusel-marcador">
+          <span class="marcador-item aciertos" title="Aciertos">✅ <strong id="marcador-aciertos">0</strong></span>
+          <span class="marcador-item errores" title="Errores">❌ <strong id="marcador-errores">0</strong></span>
+          <span class="marcador-item contador-preguntas" id="carrusel-contador">1 de 1</span>
+        </div>
+      </header>
+
+      <!-- Barra de progreso visual -->
+      <div class="barra-progreso-track">
+        <div class="barra-progreso-relleno" id="barra-progreso" style="width: 0%;"></div>
+      </div>
+
+      <!-- Diapositiva del reactivo actual -->
+      <article class="carrusel-slide" id="carrusel-slide">
+        <h2 class="slide-enunciado" id="reactivo-pregunta">
+          Cargando reactivo…
+        </h2>
+
+        <div class="opciones-grilla" id="reactivo-opciones">
+          <!-- Opciones A, B, C, D inyectadas por JS -->
+        </div>
+
+        <div class="slide-retro" id="slide-retro" hidden>
+          <div class="retro-mensaje" id="retro-mensaje"></div>
+        </div>
+      </article>
+
+      <!-- Barra de navegación inferior del carrusel -->
+      <footer class="carrusel-barra-inferior">
+        <button type="button" class="btn-nav-carrusel btn-carrusel-ant" id="btn-ant" onclick="navegarSlide(-1)" disabled>
+          ← Anterior
+        </button>
+        <button type="button" class="btn-nav-carrusel btn-carrusel-sig" id="btn-sig" onclick="navegarSlide(1)">
+          Siguiente →
+        </button>
+      </footer>
+    </div>
+  </main>
+
+  <!-- VISTA 2: Pantalla de Resultados Finales -->
+  <section class="pantalla-resultados" id="vista-resultados" hidden>
+    <div class="resultados-tarjeta">
+      <div class="resultados-icono" id="resultados-icono">🏆</div>
+      <h2 class="resultados-titulo" id="resultados-titulo">¡Sesión de Práctica Completada!</h2>
+      <p class="resultados-subtitulo" id="resultados-subtitulo">Has completado todos los reactivos de esta sesión.</p>
+      
+      <div class="resultados-puntuacion">
+        <div class="puntuacion-circulo">
+          <span class="puntuacion-numero" id="resultados-porcentaje">100%</span>
+          <span class="puntuacion-etiqueta">Precisión</span>
+        </div>
+        <div class="puntuacion-detalles">
+          <div class="detalle-item aciertos">
+            <span class="detalle-valor" id="res-total-aciertos">0</span>
+            <span class="detalle-nombre">Aciertos</span>
+          </div>
+          <div class="detalle-item errores">
+            <span class="detalle-valor" id="res-total-errores">0</span>
+            <span class="detalle-nombre">Errores</span>
+          </div>
+          <div class="detalle-item total">
+            <span class="detalle-valor" id="res-total-preguntas">0</span>
+            <span class="detalle-nombre">Total</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="resultados-acciones">
+        <button type="button" class="btn-accion-resultados btn-repetir" onclick="reiniciarSesionActual()">
+          🔄 Repetir esta sesión
+        </button>
+        <a href="practica.html" class="btn-accion-resultados btn-volver-menu">
+          📚 Elegir otro tema
+        </a>
+        <a href="index.html" class="btn-accion-resultados btn-estudio-link">
+          📖 Repasar en Guía de Estudio
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISTA 3: Estado de aviso si no se especificó un tema -->
+  <section class="pantalla-sin-tema" id="vista-sin-tema" hidden>
+    <div class="sin-tema-icono">🎯</div>
+    <h2 class="sin-tema-titulo">Elige un tema para practicar</h2>
+    <p class="sin-tema-desc">Selecciona cualquiera de los temas o subtemas oficiales en la Zona de Práctica para comenzar tu sesión.</p>
+    <a href="practica.html" class="btn-iniciar-practica" style="max-width: 250px; margin: 1.5rem auto 0; text-decoration: none;">
+      <span>📚 Ver catálogo de temas</span>
+    </a>
+  </section>
+
+  <footer class="pie">
+    Simulador de reactivos de opción múltiple para examen de admisión. Todos los reactivos son originales para fines de práctica académica.
+  </footer>
+
+  <!-- Datos embebidos completos para funcionamiento instantáneo y offline -->
+  <script id="datos-reactivos" type="application/json">
+{{datos_json}}
+  </script>
+
+  <script>
+    // -------------------------------------------------------------
+    //  Controlador del Simulador Dedicado & Carrusel
+    // -------------------------------------------------------------
+    const rawData = JSON.parse(document.getElementById('datos-reactivos').textContent);
+    const TODOS_REACTIVOS = rawData.reactivos || [];
+
+    let preguntasActivas = [];
+    let indiceActual = 0;
+    let respuestasUsuario = {}; // { id: { seleccion: 'A', esCorrecta: true } }
+    let sesionActualInfo = { tipo: '', codigo: '', nombre: '' };
+
+    function renderizarMatematicas() {
+      if (typeof renderMathInElement === 'function') {
+        const slide = document.getElementById('carrusel-slide');
+        const configKaTeX = {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\sen": "\\operatorname{sen}",
+            "\\tg": "\\operatorname{tg}",
+            "\\cotg": "\\operatorname{cotg}",
+            "\\arcsec": "\\operatorname{arcsec}",
+            "\\arccsc": "\\operatorname{arccsc}",
+            "\\arccot": "\\operatorname{arccot}",
+            ...(window.MACROS_KATEX || {})
+          },
+          throwOnError: false,
+          strict: 'ignore'
+        };
+        if (slide) {
+          renderMathInElement(slide, configKaTeX);
+        }
+        const tituloElem = document.getElementById('carrusel-titulo-subtema');
+        if (tituloElem) {
+          renderMathInElement(tituloElem, configKaTeX);
+        }
+      } else {
+        setTimeout(renderizarMatematicas, 80);
+      }
+    }
+
+    // Inicializar sesión a partir de los parámetros de URL o Hash
+    function inicializarSesion() {
+      const urlParams = new URLSearchParams(window.location.search);
+      let temaParam = urlParams.get('tema');
+      let subtemaParam = urlParams.get('subtema');
+
+      // Soporte alternativo para file:/// o hash navigation (#tema=1 / #subtema=1.1.1)
+      if (!temaParam && !subtemaParam && window.location.hash) {
+        const hash = window.location.hash.replace(/^#/, '');
+        const hashParams = new URLSearchParams(hash);
+        temaParam = hashParams.get('tema') || (hash.startsWith('tema=') ? hash.split('=')[1] : null);
+        subtemaParam = hashParams.get('subtema') || (hash.startsWith('subtema=') ? hash.split('=')[1] : null);
+      }
+
+      let preguntas = [];
+      let tituloSesion = '';
+
+      if (subtemaParam) {
+        preguntas = TODOS_REACTIVOS.filter(r => String(r.subtema.codigo) === String(subtemaParam));
+        if (preguntas.length > 0) {
+          tituloSesion = preguntas[0].subtema.nombre;
+          sesionActualInfo = { tipo: 'subtema', codigo: subtemaParam, nombre: tituloSesion };
+        }
+      } else if (temaParam) {
+        preguntas = TODOS_REACTIVOS.filter(r => String(r.tema.codigo) === String(temaParam));
+        if (preguntas.length > 0) {
+          tituloSesion = preguntas[0].tema.nombre;
+          sesionActualInfo = { tipo: 'tema', codigo: temaParam, nombre: tituloSesion };
+        }
+      }
+
+      if (preguntas.length > 0) {
+        document.title = `${tituloSesion} · Simulador de Práctica`;
+        const tituloElem = document.getElementById('carrusel-titulo-subtema');
+        if (tituloElem) tituloElem.textContent = tituloSesion;
+
+        preguntasActivas = preguntas;
+        indiceActual = 0;
+        respuestasUsuario = {};
+
+        document.getElementById('vista-carrusel').hidden = false;
+        document.getElementById('vista-resultados').hidden = true;
+        document.getElementById('vista-sin-tema').hidden = true;
+
+        mostrarPreguntaActual();
+      } else {
+        // Mostrar vista vacía con enlace a la selección de temas
+        document.getElementById('vista-carrusel').hidden = true;
+        document.getElementById('vista-resultados').hidden = true;
+        document.getElementById('vista-sin-tema').hidden = false;
+      }
+    }
+
+    function mostrarPreguntaActual() {
+      if (!preguntasActivas.length) return;
+      const reactivo = preguntasActivas[indiceActual];
+      const total = preguntasActivas.length;
+
+      // Actualizar contadores
+      document.getElementById('carrusel-contador').textContent = `${indiceActual + 1} de ${total}`;
+      const porcentaje = ((indiceActual + 1) / total) * 100;
+      document.getElementById('barra-progreso').style.width = `${porcentaje}%`;
+
+      // Actualizar texto del enunciado (sin etiquetas ID mock)
+      const slideElem = document.getElementById('carrusel-slide');
+      if (slideElem) slideElem.dataset.reactivoId = reactivo.id;
+      document.getElementById('reactivo-pregunta').textContent = reactivo.pregunta;
+
+      // Actualizar marcador
+      let aciertos = 0;
+      let errores = 0;
+      Object.values(respuestasUsuario).forEach(r => {
+        if (r.esCorrecta) aciertos++;
+        else errores++;
+      });
+      document.getElementById('marcador-aciertos').textContent = aciertos;
+      document.getElementById('marcador-errores').textContent = errores;
+
+      // Contenedor de opciones
+      const contenedor = document.getElementById('reactivo-opciones');
+      contenedor.innerHTML = '';
+
+      const respYaDada = respuestasUsuario[reactivo.id];
+
+      for (const [letra, texto] of Object.entries(reactivo.respuestas_posibles)) {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'btn-opcion-reactivo';
+        btn.dataset.letra = letra;
+
+        let claseEstado = '';
+        let iconoHtml = '';
+
+        if (respYaDada) {
+          btn.disabled = true;
+          if (letra === reactivo.respuesta_correcta) {
+            claseEstado = ' opcion-correcta';
+            iconoHtml = '<span class="opcion-check">✓</span>';
+          } else if (letra === respYaDada.seleccion) {
+            claseEstado = ' opcion-incorrecta';
+            iconoHtml = '<span class="opcion-cruz">✕</span>';
+          }
+        }
+
+        btn.className += claseEstado;
+
+        const spanLetra = document.createElement('span');
+        spanLetra.className = 'opcion-letra';
+        spanLetra.textContent = letra;
+
+        const spanTexto = document.createElement('span');
+        spanTexto.className = 'opcion-texto';
+        spanTexto.textContent = texto;
+
+        btn.appendChild(spanLetra);
+        btn.appendChild(spanTexto);
+
+        if (iconoHtml) {
+          const wrapperIcono = document.createElement('span');
+          wrapperIcono.innerHTML = iconoHtml;
+          btn.appendChild(wrapperIcono.firstElementChild);
+        }
+
+        if (!respYaDada) {
+          btn.onclick = () => responderPregunta(reactivo, letra);
+        }
+
+        contenedor.appendChild(btn);
+      }
+
+      // Mensaje de retroalimentación
+      const retroBox = document.getElementById('slide-retro');
+      const retroMsg = document.getElementById('retro-mensaje');
+      if (respYaDada) {
+        retroBox.hidden = false;
+        if (respYaDada.esCorrecta) {
+          retroBox.className = 'slide-retro retro-exito';
+          retroMsg.innerHTML = '<strong>¡Correcto!</strong> Has seleccionado la respuesta correcta.';
+        } else {
+          retroBox.className = 'slide-retro retro-error';
+          retroMsg.innerHTML = `<strong>Incorrecto.</strong> La respuesta correcta es la opción <strong>${reactivo.respuesta_correcta}</strong>.`;
+        }
+      } else {
+        retroBox.hidden = true;
+      }
+
+      // Botones anterior / siguiente
+      const btnAnt = document.getElementById('btn-ant');
+      const btnSig = document.getElementById('btn-sig');
+
+      btnAnt.disabled = (indiceActual === 0);
+      if (indiceActual === total - 1) {
+        btnSig.textContent = '🏁 Ver resultados';
+        btnSig.className = 'btn-nav-carrusel btn-carrusel-sig btn-finalizar';
+      } else {
+        btnSig.textContent = 'Siguiente →';
+        btnSig.className = 'btn-nav-carrusel btn-carrusel-sig';
+      }
+
+      // Renderizar KaTeX
+      renderizarMatematicas();
+    }
+
+    function responderPregunta(reactivo, letraSeleccionada) {
+      const esCorrecta = (letraSeleccionada === reactivo.respuesta_correcta);
+      respuestasUsuario[reactivo.id] = {
+        seleccion: letraSeleccionada,
+        esCorrecta: esCorrecta
+      };
+      mostrarPreguntaActual();
+    }
+
+    function navegarSlide(delta) {
+      const nuevoIndice = indiceActual + delta;
+      if (nuevoIndice < 0) return;
+
+      if (nuevoIndice >= preguntasActivas.length) {
+        mostrarResultadosFinales();
+        return;
+      }
+
+      indiceActual = nuevoIndice;
+
+      // Animación suave de carrusel
+      const slide = document.getElementById('carrusel-slide');
+      slide.classList.remove('slide-animar');
+      void slide.offsetWidth; // Forzar reflujo
+      slide.classList.add('slide-animar');
+
+      mostrarPreguntaActual();
+    }
+
+    function mostrarResultadosFinales() {
+      document.getElementById('vista-carrusel').hidden = true;
+      const vistaRes = document.getElementById('vista-resultados');
+      vistaRes.hidden = false;
+      vistaRes.scrollIntoView({ behavior: 'smooth' });
+
+      let aciertos = 0;
+      const total = preguntasActivas.length;
+
+      preguntasActivas.forEach(p => {
+        if (respuestasUsuario[p.id] && respuestasUsuario[p.id].esCorrecta) {
+          aciertos++;
+        }
+      });
+
+      const errores = total - aciertos;
+      const porcentaje = Math.round((aciertos / total) * 100);
+
+      document.getElementById('resultados-porcentaje').textContent = `${porcentaje}%`;
+      document.getElementById('res-total-aciertos').textContent = aciertos;
+      document.getElementById('res-total-errores').textContent = errores;
+      document.getElementById('res-total-preguntas').textContent = total;
+
+      const icono = document.getElementById('resultados-icono');
+      const titulo = document.getElementById('resultados-titulo');
+      const sub = document.getElementById('resultados-subtitulo');
+
+      if (porcentaje >= 90) {
+        icono.textContent = '🌟';
+        titulo.textContent = '¡Excelente Dominio!';
+        sub.textContent = 'Tienes un dominio sobresaliente de estos reactivos.';
+      } else if (porcentaje >= 70) {
+        icono.textContent = '👍';
+        titulo.textContent = '¡Buen Trabajo!';
+        sub.textContent = 'Has demostrado una base sólida. Revisa los detalles de tus errores para afinar tu preparación.';
+      } else {
+        icono.textContent = '💪';
+        titulo.textContent = '¡Sigue Practicando!';
+        sub.textContent = 'Te recomendamos repasar los temas en la Guía de Estudio y volver a intentar esta serie.';
+      }
+    }
+
+    function reiniciarSesionActual() {
+      respuestasUsuario = {};
+      indiceActual = 0;
+      document.getElementById('vista-resultados').hidden = true;
+      document.getElementById('vista-carrusel').hidden = false;
+      mostrarPreguntaActual();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Navegación por teclado (teclas A, B, C, D y flechas Izq/Der)
+    document.addEventListener('keydown', (e) => {
+      const res = document.getElementById('vista-resultados');
+      if (res && !res.hidden) return;
+      if (['INPUT', 'TEXTAREA'].includes(e.target.tagName)) return;
+
+      if (e.key === 'ArrowRight') {
+        const btnSig = document.getElementById('btn-sig');
+        if (btnSig && !btnSig.disabled) navegarSlide(1);
+      } else if (e.key === 'ArrowLeft') {
+        const btnAnt = document.getElementById('btn-ant');
+        if (btnAnt && !btnAnt.disabled) navegarSlide(-1);
+      } else {
+        const tecla = e.key.toUpperCase();
+        if (['A', 'B', 'C', 'D'].includes(tecla)) {
+          const btn = document.querySelector(`.btn-opcion-reactivo[data-letra="${tecla}"]`);
+          if (btn && !btn.disabled) btn.click();
+        }
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      inicializarSesion();
+    });
+  </script>
+</body>
+</html>

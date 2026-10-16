@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>24. Medida de ángulos · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte V: Trigonometría</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#concepto-de-angulo"><span class="num">24.1</span> Concepto de ángulo</a></li><li class="nivel-2"><a href="#sistema-sexagesimal"><span class="num">24.2</span> Sistema sexagesimal</a></li><li class="nivel-2"><a href="#grados-decimales-y-grados-minutos-y-segundos"><span class="num">24.3</span> Grados decimales y grados, minutos y segundos</a></li><li class="nivel-2"><a href="#sistema-circular"><span class="num">24.4</span> Sistema circular</a></li><li class="nivel-2"><a href="#longitud-de-arco-y-medida-en-radianes"><span class="num">24.5</span> Longitud de arco y medida en radianes</a></li><li class="nivel-2"><a href="#equivalencia-entre-grados-y-radianes"><span class="num">24.6</span> Equivalencia entre grados y radianes</a></li><li class="nivel-2"><a href="#conversion-entre-grados-y-radianes"><span class="num">24.7</span> Conversión entre grados y radianes</a></li><li class="nivel-2"><a href="#angulos-coterminales"><span class="num">24.8</span> Ángulos coterminales</a></li><li class="nivel-2"><a href="#angulos-notables"><span class="num">24.9</span> Ángulos notables</a></li><li class="nivel-2"><a href="#representacion-de-angulos-notables"><span class="num">24.10</span> Representación de ángulos notables</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">24.11</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 24</p><h1>Medida de ángulos</h1></header>
+<p><span id="cap-medida-angulos" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Antes de estudiar las razones trigonométricas, es necesario conocer las principales unidades utilizadas para medir ángulos. El sistema sexagesimal expresa las medidas en grados, minutos y segundos, mientras que el sistema circular utiliza radianes. En este capítulo aprenderás a interpretar ambas unidades, convertir entre ellas y reconocer las equivalencias de los ángulos notables.</p>
+<h2 id="concepto-de-angulo"><span class="num">24.1</span> Concepto de ángulo<a class="enlace-seccion" href="#concepto-de-angulo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>ángulo</strong> es la figura formada por dos semirrectas que tienen el mismo punto de origen.</p>
+<p>Las semirrectas se denominan <strong>lados</strong> del ángulo y su origen común recibe el nombre de <strong>vértice</strong>.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un ángulo puede denotarse mediante tres letras:</p>
+<div class="mate"><span class="mate-bloque">\[\angle AOB,\]</span></div>
+<p>donde la letra central \(O\) representa el vértice.</p>
+<p>También puede representarse mediante una letra griega, como:</p>
+<div class="mate"><span class="mate-bloque">\[\alpha, \qquad \beta, \qquad \theta.\]</span></div></div></section>
+<p>Los elementos de un ángulo pueden identificarse en la siguiente figura:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-db8d0e361298.svg" alt="Figura 24.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Cuando se considera el sentido de giro, se utiliza la noción de <strong>ángulo orientado</strong>:</p>
+<ul><li>un giro en sentido contrario a las manecillas del reloj se considera positivo;</li><li>un giro en el sentido de las manecillas del reloj se considera negativo.</li></ul></div></section>
+<p>Los sentidos positivo y negativo pueden representarse de la siguiente manera:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-e0750bf16d57.svg" alt="Figura 24.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="sistema-sexagesimal"><span class="num">24.2</span> Sistema sexagesimal<a class="enlace-seccion" href="#sistema-sexagesimal" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>En el <strong>sistema sexagesimal</strong>, una vuelta completa se divide en \(360\) partes iguales. Cada una de estas partes se denomina <strong>grado</strong> y se representa mediante el símbolo:</p>
+<div class="mate"><span class="mate-bloque">\[{}^\circ.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[1\text{ vuelta} = 360^\circ.\]</span></div></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Cada grado se divide en \(60\) partes iguales llamadas <strong>minutos de arco</strong>, y cada minuto se divide en \(60\) partes iguales llamadas <strong>segundos de arco</strong>.</p>
+<p>Se utilizan las equivalencias:</p>
+<div class="mate"><span class="mate-bloque">\[1^\circ=60',\]</span></div>
+<div class="mate"><span class="mate-bloque">\[1'=60'',\]</span></div>
+<p>y, por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[1^\circ=3600''.\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Los minutos y segundos utilizados para medir ángulos no representan unidades de tiempo. Aunque emplean los mismos nombres, en este contexto representan fracciones de un grado.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ángulos fundamentales en grados</div><div class="caja-cuerpo"><p>Las siguientes medidas corresponden a fracciones de una vuelta:</p>
+<ul><li>un cuarto de vuelta: <span class="mate-bloque">\[90^\circ;\]</span></li><li>media vuelta: <span class="mate-bloque">\[180^\circ;\]</span></li><li>tres cuartos de vuelta: <span class="mate-bloque">\[270^\circ;\]</span></li><li>una vuelta completa: <span class="mate-bloque">\[360^\circ.\]</span></li></ul></div></section>
+<h2 id="grados-decimales-y-grados-minutos-y-segundos"><span class="num">24.3</span> Grados decimales y grados, minutos y segundos<a class="enlace-seccion" href="#grados-decimales-y-grados-minutos-y-segundos" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una medida angular puede expresarse mediante grados decimales o mediante grados, minutos y segundos.</p>
+<p>Para convertir minutos a grados se divide entre \(60\). Para convertir segundos a grados se divide entre \(3600\):</p>
+<div class="mate"><span class="mate-bloque">\[D^\circ M'S'' = \left( D+\frac{M}{60}+\frac{S}{3600} \right)^\circ.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-24-1"><div class="caja-titulo">Ejemplo 24.1</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[35^\circ24'\]</span></div>
+<p>a grados decimales.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Como:</p>
+<div class="mate"><span class="mate-bloque">\[1'=\frac{1}{60}^\circ,\]</span></div>
+<p>se tiene:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 35^\circ24' &amp;=35^\circ+\frac{24}{60}^\circ\\ &amp;=35^\circ+0.4^\circ\\ &amp;=35.4^\circ. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-24-2"><div class="caja-titulo">Ejemplo 24.2</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[42.75^\circ\]</span></div>
+<p>a grados y minutos.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La parte entera corresponde a los grados:</p>
+<div class="mate"><span class="mate-bloque">\[42^\circ.\]</span></div>
+<p>Convertimos la parte decimal a minutos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 0.75(60') &amp;=45'. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[42.75^\circ = 42^\circ45'.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-24-3"><div class="caja-titulo">Ejemplo 24.3</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[18^\circ15'30''\]</span></div>
+<p>a grados decimales.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 18^\circ15'30'' &amp;= \left( 18+\frac{15}{60}+\frac{30}{3600} \right)^\circ\\ &amp;= \left( 18+0.25+0.0083\overline{3} \right)^\circ\\ &amp;= 18.2583\overline{3}^\circ. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="sistema-circular"><span class="num">24.4</span> Sistema circular<a class="enlace-seccion" href="#sistema-circular" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>radián</strong> es la medida del ángulo central que intercepta un arco cuya longitud es igual al radio de la circunferencia.</p>
+<p>La unidad puede indicarse mediante la abreviatura:</p>
+<div class="mate"><span class="mate-bloque">\[\mathrm{rad}.\]</span></div></div></section>
+<p>La definición puede visualizarse en la siguiente figura. El radio y el arco destacado tienen la misma longitud:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-c329cbc33663.svg" alt="Figura 24.3" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Un radián mide aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[1\ \mathrm{rad} \approx 57.2958^\circ.\]</span></div>
+<p>El radián no depende del tamaño de la circunferencia. Si el radio aumenta, la longitud del arco correspondiente a un radián aumenta en la misma proporción.</p></div></section>
+<h2 id="longitud-de-arco-y-medida-en-radianes"><span class="num">24.5</span> Longitud de arco y medida en radianes<a class="enlace-seccion" href="#longitud-de-arco-y-medida-en-radianes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Longitud de arco</div><div class="caja-cuerpo"><p>Si un ángulo central mide \(\theta\) radianes en una circunferencia de radio \(r\), la longitud del arco correspondiente es:</p>
+<div class="mate"><span class="mate-bloque">\[s=r\theta.\]</span></div>
+<p>De manera equivalente:</p>
+<div class="mate"><span class="mate-bloque">\[\theta=\frac{s}{r}.\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[s=r\theta\]</span></div>
+<p>se aplica directamente cuando \(\theta\) está expresado en radianes.</p>
+<p>Si el ángulo está expresado en grados, primero debe convertirse a radianes o debe utilizarse:</p>
+<div class="mate"><span class="mate-bloque">\[s = \frac{\theta}{360^\circ}(2\pi r).\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-24-4"><div class="caja-titulo">Ejemplo 24.4</div><div class="caja-cuerpo"><p>Un ángulo central mide:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\pi}{3}\ \mathrm{rad}\]</span></div>
+<p>en una circunferencia de radio:</p>
+<div class="mate"><span class="mate-bloque">\[6\ \text{cm}.\]</span></div>
+<p>Encuentra la longitud del arco.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos:</p>
+<div class="mate"><span class="mate-bloque">\[s=r\theta.\]</span></div>
+<p>Entonces:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} s &amp;=6\left(\frac{\pi}{3}\right)\\ &amp;=2\pi\ \text{cm}. \end{aligned}\]</span></div></div></details></div></section>
+<h2 id="equivalencia-entre-grados-y-radianes"><span class="num">24.6</span> Equivalencia entre grados y radianes<a class="enlace-seccion" href="#equivalencia-entre-grados-y-radianes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Equivalencia fundamental</div><div class="caja-cuerpo"><p>Una vuelta completa equivale a:</p>
+<div class="mate"><span class="mate-bloque">\[360^\circ = 2\pi\ \mathrm{rad}.\]</span></div>
+<p>Al dividir ambos miembros entre \(2\), se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[180^\circ = \pi\ \mathrm{rad}.\]</span></div></div></section>
+<p>De esta equivalencia se deduce:</p>
+<div class="mate"><span class="mate-bloque">\[1^\circ = \frac{\pi}{180}\ \mathrm{rad}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[1\ \mathrm{rad} = \frac{180^\circ}{\pi}.\]</span></div>
+<h2 id="conversion-entre-grados-y-radianes"><span class="num">24.7</span> Conversión entre grados y radianes<a class="enlace-seccion" href="#conversion-entre-grados-y-radianes" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Conversión de grados a radianes</div><div class="caja-cuerpo"><p>Para convertir una medida de grados a radianes, se multiplica por:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\pi\ \mathrm{rad}}{180^\circ}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\theta_{\mathrm{rad}} = \theta_{\mathrm{grados}} \left( \frac{\pi}{180^\circ} \right).\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Conversión de radianes a grados</div><div class="caja-cuerpo"><p>Para convertir una medida de radianes a grados, se multiplica por:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{180^\circ}{\pi\ \mathrm{rad}}.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\theta_{\mathrm{grados}} = \theta_{\mathrm{rad}} \left( \frac{180^\circ}{\pi} \right).\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Los factores de conversión son iguales a \(1\), pues sus numeradores y denominadores representan la misma medida angular:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{\pi\ \mathrm{rad}}{180^\circ}=1\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{180^\circ}{\pi\ \mathrm{rad}}=1.\]</span></div>
+<p>Multiplicar por estos factores cambia la unidad, pero no cambia el ángulo.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-24-5"><div class="caja-titulo">Ejemplo 24.5</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[60^\circ\]</span></div>
+<p>a radianes.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos por el factor de conversión:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 60^\circ \left( \frac{\pi}{180^\circ} \right) &amp;= \frac{60\pi}{180}\\ &amp;= \frac{\pi}{3}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[60^\circ = \frac{\pi}{3}\ \mathrm{rad}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-24-6"><div class="caja-titulo">Ejemplo 24.6</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{5\pi}{6}\ \mathrm{rad}\]</span></div>
+<p>a grados.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Multiplicamos por el factor correspondiente:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{5\pi}{6} \left( \frac{180^\circ}{\pi} \right) &amp;= \frac{5(180^\circ)}{6}\\ &amp;=150^\circ. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{5\pi}{6}\ \mathrm{rad} = 150^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-24-7"><div class="caja-titulo">Ejemplo 24.7</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[45^\circ\]</span></div>
+<p>a radianes.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} 45^\circ \left( \frac{\pi}{180^\circ} \right) &amp;= \frac{45\pi}{180}\\ &amp;= \frac{\pi}{4}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[45^\circ = \frac{\pi}{4}\ \mathrm{rad}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-24-8"><div class="caja-titulo">Ejemplo 24.8</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{7\pi}{4}\ \mathrm{rad}\]</span></div>
+<p>a grados.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} \frac{7\pi}{4} \left( \frac{180^\circ}{\pi} \right) &amp;= \frac{7(180^\circ)}{4}\\ &amp;=315^\circ. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{7\pi}{4}\ \mathrm{rad} = 315^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-24-9"><div class="caja-titulo">Ejemplo 24.9</div><div class="caja-cuerpo"><p>Convierte:</p>
+<div class="mate"><span class="mate-bloque">\[36^\circ\]</span></div>
+<p>a radianes.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\begin{aligned} 36^\circ \left( \frac{\pi}{180^\circ} \right) &amp;= \frac{36\pi}{180}\\ &amp;= \frac{\pi}{5}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[36^\circ = \frac{\pi}{5}\ \mathrm{rad}.\]</span></div></div></details></div></section>
+<h2 id="angulos-coterminales"><span class="num">24.8</span> Ángulos coterminales<a class="enlace-seccion" href="#angulos-coterminales" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Dos ángulos son <strong>coterminales</strong> si, al colocarlos en posición estándar, tienen el mismo lado inicial y el mismo lado final.</p>
+<p>Sus medidas difieren en un número entero de vueltas completas.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ángulos coterminales</div><div class="caja-cuerpo"><p>Si \(\theta\) está expresado en grados, todos sus ángulos coterminales pueden escribirse como:</p>
+<div class="mate"><span class="mate-bloque">\[\theta+360^\circ k, \qquad k\in\Z.\]</span></div>
+<p>Si \(\theta\) está expresado en radianes, se escriben como:</p>
+<div class="mate"><span class="mate-bloque">\[\theta+2\pi k, \qquad k\in\Z.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-24-10"><div class="caja-titulo">Ejemplo 24.10</div><div class="caja-cuerpo"><p>Encuentra un ángulo positivo y uno negativo coterminales con:</p>
+<div class="mate"><span class="mate-bloque">\[45^\circ.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sumamos una vuelta completa:</p>
+<div class="mate"><span class="mate-bloque">\[45^\circ+360^\circ = 405^\circ.\]</span></div>
+<p>Restamos una vuelta completa:</p>
+<div class="mate"><span class="mate-bloque">\[45^\circ-360^\circ = -315^\circ.\]</span></div>
+<p>Por tanto, dos ángulos coterminales son:</p>
+<div class="mate"><span class="mate-bloque">\[405^\circ \qquad\text{y}\qquad -315^\circ.\]</span></div></div></details></div></section>
+<h2 id="angulos-notables"><span class="num">24.9</span> Ángulos notables<a class="enlace-seccion" href="#angulos-notables" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Equivalencias fundamentales</div><div class="caja-cuerpo"><p>Las equivalencias más utilizadas son:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 0^\circ &amp;=0,\\ 30^\circ &amp;=\frac{\pi}{6},\\ 45^\circ &amp;=\frac{\pi}{4},\\ 60^\circ &amp;=\frac{\pi}{3},\\ 90^\circ &amp;=\frac{\pi}{2},\\ 120^\circ &amp;=\frac{2\pi}{3},\\ 135^\circ &amp;=\frac{3\pi}{4},\\ 150^\circ &amp;=\frac{5\pi}{6},\\ 180^\circ &amp;=\pi,\\ 210^\circ &amp;=\frac{7\pi}{6},\\ 225^\circ &amp;=\frac{5\pi}{4},\\ 240^\circ &amp;=\frac{4\pi}{3},\\ 270^\circ &amp;=\frac{3\pi}{2},\\ 300^\circ &amp;=\frac{5\pi}{3},\\ 315^\circ &amp;=\frac{7\pi}{4},\\ 330^\circ &amp;=\frac{11\pi}{6},\\ 360^\circ &amp;=2\pi. \end{aligned}\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Para recordar estas equivalencias, puede comenzarse con:</p>
+<div class="mate"><span class="mate-bloque">\[180^\circ=\pi\]</span></div>
+<p>y expresar cada ángulo como una fracción de \(180^\circ\).</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[60^\circ = \frac{60}{180}\pi = \frac{\pi}{3}.\]</span></div></div></section>
+<h2 id="representacion-de-angulos-notables"><span class="num">24.10</span> Representación de ángulos notables<a class="enlace-seccion" href="#representacion-de-angulos-notables" aria-label="Enlace a esta sección">#</a></h2>
+<p>La siguiente circunferencia muestra las equivalencias principales en grados y radianes. Todos los ángulos se miden desde el eje positivo \(x\) en sentido contrario a las manecillas del reloj.</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-e23979b9ad72.svg" alt="Figura 24.4" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El símbolo \(\pi\) no debe reemplazarse por una aproximación decimal durante una conversión exacta.</p>
+<p>Por ejemplo, es preferible escribir:</p>
+<div class="mate"><span class="mate-bloque">\[60^\circ=\frac{\pi}{3}\]</span></div>
+<p>en lugar de:</p>
+<div class="mate"><span class="mate-bloque">\[60^\circ\approx1.0472\ \mathrm{rad}.\]</span></div>
+<p>La forma con \(\pi\) conserva el valor exacto.</p></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">24.11</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-24-1"><div class="caja-titulo">Ejercicio 24.1</div><div class="caja-cuerpo"><p>Convierte a radianes:</p>
+<div class="mate"><span class="mate-bloque">\[30^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[30^\circ \cdot \frac{\pi}{180^\circ} = \frac{\pi}{6}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-24-2"><div class="caja-titulo">Ejercicio 24.2</div><div class="caja-cuerpo"><p>Convierte a radianes:</p>
+<div class="mate"><span class="mate-bloque">\[90^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[90^\circ \cdot \frac{\pi}{180^\circ} = \frac{\pi}{2}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-24-3"><div class="caja-titulo">Ejercicio 24.3</div><div class="caja-cuerpo"><p>Convierte a radianes:</p>
+<div class="mate"><span class="mate-bloque">\[210^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[210^\circ \cdot \frac{\pi}{180^\circ} = \frac{210\pi}{180} = \frac{7\pi}{6}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-24-4"><div class="caja-titulo">Ejercicio 24.4</div><div class="caja-cuerpo"><p>Convierte a radianes:</p>
+<div class="mate"><span class="mate-bloque">\[15^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[15^\circ \cdot \frac{\pi}{180^\circ} = \frac{15\pi}{180} = \frac{\pi}{12}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-24-5"><div class="caja-titulo">Ejercicio 24.5</div><div class="caja-cuerpo"><p>Convierte a grados:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{2\pi}{3}\ \mathrm{rad}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{2\pi}{3} \cdot \frac{180^\circ}{\pi} = \frac{2 \cdot 180^\circ}{3} = 120^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-24-6"><div class="caja-titulo">Ejercicio 24.6</div><div class="caja-cuerpo"><p>Convierte a grados:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{5\pi}{4}\ \mathrm{rad}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{5\pi}{4} \cdot \frac{180^\circ}{\pi} = \frac{5 \cdot 180^\circ}{4} = 225^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-24-7"><div class="caja-titulo">Ejercicio 24.7</div><div class="caja-cuerpo"><p>Convierte a grados:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{7\pi}{6}\ \mathrm{rad}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{7\pi}{6} \cdot \frac{180^\circ}{\pi} = \frac{7 \cdot 180^\circ}{6} = 210^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-24-8"><div class="caja-titulo">Ejercicio 24.8</div><div class="caja-cuerpo"><p>Convierte a grados:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{5\pi}{3}\ \mathrm{rad}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{5\pi}{3} \cdot \frac{180^\circ}{\pi} = \frac{5 \cdot 180^\circ}{3} = 300^\circ.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-24-9"><div class="caja-titulo">Ejercicio 24.9</div><div class="caja-cuerpo"><p>Convierte a radianes:</p>
+<div class="mate"><span class="mate-bloque">\[135^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[135^\circ \cdot \frac{\pi}{180^\circ} = \frac{135\pi}{180} = \frac{3\pi}{4}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-24-10"><div class="caja-titulo">Ejercicio 24.10</div><div class="caja-cuerpo"><p>Convierte a grados:</p>
+<div class="mate"><span class="mate-bloque">\[\frac{11\pi}{6}\ \mathrm{rad}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[\frac{11\pi}{6} \cdot \frac{180^\circ}{\pi} = \frac{11 \cdot 180^\circ}{6} = 330^\circ.\]</span></div></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="23-perimetros-areas-volumenes.html"><span>← Anterior</span>23. Perímetros, áreas y volúmenes</a><a class="nav-siguiente" href="25-razones-trigonometricas.html"><span>Siguiente →</span>25. Razones trigonométricas</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

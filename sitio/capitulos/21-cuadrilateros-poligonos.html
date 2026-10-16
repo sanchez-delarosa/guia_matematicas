@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>21. Cuadriláteros y polígonos · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte IV: Geometría euclidiana</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#cuadrilateros"><span class="num">21.1</span> Cuadriláteros</a></li><li class="nivel-2"><a href="#clasificacion-de-los-cuadrilateros"><span class="num">21.2</span> Clasificación de los cuadriláteros</a></li><li class="nivel-2"><a href="#propiedades-de-los-paralelogramos"><span class="num">21.3</span> Propiedades de los paralelogramos</a></li><li class="nivel-2"><a href="#propiedades-de-rectangulos-rombos-y-cuadrados"><span class="num">21.4</span> Propiedades de rectángulos, rombos y cuadrados</a></li><li class="nivel-2"><a href="#poligonos"><span class="num">21.5</span> Polígonos</a></li><li class="nivel-2"><a href="#suma-de-los-angulos-interiores"><span class="num">21.6</span> Suma de los ángulos interiores</a></li><li class="nivel-2"><a href="#angulos-de-un-poligono-regular"><span class="num">21.7</span> Ángulos de un polígono regular</a></li><li class="nivel-2"><a href="#diagonales-de-un-poligono"><span class="num">21.8</span> Diagonales de un polígono</a></li><li class="nivel-2"><a href="#perimetros-de-cuadrilateros"><span class="num">21.9</span> Perímetros de cuadriláteros</a></li><li class="nivel-2"><a href="#areas-de-cuadrilateros"><span class="num">21.10</span> Áreas de cuadriláteros</a></li><li class="nivel-2"><a href="#perimetro-y-area-de-un-poligono-regular"><span class="num">21.11</span> Perímetro y área de un polígono regular</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">21.12</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 21</p><h1>Cuadriláteros y polígonos</h1></header>
+<p><span id="cap-cuadrilateros-poligonos" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Los cuadriláteros y los polígonos aparecen en numerosos problemas de geometría relacionados con ángulos, diagonales, perímetros y áreas. Reconocer sus propiedades permite seleccionar las fórmulas adecuadas y establecer relaciones entre sus lados y ángulos. En este capítulo estudiarás la clasificación de los cuadriláteros, las propiedades de los paralelogramos y las principales fórmulas asociadas con los polígonos regulares.</p>
+<h2 id="cuadrilateros"><span class="num">21.1</span> Cuadriláteros<a class="enlace-seccion" href="#cuadrilateros" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>cuadrilátero</strong> es un polígono formado por cuatro lados, cuatro vértices y cuatro ángulos interiores.</p>
+<p>Si sus vértices se nombran consecutivamente como \(A\), \(B\), \(C\) y \(D\), el cuadrilátero se denota mediante:</p>
+<div class="mate"><span class="mate-bloque">\[ABCD.\]</span></div>
+<p>Sus lados son:</p>
+<div class="mate"><span class="mate-bloque">\[\overline{AB}, \qquad \overline{BC}, \qquad \overline{CD}, \qquad \overline{DA}.\]</span></div>
+<p>Sus diagonales son los segmentos que unen vértices no consecutivos:</p>
+<div class="mate"><span class="mate-bloque">\[\overline{AC} \qquad\text{y}\qquad \overline{BD}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Suma de los ángulos interiores</div><div class="caja-cuerpo"><p>La suma de los ángulos interiores de cualquier cuadrilátero es:</p>
+<div class="mate"><span class="mate-bloque">\[360^\circ.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La suma de los ángulos interiores puede justificarse trazando una diagonal. Esta divide el cuadrilátero en dos triángulos, cada uno con una suma angular de \(180^\circ\):</p>
+<div class="mate"><span class="mate-bloque">\[2(180^\circ)=360^\circ.\]</span></div></div></section>
+<p>La diagonal \(\overline{AC}\) divide el cuadrilátero en los triángulos \(\triangle ABC\) y \(\triangle ACD\):</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-4213d3a85e84.svg" alt="Figura 21.1" loading="lazy" decoding="async"></figure></div>
+<h2 id="clasificacion-de-los-cuadrilateros"><span class="num">21.2</span> Clasificación de los cuadriláteros<a class="enlace-seccion" href="#clasificacion-de-los-cuadrilateros" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Clasificación según los lados paralelos</div><div class="caja-cuerpo"><p>Los cuadriláteros pueden clasificarse de la siguiente manera:</p>
+<ul><li>Un <strong>paralelogramo</strong> tiene dos pares de lados opuestos paralelos.</li><li>Un <strong>trapecio</strong> tiene exactamente un par de lados opuestos paralelos. Estos lados reciben el nombre de <strong>bases</strong>.</li><li>Un <strong>trapezoide</strong> no tiene pares de lados opuestos paralelos.</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Existen dos convenciones para definir un trapecio:</p>
+<ul><li>la definición exclusiva establece que tiene exactamente un par de lados paralelos;</li><li>la definición inclusiva establece que tiene al menos un par de lados paralelos, por lo que los paralelogramos también serían trapecios.</li></ul>
+<p>En esta guía se utilizará la definición exclusiva: un trapecio tiene exactamente un par de lados opuestos paralelos.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Tipos de paralelogramos</div><div class="caja-cuerpo"><p>Los principales paralelogramos son:</p>
+<ul><li>El <strong>rectángulo</strong>, cuyos cuatro ángulos interiores son rectos.</li><li>El <strong>rombo</strong>, cuyos cuatro lados tienen la misma longitud.</li><li>El <strong>cuadrado</strong>, cuyos cuatro lados tienen la misma longitud y cuyos cuatro ángulos interiores son rectos.</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Todo cuadrado es simultáneamente:</p>
+<ul><li>un rectángulo, porque tiene cuatro ángulos rectos;</li><li>un rombo, porque tiene cuatro lados iguales;</li><li>un paralelogramo, porque sus lados opuestos son paralelos.</li></ul>
+<p>Sin embargo, no todo rectángulo ni todo rombo es un cuadrado.</p></div></section>
+<p>Las principales clases de cuadriláteros pueden compararse mediante las siguientes figuras:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-d33837ab4b0c.svg" alt="Figura 21.2" loading="lazy" decoding="async"></figure></div>
+<h2 id="propiedades-de-los-paralelogramos"><span class="num">21.3</span> Propiedades de los paralelogramos<a class="enlace-seccion" href="#propiedades-de-los-paralelogramos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Propiedades fundamentales</div><div class="caja-cuerpo"><p>En todo paralelogramo se cumplen las siguientes propiedades:</p>
+<ol><li>Los lados opuestos tienen la misma longitud.</li><li>Los ángulos opuestos tienen la misma medida.</li><li>Los ángulos consecutivos son suplementarios: <span class="mate-bloque">\[180^\circ.\]</span></li><li>Las diagonales se bisecan, es decir, se cortan en sus puntos medios.</li><li>Cada diagonal divide el paralelogramo en dos triángulos congruentes.</li></ol></div></section>
+<p>Estas propiedades pueden representarse en un mismo paralelogramo:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-2592b6006180.svg" alt="Figura 21.3" loading="lazy" decoding="async"></figure></div>
+<p>En la figura:</p>
+<div class="mate"><span class="mate-bloque">\[AO=OC \qquad\text{y}\qquad BO=OD.\]</span></div>
+<section class="caja caja-ejemplo" id="ejemplo-21-1"><div class="caja-titulo">Ejemplo 21.1</div><div class="caja-cuerpo"><p>En un paralelogramo, uno de sus ángulos interiores mide \(72^\circ\). Encuentra las medidas de los otros tres ángulos.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El ángulo opuesto tiene la misma medida:</p>
+<div class="mate"><span class="mate-bloque">\[72^\circ.\]</span></div>
+<p>Cada ángulo consecutivo es suplementario del ángulo dado:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 180^\circ-72^\circ &amp;=108^\circ. \end{aligned}\]</span></div>
+<p>Por tanto, las medidas de los cuatro ángulos son:</p>
+<div class="mate"><span class="mate-bloque">\[72^\circ, \qquad 108^\circ, \qquad 72^\circ, \qquad 108^\circ.\]</span></div></div></details></div></section>
+<h2 id="propiedades-de-rectangulos-rombos-y-cuadrados"><span class="num">21.4</span> Propiedades de rectángulos, rombos y cuadrados<a class="enlace-seccion" href="#propiedades-de-rectangulos-rombos-y-cuadrados" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Diagonales de un rectángulo</div><div class="caja-cuerpo"><p>Las diagonales de un rectángulo:</p>
+<ul><li>tienen la misma longitud;</li><li>se bisecan.</li></ul></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Diagonales de un rombo</div><div class="caja-cuerpo"><p>Las diagonales de un rombo:</p>
+<ul><li>son perpendiculares;</li><li>se bisecan;</li><li>bisecan los ángulos interiores del rombo.</li></ul></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Diagonales de un cuadrado</div><div class="caja-cuerpo"><p>Las diagonales de un cuadrado reúnen las propiedades de las diagonales de un rectángulo y de un rombo:</p>
+<ul><li>tienen la misma longitud;</li><li>son perpendiculares;</li><li>se bisecan;</li><li>bisecan los ángulos interiores.</li></ul></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Las diagonales de un paralelogramo siempre se bisecan, pero no necesariamente tienen la misma longitud ni son perpendiculares.</p>
+<p>Estas propiedades adicionales dependen del tipo particular de paralelogramo.</p></div></section>
+<h2 id="poligonos"><span class="num">21.5</span> Polígonos<a class="enlace-seccion" href="#poligonos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>polígono</strong> es una figura plana cerrada formada por una sucesión finita de segmentos que se intersecan únicamente en sus extremos consecutivos.</p>
+<p>Los segmentos se denominan <strong>lados</strong> y sus puntos de unión se denominan <strong>vértices</strong>.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un polígono es <strong>regular</strong> si todos sus lados tienen la misma longitud y todos sus ángulos interiores tienen la misma medida.</p>
+<p>Si no cumple ambas condiciones, se denomina <strong>irregular</strong>.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un polígono es <strong>convexo</strong> si todos sus ángulos interiores son menores que \(180^\circ\).</p>
+<p>Un polígono es <strong>cóncavo</strong> si al menos uno de sus ángulos interiores es mayor que \(180^\circ\).</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Nombres según el número de lados</div><div class="caja-cuerpo"><p>Los polígonos reciben los siguientes nombres:</p>
+<ul><li>\(3\) lados: <strong>triángulo</strong>;</li><li>\(4\) lados: <strong>cuadrilátero</strong>;</li><li>\(5\) lados: <strong>pentágono</strong>;</li><li>\(6\) lados: <strong>hexágono</strong>;</li><li>\(7\) lados: <strong>heptágono</strong>;</li><li>\(8\) lados: <strong>octágono</strong>;</li><li>\(9\) lados: <strong>eneágono</strong> o <strong>nonágono</strong>;</li><li>\(10\) lados: <strong>decágono</strong>;</li><li>\(12\) lados: <strong>dodecágono</strong>.</li></ul>
+<p>En general, una figura con \(n\) lados se denomina polígono de \(n\) lados.</p></div></section>
+<h2 id="suma-de-los-angulos-interiores"><span class="num">21.6</span> Suma de los ángulos interiores<a class="enlace-seccion" href="#suma-de-los-angulos-interiores" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Suma de los ángulos interiores</div><div class="caja-cuerpo"><p>La suma de los ángulos interiores de un polígono convexo de \(n\) lados es:</p>
+<div class="mate"><span class="mate-bloque">\[S_i=(n-2)180^\circ.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La fórmula se obtiene al seleccionar un vértice y trazar diagonales hacia todos los vértices no adyacentes.</p>
+<p>De esta manera, el polígono queda dividido en:</p>
+<div class="mate"><span class="mate-bloque">\[n-2\]</span></div>
+<p>triángulos. Como los ángulos interiores de cada triángulo suman \(180^\circ\), se obtiene:</p>
+<div class="mate"><span class="mate-bloque">\[S_i=(n-2)180^\circ.\]</span></div></div></section>
+<p>Por ejemplo, un hexágono puede dividirse en cuatro triángulos:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-64c98968824e.svg" alt="Figura 21.4" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-21-2"><div class="caja-titulo">Ejemplo 21.2</div><div class="caja-cuerpo"><p>Encuentra la suma de los ángulos interiores de un hexágono.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Un hexágono tiene:</p>
+<div class="mate"><span class="mate-bloque">\[n=6\]</span></div>
+<p>lados. Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} S_i &amp;=(n-2)180^\circ\\ &amp;=(6-2)180^\circ\\ &amp;=4(180^\circ)\\ &amp;=720^\circ. \end{aligned}\]</span></div>
+<p>La suma de sus ángulos interiores es:</p>
+<div class="mate"><span class="mate-bloque">\[720^\circ.\]</span></div></div></details></div></section>
+<h2 id="angulos-de-un-poligono-regular"><span class="num">21.7</span> Ángulos de un polígono regular<a class="enlace-seccion" href="#angulos-de-un-poligono-regular" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ángulo interior</div><div class="caja-cuerpo"><p>En un polígono regular de \(n\) lados, cada ángulo interior mide:</p>
+<div class="mate"><span class="mate-bloque">\[\alpha = \frac{(n-2)180^\circ}{n}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ángulo exterior</div><div class="caja-cuerpo"><p>En un polígono regular de \(n\) lados, cada ángulo exterior mide:</p>
+<div class="mate"><span class="mate-bloque">\[\beta = \frac{360^\circ}{n}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Relación entre los ángulos interior y exterior</div><div class="caja-cuerpo"><p>En cada vértice de un polígono regular, el ángulo interior y el ángulo exterior correspondiente son suplementarios:</p>
+<div class="mate"><span class="mate-bloque">\[\alpha+\beta=180^\circ.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Suma de los ángulos exteriores</div><div class="caja-cuerpo"><p>La suma de un ángulo exterior por cada vértice de cualquier polígono convexo es:</p>
+<div class="mate"><span class="mate-bloque">\[S_e=360^\circ.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-21-3"><div class="caja-titulo">Ejemplo 21.3</div><div class="caja-cuerpo"><p>Encuentra la medida de cada ángulo interior de un pentágono regular.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Un pentágono tiene:</p>
+<div class="mate"><span class="mate-bloque">\[n=5\]</span></div>
+<p>lados. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} \alpha &amp;= \frac{(5-2)180^\circ}{5}\\ &amp;= \frac{3(180^\circ)}{5}\\ &amp;= \frac{540^\circ}{5}\\ &amp;=108^\circ. \end{aligned}\]</span></div>
+<p>Cada ángulo interior mide:</p>
+<div class="mate"><span class="mate-bloque">\[108^\circ.\]</span></div>
+<p>El ángulo exterior correspondiente mide:</p>
+<div class="mate"><span class="mate-bloque">\[180^\circ-108^\circ=72^\circ.\]</span></div></div></details></div></section>
+<h2 id="diagonales-de-un-poligono"><span class="num">21.8</span> Diagonales de un polígono<a class="enlace-seccion" href="#diagonales-de-un-poligono" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Número de diagonales</div><div class="caja-cuerpo"><p>El número total de diagonales de un polígono de \(n\) lados es:</p>
+<div class="mate"><span class="mate-bloque">\[D=\frac{n(n-3)}{2}.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Desde cada vértice pueden trazarse diagonales hacia:</p>
+<div class="mate"><span class="mate-bloque">\[n-3\]</span></div>
+<p>vértices, pues no puede unirse mediante una diagonal:</p>
+<ul><li>consigo mismo;</li><li>con ninguno de sus dos vértices adyacentes.</li></ul>
+<p>Esto produce inicialmente:</p>
+<div class="mate"><span class="mate-bloque">\[n(n-3)\]</span></div>
+<p>segmentos. Sin embargo, cada diagonal se cuenta dos veces, una desde cada extremo. Por eso se divide entre \(2\).</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-21-4"><div class="caja-titulo">Ejemplo 21.4</div><div class="caja-cuerpo"><p>¿Cuántas diagonales tiene un octágono?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Un octágono tiene:</p>
+<div class="mate"><span class="mate-bloque">\[n=8\]</span></div>
+<p>lados. Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} D &amp;= \frac{n(n-3)}{2}\\ &amp;= \frac{8(8-3)}{2}\\ &amp;= \frac{8(5)}{2}\\ &amp;=20. \end{aligned}\]</span></div>
+<p>Un octágono tiene:</p>
+<div class="mate"><span class="mate-bloque">\[20\]</span></div>
+<p>diagonales.</p></div></details></div></section>
+<h2 id="perimetros-de-cuadrilateros"><span class="num">21.9</span> Perímetros de cuadriláteros<a class="enlace-seccion" href="#perimetros-de-cuadrilateros" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fórmulas de perímetro</div><div class="caja-cuerpo"><p>Las fórmulas principales son:</p>
+<ul><li><strong>Rectángulo de base \(b\) y altura \(h\)</strong> <span class="mate-bloque">\[P=2b+2h=2(b+h).\]</span></li><li><strong>Cuadrado de lado \(l\)</strong> <span class="mate-bloque">\[P=4l.\]</span></li><li><strong>Rombo de lado \(l\)</strong> <span class="mate-bloque">\[P=4l.\]</span></li><li><strong>Paralelogramo con lados \(a\) y \(b\)</strong> <span class="mate-bloque">\[P=2(a+b).\]</span></li><li><strong>Trapecio con lados \(a\), \(b\), \(c\) y \(d\)</strong> <span class="mate-bloque">\[P=a+b+c+d.\]</span></li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-21-5"><div class="caja-titulo">Ejemplo 21.5</div><div class="caja-cuerpo"><p>Encuentra el perímetro de un rectángulo cuyos lados miden \(7\ \text{cm}\) y \(4\ \text{cm}\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} P &amp;=2(7+4)\\ &amp;=2(11)\\ &amp;=22. \end{aligned}\]</span></div>
+<p>El perímetro es:</p>
+<div class="mate"><span class="mate-bloque">\[22\ \text{cm}.\]</span></div></div></details></div></section>
+<h2 id="areas-de-cuadrilateros"><span class="num">21.10</span> Áreas de cuadriláteros<a class="enlace-seccion" href="#areas-de-cuadrilateros" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Fórmulas de área</div><div class="caja-cuerpo"><p>Las áreas de los principales cuadriláteros se calculan mediante:</p>
+<ul><li><strong>Rectángulo</strong> <span class="mate-bloque">\[A=bh.\]</span></li><li><strong>Cuadrado</strong> <span class="mate-bloque">\[A=l^2.\]</span></li><li><strong>Paralelogramo</strong> <span class="mate-bloque">\[A=bh.\]</span></li><li><strong>Rombo</strong> <span class="mate-bloque">\[A=\frac{Dd}{2},\]</span> donde \(D\) y \(d\) son las longitudes de sus diagonales.</li><li><strong>Trapecio</strong> <span class="mate-bloque">\[A=\frac{(B+b)h}{2},\]</span> donde \(B\) y \(b\) son las longitudes de las bases paralelas.</li></ul></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La altura de un paralelogramo o de un trapecio es la distancia perpendicular entre sus bases. No debe confundirse con la longitud de uno de sus lados inclinados.</p></div></section>
+<p>La base y la altura de un paralelogramo se relacionan de la siguiente manera:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-89ad0a151d58.svg" alt="Figura 21.5" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-21-6"><div class="caja-titulo">Ejemplo 21.6</div><div class="caja-cuerpo"><p>Encuentra el área de un trapecio cuyas bases miden \(12\ \text{cm}\) y \(8\ \text{cm}\) y cuya altura mide \(5\ \text{cm}\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} A &amp;= \frac{(B+b)h}{2}\\ &amp;= \frac{(12+8)(5)}{2}\\ &amp;= \frac{20(5)}{2}\\ &amp;=50. \end{aligned}\]</span></div>
+<p>El área es:</p>
+<div class="mate"><span class="mate-bloque">\[50\ \text{cm}^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-21-7"><div class="caja-titulo">Ejemplo 21.7</div><div class="caja-cuerpo"><p>Encuentra el área de un rombo cuyas diagonales miden \(10\ \text{cm}\) y \(6\ \text{cm}\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} A &amp;= \frac{Dd}{2}\\ &amp;= \frac{(10)(6)}{2}\\ &amp;= \frac{60}{2}\\ &amp;=30. \end{aligned}\]</span></div>
+<p>El área es:</p>
+<div class="mate"><span class="mate-bloque">\[30\ \text{cm}^2.\]</span></div></div></details></div></section>
+<h2 id="perimetro-y-area-de-un-poligono-regular"><span class="num">21.11</span> Perímetro y área de un polígono regular<a class="enlace-seccion" href="#perimetro-y-area-de-un-poligono-regular" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Perímetro de un polígono regular</div><div class="caja-cuerpo"><p>Si un polígono regular tiene \(n\) lados y cada lado mide \(l\), su perímetro es:</p>
+<div class="mate"><span class="mate-bloque">\[P=nl.\]</span></div></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>apotema</strong> de un polígono regular es el segmento perpendicular que une el centro del polígono con el punto medio de uno de sus lados.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Área de un polígono regular</div><div class="caja-cuerpo"><p>Si \(P\) es el perímetro de un polígono regular y \(a_p\) es la longitud de su apotema, entonces su área es:</p>
+<div class="mate"><span class="mate-bloque">\[A=\frac{Pa_p}{2}.\]</span></div></div></section>
+<p>El centro, el apotema y la división de un polígono regular en triángulos pueden observarse en la siguiente figura:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-c8bbc213233a.svg" alt="Figura 21.6" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La fórmula del área se obtiene al dividir el polígono en \(n\) triángulos congruentes.</p>
+<p>La suma de las bases de esos triángulos es el perímetro \(P\), mientras que la altura común de cada triángulo es el apotema \(a_p\). Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[A = \frac{Pa_p}{2}.\]</span></div></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">21.12</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-21-1"><div class="caja-titulo">Ejercicio 21.1</div><div class="caja-cuerpo"><p>Encuentra la suma de los ángulos interiores de un octágono.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(n = 8\). <span class="mate-bloque">\[S_i = (8 - 2) \cdot 180^\circ = 6 \cdot 180^\circ = 1080^\circ.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-21-2"><div class="caja-titulo">Ejercicio 21.2</div><div class="caja-cuerpo"><p>Encuentra la medida de cada ángulo interior de un hexágono regular.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(n = 6\). <span class="mate-bloque">\[\alpha = \frac{(6 - 2) \cdot 180^\circ}{6} = \frac{720^\circ}{6} = 120^\circ.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-21-3"><div class="caja-titulo">Ejercicio 21.3</div><div class="caja-cuerpo"><p>¿Cuántas diagonales tiene un decágono?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(n = 10\). <span class="mate-bloque">\[D = \frac{10(10 - 3)}{2} = \frac{10 \cdot 7}{2} = 35.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-21-4"><div class="caja-titulo">Ejercicio 21.4</div><div class="caja-cuerpo"><p>En un paralelogramo, uno de los ángulos interiores mide:</p>
+<div class="mate"><span class="mate-bloque">\[115^\circ.\]</span></div>
+<p>Encuentra las medidas de los otros tres ángulos.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Ángulo opuesto: \(115^\circ\). Ángulos consecutivos: \(180^\circ - 115^\circ = 65^\circ\) cada uno. Los ángulos son \(115^\circ\), \(65^\circ\), \(115^\circ\), \(65^\circ\).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-21-5"><div class="caja-titulo">Ejercicio 21.5</div><div class="caja-cuerpo"><p>Clasifica un cuadrilátero que tiene cuatro lados iguales y cuatro ángulos rectos.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Cuatro lados iguales y cuatro ángulos rectos: <strong>cuadrado</strong>.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-21-6"><div class="caja-titulo">Ejercicio 21.6</div><div class="caja-cuerpo"><p>Clasifica, según la convención utilizada en esta guía, un cuadrilátero que tiene exactamente un par de lados opuestos paralelos.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Un par de lados paralelos y el otro no: <strong>trapecio</strong>.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-21-7"><div class="caja-titulo">Ejercicio 21.7</div><div class="caja-cuerpo"><p>Encuentra el área de un trapecio cuyas bases miden:</p>
+<div class="mate"><span class="mate-bloque">\[15\ \text{cm} \qquad\text{y}\qquad 9\ \text{cm},\]</span></div>
+<p>y cuya altura mide:</p>
+<div class="mate"><span class="mate-bloque">\[6\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[A = \frac{(15 + 9)}{2} \cdot 6 = \frac{24}{2} \cdot 6 = 12 \cdot 6 = 72 \text{ cm}^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-21-8"><div class="caja-titulo">Ejercicio 21.8</div><div class="caja-cuerpo"><p>Encuentra el área de un rombo cuyas diagonales miden:</p>
+<div class="mate"><span class="mate-bloque">\[14\ \text{cm} \qquad\text{y}\qquad 10\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[A = \frac{14 \cdot 10}{2} = \frac{140}{2} = 70 \text{ cm}^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-21-9"><div class="caja-titulo">Ejercicio 21.9</div><div class="caja-cuerpo"><p>Encuentra el perímetro de un cuadrado cuya área es:</p>
+<div class="mate"><span class="mate-bloque">\[49\ \text{cm}^2.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(l^2 = 49\), entonces \(l = 7\) cm. <span class="mate-bloque">\[P = 4 \cdot 7 = 28 \text{ cm}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-21-10"><div class="caja-titulo">Ejercicio 21.10</div><div class="caja-cuerpo"><p>Encuentra el número de lados de un polígono regular cuyo ángulo interior mide:</p>
+<div class="mate"><span class="mate-bloque">\[140^\circ.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Planteamos: <span class="mate-bloque">\[\frac{(n - 2) \cdot 180^\circ}{n} = 140^\circ.\]</span> <span class="mate-bloque">\[180n - 360 = 140n \Longrightarrow 40n = 360 \Longrightarrow n = 9.\]</span> El polígono tiene 9 lados (nonágono).</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="20-triangulos.html"><span>← Anterior</span>20. Triángulos</a><a class="nav-siguiente" href="22-circunferencia-circulo.html"><span>Siguiente →</span>22. Circunferencia y círculo</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

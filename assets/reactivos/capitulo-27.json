@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "27",
+    "titulo": "Círculo trigonométrico",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "27.1",
+        "nombre": "Definición del círculo trigonométrico"
+      },
+      {
+        "codigo": "27.2",
+        "nombre": "Las seis funciones en el círculo trigonométrico"
+      },
+      {
+        "codigo": "27.3",
+        "nombre": "Signos por cuadrante"
+      },
+      {
+        "codigo": "27.4",
+        "nombre": "Ángulos coterminales"
+      },
+      {
+        "codigo": "27.5",
+        "nombre": "Periodicidad"
+      },
+      {
+        "codigo": "27.6",
+        "nombre": "Ángulos de referencia"
+      },
+      {
+        "codigo": "27.7",
+        "nombre": "Ángulos negativos"
+      },
+      {
+        "codigo": "27.8",
+        "nombre": "Fórmulas de reducción"
+      },
+      {
+        "codigo": "27.9",
+        "nombre": "Valores de funciones en ángulos notables extendidos"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas 27.1 a 27.9; se omitieron síntesis y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-27-1-01",
+      "pregunta": "El círculo trigonométrico tiene centro en:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.1",
+        "nombre": "Definición del círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "El origen $(0,0)$",
+        "B": "$(1,0)$",
+        "C": "$(0,1)$",
+        "D": "$(1,1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-1-02",
+      "pregunta": "El radio del círculo trigonométrico mide:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.1",
+        "nombre": "Definición del círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$\\pi$",
+        "C": "$360$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-1-03",
+      "pregunta": "La ecuación del círculo trigonométrico es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.1",
+        "nombre": "Definición del círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2-y^2=1$",
+        "B": "$x^2+y^2=2$",
+        "C": "$x^2+y^2=1$",
+        "D": "$x+y=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-1-04",
+      "pregunta": "La posición inicial de un ángulo estándar está sobre:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.1",
+        "nombre": "Definición del círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "El origen únicamente",
+        "B": "El semieje positivo de $x$",
+        "C": "El semieje positivo de $y$",
+        "D": "El semieje negativo de $x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-1-05",
+      "pregunta": "Los ángulos positivos se miden en sentido:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.1",
+        "nombre": "Definición del círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "Antihorario",
+        "B": "Horario",
+        "C": "Vertical",
+        "D": "Radial hacia el centro"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-1-06",
+      "pregunta": "Los ángulos negativos se miden en sentido:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.1",
+        "nombre": "Definición del círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "Antihorario",
+        "B": "Solo hacia arriba",
+        "C": "Indistintamente sin convención",
+        "D": "Horario"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-1-07",
+      "pregunta": "El punto terminal de $0^\\circ$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.1",
+        "nombre": "Definición del círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,0)$",
+        "B": "$(0,-1)$",
+        "C": "$(1,0)$",
+        "D": "$(0,1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-1-08",
+      "pregunta": "El punto terminal de $90^\\circ$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.1",
+        "nombre": "Definición del círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,-1)$",
+        "B": "$(0,1)$",
+        "C": "$(1,0)$",
+        "D": "$(-1,0)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-1-09",
+      "pregunta": "El punto terminal de $180^\\circ$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.1",
+        "nombre": "Definición del círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$(-1,0)$",
+        "B": "$(1,0)$",
+        "C": "$(0,1)$",
+        "D": "$(0,-1)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-1-10",
+      "pregunta": "El punto terminal de $270^\\circ$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.1",
+        "nombre": "Definición del círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,0)$",
+        "B": "$(0,1)$",
+        "C": "$(-1,0)$",
+        "D": "$(0,-1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-2-01",
+      "pregunta": "Si $P(x,y)$ está en el círculo unitario, entonces $\\cos\\theta=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.2",
+        "nombre": "Las seis funciones en el círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac yx$",
+        "B": "$\\frac1x$",
+        "C": "$x$",
+        "D": "$y$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-2-02",
+      "pregunta": "Si $P(x,y)$ está en el círculo unitario, entonces $\\sin\\theta=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.2",
+        "nombre": "Las seis funciones en el círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac1y$",
+        "B": "$y$",
+        "C": "$x$",
+        "D": "$\\frac xy$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-2-03",
+      "pregunta": "En el círculo unitario, $\\tan\\theta=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.2",
+        "nombre": "Las seis funciones en el círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac yx$",
+        "B": "$\\frac xy$",
+        "C": "$x+y$",
+        "D": "$xy$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-2-04",
+      "pregunta": "En el círculo unitario, $\\cot\\theta=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.2",
+        "nombre": "Las seis funciones en el círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac yx$",
+        "B": "$x^2+y^2$",
+        "C": "$1-y$",
+        "D": "$\\frac xy$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-2-05",
+      "pregunta": "En el círculo unitario, $\\sec\\theta=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.2",
+        "nombre": "Las seis funciones en el círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$x$",
+        "B": "$y$",
+        "C": "$\\frac1x$",
+        "D": "$\\frac1y$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-2-06",
+      "pregunta": "En el círculo unitario, $\\csc\\theta=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.2",
+        "nombre": "Las seis funciones en el círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$y$",
+        "B": "$\\frac1y$",
+        "C": "$\\frac1x$",
+        "D": "$x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-2-07",
+      "pregunta": "Si $P=(\\frac35,\\frac45)$, entonces $\\sin\\theta=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.2",
+        "nombre": "Las seis funciones en el círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac45$",
+        "B": "$\\frac35$",
+        "C": "$\\frac43$",
+        "D": "$\\frac54$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-2-08",
+      "pregunta": "Para el mismo punto, $\\cos\\theta=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.2",
+        "nombre": "Las seis funciones en el círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac45$",
+        "B": "$\\frac34$",
+        "C": "$\\frac53$",
+        "D": "$\\frac35$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-2-09",
+      "pregunta": "Para el mismo punto, $\\tan\\theta=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.2",
+        "nombre": "Las seis funciones en el círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac45$",
+        "B": "$\\frac35$",
+        "C": "$\\frac43$",
+        "D": "$\\frac34$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-2-10",
+      "pregunta": "Una función trigonométrica no está definida cuando:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.2",
+        "nombre": "Las seis funciones en el círculo trigonométrico"
+      },
+      "respuestas_posibles": {
+        "A": "El punto está en el círculo",
+        "B": "Su denominador correspondiente es cero",
+        "C": "Su numerador es uno",
+        "D": "El ángulo es positivo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-3-01",
+      "pregunta": "En el cuadrante I, seno y coseno son:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.3",
+        "nombre": "Signos por cuadrante"
+      },
+      "respuestas_posibles": {
+        "A": "Positivos",
+        "B": "Negativos",
+        "C": "Seno positivo y coseno negativo",
+        "D": "Seno negativo y coseno positivo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-3-02",
+      "pregunta": "En el cuadrante II, el seno es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.3",
+        "nombre": "Signos por cuadrante"
+      },
+      "respuestas_posibles": {
+        "A": "Negativo",
+        "B": "Cero",
+        "C": "No definido",
+        "D": "Positivo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-3-03",
+      "pregunta": "En el cuadrante II, el coseno es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.3",
+        "nombre": "Signos por cuadrante"
+      },
+      "respuestas_posibles": {
+        "A": "Cero",
+        "B": "No definido",
+        "C": "Negativo",
+        "D": "Positivo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-3-04",
+      "pregunta": "En el cuadrante III, la tangente es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.3",
+        "nombre": "Signos por cuadrante"
+      },
+      "respuestas_posibles": {
+        "A": "No definida",
+        "B": "Positiva",
+        "C": "Negativa",
+        "D": "Cero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-3-05",
+      "pregunta": "En el cuadrante IV, el coseno es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.3",
+        "nombre": "Signos por cuadrante"
+      },
+      "respuestas_posibles": {
+        "A": "Positivo",
+        "B": "Negativo",
+        "C": "Cero",
+        "D": "No definido"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-3-06",
+      "pregunta": "En el cuadrante IV, el seno es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.3",
+        "nombre": "Signos por cuadrante"
+      },
+      "respuestas_posibles": {
+        "A": "Positivo",
+        "B": "Cero",
+        "C": "No definido",
+        "D": "Negativo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-3-07",
+      "pregunta": "¿En qué cuadrantes es positiva la tangente?",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.3",
+        "nombre": "Signos por cuadrante"
+      },
+      "respuestas_posibles": {
+        "A": "II y IV",
+        "B": "III y IV",
+        "C": "I y III",
+        "D": "I y II"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-3-08",
+      "pregunta": "¿En qué cuadrantes es positiva la secante?",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.3",
+        "nombre": "Signos por cuadrante"
+      },
+      "respuestas_posibles": {
+        "A": "II y IV",
+        "B": "I y IV",
+        "C": "I y III",
+        "D": "II y III"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-3-09",
+      "pregunta": "¿En qué cuadrantes es positiva la cosecante?",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.3",
+        "nombre": "Signos por cuadrante"
+      },
+      "respuestas_posibles": {
+        "A": "I y II",
+        "B": "I y IV",
+        "C": "II y III",
+        "D": "III y IV"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-3-10",
+      "pregunta": "Si seno y coseno son negativos, el ángulo está en el cuadrante:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.3",
+        "nombre": "Signos por cuadrante"
+      },
+      "respuestas_posibles": {
+        "A": "I",
+        "B": "II",
+        "C": "IV",
+        "D": "III"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-4-01",
+      "pregunta": "Un ángulo coterminal positivo con $45^\\circ$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.4",
+        "nombre": "Ángulos coterminales"
+      },
+      "respuestas_posibles": {
+        "A": "$135^\\circ$",
+        "B": "$225^\\circ$",
+        "C": "$405^\\circ$",
+        "D": "$315^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-4-02",
+      "pregunta": "Un ángulo coterminal negativo con $30^\\circ$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.4",
+        "nombre": "Ángulos coterminales"
+      },
+      "respuestas_posibles": {
+        "A": "$-150^\\circ$",
+        "B": "$-330^\\circ$",
+        "C": "$-30^\\circ$",
+        "D": "$330^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-4-03",
+      "pregunta": "Reduzca $765^\\circ$ a $[0^\\circ,360^\\circ)$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.4",
+        "nombre": "Ángulos coterminales"
+      },
+      "respuestas_posibles": {
+        "A": "$45^\\circ$",
+        "B": "$35^\\circ$",
+        "C": "$405^\\circ$",
+        "D": "$315^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-4-04",
+      "pregunta": "Reduzca $-210^\\circ$ a $[0^\\circ,360^\\circ)$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.4",
+        "nombre": "Ángulos coterminales"
+      },
+      "respuestas_posibles": {
+        "A": "$210^\\circ$",
+        "B": "$330^\\circ$",
+        "C": "$30^\\circ$",
+        "D": "$150^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-4-05",
+      "pregunta": "Un ángulo coterminal con $\\frac{\\pi}{4}$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.4",
+        "nombre": "Ángulos coterminales"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{5\\pi}{4}$",
+        "B": "$\\frac{7\\pi}{4}$",
+        "C": "$\\frac{9\\pi}{4}$",
+        "D": "$\\frac{3\\pi}{4}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-4-06",
+      "pregunta": "Un ángulo coterminal negativo con $\\frac{2\\pi}{3}$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.4",
+        "nombre": "Ángulos coterminales"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac{\\pi}{3}$",
+        "B": "$-\\frac{4\\pi}{3}$",
+        "C": "$-\\frac{2\\pi}{3}$",
+        "D": "$\\frac{4\\pi}{3}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-4-07",
+      "pregunta": "Reduzca $\\frac{19\\pi}{6}$ a $[0,2\\pi)$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.4",
+        "nombre": "Ángulos coterminales"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{7\\pi}{6}$",
+        "B": "$\\frac{5\\pi}{6}$",
+        "C": "$\\frac{11\\pi}{6}$",
+        "D": "$\\frac{\\pi}{6}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-4-08",
+      "pregunta": "Reduzca $-\\frac{5\\pi}{4}$ a $[0,2\\pi)$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.4",
+        "nombre": "Ángulos coterminales"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{5\\pi}{4}$",
+        "B": "$\\frac{7\\pi}{4}$",
+        "C": "$\\frac{\\pi}{4}$",
+        "D": "$\\frac{3\\pi}{4}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-4-09",
+      "pregunta": "La forma general de los coterminales en grados es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.4",
+        "nombre": "Ángulos coterminales"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\theta+360^\\circ$",
+        "B": "$\\theta+90^\\circ$",
+        "C": "$\\theta+360^\\circ k$",
+        "D": "$\\theta+180^\\circ k$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-4-10",
+      "pregunta": "La forma general de los coterminales en radianes es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.4",
+        "nombre": "Ángulos coterminales"
+      },
+      "respuestas_posibles": {
+        "A": "$\\theta+\\frac{\\pi}{2}$",
+        "B": "$\\theta+2\\pi k$",
+        "C": "$\\theta+\\pi k$",
+        "D": "$2\\theta+\\pi$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-5-01",
+      "pregunta": "El periodo del seno es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.5",
+        "nombre": "Periodicidad"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\pi$",
+        "B": "$\\pi$",
+        "C": "$\\frac{\\pi}{2}$",
+        "D": "$4\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-5-02",
+      "pregunta": "El periodo del coseno es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.5",
+        "nombre": "Periodicidad"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pi$",
+        "B": "$\\frac{\\pi}{2}$",
+        "C": "$4\\pi$",
+        "D": "$2\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-5-03",
+      "pregunta": "El periodo de la tangente es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.5",
+        "nombre": "Periodicidad"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\pi}{2}$",
+        "B": "$4\\pi$",
+        "C": "$\\pi$",
+        "D": "$2\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-5-04",
+      "pregunta": "El periodo de la cotangente es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.5",
+        "nombre": "Periodicidad"
+      },
+      "respuestas_posibles": {
+        "A": "$4\\pi$",
+        "B": "$\\pi$",
+        "C": "$2\\pi$",
+        "D": "$\\frac{\\pi}{2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-5-05",
+      "pregunta": "El periodo de la secante es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.5",
+        "nombre": "Periodicidad"
+      },
+      "respuestas_posibles": {
+        "A": "$2\\pi$",
+        "B": "$\\pi$",
+        "C": "$\\frac{\\pi}{2}$",
+        "D": "$4\\pi$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-5-06",
+      "pregunta": "El periodo de la cosecante es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.5",
+        "nombre": "Periodicidad"
+      },
+      "respuestas_posibles": {
+        "A": "$\\pi$",
+        "B": "$\\frac{\\pi}{2}$",
+        "C": "$4\\pi$",
+        "D": "$2\\pi$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-5-07",
+      "pregunta": "Complete: $\\sin(\\theta+2\\pi)=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.5",
+        "nombre": "Periodicidad"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos\\theta$",
+        "B": "$0$",
+        "C": "$\\sin\\theta$",
+        "D": "$-\\sin\\theta$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-5-08",
+      "pregunta": "Complete: $\\cos(\\theta+2\\pi)=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.5",
+        "nombre": "Periodicidad"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$\\cos\\theta$",
+        "C": "$-\\cos\\theta$",
+        "D": "$\\sin\\theta$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-5-09",
+      "pregunta": "Complete: $\\tan(\\theta+\\pi)=$",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.5",
+        "nombre": "Periodicidad"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan\\theta$",
+        "B": "$-\\tan\\theta$",
+        "C": "$\\cot\\theta$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-5-10",
+      "pregunta": "La periodicidad permite:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.5",
+        "nombre": "Periodicidad"
+      },
+      "respuestas_posibles": {
+        "A": "Cambiar siempre el signo",
+        "B": "Convertir seno en coseno",
+        "C": "Eliminar el ángulo",
+        "D": "Reducir ángulos sin cambiar el valor de la función"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-6-01",
+      "pregunta": "El ángulo de referencia de $120^\\circ$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.6",
+        "nombre": "Ángulos de referencia"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$240^\\circ$",
+        "C": "$60^\\circ$",
+        "D": "$120^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-6-02",
+      "pregunta": "El ángulo de referencia de $150^\\circ$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.6",
+        "nombre": "Ángulos de referencia"
+      },
+      "respuestas_posibles": {
+        "A": "$210^\\circ$",
+        "B": "$30^\\circ$",
+        "C": "$60^\\circ$",
+        "D": "$150^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-6-03",
+      "pregunta": "El ángulo de referencia de $210^\\circ$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.6",
+        "nombre": "Ángulos de referencia"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$60^\\circ$",
+        "C": "$150^\\circ$",
+        "D": "$210^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-6-04",
+      "pregunta": "El ángulo de referencia de $300^\\circ$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.6",
+        "nombre": "Ángulos de referencia"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$120^\\circ$",
+        "C": "$300^\\circ$",
+        "D": "$60^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-6-05",
+      "pregunta": "El ángulo de referencia de $\\frac{5\\pi}{6}$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.6",
+        "nombre": "Ángulos de referencia"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{5\\pi}{6}$",
+        "B": "$\\frac{7\\pi}{6}$",
+        "C": "$\\frac{\\pi}{6}$",
+        "D": "$\\frac{\\pi}{3}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-6-06",
+      "pregunta": "El ángulo de referencia de $\\frac{4\\pi}{3}$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.6",
+        "nombre": "Ángulos de referencia"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{4\\pi}{3}$",
+        "B": "$\\frac{\\pi}{3}$",
+        "C": "$\\frac{\\pi}{6}$",
+        "D": "$\\frac{2\\pi}{3}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-6-07",
+      "pregunta": "El ángulo de referencia de $\\frac{7\\pi}{4}$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.6",
+        "nombre": "Ángulos de referencia"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\pi}{4}$",
+        "B": "$\\frac{3\\pi}{4}$",
+        "C": "$\\frac{\\pi}{2}$",
+        "D": "$\\frac{7\\pi}{4}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-6-08",
+      "pregunta": "En el cuadrante II, el ángulo de referencia de $\\theta$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.6",
+        "nombre": "Ángulos de referencia"
+      },
+      "respuestas_posibles": {
+        "A": "$\\theta-180^\\circ$",
+        "B": "$360^\\circ-\\theta$",
+        "C": "$\\theta$",
+        "D": "$180^\\circ-\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-6-09",
+      "pregunta": "En el cuadrante III, el ángulo de referencia es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.6",
+        "nombre": "Ángulos de referencia"
+      },
+      "respuestas_posibles": {
+        "A": "$360^\\circ-\\theta$",
+        "B": "$90^\\circ-\\theta$",
+        "C": "$\\theta-180^\\circ$",
+        "D": "$180^\\circ-\\theta$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-6-10",
+      "pregunta": "En el cuadrante IV, el ángulo de referencia es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.6",
+        "nombre": "Ángulos de referencia"
+      },
+      "respuestas_posibles": {
+        "A": "$\\theta-360^\\circ$",
+        "B": "$360^\\circ-\\theta$",
+        "C": "$\\theta-180^\\circ$",
+        "D": "$180^\\circ-\\theta$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-7-01",
+      "pregunta": "El ángulo $-30^\\circ$ es coterminal con:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.7",
+        "nombre": "Ángulos negativos"
+      },
+      "respuestas_posibles": {
+        "A": "$330^\\circ$",
+        "B": "$30^\\circ$",
+        "C": "$150^\\circ$",
+        "D": "$210^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-7-02",
+      "pregunta": "El ángulo $-120^\\circ$ es coterminal con:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.7",
+        "nombre": "Ángulos negativos"
+      },
+      "respuestas_posibles": {
+        "A": "$120^\\circ$",
+        "B": "$60^\\circ$",
+        "C": "$300^\\circ$",
+        "D": "$240^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-7-03",
+      "pregunta": "El ángulo $-225^\\circ$ es coterminal con:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.7",
+        "nombre": "Ángulos negativos"
+      },
+      "respuestas_posibles": {
+        "A": "$45^\\circ$",
+        "B": "$315^\\circ$",
+        "C": "$135^\\circ$",
+        "D": "$225^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-7-04",
+      "pregunta": "El ángulo $-\\frac{\\pi}{3}$ es coterminal con:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.7",
+        "nombre": "Ángulos negativos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{4\\pi}{3}$",
+        "B": "$\\frac{5\\pi}{3}$",
+        "C": "$\\frac{\\pi}{3}$",
+        "D": "$\\frac{2\\pi}{3}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-7-05",
+      "pregunta": "El ángulo $-\\frac{3\\pi}{4}$ es coterminal con:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.7",
+        "nombre": "Ángulos negativos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{5\\pi}{4}$",
+        "B": "$\\frac{3\\pi}{4}$",
+        "C": "$\\frac{\\pi}{4}$",
+        "D": "$\\frac{7\\pi}{4}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-7-06",
+      "pregunta": "La identidad de paridad del seno es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.7",
+        "nombre": "Ángulos negativos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin(-\\theta)=\\sin\\theta$",
+        "B": "$\\sin(-\\theta)=\\cos\\theta$",
+        "C": "$\\sin(-\\theta)=1$",
+        "D": "$\\sin(-\\theta)=-\\sin\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-7-07",
+      "pregunta": "La identidad de paridad del coseno es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.7",
+        "nombre": "Ángulos negativos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos(-\\theta)=\\sin\\theta$",
+        "B": "$\\cos(-\\theta)=0$",
+        "C": "$\\cos(-\\theta)=\\cos\\theta$",
+        "D": "$\\cos(-\\theta)=-\\cos\\theta$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-7-08",
+      "pregunta": "La identidad de paridad de la tangente es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.7",
+        "nombre": "Ángulos negativos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan(-\\theta)=1$",
+        "B": "$\\tan(-\\theta)=-\\tan\\theta$",
+        "C": "$\\tan(-\\theta)=\\tan\\theta$",
+        "D": "$\\tan(-\\theta)=\\cot\\theta$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-7-09",
+      "pregunta": "Calcule $\\sin(-30^\\circ)$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.7",
+        "nombre": "Ángulos negativos"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac12$",
+        "B": "$\\frac12$",
+        "C": "$-\\frac{\\sqrt3}{2}$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-7-10",
+      "pregunta": "Calcule $\\cos(-60^\\circ)$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.7",
+        "nombre": "Ángulos negativos"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac12$",
+        "B": "$\\frac{\\sqrt3}{2}$",
+        "C": "$-\\frac{\\sqrt3}{2}$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-8-01",
+      "pregunta": "La fórmula $\\sin(180^\\circ-\\theta)$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.8",
+        "nombre": "Fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cos\\theta$",
+        "B": "$-\\cos\\theta$",
+        "C": "$\\sin\\theta$",
+        "D": "$-\\sin\\theta$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-8-02",
+      "pregunta": "La fórmula $\\cos(180^\\circ-\\theta)$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.8",
+        "nombre": "Fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\sin\\theta$",
+        "B": "$-\\cos\\theta$",
+        "C": "$\\cos\\theta$",
+        "D": "$\\sin\\theta$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-8-03",
+      "pregunta": "La fórmula $\\tan(180^\\circ-\\theta)$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.8",
+        "nombre": "Fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\tan\\theta$",
+        "B": "$\\tan\\theta$",
+        "C": "$\\cot\\theta$",
+        "D": "$-\\cot\\theta$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-8-04",
+      "pregunta": "La fórmula $\\sin(180^\\circ+\\theta)$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.8",
+        "nombre": "Fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin\\theta$",
+        "B": "$\\cos\\theta$",
+        "C": "$-\\cos\\theta$",
+        "D": "$-\\sin\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-8-05",
+      "pregunta": "La fórmula $\\cos(180^\\circ+\\theta)$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.8",
+        "nombre": "Fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin\\theta$",
+        "B": "$-\\sin\\theta$",
+        "C": "$-\\cos\\theta$",
+        "D": "$\\cos\\theta$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-8-06",
+      "pregunta": "La fórmula $\\tan(180^\\circ+\\theta)$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.8",
+        "nombre": "Fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\cot\\theta$",
+        "B": "$\\tan\\theta$",
+        "C": "$-\\tan\\theta$",
+        "D": "$\\cot\\theta$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-8-07",
+      "pregunta": "La fórmula $\\sin(360^\\circ-\\theta)$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.8",
+        "nombre": "Fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\sin\\theta$",
+        "B": "$\\sin\\theta$",
+        "C": "$\\cos\\theta$",
+        "D": "$-\\cos\\theta$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-8-08",
+      "pregunta": "La fórmula $\\cos(360^\\circ-\\theta)$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.8",
+        "nombre": "Fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\cos\\theta$",
+        "B": "$\\sin\\theta$",
+        "C": "$-\\sin\\theta$",
+        "D": "$\\cos\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-8-09",
+      "pregunta": "La fórmula $\\sin(90^\\circ-\\theta)$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.8",
+        "nombre": "Fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\cos\\theta$",
+        "B": "$\\tan\\theta$",
+        "C": "$\\cos\\theta$",
+        "D": "$\\sin\\theta$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-8-10",
+      "pregunta": "La fórmula $\\cos(90^\\circ-\\theta)$ es:",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.8",
+        "nombre": "Fórmulas de reducción"
+      },
+      "respuestas_posibles": {
+        "A": "$\\cot\\theta$",
+        "B": "$\\sin\\theta$",
+        "C": "$\\cos\\theta$",
+        "D": "$-\\sin\\theta$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-9-01",
+      "pregunta": "Calcule $\\sin120^\\circ$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.9",
+        "nombre": "Valores de funciones en ángulos notables extendidos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\sqrt3}{2}$",
+        "B": "$-\\frac{\\sqrt3}{2}$",
+        "C": "$\\frac12$",
+        "D": "$-\\frac12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-9-02",
+      "pregunta": "Calcule $\\cos120^\\circ$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.9",
+        "nombre": "Valores de funciones en ángulos notables extendidos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac12$",
+        "B": "$\\frac{\\sqrt3}{2}$",
+        "C": "$-\\frac{\\sqrt3}{2}$",
+        "D": "$-\\frac12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-9-03",
+      "pregunta": "Calcule $\\tan135^\\circ$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.9",
+        "nombre": "Valores de funciones en ángulos notables extendidos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt3$",
+        "B": "$-\\sqrt3$",
+        "C": "$-1$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-9-04",
+      "pregunta": "Calcule $\\sin210^\\circ$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.9",
+        "nombre": "Valores de funciones en ángulos notables extendidos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{\\sqrt3}{2}$",
+        "B": "$-\\frac12$",
+        "C": "$\\frac12$",
+        "D": "$-\\frac{\\sqrt3}{2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-9-05",
+      "pregunta": "Calcule $\\cos225^\\circ$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.9",
+        "nombre": "Valores de funciones en ángulos notables extendidos"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac{\\sqrt2}{2}$",
+        "B": "$\\frac{\\sqrt2}{2}$",
+        "C": "$-\\frac12$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-9-06",
+      "pregunta": "Calcule $\\tan240^\\circ$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.9",
+        "nombre": "Valores de funciones en ángulos notables extendidos"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\sqrt3$",
+        "B": "$1$",
+        "C": "$-1$",
+        "D": "$\\sqrt3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-9-07",
+      "pregunta": "Calcule $\\sin300^\\circ$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.9",
+        "nombre": "Valores de funciones en ángulos notables extendidos"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac12$",
+        "B": "$\\frac12$",
+        "C": "$-\\frac{\\sqrt3}{2}$",
+        "D": "$\\frac{\\sqrt3}{2}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-9-08",
+      "pregunta": "Calcule $\\cos315^\\circ$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.9",
+        "nombre": "Valores de funciones en ángulos notables extendidos"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac12$",
+        "B": "$\\frac{\\sqrt2}{2}$",
+        "C": "$-\\frac{\\sqrt2}{2}$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-9-09",
+      "pregunta": "Calcule $\\tan330^\\circ$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.9",
+        "nombre": "Valores de funciones en ángulos notables extendidos"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac{\\sqrt3}{3}$",
+        "B": "$\\frac{\\sqrt3}{3}$",
+        "C": "$-\\sqrt3$",
+        "D": "$\\sqrt3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-27-9-10",
+      "pregunta": "Calcule $\\csc150^\\circ$.",
+      "tema": {
+        "codigo": "27",
+        "nombre": "Círculo trigonométrico",
+        "bloque": "Trigonometría"
+      },
+      "subtema": {
+        "codigo": "27.9",
+        "nombre": "Valores de funciones en ángulos notables extendidos"
+      },
+      "respuestas_posibles": {
+        "A": "$-2$",
+        "B": "$\\frac12$",
+        "C": "$\\sqrt3$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aplicar el círculo trigonométrico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

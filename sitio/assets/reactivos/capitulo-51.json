@@ -1,0 +1,3456 @@
+{
+  "metadata": {
+    "capitulo": "51",
+    "titulo": "Elementos financieros básicos",
+    "version": "6.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 13,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 130,
+    "secciones_incluidas": [
+      {
+        "codigo": "51.1",
+        "nombre": "Conceptos fundamentales"
+      },
+      {
+        "codigo": "51.2",
+        "nombre": "Porcentajes y factores multiplicativos"
+      },
+      {
+        "codigo": "51.3",
+        "nombre": "Aumentos y descuentos"
+      },
+      {
+        "codigo": "51.4",
+        "nombre": "Porcentajes sucesivos"
+      },
+      {
+        "codigo": "51.5",
+        "nombre": "Cambio porcentual"
+      },
+      {
+        "codigo": "51.6",
+        "nombre": "Impuestos"
+      },
+      {
+        "codigo": "51.7",
+        "nombre": "Ganancia y pérdida"
+      },
+      {
+        "codigo": "51.8",
+        "nombre": "Interés simple"
+      },
+      {
+        "codigo": "51.9",
+        "nombre": "Interés compuesto"
+      },
+      {
+        "codigo": "51.10",
+        "nombre": "Interés simple e interés compuesto"
+      },
+      {
+        "codigo": "51.11",
+        "nombre": "Conversión del tiempo"
+      },
+      {
+        "codigo": "51.12",
+        "nombre": "Conversión proporcional de tasas"
+      },
+      {
+        "codigo": "51.13",
+        "nombre": "Cálculo del valor original"
+      }
+    ],
+    "secciones_editoriales_omitidas": [
+      "51.14 Procedimiento rápido",
+      "51.15 Resumen",
+      "51.16 Errores frecuentes",
+      "51.17 Ejercicios propuestos"
+    ],
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_validado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-51-1-01",
+      "pregunta": "En una operación financiera, el capital es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.1",
+        "nombre": "Conceptos fundamentales"
+      },
+      "respuestas_posibles": {
+        "A": "La cantidad inicial de dinero",
+        "B": "La ganancia final",
+        "C": "El porcentaje de impuesto",
+        "D": "El tiempo transcurrido"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conceptos fundamentales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-1-02",
+      "pregunta": "El monto representa:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.1",
+        "nombre": "Conceptos fundamentales"
+      },
+      "respuestas_posibles": {
+        "A": "Solo el capital inicial",
+        "B": "La tasa dividida entre el tiempo",
+        "C": "La pérdida porcentual",
+        "D": "El capital más los intereses generados"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conceptos fundamentales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-1-03",
+      "pregunta": "La tasa de interés expresa:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.1",
+        "nombre": "Conceptos fundamentales"
+      },
+      "respuestas_posibles": {
+        "A": "El número de pagos",
+        "B": "El descuento en pesos",
+        "C": "El interés por unidad de capital y tiempo",
+        "D": "El capital total"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "conceptos fundamentales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-1-04",
+      "pregunta": "El plazo de una inversión es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.1",
+        "nombre": "Conceptos fundamentales"
+      },
+      "respuestas_posibles": {
+        "A": "El valor presente",
+        "B": "El tiempo durante el cual se mantiene el capital",
+        "C": "La tasa anual",
+        "D": "El interés obtenido"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "conceptos fundamentales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-1-05",
+      "pregunta": "Si se invierten $5{,}000$ pesos y se reciben $5{,}600$, el interés ganado es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.1",
+        "nombre": "Conceptos fundamentales"
+      },
+      "respuestas_posibles": {
+        "A": "$600$ pesos",
+        "B": "$5{,}600$ pesos",
+        "C": "$5{,}000$ pesos",
+        "D": "$10{,}600$ pesos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conceptos fundamentales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-1-06",
+      "pregunta": "La relación básica entre monto $M$, capital $C$ e interés $I$ es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.1",
+        "nombre": "Conceptos fundamentales"
+      },
+      "respuestas_posibles": {
+        "A": "$M=C-I$",
+        "B": "$M=CI$",
+        "C": "$M=I/C$",
+        "D": "$M=C+I$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conceptos fundamentales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-1-07",
+      "pregunta": "El valor presente es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.1",
+        "nombre": "Conceptos fundamentales"
+      },
+      "respuestas_posibles": {
+        "A": "La tasa nominal",
+        "B": "La utilidad bruta",
+        "C": "El valor de una cantidad en el momento inicial",
+        "D": "El monto futuro siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "conceptos fundamentales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-1-08",
+      "pregunta": "Una deuda es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.1",
+        "nombre": "Conceptos fundamentales"
+      },
+      "respuestas_posibles": {
+        "A": "Un impuesto",
+        "B": "Una obligación de pago",
+        "C": "Un descuento",
+        "D": "Una ganancia asegurada"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "conceptos fundamentales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-1-09",
+      "pregunta": "En un presupuesto, los ingresos son:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.1",
+        "nombre": "Conceptos fundamentales"
+      },
+      "respuestas_posibles": {
+        "A": "Entradas de dinero",
+        "B": "Salidas de dinero",
+        "C": "Deudas vencidas únicamente",
+        "D": "Porcentajes"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conceptos fundamentales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-1-10",
+      "pregunta": "El saldo se obtiene generalmente como:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.1",
+        "nombre": "Conceptos fundamentales"
+      },
+      "respuestas_posibles": {
+        "A": "Ingresos más egresos",
+        "B": "Egresos menos ingresos siempre",
+        "C": "Ingresos por egresos",
+        "D": "Ingresos menos egresos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conceptos fundamentales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-2-01",
+      "pregunta": "El factor multiplicativo de un aumento de $20\\%$ es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.2",
+        "nombre": "Porcentajes y factores multiplicativos"
+      },
+      "respuestas_posibles": {
+        "A": "$0.80$",
+        "B": "$2.00$",
+        "C": "$1.20$",
+        "D": "$0.20$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "porcentajes y factores multiplicativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-2-02",
+      "pregunta": "El factor multiplicativo de un descuento de $15\\%$ es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.2",
+        "nombre": "Porcentajes y factores multiplicativos"
+      },
+      "respuestas_posibles": {
+        "A": "$0.95$",
+        "B": "$0.85$",
+        "C": "$1.15$",
+        "D": "$0.15$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "porcentajes y factores multiplicativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-2-03",
+      "pregunta": "Aumentar una cantidad en $8\\%$ equivale a multiplicarla por:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.2",
+        "nombre": "Porcentajes y factores multiplicativos"
+      },
+      "respuestas_posibles": {
+        "A": "$1.08$",
+        "B": "$0.08$",
+        "C": "$0.92$",
+        "D": "$1.80$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "porcentajes y factores multiplicativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-2-04",
+      "pregunta": "Reducir una cantidad en $30\\%$ equivale a multiplicarla por:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.2",
+        "nombre": "Porcentajes y factores multiplicativos"
+      },
+      "respuestas_posibles": {
+        "A": "$1.30$",
+        "B": "$0.30$",
+        "C": "$0.03$",
+        "D": "$0.70$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "porcentajes y factores multiplicativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-2-05",
+      "pregunta": "El $25\\%$ de $800$ es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.2",
+        "nombre": "Porcentajes y factores multiplicativos"
+      },
+      "respuestas_posibles": {
+        "A": "$250$",
+        "B": "$600$",
+        "C": "$200$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "porcentajes y factores multiplicativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-2-06",
+      "pregunta": "¿Qué porcentaje de $500$ es $75$?",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.2",
+        "nombre": "Porcentajes y factores multiplicativos"
+      },
+      "respuestas_posibles": {
+        "A": "$75\\%$",
+        "B": "$15\\%$",
+        "C": "$10\\%$",
+        "D": "$25\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "porcentajes y factores multiplicativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-2-07",
+      "pregunta": "Escriba $0.32$ como porcentaje.",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.2",
+        "nombre": "Porcentajes y factores multiplicativos"
+      },
+      "respuestas_posibles": {
+        "A": "$32\\%$",
+        "B": "$3.2\\%$",
+        "C": "$0.32\\%$",
+        "D": "$320\\%$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "porcentajes y factores multiplicativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-2-08",
+      "pregunta": "Escriba $7.5\\%$ como decimal.",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.2",
+        "nombre": "Porcentajes y factores multiplicativos"
+      },
+      "respuestas_posibles": {
+        "A": "$0.75$",
+        "B": "$7.5$",
+        "C": "$0.0075$",
+        "D": "$0.075$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "porcentajes y factores multiplicativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-2-09",
+      "pregunta": "Si una cantidad se multiplica por $1.35$, experimenta:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.2",
+        "nombre": "Porcentajes y factores multiplicativos"
+      },
+      "respuestas_posibles": {
+        "A": "Un aumento de $135\\%$",
+        "B": "Un descuento de $65\\%$",
+        "C": "Un aumento de $35\\%$",
+        "D": "Un descuento de $35\\%$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "porcentajes y factores multiplicativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-2-10",
+      "pregunta": "Si una cantidad se multiplica por $0.92$, experimenta:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.2",
+        "nombre": "Porcentajes y factores multiplicativos"
+      },
+      "respuestas_posibles": {
+        "A": "Un aumento de $92\\%$",
+        "B": "Un descuento de $8\\%$",
+        "C": "Un aumento de $8\\%$",
+        "D": "Un descuento de $92\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "porcentajes y factores multiplicativos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-3-01",
+      "pregunta": "Un artículo de $1{,}200$ pesos aumenta $10\\%$. Su nuevo precio es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.3",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}320$",
+        "B": "$1{,}210$",
+        "C": "$1{,}080$",
+        "D": "$1{,}440$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aumentos y descuentos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-3-02",
+      "pregunta": "Un producto de $800$ pesos tiene descuento de $25\\%$. El precio final es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.3",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$200$",
+        "B": "$625$",
+        "C": "$1{,}000$",
+        "D": "$600$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aumentos y descuentos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-3-03",
+      "pregunta": "El aumento de $15\\%$ sobre $2{,}000$ pesos es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.3",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$230$",
+        "B": "$1{,}700$",
+        "C": "$300$",
+        "D": "$150$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aumentos y descuentos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-3-04",
+      "pregunta": "El descuento de $12\\%$ sobre $1{,}500$ pesos es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.3",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}320$",
+        "B": "$180$",
+        "C": "$120$",
+        "D": "$150$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aumentos y descuentos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-3-05",
+      "pregunta": "Una renta de $6{,}000$ aumenta $5\\%$. La nueva renta es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.3",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$6{,}300$",
+        "B": "$6{,}050$",
+        "C": "$5{,}700$",
+        "D": "$6{,}500$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aumentos y descuentos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-3-06",
+      "pregunta": "Una computadora de $18{,}000$ tiene rebaja de $20\\%$. Cuesta:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.3",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$3{,}600$",
+        "B": "$16{,}000$",
+        "C": "$21{,}600$",
+        "D": "$14{,}400$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aumentos y descuentos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-3-07",
+      "pregunta": "Un salario de $12{,}500$ aumenta $8\\%$. El incremento es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.3",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}250$",
+        "B": "$13{,}500$",
+        "C": "$1{,}000$",
+        "D": "$100$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aumentos y descuentos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-3-08",
+      "pregunta": "Después de descontar $30\\%$ a $900$ pesos, se pagan:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.3",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}170$",
+        "B": "$630$",
+        "C": "$270$",
+        "D": "$600$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aumentos y descuentos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-3-09",
+      "pregunta": "Para calcular directamente una cantidad aumentada en $p\\%$ se usa:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.3",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$C(1+p)$, con $p$ decimal",
+        "B": "$C(1-p)$",
+        "C": "$Cp$ únicamente",
+        "D": "$C/p$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "aumentos y descuentos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-3-10",
+      "pregunta": "Para calcular directamente una cantidad descontada en $p\\%$ se usa:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.3",
+        "nombre": "Aumentos y descuentos"
+      },
+      "respuestas_posibles": {
+        "A": "$C(1+p)$",
+        "B": "$C+p$",
+        "C": "$C/p$",
+        "D": "$C(1-p)$, con $p$ decimal"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "aumentos y descuentos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-4-01",
+      "pregunta": "Un precio aumenta $10\\%$ y luego $20\\%$. El factor total es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.4",
+        "nombre": "Porcentajes sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$1.20$",
+        "B": "$0.88$",
+        "C": "$1.32$",
+        "D": "$1.30$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "porcentajes sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-4-02",
+      "pregunta": "Un precio recibe descuentos sucesivos de $20\\%$ y $10\\%$. El factor total es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.4",
+        "nombre": "Porcentajes sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$0.88$",
+        "B": "$0.72$",
+        "C": "$0.70$",
+        "D": "$0.90$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "porcentajes sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-4-03",
+      "pregunta": "Sobre $1{,}000$ pesos se aplica aumento de $10\\%$ y descuento de $10\\%$. El resultado es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.4",
+        "nombre": "Porcentajes sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$990$",
+        "B": "$1{,}000$",
+        "C": "$1{,}010$",
+        "D": "$900$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "porcentajes sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-4-04",
+      "pregunta": "Dos descuentos sucesivos de $15\\%$ equivalen a un descuento total de:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.4",
+        "nombre": "Porcentajes sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$30\\%$",
+        "B": "$15\\%$",
+        "C": "$22.5\\%$",
+        "D": "$27.75\\%$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "porcentajes sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-4-05",
+      "pregunta": "Aumentar $25\\%$ y después $20\\%$ produce un aumento total de:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.4",
+        "nombre": "Porcentajes sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$5\\%$",
+        "B": "$55\\%$",
+        "C": "$50\\%$",
+        "D": "$45\\%$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "porcentajes sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-4-06",
+      "pregunta": "Un precio de $2{,}000$ aumenta $20\\%$ y luego baja $25\\%$. Termina en:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.4",
+        "nombre": "Porcentajes sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}500$",
+        "B": "$1{,}800$",
+        "C": "$2{,}000$",
+        "D": "$1{,}900$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "porcentajes sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-4-07",
+      "pregunta": "Los porcentajes sucesivos se calculan:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.4",
+        "nombre": "Porcentajes sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "Multiplicando sus factores",
+        "B": "Sumando siempre los porcentajes",
+        "C": "Restando siempre las tasas",
+        "D": "Promediando porcentajes"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "porcentajes sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-4-08",
+      "pregunta": "Un descuento de $30\\%$ seguido de aumento de $30\\%$ deja un factor de:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.4",
+        "nombre": "Porcentajes sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$1.09$",
+        "C": "$0.49$",
+        "D": "$0.91$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "porcentajes sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-4-09",
+      "pregunta": "Tres aumentos sucesivos de $10\\%$ tienen factor total:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.4",
+        "nombre": "Porcentajes sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$1.10$",
+        "B": "$3.30$",
+        "C": "$1.331$",
+        "D": "$1.30$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "porcentajes sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-4-10",
+      "pregunta": "Un descuento de $50\\%$ seguido de otro de $20\\%$ equivale a pagar:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.4",
+        "nombre": "Porcentajes sucesivos"
+      },
+      "respuestas_posibles": {
+        "A": "$80\\%$",
+        "B": "$40\\%$ del precio original",
+        "C": "$30\\%$",
+        "D": "$70\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "porcentajes sucesivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-5-01",
+      "pregunta": "Una cantidad pasa de $200$ a $250$. El aumento porcentual es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.5",
+        "nombre": "Cambio porcentual"
+      },
+      "respuestas_posibles": {
+        "A": "$25\\%$",
+        "B": "$20\\%$",
+        "C": "$50\\%$",
+        "D": "$80\\%$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "cambio porcentual",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-5-02",
+      "pregunta": "Un precio baja de $500$ a $400$. El cambio porcentual es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.5",
+        "nombre": "Cambio porcentual"
+      },
+      "respuestas_posibles": {
+        "A": "$-25\\%$",
+        "B": "$20\\%$",
+        "C": "$-100\\%$",
+        "D": "$-20\\%$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "cambio porcentual",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-5-03",
+      "pregunta": "La fórmula del cambio porcentual es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.5",
+        "nombre": "Cambio porcentual"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{V_f}{V_i-V_f}\\cdot100\\%$",
+        "B": "$V_f-V_i$",
+        "C": "$\\frac{V_f-V_i}{V_i}\\cdot100\\%$",
+        "D": "$\\frac{V_i-V_f}{V_f}\\cdot100\\%$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "cambio porcentual",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-5-04",
+      "pregunta": "Una población aumenta de $800$ a $920$. Su cambio porcentual es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.5",
+        "nombre": "Cambio porcentual"
+      },
+      "respuestas_posibles": {
+        "A": "$115\\%$",
+        "B": "$15\\%$",
+        "C": "$12\\%$",
+        "D": "$20\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "cambio porcentual",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-5-05",
+      "pregunta": "Una venta disminuye de $1{,}200$ a $900$. La disminución es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.5",
+        "nombre": "Cambio porcentual"
+      },
+      "respuestas_posibles": {
+        "A": "$25\\%$",
+        "B": "$20\\%$",
+        "C": "$30\\%$",
+        "D": "$75\\%$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "cambio porcentual",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-5-06",
+      "pregunta": "Un valor pasa de $75$ a $60$. El cambio porcentual es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.5",
+        "nombre": "Cambio porcentual"
+      },
+      "respuestas_posibles": {
+        "A": "$-15\\%$",
+        "B": "$25\\%$",
+        "C": "$-80\\%$",
+        "D": "$-20\\%$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "cambio porcentual",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-5-07",
+      "pregunta": "Si el cambio porcentual es positivo, el valor:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.5",
+        "nombre": "Cambio porcentual"
+      },
+      "respuestas_posibles": {
+        "A": "No cambió",
+        "B": "Se volvió cero",
+        "C": "Aumentó",
+        "D": "Disminuyó"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "cambio porcentual",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-5-08",
+      "pregunta": "Si un precio sube de $2{,}400$ a $2{,}760$, el incremento porcentual es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.5",
+        "nombre": "Cambio porcentual"
+      },
+      "respuestas_posibles": {
+        "A": "$360\\%$",
+        "B": "$15\\%$",
+        "C": "$10\\%$",
+        "D": "$12\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "cambio porcentual",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-5-09",
+      "pregunta": "Una cantidad pasa de $50$ a $50$. El cambio porcentual es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.5",
+        "nombre": "Cambio porcentual"
+      },
+      "respuestas_posibles": {
+        "A": "$0\\%$",
+        "B": "$50\\%$",
+        "C": "$100\\%$",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "cambio porcentual",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-5-10",
+      "pregunta": "El denominador correcto en un cambio porcentual es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.5",
+        "nombre": "Cambio porcentual"
+      },
+      "respuestas_posibles": {
+        "A": "El valor final",
+        "B": "La diferencia",
+        "C": "La suma de valores",
+        "D": "El valor inicial"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "cambio porcentual",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-6-01",
+      "pregunta": "Un artículo cuesta $1{,}000$ antes de un impuesto de $16\\%$. El total es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.6",
+        "nombre": "Impuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$840$",
+        "B": "$1{,}600$",
+        "C": "$1{,}160$",
+        "D": "$1{,}016$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "impuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-6-02",
+      "pregunta": "El impuesto de $16\\%$ sobre $2{,}500$ es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.6",
+        "nombre": "Impuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}900$",
+        "B": "$400$",
+        "C": "$160$",
+        "D": "$250$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "impuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-6-03",
+      "pregunta": "Un servicio de $800$ más impuesto de $10\\%$ cuesta:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.6",
+        "nombre": "Impuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$880$",
+        "B": "$810$",
+        "C": "$720$",
+        "D": "$900$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "impuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-6-04",
+      "pregunta": "Si el precio sin impuesto es $3{,}000$ y la tasa es $8\\%$, el impuesto es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.6",
+        "nombre": "Impuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$80$",
+        "B": "$300$",
+        "C": "$3{,}240$",
+        "D": "$240$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "impuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-6-05",
+      "pregunta": "El factor para agregar un impuesto de $12\\%$ es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.6",
+        "nombre": "Impuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$0.12$",
+        "B": "$1.20$",
+        "C": "$1.12$",
+        "D": "$0.88$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "impuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-6-06",
+      "pregunta": "Un total con impuesto de $16\\%$ es $1{,}740$. El precio antes del impuesto es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.6",
+        "nombre": "Impuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}018.40$",
+        "B": "$1{,}500$",
+        "C": "$1{,}460$",
+        "D": "$1{,}600$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "impuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-6-07",
+      "pregunta": "Si un producto exento cuesta $900$, el total por impuesto es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.6",
+        "nombre": "Impuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$900$",
+        "B": "$0$",
+        "C": "$1{,}044$",
+        "D": "$756$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "impuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-6-08",
+      "pregunta": "Un impuesto se calcula normalmente sobre:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.6",
+        "nombre": "Impuestos"
+      },
+      "respuestas_posibles": {
+        "A": "El interés futuro",
+        "B": "El descuento posterior siempre",
+        "C": "La tasa dividida entre cien dos veces",
+        "D": "La base gravable"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "impuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-6-09",
+      "pregunta": "Precio antes de impuesto más impuesto es igual a:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.6",
+        "nombre": "Impuestos"
+      },
+      "respuestas_posibles": {
+        "A": "Capital inicial",
+        "B": "Pérdida",
+        "C": "Precio total",
+        "D": "Descuento neto"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "impuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-6-10",
+      "pregunta": "Si la tasa de impuesto sube, manteniendo la misma base, el total:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.6",
+        "nombre": "Impuestos"
+      },
+      "respuestas_posibles": {
+        "A": "Se vuelve cero",
+        "B": "Aumenta",
+        "C": "Disminuye",
+        "D": "Permanece igual"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "impuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-7-01",
+      "pregunta": "Un artículo cuesta $500$ y se vende en $650$. La ganancia es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.7",
+        "nombre": "Ganancia y pérdida"
+      },
+      "respuestas_posibles": {
+        "A": "$150$",
+        "B": "$650$",
+        "C": "$500$",
+        "D": "$1{,}150$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "ganancia y pérdida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-7-02",
+      "pregunta": "El porcentaje de ganancia del caso anterior, respecto al costo, es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.7",
+        "nombre": "Ganancia y pérdida"
+      },
+      "respuestas_posibles": {
+        "A": "$23.08\\%$",
+        "B": "$15\\%$",
+        "C": "$130\\%$",
+        "D": "$30\\%$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "ganancia y pérdida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-7-03",
+      "pregunta": "Un producto cuesta $800$ y se vende con ganancia de $25\\%$. El precio de venta es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.7",
+        "nombre": "Ganancia y pérdida"
+      },
+      "respuestas_posibles": {
+        "A": "$600$",
+        "B": "$1{,}200$",
+        "C": "$1{,}000$",
+        "D": "$825$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "ganancia y pérdida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-7-04",
+      "pregunta": "Un artículo costó $1{,}200$ y se vendió en $1{,}020$. La pérdida es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.7",
+        "nombre": "Ganancia y pérdida"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}220$",
+        "B": "$180$",
+        "C": "$220$",
+        "D": "$1{,}020$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "ganancia y pérdida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-7-05",
+      "pregunta": "La pérdida porcentual del caso anterior es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.7",
+        "nombre": "Ganancia y pérdida"
+      },
+      "respuestas_posibles": {
+        "A": "$15\\%$",
+        "B": "$17.65\\%$",
+        "C": "$18\\%$",
+        "D": "$85\\%$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "ganancia y pérdida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-7-06",
+      "pregunta": "Un producto de costo $2{,}000$ se vende con pérdida de $10\\%$. Su precio es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.7",
+        "nombre": "Ganancia y pérdida"
+      },
+      "respuestas_posibles": {
+        "A": "$200$",
+        "B": "$2{,}200$",
+        "C": "$1{,}900$",
+        "D": "$1{,}800$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "ganancia y pérdida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-7-07",
+      "pregunta": "La utilidad se calcula como:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.7",
+        "nombre": "Ganancia y pérdida"
+      },
+      "respuestas_posibles": {
+        "A": "Venta más costo",
+        "B": "Venta por costo",
+        "C": "Precio de venta menos costo",
+        "D": "Costo menos venta siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "ganancia y pérdida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-7-08",
+      "pregunta": "Si el precio de venta es mayor que el costo existe:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.7",
+        "nombre": "Ganancia y pérdida"
+      },
+      "respuestas_posibles": {
+        "A": "Interés cero",
+        "B": "Ganancia",
+        "C": "Pérdida",
+        "D": "Descuento"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "ganancia y pérdida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-7-09",
+      "pregunta": "Para una ganancia de $p\\%$ sobre el costo, el precio de venta es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.7",
+        "nombre": "Ganancia y pérdida"
+      },
+      "respuestas_posibles": {
+        "A": "$C(1+p)$",
+        "B": "$C(1-p)$",
+        "C": "$Cp$ únicamente",
+        "D": "$C/p$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "ganancia y pérdida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-7-10",
+      "pregunta": "Para una pérdida de $p\\%$ sobre el costo, el precio de venta es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.7",
+        "nombre": "Ganancia y pérdida"
+      },
+      "respuestas_posibles": {
+        "A": "$C(1+p)$",
+        "B": "$C+p$",
+        "C": "$C/p$",
+        "D": "$C(1-p)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "ganancia y pérdida",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-8-01",
+      "pregunta": "La fórmula del interés simple es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.8",
+        "nombre": "Interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$I=C+i+t$",
+        "B": "$I=Ci/t$",
+        "C": "$I=Cit$",
+        "D": "$I=C(1+i)^t$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-8-02",
+      "pregunta": "La fórmula del monto con interés simple es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.8",
+        "nombre": "Interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$M=C+i+t$",
+        "B": "$M=C(1+it)$",
+        "C": "$M=C(1+i)^t$",
+        "D": "$M=Cit$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-8-03",
+      "pregunta": "Calcule el interés simple de $5{,}000$ al $8\\%$ anual durante $2$ años.",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.8",
+        "nombre": "Interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$800$",
+        "B": "$400$",
+        "C": "$864$",
+        "D": "$5{,}800$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-8-04",
+      "pregunta": "El monto del caso anterior es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.8",
+        "nombre": "Interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$800$",
+        "B": "$5{,}400$",
+        "C": "$6{,}000$",
+        "D": "$5{,}800$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-8-05",
+      "pregunta": "Un capital de $10{,}000$ al $6\\%$ anual durante $9$ meses genera:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.8",
+        "nombre": "Interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$540$",
+        "B": "$10{,}450$",
+        "C": "$450$",
+        "D": "$600$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-8-06",
+      "pregunta": "Si $C=4{,}000$, $i=0.05$ y $t=3$, el interés es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.8",
+        "nombre": "Interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$12{,}000$",
+        "B": "$600$",
+        "C": "$200$",
+        "D": "$4{,}600$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-8-07",
+      "pregunta": "En interés simple, los intereses se calculan siempre sobre:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.8",
+        "nombre": "Interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "El capital inicial",
+        "B": "El monto acumulado",
+        "C": "Solo el interés anterior",
+        "D": "La tasa nominal"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-8-08",
+      "pregunta": "Un préstamo de $8{,}000$ genera $960$ de interés simple en $2$ años. La tasa anual es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.8",
+        "nombre": "Interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$12\\%$",
+        "B": "$8\\%$",
+        "C": "$4\\%$",
+        "D": "$6\\%$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-8-09",
+      "pregunta": "¿Cuánto tiempo necesita $3{,}000$ al $10\\%$ simple para generar $900$?",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.8",
+        "nombre": "Interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$4$ años",
+        "B": "$9$ años",
+        "C": "$3$ años",
+        "D": "$2$ años"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-8-10",
+      "pregunta": "Si $M=6{,}600$ y $C=6{,}000$ en interés simple, el interés es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.8",
+        "nombre": "Interés simple"
+      },
+      "respuestas_posibles": {
+        "A": "$12{,}600$",
+        "B": "$600$",
+        "C": "$6{,}600$",
+        "D": "$6{,}000$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "interés simple",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-9-01",
+      "pregunta": "La fórmula del monto compuesto es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.9",
+        "nombre": "Interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$M=C(1+i)^n$",
+        "B": "$M=C(1+in)$",
+        "C": "$M=Cin$",
+        "D": "$M=C+i^n$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-9-02",
+      "pregunta": "Un capital de $1{,}000$ al $10\\%$ anual compuesto por $2$ años alcanza:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.9",
+        "nombre": "Interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}200$",
+        "B": "$1{,}100$",
+        "C": "$1{,}220$",
+        "D": "$1{,}210$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-9-03",
+      "pregunta": "Un capital de $5{,}000$ al $8\\%$ anual compuesto por $3$ años alcanza aproximadamente:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.9",
+        "nombre": "Interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$5{,}400$",
+        "B": "$6{,}400$",
+        "C": "$6{,}298.56$",
+        "D": "$6{,}200$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-9-04",
+      "pregunta": "En interés compuesto, cada periodo los intereses se calculan sobre:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.9",
+        "nombre": "Interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "El tiempo restante",
+        "B": "El saldo acumulado",
+        "C": "Solo el capital inicial",
+        "D": "La tasa original aislada"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-9-05",
+      "pregunta": "El factor de acumulación para $5\\%$ por periodo es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.9",
+        "nombre": "Interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$1.05$",
+        "B": "$0.05$",
+        "C": "$0.95$",
+        "D": "$1.50$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-9-06",
+      "pregunta": "Si $C=2{,}000$, $i=0.10$ y $n=3$, el monto es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.9",
+        "nombre": "Interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}600$",
+        "B": "$2{,}300$",
+        "C": "$2{,}420$",
+        "D": "$2{,}662$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-9-07",
+      "pregunta": "El interés compuesto generado se obtiene con:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.9",
+        "nombre": "Interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$I=C/M$",
+        "B": "$I=Ci$ únicamente",
+        "C": "$I=M-C$",
+        "D": "$I=M+C$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-9-08",
+      "pregunta": "Un monto de $1{,}440$ proviene de $1{,}000$ con factor total:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.9",
+        "nombre": "Interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$4.40$",
+        "B": "$1.44$",
+        "C": "$0.44$",
+        "D": "$2.44$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-9-09",
+      "pregunta": "Si la tasa compuesta es cero, el monto final:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.9",
+        "nombre": "Interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "Iguala al capital",
+        "B": "Es cero",
+        "C": "Se duplica",
+        "D": "Depende del exponente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-9-10",
+      "pregunta": "A mayor número de periodos con tasa positiva, el monto compuesto:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.9",
+        "nombre": "Interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "Disminuye",
+        "B": "Permanece fijo",
+        "C": "Se vuelve negativo",
+        "D": "Aumenta"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-10-01",
+      "pregunta": "Con la misma tasa positiva y más de un periodo, normalmente produce mayor monto:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.10",
+        "nombre": "Interés simple e interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "Ambos siempre iguales",
+        "B": "Ninguno",
+        "C": "El interés compuesto",
+        "D": "El interés simple"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "interés simple e interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-10-02",
+      "pregunta": "Para un solo periodo, interés simple y compuesto:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.10",
+        "nombre": "Interés simple e interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "El compuesto es cero",
+        "B": "Producen el mismo monto",
+        "C": "Siempre difieren",
+        "D": "El simple duplica al compuesto"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "interés simple e interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-10-03",
+      "pregunta": "Con $C=1{,}000$, $i=10\\%$ y $2$ años, el monto simple es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.10",
+        "nombre": "Interés simple e interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}200$",
+        "B": "$1{,}210$",
+        "C": "$1{,}100$",
+        "D": "$1{,}220$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "interés simple e interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-10-04",
+      "pregunta": "Con los mismos datos, el monto compuesto es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.10",
+        "nombre": "Interés simple e interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}200$",
+        "B": "$1{,}100$",
+        "C": "$1{,}220$",
+        "D": "$1{,}210$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "interés simple e interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-10-05",
+      "pregunta": "La diferencia entre ambos montos del caso anterior es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.10",
+        "nombre": "Interés simple e interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "$110$",
+        "B": "$210$",
+        "C": "$10$",
+        "D": "$100$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "interés simple e interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-10-06",
+      "pregunta": "El interés simple crece de manera:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.10",
+        "nombre": "Interés simple e interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "Aleatoria",
+        "B": "Lineal con el tiempo",
+        "C": "Exponencial",
+        "D": "Constante en monto total"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "interés simple e interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-10-07",
+      "pregunta": "El interés compuesto crece de manera:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.10",
+        "nombre": "Interés simple e interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "Geométrica o exponencial por periodos",
+        "B": "Lineal siempre",
+        "C": "Constante",
+        "D": "Aritmética decreciente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "interés simple e interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-10-08",
+      "pregunta": "En interés simple, el interés de cada periodo es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.10",
+        "nombre": "Interés simple e interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "Creciente",
+        "B": "Decreciente siempre",
+        "C": "Igual al monto",
+        "D": "Constante si capital y tasa no cambian"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "interés simple e interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-10-09",
+      "pregunta": "En interés compuesto, el interés por periodo suele:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.10",
+        "nombre": "Interés simple e interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "Ser siempre cero",
+        "B": "Disminuir con tasa positiva",
+        "C": "Aumentar porque crece la base",
+        "D": "Permanecer constante"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "interés simple e interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-10-10",
+      "pregunta": "Para plazos largos y tasa positiva, la diferencia compuesto menos simple suele:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.10",
+        "nombre": "Interés simple e interés compuesto"
+      },
+      "respuestas_posibles": {
+        "A": "Permanecer constante",
+        "B": "Aumentar",
+        "C": "Disminuir hasta cero",
+        "D": "Ser negativa"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "interés simple e interés compuesto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-11-01",
+      "pregunta": "Exprese $6$ meses en años.",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.11",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$0.5$ años",
+        "B": "$0.6$ años",
+        "C": "$2$ años",
+        "D": "$6$ años"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-11-02",
+      "pregunta": "Exprese $9$ meses en años.",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.11",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$0.9$ años",
+        "B": "$0.25$ años",
+        "C": "$1.33$ años",
+        "D": "$0.75$ años"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-11-03",
+      "pregunta": "Exprese $18$ meses en años.",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.11",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$2$ años",
+        "B": "$0.18$ años",
+        "C": "$1.5$ años",
+        "D": "$1.8$ años"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-11-04",
+      "pregunta": "Exprese $90$ días en años comerciales de $360$ días.",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.11",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$0.90$ años",
+        "B": "$0.25$ años",
+        "C": "$0.30$ años",
+        "D": "$4$ años"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-11-05",
+      "pregunta": "Exprese $45$ días en meses comerciales de $30$ días.",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.11",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$1.5$ meses",
+        "B": "$1.45$ meses",
+        "C": "$15$ meses",
+        "D": "$0.67$ meses"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-11-06",
+      "pregunta": "Dos años y tres meses equivalen a:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.11",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$24$ meses",
+        "B": "$25$ meses",
+        "C": "$30$ meses",
+        "D": "$27$ meses"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-11-07",
+      "pregunta": "Cinco trimestres equivalen a:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.11",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$12$ meses",
+        "B": "$20$ meses",
+        "C": "$15$ meses",
+        "D": "$10$ meses"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-11-08",
+      "pregunta": "Ocho bimestres equivalen a:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.11",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$24$ meses",
+        "B": "$16$ meses",
+        "C": "$8$ meses",
+        "D": "$12$ meses"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-11-09",
+      "pregunta": "Para usar una tasa anual, el tiempo debe expresarse normalmente en:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.11",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "Años",
+        "B": "Meses sin conversión",
+        "C": "Días sin conversión",
+        "D": "Porcentaje"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-11-10",
+      "pregunta": "Treinta meses equivalen a:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.11",
+        "nombre": "Conversión del tiempo"
+      },
+      "respuestas_posibles": {
+        "A": "$3$ años",
+        "B": "$2.3$ años",
+        "C": "$0.4$ años",
+        "D": "$2.5$ años"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "conversión del tiempo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-12-01",
+      "pregunta": "Una tasa anual simple de $12\\%$ equivale proporcionalmente a una tasa mensual de:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.12",
+        "nombre": "Conversión proporcional de tasas"
+      },
+      "respuestas_posibles": {
+        "A": "$6\\%$",
+        "B": "$0.12\\%$",
+        "C": "$1\\%$",
+        "D": "$12\\%$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "conversión proporcional de tasas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-12-02",
+      "pregunta": "Una tasa anual simple de $18\\%$ equivale a tasa trimestral de:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.12",
+        "nombre": "Conversión proporcional de tasas"
+      },
+      "respuestas_posibles": {
+        "A": "$72\\%$",
+        "B": "$4.5\\%$",
+        "C": "$6\\%$",
+        "D": "$1.5\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "conversión proporcional de tasas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-12-03",
+      "pregunta": "Una tasa mensual simple de $2\\%$ equivale a tasa anual de:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.12",
+        "nombre": "Conversión proporcional de tasas"
+      },
+      "respuestas_posibles": {
+        "A": "$24\\%$",
+        "B": "$12\\%$",
+        "C": "$20\\%$",
+        "D": "$2.4\\%$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "conversión proporcional de tasas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-12-04",
+      "pregunta": "Una tasa bimestral simple de $3\\%$ equivale a tasa anual de:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.12",
+        "nombre": "Conversión proporcional de tasas"
+      },
+      "respuestas_posibles": {
+        "A": "$6\\%$",
+        "B": "$12\\%$",
+        "C": "$36\\%$",
+        "D": "$18\\%$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "conversión proporcional de tasas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-12-05",
+      "pregunta": "Una tasa semestral simple de $7\\%$ equivale a tasa anual de:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.12",
+        "nombre": "Conversión proporcional de tasas"
+      },
+      "respuestas_posibles": {
+        "A": "$3.5\\%$",
+        "B": "$42\\%$",
+        "C": "$14\\%$",
+        "D": "$7\\%$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "conversión proporcional de tasas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-12-06",
+      "pregunta": "Una tasa anual simple de $20\\%$ equivale a tasa semestral de:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.12",
+        "nombre": "Conversión proporcional de tasas"
+      },
+      "respuestas_posibles": {
+        "A": "$40\\%$",
+        "B": "$10\\%$",
+        "C": "$20\\%$",
+        "D": "$5\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "conversión proporcional de tasas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-12-07",
+      "pregunta": "La conversión proporcional de tasas se usa directamente en:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.12",
+        "nombre": "Conversión proporcional de tasas"
+      },
+      "respuestas_posibles": {
+        "A": "Interés simple",
+        "B": "Interés compuesto efectivo siempre",
+        "C": "Descuentos sucesivos",
+        "D": "Probabilidad"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "conversión proporcional de tasas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-12-08",
+      "pregunta": "Una tasa trimestral simple de $5\\%$ equivale a tasa anual de:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.12",
+        "nombre": "Conversión proporcional de tasas"
+      },
+      "respuestas_posibles": {
+        "A": "$15\\%$",
+        "B": "$10\\%$",
+        "C": "$60\\%$",
+        "D": "$20\\%$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "conversión proporcional de tasas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-12-09",
+      "pregunta": "Una tasa anual simple de $9\\%$ equivale a tasa mensual de:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.12",
+        "nombre": "Conversión proporcional de tasas"
+      },
+      "respuestas_posibles": {
+        "A": "$1\\%$",
+        "B": "$7.5\\%$",
+        "C": "$0.75\\%$",
+        "D": "$0.9\\%$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "conversión proporcional de tasas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-12-10",
+      "pregunta": "Para convertir proporcionalmente de anual a mensual se divide entre:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.12",
+        "nombre": "Conversión proporcional de tasas"
+      },
+      "respuestas_posibles": {
+        "A": "$365$",
+        "B": "$12$",
+        "C": "$6$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "conversión proporcional de tasas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-13-01",
+      "pregunta": "Después de aumentar $20\\%$, un precio es $1{,}200$. El original era:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.13",
+        "nombre": "Cálculo del valor original"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}000$",
+        "B": "$960$",
+        "C": "$1{,}020$",
+        "D": "$1{,}440$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "cálculo del valor original",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-13-02",
+      "pregunta": "Después de descontar $25\\%$, un artículo cuesta $900$. El original era:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.13",
+        "nombre": "Cálculo del valor original"
+      },
+      "respuestas_posibles": {
+        "A": "$675$",
+        "B": "$1{,}125$",
+        "C": "$925$",
+        "D": "$1{,}200$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "cálculo del valor original",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-13-03",
+      "pregunta": "Con impuesto de $16\\%$, el total es $2{,}320$. La base era:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.13",
+        "nombre": "Cálculo del valor original"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}160$",
+        "B": "$2{,}691.20$",
+        "C": "$2{,}000$",
+        "D": "$1{,}948.80$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "cálculo del valor original",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-13-04",
+      "pregunta": "Tras una ganancia de $30\\%$, el precio de venta es $1{,}300$. El costo era:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.13",
+        "nombre": "Cálculo del valor original"
+      },
+      "respuestas_posibles": {
+        "A": "$1{,}270$",
+        "B": "$1{,}000$",
+        "C": "$910$",
+        "D": "$1{,}690$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "cálculo del valor original",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-13-05",
+      "pregunta": "Tras una pérdida de $10\\%$, se vende en $1{,}800$. El costo era:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.13",
+        "nombre": "Cálculo del valor original"
+      },
+      "respuestas_posibles": {
+        "A": "$2{,}000$",
+        "B": "$1{,}620$",
+        "C": "$1{,}980$",
+        "D": "$1{,}900$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "cálculo del valor original",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-13-06",
+      "pregunta": "La fórmula para recuperar el original después de aumento $p$ es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.13",
+        "nombre": "Cálculo del valor original"
+      },
+      "respuestas_posibles": {
+        "A": "$C=F(1+p)$",
+        "B": "$C=F-p$",
+        "C": "$C=F/p$",
+        "D": "$C=\\frac{F}{1+p}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "cálculo del valor original",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-13-07",
+      "pregunta": "La fórmula para recuperar el original después de descuento $p$ es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.13",
+        "nombre": "Cálculo del valor original"
+      },
+      "respuestas_posibles": {
+        "A": "$C=F+p$",
+        "B": "$C=F/p$",
+        "C": "$C=\\frac{F}{1-p}$",
+        "D": "$C=F(1-p)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "cálculo del valor original",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-13-08",
+      "pregunta": "Un valor final de $840$ resulta de descuento de $30\\%$. El inicial es:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.13",
+        "nombre": "Cálculo del valor original"
+      },
+      "respuestas_posibles": {
+        "A": "$870$",
+        "B": "$1{,}200$",
+        "C": "$588$",
+        "D": "$1{,}140$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "cálculo del valor original",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-13-09",
+      "pregunta": "Un salario final de $13{,}500$ incluye aumento de $8\\%$. El salario anterior era:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.13",
+        "nombre": "Cálculo del valor original"
+      },
+      "respuestas_posibles": {
+        "A": "$12{,}500$",
+        "B": "$12{,}420$",
+        "C": "$14{,}580$",
+        "D": "$13{,}492$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "cálculo del valor original",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-51-13-10",
+      "pregunta": "Para hallar un precio antes de impuesto debe:",
+      "tema": {
+        "codigo": "51",
+        "nombre": "Elementos financieros básicos",
+        "bloque": "Matemáticas financieras"
+      },
+      "subtema": {
+        "codigo": "51.13",
+        "nombre": "Cálculo del valor original"
+      },
+      "respuestas_posibles": {
+        "A": "Restar solo la tasa decimal",
+        "B": "Multiplicar otra vez por el factor",
+        "C": "Dividir entre el porcentaje sin sumar uno",
+        "D": "Dividir el total entre el factor de impuesto"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "cálculo del valor original",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

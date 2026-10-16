@@ -1,0 +1,1867 @@
+{
+  "metadata": {
+    "capitulo": "11",
+    "titulo": "Ecuaciones de segundo grado",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 7,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 70,
+    "secciones_incluidas": [
+      {
+        "codigo": "11.1",
+        "nombre": "Forma general y clasificación"
+      },
+      {
+        "codigo": "11.2",
+        "nombre": "Fórmula general y discriminante"
+      },
+      {
+        "codigo": "11.3",
+        "nombre": "Solución por factorización"
+      },
+      {
+        "codigo": "11.4",
+        "nombre": "Completar el cuadrado"
+      },
+      {
+        "codigo": "11.5",
+        "nombre": "Elección del método de solución"
+      },
+      {
+        "codigo": "11.6",
+        "nombre": "Relaciones entre raíces y coeficientes"
+      },
+      {
+        "codigo": "11.7",
+        "nombre": "Problemas de aplicación"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Reactivos distintos y específicos por subtema, inspirados en la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-11-1-01",
+      "pregunta": "¿Cuál es la forma general de una ecuación de segundo grado?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Forma general y clasificación"
+      },
+      "respuestas_posibles": {
+        "A": "$ax^2+bx+c=0$, con $a\\neq0$",
+        "B": "$ax+b=0$",
+        "C": "$ax^3+bx^2+c=0$",
+        "D": "$ax^2+bx+c=0$, con $a=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer forma general",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-1-02",
+      "pregunta": "En $2x^2-3x+1=0$, identifique $a$, $b$ y $c$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Forma general y clasificación"
+      },
+      "respuestas_posibles": {
+        "A": "$a=2$, $b=3$, $c=1$",
+        "B": "$a=-3$, $b=2$, $c=1$",
+        "C": "$a=1$, $b=-3$, $c=2$",
+        "D": "$a=2$, $b=-3$, $c=1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar coeficientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-1-03",
+      "pregunta": "Clasifique $3x^2-6x=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Forma general y clasificación"
+      },
+      "respuestas_posibles": {
+        "A": "Cuadrática incompleta pura",
+        "B": "Ecuación lineal",
+        "C": "Cuadrática incompleta mixta",
+        "D": "Cuadrática completa"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "clasificar ecuación mixta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-1-04",
+      "pregunta": "Clasifique $4x^2-9=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Forma general y clasificación"
+      },
+      "respuestas_posibles": {
+        "A": "Ecuación monomial",
+        "B": "Cuadrática incompleta pura",
+        "C": "Cuadrática completa",
+        "D": "Cuadrática incompleta mixta"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar ecuación pura",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-1-05",
+      "pregunta": "Clasifique $7x^2=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Forma general y clasificación"
+      },
+      "respuestas_posibles": {
+        "A": "Ecuación cuadrática monomial",
+        "B": "Cuadrática completa",
+        "C": "Cuadrática incompleta pura",
+        "D": "Ecuación lineal"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "clasificar monomial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-1-06",
+      "pregunta": "¿Cuál ecuación cuadrática es completa?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Forma general y clasificación"
+      },
+      "respuestas_posibles": {
+        "A": "$5x^2-6=0$",
+        "B": "$5x^2+x=0$",
+        "C": "$5x^2=0$",
+        "D": "$5x^2+x-6=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "distinguir ecuación completa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-1-07",
+      "pregunta": "¿Cuál es el término lineal de $6x^2+11x-10=0$?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Forma general y clasificación"
+      },
+      "respuestas_posibles": {
+        "A": "$-10$",
+        "B": "$11$",
+        "C": "$11x$",
+        "D": "$6x^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar término lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-1-08",
+      "pregunta": "¿Qué condición garantiza que $ax^2+bx+c=0$ sea de segundo grado?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Forma general y clasificación"
+      },
+      "respuestas_posibles": {
+        "A": "$a=b=c$",
+        "B": "$a\\neq0$",
+        "C": "$b\\neq0$",
+        "D": "$c\\neq0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "reconocer condición cuadrática",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-1-09",
+      "pregunta": "Reescriba $3x(x-2)=5$ en forma general.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Forma general y clasificación"
+      },
+      "respuestas_posibles": {
+        "A": "$3x^2-6x-5=0$",
+        "B": "$3x^2-2x-5=0$",
+        "C": "$3x^2-6x+5=0$",
+        "D": "$3x^2-6x=5x$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "convertir a forma general",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-1-10",
+      "pregunta": "Reescriba $(x-4)(x+2)=3$ en forma general.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.1",
+        "nombre": "Forma general y clasificación"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2-2x-5=0$",
+        "B": "$x^2+6x-11=0$",
+        "C": "$x^2-8x-3=0$",
+        "D": "$x^2-2x-11=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "expandir y ordenar ecuación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-2-01",
+      "pregunta": "Resuelva $x^2-7x+10=0$ mediante la fórmula general.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Fórmula general y discriminante"
+      },
+      "respuestas_posibles": {
+        "A": "$x=7$ o $x=10$",
+        "B": "$x=1$ o $x=10$",
+        "C": "$x=5$ o $x=2$",
+        "D": "$x=-5$ o $x=-2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar fórmula general",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-2-02",
+      "pregunta": "Calcule el discriminante de $2x^2-3x-2=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Fórmula general y discriminante"
+      },
+      "respuestas_posibles": {
+        "A": "$\\Delta=17$",
+        "B": "$\\Delta=25$",
+        "C": "$\\Delta=7$",
+        "D": "$\\Delta=-7$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "calcular discriminante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-2-03",
+      "pregunta": "Si $\\Delta>0$, una ecuación cuadrática con coeficientes reales tiene:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Fórmula general y discriminante"
+      },
+      "respuestas_posibles": {
+        "A": "Dos soluciones reales distintas",
+        "B": "Una solución real doble",
+        "C": "Ninguna solución real",
+        "D": "Infinitas soluciones"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "clasificar por discriminante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-2-04",
+      "pregunta": "Si $\\Delta=0$, la ecuación cuadrática tiene:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Fórmula general y discriminante"
+      },
+      "respuestas_posibles": {
+        "A": "Dos soluciones reales distintas",
+        "B": "Ninguna solución real",
+        "C": "Dos soluciones complejas distintas",
+        "D": "Una solución real doble"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "interpretar discriminante cero",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-2-05",
+      "pregunta": "Si $\\Delta<0$, la ecuación cuadrática tiene:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Fórmula general y discriminante"
+      },
+      "respuestas_posibles": {
+        "A": "Una solución real doble",
+        "B": "Infinitas soluciones",
+        "C": "Dos soluciones complejas conjugadas y ninguna real",
+        "D": "Dos soluciones reales"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "interpretar discriminante negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-2-06",
+      "pregunta": "Resuelva $6x^2+11x-10=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Fórmula general y discriminante"
+      },
+      "respuestas_posibles": {
+        "A": "$x=\\frac52$ o $x=-\\frac23$",
+        "B": "$x=\\frac23$ o $x=-\\frac52$",
+        "C": "$x=-\\frac23$ o $x=\\frac52$",
+        "D": "$x=2$ o $x=-5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "aplicar fórmula con coeficientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-2-07",
+      "pregunta": "Determine la naturaleza de las raíces de $x^2+x+1=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Fórmula general y discriminante"
+      },
+      "respuestas_posibles": {
+        "A": "No tiene raíces reales porque $\\Delta=-3$",
+        "B": "Tiene dos raíces reales porque $\\Delta=3$",
+        "C": "Tiene una raíz doble porque $\\Delta=0$",
+        "D": "Tiene raíces $1$ y $-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar discriminante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-2-08",
+      "pregunta": "Resuelva $4x^2-4x+1=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Fórmula general y discriminante"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$ o $x=-1$",
+        "B": "$x=\\frac14$",
+        "C": "$x=0$ o $x=1$",
+        "D": "$x=\\frac12$ es raíz doble"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver discriminante cero",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-2-09",
+      "pregunta": "Resuelva $3x^2+x-2=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Fórmula general y discriminante"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2$ o $x=-3$",
+        "B": "$x=\\frac13$ o $x=-2$",
+        "C": "$x=\\frac23$ o $x=-1$",
+        "D": "$x=-\\frac23$ o $x=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver cuadrática completa",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-2-10",
+      "pregunta": "En la fórmula $x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$, la expresión bajo el radical es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.2",
+        "nombre": "Fórmula general y discriminante"
+      },
+      "respuestas_posibles": {
+        "A": "El coeficiente principal",
+        "B": "El discriminante",
+        "C": "La suma de raíces",
+        "D": "El producto de raíces"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar discriminante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-3-01",
+      "pregunta": "Resuelva $(x-5)(x-4)=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Solución por factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$x=5$ o $x=4$",
+        "B": "$x=-5$ o $x=-4$",
+        "C": "$x=20$",
+        "D": "$x=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "aplicar producto cero",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-3-02",
+      "pregunta": "Resuelva $3x^2-6x=0$ por factorización.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Solución por factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$ o $x=-2$",
+        "B": "$x=3$ o $x=-2$",
+        "C": "$x=2$ solamente",
+        "D": "$x=0$ o $x=2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "extraer factor común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-3-03",
+      "pregunta": "Resuelva $4x^2-9=0$ por factorización.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Solución por factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3$ o $x=-3$",
+        "B": "$x=\\frac23$ o $x=-\\frac23$",
+        "C": "$x=\\frac32$ o $x=-\\frac32$",
+        "D": "$x=\\frac94$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "factorizar diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-3-04",
+      "pregunta": "Resuelva $x^2+7x+12=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Solución por factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3$ o $x=-4$",
+        "B": "$x=-3$ o $x=-4$",
+        "C": "$x=3$ o $x=4$",
+        "D": "$x=-2$ o $x=-6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "factorizar trinomio mónico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-3-05",
+      "pregunta": "Resuelva $2x^2+5x+2=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Solución por factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-2$ o $x=-\\frac12$",
+        "B": "$x=2$ o $x=\\frac12$",
+        "C": "$x=-1$ o $x=-2$",
+        "D": "$x=2$ o $x=-\\frac12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "factorizar trinomio no mónico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-3-06",
+      "pregunta": "Resuelva $x^2-16=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Solución por factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$x=16$",
+        "B": "$x=8$ o $x=-8$",
+        "C": "$x=4$ solamente",
+        "D": "$x=4$ o $x=-4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "usar diferencia de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-3-07",
+      "pregunta": "Resuelva $5x^2-10x=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Solución por factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$ o $x=-2$",
+        "B": "$x=2$ solamente",
+        "C": "$x=0$ o $x=2$",
+        "D": "$x=5$ o $x=-2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "factorizar monomio común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-3-08",
+      "pregunta": "¿Qué propiedad se usa después de obtener $(2x-3)(x+4)=0$?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Solución por factorización"
+      },
+      "respuestas_posibles": {
+        "A": "Propiedad de las potencias",
+        "B": "Propiedad del producto cero",
+        "C": "Propiedad distributiva",
+        "D": "Propiedad conmutativa"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "reconocer producto cero",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-3-09",
+      "pregunta": "Resuelva $x^2-2x-15=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Solución por factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$x=5$ o $x=-3$",
+        "B": "$x=-5$ o $x=3$",
+        "C": "$x=15$ o $x=-1$",
+        "D": "$x=3$ o $x=-5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "factorizar con signos opuestos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-3-10",
+      "pregunta": "Resuelva $6x^2+x-2=0$ por factorización.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.3",
+        "nombre": "Solución por factorización"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-\\frac12$ o $x=\\frac23$",
+        "B": "$x=2$ o $x=-3$",
+        "C": "$x=\\frac13$ o $x=-2$",
+        "D": "$x=\\frac12$ o $x=-\\frac23$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "factorizar trinomio general",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-4-01",
+      "pregunta": "Para completar el cuadrado en $x^2+6x$, se agrega:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Completar el cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$36$",
+        "C": "$9$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "calcular término para completar cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-4-02",
+      "pregunta": "Resuelva $x^2+6x+5=0$ completando el cuadrado.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Completar el cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$ o $x=-5$",
+        "B": "$x=-1$ o $x=-5$",
+        "C": "$x=1$ o $x=5$",
+        "D": "$x=-2$ o $x=-3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "completar cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-4-03",
+      "pregunta": "Resuelva $x^2+4x=12$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Completar el cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2$ o $x=-6$",
+        "B": "$x=6$ o $x=-2$",
+        "C": "$x=4$ o $x=-3$",
+        "D": "$x=2$ solamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "formar binomio cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-4-04",
+      "pregunta": "¿Cuál igualdad resulta de completar el cuadrado en $x^2-8x-20=0$?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Completar el cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-8)^2=20$",
+        "B": "$(x-4)^2=20$",
+        "C": "$(x+4)^2=36$",
+        "D": "$(x-4)^2=36$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "transformar a forma cuadrática perfecta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-4-05",
+      "pregunta": "Resuelva $x^2-8x-20=0$.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Completar el cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=6$ o $x=-6$",
+        "B": "$x=4$ o $x=-5$",
+        "C": "$x=10$ o $x=-2$",
+        "D": "$x=8$ o $x=-20$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver por completar cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-4-06",
+      "pregunta": "Para completar el cuadrado en $x^2+3x$, se agrega:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Completar el cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac34$",
+        "B": "$\\frac94$",
+        "C": "$\\frac32$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "completar cuadrado con coeficiente impar",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-4-07",
+      "pregunta": "Resuelva $x^2-5x+6=0$ completando el cuadrado.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Completar el cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=2$ o $x=3$",
+        "B": "$x=-2$ o $x=-3$",
+        "C": "$x=1$ o $x=6$",
+        "D": "$x=5$ o $x=6$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver mediante binomio perfecto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-4-08",
+      "pregunta": "¿Cuál es la forma completada de $x^2+10x+7$?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Completar el cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$(x+5)^2+7$",
+        "B": "$(x+10)^2-93$",
+        "C": "$(x+5)^2-25$",
+        "D": "$(x+5)^2-18$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "reescribir expresión completando cuadrado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-4-09",
+      "pregunta": "Resuelva $x^2+2x-8=0$ completando el cuadrado.",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Completar el cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=1$ o $x=-8$",
+        "B": "$x=4$ o $x=-8$",
+        "C": "$x=2$ o $x=-4$",
+        "D": "$x=-2$ o $x=4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver cuadrática por transformación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-4-10",
+      "pregunta": "Si $(x-3)^2=25$, entonces:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.4",
+        "nombre": "Completar el cuadrado"
+      },
+      "respuestas_posibles": {
+        "A": "$x=3$ o $x=25$",
+        "B": "$x=8$ o $x=-2$",
+        "C": "$x=5$ o $x=-5$",
+        "D": "$x=28$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "extraer raíz con dos signos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-5-01",
+      "pregunta": "¿Qué método es más directo para resolver $x^2-9=0$?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.5",
+        "nombre": "Elección del método de solución"
+      },
+      "respuestas_posibles": {
+        "A": "Factorización como diferencia de cuadrados",
+        "B": "Completar el cuadrado obligatoriamente",
+        "C": "Método gráfico exclusivamente",
+        "D": "División sintética"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "elegir método eficiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-5-02",
+      "pregunta": "¿Qué método es conveniente para $x^2+7x+10=0$?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.5",
+        "nombre": "Elección del método de solución"
+      },
+      "respuestas_posibles": {
+        "A": "Solo fórmula general",
+        "B": "Solo completar el cuadrado",
+        "C": "No tiene solución",
+        "D": "Factorización, porque el trinomio se factoriza fácilmente"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "seleccionar factorización",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-5-03",
+      "pregunta": "¿Qué método siempre puede aplicarse a $ax^2+bx+c=0$, con $a\\neq0$?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.5",
+        "nombre": "Elección del método de solución"
+      },
+      "respuestas_posibles": {
+        "A": "Extracción de raíz directa",
+        "B": "Producto cero sin transformar",
+        "C": "Fórmula general",
+        "D": "Factorización con enteros"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "reconocer método universal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-5-04",
+      "pregunta": "¿Qué método es especialmente útil para escribir una cuadrática como $(x-h)^2=k$?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.5",
+        "nombre": "Elección del método de solución"
+      },
+      "respuestas_posibles": {
+        "A": "Teorema del residuo",
+        "B": "Completar el cuadrado",
+        "C": "Factor común",
+        "D": "Regla de tres"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "seleccionar completación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-5-05",
+      "pregunta": "Para $3x^2-12x=0$, el método más breve es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.5",
+        "nombre": "Elección del método de solución"
+      },
+      "respuestas_posibles": {
+        "A": "Extraer factor común y aplicar producto cero",
+        "B": "Usar fórmula general sin simplificar",
+        "C": "Completar un cuadrado con fracciones",
+        "D": "Aplicar binomio de Newton"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "elegir factor común",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-5-06",
+      "pregunta": "Para $2x^2+x+7=0$, que no factoriza fácilmente en reales, conviene usar:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.5",
+        "nombre": "Elección del método de solución"
+      },
+      "respuestas_posibles": {
+        "A": "Diferencia de cuadrados",
+        "B": "Factor común",
+        "C": "Suma de cubos",
+        "D": "Fórmula general"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "elegir fórmula general",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-5-07",
+      "pregunta": "Si una ecuación tiene la forma $(x-4)^2=9$, conviene:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.5",
+        "nombre": "Elección del método de solución"
+      },
+      "respuestas_posibles": {
+        "A": "Dividir entre $x-4$",
+        "B": "Aplicar logaritmos",
+        "C": "Extraer raíz cuadrada en ambos miembros",
+        "D": "Expandir y usar siempre fórmula general"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "elegir extracción de raíz",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-5-08",
+      "pregunta": "Para determinar primero cuántas raíces reales tiene una cuadrática, se calcula:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.5",
+        "nombre": "Elección del método de solución"
+      },
+      "respuestas_posibles": {
+        "A": "El máximo común divisor",
+        "B": "El discriminante",
+        "C": "La suma de coeficientes",
+        "D": "El término lineal únicamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "usar discriminante como criterio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-5-09",
+      "pregunta": "¿Cuál método permite obtener directamente la forma de vértice asociada?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.5",
+        "nombre": "Elección del método de solución"
+      },
+      "respuestas_posibles": {
+        "A": "Completar el cuadrado",
+        "B": "Producto cero",
+        "C": "Factor común",
+        "D": "Sustitución trigonométrica"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "relacionar método y forma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-5-10",
+      "pregunta": "Para $x^2-2x-15=0$, factorizar es eficiente porque:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.5",
+        "nombre": "Elección del método de solución"
+      },
+      "respuestas_posibles": {
+        "A": "El discriminante es negativo",
+        "B": "El coeficiente cuadrático es cero",
+        "C": "La ecuación es lineal",
+        "D": "Existen enteros $-5$ y $3$ cuyo producto es $-15$ y suma $-2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "justificar elección de método",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-6-01",
+      "pregunta": "Para $2x^2-7x+3=0$, ¿cuál es la suma de las raíces?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.6",
+        "nombre": "Relaciones entre raíces y coeficientes"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac32$",
+        "B": "$-\\frac32$",
+        "C": "$\\frac72$",
+        "D": "$-\\frac72$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar suma de raíces",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-6-02",
+      "pregunta": "Para $2x^2-7x+3=0$, ¿cuál es el producto de las raíces?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.6",
+        "nombre": "Relaciones entre raíces y coeficientes"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$\\frac32$",
+        "C": "$-\\frac32$",
+        "D": "$\\frac72$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "aplicar producto de raíces",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-6-03",
+      "pregunta": "Si las raíces son $4$ y $-2$, ¿cuál ecuación mónica las tiene?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.6",
+        "nombre": "Relaciones entre raíces y coeficientes"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2-2x-8=0$",
+        "B": "$x^2+2x-8=0$",
+        "C": "$x^2-6x+8=0$",
+        "D": "$x^2+2x+8=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "construir ecuación desde raíces",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-6-04",
+      "pregunta": "Si $x_1+x_2=-5$ y $x_1x_2=6$, la ecuación mónica es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.6",
+        "nombre": "Relaciones entre raíces y coeficientes"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2-5x+6=0$",
+        "B": "$x^2+6x+5=0$",
+        "C": "$x^2-5x-6=0$",
+        "D": "$x^2+5x+6=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "usar relaciones de Viète",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-6-05",
+      "pregunta": "En $ax^2+bx+c=0$, $x_1+x_2$ es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.6",
+        "nombre": "Relaciones entre raíces y coeficientes"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{c}{a}$",
+        "B": "$-\\frac{c}{a}$",
+        "C": "$-\\frac{b}{a}$",
+        "D": "$\\frac{b}{a}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "recordar suma de raíces",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-6-06",
+      "pregunta": "En $ax^2+bx+c=0$, $x_1x_2$ es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.6",
+        "nombre": "Relaciones entre raíces y coeficientes"
+      },
+      "respuestas_posibles": {
+        "A": "$-\\frac{b}{a}$",
+        "B": "$\\frac{c}{a}$",
+        "C": "$-\\frac{c}{a}$",
+        "D": "$\\frac{b}{a}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "recordar producto de raíces",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-6-07",
+      "pregunta": "Una ecuación mónica cuyas raíces son $3$ y $5$ es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.6",
+        "nombre": "Relaciones entre raíces y coeficientes"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2-8x+15=0$",
+        "B": "$x^2+8x+15=0$",
+        "C": "$x^2-15x+8=0$",
+        "D": "$x^2+2x-15=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconstruir por suma y producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-6-08",
+      "pregunta": "Si una raíz de $x^2-9x+20=0$ es $4$, la otra raíz es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.6",
+        "nombre": "Relaciones entre raíces y coeficientes"
+      },
+      "respuestas_posibles": {
+        "A": "$-5$",
+        "B": "$13$",
+        "C": "$16$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "usar suma de raíces",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-6-09",
+      "pregunta": "Si una raíz de $3x^2-5x-2=0$ es $2$, la otra raíz es:",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.6",
+        "nombre": "Relaciones entre raíces y coeficientes"
+      },
+      "respuestas_posibles": {
+        "A": "$-2$",
+        "B": "$\\frac23$",
+        "C": "$-\\frac13$",
+        "D": "$\\frac13$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "usar producto de raíces",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-6-10",
+      "pregunta": "¿Cuál ecuación tiene raíces cuya suma es $6$ y producto $8$?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.6",
+        "nombre": "Relaciones entre raíces y coeficientes"
+      },
+      "respuestas_posibles": {
+        "A": "$x^2+6x-8=0$",
+        "B": "$x^2-6x+8=0$",
+        "C": "$x^2+6x+8=0$",
+        "D": "$x^2-8x+6=0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "identificar ecuación por Viète",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-7-01",
+      "pregunta": "El área de un rectángulo es $60\\,\\text{cm}^2$ y el largo mide $7\\,\\text{cm}$ más que el ancho. ¿Cuál es el ancho?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.7",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$5\\,\\text{cm}$",
+        "B": "$4\\,\\text{cm}$",
+        "C": "$10\\,\\text{cm}$",
+        "D": "$12\\,\\text{cm}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "modelar área rectangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-7-02",
+      "pregunta": "Dos enteros positivos consecutivos tienen producto $72$. ¿Cuál es el menor?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.7",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$9$",
+        "C": "$12$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "modelar números consecutivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-7-03",
+      "pregunta": "El cuadrado de un número supera al mismo número en $20$. ¿Cuál puede ser el número positivo?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.7",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$20$",
+        "C": "$5$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "modelar relación cuadrática",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-7-04",
+      "pregunta": "Un terreno rectangular tiene ancho $x$ y largo $x+4$. Si su área es $96$, ¿cuál es el ancho?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.7",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$8$",
+        "C": "$6$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "resolver dimensiones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-7-05",
+      "pregunta": "La suma de los cuadrados de dos enteros consecutivos es $85$. ¿Cuál es el menor entero positivo?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.7",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$5$",
+        "C": "$7$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "modelar suma de cuadrados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-7-06",
+      "pregunta": "La altura de un objeto está dada por $h(t)=-5t^2+20t+25$. ¿En qué instante positivo llega al suelo?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.7",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$t=1$",
+        "B": "$t=4$",
+        "C": "$t=25$",
+        "D": "$t=5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "resolver modelo de movimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-7-07",
+      "pregunta": "Un número positivo más su recíproco es $\\frac52$. ¿Cuál puede ser el número?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.7",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$4$",
+        "C": "$2$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "modelar ecuación racional cuadrática",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-7-08",
+      "pregunta": "La base de un triángulo mide $3\\,\\text{cm}$ más que su altura. Si el área es $20\\,\\text{cm}^2$, ¿cuál es la altura positiva?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.7",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$10\\,\\text{cm}$",
+        "B": "$5\\,\\text{cm}$",
+        "C": "$4\\,\\text{cm}$",
+        "D": "$8\\,\\text{cm}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "modelar área triangular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-7-09",
+      "pregunta": "Una edad dentro de $4$ años multiplicada por la edad actual es $96$. Si la edad actual es positiva, ¿cuál es?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.7",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$8$ años",
+        "B": "$6$ años",
+        "C": "$12$ años",
+        "D": "$24$ años"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "modelar problema de edad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-11-7-10",
+      "pregunta": "El producto de dos números pares consecutivos es $168$. ¿Cuál es el menor positivo?",
+      "tema": {
+        "codigo": "11",
+        "nombre": "Ecuaciones de segundo grado",
+        "bloque": "Álgebra"
+      },
+      "subtema": {
+        "codigo": "11.7",
+        "nombre": "Problemas de aplicación"
+      },
+      "respuestas_posibles": {
+        "A": "$10$",
+        "B": "$14$",
+        "C": "$16$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "modelar números pares consecutivos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

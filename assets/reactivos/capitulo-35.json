@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "35",
+    "titulo": "Elipse",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "35.1",
+        "nombre": "Definición y elementos"
+      },
+      {
+        "codigo": "35.2",
+        "nombre": "Formas ordinarias"
+      },
+      {
+        "codigo": "35.3",
+        "nombre": "Centro en el origen"
+      },
+      {
+        "codigo": "35.4",
+        "nombre": "Centro fuera del origen"
+      },
+      {
+        "codigo": "35.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      {
+        "codigo": "35.6",
+        "nombre": "Procedimiento rápido"
+      },
+      {
+        "codigo": "35.7",
+        "nombre": "Resumen"
+      },
+      {
+        "codigo": "35.8",
+        "nombre": "Errores frecuentes"
+      },
+      {
+        "codigo": "35.9",
+        "nombre": "Ejercicios propuestos"
+      }
+    ],
+    "criterio_de_inclusion": "Secciones 35.1 a 35.9 conforme al temario del capítulo.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-35-1-01",
+      "pregunta": "Una elipse es el conjunto de puntos cuya suma de distancias a dos puntos fijos es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Constante",
+        "B": "Cero",
+        "C": "Variable sin límite",
+        "D": "Igual a la distancia entre focos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-1-02",
+      "pregunta": "Los dos puntos fijos de una elipse se llaman:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Vértices",
+        "B": "Centros",
+        "C": "Directrices",
+        "D": "Focos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-1-03",
+      "pregunta": "El punto medio entre los focos es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Un covértice",
+        "B": "La excentricidad",
+        "C": "El centro",
+        "D": "Un vértice"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-1-04",
+      "pregunta": "El eje que contiene los focos se llama:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Directriz",
+        "B": "Eje mayor",
+        "C": "Eje menor",
+        "D": "Lado recto"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-1-05",
+      "pregunta": "Los extremos del eje mayor se llaman:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Vértices",
+        "B": "Focos",
+        "C": "Covértices",
+        "D": "Centros"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-1-06",
+      "pregunta": "Los extremos del eje menor se llaman:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "Focos",
+        "B": "Vértices",
+        "C": "Directrices",
+        "D": "Covértices"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-1-07",
+      "pregunta": "En una elipse se cumple:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "$a=b=0$",
+        "B": "$c>a$",
+        "C": "$a>b>0$",
+        "D": "$b>a>0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-1-08",
+      "pregunta": "La relación entre semiejes y distancia focal es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "$c=a+b$",
+        "B": "$c^2=a^2-b^2$",
+        "C": "$c^2=a^2+b^2$",
+        "D": "$a^2=b^2-c^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-1-09",
+      "pregunta": "La excentricidad de una elipse es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "$e=\\frac ca$",
+        "B": "$e=\\frac ac$",
+        "C": "$e=\\frac ba$",
+        "D": "$e=a+c$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-1-10",
+      "pregunta": "Para una elipse no degenerada, la excentricidad satisface:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.1",
+        "nombre": "Definición y elementos"
+      },
+      "respuestas_posibles": {
+        "A": "$e>1$",
+        "B": "$e=1$",
+        "C": "$e<0$",
+        "D": "$0<e<1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-2-01",
+      "pregunta": "La forma ordinaria horizontal es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(x-h)^2}{a^2}-\\frac{(y-k)^2}{b^2}=1$",
+        "B": "$(x-h)^2+(y-k)^2=a^2$",
+        "C": "$\\frac{(x-h)^2}{a^2}+\\frac{(y-k)^2}{b^2}=1$",
+        "D": "$\\frac{(x-h)^2}{b^2}+\\frac{(y-k)^2}{a^2}=1$ con $a>b$ siempre horizontal"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-2-02",
+      "pregunta": "La forma ordinaria vertical es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-h)^2+(y-k)^2=b^2$",
+        "B": "$\\frac{(x-h)^2}{b^2}+\\frac{(y-k)^2}{a^2}=1$",
+        "C": "$\\frac{(x-h)^2}{a^2}+\\frac{(y-k)^2}{b^2}=1$ con $a>b$ siempre vertical",
+        "D": "$\\frac{(y-k)^2}{a^2}-\\frac{(x-h)^2}{b^2}=1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-2-03",
+      "pregunta": "El centro de ambas formas es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h,k)$",
+        "B": "$(-h,-k)$",
+        "C": "$(a,b)$",
+        "D": "$(c,0)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-2-04",
+      "pregunta": "El denominador mayor determina:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "El centro",
+        "B": "La existencia de dos focos",
+        "C": "El signo de la ecuación",
+        "D": "La dirección del eje mayor"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-2-05",
+      "pregunta": "Si $a^2$ está bajo $(x-h)^2$, el eje mayor es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "Oblicuo",
+        "B": "Circular",
+        "C": "Horizontal",
+        "D": "Vertical"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-2-06",
+      "pregunta": "Si $a^2$ está bajo $(y-k)^2$, el eje mayor es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "Nulo",
+        "B": "Vertical",
+        "C": "Horizontal",
+        "D": "Oblicuo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-2-07",
+      "pregunta": "Los focos horizontales son:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h\\pm c,k)$",
+        "B": "$(h,k\\pm c)$",
+        "C": "$(h\\pm a,k)$",
+        "D": "$(h,k\\pm b)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-2-08",
+      "pregunta": "Los focos verticales son:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h\\pm c,k)$",
+        "B": "$(h\\pm b,k)$",
+        "C": "$(h,k\\pm a)$",
+        "D": "$(h,k\\pm c)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-2-09",
+      "pregunta": "Los vértices horizontales son:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h\\pm c,k)$",
+        "B": "$(h,k\\pm b)$",
+        "C": "$(h\\pm a,k)$",
+        "D": "$(h,k\\pm a)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-2-10",
+      "pregunta": "Los covértices de una elipse horizontal son:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.2",
+        "nombre": "Formas ordinarias"
+      },
+      "respuestas_posibles": {
+        "A": "$(h\\pm a,k)$",
+        "B": "$(h,k\\pm b)$",
+        "C": "$(h\\pm b,k)$",
+        "D": "$(h,k\\pm c)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-3-01",
+      "pregunta": "En $\\frac{x^2}{25}+\\frac{y^2}{9}=1$, el valor de $a$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$25$",
+        "C": "$3$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-3-02",
+      "pregunta": "En la misma elipse, el valor de $b$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$5$",
+        "C": "$4$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-3-03",
+      "pregunta": "En la misma elipse, $c=$",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$34$",
+        "C": "$4$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-3-04",
+      "pregunta": "Los focos de $\\frac{x^2}{25}+\\frac{y^2}{9}=1$ son:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,\\pm3)$",
+        "B": "$(\\pm4,0)$",
+        "C": "$(0,\\pm4)$",
+        "D": "$(\\pm5,0)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-3-05",
+      "pregunta": "Los vértices de esa elipse son:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(\\pm5,0)$",
+        "B": "$(0,\\pm5)$",
+        "C": "$(\\pm4,0)$",
+        "D": "$(0,\\pm3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-3-06",
+      "pregunta": "En $\\frac{x^2}{16}+\\frac{y^2}{36}=1$, el eje mayor es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "Horizontal",
+        "B": "Oblicuo",
+        "C": "No existe",
+        "D": "Vertical"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-3-07",
+      "pregunta": "Para esa elipse, $c=$",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$\\sqrt{52}$",
+        "C": "$2\\sqrt5$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-3-08",
+      "pregunta": "Los vértices de $\\frac{x^2}{16}+\\frac{y^2}{36}=1$ son:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(\\pm2\\sqrt5,0)$",
+        "B": "$(0,\\pm6)$",
+        "C": "$(\\pm6,0)$",
+        "D": "$(0,\\pm4)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-3-09",
+      "pregunta": "La longitud del eje mayor de $\\frac{x^2}{49}+\\frac{y^2}{25}=1$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$14$",
+        "B": "$7$",
+        "C": "$10$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-3-10",
+      "pregunta": "La longitud del eje menor de esa elipse es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.3",
+        "nombre": "Centro en el origen"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$14$",
+        "C": "$24$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-4-01",
+      "pregunta": "El centro de $\\frac{(x-2)^2}{25}+\\frac{(y+1)^2}{9}=1$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,1)$",
+        "B": "$(-1,2)$",
+        "C": "$(2,-1)$",
+        "D": "$(-2,1)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-4-02",
+      "pregunta": "Los focos de esa elipse son:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(2,-1\\pm3)$",
+        "B": "$(2\\pm4,-1)$",
+        "C": "$(2,-1\\pm4)$",
+        "D": "$(2\\pm5,-1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-4-03",
+      "pregunta": "Los vértices de esa elipse son: (sección 35.4)",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(2\\pm5,-1)$",
+        "B": "$(2,-1\\pm5)$",
+        "C": "$(2\\pm4,-1)$",
+        "D": "$(2,-1\\pm3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-4-04",
+      "pregunta": "El centro de $\\frac{(x+3)^2}{16}+\\frac{(y-4)^2}{36}=1$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,-4)$",
+        "B": "$(-3,-4)$",
+        "C": "$(4,-3)$",
+        "D": "$(-3,4)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-4-05",
+      "pregunta": "El eje mayor de esa elipse es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "Oblicuo",
+        "B": "Nulo",
+        "C": "Vertical",
+        "D": "Horizontal"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-4-06",
+      "pregunta": "Sus focos son:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3\\pm4,4)$",
+        "B": "$(-3,4\\pm2\\sqrt5)$",
+        "C": "$(-3\\pm2\\sqrt5,4)$",
+        "D": "$(-3,4\\pm6)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-4-07",
+      "pregunta": "Sus vértices son:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,4\\pm6)$",
+        "B": "$(-3\\pm6,4)$",
+        "C": "$(-3,4\\pm4)$",
+        "D": "$(-3,4\\pm2\\sqrt5)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-4-08",
+      "pregunta": "Para $\\frac{(x-1)^2}{64}+\\frac{(y-5)^2}{28}=1$, $c=$",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$36$",
+        "B": "$\\sqrt{92}$",
+        "C": "$8$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-4-09",
+      "pregunta": "Los focos de esa elipse son: (sección 35.4)",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$(1\\pm8,5)$",
+        "B": "$(1,5\\pm2\\sqrt7)$",
+        "C": "$(1\\pm6,5)$",
+        "D": "$(1,5\\pm6)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-4-10",
+      "pregunta": "La longitud del eje menor de esa elipse es: (sección 35.4)",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.4",
+        "nombre": "Centro fuera del origen"
+      },
+      "respuestas_posibles": {
+        "A": "$8\\sqrt7$",
+        "B": "$4\\sqrt7$",
+        "C": "$2\\sqrt7$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-5-01",
+      "pregunta": "Transforme $9x^2+25y^2-90x+100y+100=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(x-5)^2}{25}+\\frac{(y+2)^2}{9}=1$",
+        "B": "$\\frac{(x+5)^2}{25}+\\frac{(y-2)^2}{9}=1$",
+        "C": "$\\frac{(x-5)^2}{9}+\\frac{(y+2)^2}{25}=1$",
+        "D": "$\\frac{x^2}{25}+\\frac{y^2}{9}=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-5-02",
+      "pregunta": "Transforme $4x^2+9y^2+8x-36y+4=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(x-1)^2}{9}+\\frac{(y+2)^2}{4}=1$",
+        "B": "$\\frac{(x+1)^2}{4}+\\frac{(y-2)^2}{9}=1$",
+        "C": "$\\frac{x^2}{9}+\\frac{y^2}{4}=1$",
+        "D": "$\\frac{(x+1)^2}{9}+\\frac{(y-2)^2}{4}=1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-5-03",
+      "pregunta": "Transforme $16x^2+9y^2-64x+54y+1=0$ a forma ordinaria.",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(x-2)^2}{16}+\\frac{(y+3)^2}{9}=1$",
+        "B": "$\\frac{x^2}{9}+\\frac{y^2}{16}=1$",
+        "C": "$\\frac{(x-2)^2}{9}+\\frac{(y+3)^2}{16}=1$",
+        "D": "$\\frac{(x+2)^2}{9}+\\frac{(y-3)^2}{16}=1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-5-04",
+      "pregunta": "Para convertir una ecuación general sin término $xy$, primero se deben:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "Intercambiar $x$ y $y$",
+        "B": "Agrupar los términos en $x$ y en $y$",
+        "C": "Eliminar los términos cuadrados",
+        "D": "Dividir siempre entre cero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-5-05",
+      "pregunta": "Después de agrupar se debe:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "Completar el cuadrado en ambas variables",
+        "B": "Aplicar la fórmula general",
+        "C": "Derivar",
+        "D": "Factorizar como diferencia de cuadrados"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-5-06",
+      "pregunta": "Al completar $x^2-6x$, se obtiene:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(x-6)^2-36$",
+        "B": "$(x-3)^2+9$",
+        "C": "$(x+3)^2-9$",
+        "D": "$(x-3)^2-9$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-5-07",
+      "pregunta": "Al completar $y^2+8y$, se obtiene:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$(y-4)^2+16$",
+        "B": "$(y+4)^2+16$",
+        "C": "$(y+4)^2-16$",
+        "D": "$(y+8)^2-64$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-5-08",
+      "pregunta": "Antes de leer los semiejes, el miembro derecho debe ser:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$b^2$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$a^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-5-09",
+      "pregunta": "Para normalizar la ecuación se divide entre:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "La constante positiva del miembro derecho",
+        "B": "El coeficiente menor únicamente",
+        "C": "La suma de los coeficientes",
+        "D": "El término lineal mayor"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-5-10",
+      "pregunta": "En la forma ordinaria, los denominadores representan:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.5",
+        "nombre": "De la forma general a la ordinaria"
+      },
+      "respuestas_posibles": {
+        "A": "$a$ y $b$",
+        "B": "$c^2$ y $e^2$",
+        "C": "Las coordenadas del centro",
+        "D": "$a^2$ y $b^2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-6-01",
+      "pregunta": "Primer paso del procedimiento rápido:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "Buscar asíntotas",
+        "B": "Igualar $x$ con $y$",
+        "C": "Identificar el centro a partir de los binomios o completar cuadrados",
+        "D": "Calcular el área"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-6-02",
+      "pregunta": "El valor de $a^2$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "El numerador mayor",
+        "B": "El denominador mayor",
+        "C": "El denominador menor",
+        "D": "La suma de denominadores"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-6-03",
+      "pregunta": "El valor de $b^2$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "El denominador menor",
+        "B": "El denominador mayor",
+        "C": "La diferencia de denominadores",
+        "D": "El término independiente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-6-04",
+      "pregunta": "Para hallar $c$ se usa:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$c=\\sqrt{a^2+b^2}$",
+        "B": "$c=a-b$",
+        "C": "$c=a+b$",
+        "D": "$c=\\sqrt{a^2-b^2}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-6-05",
+      "pregunta": "La orientación se determina observando:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "La constante del lado derecho",
+        "B": "El número de focos",
+        "C": "La variable situada sobre el denominador mayor",
+        "D": "El signo del centro"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-6-06",
+      "pregunta": "Los vértices se obtienen desplazando desde el centro:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$a+b$ unidades en diagonal",
+        "B": "$a$ unidades sobre el eje mayor",
+        "C": "$b$ unidades sobre el eje mayor",
+        "D": "$c$ unidades sobre el eje menor"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-6-07",
+      "pregunta": "Los covértices se obtienen desplazando:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$b$ unidades sobre el eje menor",
+        "B": "$a$ unidades sobre el eje menor",
+        "C": "$c$ unidades sobre el eje mayor",
+        "D": "$a-b$ unidades en diagonal"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-6-08",
+      "pregunta": "Los focos se obtienen desplazando:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$c$ unidades sobre el eje menor",
+        "B": "$a$ unidades sobre el eje menor",
+        "C": "$b$ unidades sobre el eje mayor",
+        "D": "$c$ unidades sobre el eje mayor"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-6-09",
+      "pregunta": "Una verificación útil es comprobar:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$c^2=a^2+b^2$",
+        "B": "$b=a+c$",
+        "C": "$a^2=b^2+c^2$",
+        "D": "$a=b+c$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-6-10",
+      "pregunta": "La longitud de los ejes mayor y menor es, respectivamente:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.6",
+        "nombre": "Procedimiento rápido"
+      },
+      "respuestas_posibles": {
+        "A": "$a^2$ y $b^2$",
+        "B": "$2a$ y $2b$",
+        "C": "$a$ y $b$",
+        "D": "$2c$ y $2a$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-7-01",
+      "pregunta": "La ecuación horizontal centrada en $(h,k)$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(x-h)^2}{a^2}+\\frac{(y-k)^2}{b^2}=1$",
+        "B": "$\\frac{(x-h)^2}{b^2}+\\frac{(y-k)^2}{a^2}=1$ con $a>b$",
+        "C": "$\\frac{(x-h)^2}{a^2}-\\frac{(y-k)^2}{b^2}=1$",
+        "D": "$(x-h)^2+(y-k)^2=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-7-02",
+      "pregunta": "La ecuación vertical centrada en $(h,k)$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(x-h)^2}{a^2}+\\frac{(y-k)^2}{b^2}=1$ con $a>b$",
+        "B": "$\\frac{(y-k)^2}{a^2}-\\frac{(x-h)^2}{b^2}=1$",
+        "C": "$(x-h)^2+(y-k)^2=1$",
+        "D": "$\\frac{(x-h)^2}{b^2}+\\frac{(y-k)^2}{a^2}=1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-7-03",
+      "pregunta": "La relación focal es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$a^2=c^2-b^2$",
+        "B": "$c=a+b$",
+        "C": "$c^2=a^2-b^2$",
+        "D": "$c^2=a^2+b^2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-7-04",
+      "pregunta": "La excentricidad es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$e=a-c$",
+        "B": "$e=\\frac ca$",
+        "C": "$e=\\frac ac$",
+        "D": "$e=\\frac ba$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-7-05",
+      "pregunta": "El área encerrada por una elipse es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$A=\\pi ab$",
+        "B": "$A=\\pi a^2$",
+        "C": "$A=2\\pi(a+b)$",
+        "D": "$A=ab$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-7-06",
+      "pregunta": "Una circunferencia es un caso particular de elipse cuando:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$c=a$",
+        "B": "$e=1$",
+        "C": "$b=0$",
+        "D": "$a=b$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-7-07",
+      "pregunta": "Si $a=b$, entonces $c=$",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$2a$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$a$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-7-08",
+      "pregunta": "Cuanto más cercana a $1$ es la excentricidad:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Los focos coinciden",
+        "B": "Más alargada es la elipse",
+        "C": "Más circular es la elipse",
+        "D": "Menor es el eje mayor"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-7-09",
+      "pregunta": "Cuanto más cercana a $0$ es la excentricidad:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "Más circular es la elipse",
+        "B": "Más alargada es la elipse",
+        "C": "Mayor es la distancia focal relativa",
+        "D": "Desaparece el centro"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-7-10",
+      "pregunta": "La distancia entre los focos es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.7",
+        "nombre": "Resumen"
+      },
+      "respuestas_posibles": {
+        "A": "$c$",
+        "B": "$2a$",
+        "C": "$2b$",
+        "D": "$2c$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-8-01",
+      "pregunta": "Tomar el denominador menor como $a^2$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Correcto solo en elipses verticales",
+        "B": "Irrelevante",
+        "C": "Incorrecto; $a^2$ es el mayor",
+        "D": "Correcto siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-8-02",
+      "pregunta": "Usar $c^2=a^2+b^2$ en una elipse es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Correcto si el centro es el origen",
+        "B": "Incorrecto; debe restarse $b^2$",
+        "C": "Correcto",
+        "D": "Correcto si el eje es vertical"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-8-03",
+      "pregunta": "En $\\frac{(x+2)^2}{25}+\\frac{(y-3)^2}{9}=1$, el centro correcto es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,3)$",
+        "B": "$(2,-3)$",
+        "C": "$(2,3)$",
+        "D": "$(-2,-3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-8-04",
+      "pregunta": "Confundir focos con vértices implica usar:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "$b$ en lugar de $h$",
+        "B": "$k$ en lugar de $x$",
+        "C": "$1$ en lugar de $0$",
+        "D": "$a$ en lugar de $c$ o viceversa"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-8-05",
+      "pregunta": "Si el denominador mayor está bajo $y$, afirmar que el eje mayor es horizontal es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Correcto si $h=0$",
+        "B": "Correcto si $k=0$",
+        "C": "Incorrecto",
+        "D": "Correcto"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-8-06",
+      "pregunta": "Olvidar dividir toda la ecuación para obtener $1$ impide:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Completar cuadrados",
+        "B": "Leer correctamente los semiejes",
+        "C": "Encontrar el centro siempre",
+        "D": "Reconocer que es cuadrática"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-8-07",
+      "pregunta": "La excentricidad $e>1$ para una elipse indica:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Un error de cálculo o que no es una elipse",
+        "B": "Una elipse válida",
+        "C": "Una circunferencia",
+        "D": "Que los focos coinciden"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-8-08",
+      "pregunta": "En una elipse, tomar $c>a$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre correcto",
+        "B": "Correcto si es vertical",
+        "C": "Correcto si $b=1$",
+        "D": "Imposible para una elipse no degenerada"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-8-09",
+      "pregunta": "Al completar cuadrados, agregar una cantidad solo a un miembro:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre simplifica",
+        "B": "Convierte la elipse en circunferencia",
+        "C": "Rompe la igualdad",
+        "D": "No cambia la ecuación"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-8-10",
+      "pregunta": "Intercambiar las coordenadas de los focos cambia:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.8",
+        "nombre": "Errores frecuentes"
+      },
+      "respuestas_posibles": {
+        "A": "Nada",
+        "B": "La orientación de forma incorrecta",
+        "C": "Solo el área",
+        "D": "Solo la excentricidad"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-9-01",
+      "pregunta": "Halle $c$ en $\\frac{x^2}{100}+\\frac{y^2}{64}=1$.",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$2$",
+        "C": "$36$",
+        "D": "$\\sqrt{164}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-9-02",
+      "pregunta": "Halle los focos de $\\frac{x^2}{100}+\\frac{y^2}{64}=1$.",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,\\pm6)$",
+        "B": "$(\\pm10,0)$",
+        "C": "$(0,\\pm8)$",
+        "D": "$(\\pm6,0)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-9-03",
+      "pregunta": "Halle los vértices de $\\frac{x^2}{36}+\\frac{y^2}{81}=1$.",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,\\pm6)$",
+        "B": "$(\\pm3\\sqrt5,0)$",
+        "C": "$(0,\\pm9)$",
+        "D": "$(\\pm9,0)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-9-04",
+      "pregunta": "Halle el centro de $\\frac{(x-4)^2}{49}+\\frac{(y+2)^2}{25}=1$.",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(-2,4)$",
+        "B": "$(4,-2)$",
+        "C": "$(-4,2)$",
+        "D": "$(4,2)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-9-05",
+      "pregunta": "Halle los focos de esa elipse.",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$(4\\pm2\\sqrt6,-2)$",
+        "B": "$(4,-2\\pm2\\sqrt6)$",
+        "C": "$(4\\pm7,-2)$",
+        "D": "$(4,-2\\pm5)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-9-06",
+      "pregunta": "Calcule la excentricidad de $\\frac{x^2}{25}+\\frac{y^2}{9}=1$.",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac35$",
+        "B": "$\\frac54$",
+        "C": "$\\frac25$",
+        "D": "$\\frac45$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-9-07",
+      "pregunta": "Calcule el área de $\\frac{x^2}{16}+\\frac{y^2}{9}=1$.",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$7\\pi$",
+        "B": "$24\\pi$",
+        "C": "$12\\pi$",
+        "D": "$25\\pi$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-9-08",
+      "pregunta": "La longitud del eje mayor de $\\frac{(x+1)^2}{121}+\\frac{(y-2)^2}{49}=1$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$36$",
+        "B": "$22$",
+        "C": "$11$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-9-09",
+      "pregunta": "La forma ordinaria de $4x^2+9y^2-16x+18y-11=0$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(x-2)^2}{9}+\\frac{(y+1)^2}{4}=1$",
+        "B": "$\\frac{(x+2)^2}{9}+\\frac{(y-1)^2}{4}=1$",
+        "C": "$\\frac{(x-2)^2}{4}+\\frac{(y+1)^2}{9}=1$",
+        "D": "$\\frac{x^2}{9}+\\frac{y^2}{4}=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-35-9-10",
+      "pregunta": "La forma ordinaria de $9x^2+4y^2+54x-16y+61=0$ es:",
+      "tema": {
+        "codigo": "35",
+        "nombre": "Elipse",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "35.9",
+        "nombre": "Ejercicios propuestos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{(x-3)^2}{4}+\\frac{(y+2)^2}{9}=1$",
+        "B": "$\\frac{(x+3)^2}{9}+\\frac{(y-2)^2}{4}=1$",
+        "C": "$\\frac{x^2}{4}+\\frac{y^2}{9}=1$",
+        "D": "$\\frac{(x+3)^2}{4}+\\frac{(y-2)^2}{9}=1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "analizar elipses",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

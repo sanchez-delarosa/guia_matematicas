@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "capitulo": "31",
+    "titulo": "La recta",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 9,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 90,
+    "secciones_incluidas": [
+      {
+        "codigo": "31.1",
+        "nombre": "Elementos de una recta"
+      },
+      {
+        "codigo": "31.2",
+        "nombre": "Formas de la ecuación de la recta"
+      },
+      {
+        "codigo": "31.3",
+        "nombre": "Determinación de la ecuación de una recta"
+      },
+      {
+        "codigo": "31.4",
+        "nombre": "Conversión entre las formas de una recta"
+      },
+      {
+        "codigo": "31.5",
+        "nombre": "Paralelismo y perpendicularidad"
+      },
+      {
+        "codigo": "31.6",
+        "nombre": "Ángulo entre dos rectas"
+      },
+      {
+        "codigo": "31.7",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      {
+        "codigo": "31.8",
+        "nombre": "Distancia entre rectas paralelas"
+      },
+      {
+        "codigo": "31.9",
+        "nombre": "Resumen de fórmulas"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas 31.1 a 31.9; se omitieron síntesis y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-31-1-01",
+      "pregunta": "La pendiente de una recta mide:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.1",
+        "nombre": "Elementos de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "La razón de cambio vertical respecto del cambio horizontal",
+        "B": "La longitud total de la recta",
+        "C": "Su intersección con el eje $x$",
+        "D": "El área bajo la recta"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-1-02",
+      "pregunta": "En $y=mx+b$, el parámetro $m$ representa:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.1",
+        "nombre": "Elementos de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "La ordenada al origen",
+        "B": "La abscisa al origen",
+        "C": "La distancia al origen",
+        "D": "La pendiente"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-1-03",
+      "pregunta": "En $y=mx+b$, el parámetro $b$ representa:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.1",
+        "nombre": "Elementos de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "El ángulo de inclinación",
+        "B": "La distancia entre puntos",
+        "C": "La ordenada al origen",
+        "D": "La pendiente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-1-04",
+      "pregunta": "Una recta horizontal tiene pendiente:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.1",
+        "nombre": "Elementos de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$-1$",
+        "B": "$0$",
+        "C": "$1$",
+        "D": "No definida"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-1-05",
+      "pregunta": "Una recta vertical tiene pendiente:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.1",
+        "nombre": "Elementos de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "No definida",
+        "B": "$0$",
+        "C": "$1$",
+        "D": "$-1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-1-06",
+      "pregunta": "La intersección de $y=3x-5$ con el eje $y$ es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.1",
+        "nombre": "Elementos de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$(-5,0)$",
+        "B": "$(0,3)$",
+        "C": "$(3,0)$",
+        "D": "$(0,-5)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-1-07",
+      "pregunta": "La intersección de $2x+y=8$ con el eje $x$ es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.1",
+        "nombre": "Elementos de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$(8,0)$",
+        "B": "$(0,4)$",
+        "C": "$(4,0)$",
+        "D": "$(0,8)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-1-08",
+      "pregunta": "Una recta queda determinada de manera única por:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.1",
+        "nombre": "Elementos de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "Una longitud",
+        "B": "Dos puntos distintos",
+        "C": "Un solo punto",
+        "D": "Una pendiente sin punto"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-1-09",
+      "pregunta": "El vector director de una recta de pendiente $m=2$ puede ser:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.1",
+        "nombre": "Elementos de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,2)$",
+        "B": "$(2,1)$",
+        "C": "$(1,-2)$",
+        "D": "$(0,2)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-1-10",
+      "pregunta": "El ángulo de inclinación $\\theta$ satisface:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.1",
+        "nombre": "Elementos de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$m=\\sin\\theta$",
+        "B": "$m=\\cos\\theta$",
+        "C": "$m=1/\\theta$",
+        "D": "$m=\\tan\\theta$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-2-01",
+      "pregunta": "¿Cuál es la forma pendiente-ordenada?",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.2",
+        "nombre": "Formas de la ecuación de la recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y-y_1=m(x-x_1)$",
+        "B": "$\\frac{x}{a}+\\frac{y}{b}=1$",
+        "C": "$y=mx+b$",
+        "D": "$Ax+By+C=0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-2-02",
+      "pregunta": "¿Cuál es la forma punto-pendiente?",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.2",
+        "nombre": "Formas de la ecuación de la recta"
+      },
+      "respuestas_posibles": {
+        "A": "$x=x_1$",
+        "B": "$y-y_1=m(x-x_1)$",
+        "C": "$y=mx+b$",
+        "D": "$Ax+By+C=0$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-2-03",
+      "pregunta": "¿Cuál es la forma general de la recta?",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.2",
+        "nombre": "Formas de la ecuación de la recta"
+      },
+      "respuestas_posibles": {
+        "A": "$Ax+By+C=0$",
+        "B": "$y=mx+b$",
+        "C": "$x^2+y^2=r^2$",
+        "D": "$y=ax^2+bx+c$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-2-04",
+      "pregunta": "¿Cuál es la forma de interceptos?",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.2",
+        "nombre": "Formas de la ecuación de la recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y-y_1=m(x-x_1)$",
+        "B": "$Ax+By=0$",
+        "C": "$x/a=y/b$",
+        "D": "$\\frac{x}{a}+\\frac{y}{b}=1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-2-05",
+      "pregunta": "La ecuación de una recta vertical es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.2",
+        "nombre": "Formas de la ecuación de la recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=mx$",
+        "B": "$x+y=0$",
+        "C": "$x=k$",
+        "D": "$y=k$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-2-06",
+      "pregunta": "La ecuación de una recta horizontal es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.2",
+        "nombre": "Formas de la ecuación de la recta"
+      },
+      "respuestas_posibles": {
+        "A": "$Ax+C=0$",
+        "B": "$y=k$",
+        "C": "$x=k$",
+        "D": "$y=mx+b$ con $m$ no cero"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-2-07",
+      "pregunta": "En la forma general se exige usualmente que:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.2",
+        "nombre": "Formas de la ecuación de la recta"
+      },
+      "respuestas_posibles": {
+        "A": "$A$ y $B$ no sean ambos cero",
+        "B": "$A=B=0$",
+        "C": "$C=0$ siempre",
+        "D": "$A=1$ siempre"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-2-08",
+      "pregunta": "La forma pendiente-ordenada permite leer directamente:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.2",
+        "nombre": "Formas de la ecuación de la recta"
+      },
+      "respuestas_posibles": {
+        "A": "Distancia y punto medio",
+        "B": "Radio y centro",
+        "C": "Área y perímetro",
+        "D": "Pendiente y ordenada al origen"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-2-09",
+      "pregunta": "La forma punto-pendiente es útil cuando se conoce:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.2",
+        "nombre": "Formas de la ecuación de la recta"
+      },
+      "respuestas_posibles": {
+        "A": "Solo el origen",
+        "B": "El área de un triángulo",
+        "C": "Un punto y la pendiente",
+        "D": "Solo dos interceptos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-2-10",
+      "pregunta": "La forma de interceptos usa los cortes:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.2",
+        "nombre": "Formas de la ecuación de la recta"
+      },
+      "respuestas_posibles": {
+        "A": "$(a,a)$ y $(b,b)$",
+        "B": "$(a,0)$ y $(0,b)$",
+        "C": "$(a,b)$ y $(0,0)$",
+        "D": "$(1,a)$ y $(1,b)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-3-01",
+      "pregunta": "Halle la ecuación de la recta con pendiente $3$ que pasa por $(1, 2)$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.3",
+        "nombre": "Determinación de la ecuación de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=3x-1$",
+        "B": "$y=3x$",
+        "C": "$y=x+2$",
+        "D": "$x=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "determinar recta con punto y pendiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-3-02",
+      "pregunta": "Halle la ecuación de la recta con pendiente $2$ que pasa por $(0, -4)$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.3",
+        "nombre": "Determinación de la ecuación de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=2x$",
+        "B": "$y=x+-4$",
+        "C": "$x=0$",
+        "D": "$y=2x-4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "determinar recta con punto y pendiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-3-03",
+      "pregunta": "Halle la ecuación de la recta con pendiente $-1$ que pasa por $(-2, 5)$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.3",
+        "nombre": "Determinación de la ecuación de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=x+5$",
+        "B": "$x=-2$",
+        "C": "$y=-x+3$",
+        "D": "$y=-1x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "determinar recta con punto y pendiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-3-04",
+      "pregunta": "Halle la ecuación de la recta con pendiente $0$ que pasa por $(4, 1)$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.3",
+        "nombre": "Determinación de la ecuación de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$x=4$",
+        "B": "$y=1$",
+        "C": "$y=0x$",
+        "D": "$y=x+1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "determinar recta con punto y pendiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-3-05",
+      "pregunta": "Halle la ecuación de la recta con pendiente $4$ que pasa por $(3, -2)$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.3",
+        "nombre": "Determinación de la ecuación de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=4x-14$",
+        "B": "$y=4x$",
+        "C": "$y=x+-2$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "determinar recta con punto y pendiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-3-06",
+      "pregunta": "Halle la ecuación de la recta que pasa por $A(0, 1)$ y $B(2, 5)$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.3",
+        "nombre": "Determinación de la ecuación de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=x$",
+        "B": "$y=-x$",
+        "C": "$x=0$",
+        "D": "$y=2x+1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "determinar recta con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-3-07",
+      "pregunta": "Halle la ecuación de la recta que pasa por $A(1, 4)$ y $B(3, 8)$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.3",
+        "nombre": "Determinación de la ecuación de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-x$",
+        "B": "$x=1$",
+        "C": "$y=2x+2$",
+        "D": "$y=x$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "determinar recta con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-3-08",
+      "pregunta": "Halle la ecuación de la recta que pasa por $A(-2, 3)$ y $B(2, -1)$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.3",
+        "nombre": "Determinación de la ecuación de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-2$",
+        "B": "$y=-x+1$",
+        "C": "$y=x$",
+        "D": "$y=-x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "determinar recta con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-3-09",
+      "pregunta": "Halle la ecuación de la recta que pasa por $A(2, 0)$ y $B(5, 6)$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.3",
+        "nombre": "Determinación de la ecuación de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=2x-4$",
+        "B": "$y=x$",
+        "C": "$y=-x$",
+        "D": "$x=2$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "determinar recta con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-3-10",
+      "pregunta": "Halle la ecuación de la recta que pasa por $A(-1, -2)$ y $B(3, 6)$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.3",
+        "nombre": "Determinación de la ecuación de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=x$",
+        "B": "$y=-x$",
+        "C": "$x=-1$",
+        "D": "$y=2x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "determinar recta con dos puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-4-01",
+      "pregunta": "Convierta $2x+y-6=0$ a forma pendiente-ordenada.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.4",
+        "nombre": "Conversión entre las formas de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-2x-6$",
+        "B": "$y=2x+6$",
+        "C": "$y=-2x+6$",
+        "D": "$y=2x-6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-4-02",
+      "pregunta": "Convierta $3x-2y+8=0$ a forma pendiente-ordenada.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.4",
+        "nombre": "Conversión entre las formas de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=3x-2$",
+        "B": "$y=\\frac32x+4$",
+        "C": "$y=-\\frac32x-4$",
+        "D": "$y=\\frac23x+4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-4-03",
+      "pregunta": "Convierta $y=4x-7$ a forma general.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.4",
+        "nombre": "Conversión entre las formas de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$4x-y-7=0$",
+        "B": "$4x+y-7=0$",
+        "C": "$x-4y-7=0$",
+        "D": "$4x-y+7=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-4-04",
+      "pregunta": "Convierta $y=-2x+5$ a forma general.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.4",
+        "nombre": "Conversión entre las formas de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$2x-y+5=0$",
+        "B": "$-2x+y-5=0$",
+        "C": "$x+2y-5=0$",
+        "D": "$2x+y-5=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-4-05",
+      "pregunta": "Convierta $y-3=2(x+1)$ a forma pendiente-ordenada.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.4",
+        "nombre": "Conversión entre las formas de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=2x-5$",
+        "B": "$y=-2x+5$",
+        "C": "$y=2x+5$",
+        "D": "$y=2x+1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-4-06",
+      "pregunta": "Convierta $y+4=-3(x-2)$ a forma pendiente-ordenada.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.4",
+        "nombre": "Conversión entre las formas de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y=-3x+10$",
+        "B": "$y=-3x+2$",
+        "C": "$y=-3x-10$",
+        "D": "$y=3x+2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-4-07",
+      "pregunta": "Convierta $\\frac{x}{4}+\\frac{y}{2}=1$ a forma general.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.4",
+        "nombre": "Conversión entre las formas de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$x+2y-4=0$",
+        "B": "$2x+y-4=0$",
+        "C": "$x+y-6=0$",
+        "D": "$4x+2y-1=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-4-08",
+      "pregunta": "La recta $x=5$ en forma general es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.4",
+        "nombre": "Conversión entre las formas de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y-5=0$",
+        "B": "$5x-1=0$",
+        "C": "$x+y-5=0$",
+        "D": "$x-5=0$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-4-09",
+      "pregunta": "La recta $y=-3$ en forma general es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.4",
+        "nombre": "Conversión entre las formas de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$y-3=0$",
+        "B": "$x+y+3=0$",
+        "C": "$y+3=0$",
+        "D": "$x+3=0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-4-10",
+      "pregunta": "La pendiente de $Ax+By+C=0$, con $B\\ne0$, es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.4",
+        "nombre": "Conversión entre las formas de una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac CA$",
+        "B": "$-\\frac AB$",
+        "C": "$\\frac AB$",
+        "D": "$-\\frac BA$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-5-01",
+      "pregunta": "Dos rectas no verticales son paralelas si:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.5",
+        "nombre": "Paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "$m_1=m_2$",
+        "B": "$m_1m_2=-1$",
+        "C": "$m_1+m_2=0$",
+        "D": "$m_1m_2=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-5-02",
+      "pregunta": "Dos rectas no verticales son perpendiculares si:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.5",
+        "nombre": "Paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "$m_1=m_2$",
+        "B": "$m_1+m_2=1$",
+        "C": "$m_1m_2=0$",
+        "D": "$m_1m_2=-1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-5-03",
+      "pregunta": "Una recta paralela a $y=3x-2$ tiene pendiente:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.5",
+        "nombre": "Paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac13$",
+        "B": "$-\\frac13$",
+        "C": "$3$",
+        "D": "$-3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-5-04",
+      "pregunta": "Una recta perpendicular a $y=2x+1$ tiene pendiente:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.5",
+        "nombre": "Paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "$-2$",
+        "B": "$-\\frac12$",
+        "C": "$2$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-5-05",
+      "pregunta": "Las rectas $y=4x+1$ y $y=4x-7$ son:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.5",
+        "nombre": "Paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "Paralelas",
+        "B": "Perpendiculares",
+        "C": "Coincidentes",
+        "D": "Verticales"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-5-06",
+      "pregunta": "Las rectas $y=3x$ y $y=-\\frac13x+5$ son:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.5",
+        "nombre": "Paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "Paralelas",
+        "B": "Coincidentes",
+        "C": "Horizontales",
+        "D": "Perpendiculares"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-5-07",
+      "pregunta": "Una recta vertical es perpendicular a una recta:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.5",
+        "nombre": "Paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "De pendiente $1$",
+        "B": "De pendiente $-1$",
+        "C": "Horizontal",
+        "D": "Vertical"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-5-08",
+      "pregunta": "Si dos rectas tienen igual pendiente y distinta ordenada al origen, son:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.5",
+        "nombre": "Paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "Secantes no perpendiculares",
+        "B": "Paralelas distintas",
+        "C": "Coincidentes",
+        "D": "Perpendiculares"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-5-09",
+      "pregunta": "Si dos ecuaciones representan la misma recta, las rectas son:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.5",
+        "nombre": "Paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "Coincidentes",
+        "B": "Paralelas distintas",
+        "C": "Perpendiculares",
+        "D": "Alabeadas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-5-10",
+      "pregunta": "Una recta perpendicular a $2x-y+3=0$ tiene pendiente:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.5",
+        "nombre": "Paralelismo y perpendicularidad"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$\\frac12$",
+        "C": "$-2$",
+        "D": "$-\\frac12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-6-01",
+      "pregunta": "La fórmula del ángulo agudo entre dos rectas es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.6",
+        "nombre": "Ángulo entre dos rectas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sin\\theta=m_1m_2$",
+        "B": "$\\cos\\theta=m_2-m_1$",
+        "C": "$\\tan\\theta=\\left|\\frac{m_2-m_1}{1+m_1m_2}\\right|$",
+        "D": "$\\tan\\theta=m_1+m_2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-6-02",
+      "pregunta": "Si $m_1=m_2$, el ángulo entre las rectas es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.6",
+        "nombre": "Ángulo entre dos rectas"
+      },
+      "respuestas_posibles": {
+        "A": "$180^\\circ$",
+        "B": "$0^\\circ$",
+        "C": "$45^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-6-03",
+      "pregunta": "Si $m_1m_2=-1$, el ángulo entre las rectas es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.6",
+        "nombre": "Ángulo entre dos rectas"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$0^\\circ$",
+        "C": "$45^\\circ$",
+        "D": "$180^\\circ$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-6-04",
+      "pregunta": "El ángulo entre una horizontal y una recta de pendiente $1$ es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.6",
+        "nombre": "Ángulo entre dos rectas"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$60^\\circ$",
+        "C": "$90^\\circ$",
+        "D": "$45^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-6-05",
+      "pregunta": "El ángulo entre una horizontal y una recta de pendiente $\\sqrt3$ es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.6",
+        "nombre": "Ángulo entre dos rectas"
+      },
+      "respuestas_posibles": {
+        "A": "$45^\\circ$",
+        "B": "$120^\\circ$",
+        "C": "$60^\\circ$",
+        "D": "$30^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-6-06",
+      "pregunta": "Para pendientes $0$ y $-1$, el ángulo agudo es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.6",
+        "nombre": "Ángulo entre dos rectas"
+      },
+      "respuestas_posibles": {
+        "A": "$0^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$90^\\circ$",
+        "D": "$135^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-6-07",
+      "pregunta": "El valor absoluto en la fórmula se usa para obtener:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.6",
+        "nombre": "Ángulo entre dos rectas"
+      },
+      "respuestas_posibles": {
+        "A": "El ángulo agudo entre las rectas",
+        "B": "Una pendiente negativa siempre",
+        "C": "El ángulo reflejo",
+        "D": "La distancia al origen"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-6-08",
+      "pregunta": "Si $1+m_1m_2=0$, las rectas son:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.6",
+        "nombre": "Ángulo entre dos rectas"
+      },
+      "respuestas_posibles": {
+        "A": "Paralelas",
+        "B": "Coincidentes",
+        "C": "Horizontales",
+        "D": "Perpendiculares"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-6-09",
+      "pregunta": "El ángulo entre $y=x$ y $y=-x$ es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.6",
+        "nombre": "Ángulo entre dos rectas"
+      },
+      "respuestas_posibles": {
+        "A": "$45^\\circ$",
+        "B": "$180^\\circ$",
+        "C": "$90^\\circ$",
+        "D": "$0^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-6-10",
+      "pregunta": "El ángulo entre dos rectas paralelas es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.6",
+        "nombre": "Ángulo entre dos rectas"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$0^\\circ$",
+        "C": "$30^\\circ$",
+        "D": "$60^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-7-01",
+      "pregunta": "Calcule la distancia de $P(0, 0)$ a la recta $3x+4y+(-10)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.7",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$0$",
+        "C": "$1$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular distancia punto-recta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-7-02",
+      "pregunta": "Calcule la distancia de $P(1, 2)$ a la recta $3x+4y+(-10)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.7",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$3$",
+        "D": "$\\frac15$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular distancia punto-recta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-7-03",
+      "pregunta": "Calcule la distancia de $P(2, 0)$ a la recta $1x+0y+(-5)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.7",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "No se puede determinar",
+        "C": "$3$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular distancia punto-recta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-7-04",
+      "pregunta": "Calcule la distancia de $P(0, -1)$ a la recta $0x+1y+(-4)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.7",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$5$",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular distancia punto-recta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-7-05",
+      "pregunta": "Calcule la distancia de $P(3, 4)$ a la recta $4x+3y+(-24)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.7",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$3$",
+        "D": "No se puede determinar"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular distancia punto-recta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-7-06",
+      "pregunta": "Calcule la distancia de $P(-1, 2)$ a la recta $3x+4y+(0)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.7",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$3$",
+        "C": "No se puede determinar",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular distancia punto-recta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-7-07",
+      "pregunta": "Calcule la distancia de $P(5, 1)$ a la recta $0x+1y+(-3)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.7",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$3$",
+        "C": "$2$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular distancia punto-recta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-7-08",
+      "pregunta": "Calcule la distancia de $P(2, 3)$ a la recta $1x+0y+(-7)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.7",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$5$",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular distancia punto-recta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-7-09",
+      "pregunta": "Calcule la distancia de $P(0, 0)$ a la recta $5x+12y+(-13)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.7",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$0$",
+        "C": "$3$",
+        "D": "No se puede determinar"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular distancia punto-recta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-7-10",
+      "pregunta": "Calcule la distancia de $P(1, 1)$ a la recta $1x+1y+(-4)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.7",
+        "nombre": "Distancia de un punto a una recta"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$3$",
+        "D": "$\\sqrt2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular distancia punto-recta",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-8-01",
+      "pregunta": "Calcule la distancia entre $3x+4y+(-10)=0$ y $3x+4y+(5)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.8",
+        "nombre": "Distancia entre rectas paralelas"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$5$",
+        "C": "$3$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular distancia entre paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-8-02",
+      "pregunta": "Calcule la distancia entre $1x+0y+(-2)=0$ y $1x+0y+(-8)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.8",
+        "nombre": "Distancia entre rectas paralelas"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$6$",
+        "C": "$1$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular distancia entre paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-8-03",
+      "pregunta": "Calcule la distancia entre $0x+1y+(3)=0$ y $0x+1y+(-5)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.8",
+        "nombre": "Distancia entre rectas paralelas"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$1$",
+        "C": "$2$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular distancia entre paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-8-04",
+      "pregunta": "Calcule la distancia entre $5x+12y+(-13)=0$ y $5x+12y+(13)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.8",
+        "nombre": "Distancia entre rectas paralelas"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$5$",
+        "C": "No se puede determinar",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular distancia entre paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-8-05",
+      "pregunta": "Calcule la distancia entre $1x+1y+(-2)=0$ y $1x+1y+(-8)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.8",
+        "nombre": "Distancia entre rectas paralelas"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$5$",
+        "C": "$3\\sqrt2$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular distancia entre paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-8-06",
+      "pregunta": "Calcule la distancia entre $2x+-1y+(4)=0$ y $2x+-1y+(-6)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.8",
+        "nombre": "Distancia entre rectas paralelas"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$2\\sqrt5$",
+        "C": "$1$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular distancia entre paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-8-07",
+      "pregunta": "Calcule la distancia entre $4x+3y+(-1)=0$ y $4x+3y+(-21)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.8",
+        "nombre": "Distancia entre rectas paralelas"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$1$",
+        "C": "$2$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "calcular distancia entre paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-8-08",
+      "pregunta": "Calcule la distancia entre $6x+8y+(5)=0$ y $6x+8y+(-25)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.8",
+        "nombre": "Distancia entre rectas paralelas"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$2$",
+        "C": "$5$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "calcular distancia entre paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-8-09",
+      "pregunta": "Calcule la distancia entre $1x+-1y+(0)=0$ y $1x+-1y+(-4)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.8",
+        "nombre": "Distancia entre rectas paralelas"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$5$",
+        "C": "$2\\sqrt2$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "calcular distancia entre paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-8-10",
+      "pregunta": "Calcule la distancia entre $3x+-4y+(7)=0$ y $3x+-4y+(-8)=0$.",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.8",
+        "nombre": "Distancia entre rectas paralelas"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$3$",
+        "C": "$1$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular distancia entre paralelas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-9-01",
+      "pregunta": "La forma pendiente-ordenada es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.9",
+        "nombre": "Resumen de fórmulas"
+      },
+      "respuestas_posibles": {
+        "A": "$y=mx+b$",
+        "B": "$Ax+By+C=0$",
+        "C": "$y-y_1=m(x-x_1)$",
+        "D": "$x=k$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-9-02",
+      "pregunta": "La forma punto-pendiente es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.9",
+        "nombre": "Resumen de fórmulas"
+      },
+      "respuestas_posibles": {
+        "A": "$y=mx+b$",
+        "B": "$Ax+By+C=0$",
+        "C": "$y=k$",
+        "D": "$y-y_1=m(x-x_1)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-9-03",
+      "pregunta": "La pendiente entre dos puntos es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.9",
+        "nombre": "Resumen de fórmulas"
+      },
+      "respuestas_posibles": {
+        "A": "$m=x_1+x_2$",
+        "B": "$m=y_1+y_2$",
+        "C": "$m=\\frac{y_2-y_1}{x_2-x_1}$",
+        "D": "$m=\\frac{x_2-x_1}{y_2-y_1}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-9-04",
+      "pregunta": "La distancia de $(x_0,y_0)$ a $Ax+By+C=0$ es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.9",
+        "nombre": "Resumen de fórmulas"
+      },
+      "respuestas_posibles": {
+        "A": "$d=|C|$",
+        "B": "$d=\\frac{|Ax_0+By_0+C|}{\\sqrt{A^2+B^2}}$",
+        "C": "$d=Ax_0+By_0+C$",
+        "D": "$d=\\sqrt{A^2+B^2}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-9-05",
+      "pregunta": "La distancia entre $Ax+By+C_1=0$ y $Ax+By+C_2=0$ es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.9",
+        "nombre": "Resumen de fórmulas"
+      },
+      "respuestas_posibles": {
+        "A": "$d=\\frac{|C_2-C_1|}{\\sqrt{A^2+B^2}}$",
+        "B": "$d=|C_1+C_2|$",
+        "C": "$d=\\sqrt{C_1^2+C_2^2}$",
+        "D": "$d=A+B$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-9-06",
+      "pregunta": "La condición de paralelismo es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.9",
+        "nombre": "Resumen de fórmulas"
+      },
+      "respuestas_posibles": {
+        "A": "$m_1m_2=-1$",
+        "B": "$m_1+m_2=1$",
+        "C": "$m_1m_2=1$",
+        "D": "$m_1=m_2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-9-07",
+      "pregunta": "La condición de perpendicularidad es:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.9",
+        "nombre": "Resumen de fórmulas"
+      },
+      "respuestas_posibles": {
+        "A": "$m_1+m_2=0$",
+        "B": "$m_1m_2=1$",
+        "C": "$m_1m_2=-1$",
+        "D": "$m_1=m_2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-9-08",
+      "pregunta": "La ecuación de una recta vertical es: (sección 31.9)",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.9",
+        "nombre": "Resumen de fórmulas"
+      },
+      "respuestas_posibles": {
+        "A": "$x+y=k$",
+        "B": "$x=k$",
+        "C": "$y=k$",
+        "D": "$y=mx+b$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-9-09",
+      "pregunta": "La ecuación de una recta horizontal es: (sección 31.9)",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.9",
+        "nombre": "Resumen de fórmulas"
+      },
+      "respuestas_posibles": {
+        "A": "$y=k$",
+        "B": "$x=k$",
+        "C": "$x=my+b$",
+        "D": "$xy=k$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-31-9-10",
+      "pregunta": "La fórmula del ángulo entre rectas usa:",
+      "tema": {
+        "codigo": "31",
+        "nombre": "La recta",
+        "bloque": "Geometría analítica"
+      },
+      "subtema": {
+        "codigo": "31.9",
+        "nombre": "Resumen de fórmulas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\tan\\theta=m_1m_2$",
+        "B": "$\\sin\\theta=m_2-m_1$",
+        "C": "$\\cos\\theta=m_1+m_2$",
+        "D": "$\\tan\\theta=\\left|\\frac{m_2-m_1}{1+m_1m_2}\\right|$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar ecuaciones de rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

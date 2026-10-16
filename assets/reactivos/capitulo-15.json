@@ -1,0 +1,1867 @@
+{
+  "metadata": {
+    "capitulo": "15",
+    "titulo": "Concepto de función",
+    "version": "5.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 7,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 70,
+    "secciones_incluidas": [
+      {
+        "codigo": "15.1",
+        "nombre": "Relaciones y funciones"
+      },
+      {
+        "codigo": "15.2",
+        "nombre": "Dominio, codominio y rango"
+      },
+      {
+        "codigo": "15.3",
+        "nombre": "Notación y evaluación de funciones"
+      },
+      {
+        "codigo": "15.4",
+        "nombre": "Representaciones de una función"
+      },
+      {
+        "codigo": "15.5",
+        "nombre": "Criterio de la recta vertical"
+      },
+      {
+        "codigo": "15.6",
+        "nombre": "Dominio de funciones algebraicas"
+      },
+      {
+        "codigo": "15.7",
+        "nombre": "Modelación con funciones"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omitió Ejercicios propuestos. Reactivos distintos y específicos por subtema, inspirados en la guía proporcionada.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_revisado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-15-1-01",
+      "pregunta": "¿Cuál enunciado define una función?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Relaciones y funciones"
+      },
+      "respuestas_posibles": {
+        "A": "A cada elemento del dominio le asigna exactamente un elemento del codominio",
+        "B": "Cada elemento del dominio puede tener dos imágenes",
+        "C": "Todos los elementos del codominio deben tener dos preimágenes",
+        "D": "Una relación sin pares ordenados"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "reconocer definición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-1-02",
+      "pregunta": "¿Cuál relación es una función?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Relaciones y funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{(1,2),(1,3),(2,4)\\}$",
+        "B": "$\\{(0,1),(0,2)\\}$",
+        "C": "$\\{(2,3),(2,5),(4,6)\\}$",
+        "D": "$\\{(1,2),(2,4),(3,6)\\}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar función por pares",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-1-03",
+      "pregunta": "¿Cuál relación no es función?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Relaciones y funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{(1,1),(2,4),(3,9)\\}$",
+        "B": "$\\{(0,3),(2,3),(4,3)\\}$",
+        "C": "$\\{(-1,2),(-1,5),(3,4)\\}$",
+        "D": "$\\{(-1,2),(0,2),(1,2)\\}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "detectar entrada repetida con salidas distintas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-1-04",
+      "pregunta": "En una función, una misma salida puede corresponder a:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Relaciones y funciones"
+      },
+      "respuestas_posibles": {
+        "A": "Exactamente dos entradas",
+        "B": "Varias entradas",
+        "C": "Ninguna entrada nunca",
+        "D": "Una sola entrada obligatoriamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "distinguir unicidad de imagen",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-1-05",
+      "pregunta": "Si $A=\\{1,2,3\\}$ y $f(1)=4$, $f(2)=4$, $f(3)=5$, entonces $f$:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Relaciones y funciones"
+      },
+      "respuestas_posibles": {
+        "A": "Sí es una función",
+        "B": "No es función porque se repite $4$",
+        "C": "No es función porque el rango tiene dos elementos",
+        "D": "Solo es función si $A$ tiene cuatro elementos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "verificar asignación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-1-06",
+      "pregunta": "En el par ordenado $(x,y)$ de una función, $x$ representa:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Relaciones y funciones"
+      },
+      "respuestas_posibles": {
+        "A": "La imagen siempre",
+        "B": "El codominio completo",
+        "C": "La pendiente",
+        "D": "La variable independiente"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar variables",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-1-07",
+      "pregunta": "En una función expresada como $y=f(x)$, $y$ es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Relaciones y funciones"
+      },
+      "respuestas_posibles": {
+        "A": "El dominio",
+        "B": "Una constante obligatoria",
+        "C": "La variable dependiente",
+        "D": "La variable independiente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar variable dependiente",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-1-08",
+      "pregunta": "¿Cuál diagrama verbal describe una función?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Relaciones y funciones"
+      },
+      "respuestas_posibles": {
+        "A": "Una entrada se conecta con tres salidas",
+        "B": "Cada estudiante se asocia con su matrícula única",
+        "C": "Una persona se asocia simultáneamente con dos fechas de nacimiento",
+        "D": "Un número se asocia con dos cuadrados distintos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "reconocer función en contexto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-1-09",
+      "pregunta": "La relación $y^2=x$ considerada de $x$ a $y$ no define función para $x>0$ porque:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Relaciones y funciones"
+      },
+      "respuestas_posibles": {
+        "A": "Una entrada positiva tiene dos salidas reales",
+        "B": "No tiene variables",
+        "C": "Toda entrada tiene una sola salida",
+        "D": "El dominio es vacío"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "explicar falta de unicidad",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-1-10",
+      "pregunta": "La relación $y=|x|$ es una función porque:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.1",
+        "nombre": "Relaciones y funciones"
+      },
+      "respuestas_posibles": {
+        "A": "Cada $x$ produce dos valores de $y$",
+        "B": "Solo está definida para $x>0$",
+        "C": "Su rango contiene negativos",
+        "D": "Cada valor de $x$ produce un único valor de $y$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "justificar función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-2-01",
+      "pregunta": "Para $f=\\{(-2,1),(0,3),(4,3),(5,7)\\}$, ¿cuál es el dominio?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Dominio, codominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{-2,0,1,3,4,5,7\\}$",
+        "B": "$\\{3\\}$",
+        "C": "$\\{-2,0,4,5\\}$",
+        "D": "$\\{1,3,7\\}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "identificar dominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-2-02",
+      "pregunta": "Para la misma función, ¿cuál es el rango?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Dominio, codominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{-2,7\\}$",
+        "B": "$\\{1,3,7\\}$",
+        "C": "$\\{-2,0,4,5\\}$",
+        "D": "$\\{1,3,3,7\\}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "identificar rango",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-2-03",
+      "pregunta": "El codominio de una función es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Dominio, codominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "El conjunto declarado de posibles salidas",
+        "B": "El conjunto de entradas",
+        "C": "Solo las salidas que efectivamente aparecen",
+        "D": "El conjunto de pares ordenados"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "distinguir codominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-2-04",
+      "pregunta": "El rango de una función es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Dominio, codominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre igual al dominio",
+        "B": "El conjunto de variables independientes",
+        "C": "Toda la recta real obligatoriamente",
+        "D": "El conjunto de valores que la función realmente toma"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "definir rango",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-2-05",
+      "pregunta": "Si $f:A\\to B$, entonces $A$ es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Dominio, codominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "El codominio",
+        "B": "$f(A)$",
+        "C": "El dominio",
+        "D": "El rango"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "leer notación de aplicación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-2-06",
+      "pregunta": "Si $f(x)=x^2$ con dominio $\\{-2,-1,0,1,2\\}$, el rango es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Dominio, codominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{-4,-1,0,1,4\\}$",
+        "B": "$\\{0,1,4\\}$",
+        "C": "$\\{-2,-1,0,1,2\\}$",
+        "D": "$\\{0,1,1,4,4\\}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "calcular rango finito",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-2-07",
+      "pregunta": "Una función constante $f(x)=5$ con dominio real tiene rango:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Dominio, codominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{5\\}$",
+        "B": "$\\mathbb{R}$",
+        "C": "$[0,5]$",
+        "D": "$\\varnothing$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "hallar rango constante",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-2-08",
+      "pregunta": "Para $f(x)=2x+1$ con dominio $\\mathbb{R}$, el rango es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Dominio, codominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "$[1,\\infty)$",
+        "B": "$[0,\\infty)$",
+        "C": "$\\{1\\}$",
+        "D": "$\\mathbb{R}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "determinar rango lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-2-09",
+      "pregunta": "Para $f(x)=x^2$ con dominio real, el rango es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Dominio, codominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "$(-\\infty,0]$",
+        "B": "$(0,\\infty)$",
+        "C": "$[0,\\infty)$",
+        "D": "$\\mathbb{R}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "determinar rango cuadrático",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-2-10",
+      "pregunta": "Puede ocurrir que rango y codominio no coincidan. En tal caso:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.2",
+        "nombre": "Dominio, codominio y rango"
+      },
+      "respuestas_posibles": {
+        "A": "El dominio es vacío",
+        "B": "Hay elementos del codominio que no son imágenes",
+        "C": "La relación deja de ser función",
+        "D": "Una entrada tiene dos imágenes"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "comparar rango y codominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-3-01",
+      "pregunta": "Si $f(x)=2x+3$, calcule $f(4)$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Notación y evaluación de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$11$",
+        "B": "$13$",
+        "C": "$-11$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "evaluar función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-3-02",
+      "pregunta": "Si $f(x)=x^2-5$, calcule $f(-3)$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Notación y evaluación de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$-4$",
+        "C": "$3$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "evaluar función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-3-03",
+      "pregunta": "Si $f(x)=3x-1$, calcule $f(0)$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Notación y evaluación de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$-2$",
+        "B": "$\\text{opcion alternativa 3}$",
+        "C": "$-1$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "evaluar función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-3-04",
+      "pregunta": "Si $f(x)=x^2+2x$, calcule $f(5)$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Notación y evaluación de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$34$",
+        "B": "$35$",
+        "C": "$37$",
+        "D": "$-35$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "evaluar función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-3-05",
+      "pregunta": "Si $f(x)=4-x$, calcule $f(-2)$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Notación y evaluación de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$8$",
+        "C": "$-6$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "evaluar función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-3-06",
+      "pregunta": "Si $f(x)=2x^2-3x+1$, calcule $f(2)$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Notación y evaluación de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$-3$",
+        "C": "$2$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "evaluar función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-3-07",
+      "pregunta": "Si $f(x)=\\frac{x+1}{2}$, calcule $f(7)$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Notación y evaluación de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$-4$",
+        "B": "$3$",
+        "C": "$4$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "evaluar función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-3-08",
+      "pregunta": "Si $f(x)=|x-3|$, calcule $f(-1)$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Notación y evaluación de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$4$",
+        "C": "$6$",
+        "D": "$-4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "evaluar función",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-3-09",
+      "pregunta": "Si $f(x)=3x+2$ y $f(a)=17$, determine $a$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Notación y evaluación de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$3$",
+        "C": "$15$",
+        "D": "$19$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "resolver desde valor funcional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-3-10",
+      "pregunta": "Para $g(t)=t^2-4t$, simplifique $g(h)$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.3",
+        "nombre": "Notación y evaluación de funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$t^2-4h$",
+        "B": "$h^2-4t$",
+        "C": "$h-4$",
+        "D": "$h^2-4h$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "usar notación funcional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-4-01",
+      "pregunta": "¿Cuál tabla corresponde a $f(x)=2x+1$ para $x=0,1,2$?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Representaciones de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{(0,1),(1,2),(2,3)\\}$",
+        "B": "$\\{(1,0),(3,1),(5,2)\\}$",
+        "C": "$\\{(0,1),(1,3),(2,5)\\}$",
+        "D": "$\\{(0,0),(1,2),(2,4)\\}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "relacionar fórmula y tabla",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-4-02",
+      "pregunta": "La expresión $f(x)=3x-2$ es una representación:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Representaciones de una función"
+      },
+      "respuestas_posibles": {
+        "A": "Gráfica únicamente",
+        "B": "Algebraica",
+        "C": "Verbal únicamente",
+        "D": "Tabular"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "clasificar representación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-4-03",
+      "pregunta": "Una lista de pares ordenados representa una función si:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Representaciones de una función"
+      },
+      "respuestas_posibles": {
+        "A": "Ninguna primera coordenada tiene dos segundas coordenadas distintas",
+        "B": "No se repite ninguna segunda coordenada",
+        "C": "Todos los pares son positivos",
+        "D": "Hay más salidas que entradas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "validar representación tabular",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-4-04",
+      "pregunta": "“A cada número se le asigna su doble más uno” se expresa como:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Representaciones de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=x+2$",
+        "B": "$f(x)=x^2+1$",
+        "C": "$f(x)=\\frac{x}{2}+1$",
+        "D": "$f(x)=2x+1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "traducir descripción verbal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-4-05",
+      "pregunta": "Si una tabla muestra $x: -1,0,1$ y $f(x): 1,0,1$, una fórmula compatible es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Representaciones de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$f(x)=2x$",
+        "B": "$f(x)=x^3$",
+        "C": "$f(x)=x^2$",
+        "D": "$f(x)=x+1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "inferir regla desde tabla",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-4-06",
+      "pregunta": "¿Cuál par pertenece a la gráfica de $y=3x-1$?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Representaciones de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,1)$",
+        "B": "$(2,5)$",
+        "C": "$(2,6)$",
+        "D": "$(1,3)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "verificar punto en gráfica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-4-07",
+      "pregunta": "La gráfica de una función muestra:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Representaciones de una función"
+      },
+      "respuestas_posibles": {
+        "A": "Los pares $(x,f(x))$ en el plano",
+        "B": "Solo el dominio",
+        "C": "Solo el rango",
+        "D": "Únicamente los ceros"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "interpretar gráfica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-4-08",
+      "pregunta": "Si $f(-2)=5$, la gráfica contiene el punto:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Representaciones de una función"
+      },
+      "respuestas_posibles": {
+        "A": "$(5,-2)$",
+        "B": "$(-2,-5)$",
+        "C": "$(2,5)$",
+        "D": "$(-2,5)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "convertir valor a punto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-4-09",
+      "pregunta": "Una fórmula y una tabla representan la misma función cuando:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Representaciones de una función"
+      },
+      "respuestas_posibles": {
+        "A": "Usan siempre la letra $x$",
+        "B": "La tabla tiene al menos diez filas",
+        "C": "Producen los mismos valores de salida para cada entrada",
+        "D": "Tienen el mismo número de símbolos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "comparar representaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-4-10",
+      "pregunta": "¿Cuál descripción corresponde a $C(n)=50+12n$?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.4",
+        "nombre": "Representaciones de una función"
+      },
+      "respuestas_posibles": {
+        "A": "Costo constante de $62$",
+        "B": "Costo fijo de $50$ más $12$ por unidad",
+        "C": "Costo de $50n$ más $12$",
+        "D": "Costo que disminuye $12$ por unidad"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "interpretar modelo algebraico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-5-01",
+      "pregunta": "El criterio de la recta vertical determina si una gráfica:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Criterio de la recta vertical"
+      },
+      "respuestas_posibles": {
+        "A": "Representa una función de $x$",
+        "B": "Es una recta horizontal",
+        "C": "Tiene pendiente positiva",
+        "D": "Pasa por el origen"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "enunciar criterio vertical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-5-02",
+      "pregunta": "Si una recta vertical corta una gráfica en dos puntos, entonces la gráfica:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Criterio de la recta vertical"
+      },
+      "respuestas_posibles": {
+        "A": "Representa una función inyectiva",
+        "B": "Es constante",
+        "C": "Tiene dominio vacío",
+        "D": "No representa una función de $x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar criterio vertical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-5-03",
+      "pregunta": "La circunferencia $x^2+y^2=9$ no representa $y$ como función de $x$ porque:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Criterio de la recta vertical"
+      },
+      "respuestas_posibles": {
+        "A": "Tiene radio positivo",
+        "B": "Es una curva cerrada únicamente",
+        "C": "Algunas rectas verticales la cortan en dos puntos",
+        "D": "No contiene el origen"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "aplicar criterio a circunferencia",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-5-04",
+      "pregunta": "La parábola $y=x^2$ sí representa una función porque:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Criterio de la recta vertical"
+      },
+      "respuestas_posibles": {
+        "A": "Su rango es real completo",
+        "B": "Cada recta vertical la corta a lo más una vez",
+        "C": "Cada recta horizontal la corta una vez",
+        "D": "Tiene dos ramas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar criterio a parábola vertical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-5-05",
+      "pregunta": "La ecuación $x=y^2$ no representa $y$ como función de $x$ porque:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Criterio de la recta vertical"
+      },
+      "respuestas_posibles": {
+        "A": "Para $x>0$ hay dos valores de $y$",
+        "B": "Para cada $x$ hay un único $y$",
+        "C": "No tiene puntos reales",
+        "D": "Es una recta"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "relacionar ecuación y criterio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-5-06",
+      "pregunta": "Una recta no vertical representa una función de $x$ porque:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Criterio de la recta vertical"
+      },
+      "respuestas_posibles": {
+        "A": "Toda recta tiene pendiente cero",
+        "B": "No tiene intersecciones",
+        "C": "Su dominio es finito",
+        "D": "Cada valor de $x$ determina un solo valor de $y$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "analizar rectas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-5-07",
+      "pregunta": "La recta vertical $x=4$ representa $y$ como función de $x$?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Criterio de la recta vertical"
+      },
+      "respuestas_posibles": {
+        "A": "Sí, porque tiene un solo valor de $x$",
+        "B": "No, porque no tiene puntos",
+        "C": "No, porque una entrada $x=4$ tiene muchas salidas",
+        "D": "Sí, porque es una recta"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "evaluar recta vertical",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-5-08",
+      "pregunta": "La gráfica de $y=|x|$ pasa el criterio de la recta vertical porque:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Criterio de la recta vertical"
+      },
+      "respuestas_posibles": {
+        "A": "No tiene vértice",
+        "B": "Toda vertical la corta a lo más una vez",
+        "C": "Toda horizontal la corta una vez",
+        "D": "Solo tiene valores positivos de $x$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "aplicar criterio a valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-5-09",
+      "pregunta": "¿Qué información detecta una intersección vertical múltiple?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Criterio de la recta vertical"
+      },
+      "respuestas_posibles": {
+        "A": "Una misma entrada tiene varias salidas",
+        "B": "Varias entradas tienen la misma salida",
+        "C": "El rango contiene cero",
+        "D": "La función es creciente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interpretar fallo del criterio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-5-10",
+      "pregunta": "La gráfica formada por los puntos $(1,2)$, $(2,2)$ y $(3,2)$:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.5",
+        "nombre": "Criterio de la recta vertical"
+      },
+      "respuestas_posibles": {
+        "A": "No representa una función porque se repite la salida",
+        "B": "No pasa por el origen",
+        "C": "Tiene dos salidas para $x=2$",
+        "D": "Sí representa una función"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "aplicar criterio a puntos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-6-01",
+      "pregunta": "Determine el dominio real de $f(x)=3x-7$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Dominio de funciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb{R}\\setminus\\{7\\}$",
+        "B": "$(-\\infty,7)$",
+        "C": "$\\mathbb{R}$",
+        "D": "$[0,\\infty)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "dominio polinomial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-6-02",
+      "pregunta": "Determine el dominio de $f(x)=\\frac{1}{x-4}$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Dominio de funciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb{R}$",
+        "B": "$\\mathbb{R}\\setminus\\{4\\}$",
+        "C": "$\\mathbb{R}\\setminus\\{-4\\}$",
+        "D": "$[4,\\infty)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "excluir cero del denominador",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-6-03",
+      "pregunta": "Determine el dominio de $f(x)=\\sqrt{x-3}$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Dominio de funciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$[3,\\infty)$",
+        "B": "$(3,\\infty)$",
+        "C": "$(-\\infty,3]$",
+        "D": "$\\mathbb{R}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "imponer radicando no negativo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-6-04",
+      "pregunta": "Determine el dominio de $f(x)=\\frac{1}{x^2-9}$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Dominio de funciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb{R}\\setminus\\{9\\}$",
+        "B": "$[-3,3]$",
+        "C": "$(-\\infty,-3)\\cup(3,\\infty)$",
+        "D": "$\\mathbb{R}\\setminus\\{-3,3\\}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "excluir dos ceros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-6-05",
+      "pregunta": "Determine el dominio de $f(x)=\\sqrt{5-x}$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Dominio de funciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$(-\\infty,5)$",
+        "B": "$\\mathbb{R}$",
+        "C": "$(-\\infty,5]$",
+        "D": "$[5,\\infty)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "resolver radicando lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-6-06",
+      "pregunta": "Determine el dominio de $f(x)=\\frac{x+1}{x(x-2)}$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Dominio de funciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb{R}\\setminus\\{2\\}$",
+        "B": "$\\mathbb{R}\\setminus\\{0,2\\}$",
+        "C": "$\\mathbb{R}\\setminus\\{-1\\}$",
+        "D": "$[0,2]$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "dominio racional factorizado",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-6-07",
+      "pregunta": "Determine el dominio de $f(x)=\\sqrt{x^2+1}$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Dominio de funciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$\\mathbb{R}$",
+        "B": "$[0,\\infty)$",
+        "C": "$\\mathbb{R}\\setminus\\{0\\}$",
+        "D": "$[-1,1]$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "reconocer radicando siempre positivo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-6-08",
+      "pregunta": "Determine el dominio de $f(x)=\\frac{1}{\\sqrt{x-2}}$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Dominio de funciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$[2,\\infty)$",
+        "B": "$(-\\infty,2)$",
+        "C": "$\\mathbb{R}\\setminus\\{2\\}$",
+        "D": "$(2,\\infty)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "combinar raíz y denominador",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-6-09",
+      "pregunta": "Determine el dominio de $f(x)=\\sqrt{9-x^2}$.",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Dominio de funciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "$(-\\infty,-3]\\cup[3,\\infty)$",
+        "B": "$\\mathbb{R}$",
+        "C": "$[-3,3]$",
+        "D": "$(-3,3)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "resolver desigualdad cuadrática de dominio",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-6-10",
+      "pregunta": "Los polinomios tienen dominio real completo porque:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.6",
+        "nombre": "Dominio de funciones algebraicas"
+      },
+      "respuestas_posibles": {
+        "A": "Su rango siempre es real",
+        "B": "No contienen denominadores ni raíces pares que restrinjan $x$",
+        "C": "Siempre son positivos",
+        "D": "Nunca tienen ceros"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "baja",
+      "habilidad": "justificar dominio polinomial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-7-01",
+      "pregunta": "Un taxi cobra $35$ pesos de cuota fija y $12$ por kilómetro. La función de costo es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.7",
+        "nombre": "Modelación con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$C(k)=35+12k$",
+        "B": "$C(k)=35k+12$",
+        "C": "$C(k)=47k$",
+        "D": "$C(k)=35-12k$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "modelar costo lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-7-02",
+      "pregunta": "El perímetro de un cuadrado de lado $x$ se modela con:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.7",
+        "nombre": "Modelación con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$P(x)=x^2$",
+        "B": "$P(x)=2x+2$",
+        "C": "$P(x)=4+x$",
+        "D": "$P(x)=4x$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "modelar perímetro",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-7-03",
+      "pregunta": "El área de un círculo como función del radio es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.7",
+        "nombre": "Modelación con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$A(r)=\\pi r$",
+        "B": "$A(r)=r^2$",
+        "C": "$A(r)=\\pi r^2$",
+        "D": "$A(r)=2\\pi r$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "modelar área",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-7-04",
+      "pregunta": "Una temperatura en Celsius se convierte a Fahrenheit mediante:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.7",
+        "nombre": "Modelación con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$F(C)=\\frac95(C+32)$",
+        "B": "$F(C)=\\frac95C+32$",
+        "C": "$F(C)=\\frac59(C-32)$",
+        "D": "$F(C)=C+32$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "modelar conversión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-7-05",
+      "pregunta": "Un depósito contiene $500$ litros y pierde $20$ litros por minuto. Su volumen es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.7",
+        "nombre": "Modelación con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$V(t)=500-20t$",
+        "B": "$V(t)=500+20t$",
+        "C": "$V(t)=20-500t$",
+        "D": "$V(t)=480t$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "modelar decrecimiento lineal",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-7-06",
+      "pregunta": "El salario semanal es $1800$ pesos más $150$ por venta. La función es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.7",
+        "nombre": "Modelación con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$S(v)=1950v$",
+        "B": "$S(v)=1800v+150$",
+        "C": "$S(v)=1800-150v$",
+        "D": "$S(v)=1800+150v$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "modelar ingreso",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-7-07",
+      "pregunta": "Para $C(n)=80+25n$, ¿qué representa $80$?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.7",
+        "nombre": "Modelación con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "El número de unidades",
+        "B": "El costo total para cualquier $n$",
+        "C": "El costo fijo",
+        "D": "El costo por unidad"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "baja",
+      "habilidad": "interpretar parámetros",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-7-08",
+      "pregunta": "La altura de una pelota se modela con $h(t)=-5t^2+20t+1$. ¿Cuál es la altura inicial?",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.7",
+        "nombre": "Modelación con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$1$",
+        "C": "$-5$",
+        "D": "$20$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "evaluar modelo en cero",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-7-09",
+      "pregunta": "Una población inicial de $200$ aumenta $30$ individuos por año. La función lineal es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.7",
+        "nombre": "Modelación con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$P(t)=200+30t$",
+        "B": "$P(t)=230t$",
+        "C": "$P(t)=200t+30$",
+        "D": "$P(t)=200-30t$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "baja",
+      "habilidad": "modelar crecimiento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-15-7-10",
+      "pregunta": "En el modelo $d(t)=60t$, la variable independiente es:",
+      "tema": {
+        "codigo": "15",
+        "nombre": "Concepto de función",
+        "bloque": "Funciones"
+      },
+      "subtema": {
+        "codigo": "15.7",
+        "nombre": "Modelación con funciones"
+      },
+      "respuestas_posibles": {
+        "A": "$d$, la distancia",
+        "B": "$60$, la distancia inicial",
+        "C": "$60t$, la velocidad",
+        "D": "$t$, el tiempo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "baja",
+      "habilidad": "identificar variables en contexto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>15. Concepto de función · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte III: Funciones</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#definicion-de-funcion"><span class="num">15.1</span> Definición de función</a></li><li class="nivel-2"><a href="#representacion-mediante-un-diagrama-de-correspondencia"><span class="num">15.2</span> Representación mediante un diagrama de correspondencia</a></li><li class="nivel-2"><a href="#regla-de-correspondencia-y-notacion"><span class="num">15.3</span> Regla de correspondencia y notación</a></li><li class="nivel-2"><a href="#formas-de-representar-una-funcion"><span class="num">15.4</span> Formas de representar una función</a></li><li class="nivel-2"><a href="#dominio-de-funciones-elementales"><span class="num">15.5</span> Dominio de funciones elementales</a></li><li class="nivel-2"><a href="#rango-de-una-funcion"><span class="num">15.6</span> Rango de una función</a></li><li class="nivel-2"><a href="#criterio-de-la-recta-vertical"><span class="num">15.7</span> Criterio de la recta vertical</a></li><li class="nivel-2"><a href="#funciones-expresadas-mediante-pares-ordenados"><span class="num">15.8</span> Funciones expresadas mediante pares ordenados</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">15.9</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 15</p><h1>Concepto de función</h1></header>
+<p><span id="cap-concepto-funcion" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-unam">UNAM</span><span class="marca marca-ipn">IPN</span><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>Una función describe cómo una cantidad depende de otra. Por ejemplo, el precio de un producto puede depender de su peso, la distancia recorrida puede depender del tiempo y el área de un círculo depende de su radio. En este capítulo estudiarás el concepto de función, sus elementos, su notación, la evaluación de expresiones, el dominio, el rango y el criterio gráfico que permite reconocer funciones.</p>
+<h2 id="definicion-de-funcion"><span class="num">15.1</span> Definición de función<a class="enlace-seccion" href="#definicion-de-funcion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>función</strong> \(f\) de un conjunto \(A\) en un conjunto \(B\) es una regla que asigna a cada elemento \(x\) de \(A\) exactamente un elemento \(y\) de \(B\).</p>
+<p>Se escribe:</p>
+<div class="mate"><span class="mate-bloque">\[f\colon A\to B, \qquad y=f(x).\]</span></div>
+<p>El elemento \(y\) recibe el nombre de <strong>imagen</strong> de \(x\) mediante la función \(f\).</p></div></section>
+<p>La expresión “exactamente un elemento” contiene dos condiciones importantes:</p>
+<ul><li>cada elemento del dominio debe tener una imagen;</li><li>un mismo elemento del dominio no puede tener dos imágenes diferentes.</li></ul>
+<p>Sin embargo, dos o más elementos del dominio sí pueden tener la misma imagen.</p>
+<p>La condición anterior puede entenderse como una restricción sobre las entradas, no sobre las salidas. Cada entrada debe estar asociada con una sola salida, pero una misma salida puede corresponder a varias entradas.</p>
+<p>Por ejemplo, la correspondencia</p>
+<div class="mate"><span class="mate-bloque">\[\{(1,4),(2,4),(3,6)\}\]</span></div>
+<p>sí representa una función. Aunque las entradas \(1\) y \(2\) tienen la misma imagen, cada entrada aparece asociada con un único valor.</p>
+<p>En cambio, la correspondencia</p>
+<div class="mate"><span class="mate-bloque">\[\{(1,4),(1,5),(2,6)\}\]</span></div>
+<p>no representa una función, porque la entrada \(1\) está asociada con dos imágenes diferentes: \(4\) y \(5\).</p>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Cuando una relación se expresa mediante pares ordenados, para determinar si representa una función debe observarse el primer componente de cada par. Si un mismo primer componente aparece con dos segundos componentes diferentes, la relación no es una función.</p></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Sea</p>
+<div class="mate"><span class="mate-bloque">\[f\colon A\to B\]</span></div>
+<p>una función. Se definen los siguientes conjuntos:</p>
+<ul><li>El <strong>dominio</strong>, denotado por \(D_f\), es el conjunto \(A\) de valores de entrada para los que la función está definida.</li><li>El <strong>contradominio</strong>, denotado por \(C_f\), es el conjunto \(B\) establecido como conjunto de posibles valores de salida.</li><li>El <strong>rango</strong> o <strong>imagen</strong>, denotado por \(R_f\), es el conjunto de valores que la función toma realmente al evaluar todos los elementos de su dominio.</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El rango siempre es un subconjunto del contradominio:</p>
+<div class="mate"><span class="mate-bloque">\[R_f\subseteq C_f.\]</span></div>
+<p>El rango puede coincidir con el contradominio, pero no necesariamente debe hacerlo.</p></div></section>
+<h2 id="representacion-mediante-un-diagrama-de-correspondencia"><span class="num">15.2</span> Representación mediante un diagrama de correspondencia<a class="enlace-seccion" href="#representacion-mediante-un-diagrama-de-correspondencia" aria-label="Enlace a esta sección">#</a></h2>
+<p>Un diagrama de correspondencia permite visualizar una función mediante dos conjuntos y las flechas que relacionan sus elementos. Cada elemento del dominio debe tener exactamente una flecha de salida.</p>
+<section class="caja caja-ejemplo" id="ejemplo-15-1"><div class="caja-titulo">Ejemplo 15.1</div><div class="caja-cuerpo"><p>Sea la función</p>
+<div class="mate"><span class="mate-bloque">\[f\colon\{1,2,3\}\to\{2,4,6,8\}\]</span></div>
+<p>definida por:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=2x.\]</span></div>
+<p>Identifica el dominio, el contradominio y el rango.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Evaluamos la función en cada elemento del dominio:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} f(1)&amp;=2,\\ f(2)&amp;=4,\\ f(3)&amp;=6. \end{aligned}\]</span></div>
+<p>La correspondencia puede representarse mediante el siguiente diagrama:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-98017fd61e41.svg" alt="Figura 15.1" loading="lazy" decoding="async"></figure></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} D_f&amp;=\{1,2,3\},\\ C_f&amp;=\{2,4,6,8\},\\ R_f&amp;=\{2,4,6\}. \end{aligned}\]</span></div>
+<p>El valor \(8\) pertenece al contradominio, pero no al rango, porque ningún elemento del dominio tiene a \(8\) como imagen.</p></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Una correspondencia no es una función si algún elemento del dominio no tiene imagen o si un mismo elemento del dominio tiene dos imágenes diferentes.</p>
+<p>En cambio, no hay ningún problema si dos entradas distintas tienen la misma salida. Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[f(-2)=4 \qquad\text{y}\qquad f(2)=4\]</span></div>
+<p>puede ocurrir en una función.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-15-2"><div class="caja-titulo">Ejemplo 15.2</div><div class="caja-cuerpo"><p>Determina si cada correspondencia representa una función:</p>
+<div class="mate"><span class="mate-bloque">\[A=\{(1,3),(2,3),(4,5)\},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[B=\{(1,3),(2,4),(2,5)\}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La correspondencia \(A\) sí representa una función. Cada elemento de entrada aparece asociado con una sola salida:</p>
+<div class="mate"><span class="mate-bloque">\[1\mapsto 3, \qquad 2\mapsto 3, \qquad 4\mapsto 5.\]</span></div>
+<p>Aunque las entradas \(1\) y \(2\) tienen la misma imagen, esta situación no contradice la definición de función.</p>
+<p>La correspondencia \(B\) no representa una función, porque la entrada \(2\) está asociada con dos salidas diferentes:</p>
+<div class="mate"><span class="mate-bloque">\[2\mapsto 4 \qquad\text{y}\qquad 2\mapsto 5.\]</span></div>
+<p>Por tanto, la correspondencia \(B\) no cumple la condición de unicidad de la imagen.</p></div></details></div></section>
+<p>Para decidir si una correspondencia representa una función, conviene revisar las entradas una por una. La pregunta fundamental es:</p>
+<blockquote><p>¿Cada entrada tiene exactamente una salida?</p></blockquote>
+<p>Si la respuesta es afirmativa, la correspondencia es una función. Si alguna entrada no tiene salida o tiene más de una, la correspondencia no es una función.</p>
+<h2 id="regla-de-correspondencia-y-notacion"><span class="num">15.3</span> Regla de correspondencia y notación<a class="enlace-seccion" href="#regla-de-correspondencia-y-notacion" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>La <strong>regla de correspondencia</strong> es la expresión que indica cómo se obtiene el valor de salida a partir del valor de entrada.</p>
+<p>En la expresión:</p>
+<div class="mate"><span class="mate-bloque">\[y=f(x),\]</span></div>
+<p>se tiene que:</p>
+<ul><li>\(x\) es la <strong>variable independiente</strong>;</li><li>\(y\) es la <strong>variable dependiente</strong>;</li><li>\(f\) es el nombre de la función;</li><li>\(f(x)\) es el valor de la función correspondiente a la entrada \(x\).</li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La notación \(f(x)\) no representa el producto de \(f\) por \(x\). Se lee “\(f\) de \(x\)” y representa la imagen de \(x\) mediante la función \(f\).</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-15-3"><div class="caja-titulo">Ejemplo 15.3</div><div class="caja-cuerpo"><p>Evalúa la función</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2-3\]</span></div>
+<p>en \(x=3\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos \(x\) por \(3\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} f(3) &amp;=3^2-3\\ &amp;=9-3\\ &amp;=6. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-15-4"><div class="caja-titulo">Ejemplo 15.4</div><div class="caja-cuerpo"><p>Evalúa la función</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{x+1}{x-1}\]</span></div>
+<p>en \(x=-2\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Sustituimos \(x\) por \(-2\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} f(-2) &amp;= \frac{-2+1}{-2-1}\\ &amp;= \frac{-1}{-3}\\ &amp;= \frac{1}{3}. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-15-5"><div class="caja-titulo">Ejemplo 15.5</div><div class="caja-cuerpo"><p>Evalúa la función</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{x+1}\]</span></div>
+<p>en \(x=3\) y en \(x=-1\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Para \(x=3\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} f(3) &amp;=\sqrt{3+1}\\ &amp;=\sqrt{4}\\ &amp;=2. \end{aligned}\]</span></div>
+<p>Para \(x=-1\):</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} f(-1) &amp;=\sqrt{-1+1}\\ &amp;=\sqrt{0}\\ &amp;=0. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>Al evaluar una función, todas las apariciones de la variable deben sustituirse por el valor indicado. Si este valor es negativo, conviene escribirlo entre paréntesis.</p>
+<p>Por ejemplo, si:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2,\]</span></div>
+<p>entonces:</p>
+<div class="mate"><span class="mate-bloque">\[f(-2) = (-2)^2 = 4,\]</span></div>
+<p>no \(-2^2=-4\).</p></div></section>
+<h2 id="formas-de-representar-una-funcion"><span class="num">15.4</span> Formas de representar una función<a class="enlace-seccion" href="#formas-de-representar-una-funcion" aria-label="Enlace a esta sección">#</a></h2>
+<p>Una función puede representarse de diferentes maneras:</p>
+<ul><li>mediante una descripción verbal;</li><li>mediante una regla algebraica;</li><li>mediante una tabla de valores;</li><li>mediante un conjunto de pares ordenados;</li><li>mediante un diagrama de correspondencia;</li><li>mediante una gráfica en el plano cartesiano.</li></ul>
+<section class="caja caja-ejemplo" id="ejemplo-15-6"><div class="caja-titulo">Ejemplo 15.6</div><div class="caja-cuerpo"><p>Considera la función:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=2x+1\]</span></div>
+<p>con dominio:</p>
+<div class="mate"><span class="mate-bloque">\[D_f=\{-2,-1,0,1,2\}.\]</span></div>
+<p>Obtén sus pares ordenados y representa algunos de sus valores en el plano cartesiano.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Evaluamos la función:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} f(-2)&amp;=-3,\\ f(-1)&amp;=-1,\\ f(0)&amp;=1,\\ f(1)&amp;=3,\\ f(2)&amp;=5. \end{aligned}\]</span></div>
+<p>Los pares ordenados son:</p>
+<div class="mate"><span class="mate-bloque">\[\{(-2,-3),(-1,-1),(0,1),(1,3),(2,5)\}.\]</span></div>
+<p>En el plano cartesiano:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-df7332df853c.svg" alt="Figura 15.2" loading="lazy" decoding="async"></figure></div>
+<p>Cada valor de \(x\) determina un único valor de \(y\). Esta característica es esencial para que la relación sea una función.</p></div></details></div></section>
+<h2 id="dominio-de-funciones-elementales"><span class="num">15.5</span> Dominio de funciones elementales<a class="enlace-seccion" href="#dominio-de-funciones-elementales" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Reglas básicas para determinar el dominio</div><div class="caja-cuerpo"><p>Para encontrar el dominio de una función real, deben identificarse las operaciones que puedan dejar de estar definidas.</p>
+<ul><li><p><strong>Funciones polinómicas</strong></p>
+<p>Si: <span class="mate-bloque">\[f(x)=a_nx^n+\cdots+a_1x+a_0,\]</span> entonces: <span class="mate-bloque">\[D_f=\R.\]</span></p></li><li><p><strong>Funciones racionales</strong></p>
+<p>Si: <span class="mate-bloque">\[f(x)=\frac{P(x)}{Q(x)},\]</span> deben excluirse los valores que anulan el denominador: <span class="mate-bloque">\[Q(x)\neq 0.\]</span></p></li><li><p><strong>Funciones con raíces de índice par</strong></p>
+<p>Si: <span class="mate-bloque">\[f(x)=\sqrt{g(x)},\]</span> debe cumplirse: <span class="mate-bloque">\[g(x)\geq 0.\]</span></p></li><li><p><strong>Funciones logarítmicas</strong></p>
+<p>Si: <span class="mate-bloque">\[f(x)=\log_a(g(x)),\]</span> debe cumplirse: <span class="mate-bloque">\[g(x)&gt;0,\]</span> además de: <span class="mate-bloque">\[a&gt;0, \qquad a\neq 1.\]</span></p></li></ul></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-15-7"><div class="caja-titulo">Ejemplo 15.7</div><div class="caja-cuerpo"><p>Encuentra el dominio de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{1}{x-3}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El denominador no puede ser cero:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x-3 &amp;\neq 0,\\ x &amp;\neq 3. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[D_f = \R\setminus\{3\} = (-\infty,3)\cup(3,\infty).\]</span></div>
+<p>En la recta numérica se excluye el valor \(3\):</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-081794aac900.svg" alt="Figura 15.3" loading="lazy" decoding="async"></figure></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-15-8"><div class="caja-titulo">Ejemplo 15.8</div><div class="caja-cuerpo"><p>Encuentra el dominio de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{1}{x^2+5x+6}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Factorizamos el denominador:</p>
+<div class="mate"><span class="mate-bloque">\[x^2+5x+6 = (x+3)(x+2).\]</span></div>
+<p>El denominador se anula cuando:</p>
+<div class="mate"><span class="mate-bloque">\[x=-3 \qquad\text{o}\qquad x=-2.\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[D_f = \R\setminus\{-3,-2\}.\]</span></div>
+<p>En notación de intervalos:</p>
+<div class="mate"><span class="mate-bloque">\[D_f = (-\infty,-3) \cup (-3,-2) \cup (-2,\infty).\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-15-9"><div class="caja-titulo">Ejemplo 15.9</div><div class="caja-cuerpo"><p>Encuentra el dominio de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{x-2}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El radicando debe ser mayor o igual que cero:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} x-2 &amp;\geq 0,\\ x &amp;\geq 2. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[D_f=[2,\infty).\]</span></div>
+<p>En la recta numérica:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-5be944c305a8.svg" alt="Figura 15.4" loading="lazy" decoding="async"></figure></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-15-10"><div class="caja-titulo">Ejemplo 15.10</div><div class="caja-cuerpo"><p>Encuentra el dominio de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{9-4x^2}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El radicando debe ser mayor o igual que cero:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} 9-4x^2 &amp;\geq 0,\\ 4x^2 &amp;\leq 9,\\ x^2 &amp;\leq \frac{9}{4}. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[-\frac{3}{2} \leq x \leq \frac{3}{2}.\]</span></div>
+<p>El dominio es:</p>
+<div class="mate"><span class="mate-bloque">\[D_f = \left[ -\frac{3}{2}, \frac{3}{2} \right].\]</span></div>
+<p>En la recta numérica:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-388610732f7d.svg" alt="Figura 15.5" loading="lazy" decoding="async"></figure></div></div></details></div></section>
+<h2 id="rango-de-una-funcion"><span class="num">15.6</span> Rango de una función<a class="enlace-seccion" href="#rango-de-una-funcion" aria-label="Enlace a esta sección">#</a></h2>
+<p>Determinar el rango consiste en identificar los valores que puede tomar la variable dependiente.</p>
+<section class="caja caja-ejemplo" id="ejemplo-15-11"><div class="caja-titulo">Ejemplo 15.11</div><div class="caja-cuerpo"><p>Determina el rango de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2, \qquad D_f=\R.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El cuadrado de todo número real es mayor o igual que cero:</p>
+<div class="mate"><span class="mate-bloque">\[x^2\geq 0.\]</span></div>
+<p>Además, cualquier número no negativo puede obtenerse como el cuadrado de algún número real. Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[R_f=[0,\infty).\]</span></div></div></details></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>El procedimiento para encontrar el rango depende del tipo de función. Puede requerir:</p>
+<ul><li>analizar su gráfica;</li><li>estudiar los valores posibles de la expresión;</li><li>despejar la variable independiente;</li><li>identificar valores máximos o mínimos.</li></ul></div></section>
+<h2 id="criterio-de-la-recta-vertical"><span class="num">15.7</span> Criterio de la recta vertical<a class="enlace-seccion" href="#criterio-de-la-recta-vertical" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Criterio de la recta vertical</div><div class="caja-cuerpo"><p>Una gráfica en el plano cartesiano representa una función de \(x\) si y solo si toda recta vertical la interseca en, como máximo, un punto.</p>
+<p>Si alguna recta vertical interseca la gráfica en dos o más puntos, la gráfica no representa una función de \(x\).</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-15-12"><div class="caja-titulo">Ejemplo 15.12</div><div class="caja-cuerpo"><p>Determina si las siguientes gráficas representan funciones de \(x\):</p>
+<ul><li>la parábola: <span class="mate-bloque">\[y=x^2;\]</span></li><li>la circunferencia: <span class="mate-bloque">\[x^2+y^2=4.\]</span></li></ul><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>En la parábola \(y=x^2\), cada valor de \(x\) determina un único valor de \(y\). Por esta razón, cualquier recta vertical la interseca en, como máximo, un punto.</p>
+<p>En la circunferencia \(x^2+y^2=4\), algunos valores de \(x\) corresponden a dos valores de \(y\). Por ejemplo, cuando \(x=1\):</p>
+<div class="mate"><span class="mate-bloque">\[1+y^2=4,\]</span></div>
+<p>de donde:</p>
+<div class="mate"><span class="mate-bloque">\[y=\pm\sqrt{3}.\]</span></div>
+<p>Por tanto, la recta vertical \(x=1\) interseca la circunferencia en dos puntos.</p>
+<p>Las gráficas permiten comparar ambas situaciones:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-fc84b5b016d5.svg" alt="Figura 15.6" loading="lazy" decoding="async"></figure></div>
+<p>La parábola sí representa una función de \(x\), mientras que la circunferencia no la representa.</p></div></details></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El criterio de la recta vertical determina si una gráfica representa a \(y\) como función de \(x\). No debe confundirse con una recta horizontal, que se utiliza para estudiar si una función asigna salidas distintas a entradas distintas.</p></div></section>
+<h2 id="funciones-expresadas-mediante-pares-ordenados"><span class="num">15.8</span> Funciones expresadas mediante pares ordenados<a class="enlace-seccion" href="#funciones-expresadas-mediante-pares-ordenados" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Criterio para pares ordenados</div><div class="caja-cuerpo"><p>Un conjunto de pares ordenados representa una función si ningún primer componente aparece asociado con dos segundos componentes diferentes.</p>
+<p>Por ejemplo:</p>
+<div class="mate"><span class="mate-bloque">\[\{(1,2),(2,3),(3,4)\}\]</span></div>
+<p>representa una función.</p>
+<p>En cambio:</p>
+<div class="mate"><span class="mate-bloque">\[\{(1,2),(1,3),(2,4)\}\]</span></div>
+<p>no representa una función, porque la entrada \(1\) tiene dos imágenes diferentes: \(2\) y \(3\).</p></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">15.9</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-15-1"><div class="caja-titulo">Ejercicio 15.1</div><div class="caja-cuerpo"><p>Determina cuál de los siguientes conjuntos representa una función y justifica tu respuesta:</p>
+<div class="mate"><span class="mate-bloque">\[A=\{(1,2),(2,3),(3,4)\},\]</span></div>
+<div class="mate"><span class="mate-bloque">\[B=\{(1,2),(1,3),(2,4)\}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El conjunto \(A\) sí es función: cada valor de \(x\) aparece una sola vez. El conjunto \(B\) <strong>no</strong> es función, porque el valor \(x = 1\) tiene dos imágenes distintas (\(y = 2\) y \(y = 3\)).</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-15-2"><div class="caja-titulo">Ejercicio 15.2</div><div class="caja-cuerpo"><p>Si</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=2x-5,\]</span></div>
+<p>calcula:</p>
+<div class="mate"><span class="mate-bloque">\[f(0), \qquad f(3) \qquad\text{y}\qquad f(-1).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[f(0) = -5, \quad f(3) = 1, \quad f(-1) = -7.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-15-3"><div class="caja-titulo">Ejercicio 15.3</div><div class="caja-cuerpo"><p>Si</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2-4x+1,\]</span></div>
+<p>calcula:</p>
+<div class="mate"><span class="mate-bloque">\[f(2) \qquad\text{y}\qquad f(-3).\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[f(2) = 4 - 8 + 1 = -3, \qquad f(-3) = 9 + 12 + 1 = 22.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-15-4"><div class="caja-titulo">Ejercicio 15.4</div><div class="caja-cuerpo"><p>Determina el dominio de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{1}{x+5}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El denominador se anula en \(x = -5\). <span class="mate-bloque">\[D_f = \R - \{-5\}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-15-5"><div class="caja-titulo">Ejercicio 15.5</div><div class="caja-cuerpo"><p>Determina el dominio de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\frac{x}{x^2-9}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>\(x^2 - 9 = (x - 3)(x + 3)\). Se anula en \(x = 3\) y \(x = -3\). <span class="mate-bloque">\[D_f = \R - \{-3, 3\}.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-15-6"><div class="caja-titulo">Ejercicio 15.6</div><div class="caja-cuerpo"><p>Determina el dominio de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{3x-6}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Se requiere \(3x - 6 \geq 0\), es decir, \(x \geq 2\). <span class="mate-bloque">\[D_f = [2, \infty).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-15-7"><div class="caja-titulo">Ejercicio 15.7</div><div class="caja-cuerpo"><p>Determina el dominio de:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=\sqrt{x^2-4}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Se requiere \(x^2 - 4 \geq 0\), es decir, \(x \leq -2\) o \(x \geq 2\). <span class="mate-bloque">\[D_f = (-\infty, -2] \cup [2, \infty).\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-15-8"><div class="caja-titulo">Ejercicio 15.8</div><div class="caja-cuerpo"><p>Si</p>
+<div class="mate"><span class="mate-bloque">\[f\colon\{1,2,3,4\}\to\N\]</span></div>
+<p>está definida por:</p>
+<div class="mate"><span class="mate-bloque">\[f(x)=x^2,\]</span></div>
+<p>determina su rango.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[R_f = \{1, 4, 9, 16\}.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-15-9"><div class="caja-titulo">Ejercicio 15.9</div><div class="caja-cuerpo"><p>¿Cuál de las siguientes gráficas no representa una función de \(x\)?</p>
+<ol><li>Una recta con pendiente positiva.</li><li>Una parábola con eje vertical.</li><li>Una circunferencia.</li><li>Una recta horizontal.</li></ol><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La circunferencia <strong>no</strong> es función porque cualquier recta vertical que pase por su interior la corta en dos puntos.</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="14-numeros-complejos.html"><span>← Anterior</span>14. Números complejos</a><a class="nav-siguiente" href="16-tipos-funciones.html"><span>Siguiente →</span>16. Tipos de funciones</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

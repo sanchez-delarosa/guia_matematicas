@@ -1,0 +1,2928 @@
+{
+  "metadata": {
+    "capitulo": "47",
+    "titulo": "Probabilidad básica",
+    "version": "6.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 11,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 110,
+    "secciones_incluidas": [
+      {
+        "codigo": "47.1",
+        "nombre": "Experimentos aleatorios"
+      },
+      {
+        "codigo": "47.2",
+        "nombre": "Eventos"
+      },
+      {
+        "codigo": "47.3",
+        "nombre": "Eventos mutuamente excluyentes"
+      },
+      {
+        "codigo": "47.4",
+        "nombre": "Probabilidad clásica"
+      },
+      {
+        "codigo": "47.5",
+        "nombre": "Regla de la suma"
+      },
+      {
+        "codigo": "47.6",
+        "nombre": "Regla del complemento"
+      },
+      {
+        "codigo": "47.7",
+        "nombre": "Probabilidad condicional"
+      },
+      {
+        "codigo": "47.8",
+        "nombre": "Regla del producto"
+      },
+      {
+        "codigo": "47.9",
+        "nombre": "Eventos independientes"
+      },
+      {
+        "codigo": "47.10",
+        "nombre": "Experimentos con y sin reemplazo"
+      },
+      {
+        "codigo": "47.11",
+        "nombre": "Diagramas de árbol"
+      }
+    ],
+    "secciones_editoriales_omitidas": [
+      "47.12 Procedimiento rápido",
+      "47.13 Resumen",
+      "47.14 Errores frecuentes",
+      "47.15 Ejercicios propuestos"
+    ],
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_validado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-47-1-01",
+      "pregunta": "¿Cuál situación es un experimento aleatorio?",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.1",
+        "nombre": "Experimentos aleatorios"
+      },
+      "respuestas_posibles": {
+        "A": "Lanzar una moneda y observar el resultado",
+        "B": "Calcular $2+3$",
+        "C": "Medir un segmento de longitud conocida",
+        "D": "Resolver $x+1=4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "experimentos aleatorios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-1-02",
+      "pregunta": "Al lanzar un dado de seis caras, el espacio muestral es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.1",
+        "nombre": "Experimentos aleatorios"
+      },
+      "respuestas_posibles": {
+        "A": "$S=\\{0,1\\}$",
+        "B": "$S=\\{2,4,6\\}$",
+        "C": "$S=\\{1,6\\}$",
+        "D": "$S=\\{1,2,3,4,5,6\\}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "experimentos aleatorios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-1-03",
+      "pregunta": "Al lanzar dos monedas, ¿cuántos resultados ordenados tiene el espacio muestral?",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.1",
+        "nombre": "Experimentos aleatorios"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$8$",
+        "C": "$4$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "experimentos aleatorios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-1-04",
+      "pregunta": "Al extraer una carta de una baraja y observar su palo, los resultados posibles son:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.1",
+        "nombre": "Experimentos aleatorios"
+      },
+      "respuestas_posibles": {
+        "A": "Trece figuras",
+        "B": "Cuatro palos",
+        "C": "Cincuenta y dos números",
+        "D": "Dos colores únicamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "experimentos aleatorios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-1-05",
+      "pregunta": "Un resultado individual de un experimento aleatorio se llama:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.1",
+        "nombre": "Experimentos aleatorios"
+      },
+      "respuestas_posibles": {
+        "A": "Punto muestral",
+        "B": "Parámetro",
+        "C": "Frecuencia acumulada",
+        "D": "Variable dependiente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "experimentos aleatorios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-1-06",
+      "pregunta": "¿Cuál experimento es determinista?",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.1",
+        "nombre": "Experimentos aleatorios"
+      },
+      "respuestas_posibles": {
+        "A": "Lanzar un dado",
+        "B": "Extraer una canica sin verla",
+        "C": "Elegir una persona al azar",
+        "D": "Calentar agua pura al nivel del mar hasta su punto de ebullición bajo condiciones controladas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "experimentos aleatorios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-1-07",
+      "pregunta": "Al girar una ruleta con sectores rojo, azul y verde, el espacio muestral puede escribirse como:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.1",
+        "nombre": "Experimentos aleatorios"
+      },
+      "respuestas_posibles": {
+        "A": "$S=\\{R\\}$",
+        "B": "$S=\\{A,V\\}$",
+        "C": "$S=\\{R,A,V\\}$",
+        "D": "$S=\\{1,2,3,4\\}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "experimentos aleatorios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-1-08",
+      "pregunta": "Al lanzar un dado y una moneda, el número de resultados ordenados es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.1",
+        "nombre": "Experimentos aleatorios"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$12$",
+        "C": "$6$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "experimentos aleatorios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-1-09",
+      "pregunta": "Repetir un experimento aleatorio en condiciones similares:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.1",
+        "nombre": "Experimentos aleatorios"
+      },
+      "respuestas_posibles": {
+        "A": "Puede producir resultados distintos",
+        "B": "Produce siempre el mismo resultado",
+        "C": "Elimina el espacio muestral",
+        "D": "Convierte todos los eventos en imposibles"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "experimentos aleatorios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-1-10",
+      "pregunta": "El espacio muestral contiene:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.1",
+        "nombre": "Experimentos aleatorios"
+      },
+      "respuestas_posibles": {
+        "A": "Solo los resultados favorables",
+        "B": "Únicamente el resultado observado",
+        "C": "Las probabilidades acumuladas",
+        "D": "Todos los resultados posibles"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "experimentos aleatorios",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-2-01",
+      "pregunta": "En un dado, el evento obtener un número par es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.2",
+        "nombre": "Eventos"
+      },
+      "respuestas_posibles": {
+        "A": "$A=\\{2,3,5\\}$",
+        "B": "$A=\\{6\\}$",
+        "C": "$A=\\{2,4,6\\}$",
+        "D": "$A=\\{1,3,5\\}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "eventos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-2-02",
+      "pregunta": "En una baraja, obtener un as es un evento con:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.2",
+        "nombre": "Eventos"
+      },
+      "respuestas_posibles": {
+        "A": "$52$ resultados favorables",
+        "B": "$4$ resultados favorables",
+        "C": "$1$ resultado favorable",
+        "D": "$13$ resultados favorables"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "eventos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-2-03",
+      "pregunta": "Si $A=\\{1,2,3\\}$ y $B=\\{3,4,5\\}$, entonces $A\\cup B=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.2",
+        "nombre": "Eventos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{1,2,3,4,5\\}$",
+        "B": "$\\{3\\}$",
+        "C": "$\\{1,2,4,5\\}$",
+        "D": "$\\varnothing$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "eventos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-2-04",
+      "pregunta": "Con los mismos conjuntos, $A\\cap B=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.2",
+        "nombre": "Eventos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{1,2,3,4,5\\}$",
+        "B": "$\\{1,2\\}$",
+        "C": "$\\{4,5\\}$",
+        "D": "$\\{3\\}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "eventos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-2-05",
+      "pregunta": "El evento imposible se representa por:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.2",
+        "nombre": "Eventos"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$A^c$",
+        "C": "$\\varnothing$",
+        "D": "$S$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "eventos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-2-06",
+      "pregunta": "El evento seguro coincide con:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.2",
+        "nombre": "Eventos"
+      },
+      "respuestas_posibles": {
+        "A": "El complemento vacío únicamente",
+        "B": "El espacio muestral",
+        "C": "El conjunto vacío",
+        "D": "Un solo resultado"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "eventos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-2-07",
+      "pregunta": "El complemento de un evento $A$ contiene:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.2",
+        "nombre": "Eventos"
+      },
+      "respuestas_posibles": {
+        "A": "Los resultados de $S$ que no están en $A$",
+        "B": "Todos los resultados de $A$",
+        "C": "Solo $A\\cap S$",
+        "D": "Los resultados repetidos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "eventos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-2-08",
+      "pregunta": "En un dado, el complemento de obtener un número mayor que $4$ es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.2",
+        "nombre": "Eventos"
+      },
+      "respuestas_posibles": {
+        "A": "$\\{5,6\\}$",
+        "B": "$\\{1,2,3\\}$",
+        "C": "$\\{4,5,6\\}$",
+        "D": "$\\{1,2,3,4\\}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "eventos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-2-09",
+      "pregunta": "La unión $A\\cup B$ ocurre cuando:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.2",
+        "nombre": "Eventos"
+      },
+      "respuestas_posibles": {
+        "A": "No ocurre ninguno",
+        "B": "Ocurre solo $A$",
+        "C": "Ocurre $A$, ocurre $B$ o ambos",
+        "D": "Ocurren necesariamente ambos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "eventos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-2-10",
+      "pregunta": "La intersección $A\\cap B$ ocurre cuando:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.2",
+        "nombre": "Eventos"
+      },
+      "respuestas_posibles": {
+        "A": "Los eventos son incompatibles siempre",
+        "B": "Ocurren simultáneamente $A$ y $B$",
+        "C": "Ocurre al menos uno",
+        "D": "No ocurre $A$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "eventos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-3-01",
+      "pregunta": "Dos eventos son mutuamente excluyentes si:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.3",
+        "nombre": "Eventos mutuamente excluyentes"
+      },
+      "respuestas_posibles": {
+        "A": "$A\\cap B=\\varnothing$",
+        "B": "$A\\cup B=\\varnothing$",
+        "C": "$A=B$",
+        "D": "$P(A)=P(B)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "eventos mutuamente excluyentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-3-02",
+      "pregunta": "En un lanzamiento de dado, obtener $2$ y obtener $5$ son eventos:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.3",
+        "nombre": "Eventos mutuamente excluyentes"
+      },
+      "respuestas_posibles": {
+        "A": "Independientes y simultáneos",
+        "B": "Iguales",
+        "C": "Complementarios necesariamente",
+        "D": "Mutuamente excluyentes"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "eventos mutuamente excluyentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-3-03",
+      "pregunta": "En una carta extraída, obtener corazón y obtener rey:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.3",
+        "nombre": "Eventos mutuamente excluyentes"
+      },
+      "respuestas_posibles": {
+        "A": "Son complementarios",
+        "B": "Tienen probabilidad cero",
+        "C": "No son mutuamente excluyentes",
+        "D": "Son imposibles simultáneamente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "eventos mutuamente excluyentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-3-04",
+      "pregunta": "En un dado, obtener número par y obtener número impar son:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.3",
+        "nombre": "Eventos mutuamente excluyentes"
+      },
+      "respuestas_posibles": {
+        "A": "No exhaustivos",
+        "B": "Mutuamente excluyentes y complementarios",
+        "C": "Independientes",
+        "D": "Iguales"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "eventos mutuamente excluyentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-3-05",
+      "pregunta": "Si $A$ y $B$ son mutuamente excluyentes, entonces:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.3",
+        "nombre": "Eventos mutuamente excluyentes"
+      },
+      "respuestas_posibles": {
+        "A": "$P(A\\cap B)=0$",
+        "B": "$P(A\\cap B)=1$",
+        "C": "$P(A)=P(B)$",
+        "D": "$P(A\\cup B)=0$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "eventos mutuamente excluyentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-3-06",
+      "pregunta": "¿Cuál par NO es mutuamente excluyente al lanzar un dado?",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.3",
+        "nombre": "Eventos mutuamente excluyentes"
+      },
+      "respuestas_posibles": {
+        "A": "Obtener $1$ y obtener $6$",
+        "B": "Obtener par e impar",
+        "C": "Obtener menor que $3$ y mayor que $4$",
+        "D": "Obtener número par y obtener número mayor que $3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "eventos mutuamente excluyentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-3-07",
+      "pregunta": "Si $P(A)=0.3$ y $P(B)=0.4$ y son excluyentes, $P(A\\cup B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.3",
+        "nombre": "Eventos mutuamente excluyentes"
+      },
+      "respuestas_posibles": {
+        "A": "$0.1$",
+        "B": "$1.2$",
+        "C": "$0.7$",
+        "D": "$0.12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "eventos mutuamente excluyentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-3-08",
+      "pregunta": "Dos eventos complementarios:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.3",
+        "nombre": "Eventos mutuamente excluyentes"
+      },
+      "respuestas_posibles": {
+        "A": "Son siempre independientes",
+        "B": "No pueden ocurrir juntos y cubren todo $S$",
+        "C": "Pueden ocurrir juntos",
+        "D": "Tienen siempre la misma probabilidad"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "eventos mutuamente excluyentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-3-09",
+      "pregunta": "Obtener cara y obtener cruz en un solo lanzamiento son:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.3",
+        "nombre": "Eventos mutuamente excluyentes"
+      },
+      "respuestas_posibles": {
+        "A": "Eventos mutuamente excluyentes",
+        "B": "Eventos simultáneos",
+        "C": "Eventos dependientes con intersección no vacía",
+        "D": "El mismo evento"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "eventos mutuamente excluyentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-3-10",
+      "pregunta": "Si dos eventos excluyentes tienen probabilidades $0.6$ y $0.5$:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.3",
+        "nombre": "Eventos mutuamente excluyentes"
+      },
+      "respuestas_posibles": {
+        "A": "La unión vale $1.1$",
+        "B": "La intersección vale $0.3$",
+        "C": "Son complementarios",
+        "D": "Los datos son incompatibles porque la suma supera $1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "eventos mutuamente excluyentes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-4-01",
+      "pregunta": "En un dado equilibrado, $P(4)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.4",
+        "nombre": "Probabilidad clásica"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac12$",
+        "B": "$\\frac56$",
+        "C": "$\\frac16$",
+        "D": "$\\frac14$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "probabilidad clásica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-4-02",
+      "pregunta": "En una moneda equilibrada, $P(\\text{cara})=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.4",
+        "nombre": "Probabilidad clásica"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\frac12$",
+        "C": "$1$",
+        "D": "$\\frac14$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "probabilidad clásica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-4-03",
+      "pregunta": "En un dado, la probabilidad de obtener número par es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.4",
+        "nombre": "Probabilidad clásica"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac12$",
+        "B": "$\\frac13$",
+        "C": "$\\frac23$",
+        "D": "$\\frac16$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "probabilidad clásica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-4-04",
+      "pregunta": "De una baraja de $52$ cartas, $P(\\text{as})=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.4",
+        "nombre": "Probabilidad clásica"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac14$",
+        "B": "$\\frac4{13}$",
+        "C": "$\\frac1{52}$",
+        "D": "$\\frac1{13}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "probabilidad clásica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-4-05",
+      "pregunta": "Una bolsa tiene $3$ bolas rojas y $7$ azules. La probabilidad de roja es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.4",
+        "nombre": "Probabilidad clásica"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac13$",
+        "B": "$\\frac3{7}$",
+        "C": "$\\frac3{10}$",
+        "D": "$\\frac7{10}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "probabilidad clásica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-4-06",
+      "pregunta": "La probabilidad clásica se calcula como:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.4",
+        "nombre": "Probabilidad clásica"
+      },
+      "respuestas_posibles": {
+        "A": "$P(A)=1-\\text{favorables}$",
+        "B": "$P(A)=\\frac{\\text{casos favorables}}{\\text{casos posibles}}$",
+        "C": "$P(A)=\\frac{\\text{casos posibles}}{\\text{favorables}}$",
+        "D": "$P(A)=\\text{favorables}+\\text{posibles}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "probabilidad clásica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-4-07",
+      "pregunta": "Toda probabilidad satisface:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.4",
+        "nombre": "Probabilidad clásica"
+      },
+      "respuestas_posibles": {
+        "A": "$0\\le P(A)\\le1$",
+        "B": "$P(A)>1$",
+        "C": "$P(A)<0$",
+        "D": "$P(A)$ es siempre entero"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "probabilidad clásica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-4-08",
+      "pregunta": "La probabilidad del evento seguro es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.4",
+        "nombre": "Probabilidad clásica"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$\\frac12$",
+        "C": "Depende del experimento",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "probabilidad clásica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-4-09",
+      "pregunta": "La probabilidad del evento imposible es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.4",
+        "nombre": "Probabilidad clásica"
+      },
+      "respuestas_posibles": {
+        "A": "$-1$",
+        "B": "$\\frac12$",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "probabilidad clásica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-4-10",
+      "pregunta": "Una urna tiene $5$ fichas numeradas del $1$ al $5$. La probabilidad de extraer un número primo es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.4",
+        "nombre": "Probabilidad clásica"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac45$",
+        "B": "$\\frac35$",
+        "C": "$\\frac25$",
+        "D": "$\\frac15$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "probabilidad clásica",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-5-01",
+      "pregunta": "La regla general de la suma es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.5",
+        "nombre": "Regla de la suma"
+      },
+      "respuestas_posibles": {
+        "A": "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$",
+        "B": "$P(A\\cup B)=P(A)P(B)$",
+        "C": "$P(A\\cup B)=P(A)+P(B)$ siempre",
+        "D": "$P(A\\cup B)=P(A)-P(B)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "regla de la suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-5-02",
+      "pregunta": "Si $P(A)=0.5$, $P(B)=0.4$ y $P(A\\cap B)=0.2$, entonces $P(A\\cup B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.5",
+        "nombre": "Regla de la suma"
+      },
+      "respuestas_posibles": {
+        "A": "$0.9$",
+        "B": "$0.2$",
+        "C": "$0.1$",
+        "D": "$0.7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "regla de la suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-5-03",
+      "pregunta": "En un dado, $A=$ par y $B=$ mayor que $4$. $P(A\\cup B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.5",
+        "nombre": "Regla de la suma"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac56$",
+        "B": "$\\frac13$",
+        "C": "$\\frac23$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "regla de la suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-5-04",
+      "pregunta": "En una baraja, la probabilidad de extraer un as o un rey es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.5",
+        "nombre": "Regla de la suma"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac18$",
+        "B": "$\\frac2{13}$",
+        "C": "$\\frac1{13}$",
+        "D": "$\\frac4{13}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "regla de la suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-5-05",
+      "pregunta": "Si $A$ y $B$ son excluyentes, la regla se reduce a:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.5",
+        "nombre": "Regla de la suma"
+      },
+      "respuestas_posibles": {
+        "A": "$P(A\\cup B)=P(A)+P(B)$",
+        "B": "$P(A\\cup B)=P(A)P(B)$",
+        "C": "$P(A\\cup B)=P(A)-P(B)$",
+        "D": "$P(A\\cup B)=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "regla de la suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-5-06",
+      "pregunta": "Si $P(A\\cup B)=0.8$, $P(A)=0.5$ y $P(B)=0.6$, entonces $P(A\\cap B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.5",
+        "nombre": "Regla de la suma"
+      },
+      "respuestas_posibles": {
+        "A": "$0.1$",
+        "B": "$1.1$",
+        "C": "$0.8$",
+        "D": "$0.3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "regla de la suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-5-07",
+      "pregunta": "En un grupo, $60\\%$ estudia inglés, $40\\%$ francés y $20\\%$ ambos. El porcentaje que estudia al menos uno es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.5",
+        "nombre": "Regla de la suma"
+      },
+      "respuestas_posibles": {
+        "A": "$20\\%$",
+        "B": "$60\\%$",
+        "C": "$80\\%$",
+        "D": "$100\\%$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "regla de la suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-5-08",
+      "pregunta": "La resta de $P(A\\cap B)$ evita:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.5",
+        "nombre": "Regla de la suma"
+      },
+      "respuestas_posibles": {
+        "A": "Sumar probabilidades negativas",
+        "B": "Contar dos veces los resultados comunes",
+        "C": "Eliminar resultados imposibles",
+        "D": "Convertir eventos en independientes"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "regla de la suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-5-09",
+      "pregunta": "Si $P(A)=0.25$, $P(B)=0.35$ y son excluyentes, $P(A\\cup B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.5",
+        "nombre": "Regla de la suma"
+      },
+      "respuestas_posibles": {
+        "A": "$0.60$",
+        "B": "$0.0875$",
+        "C": "$0.10$",
+        "D": "$0.85$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "regla de la suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-5-10",
+      "pregunta": "Si $A\\subseteq B$, entonces $P(A\\cup B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.5",
+        "nombre": "Regla de la suma"
+      },
+      "respuestas_posibles": {
+        "A": "$P(A)$",
+        "B": "$P(A)+P(B)$",
+        "C": "$0$",
+        "D": "$P(B)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "regla de la suma",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-6-01",
+      "pregunta": "La regla del complemento es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.6",
+        "nombre": "Regla del complemento"
+      },
+      "respuestas_posibles": {
+        "A": "$P(A^c)=1+P(A)$",
+        "B": "$P(A^c)=P(A)^2$",
+        "C": "$P(A^c)=1-P(A)$",
+        "D": "$P(A^c)=P(A)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "regla del complemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-6-02",
+      "pregunta": "Si $P(A)=0.72$, entonces $P(A^c)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.6",
+        "nombre": "Regla del complemento"
+      },
+      "respuestas_posibles": {
+        "A": "$0.18$",
+        "B": "$0.28$",
+        "C": "$0.72$",
+        "D": "$1.72$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "regla del complemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-6-03",
+      "pregunta": "En un dado, la probabilidad de no obtener $6$ es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.6",
+        "nombre": "Regla del complemento"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac56$",
+        "B": "$\\frac16$",
+        "C": "$\\frac12$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "regla del complemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-6-04",
+      "pregunta": "Una máquina falla con probabilidad $0.03$. La probabilidad de que no falle es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.6",
+        "nombre": "Regla del complemento"
+      },
+      "respuestas_posibles": {
+        "A": "$0.03$",
+        "B": "$1.03$",
+        "C": "$0.07$",
+        "D": "$0.97$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "regla del complemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-6-05",
+      "pregunta": "La probabilidad de obtener al menos una cara en dos lanzamientos es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.6",
+        "nombre": "Regla del complemento"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac12$",
+        "B": "$1$",
+        "C": "$\\frac34$",
+        "D": "$\\frac14$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "regla del complemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-6-06",
+      "pregunta": "Para hallar “al menos uno”, suele ser útil calcular:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.6",
+        "nombre": "Regla del complemento"
+      },
+      "respuestas_posibles": {
+        "A": "El producto de complementos sumado a uno",
+        "B": "Uno menos la probabilidad de ninguno",
+        "C": "La probabilidad de exactamente uno únicamente",
+        "D": "La suma sin intersección"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "regla del complemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-6-07",
+      "pregunta": "La probabilidad de no extraer un as de una baraja es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.6",
+        "nombre": "Regla del complemento"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{12}{13}$",
+        "B": "$\\frac1{13}$",
+        "C": "$\\frac4{13}$",
+        "D": "$\\frac{48}{13}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "regla del complemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-6-08",
+      "pregunta": "Si $P(A^c)=0.15$, entonces $P(A)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.6",
+        "nombre": "Regla del complemento"
+      },
+      "respuestas_posibles": {
+        "A": "$0.15$",
+        "B": "$1.15$",
+        "C": "$0.75$",
+        "D": "$0.85$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "regla del complemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-6-09",
+      "pregunta": "Los eventos $A$ y $A^c$ son:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.6",
+        "nombre": "Regla del complemento"
+      },
+      "respuestas_posibles": {
+        "A": "Iguales",
+        "B": "De intersección $A$",
+        "C": "Mutuamente excluyentes y exhaustivos",
+        "D": "Independientes siempre"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "regla del complemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-6-10",
+      "pregunta": "En tres lanzamientos de moneda, la probabilidad de al menos una cara es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.6",
+        "nombre": "Regla del complemento"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac34$",
+        "B": "$\\frac78$",
+        "C": "$\\frac18$",
+        "D": "$\\frac38$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "regla del complemento",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-7-01",
+      "pregunta": "La probabilidad condicional se define como:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.7",
+        "nombre": "Probabilidad condicional"
+      },
+      "respuestas_posibles": {
+        "A": "$P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}$",
+        "B": "$P(A\\mid B)=P(A)+P(B)$",
+        "C": "$P(A\\mid B)=P(A)P(B)$",
+        "D": "$P(A\\mid B)=1-P(B)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "probabilidad condicional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-7-02",
+      "pregunta": "En un dado, dado que el resultado es par, la probabilidad de que sea mayor que $3$ es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.7",
+        "nombre": "Probabilidad condicional"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac12$",
+        "B": "$\\frac13$",
+        "C": "$\\frac16$",
+        "D": "$\\frac23$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "probabilidad condicional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-7-03",
+      "pregunta": "En una baraja, dado que la carta es figura, la probabilidad de que sea rey es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.7",
+        "nombre": "Probabilidad condicional"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac1{13}$",
+        "B": "$\\frac4{13}$",
+        "C": "$\\frac13$",
+        "D": "$\\frac14$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "probabilidad condicional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-7-04",
+      "pregunta": "Si $P(A\\cap B)=0.18$ y $P(B)=0.6$, entonces $P(A\\mid B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.7",
+        "nombre": "Probabilidad condicional"
+      },
+      "respuestas_posibles": {
+        "A": "$0.78$",
+        "B": "$0.3$",
+        "C": "$0.108$",
+        "D": "$0.42$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "probabilidad condicional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-7-05",
+      "pregunta": "Una clase tiene $20$ personas, $12$ usan transporte público y $8$ de ellas llegan antes de las $8$. Dado que usan transporte público, la probabilidad de llegar antes de las $8$ es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.7",
+        "nombre": "Probabilidad condicional"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac23$",
+        "B": "$\\frac25$",
+        "C": "$\\frac8{20}$",
+        "D": "$\\frac{12}{20}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "probabilidad condicional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-7-06",
+      "pregunta": "Condicionar por $B$ significa:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.7",
+        "nombre": "Probabilidad condicional"
+      },
+      "respuestas_posibles": {
+        "A": "Eliminar $B$",
+        "B": "Suponer que $B$ es imposible",
+        "C": "Sumar todos los resultados fuera de $B$",
+        "D": "Restringir el espacio muestral a los resultados de $B$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "probabilidad condicional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-7-07",
+      "pregunta": "Si $P(B)=0$, $P(A\\mid B)$:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.7",
+        "nombre": "Probabilidad condicional"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "Vale $P(A)$",
+        "C": "No está definida",
+        "D": "Vale $0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "probabilidad condicional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-7-08",
+      "pregunta": "Si $P(A\\mid B)=0.5$ y $P(B)=0.4$, entonces $P(A\\cap B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.7",
+        "nombre": "Probabilidad condicional"
+      },
+      "respuestas_posibles": {
+        "A": "$1.25$",
+        "B": "$0.2$",
+        "C": "$0.9$",
+        "D": "$0.1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "probabilidad condicional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-7-09",
+      "pregunta": "En una urna hay $4$ rojas y $6$ azules; de las rojas, $3$ son grandes. Dado que la bola es roja, $P(\\text{grande})=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.7",
+        "nombre": "Probabilidad condicional"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac34$",
+        "B": "$\\frac3{10}$",
+        "C": "$\\frac4{10}$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "probabilidad condicional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-7-10",
+      "pregunta": "La probabilidad condicional puede diferir de $P(A)$ cuando:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.7",
+        "nombre": "Probabilidad condicional"
+      },
+      "respuestas_posibles": {
+        "A": "$A$ es seguro",
+        "B": "$B=S$ siempre",
+        "C": "Los eventos son idénticos necesariamente",
+        "D": "$B$ aporta información relevante sobre $A$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "probabilidad condicional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-8-01",
+      "pregunta": "La regla del producto es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.8",
+        "nombre": "Regla del producto"
+      },
+      "respuestas_posibles": {
+        "A": "$P(A\\cap B)=P(A)-P(B)$",
+        "B": "$P(A\\cap B)=1-P(A)$",
+        "C": "$P(A\\cap B)=P(A)P(B\\mid A)$",
+        "D": "$P(A\\cap B)=P(A)+P(B)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "regla del producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-8-02",
+      "pregunta": "Si $P(A)=0.4$ y $P(B\\mid A)=0.5$, entonces $P(A\\cap B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.8",
+        "nombre": "Regla del producto"
+      },
+      "respuestas_posibles": {
+        "A": "$0.45$",
+        "B": "$0.2$",
+        "C": "$0.9$",
+        "D": "$0.1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "regla del producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-8-03",
+      "pregunta": "Una moneda y un dado equilibrados se lanzan. La probabilidad de cara y $6$ es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.8",
+        "nombre": "Regla del producto"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac1{12}$",
+        "B": "$\\frac18$",
+        "C": "$\\frac16$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "regla del producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-8-04",
+      "pregunta": "De una urna con $3$ rojas y $2$ azules se extraen dos sin reemplazo. La probabilidad de dos rojas es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.8",
+        "nombre": "Regla del producto"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac9{25}$",
+        "B": "$\\frac25$",
+        "C": "$\\frac16$",
+        "D": "$\\frac3{10}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "regla del producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-8-05",
+      "pregunta": "Con reemplazo en la misma urna, la probabilidad de dos rojas es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.8",
+        "nombre": "Regla del producto"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac6{25}$",
+        "B": "$\\frac35$",
+        "C": "$\\frac9{25}$",
+        "D": "$\\frac3{10}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "regla del producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-8-06",
+      "pregunta": "La probabilidad de una secuencia se obtiene:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.8",
+        "nombre": "Regla del producto"
+      },
+      "respuestas_posibles": {
+        "A": "Dividiendo entre el número de etapas",
+        "B": "Multiplicando las probabilidades a lo largo de la secuencia",
+        "C": "Sumando siempre",
+        "D": "Restando complementos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "regla del producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-8-07",
+      "pregunta": "Si $P(A)=0.7$ y $P(B\\mid A)=0.2$, $P(A\\cap B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.8",
+        "nombre": "Regla del producto"
+      },
+      "respuestas_posibles": {
+        "A": "$0.14$",
+        "B": "$0.9$",
+        "C": "$0.5$",
+        "D": "$0.35$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "regla del producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-8-08",
+      "pregunta": "Una bolsa contiene $5$ blancas y $5$ negras. Con reemplazo, $P(\\text{blanca y luego negra})=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.8",
+        "nombre": "Regla del producto"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac12$",
+        "B": "$\\frac5{18}$",
+        "C": "$\\frac1{10}$",
+        "D": "$\\frac14$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "regla del producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-8-09",
+      "pregunta": "Sin reemplazo en la misma bolsa, $P(\\text{blanca y luego negra})=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.8",
+        "nombre": "Regla del producto"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac12$",
+        "B": "$\\frac{25}{81}$",
+        "C": "$\\frac5{18}$",
+        "D": "$\\frac14$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "regla del producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-8-10",
+      "pregunta": "Para tres etapas, la regla del producto extiende multiplicando:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.8",
+        "nombre": "Regla del producto"
+      },
+      "respuestas_posibles": {
+        "A": "Solo la primera y última probabilidad",
+        "B": "Las probabilidades condicionales sucesivas",
+        "C": "Las uniones de eventos",
+        "D": "Los complementos sumados"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "regla del producto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-9-01",
+      "pregunta": "Dos eventos son independientes si:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.9",
+        "nombre": "Eventos independientes"
+      },
+      "respuestas_posibles": {
+        "A": "$P(A\\cap B)=P(A)P(B)$",
+        "B": "$P(A\\cap B)=0$ siempre",
+        "C": "$P(A)=P(B)$",
+        "D": "$P(A\\cup B)=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "eventos independientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-9-02",
+      "pregunta": "Si $A$ y $B$ son independientes, entonces:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.9",
+        "nombre": "Eventos independientes"
+      },
+      "respuestas_posibles": {
+        "A": "$P(A\\mid B)=0$",
+        "B": "$P(A\\mid B)=P(B)$ siempre",
+        "C": "$P(A\\mid B)=1-P(A)$",
+        "D": "$P(A\\mid B)=P(A)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "eventos independientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-9-03",
+      "pregunta": "Lanzar una moneda y un dado produce eventos basados en cada objeto que son:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.9",
+        "nombre": "Eventos independientes"
+      },
+      "respuestas_posibles": {
+        "A": "Complementarios",
+        "B": "Imposibles",
+        "C": "Independientes",
+        "D": "Mutuamente excluyentes"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "eventos independientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-9-04",
+      "pregunta": "Si $P(A)=0.5$, $P(B)=0.4$ y son independientes, $P(A\\cap B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.9",
+        "nombre": "Eventos independientes"
+      },
+      "respuestas_posibles": {
+        "A": "$0.45$",
+        "B": "$0.2$",
+        "C": "$0.9$",
+        "D": "$0.1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "eventos independientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-9-05",
+      "pregunta": "Si $P(A\\cap B)=0.12$, $P(A)=0.3$ y $P(B)=0.4$, los eventos son:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.9",
+        "nombre": "Eventos independientes"
+      },
+      "respuestas_posibles": {
+        "A": "Independientes",
+        "B": "Mutuamente excluyentes",
+        "C": "Complementarios",
+        "D": "Dependientes necesariamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "eventos independientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-9-06",
+      "pregunta": "Dos eventos mutuamente excluyentes con probabilidades positivas:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.9",
+        "nombre": "Eventos independientes"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre son independientes",
+        "B": "Son complementarios siempre",
+        "C": "Tienen intersección positiva",
+        "D": "No son independientes"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "eventos independientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-9-07",
+      "pregunta": "En dos lanzamientos de moneda, “cara en el primero” y “cara en el segundo” son:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.9",
+        "nombre": "Eventos independientes"
+      },
+      "respuestas_posibles": {
+        "A": "El mismo evento",
+        "B": "Imposibles",
+        "C": "Independientes",
+        "D": "Excluyentes"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "eventos independientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-9-08",
+      "pregunta": "Si conocer que ocurrió $B$ cambia la probabilidad de $A$, los eventos son:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.9",
+        "nombre": "Eventos independientes"
+      },
+      "respuestas_posibles": {
+        "A": "Equiprobables",
+        "B": "Dependientes",
+        "C": "Independientes",
+        "D": "Complementarios"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "eventos independientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-9-09",
+      "pregunta": "Si $P(A)=0.2$ y $P(B)=0.5$ son independientes, $P(A\\cup B)=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.9",
+        "nombre": "Eventos independientes"
+      },
+      "respuestas_posibles": {
+        "A": "$0.6$",
+        "B": "$0.7$",
+        "C": "$0.1$",
+        "D": "$0.3$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "eventos independientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-9-10",
+      "pregunta": "La independencia no significa que los eventos:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.9",
+        "nombre": "Eventos independientes"
+      },
+      "respuestas_posibles": {
+        "A": "Puedan ocurrir juntos",
+        "B": "Cumplan la regla del producto",
+        "C": "Mantengan probabilidades condicionales",
+        "D": "Sean mutuamente excluyentes"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "eventos independientes",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-10-01",
+      "pregunta": "Una urna tiene $4$ rojas y $6$ azules. Con reemplazo, la probabilidad de roja en la segunda extracción es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.10",
+        "nombre": "Experimentos con y sin reemplazo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac35$",
+        "B": "$\\frac4{10}\\cdot\\frac3{9}$",
+        "C": "$\\frac25$",
+        "D": "$\\frac49$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "experimentos con y sin reemplazo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-10-02",
+      "pregunta": "En la misma urna, si primero salió roja y no se reemplaza, la probabilidad de roja en la segunda es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.10",
+        "nombre": "Experimentos con y sin reemplazo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac3{10}$",
+        "B": "$\\frac13$",
+        "C": "$\\frac25$",
+        "D": "$\\frac49$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "experimentos con y sin reemplazo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-10-03",
+      "pregunta": "Con reemplazo, dos extracciones sucesivas son generalmente:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.10",
+        "nombre": "Experimentos con y sin reemplazo"
+      },
+      "respuestas_posibles": {
+        "A": "Independientes",
+        "B": "Mutuamente excluyentes",
+        "C": "Complementarias",
+        "D": "Deterministas"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "experimentos con y sin reemplazo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-10-04",
+      "pregunta": "Sin reemplazo, dos extracciones sucesivas son generalmente:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.10",
+        "nombre": "Experimentos con y sin reemplazo"
+      },
+      "respuestas_posibles": {
+        "A": "Independientes",
+        "B": "Imposibles",
+        "C": "Equiprobables siempre",
+        "D": "Dependientes"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "experimentos con y sin reemplazo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-10-05",
+      "pregunta": "Una bolsa tiene $3$ verdes y $2$ amarillas. Con reemplazo, $P(\\text{dos verdes})=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.10",
+        "nombre": "Experimentos con y sin reemplazo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac6{25}$",
+        "B": "$\\frac35$",
+        "C": "$\\frac9{25}$",
+        "D": "$\\frac3{10}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "experimentos con y sin reemplazo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-10-06",
+      "pregunta": "En la misma bolsa, sin reemplazo, $P(\\text{dos verdes})=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.10",
+        "nombre": "Experimentos con y sin reemplazo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac16$",
+        "B": "$\\frac3{10}$",
+        "C": "$\\frac9{25}$",
+        "D": "$\\frac25$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "experimentos con y sin reemplazo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-10-07",
+      "pregunta": "Una caja contiene $5$ piezas buenas y $1$ defectuosa. Sin reemplazo, $P(\\text{dos buenas})=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.10",
+        "nombre": "Experimentos con y sin reemplazo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac23$",
+        "B": "$\\frac{25}{36}$",
+        "C": "$\\frac56$",
+        "D": "$\\frac12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "experimentos con y sin reemplazo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-10-08",
+      "pregunta": "Con reemplazo en la misma caja, $P(\\text{dos buenas})=$",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.10",
+        "nombre": "Experimentos con y sin reemplazo"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac23$",
+        "B": "$\\frac56$",
+        "C": "$\\frac5{18}$",
+        "D": "$\\frac{25}{36}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "experimentos con y sin reemplazo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-10-09",
+      "pregunta": "No reemplazar un objeto extraído modifica:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.10",
+        "nombre": "Experimentos con y sin reemplazo"
+      },
+      "respuestas_posibles": {
+        "A": "El resultado pasado",
+        "B": "El espacio muestral original sin afectar probabilidades",
+        "C": "El total y, posiblemente, la composición antes de la siguiente extracción",
+        "D": "Solo el nombre del evento"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "experimentos con y sin reemplazo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-10-10",
+      "pregunta": "En un experimento sin reemplazo, los denominadores sucesivos:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.10",
+        "nombre": "Experimentos con y sin reemplazo"
+      },
+      "respuestas_posibles": {
+        "A": "Se vuelven cero inmediatamente",
+        "B": "Disminuyen porque quedan menos objetos",
+        "C": "Permanecen siempre iguales",
+        "D": "Aumentan en uno"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "experimentos con y sin reemplazo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-11-01",
+      "pregunta": "En un diagrama de árbol, cada rama representa:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.11",
+        "nombre": "Diagramas de árbol"
+      },
+      "respuestas_posibles": {
+        "A": "Un resultado posible de una etapa y su probabilidad",
+        "B": "Una media estadística",
+        "C": "Una ecuación",
+        "D": "Una frecuencia acumulada únicamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "diagramas de árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-11-02",
+      "pregunta": "La probabilidad de una ruta completa se obtiene:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.11",
+        "nombre": "Diagramas de árbol"
+      },
+      "respuestas_posibles": {
+        "A": "Sumando las ramas",
+        "B": "Restando la primera de la última",
+        "C": "Promediando las ramas",
+        "D": "Multiplicando las probabilidades de sus ramas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "diagramas de árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-11-03",
+      "pregunta": "La probabilidad de varias rutas favorables incompatibles se obtiene:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.11",
+        "nombre": "Diagramas de árbol"
+      },
+      "respuestas_posibles": {
+        "A": "Eligiendo la mayor",
+        "B": "Restando sus complementos",
+        "C": "Sumando las probabilidades de las rutas",
+        "D": "Multiplicando todas las rutas"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "diagramas de árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-11-04",
+      "pregunta": "Una moneda se lanza dos veces. El árbol tiene al final:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.11",
+        "nombre": "Diagramas de árbol"
+      },
+      "respuestas_posibles": {
+        "A": "$8$ rutas",
+        "B": "$4$ rutas",
+        "C": "$2$ rutas",
+        "D": "$3$ rutas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "diagramas de árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-11-05",
+      "pregunta": "En dos lanzamientos de moneda equilibrada, la ruta cara-cruz tiene probabilidad:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.11",
+        "nombre": "Diagramas de árbol"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac14$",
+        "B": "$\\frac12$",
+        "C": "$\\frac18$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "diagramas de árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-11-06",
+      "pregunta": "Una urna tiene $2$ rojas y $1$ azul. Sin reemplazo, después de extraer roja, las probabilidades de la segunda etapa son:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.11",
+        "nombre": "Diagramas de árbol"
+      },
+      "respuestas_posibles": {
+        "A": "$P(R)=\\frac23$ y $P(A)=\\frac13$",
+        "B": "$P(R)=1$ y $P(A)=0$",
+        "C": "$P(R)=\\frac13$ y $P(A)=\\frac23$",
+        "D": "$P(R)=\\frac12$ y $P(A)=\\frac12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "diagramas de árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-11-07",
+      "pregunta": "En un árbol, las probabilidades que salen de un mismo nodo deben sumar:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.11",
+        "nombre": "Diagramas de árbol"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "El número de etapas",
+        "C": "$1$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "diagramas de árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-11-08",
+      "pregunta": "Una prueba sale positiva con probabilidad $0.1$ y negativa con $0.9$. En dos pruebas independientes, la ruta positiva-positiva vale:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.11",
+        "nombre": "Diagramas de árbol"
+      },
+      "respuestas_posibles": {
+        "A": "$0.81$",
+        "B": "$0.01$",
+        "C": "$0.2$",
+        "D": "$0.09$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "diagramas de árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-11-09",
+      "pregunta": "En el mismo caso, la probabilidad de exactamente un positivo es:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.11",
+        "nombre": "Diagramas de árbol"
+      },
+      "respuestas_posibles": {
+        "A": "$0.18$",
+        "B": "$0.09$",
+        "C": "$0.10$",
+        "D": "$0.81$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "diagramas de árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-47-11-10",
+      "pregunta": "El diagrama de árbol es especialmente útil para:",
+      "tema": {
+        "codigo": "47",
+        "nombre": "Probabilidad básica",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "47.11",
+        "nombre": "Diagramas de árbol"
+      },
+      "respuestas_posibles": {
+        "A": "Calcular únicamente medias",
+        "B": "Resolver ecuaciones cuadráticas",
+        "C": "Representar datos continuos en intervalos",
+        "D": "Organizar experimentos de varias etapas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "diagramas de árbol",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

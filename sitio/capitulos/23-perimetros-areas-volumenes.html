@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>23. Perímetros, áreas y volúmenes · Guía de Matemáticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/estilo.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>window.MACROS_KATEX = {"\\R": "\\mathbb{R}", "\\N": "\\mathbb{N}", "\\Z": "\\mathbb{Z}", "\\Q": "\\mathbb{Q}", "\\C": "\\mathbb{C}", "\\limite": "\\lim_{#1 \\to #2}", "\\deriv": "\\frac{d#1}{d#2}", "\\sen": "\\operatorname{sen}", "\\arcsen": "\\operatorname{arcsen}", "\\boxed": "#1"};</script>
+  <script defer src="../assets/app.js"></script>
+</head>
+<body class="pagina-capitulo">
+  <header class="barra">
+    <button class="boton-menu" type="button" aria-label="Abrir índice del capítulo" aria-controls="indice-lateral" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="marca-sitio" href="../index.html">
+      <img src="../assets/logo.png" alt="" class="logo-barra" width="28" height="30" aria-hidden="true">
+      <span>Guía de Matemáticas</span>
+    </a>
+    <span class="barra-parte">Parte IV: Geometría euclidiana</span>
+  </header>
+
+  <div class="disposicion">
+    <aside id="indice-lateral" class="indice-lateral">
+      <a class="volver" href="../index.html">← Todos los capítulos</a>
+      <p class="indice-titulo">En este capítulo</p>
+      <ul><li class="nivel-2"><a href="#perimetro-y-area"><span class="num">23.1</span> Perímetro y área</a></li><li class="nivel-2"><a href="#triangulo"><span class="num">23.2</span> Triángulo</a></li><li class="nivel-2"><a href="#cuadrado-y-rectangulo"><span class="num">23.3</span> Cuadrado y rectángulo</a></li><li class="nivel-2"><a href="#paralelogramo-rombo-y-trapecio"><span class="num">23.4</span> Paralelogramo, rombo y trapecio</a></li><li class="nivel-2"><a href="#circulo-y-circunferencia"><span class="num">23.5</span> Círculo y circunferencia</a></li><li class="nivel-2"><a href="#resumen-de-areas-de-figuras-planas"><span class="num">23.6</span> Resumen de áreas de figuras planas</a></li><li class="nivel-2"><a href="#figuras-compuestas"><span class="num">23.7</span> Figuras compuestas</a></li><li class="nivel-2"><a href="#volumen"><span class="num">23.8</span> Volumen</a></li><li class="nivel-2"><a href="#prismas"><span class="num">23.9</span> Prismas</a></li><li class="nivel-2"><a href="#cilindro"><span class="num">23.10</span> Cilindro</a></li><li class="nivel-2"><a href="#piramide-y-cono"><span class="num">23.11</span> Pirámide y cono</a></li><li class="nivel-2"><a href="#esfera"><span class="num">23.12</span> Esfera</a></li><li class="nivel-2"><a href="#resumen-de-volumenes"><span class="num">23.13</span> Resumen de volúmenes</a></li><li class="nivel-2"><a href="#simetria-axial"><span class="num">23.14</span> Simetría axial</a></li><li class="nivel-2"><a href="#ejercicios-propuestos"><span class="num">23.15</span> Ejercicios propuestos</a></li></ul>
+    </aside>
+    <div class="velo" hidden></div>
+
+    <main class="contenido">
+      <article>
+<header class="cap-encabezado"><p class="cap-numero">Capítulo 23</p><h1>Perímetros, áreas y volúmenes</h1></header>
+<p><span id="cap-perimetros-areas-volumenes" class="ancla"></span></p>
+<p><span class="marcas"><span class="marca marca-ipn">IPN</span></span> <span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<p>El perímetro, el área y el volumen permiten medir diferentes características de las figuras geométricas. El perímetro mide la longitud de un contorno, el área mide la extensión de una superficie y el volumen mide el espacio ocupado por un cuerpo tridimensional.</p>
+<p>En este capítulo estudiarás las fórmulas de las figuras planas y los sólidos más comunes, el cálculo de áreas compuestas y el concepto de simetría axial.</p>
+<h2 id="perimetro-y-area"><span class="num">23.1</span> Perímetro y área<a class="enlace-seccion" href="#perimetro-y-area" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>perímetro</strong> de una figura plana es la longitud total de su contorno. Para calcularlo, se suman las longitudes de todos sus lados o se utiliza una fórmula equivalente.</p>
+<p>El perímetro se expresa en unidades lineales, como:</p>
+<div class="mate"><span class="mate-bloque">\[\text{cm}, \qquad \text{m}, \qquad \text{km}.\]</span></div></div></section>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>área</strong> de una figura plana es la medida de la superficie que ocupa.</p>
+<p>El área se expresa en unidades cuadradas, como:</p>
+<div class="mate"><span class="mate-bloque">\[\text{cm}^2, \qquad \text{m}^2, \qquad \text{km}^2.\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>El perímetro y el área representan magnitudes diferentes. Dos figuras pueden tener el mismo perímetro y áreas distintas, o la misma área y perímetros diferentes.</p>
+<p>También deben distinguirse sus unidades:</p>
+<div class="mate"><span class="mate-bloque">\[P=20\ \text{cm}\]</span></div>
+<p>representa una longitud, mientras que:</p>
+<div class="mate"><span class="mate-bloque">\[A=20\ \text{cm}^2\]</span></div>
+<p>representa una superficie.</p></div></section>
+<h2 id="triangulo"><span class="num">23.2</span> Triángulo<a class="enlace-seccion" href="#triangulo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Perímetro y área de un triángulo</div><div class="caja-cuerpo"><p>Si un triángulo tiene lados de longitudes \(a\), \(b\) y \(c\), su perímetro es:</p>
+<div class="mate"><span class="mate-bloque">\[P=a+b+c.\]</span></div>
+<p>Si se toma un lado como base \(b\) y la altura perpendicular correspondiente es \(h\), su área es:</p>
+<div class="mate"><span class="mate-bloque">\[A=\frac{bh}{2}.\]</span></div></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-0fe33edd0b32.svg" alt="Figura 23.1" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La altura debe ser perpendicular a la recta que contiene la base. En un triángulo obtusángulo, la altura correspondiente a ciertas bases puede quedar fuera del triángulo.</p></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-23-1"><div class="caja-titulo">Ejemplo 23.1</div><div class="caja-cuerpo"><p>Encuentra el área de un triángulo cuya base mide \(8\ \text{cm}\) y cuya altura mide \(5\ \text{cm}\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} A &amp;=\frac{bh}{2}\\ &amp;=\frac{(8)(5)}{2}\\ &amp;=\frac{40}{2}\\ &amp;=20. \end{aligned}\]</span></div>
+<p>El área es:</p>
+<div class="mate"><span class="mate-bloque">\[20\ \text{cm}^2.\]</span></div></div></details></div></section>
+<h2 id="cuadrado-y-rectangulo"><span class="num">23.3</span> Cuadrado y rectángulo<a class="enlace-seccion" href="#cuadrado-y-rectangulo" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Cuadrado</div><div class="caja-cuerpo"><p>Si un cuadrado tiene lado de longitud \(l\), entonces:</p>
+<div class="mate"><span class="mate-bloque">\[P=4l\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[A=l^2.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Rectángulo</div><div class="caja-cuerpo"><p>Si un rectángulo tiene base \(b\) y altura \(h\), entonces:</p>
+<div class="mate"><span class="mate-bloque">\[P=2(b+h)\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[A=bh.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-23-2"><div class="caja-titulo">Ejemplo 23.2</div><div class="caja-cuerpo"><p>Encuentra el perímetro y el área de un rectángulo cuyos lados miden:</p>
+<div class="mate"><span class="mate-bloque">\[9\ \text{cm} \qquad\text{y}\qquad 4\ \text{cm}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Calculamos el perímetro:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} P &amp;=2(9+4)\\ &amp;=2(13)\\ &amp;=26. \end{aligned}\]</span></div>
+<p>Calculamos el área:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} A &amp;=(9)(4)\\ &amp;=36. \end{aligned}\]</span></div>
+<p>Por tanto:</p>
+<div class="mate"><span class="mate-bloque">\[P=26\ \text{cm}\]</span></div>
+<p>y:</p>
+<div class="mate"><span class="mate-bloque">\[A=36\ \text{cm}^2.\]</span></div></div></details></div></section>
+<h2 id="paralelogramo-rombo-y-trapecio"><span class="num">23.4</span> Paralelogramo, rombo y trapecio<a class="enlace-seccion" href="#paralelogramo-rombo-y-trapecio" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Paralelogramo</div><div class="caja-cuerpo"><p>Si un paralelogramo tiene lados de longitudes \(a\) y \(b\), su perímetro es:</p>
+<div class="mate"><span class="mate-bloque">\[P=2(a+b).\]</span></div>
+<p>Si se toma como base el lado de longitud \(b\) y la altura perpendicular correspondiente es \(h\), su área es:</p>
+<div class="mate"><span class="mate-bloque">\[A=bh.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Rombo</div><div class="caja-cuerpo"><p>Si un rombo tiene lado de longitud \(l\), su perímetro es:</p>
+<div class="mate"><span class="mate-bloque">\[P=4l.\]</span></div>
+<p>Si sus diagonales tienen longitudes \(D\) y \(d\), su área es:</p>
+<div class="mate"><span class="mate-bloque">\[A=\frac{Dd}{2}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Trapecio</div><div class="caja-cuerpo"><p>Si un trapecio tiene lados de longitudes \(a\), \(b\), \(c\) y \(d\), su perímetro es:</p>
+<div class="mate"><span class="mate-bloque">\[P=a+b+c+d.\]</span></div>
+<p>Si sus bases paralelas tienen longitudes \(B\) y \(b\), y la distancia perpendicular entre ellas es \(h\), su área es:</p>
+<div class="mate"><span class="mate-bloque">\[A=\frac{(B+b)h}{2}.\]</span></div></div></section>
+<section class="caja caja-advertencia"><div class="caja-titulo">Advertencia</div><div class="caja-cuerpo"><p>La altura de un paralelogramo o de un trapecio no es necesariamente uno de sus lados. La altura es la distancia perpendicular entre las rectas que contienen las bases.</p></div></section>
+<h2 id="circulo-y-circunferencia"><span class="num">23.5</span> Círculo y circunferencia<a class="enlace-seccion" href="#circulo-y-circunferencia" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Longitud y área</div><div class="caja-cuerpo"><p>Si una circunferencia tiene radio \(r\), su longitud es:</p>
+<div class="mate"><span class="mate-bloque">\[L=2\pi r.\]</span></div>
+<p>Si su diámetro es \(d=2r\), también puede utilizarse:</p>
+<div class="mate"><span class="mate-bloque">\[L=\pi d.\]</span></div>
+<p>El área del círculo correspondiente es:</p>
+<div class="mate"><span class="mate-bloque">\[A=\pi r^2.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>En este contexto, la palabra <strong>perímetro</strong> del círculo suele referirse a la longitud de la circunferencia. Sin embargo, la expresión geométricamente más precisa es:</p>
+<div class="mate"><span class="mate-bloque">\[\text{longitud de la circunferencia}.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-23-3"><div class="caja-titulo">Ejemplo 23.3</div><div class="caja-cuerpo"><p>Encuentra el área de un círculo cuyo diámetro mide:</p>
+<div class="mate"><span class="mate-bloque">\[10\ \text{cm}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El radio es la mitad del diámetro:</p>
+<div class="mate"><span class="mate-bloque">\[r=\frac{10}{2}=5\ \text{cm}.\]</span></div>
+<p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} A &amp;=\pi r^2\\ &amp;=\pi(5)^2\\ &amp;=25\pi\ \text{cm}^2. \end{aligned}\]</span></div>
+<p>Utilizando \(\pi\approx3.1416\):</p>
+<div class="mate"><span class="mate-bloque">\[A\approx78.54\ \text{cm}^2.\]</span></div></div></details></div></section>
+<h2 id="resumen-de-areas-de-figuras-planas"><span class="num">23.6</span> Resumen de áreas de figuras planas<a class="enlace-seccion" href="#resumen-de-areas-de-figuras-planas" aria-label="Enlace a esta sección">#</a></h2>
+<p>Las fórmulas principales son:</p>
+<ul><li><strong>Triángulo</strong> <span class="mate-bloque">\[A=\frac{bh}{2}.\]</span></li><li><strong>Cuadrado</strong> <span class="mate-bloque">\[A=l^2.\]</span></li><li><strong>Rectángulo</strong> <span class="mate-bloque">\[A=bh.\]</span></li><li><strong>Paralelogramo</strong> <span class="mate-bloque">\[A=bh.\]</span></li><li><strong>Rombo</strong> <span class="mate-bloque">\[A=\frac{Dd}{2}.\]</span></li><li><strong>Trapecio</strong> <span class="mate-bloque">\[A=\frac{(B+b)h}{2}.\]</span></li><li><strong>Círculo</strong> <span class="mate-bloque">\[A=\pi r^2.\]</span></li></ul>
+<h2 id="figuras-compuestas"><span class="num">23.7</span> Figuras compuestas<a class="enlace-seccion" href="#figuras-compuestas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una <strong>figura compuesta</strong> es una figura que puede descomponerse en figuras geométricas más sencillas.</p>
+<p>Su área puede calcularse mediante alguno de los siguientes procedimientos:</p>
+<ul><li>sumar las áreas de las regiones que la forman;</li><li>restar de una figura mayor las áreas de las regiones eliminadas;</li><li>dividir la figura de diferentes maneras y comprobar que los procedimientos produzcan el mismo resultado.</li></ul></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Principio de adición y sustracción de áreas</div><div class="caja-cuerpo"><p>Si una figura se divide en regiones interiores que no se superponen, su área total es la suma de las áreas de dichas regiones:</p>
+<div class="mate"><span class="mate-bloque">\[A_{\text{total}} = A_1+A_2+\cdots+A_n.\]</span></div>
+<p>Si una región se elimina de una figura mayor, el área restante es:</p>
+<div class="mate"><span class="mate-bloque">\[A_{\text{restante}} = A_{\text{mayor}} - A_{\text{eliminada}}.\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-23-4"><div class="caja-titulo">Ejemplo 23.4</div><div class="caja-cuerpo"><p>Un rectángulo de \(10\ \text{cm}\) por \(6\ \text{cm}\) tiene un recorte triangular en una esquina. El triángulo recortado tiene una base de \(4\ \text{cm}\) y una altura de \(3\ \text{cm}\). Encuentra el área de la figura restante.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La situación puede representarse de la siguiente manera:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-27b3b5a17198.svg" alt="Figura 23.2" loading="lazy" decoding="async"></figure></div>
+<p>Calculamos el área del rectángulo:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} A_{\text{rectángulo}} &amp;=(10)(6)\\ &amp;=60\ \text{cm}^2. \end{aligned}\]</span></div>
+<p>Calculamos el área del triángulo recortado:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} A_{\text{triángulo}} &amp;= \frac{(4)(3)}{2}\\ &amp;=6\ \text{cm}^2. \end{aligned}\]</span></div>
+<p>Restamos:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} A_{\text{restante}} &amp;=60-6\\ &amp;=54\ \text{cm}^2. \end{aligned}\]</span></div></div></details></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-23-5"><div class="caja-titulo">Ejemplo 23.5</div><div class="caja-cuerpo"><p>Un jardín tiene forma de cuadrado de \(8\ \text{m}\) de lado. En su interior hay una fuente circular inscrita de radio \(4\ \text{m}\). Encuentra el área verde que queda fuera de la fuente.</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>La situación se representa mediante un círculo inscrito en un cuadrado:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-cea670361c8a.svg" alt="Figura 23.3" loading="lazy" decoding="async"></figure></div>
+<p>Calculamos el área del jardín:</p>
+<div class="mate"><span class="mate-bloque">\[A_{\text{cuadrado}} = 8^2 = 64\ \text{m}^2.\]</span></div>
+<p>Calculamos el área de la fuente:</p>
+<div class="mate"><span class="mate-bloque">\[A_{\text{círculo}} = \pi(4)^2 = 16\pi\ \text{m}^2.\]</span></div>
+<p>El área verde es:</p>
+<div class="mate"><span class="mate-bloque">\[A_{\text{verde}} = 64-16\pi\ \text{m}^2.\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[A_{\text{verde}} \approx13.73\ \text{m}^2.\]</span></div></div></details></div></section>
+<h2 id="volumen"><span class="num">23.8</span> Volumen<a class="enlace-seccion" href="#volumen" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>El <strong>volumen</strong> de un sólido es la medida del espacio tridimensional que ocupa.</p>
+<p>El volumen se expresa en unidades cúbicas, como:</p>
+<div class="mate"><span class="mate-bloque">\[\text{cm}^3, \qquad \text{m}^3, \qquad \text{km}^3.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>Si todas las longitudes de una figura tridimensional se multiplican por un factor \(k\), su volumen se multiplica por:</p>
+<div class="mate"><span class="mate-bloque">\[k^3.\]</span></div>
+<p>Por ejemplo, si todas las dimensiones se duplican, el volumen se multiplica por:</p>
+<div class="mate"><span class="mate-bloque">\[2^3=8.\]</span></div></div></section>
+<h2 id="prismas"><span class="num">23.9</span> Prismas<a class="enlace-seccion" href="#prismas" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>prisma</strong> es un sólido que tiene dos bases congruentes y paralelas. Sus caras laterales son paralelogramos.</p>
+<p>Si \(A_b\) es el área de una base y \(h\) es la altura perpendicular entre las bases, entonces:</p>
+<div class="mate"><span class="mate-bloque">\[V=A_bh.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Cubo</div><div class="caja-cuerpo"><p>Si un cubo tiene arista de longitud \(a\), su volumen es:</p>
+<div class="mate"><span class="mate-bloque">\[V=a^3.\]</span></div>
+<p>El área total de sus seis caras es:</p>
+<div class="mate"><span class="mate-bloque">\[A_T=6a^2.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Prisma rectangular</div><div class="caja-cuerpo"><p>Si un prisma rectangular tiene longitud \(a\), anchura \(b\) y altura \(c\), su volumen es:</p>
+<div class="mate"><span class="mate-bloque">\[V=abc.\]</span></div>
+<p>Su área total es:</p>
+<div class="mate"><span class="mate-bloque">\[A_T=2(ab+ac+bc).\]</span></div></div></section>
+<section class="caja caja-ejemplo" id="ejemplo-23-6"><div class="caja-titulo">Ejemplo 23.6</div><div class="caja-cuerpo"><p>Encuentra el volumen de un cubo cuya arista mide:</p>
+<div class="mate"><span class="mate-bloque">\[4\ \text{cm}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} V &amp;=a^3\\ &amp;=4^3\\ &amp;=64. \end{aligned}\]</span></div>
+<p>El volumen es:</p>
+<div class="mate"><span class="mate-bloque">\[64\ \text{cm}^3.\]</span></div></div></details></div></section>
+<h2 id="cilindro"><span class="num">23.10</span> Cilindro<a class="enlace-seccion" href="#cilindro" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Un <strong>cilindro circular recto</strong> tiene dos bases circulares congruentes y paralelas. Su altura \(h\) es la distancia perpendicular entre las bases.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Volumen y área del cilindro</div><div class="caja-cuerpo"><p>Si el cilindro tiene radio \(r\) y altura \(h\), su volumen es:</p>
+<div class="mate"><span class="mate-bloque">\[V=\pi r^2h.\]</span></div>
+<p>Su área lateral es:</p>
+<div class="mate"><span class="mate-bloque">\[A_L=2\pi rh.\]</span></div>
+<p>Su área total es:</p>
+<div class="mate"><span class="mate-bloque">\[A_T=2\pi rh+2\pi r^2.\]</span></div></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-dec8bcbbac24.svg" alt="Figura 23.4" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-23-7"><div class="caja-titulo">Ejemplo 23.7</div><div class="caja-cuerpo"><p>Encuentra el volumen de un cilindro de radio \(3\ \text{cm}\) y altura \(10\ \text{cm}\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} V &amp;=\pi r^2h\\ &amp;=\pi(3)^2(10)\\ &amp;=90\pi\ \text{cm}^3. \end{aligned}\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[V\approx282.74\ \text{cm}^3.\]</span></div></div></details></div></section>
+<h2 id="piramide-y-cono"><span class="num">23.11</span> Pirámide y cono<a class="enlace-seccion" href="#piramide-y-cono" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Volumen de una pirámide</div><div class="caja-cuerpo"><p>Si una pirámide tiene una base de área \(A_b\) y altura perpendicular \(h\), su volumen es:</p>
+<div class="mate"><span class="mate-bloque">\[V=\frac{A_bh}{3}.\]</span></div></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Volumen de un cono</div><div class="caja-cuerpo"><p>Si un cono circular recto tiene radio \(r\) y altura \(h\), su volumen es:</p>
+<div class="mate"><span class="mate-bloque">\[V=\frac{\pi r^2h}{3}.\]</span></div>
+<p>Si \(g\) es la generatriz del cono, su área lateral es:</p>
+<div class="mate"><span class="mate-bloque">\[A_L=\pi rg.\]</span></div>
+<p>Su área total es:</p>
+<div class="mate"><span class="mate-bloque">\[A_T=\pi rg+\pi r^2.\]</span></div></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La altura \(h\) del cono es perpendicular a la base. La <strong>generatriz</strong> \(g\) es el segmento inclinado que une el vértice con un punto de la circunferencia de la base.</p>
+<p>En un cono circular recto:</p>
+<div class="mate"><span class="mate-bloque">\[g^2=r^2+h^2.\]</span></div></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-33d7ecc60503.svg" alt="Figura 23.5" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-23-8"><div class="caja-titulo">Ejemplo 23.8</div><div class="caja-cuerpo"><p>Encuentra el volumen de un cono de radio \(5\ \text{cm}\) y altura \(12\ \text{cm}\).</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} V &amp;= \frac{\pi r^2h}{3}\\ &amp;= \frac{\pi(5)^2(12)}{3}\\ &amp;= \frac{300\pi}{3}\\ &amp;=100\pi\ \text{cm}^3. \end{aligned}\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[V\approx314.16\ \text{cm}^3.\]</span></div></div></details></div></section>
+<h2 id="esfera"><span class="num">23.12</span> Esfera<a class="enlace-seccion" href="#esfera" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Volumen y área de una esfera</div><div class="caja-cuerpo"><p>Si una esfera tiene radio \(r\), su volumen es:</p>
+<div class="mate"><span class="mate-bloque">\[V=\frac{4}{3}\pi r^3.\]</span></div>
+<p>El área de su superficie es:</p>
+<div class="mate"><span class="mate-bloque">\[A=4\pi r^2.\]</span></div></div></section>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-af2e159e1ff4.svg" alt="Figura 23.6" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-23-9"><div class="caja-titulo">Ejemplo 23.9</div><div class="caja-cuerpo"><p>Encuentra el volumen de una esfera de radio:</p>
+<div class="mate"><span class="mate-bloque">\[6\ \text{cm}.\]</span></div><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Aplicamos la fórmula:</p>
+<div class="mate"><span class="mate-bloque">\[\begin{aligned} V &amp;= \frac{4}{3}\pi r^3\\ &amp;= \frac{4}{3}\pi(6)^3\\ &amp;= \frac{4}{3}\pi(216)\\ &amp;=288\pi\ \text{cm}^3. \end{aligned}\]</span></div>
+<p>Aproximadamente:</p>
+<div class="mate"><span class="mate-bloque">\[V\approx904.78\ \text{cm}^3.\]</span></div></div></details></div></section>
+<h2 id="resumen-de-volumenes"><span class="num">23.13</span> Resumen de volúmenes<a class="enlace-seccion" href="#resumen-de-volumenes" aria-label="Enlace a esta sección">#</a></h2>
+<p>Las fórmulas principales son:</p>
+<ul><li><strong>Prisma</strong> <span class="mate-bloque">\[V=A_bh.\]</span></li><li><strong>Cubo</strong> <span class="mate-bloque">\[V=a^3.\]</span></li><li><strong>Prisma rectangular</strong> <span class="mate-bloque">\[V=abc.\]</span></li><li><strong>Cilindro</strong> <span class="mate-bloque">\[V=\pi r^2h.\]</span></li><li><strong>Pirámide</strong> <span class="mate-bloque">\[V=\frac{A_bh}{3}.\]</span></li><li><strong>Cono</strong> <span class="mate-bloque">\[V=\frac{\pi r^2h}{3}.\]</span></li><li><strong>Esfera</strong> <span class="mate-bloque">\[V=\frac{4}{3}\pi r^3.\]</span></li></ul>
+<h2 id="simetria-axial"><span class="num">23.14</span> Simetría axial<a class="enlace-seccion" href="#simetria-axial" aria-label="Enlace a esta sección">#</a></h2>
+<p><span class="marcas"><span class="marca marca-ceneval">CENEVAL</span></span></p>
+<section class="caja caja-definicion"><div class="caja-titulo">Definición</div><div class="caja-cuerpo"><p>Una figura tiene <strong>simetría axial</strong> si existe una recta que la divide en dos partes que son imágenes especulares.</p>
+<p>La recta recibe el nombre de <strong>eje de simetría</strong>. Si la figura se dobla sobre este eje, ambas partes coinciden.</p></div></section>
+<section class="caja caja-teorema"><div class="caja-titulo"><span class="tipo">Teorema</span> Ejes de simetría de figuras comunes</div><div class="caja-cuerpo"><p>Las siguientes figuras tienen los números de ejes de simetría indicados:</p>
+<ul><li>triángulo equilátero: <span class="mate-bloque">\[3;\]</span></li><li>cuadrado: <span class="mate-bloque">\[4;\]</span></li><li>rectángulo no cuadrado: <span class="mate-bloque">\[2;\]</span></li><li>rombo no cuadrado: <span class="mate-bloque">\[2;\]</span></li><li>pentágono regular: <span class="mate-bloque">\[5;\]</span></li><li>hexágono regular: <span class="mate-bloque">\[6;\]</span></li><li>polígono regular de \(n\) lados: <span class="mate-bloque">\[n;\]</span></li><li>círculo: <span class="mate-bloque">\[\text{infinitos}.\]</span></li></ul></div></section>
+<section class="caja caja-nota"><div class="caja-titulo">Nota</div><div class="caja-cuerpo"><p>La precisión “no cuadrado” es importante. Un cuadrado también es un rectángulo y un rombo, pero tiene cuatro ejes de simetría, no dos.</p></div></section>
+<p>Las siguientes figuras muestran algunos ejemplos:</p>
+<div class="centro"><figure class="fig"><img class="figura" src="../figuras/fig-12a3bcf1386e.svg" alt="Figura 23.7" loading="lazy" decoding="async"></figure></div>
+<section class="caja caja-ejemplo" id="ejemplo-23-10"><div class="caja-titulo">Ejemplo 23.10</div><div class="caja-cuerpo"><p>¿Cuántos ejes de simetría tiene un triángulo equilátero?</p><details class="solucion "><summary>Ver solución</summary><div class="solucion-cuerpo"><p>Un triángulo equilátero tiene tres ejes de simetría. Cada eje pasa por:</p>
+<ul><li>uno de sus vértices;</li><li>el punto medio del lado opuesto.</li></ul>
+<p>Por tanto, el número de ejes es:</p>
+<div class="mate"><span class="mate-bloque">\[3.\]</span></div></div></details></div></section>
+<h2 id="ejercicios-propuestos"><span class="num">23.15</span> Ejercicios propuestos<a class="enlace-seccion" href="#ejercicios-propuestos" aria-label="Enlace a esta sección">#</a></h2>
+<section class="caja caja-ejercicio" id="ejercicio-23-1"><div class="caja-titulo">Ejercicio 23.1</div><div class="caja-cuerpo"><p>Encuentra el área de un triángulo cuya base mide:</p>
+<div class="mate"><span class="mate-bloque">\[12\ \text{cm}\]</span></div>
+<p>y cuya altura mide:</p>
+<div class="mate"><span class="mate-bloque">\[7\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[A = \frac{12 \cdot 7}{2} = 42 \text{ cm}^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-23-2"><div class="caja-titulo">Ejercicio 23.2</div><div class="caja-cuerpo"><p>Encuentra el perímetro y el área de un cuadrado cuyo lado mide:</p>
+<div class="mate"><span class="mate-bloque">\[6\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[P = 4(6) = 24 \text{ cm}, \qquad A = 6^2 = 36 \text{ cm}^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-23-3"><div class="caja-titulo">Ejercicio 23.3</div><div class="caja-cuerpo"><p>Encuentra el área de un círculo de radio:</p>
+<div class="mate"><span class="mate-bloque">\[9\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[A = \pi (9)^2 = 81\pi \approx 254.5 \text{ cm}^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-23-4"><div class="caja-titulo">Ejercicio 23.4</div><div class="caja-cuerpo"><p>Encuentra el área de un trapecio cuyas bases miden:</p>
+<div class="mate"><span class="mate-bloque">\[14\ \text{cm} \qquad\text{y}\qquad 8\ \text{cm},\]</span></div>
+<p>y cuya altura mide:</p>
+<div class="mate"><span class="mate-bloque">\[5\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[A = \frac{(14 + 8) \cdot 5}{2} = \frac{110}{2} = 55 \text{ cm}^2.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-23-5"><div class="caja-titulo">Ejercicio 23.5</div><div class="caja-cuerpo"><p>Encuentra el volumen de un cubo cuya arista mide:</p>
+<div class="mate"><span class="mate-bloque">\[5\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[V = 5^3 = 125 \text{ cm}^3.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-23-6"><div class="caja-titulo">Ejercicio 23.6</div><div class="caja-cuerpo"><p>Encuentra el volumen de un cilindro de radio:</p>
+<div class="mate"><span class="mate-bloque">\[4\ \text{cm}\]</span></div>
+<p>y altura:</p>
+<div class="mate"><span class="mate-bloque">\[15\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[V = \pi (4)^2 (15) = 240\pi \approx 753.98 \text{ cm}^3.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-23-7"><div class="caja-titulo">Ejercicio 23.7</div><div class="caja-cuerpo"><p>Encuentra el volumen de una esfera de radio:</p>
+<div class="mate"><span class="mate-bloque">\[3\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[V = \frac{4}{3}\pi (3)^3 = \frac{4}{3}\pi (27) = 36\pi \approx 113.1 \text{ cm}^3.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-23-8"><div class="caja-titulo">Ejercicio 23.8</div><div class="caja-cuerpo"><p>Encuentra el volumen de un cono de radio:</p>
+<div class="mate"><span class="mate-bloque">\[6\ \text{cm}\]</span></div>
+<p>y altura:</p>
+<div class="mate"><span class="mate-bloque">\[10\ \text{cm}.\]</span></div><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><div class="mate"><span class="mate-bloque">\[V = \frac{\pi (6)^2 (10)}{3} = \frac{360\pi}{3} = 120\pi \approx 376.99 \text{ cm}^3.\]</span></div></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-23-9"><div class="caja-titulo">Ejercicio 23.9</div><div class="caja-cuerpo"><p>Un cuadrado de lado \(10\ \text{cm}\) contiene un círculo inscrito de radio \(5\ \text{cm}\). Encuentra el área de la región comprendida entre el cuadrado y el círculo.</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p><span class="mate-bloque">\[A_{\text{cuadrado}} = 100 \text{ cm}^2, \qquad A_{\text{círculo}} = 25\pi \approx 78.54 \text{ cm}^2.\]</span> <span class="mate-bloque">\[A_{\text{región}} = 100 - 25\pi \approx 21.46 \text{ cm}^2.\]</span></p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-23-10"><div class="caja-titulo">Ejercicio 23.10</div><div class="caja-cuerpo"><p>¿Cuántos ejes de simetría tiene un hexágono regular?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El hexágono regular tiene 6 ejes de simetría.</p></div></details></div></section>
+<section class="caja caja-ejercicio" id="ejercicio-23-11"><div class="caja-titulo">Ejercicio 23.11</div><div class="caja-cuerpo"><p>¿Cuántos ejes de simetría tiene un rectángulo que no es un cuadrado?</p><details class="solucion solucion-ejercicio"><summary>Ver solución</summary><div class="solucion-cuerpo"><p>El rectángulo tiene 2 ejes de simetría (las rectas que pasan por los puntos medios de los lados opuestos).</p></div></details></div></section>
+      </article>
+      <nav class="nav-capitulos"><a class="nav-anterior" href="22-circunferencia-circulo.html"><span>← Anterior</span>22. Circunferencia y círculo</a><a class="nav-siguiente" href="24-medida-angulos.html"><span>Siguiente →</span>24. Medida de ángulos</a></nav>
+    </main>
+  </div>
+  <div class="progreso" aria-hidden="true"></div>
+</body>
+</html>

@@ -1,0 +1,2928 @@
+{
+  "metadata": {
+    "capitulo": "46",
+    "titulo": "Medidas estadísticas",
+    "version": "6.1.0",
+    "idioma": "es-MX",
+    "total_secciones": 11,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 110,
+    "secciones_incluidas": [
+      {
+        "codigo": "46.1",
+        "nombre": "Medidas de tendencia central"
+      },
+      {
+        "codigo": "46.2",
+        "nombre": "Media, mediana y valores extremos"
+      },
+      {
+        "codigo": "46.3",
+        "nombre": "Media ponderada"
+      },
+      {
+        "codigo": "46.4",
+        "nombre": "Media en una tabla de frecuencias"
+      },
+      {
+        "codigo": "46.5",
+        "nombre": "Medidas de dispersión"
+      },
+      {
+        "codigo": "46.6",
+        "nombre": "Cálculo de la varianza"
+      },
+      {
+        "codigo": "46.7",
+        "nombre": "Interpretación de la dispersión"
+      },
+      {
+        "codigo": "46.8",
+        "nombre": "Coeficiente de variación"
+      },
+      {
+        "codigo": "46.9",
+        "nombre": "Medidas de posición"
+      },
+      {
+        "codigo": "46.10",
+        "nombre": "Rango intercuartílico"
+      },
+      {
+        "codigo": "46.11",
+        "nombre": "¿Qué medida conviene utilizar?"
+      }
+    ],
+    "secciones_editoriales_omitidas": [
+      "46.12 Procedimiento rápido",
+      "46.13 Resumen",
+      "46.14 Errores frecuentes",
+      "46.15 Ejercicios propuestos"
+    ],
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_validado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-46-1-01",
+      "pregunta": "Calcule la media de $4,6,8,10$.",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.1",
+        "nombre": "Medidas de tendencia central"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$6$",
+        "C": "$8$",
+        "D": "$28$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "medidas de tendencia central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-1-02",
+      "pregunta": "Calcule la mediana de $3,5,7,9,11$.",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.1",
+        "nombre": "Medidas de tendencia central"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$8$",
+        "C": "$9$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "medidas de tendencia central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-1-03",
+      "pregunta": "Calcule la mediana de $2,4,6,8$.",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.1",
+        "nombre": "Medidas de tendencia central"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$20$",
+        "C": "$5$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "medidas de tendencia central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-1-04",
+      "pregunta": "Determine la moda de $1,2,2,3,4,4,4,5$.",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.1",
+        "nombre": "Medidas de tendencia central"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$4$",
+        "C": "$2$",
+        "D": "$3$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "medidas de tendencia central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-1-05",
+      "pregunta": "En el conjunto $2,3,4,5$, ¿cuál es la media?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.1",
+        "nombre": "Medidas de tendencia central"
+      },
+      "respuestas_posibles": {
+        "A": "$3.5$",
+        "B": "$3$",
+        "C": "$4$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "medidas de tendencia central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-1-06",
+      "pregunta": "El conjunto $1,2,3,4$ es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.1",
+        "nombre": "Medidas de tendencia central"
+      },
+      "respuestas_posibles": {
+        "A": "Unimodal con moda $1$",
+        "B": "Bimodal",
+        "C": "Unimodal con moda $4$",
+        "D": "Amodal"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "medidas de tendencia central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-1-07",
+      "pregunta": "Determine las modas de $1,1,2,3,3,4$.",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.1",
+        "nombre": "Medidas de tendencia central"
+      },
+      "respuestas_posibles": {
+        "A": "$1$ únicamente",
+        "B": "$3$ únicamente",
+        "C": "$1$ y $3$",
+        "D": "$2$ y $4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "medidas de tendencia central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-1-08",
+      "pregunta": "Si todos los datos valen $12$, la media, mediana y moda son:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.1",
+        "nombre": "Medidas de tendencia central"
+      },
+      "respuestas_posibles": {
+        "A": "$12,12,0$",
+        "B": "$12,12,12$",
+        "C": "$0,12,12$",
+        "D": "$12,0,12$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "medidas de tendencia central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-1-09",
+      "pregunta": "¿Qué medida se obtiene al sumar todos los datos y dividir entre su cantidad?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.1",
+        "nombre": "Medidas de tendencia central"
+      },
+      "respuestas_posibles": {
+        "A": "La media aritmética",
+        "B": "La mediana",
+        "C": "La moda",
+        "D": "El rango"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "medidas de tendencia central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-1-10",
+      "pregunta": "¿Qué medida corresponde al valor central de los datos ordenados?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.1",
+        "nombre": "Medidas de tendencia central"
+      },
+      "respuestas_posibles": {
+        "A": "La media",
+        "B": "La moda",
+        "C": "La varianza",
+        "D": "La mediana"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "medidas de tendencia central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-2-01",
+      "pregunta": "La media de $5,6,7,8$ es $6.5$. Si se agrega $100$, ¿qué ocurre con la media?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.2",
+        "nombre": "Media, mediana y valores extremos"
+      },
+      "respuestas_posibles": {
+        "A": "Disminuye",
+        "B": "Se vuelve $100$",
+        "C": "Aumenta considerablemente",
+        "D": "Permanece igual"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "media, mediana y valores extremos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-2-02",
+      "pregunta": "Al conjunto $2,3,4,5,6$ se agrega el valor $100$. ¿Qué medida cambia menos?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.2",
+        "nombre": "Media, mediana y valores extremos"
+      },
+      "respuestas_posibles": {
+        "A": "La suma",
+        "B": "La mediana",
+        "C": "La media",
+        "D": "El rango"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "media, mediana y valores extremos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-2-03",
+      "pregunta": "Compare $1,2,3,4,20$ y $1,2,3,4,5$. La diferencia principal en sus medias se debe a:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.2",
+        "nombre": "Media, mediana y valores extremos"
+      },
+      "respuestas_posibles": {
+        "A": "El valor extremo $20$",
+        "B": "La cantidad de datos",
+        "C": "La mediana",
+        "D": "La moda"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "media, mediana y valores extremos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-2-04",
+      "pregunta": "En $10,11,12,13,80$, la medida más resistente al valor $80$ es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.2",
+        "nombre": "Media, mediana y valores extremos"
+      },
+      "respuestas_posibles": {
+        "A": "La media",
+        "B": "El rango",
+        "C": "La varianza",
+        "D": "La mediana"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "media, mediana y valores extremos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-2-05",
+      "pregunta": "Si se sustituye el mayor dato de un conjunto por un valor todavía mayor, la mediana de un conjunto impar:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.2",
+        "nombre": "Media, mediana y valores extremos"
+      },
+      "respuestas_posibles": {
+        "A": "Siempre disminuye",
+        "B": "Se vuelve igual al mayor dato",
+        "C": "Puede permanecer igual",
+        "D": "Siempre aumenta"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "media, mediana y valores extremos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-2-06",
+      "pregunta": "La media de cuatro datos es $15$. Si tres datos son $10,12,18$, el cuarto es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.2",
+        "nombre": "Media, mediana y valores extremos"
+      },
+      "respuestas_posibles": {
+        "A": "$60$",
+        "B": "$20$",
+        "C": "$15$",
+        "D": "$17$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "media, mediana y valores extremos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-2-07",
+      "pregunta": "La media de cinco calificaciones es $8$. Si se elimina una calificación de $10$, la media de las cuatro restantes es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.2",
+        "nombre": "Media, mediana y valores extremos"
+      },
+      "respuestas_posibles": {
+        "A": "$7.5$",
+        "B": "$8$",
+        "C": "$6$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "media, mediana y valores extremos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-2-08",
+      "pregunta": "En $2,2,3,4,25$, la media es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.2",
+        "nombre": "Media, mediana y valores extremos"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$5$",
+        "C": "$36$",
+        "D": "$7.2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "media, mediana y valores extremos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-2-09",
+      "pregunta": "En el mismo conjunto $2,2,3,4,25$, la mediana es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.2",
+        "nombre": "Media, mediana y valores extremos"
+      },
+      "respuestas_posibles": {
+        "A": "$7.2$",
+        "B": "$4$",
+        "C": "$3$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "media, mediana y valores extremos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-2-10",
+      "pregunta": "Una distribución salarial con pocos sueldos extremadamente altos suele resumirse mejor con:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.2",
+        "nombre": "Media, mediana y valores extremos"
+      },
+      "respuestas_posibles": {
+        "A": "La suma",
+        "B": "La mediana",
+        "C": "La media únicamente",
+        "D": "El rango"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "media, mediana y valores extremos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-3-01",
+      "pregunta": "Un examen vale $40\\%$ y se obtuvo $8$; un proyecto vale $60\\%$ y se obtuvo $9$. ¿Cuál es la calificación final?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.3",
+        "nombre": "Media ponderada"
+      },
+      "respuestas_posibles": {
+        "A": "$8.6$",
+        "B": "$8.5$",
+        "C": "$9.0$",
+        "D": "$17$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "media ponderada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-3-02",
+      "pregunta": "Tres materias tienen créditos $2,3,5$ y calificaciones $8,7,9$. Calcule el promedio ponderado.",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.3",
+        "nombre": "Media ponderada"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$8.4$",
+        "C": "$24$",
+        "D": "$8.2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "media ponderada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-3-03",
+      "pregunta": "Una inversión de $2{,}000$ rinde $5\\%$ y otra de $3{,}000$ rinde $8\\%$. ¿Cuál es la tasa media ponderada?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.3",
+        "nombre": "Media ponderada"
+      },
+      "respuestas_posibles": {
+        "A": "$7.0\\%$",
+        "B": "$13\\%$",
+        "C": "$6.8\\%$",
+        "D": "$6.5\\%$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "media ponderada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-3-04",
+      "pregunta": "Un producto cuesta $10$ pesos por kilogramo y otro $16$ pesos. Se mezclan $3$ kg del primero y $2$ kg del segundo. ¿Cuál es el costo medio por kilogramo?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.3",
+        "nombre": "Media ponderada"
+      },
+      "respuestas_posibles": {
+        "A": "$26$ pesos",
+        "B": "$12.4$ pesos",
+        "C": "$13$ pesos",
+        "D": "$13.6$ pesos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "media ponderada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-3-05",
+      "pregunta": "Una evaluación se compone de tareas $20\\%$, examen $50\\%$ y proyecto $30\\%$. Las calificaciones son $10,7,9$. El resultado es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.3",
+        "nombre": "Media ponderada"
+      },
+      "respuestas_posibles": {
+        "A": "$8.2$",
+        "B": "$8.0$",
+        "C": "$8.7$",
+        "D": "$26$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "media ponderada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-3-06",
+      "pregunta": "La fórmula general de una media ponderada es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.3",
+        "nombre": "Media ponderada"
+      },
+      "respuestas_posibles": {
+        "A": "$\\bar{x}_p=\\sum w_i+\\sum x_i$",
+        "B": "$\\bar{x}_p=\\frac{\\sum x_i}{\\sum w_i x_i}$",
+        "C": "$\\bar{x}_p=\\prod w_ix_i$",
+        "D": "$\\bar{x}_p=\\frac{\\sum w_i x_i}{\\sum w_i}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "media ponderada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-3-07",
+      "pregunta": "Si todos los pesos son iguales, la media ponderada coincide con:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.3",
+        "nombre": "Media ponderada"
+      },
+      "respuestas_posibles": {
+        "A": "La moda",
+        "B": "El rango",
+        "C": "La media aritmética",
+        "D": "La mediana"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "media ponderada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-3-08",
+      "pregunta": "Dos grupos tienen medias $70$ y $80$, con $20$ y $30$ estudiantes, respectivamente. La media conjunta es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.3",
+        "nombre": "Media ponderada"
+      },
+      "respuestas_posibles": {
+        "A": "$150$",
+        "B": "$76$",
+        "C": "$75$",
+        "D": "$77$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "media ponderada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-3-09",
+      "pregunta": "Un curso tiene parciales con pesos $25\\%,25\\%,50\\%$ y notas $6,8,9$. La calificación final es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.3",
+        "nombre": "Media ponderada"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$7.67$",
+        "C": "$8.25$",
+        "D": "$23$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "media ponderada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-3-10",
+      "pregunta": "En una media ponderada, un dato con mayor peso:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.3",
+        "nombre": "Media ponderada"
+      },
+      "respuestas_posibles": {
+        "A": "No influye",
+        "B": "Se elimina",
+        "C": "Siempre se convierte en la media",
+        "D": "Tiene mayor influencia en el resultado"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "media ponderada",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-4-01",
+      "pregunta": "Los valores $1,2,3$ tienen frecuencias $2,3,5$. Calcule la media.",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.4",
+        "nombre": "Media en una tabla de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$2.5$",
+        "B": "$6$",
+        "C": "$2.3$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "media en una tabla de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-4-02",
+      "pregunta": "Los valores $10,20,30$ tienen frecuencias $1,2,1$. La media es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.4",
+        "nombre": "Media en una tabla de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$60$",
+        "B": "$20$",
+        "C": "$15$",
+        "D": "$25$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "media en una tabla de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-4-03",
+      "pregunta": "Una tabla presenta $x_i=2,4,6$ y $f_i=3,2,1$. La media es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.4",
+        "nombre": "Media en una tabla de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$\\frac{10}{3}$",
+        "B": "$4$",
+        "C": "$3$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "media en una tabla de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-4-04",
+      "pregunta": "Para calcular la media con frecuencias se usa:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.4",
+        "nombre": "Media en una tabla de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$\\bar{x}=\\sum x_i/f_i$",
+        "B": "$\\bar{x}=\\sum f_i/\\sum x_i$",
+        "C": "$\\bar{x}=\\prod x_if_i$",
+        "D": "$\\bar{x}=\\frac{\\sum x_i f_i}{\\sum f_i}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "media en una tabla de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-4-05",
+      "pregunta": "Los valores $5,7,9$ tienen frecuencias $4,1,5$. ¿Cuál es el total de observaciones?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.4",
+        "nombre": "Media en una tabla de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$5$",
+        "C": "$10$",
+        "D": "$21$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "media en una tabla de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-4-06",
+      "pregunta": "Para esos datos, la suma $\\sum x_if_i$ es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.4",
+        "nombre": "Media en una tabla de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$90$",
+        "B": "$72$",
+        "C": "$21$",
+        "D": "$64$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "media en una tabla de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-4-07",
+      "pregunta": "Las marcas de clase $15,25,35$ tienen frecuencias $2,5,3$. La media aproximada es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.4",
+        "nombre": "Media en una tabla de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$26$",
+        "B": "$25$",
+        "C": "$27$",
+        "D": "$75$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "media en una tabla de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-4-08",
+      "pregunta": "Si una tabla tiene frecuencia total $50$ y $\\sum x_i f_i=600$, la media es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.4",
+        "nombre": "Media en una tabla de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$50$",
+        "B": "$600$",
+        "C": "$30$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "media en una tabla de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-4-09",
+      "pregunta": "En datos agrupados, la media calculada con marcas de clase es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.4",
+        "nombre": "Media en una tabla de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "Igual a la moda",
+        "B": "Una frecuencia acumulada",
+        "C": "Una aproximación",
+        "D": "Siempre exacta"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "media en una tabla de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-4-10",
+      "pregunta": "Una tabla tiene valores $0,1,2$ y frecuencias $1,4,5$. La media es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.4",
+        "nombre": "Media en una tabla de frecuencias"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$1.4$",
+        "C": "$1$",
+        "D": "$1.5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "media en una tabla de frecuencias",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-5-01",
+      "pregunta": "Calcule el rango de $3,5,8,12$.",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.5",
+        "nombre": "Medidas de dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$12$",
+        "C": "$8$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "medidas de dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-5-02",
+      "pregunta": "El rango se obtiene mediante:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.5",
+        "nombre": "Medidas de dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "Media menos mediana",
+        "B": "Suma entre cantidad",
+        "C": "Raíz de la varianza",
+        "D": "Valor máximo menos valor mínimo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "medidas de dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-5-03",
+      "pregunta": "¿Qué medida expresa el promedio cuadrático de las desviaciones respecto de la media?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.5",
+        "nombre": "Medidas de dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "La moda",
+        "B": "La mediana",
+        "C": "La varianza",
+        "D": "El rango"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "medidas de dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-5-04",
+      "pregunta": "La desviación estándar es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.5",
+        "nombre": "Medidas de dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "La raíz de la mediana",
+        "B": "La raíz cuadrada de la varianza",
+        "C": "El cuadrado de la media",
+        "D": "La mitad del rango"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "medidas de dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-5-05",
+      "pregunta": "Si todos los datos son iguales, la varianza es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.5",
+        "nombre": "Medidas de dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "Igual a la media",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "medidas de dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-5-06",
+      "pregunta": "¿Cuál conjunto tiene mayor rango?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.5",
+        "nombre": "Medidas de dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "$2,4,6,8$",
+        "B": "$5,5,5,5$",
+        "C": "$10,11,12,13$",
+        "D": "$1,4,9,15$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "medidas de dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-5-07",
+      "pregunta": "La varianza se expresa en:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.5",
+        "nombre": "Medidas de dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "Porcentajes siempre",
+        "B": "Sin unidades siempre",
+        "C": "Unidades cuadradas",
+        "D": "Las mismas unidades de los datos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "medidas de dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-5-08",
+      "pregunta": "La desviación estándar se expresa en:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.5",
+        "nombre": "Medidas de dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "Frecuencias",
+        "B": "Las mismas unidades de los datos",
+        "C": "Unidades cuadradas",
+        "D": "Radianes"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "medidas de dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-5-09",
+      "pregunta": "El rango utiliza solamente:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.5",
+        "nombre": "Medidas de dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "El valor mínimo y el máximo",
+        "B": "Todos los datos de manera equilibrada",
+        "C": "La mediana y la moda",
+        "D": "Los cuartiles únicamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "medidas de dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-5-10",
+      "pregunta": "Una medida de dispersión pequeña indica que los datos:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.5",
+        "nombre": "Medidas de dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "Son necesariamente grandes",
+        "B": "No tienen media",
+        "C": "Son cualitativos",
+        "D": "Están relativamente concentrados"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "medidas de dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-6-01",
+      "pregunta": "Calcule la varianza poblacional de $2,2,4,4$.",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.6",
+        "nombre": "Cálculo de la varianza"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$\\sqrt{1}$",
+        "C": "$1$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "cálculo de la varianza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-6-02",
+      "pregunta": "Calcule la desviación estándar poblacional de $2,2,4,4$.",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.6",
+        "nombre": "Cálculo de la varianza"
+      },
+      "respuestas_posibles": {
+        "A": "$0.5$",
+        "B": "$1$",
+        "C": "$2$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "cálculo de la varianza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-6-03",
+      "pregunta": "La media de $1,3,5$ es $3$. La suma de cuadrados de las desviaciones es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.6",
+        "nombre": "Cálculo de la varianza"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$4$",
+        "C": "$6$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "cálculo de la varianza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-6-04",
+      "pregunta": "La varianza poblacional de $1,3,5$ es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.6",
+        "nombre": "Cálculo de la varianza"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$4$",
+        "C": "$\\frac{4}{3}$",
+        "D": "$\\frac{8}{3}$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "cálculo de la varianza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-6-05",
+      "pregunta": "La varianza muestral divide la suma de cuadrados entre:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.6",
+        "nombre": "Cálculo de la varianza"
+      },
+      "respuestas_posibles": {
+        "A": "$n+1$",
+        "B": "$2n$",
+        "C": "$n-1$",
+        "D": "$n$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "cálculo de la varianza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-6-06",
+      "pregunta": "La varianza poblacional divide entre:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.6",
+        "nombre": "Cálculo de la varianza"
+      },
+      "respuestas_posibles": {
+        "A": "$\\sqrt{N}$",
+        "B": "$N$",
+        "C": "$N-1$",
+        "D": "$N+1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "cálculo de la varianza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-6-07",
+      "pregunta": "Calcule la varianza poblacional de $0,0,0$.",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.6",
+        "nombre": "Cálculo de la varianza"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$3$",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "cálculo de la varianza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-6-08",
+      "pregunta": "Los datos $4,6$ tienen media $5$. Su varianza poblacional es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.6",
+        "nombre": "Cálculo de la varianza"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$0.5$",
+        "C": "$5$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "cálculo de la varianza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-6-09",
+      "pregunta": "Para los datos $1,2,3$, la varianza poblacional es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.6",
+        "nombre": "Cálculo de la varianza"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$\\frac{1}{3}$",
+        "C": "$\\frac{2}{3}$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "cálculo de la varianza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-6-10",
+      "pregunta": "Antes de calcular la varianza se necesita determinar:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.6",
+        "nombre": "Cálculo de la varianza"
+      },
+      "respuestas_posibles": {
+        "A": "La frecuencia acumulada final",
+        "B": "La media",
+        "C": "La moda solamente",
+        "D": "El rango únicamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "cálculo de la varianza",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-7-01",
+      "pregunta": "Dos grupos tienen la misma media. El grupo con mayor desviación estándar presenta:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.7",
+        "nombre": "Interpretación de la dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "Mayor dispersión",
+        "B": "Menor dispersión",
+        "C": "La misma dispersión necesariamente",
+        "D": "Mayor mediana siempre"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interpretación de la dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-7-02",
+      "pregunta": "El conjunto $9,10,10,11$ comparado con $1,10,10,19$ tiene:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.7",
+        "nombre": "Interpretación de la dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "Mayor dispersión",
+        "B": "La misma dispersión",
+        "C": "Mayor rango",
+        "D": "Menor dispersión"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "interpretación de la dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-7-03",
+      "pregunta": "Una desviación estándar de $0$ significa que:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.7",
+        "nombre": "Interpretación de la dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "No hay datos",
+        "B": "Los datos son negativos",
+        "C": "Todos los datos son iguales",
+        "D": "La media es cero"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "interpretación de la dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-7-04",
+      "pregunta": "Si se suma $5$ a todos los datos, la desviación estándar:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.7",
+        "nombre": "Interpretación de la dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "Se multiplica por $25$",
+        "B": "Permanece igual",
+        "C": "Aumenta $5$",
+        "D": "Disminuye $5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "interpretación de la dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-7-05",
+      "pregunta": "Si todos los datos se multiplican por $3$, la desviación estándar:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.7",
+        "nombre": "Interpretación de la dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "Se multiplica por $3$",
+        "B": "Permanece igual",
+        "C": "Se suma $3$",
+        "D": "Se multiplica por $9$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interpretación de la dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-7-06",
+      "pregunta": "Si todos los datos se multiplican por $-2$, la desviación estándar:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.7",
+        "nombre": "Interpretación de la dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "Se multiplica por $-2$",
+        "B": "Permanece igual",
+        "C": "Se vuelve negativa",
+        "D": "Se multiplica por $2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "interpretación de la dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-7-07",
+      "pregunta": "Una distribución con valores muy alejados de la media suele tener:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.7",
+        "nombre": "Interpretación de la dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "Varianza cero",
+        "B": "Media cero",
+        "C": "Mayor varianza",
+        "D": "Menor varianza"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "interpretación de la dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-7-08",
+      "pregunta": "Para comparar la regularidad de dos procesos con la misma media se prefiere:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.7",
+        "nombre": "Interpretación de la dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "La moda",
+        "B": "La desviación estándar",
+        "C": "La suma",
+        "D": "El máximo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "interpretación de la dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-7-09",
+      "pregunta": "Una puntuación ubicada a dos desviaciones estándar sobre la media tiene:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.7",
+        "nombre": "Interpretación de la dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "$z=2$",
+        "B": "$z=-2$",
+        "C": "$z=0$",
+        "D": "$z=1$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "interpretación de la dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-7-10",
+      "pregunta": "Si $z=-1.5$, el dato está:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.7",
+        "nombre": "Interpretación de la dispersión"
+      },
+      "respuestas_posibles": {
+        "A": "$1.5$ arriba de la media",
+        "B": "En la media",
+        "C": "$1.5$ unidades sobre cero",
+        "D": "$1.5$ desviaciones estándar debajo de la media"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "interpretación de la dispersión",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-8-01",
+      "pregunta": "El coeficiente de variación se calcula como:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.8",
+        "nombre": "Coeficiente de variación"
+      },
+      "respuestas_posibles": {
+        "A": "$CV=\\bar{x}/s$",
+        "B": "$CV=s-\\bar{x}$",
+        "C": "$CV=\\frac{s}{\\bar{x}}\\cdot100\\%$",
+        "D": "$CV=s\\bar{x}$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de variación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-8-02",
+      "pregunta": "Un conjunto tiene media $50$ y desviación estándar $5$. Su coeficiente de variación es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.8",
+        "nombre": "Coeficiente de variación"
+      },
+      "respuestas_posibles": {
+        "A": "$250\\%$",
+        "B": "$10\\%$",
+        "C": "$5\\%$",
+        "D": "$25\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de variación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-8-03",
+      "pregunta": "Un grupo tiene media $80$ y desviación estándar $12$. Su $CV$ es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.8",
+        "nombre": "Coeficiente de variación"
+      },
+      "respuestas_posibles": {
+        "A": "$15\\%$",
+        "B": "$12\\%$",
+        "C": "$6.67\\%$",
+        "D": "$92\\%$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de variación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-8-04",
+      "pregunta": "¿Qué grupo es relativamente más homogéneo?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.8",
+        "nombre": "Coeficiente de variación"
+      },
+      "respuestas_posibles": {
+        "A": "El que tiene mayor media",
+        "B": "El que tiene mayor rango",
+        "C": "El que tiene menor tamaño",
+        "D": "El que tiene menor coeficiente de variación"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de variación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-8-05",
+      "pregunta": "Una máquina A tiene media $100$ y desviación $4$; B tiene media $50$ y desviación $3$. ¿Cuál es más consistente relativamente?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.8",
+        "nombre": "Coeficiente de variación"
+      },
+      "respuestas_posibles": {
+        "A": "Son iguales",
+        "B": "No puede compararse",
+        "C": "La máquina A",
+        "D": "La máquina B"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de variación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-8-06",
+      "pregunta": "El $CV$ de la máquina A anterior es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.8",
+        "nombre": "Coeficiente de variación"
+      },
+      "respuestas_posibles": {
+        "A": "$0.04\\%$",
+        "B": "$4\\%$",
+        "C": "$25\\%$",
+        "D": "$40\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de variación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-8-07",
+      "pregunta": "El $CV$ de la máquina B anterior es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.8",
+        "nombre": "Coeficiente de variación"
+      },
+      "respuestas_posibles": {
+        "A": "$6\\%$",
+        "B": "$3\\%$",
+        "C": "$16.67\\%$",
+        "D": "$150\\%$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de variación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-8-08",
+      "pregunta": "El coeficiente de variación permite comparar:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.8",
+        "nombre": "Coeficiente de variación"
+      },
+      "respuestas_posibles": {
+        "A": "Solo conjuntos con media cero",
+        "B": "Variables nominales",
+        "C": "Frecuencias acumuladas",
+        "D": "Dispersiones de conjuntos con escalas o medias distintas"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de variación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-8-09",
+      "pregunta": "Si la media es cero, el coeficiente de variación usual:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.8",
+        "nombre": "Coeficiente de variación"
+      },
+      "respuestas_posibles": {
+        "A": "Vale $100\\%$",
+        "B": "Es igual a la desviación",
+        "C": "No está definido",
+        "D": "Vale cero"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de variación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-8-10",
+      "pregunta": "Un $CV$ de $8\\%$ frente a otro de $20\\%$ indica que el primero es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.8",
+        "nombre": "Coeficiente de variación"
+      },
+      "respuestas_posibles": {
+        "A": "Necesariamente de menor media",
+        "B": "Relativamente menos disperso",
+        "C": "Más disperso",
+        "D": "Igual de disperso"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "coeficiente de variación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-9-01",
+      "pregunta": "El segundo cuartil $Q_2$ coincide con:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.9",
+        "nombre": "Medidas de posición"
+      },
+      "respuestas_posibles": {
+        "A": "La mediana",
+        "B": "La media",
+        "C": "La moda",
+        "D": "El máximo"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "medidas de posición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-9-02",
+      "pregunta": "El primer cuartil deja aproximadamente debajo de sí:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.9",
+        "nombre": "Medidas de posición"
+      },
+      "respuestas_posibles": {
+        "A": "$10\\%$",
+        "B": "$50\\%$",
+        "C": "$75\\%$",
+        "D": "$25\\%$ de los datos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "medidas de posición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-9-03",
+      "pregunta": "El tercer cuartil deja aproximadamente debajo de sí:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.9",
+        "nombre": "Medidas de posición"
+      },
+      "respuestas_posibles": {
+        "A": "$50\\%$",
+        "B": "$90\\%$",
+        "C": "$75\\%$ de los datos",
+        "D": "$25\\%$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "medidas de posición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-9-04",
+      "pregunta": "El decil $D_6$ corresponde al percentil:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.9",
+        "nombre": "Medidas de posición"
+      },
+      "respuestas_posibles": {
+        "A": "$P_{600}$",
+        "B": "$P_{60}$",
+        "C": "$P_6$",
+        "D": "$P_{40}$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "medidas de posición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-9-05",
+      "pregunta": "El percentil $P_{90}$ deja debajo aproximadamente:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.9",
+        "nombre": "Medidas de posición"
+      },
+      "respuestas_posibles": {
+        "A": "$90\\%$ de los datos",
+        "B": "$9\\%$",
+        "C": "$10\\%$",
+        "D": "$100\\%$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "medidas de posición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-9-06",
+      "pregunta": "¿Qué medida divide los datos ordenados en diez partes?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.9",
+        "nombre": "Medidas de posición"
+      },
+      "respuestas_posibles": {
+        "A": "Los cuartiles",
+        "B": "La media",
+        "C": "La varianza",
+        "D": "Los deciles"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "medidas de posición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-9-07",
+      "pregunta": "¿Qué medida divide los datos ordenados en cien partes?",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.9",
+        "nombre": "Medidas de posición"
+      },
+      "respuestas_posibles": {
+        "A": "Los deciles",
+        "B": "El rango",
+        "C": "Los percentiles",
+        "D": "Los cuartiles"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "medidas de posición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-9-08",
+      "pregunta": "Si una calificación está en el percentil $80$, significa que:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.9",
+        "nombre": "Medidas de posición"
+      },
+      "respuestas_posibles": {
+        "A": "Es la media del grupo",
+        "B": "Supera o iguala aproximadamente al $80\\%$ de las observaciones",
+        "C": "Obtuvo $80$ puntos necesariamente",
+        "D": "Está por debajo del $80\\%$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "medidas de posición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-9-09",
+      "pregunta": "$Q_1$, $Q_2$ y $Q_3$ equivalen a:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.9",
+        "nombre": "Medidas de posición"
+      },
+      "respuestas_posibles": {
+        "A": "$P_{25},P_{50},P_{75}$",
+        "B": "$P_{10},P_{20},P_{30}$",
+        "C": "$P_{20},P_{40},P_{60}$",
+        "D": "$P_{25},P_{75},P_{100}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "medidas de posición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-9-10",
+      "pregunta": "Las medidas de posición requieren primero:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.9",
+        "nombre": "Medidas de posición"
+      },
+      "respuestas_posibles": {
+        "A": "Calcular la varianza",
+        "B": "Construir una ecuación",
+        "C": "Eliminar valores repetidos",
+        "D": "Ordenar los datos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "medidas de posición",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-10-01",
+      "pregunta": "Si $Q_1=12$ y $Q_3=27$, el rango intercuartílico es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.10",
+        "nombre": "Rango intercuartílico"
+      },
+      "respuestas_posibles": {
+        "A": "$19.5$",
+        "B": "$12$",
+        "C": "$15$",
+        "D": "$39$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "rango intercuartílico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-10-02",
+      "pregunta": "La fórmula del rango intercuartílico es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.10",
+        "nombre": "Rango intercuartílico"
+      },
+      "respuestas_posibles": {
+        "A": "$RIC=Q_3/Q_1$",
+        "B": "$RIC=Q_3-Q_1$",
+        "C": "$RIC=Q_3+Q_1$",
+        "D": "$RIC=Q_2-Q_1$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "rango intercuartílico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-10-03",
+      "pregunta": "El $RIC$ mide la dispersión del:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.10",
+        "nombre": "Rango intercuartílico"
+      },
+      "respuestas_posibles": {
+        "A": "$50\\%$ central de los datos",
+        "B": "$100\\%$ de los datos",
+        "C": "$25\\%$ inferior",
+        "D": "$10\\%$ superior"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "rango intercuartílico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-10-04",
+      "pregunta": "Si $Q_1=8$ y $Q_3=20$, el límite inferior para detectar atípicos con la regla $1.5RIC$ es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.10",
+        "nombre": "Rango intercuartílico"
+      },
+      "respuestas_posibles": {
+        "A": "$-4$",
+        "B": "$2$",
+        "C": "$26$",
+        "D": "$-10$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "rango intercuartílico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-10-05",
+      "pregunta": "Con los mismos valores, el límite superior es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.10",
+        "nombre": "Rango intercuartílico"
+      },
+      "respuestas_posibles": {
+        "A": "$26$",
+        "B": "$50$",
+        "C": "$38$",
+        "D": "$32$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "rango intercuartílico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-10-06",
+      "pregunta": "Un dato mayor que $Q_3+1.5RIC$ se considera:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.10",
+        "nombre": "Rango intercuartílico"
+      },
+      "respuestas_posibles": {
+        "A": "Frecuencia acumulada",
+        "B": "Posible valor atípico",
+        "C": "La mediana",
+        "D": "La moda"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "rango intercuartílico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-10-07",
+      "pregunta": "Si $Q_1=5$ y $Q_3=5$, entonces el $RIC$ es:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.10",
+        "nombre": "Rango intercuartílico"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$5$",
+        "C": "$10$",
+        "D": "No existe"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "rango intercuartílico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-10-08",
+      "pregunta": "El rango intercuartílico es resistente a:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.10",
+        "nombre": "Rango intercuartílico"
+      },
+      "respuestas_posibles": {
+        "A": "Datos centrales",
+        "B": "El ordenamiento",
+        "C": "La mediana",
+        "D": "Valores extremos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "rango intercuartílico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-10-09",
+      "pregunta": "Dos conjuntos con igual rango total pueden tener:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.10",
+        "nombre": "Rango intercuartílico"
+      },
+      "respuestas_posibles": {
+        "A": "La misma media obligatoriamente",
+        "B": "La misma moda siempre",
+        "C": "Rangos intercuartílicos distintos",
+        "D": "El mismo $RIC$ obligatoriamente"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "rango intercuartílico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-10-10",
+      "pregunta": "Si $RIC=18$ y $Q_1=7$, entonces $Q_3=$",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.10",
+        "nombre": "Rango intercuartílico"
+      },
+      "respuestas_posibles": {
+        "A": "$126$",
+        "B": "$25$",
+        "C": "$11$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "rango intercuartílico",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-11-01",
+      "pregunta": "Para resumir ingresos con pocos valores extremadamente altos conviene usar:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.11",
+        "nombre": "¿Qué medida conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "La mediana",
+        "B": "La media",
+        "C": "El rango",
+        "D": "La varianza"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "¿qué medida conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-11-02",
+      "pregunta": "Para identificar la categoría más frecuente conviene usar:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.11",
+        "nombre": "¿Qué medida conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "La media",
+        "B": "La mediana",
+        "C": "El coeficiente de variación",
+        "D": "La moda"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "¿qué medida conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-11-03",
+      "pregunta": "Para resumir datos simétricos sin valores extremos suele convenir:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.11",
+        "nombre": "¿Qué medida conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "La frecuencia acumulada",
+        "B": "El percentil $90$",
+        "C": "La media",
+        "D": "El rango"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "¿qué medida conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-11-04",
+      "pregunta": "Para comparar dispersión relativa entre pesos en kg y estaturas en cm conviene:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.11",
+        "nombre": "¿Qué medida conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "La moda",
+        "B": "El coeficiente de variación",
+        "C": "El rango directamente",
+        "D": "La media"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "¿qué medida conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-11-05",
+      "pregunta": "Para describir el $50\\%$ central y reducir el efecto de atípicos conviene:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.11",
+        "nombre": "¿Qué medida conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "El rango intercuartílico",
+        "B": "El rango total",
+        "C": "La suma",
+        "D": "La media ponderada"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "¿qué medida conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-11-06",
+      "pregunta": "Para reportar la variabilidad en las mismas unidades de los datos conviene:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.11",
+        "nombre": "¿Qué medida conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "La varianza",
+        "B": "La media",
+        "C": "El percentil",
+        "D": "La desviación estándar"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "¿qué medida conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-11-07",
+      "pregunta": "Para calcular una calificación final con porcentajes distintos conviene:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.11",
+        "nombre": "¿Qué medida conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "La mediana",
+        "B": "El rango",
+        "C": "La media ponderada",
+        "D": "La moda"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "¿qué medida conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-11-08",
+      "pregunta": "Para expresar la posición relativa de una persona en una prueba conviene usar:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.11",
+        "nombre": "¿Qué medida conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "La frecuencia absoluta aislada",
+        "B": "Un percentil",
+        "C": "La suma",
+        "D": "El rango"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "¿qué medida conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-11-09",
+      "pregunta": "Para comparar únicamente la amplitud entre el menor y el mayor dato se usa:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.11",
+        "nombre": "¿Qué medida conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "El rango",
+        "B": "La moda",
+        "C": "La mediana",
+        "D": "El coeficiente de variación"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "¿qué medida conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-46-11-10",
+      "pregunta": "Si se desea una medida basada en todos los datos y sensible a valores extremos, se usa:",
+      "tema": {
+        "codigo": "46",
+        "nombre": "Medidas estadísticas",
+        "bloque": "Probabilidad y estadística"
+      },
+      "subtema": {
+        "codigo": "46.11",
+        "nombre": "¿Qué medida conviene utilizar?"
+      },
+      "respuestas_posibles": {
+        "A": "La mediana",
+        "B": "La moda",
+        "C": "El rango intercuartílico",
+        "D": "La media aritmética"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "¿qué medida conviene utilizar?",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

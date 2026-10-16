@@ -1,0 +1,3456 @@
+{
+  "metadata": {
+    "capitulo": "50",
+    "titulo": "Razonamiento espacial",
+    "version": "6.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 13,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 130,
+    "secciones_incluidas": [
+      {
+        "codigo": "50.1",
+        "nombre": "Transformaciones geométricas"
+      },
+      {
+        "codigo": "50.2",
+        "nombre": "Simetría axial"
+      },
+      {
+        "codigo": "50.3",
+        "nombre": "Simetría central"
+      },
+      {
+        "codigo": "50.4",
+        "nombre": "Rotaciones"
+      },
+      {
+        "codigo": "50.5",
+        "nombre": "Simetría rotacional"
+      },
+      {
+        "codigo": "50.6",
+        "nombre": "Traslaciones"
+      },
+      {
+        "codigo": "50.7",
+        "nombre": "Comparación de transformaciones"
+      },
+      {
+        "codigo": "50.8",
+        "nombre": "Vistas ortogonales"
+      },
+      {
+        "codigo": "50.9",
+        "nombre": "Desarrollos planos"
+      },
+      {
+        "codigo": "50.10",
+        "nombre": "Caras opuestas en un cubo"
+      },
+      {
+        "codigo": "50.11",
+        "nombre": "Conteo de cubos"
+      },
+      {
+        "codigo": "50.12",
+        "nombre": "Cubos pintados"
+      },
+      {
+        "codigo": "50.13",
+        "nombre": "Sucesiones de figuras"
+      }
+    ],
+    "secciones_editoriales_omitidas": [
+      "50.14 Procedimiento rápido",
+      "50.15 Resumen",
+      "50.16 Errores frecuentes",
+      "50.17 Ejercicios propuestos"
+    ],
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_desde_cero_y_validado"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-50-1-01",
+      "pregunta": "¿Cuál transformación conserva longitudes y ángulos?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.1",
+        "nombre": "Transformaciones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Una isometría",
+        "B": "Una homotecia de razón $2$",
+        "C": "Una proyección oblicua",
+        "D": "Una deformación"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "transformaciones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-1-02",
+      "pregunta": "¿Cuál transformación cambia el tamaño pero conserva la forma?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.1",
+        "nombre": "Transformaciones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Una traslación",
+        "B": "Una reflexión",
+        "C": "Una rotación",
+        "D": "Una homotecia"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "transformaciones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-1-03",
+      "pregunta": "Reflejar una figura respecto de una recta produce:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.1",
+        "nombre": "Transformaciones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Una figura semejante no congruente",
+        "B": "La misma orientación siempre",
+        "C": "Una imagen congruente con orientación invertida",
+        "D": "Una figura de área doble"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "transformaciones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-1-04",
+      "pregunta": "Girar una figura alrededor de un punto es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.1",
+        "nombre": "Transformaciones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Una homotecia",
+        "B": "Una rotación",
+        "C": "Una traslación",
+        "D": "Una simetría axial"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "transformaciones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-1-05",
+      "pregunta": "Desplazar todos los puntos con el mismo vector es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.1",
+        "nombre": "Transformaciones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Una traslación",
+        "B": "Una rotación",
+        "C": "Una reflexión",
+        "D": "Una proyección"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "transformaciones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-1-06",
+      "pregunta": "Las transformaciones rígidas conservan:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.1",
+        "nombre": "Transformaciones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Solo el área",
+        "B": "Solo la orientación",
+        "C": "La posición absoluta",
+        "D": "Forma y tamaño"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "transformaciones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-1-07",
+      "pregunta": "¿Cuál NO es una transformación rígida?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.1",
+        "nombre": "Transformaciones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Traslación",
+        "B": "Reflexión axial",
+        "C": "Homotecia de razón $3$",
+        "D": "Rotación de $90^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "transformaciones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-1-08",
+      "pregunta": "La imagen de un segmento de longitud $7$ bajo una isometría mide:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.1",
+        "nombre": "Transformaciones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Depende de la posición",
+        "B": "$7$",
+        "C": "$14$",
+        "D": "$3.5$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "transformaciones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-1-09",
+      "pregunta": "Una composición de dos transformaciones significa:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.1",
+        "nombre": "Transformaciones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Aplicarlas sucesivamente",
+        "B": "Sumar sus áreas",
+        "C": "Eliminar sus centros",
+        "D": "Usar solo la primera"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "transformaciones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-1-10",
+      "pregunta": "La transformación identidad:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.1",
+        "nombre": "Transformaciones geométricas"
+      },
+      "respuestas_posibles": {
+        "A": "Refleja en el eje $x$",
+        "B": "Gira $180^\\circ$",
+        "C": "Duplica distancias",
+        "D": "Deja cada punto en su posición original"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "transformaciones geométricas",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-2-01",
+      "pregunta": "El reflejo de $(3,2)$ respecto del eje $x$ es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.2",
+        "nombre": "Simetría axial"
+      },
+      "respuestas_posibles": {
+        "A": "$(-3,-2)$",
+        "B": "$(2,3)$",
+        "C": "$(3,-2)$",
+        "D": "$(-3,2)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "simetría axial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-2-02",
+      "pregunta": "El reflejo de $(-4,5)$ respecto del eje $y$ es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.2",
+        "nombre": "Simetría axial"
+      },
+      "respuestas_posibles": {
+        "A": "$(4,-5)$",
+        "B": "$(4,5)$",
+        "C": "$(-4,-5)$",
+        "D": "$(5,-4)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "simetría axial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-2-03",
+      "pregunta": "El reflejo de $(2,-7)$ respecto de la recta $y=x$ es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.2",
+        "nombre": "Simetría axial"
+      },
+      "respuestas_posibles": {
+        "A": "$(-7,2)$",
+        "B": "$(7,-2)$",
+        "C": "$(-2,7)$",
+        "D": "$(2,7)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "simetría axial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-2-04",
+      "pregunta": "Todo punto situado sobre el eje de simetría:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.2",
+        "nombre": "Simetría axial"
+      },
+      "respuestas_posibles": {
+        "A": "Se duplica",
+        "B": "Gira $90^\\circ$",
+        "C": "Cambia de tamaño",
+        "D": "Permanece fijo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "simetría axial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-2-05",
+      "pregunta": "Un cuadrado tiene cuántos ejes de simetría:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.2",
+        "nombre": "Simetría axial"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$8$",
+        "C": "$4$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "simetría axial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-2-06",
+      "pregunta": "Un rectángulo no cuadrado tiene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.2",
+        "nombre": "Simetría axial"
+      },
+      "respuestas_posibles": {
+        "A": "$0$ ejes",
+        "B": "$2$ ejes de simetría",
+        "C": "$4$ ejes",
+        "D": "$1$ eje"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "simetría axial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-2-07",
+      "pregunta": "Un triángulo equilátero tiene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.2",
+        "nombre": "Simetría axial"
+      },
+      "respuestas_posibles": {
+        "A": "$3$ ejes de simetría",
+        "B": "$1$ eje",
+        "C": "$2$ ejes",
+        "D": "$6$ ejes"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "simetría axial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-2-08",
+      "pregunta": "Una circunferencia tiene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.2",
+        "nombre": "Simetría axial"
+      },
+      "respuestas_posibles": {
+        "A": "Un eje",
+        "B": "Dos ejes",
+        "C": "Ningún eje",
+        "D": "Infinitos ejes de simetría"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "simetría axial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-2-09",
+      "pregunta": "En una reflexión, el eje es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.2",
+        "nombre": "Simetría axial"
+      },
+      "respuestas_posibles": {
+        "A": "Un extremo del segmento",
+        "B": "La diagonal de la figura siempre",
+        "C": "Mediatriz del segmento que une un punto con su imagen",
+        "D": "Paralelo obligatorio al segmento"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "simetría axial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-2-10",
+      "pregunta": "Reflejar dos veces respecto de la misma recta equivale a:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.2",
+        "nombre": "Simetría axial"
+      },
+      "respuestas_posibles": {
+        "A": "Una homotecia",
+        "B": "La identidad",
+        "C": "Una rotación de $90^\\circ$",
+        "D": "Una traslación"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "simetría axial",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-3-01",
+      "pregunta": "La simetría central respecto del origen transforma $(x,y)$ en:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.3",
+        "nombre": "Simetría central"
+      },
+      "respuestas_posibles": {
+        "A": "$(-x,-y)$",
+        "B": "$(x,-y)$",
+        "C": "$(-x,y)$",
+        "D": "$(y,x)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "simetría central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-3-02",
+      "pregunta": "La imagen de $(4,-3)$ por simetría central en el origen es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.3",
+        "nombre": "Simetría central"
+      },
+      "respuestas_posibles": {
+        "A": "$(4,3)$",
+        "B": "$(-4,-3)$",
+        "C": "$(-3,4)$",
+        "D": "$(-4,3)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "simetría central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-3-03",
+      "pregunta": "La simetría central equivale a una rotación de:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.3",
+        "nombre": "Simetría central"
+      },
+      "respuestas_posibles": {
+        "A": "$270^\\circ$",
+        "B": "$360^\\circ$",
+        "C": "$180^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "simetría central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-3-04",
+      "pregunta": "Si $P$ y $P'$ son simétricos respecto de $O$, entonces $O$ es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.3",
+        "nombre": "Simetría central"
+      },
+      "respuestas_posibles": {
+        "A": "El punto más lejano",
+        "B": "El punto medio de $PP'$",
+        "C": "Un extremo",
+        "D": "La proyección vertical"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "simetría central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-3-05",
+      "pregunta": "La imagen de $(2,5)$ respecto del centro $(1,1)$ es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.3",
+        "nombre": "Simetría central"
+      },
+      "respuestas_posibles": {
+        "A": "$(0,-3)$",
+        "B": "$(-2,-5)$",
+        "C": "$(3,6)$",
+        "D": "$(0,3)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "simetría central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-3-06",
+      "pregunta": "El centro de simetría de un paralelogramo es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.3",
+        "nombre": "Simetría central"
+      },
+      "respuestas_posibles": {
+        "A": "Cualquier vértice",
+        "B": "El punto medio de un lado",
+        "C": "Un foco",
+        "D": "La intersección de sus diagonales"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "simetría central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-3-07",
+      "pregunta": "¿Cuál figura posee simetría central?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.3",
+        "nombre": "Simetría central"
+      },
+      "respuestas_posibles": {
+        "A": "Un pentágono regular",
+        "B": "Un semicírculo",
+        "C": "Un rectángulo",
+        "D": "Un triángulo escaleno"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "simetría central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-3-08",
+      "pregunta": "Aplicar dos veces la misma simetría central produce:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.3",
+        "nombre": "Simetría central"
+      },
+      "respuestas_posibles": {
+        "A": "Una homotecia",
+        "B": "La figura original",
+        "C": "Una traslación doble",
+        "D": "Una reflexión axial"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "simetría central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-3-09",
+      "pregunta": "Bajo simetría central, una recta que no pasa por el centro se transforma en:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.3",
+        "nombre": "Simetría central"
+      },
+      "respuestas_posibles": {
+        "A": "Una recta paralela",
+        "B": "Una recta perpendicular",
+        "C": "Una circunferencia",
+        "D": "Un punto"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "simetría central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-3-10",
+      "pregunta": "El único punto fijo de una simetría central es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.3",
+        "nombre": "Simetría central"
+      },
+      "respuestas_posibles": {
+        "A": "Todo un eje",
+        "B": "Cada vértice",
+        "C": "Ninguno",
+        "D": "El centro"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "simetría central",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-4-01",
+      "pregunta": "Una rotación de $90^\\circ$ antihoraria alrededor del origen transforma $(x,y)$ en:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.4",
+        "nombre": "Rotaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(-x,-y)$",
+        "B": "$(x,-y)$",
+        "C": "$(-y,x)$",
+        "D": "$(y,-x)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "rotaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-4-02",
+      "pregunta": "Gire $(3,1)$ $90^\\circ$ antihorario alrededor del origen.",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.4",
+        "nombre": "Rotaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,-1)$",
+        "B": " $(-1,3)$ ",
+        "C": "$(1,-3)$",
+        "D": "$(-3,-1)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "rotaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-4-03",
+      "pregunta": "Una rotación de $180^\\circ$ transforma $(x,y)$ en:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.4",
+        "nombre": "Rotaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(-x,-y)$",
+        "B": "$(-y,x)$",
+        "C": "$(y,-x)$",
+        "D": "$(x,-y)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "rotaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-4-04",
+      "pregunta": "Gire $(-2,5)$ $270^\\circ$ antihorario.",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.4",
+        "nombre": "Rotaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(-5,-2)$",
+        "B": "$(-5,2)$",
+        "C": "$(2,5)$",
+        "D": "$(5,2)$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "rotaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-4-05",
+      "pregunta": "Una vuelta completa corresponde a:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.4",
+        "nombre": "Rotaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$270^\\circ$",
+        "C": "$360^\\circ$",
+        "D": "$180^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "rotaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-4-06",
+      "pregunta": "Las rotaciones conservan:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.4",
+        "nombre": "Rotaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Solo el área",
+        "B": "Distancia al centro de giro",
+        "C": "Orientación vertical absoluta",
+        "D": "Coordenadas originales"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "rotaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-4-07",
+      "pregunta": "Una rotación positiva se mide normalmente en sentido:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.4",
+        "nombre": "Rotaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Antihorario",
+        "B": "Horario",
+        "C": "Vertical",
+        "D": "Radial"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "rotaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-4-08",
+      "pregunta": "Girar $90^\\circ$ horario equivale a girar antihorario:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.4",
+        "nombre": "Rotaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$180^\\circ$",
+        "C": "$360^\\circ$",
+        "D": "$270^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "rotaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-4-09",
+      "pregunta": "El centro de una rotación:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.4",
+        "nombre": "Rotaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Se refleja",
+        "B": "Cambia de escala",
+        "C": "Permanece fijo",
+        "D": "Se traslada"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "rotaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-4-10",
+      "pregunta": "Cuatro rotaciones sucesivas de $90^\\circ$ alrededor del mismo centro equivalen a:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.4",
+        "nombre": "Rotaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Una homotecia",
+        "B": "La identidad",
+        "C": "Una reflexión",
+        "D": "Una traslación"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "rotaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-5-01",
+      "pregunta": "Una figura tiene simetría rotacional de orden $n$ si coincide consigo misma:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.5",
+        "nombre": "Simetría rotacional"
+      },
+      "respuestas_posibles": {
+        "A": "$n$ veces en una vuelta completa",
+        "B": "Solo una vez sin contar $360^\\circ$",
+        "C": "Después de cualquier traslación",
+        "D": "Al reflejarse"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "simetría rotacional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-5-02",
+      "pregunta": "El orden de simetría rotacional de un cuadrado es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.5",
+        "nombre": "Simetría rotacional"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$3$",
+        "C": "$8$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "simetría rotacional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-5-03",
+      "pregunta": "El ángulo mínimo de giro de un triángulo equilátero es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.5",
+        "nombre": "Simetría rotacional"
+      },
+      "respuestas_posibles": {
+        "A": "$90^\\circ$",
+        "B": "$180^\\circ$",
+        "C": "$120^\\circ$",
+        "D": "$60^\\circ$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "simetría rotacional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-5-04",
+      "pregunta": "Un rectángulo no cuadrado tiene simetría rotacional de orden:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.5",
+        "nombre": "Simetría rotacional"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$2$",
+        "C": "$1$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "simetría rotacional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-5-05",
+      "pregunta": "Un pentágono regular tiene orden:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.5",
+        "nombre": "Simetría rotacional"
+      },
+      "respuestas_posibles": {
+        "A": "$5$",
+        "B": "$3$",
+        "C": "$4$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "simetría rotacional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-5-06",
+      "pregunta": "El ángulo mínimo de una figura de orden $6$ es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.5",
+        "nombre": "Simetría rotacional"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$90^\\circ$",
+        "C": "$120^\\circ$",
+        "D": "$60^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "simetría rotacional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-5-07",
+      "pregunta": "Una figura sin coincidencia antes de la vuelta completa tiene orden:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.5",
+        "nombre": "Simetría rotacional"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "Infinito",
+        "C": "$1$",
+        "D": "$0$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "simetría rotacional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-5-08",
+      "pregunta": "Una circunferencia tiene simetría rotacional:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.5",
+        "nombre": "Simetría rotacional"
+      },
+      "respuestas_posibles": {
+        "A": "Ninguna",
+        "B": "Para cualquier ángulo alrededor de su centro",
+        "C": "Solo de $180^\\circ$",
+        "D": "Solo de $90^\\circ$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "simetría rotacional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-5-09",
+      "pregunta": "El ángulo mínimo se obtiene mediante:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.5",
+        "nombre": "Simetría rotacional"
+      },
+      "respuestas_posibles": {
+        "A": "$360^\\circ/n$",
+        "B": "$180^\\circ/n$",
+        "C": "$n/360^\\circ$",
+        "D": "$360^\\circ n$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "simetría rotacional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-5-10",
+      "pregunta": "Un hexágono regular coincide consigo mismo por primera vez tras girar:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.5",
+        "nombre": "Simetría rotacional"
+      },
+      "respuestas_posibles": {
+        "A": "$30^\\circ$",
+        "B": "$120^\\circ$",
+        "C": "$180^\\circ$",
+        "D": "$60^\\circ$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "simetría rotacional",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-6-01",
+      "pregunta": "Trasladar $(2,3)$ mediante el vector $(4,-1)$ produce:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.6",
+        "nombre": "Traslaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(6,4)$",
+        "B": "$(3,7)$",
+        "C": "$(6,2)$",
+        "D": "$(-2,4)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "traslaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-6-02",
+      "pregunta": "La regla $(x,y)\\mapsto(x-3,y+5)$ corresponde al vector:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.6",
+        "nombre": "Traslaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(3,5)$",
+        "B": "$(-3,5)$",
+        "C": "$(3,-5)$",
+        "D": "$(-5,3)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "traslaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-6-03",
+      "pregunta": "La imagen de $(-1,4)$ con vector $(2,3)$ es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.6",
+        "nombre": "Traslaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(1,7)$",
+        "B": "$(-3,1)$",
+        "C": "$(1,1)$",
+        "D": "$(2,12)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "traslaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-6-04",
+      "pregunta": "Una traslación conserva:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.6",
+        "nombre": "Traslaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Solo longitudes",
+        "B": "El centro de una figura en el mismo lugar",
+        "C": "La posición",
+        "D": "Longitudes, ángulos y orientación"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "traslaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-6-05",
+      "pregunta": "Una traslación tiene puntos fijos cuando el vector es no nulo:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.6",
+        "nombre": "Traslaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Dos",
+        "B": "Infinitos",
+        "C": "Ninguno",
+        "D": "Uno"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "traslaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-6-06",
+      "pregunta": "Componer traslaciones de vectores $(a,b)$ y $(c,d)$ produce el vector:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.6",
+        "nombre": "Traslaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(b+d,a+c)$",
+        "B": "$(a+c,b+d)$",
+        "C": "$(ac,bd)$",
+        "D": "$(a-c,b-d)$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "traslaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-6-07",
+      "pregunta": "La traslación inversa de vector $(5,-2)$ tiene vector:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.6",
+        "nombre": "Traslaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(-5,2)$",
+        "B": "$(5,2)$",
+        "C": "$(-2,5)$",
+        "D": "$(2,-5)$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "traslaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-6-08",
+      "pregunta": "Trasladar una recta genera:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.6",
+        "nombre": "Traslaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Una recta perpendicular",
+        "B": "Una parábola",
+        "C": "Un punto",
+        "D": "Una recta paralela o la misma recta"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "traslaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-6-09",
+      "pregunta": "Si $(1,2)$ se transforma en $(6,-1)$, el vector es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.6",
+        "nombre": "Traslaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$(7,1)$",
+        "B": "$(5,1)$",
+        "C": "$(5,-3)$",
+        "D": "$(-5,3)$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "traslaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-6-10",
+      "pregunta": "Una traslación de vector $(0,0)$ equivale a:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.6",
+        "nombre": "Traslaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Una homotecia",
+        "B": "La identidad",
+        "C": "Una rotación",
+        "D": "Una reflexión"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "traslaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-7-01",
+      "pregunta": "¿Qué transformación invierte la orientación?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.7",
+        "nombre": "Comparación de transformaciones"
+      },
+      "respuestas_posibles": {
+        "A": "La reflexión axial",
+        "B": "La traslación",
+        "C": "La rotación",
+        "D": "La identidad"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "comparación de transformaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-7-02",
+      "pregunta": "¿Qué transformaciones conservan la orientación?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.7",
+        "nombre": "Comparación de transformaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Solo reflexiones",
+        "B": "Reflexiones y homotecias negativas",
+        "C": "Ninguna isometría",
+        "D": "Traslaciones y rotaciones"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "comparación de transformaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-7-03",
+      "pregunta": "Una rotación requiere especificar:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.7",
+        "nombre": "Comparación de transformaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Eje y razón",
+        "B": "Dos focos",
+        "C": "Centro y ángulo",
+        "D": "Solo vector"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "comparación de transformaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-7-04",
+      "pregunta": "Una reflexión axial requiere especificar:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.7",
+        "nombre": "Comparación de transformaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Un radio",
+        "B": "El eje de reflexión",
+        "C": "Un vector",
+        "D": "Una razón"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "comparación de transformaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-7-05",
+      "pregunta": "Una traslación requiere especificar:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.7",
+        "nombre": "Comparación de transformaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Un vector",
+        "B": "Un centro y ángulo",
+        "C": "Un eje",
+        "D": "Un foco"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "comparación de transformaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-7-06",
+      "pregunta": "La composición de dos reflexiones respecto de rectas paralelas es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.7",
+        "nombre": "Comparación de transformaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Una homotecia",
+        "B": "Una sola reflexión",
+        "C": "La identidad siempre",
+        "D": "Una traslación"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "comparación de transformaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-7-07",
+      "pregunta": "La composición de dos reflexiones respecto de rectas que se cortan es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.7",
+        "nombre": "Comparación de transformaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Una proyección",
+        "B": "Una homotecia",
+        "C": "Una rotación",
+        "D": "Una traslación"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "comparación de transformaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-7-08",
+      "pregunta": "Una simetría central es un caso particular de:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.7",
+        "nombre": "Comparación de transformaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Proyección",
+        "B": "Rotación",
+        "C": "Traslación",
+        "D": "Homotecia"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "comparación de transformaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-7-09",
+      "pregunta": "¿Cuál transformación puede cambiar el tamaño?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.7",
+        "nombre": "Comparación de transformaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Homotecia",
+        "B": "Rotación",
+        "C": "Traslación",
+        "D": "Reflexión"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "comparación de transformaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-7-10",
+      "pregunta": "Rotación, reflexión y traslación tienen en común que:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.7",
+        "nombre": "Comparación de transformaciones"
+      },
+      "respuestas_posibles": {
+        "A": "Cambian el área",
+        "B": "Tienen un eje",
+        "C": "Tienen un vector no nulo",
+        "D": "Son isometrías"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "comparación de transformaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-8-01",
+      "pregunta": "La vista superior de un cubo es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.8",
+        "nombre": "Vistas ortogonales"
+      },
+      "respuestas_posibles": {
+        "A": "Un círculo",
+        "B": "Un hexágono",
+        "C": "Un cuadrado",
+        "D": "Un triángulo"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "vistas ortogonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-8-02",
+      "pregunta": "La vista frontal de un cilindro vertical es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.8",
+        "nombre": "Vistas ortogonales"
+      },
+      "respuestas_posibles": {
+        "A": "Un trapecio siempre",
+        "B": "Un rectángulo",
+        "C": "Un círculo",
+        "D": "Un triángulo"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "vistas ortogonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-8-03",
+      "pregunta": "La vista superior de un cilindro vertical es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.8",
+        "nombre": "Vistas ortogonales"
+      },
+      "respuestas_posibles": {
+        "A": "Un círculo",
+        "B": "Un rectángulo",
+        "C": "Un cuadrado",
+        "D": "Una elipse necesariamente"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "vistas ortogonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-8-04",
+      "pregunta": "Un prisma rectangular visto de frente produce:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.8",
+        "nombre": "Vistas ortogonales"
+      },
+      "respuestas_posibles": {
+        "A": "Un círculo",
+        "B": "Un pentágono",
+        "C": "Una esfera",
+        "D": "Un rectángulo"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "vistas ortogonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-8-05",
+      "pregunta": "Las vistas ortogonales básicas son:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.8",
+        "nombre": "Vistas ortogonales"
+      },
+      "respuestas_posibles": {
+        "A": "Radial, axial y central",
+        "B": "Cónica, polar y oblicua",
+        "C": "Frontal, superior y lateral",
+        "D": "Interior, exterior y diagonal"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "vistas ortogonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-8-06",
+      "pregunta": "En una proyección ortogonal, los rayos proyectantes son:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.8",
+        "nombre": "Vistas ortogonales"
+      },
+      "respuestas_posibles": {
+        "A": "Convergentes en un foco siempre",
+        "B": "Perpendiculares al plano de proyección",
+        "C": "Paralelos al plano",
+        "D": "Curvos"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "vistas ortogonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-8-07",
+      "pregunta": "La vista lateral permite observar principalmente:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.8",
+        "nombre": "Vistas ortogonales"
+      },
+      "respuestas_posibles": {
+        "A": "Altura y profundidad",
+        "B": "Ancho y profundidad",
+        "C": "Solo volumen",
+        "D": "Área total"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "vistas ortogonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-8-08",
+      "pregunta": "La vista superior muestra principalmente:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.8",
+        "nombre": "Vistas ortogonales"
+      },
+      "respuestas_posibles": {
+        "A": "Altura y ancho",
+        "B": "Altura y profundidad",
+        "C": "Solo aristas ocultas",
+        "D": "Ancho y profundidad"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "vistas ortogonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-8-09",
+      "pregunta": "La vista frontal muestra principalmente:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.8",
+        "nombre": "Vistas ortogonales"
+      },
+      "respuestas_posibles": {
+        "A": "Altura y profundidad",
+        "B": "Volumen",
+        "C": "Ancho y altura",
+        "D": "Ancho y profundidad"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "vistas ortogonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-8-10",
+      "pregunta": "Dos sólidos distintos pueden tener:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.8",
+        "nombre": "Vistas ortogonales"
+      },
+      "respuestas_posibles": {
+        "A": "La misma red plana siempre",
+        "B": "Alguna vista ortogonal idéntica",
+        "C": "Todas sus dimensiones necesariamente iguales",
+        "D": "El mismo volumen siempre"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "vistas ortogonales",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-9-01",
+      "pregunta": "Un desarrollo plano de un cubo está formado por:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.9",
+        "nombre": "Desarrollos planos"
+      },
+      "respuestas_posibles": {
+        "A": "$6$ cuadrados congruentes",
+        "B": "$4$ cuadrados",
+        "C": "$8$ triángulos",
+        "D": "$6$ rectángulos distintos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "desarrollos planos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-9-02",
+      "pregunta": "Un desarrollo plano válido debe:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.9",
+        "nombre": "Desarrollos planos"
+      },
+      "respuestas_posibles": {
+        "A": "Tener todas las caras alineadas",
+        "B": "Ser siempre una cruz específica",
+        "C": "Duplicar una cara",
+        "D": "Plegarse sin superponer caras"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "desarrollos planos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-9-03",
+      "pregunta": "El desarrollo de un cilindro incluye:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.9",
+        "nombre": "Desarrollos planos"
+      },
+      "respuestas_posibles": {
+        "A": "Seis cuadrados",
+        "B": "Dos rectángulos únicamente",
+        "C": "Dos círculos y un rectángulo",
+        "D": "Un círculo y dos triángulos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "desarrollos planos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-9-04",
+      "pregunta": "El desarrollo de un prisma triangular contiene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.9",
+        "nombre": "Desarrollos planos"
+      },
+      "respuestas_posibles": {
+        "A": "Un pentágono",
+        "B": "Dos triángulos y tres rectángulos",
+        "C": "Tres triángulos y dos círculos",
+        "D": "Seis cuadrados"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "desarrollos planos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-9-05",
+      "pregunta": "El desarrollo de una pirámide cuadrangular contiene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.9",
+        "nombre": "Desarrollos planos"
+      },
+      "respuestas_posibles": {
+        "A": "Un cuadrado y cuatro triángulos",
+        "B": "Dos cuadrados y tres triángulos",
+        "C": "Cinco cuadrados",
+        "D": "Cuatro círculos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "desarrollos planos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-9-06",
+      "pregunta": "El rectángulo lateral de un cilindro tiene como largo:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.9",
+        "nombre": "Desarrollos planos"
+      },
+      "respuestas_posibles": {
+        "A": "El radio",
+        "B": "El diámetro únicamente",
+        "C": "El área de la base",
+        "D": "La circunferencia de la base"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "desarrollos planos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-9-07",
+      "pregunta": "Todas las redes de un cubo tienen:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.9",
+        "nombre": "Desarrollos planos"
+      },
+      "respuestas_posibles": {
+        "A": "Cinco caras",
+        "B": "Siete caras",
+        "C": "Seis caras cuadradas conectadas por aristas",
+        "D": "La misma forma plana"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "desarrollos planos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-9-08",
+      "pregunta": "Dos caras que comparten arista en la red:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.9",
+        "nombre": "Desarrollos planos"
+      },
+      "respuestas_posibles": {
+        "A": "Desaparecen",
+        "B": "Pueden quedar adyacentes al plegar",
+        "C": "Siempre quedan opuestas",
+        "D": "Se superponen necesariamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "desarrollos planos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-9-09",
+      "pregunta": "Un desarrollo plano sirve para determinar:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.9",
+        "nombre": "Desarrollos planos"
+      },
+      "respuestas_posibles": {
+        "A": "Cómo se ensamblan las caras de un sólido",
+        "B": "Solo el volumen",
+        "C": "La masa",
+        "D": "La densidad"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "desarrollos planos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-9-10",
+      "pregunta": "Un tetraedro regular tiene un desarrollo de:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.9",
+        "nombre": "Desarrollos planos"
+      },
+      "respuestas_posibles": {
+        "A": "$4$ cuadrados",
+        "B": "$6$ triángulos",
+        "C": "Un círculo y un sector",
+        "D": "$4$ triángulos equiláteros"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "desarrollos planos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-10-01",
+      "pregunta": "En un cubo estándar, cada cara tiene cuántas caras opuestas:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.10",
+        "nombre": "Caras opuestas en un cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$3$",
+        "B": "$4$",
+        "C": "$1$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "caras opuestas en un cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-10-02",
+      "pregunta": "Dos caras opuestas de un cubo:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.10",
+        "nombre": "Caras opuestas en un cubo"
+      },
+      "respuestas_posibles": {
+        "A": "Son la misma cara",
+        "B": "No comparten arista",
+        "C": "Comparten una arista",
+        "D": "Comparten dos aristas"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "caras opuestas en un cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-10-03",
+      "pregunta": "Una cara de un cubo es adyacente a:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.10",
+        "nombre": "Caras opuestas en un cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$4$ caras",
+        "B": "$1$ cara",
+        "C": "$2$ caras",
+        "D": "$5$ caras"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "caras opuestas en un cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-10-04",
+      "pregunta": "Si A es opuesta a D, entonces D es opuesta a:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.10",
+        "nombre": "Caras opuestas en un cubo"
+      },
+      "respuestas_posibles": {
+        "A": "B",
+        "B": "C",
+        "C": "Cualquier cara",
+        "D": "A"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "caras opuestas en un cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-10-05",
+      "pregunta": "Tres caras que se reúnen en un vértice son:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.10",
+        "nombre": "Caras opuestas en un cubo"
+      },
+      "respuestas_posibles": {
+        "A": "Coplanarias",
+        "B": "Paralelas",
+        "C": "Mutuamente adyacentes",
+        "D": "Mutuamente opuestas"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "caras opuestas en un cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-10-06",
+      "pregunta": "Las caras opuestas de un cubo están en planos:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.10",
+        "nombre": "Caras opuestas en un cubo"
+      },
+      "respuestas_posibles": {
+        "A": "Secantes",
+        "B": "Paralelos",
+        "C": "Perpendiculares",
+        "D": "Coincidentes"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "caras opuestas en un cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-10-07",
+      "pregunta": "Si una red tiene cuatro cuadrados en fila, los dos cuadrados anexos a lados opuestos del segundo pueden quedar:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.10",
+        "nombre": "Caras opuestas en un cubo"
+      },
+      "respuestas_posibles": {
+        "A": "Opuestos al plegarse",
+        "B": "Superpuestos siempre",
+        "C": "En la misma cara",
+        "D": "Imposibles de plegar"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "caras opuestas en un cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-10-08",
+      "pregunta": "Para identificar caras opuestas en una red conviene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.10",
+        "nombre": "Caras opuestas en un cubo"
+      },
+      "respuestas_posibles": {
+        "A": "Contar solo colores",
+        "B": "Sumar números",
+        "C": "Medir áreas",
+        "D": "Imaginar el plegado y seguir las orientaciones"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "caras opuestas en un cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-10-09",
+      "pregunta": "En un dado convencional, las caras opuestas suman:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.10",
+        "nombre": "Caras opuestas en un cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$12$",
+        "C": "$7$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "caras opuestas en un cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-10-10",
+      "pregunta": "Si en un dado convencional aparece $2$ en una cara, su opuesta es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.10",
+        "nombre": "Caras opuestas en un cubo"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$5$",
+        "C": "$3$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "caras opuestas en un cubo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-11-01",
+      "pregunta": "Un cubo de arista $3$ formado por cubitos unitarios contiene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.11",
+        "nombre": "Conteo de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$27$ cubitos",
+        "B": "$9$ cubitos",
+        "C": "$18$ cubitos",
+        "D": "$81$ cubitos"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "conteo de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-11-02",
+      "pregunta": "Un prisma de dimensiones $2\\times3\\times4$ contiene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.11",
+        "nombre": "Conteo de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$12$",
+        "C": "$18$",
+        "D": "$24$ cubos unitarios"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "conteo de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-11-03",
+      "pregunta": "Una torre con capas de $4$ cubos y $5$ niveles contiene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.11",
+        "nombre": "Conteo de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$16$",
+        "B": "$25$",
+        "C": "$20$ cubos",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "conteo de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-11-04",
+      "pregunta": "Una estructura rectangular $5\\times2\\times3$ contiene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.11",
+        "nombre": "Conteo de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$25$",
+        "B": "$30$ cubos",
+        "C": "$10$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "conteo de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-11-05",
+      "pregunta": "Si una capa tiene $3\\times4$ cubos y hay $2$ capas, el total es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.11",
+        "nombre": "Conteo de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "$12$",
+        "C": "$18$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "conteo de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-11-06",
+      "pregunta": "El número de cubos en un bloque $n\\times n\\times n$ es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.11",
+        "nombre": "Conteo de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$3n$",
+        "B": "$n^2$",
+        "C": "$6n^2$",
+        "D": "$n^3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "conteo de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-11-07",
+      "pregunta": "Se retira un cubito de un bloque $3\\times3\\times3$. Quedan:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.11",
+        "nombre": "Conteo de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$18$",
+        "B": "$28$",
+        "C": "$26$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "conteo de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-11-08",
+      "pregunta": "Un bloque tiene $4$ cubos de largo, $3$ de ancho y $2$ de alto. ¿Cuántos hay?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.11",
+        "nombre": "Conteo de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$24$",
+        "C": "$12$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "conteo de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-11-09",
+      "pregunta": "Para contar cubos ocultos en un bloque completo se usa:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.11",
+        "nombre": "Conteo de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "El producto de sus tres dimensiones",
+        "B": "Solo los visibles",
+        "C": "La suma de dimensiones",
+        "D": "El área frontal"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "conteo de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-11-10",
+      "pregunta": "Tres capas contienen respectivamente $6,6,4$ cubos. El total es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.11",
+        "nombre": "Conteo de cubos"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$18$",
+        "C": "$24$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "conteo de cubos",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-12-01",
+      "pregunta": "Un cubo $3\\times3\\times3$ se pinta por fuera. ¿Cuántos cubitos tienen tres caras pintadas?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.12",
+        "nombre": "Cubos pintados"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$27$",
+        "C": "$8$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "cubos pintados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-12-02",
+      "pregunta": "En el mismo cubo, ¿cuántos tienen exactamente dos caras pintadas?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.12",
+        "nombre": "Cubos pintados"
+      },
+      "respuestas_posibles": {
+        "A": "$1$",
+        "B": "$12$",
+        "C": "$8$",
+        "D": "$6$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "cubos pintados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-12-03",
+      "pregunta": "En el mismo cubo, ¿cuántos tienen exactamente una cara pintada?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.12",
+        "nombre": "Cubos pintados"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$12$",
+        "C": "$8$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "cubos pintados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-12-04",
+      "pregunta": "En el mismo cubo, ¿cuántos no tienen cara pintada?",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.12",
+        "nombre": "Cubos pintados"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$6$",
+        "C": "$8$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "cubos pintados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-12-05",
+      "pregunta": "En un cubo $4\\times4\\times4$, los cubitos con tres caras pintadas son:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.12",
+        "nombre": "Cubos pintados"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "$64$",
+        "C": "$8$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "cubos pintados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-12-06",
+      "pregunta": "En un cubo $4\\times4\\times4$, los de exactamente dos caras pintadas son:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.12",
+        "nombre": "Cubos pintados"
+      },
+      "respuestas_posibles": {
+        "A": "$32$",
+        "B": "$24$",
+        "C": "$8$",
+        "D": "$16$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "cubos pintados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-12-07",
+      "pregunta": "En un cubo $4\\times4\\times4$, los de exactamente una cara pintada son:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.12",
+        "nombre": "Cubos pintados"
+      },
+      "respuestas_posibles": {
+        "A": "$24$",
+        "B": "$8$",
+        "C": "$32$",
+        "D": "$48$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "cubos pintados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-12-08",
+      "pregunta": "En un cubo $4\\times4\\times4$, los no pintados son:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.12",
+        "nombre": "Cubos pintados"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$16$",
+        "C": "$24$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "cubos pintados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-12-09",
+      "pregunta": "Para un cubo $n\\times n\\times n$, los cubitos interiores no pintados son:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.12",
+        "nombre": "Cubos pintados"
+      },
+      "respuestas_posibles": {
+        "A": "$6(n-2)^2$",
+        "B": "$12(n-2)$",
+        "C": "$(n-2)^3$",
+        "D": "$n^3$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "cubos pintados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-12-10",
+      "pregunta": "Para un cubo $n\\times n\\times n$, los cubitos con exactamente dos caras pintadas son:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.12",
+        "nombre": "Cubos pintados"
+      },
+      "respuestas_posibles": {
+        "A": "$(n-2)^3$",
+        "B": "$12(n-2)$",
+        "C": "$8$",
+        "D": "$6(n-2)^2$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "cubos pintados",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-13-01",
+      "pregunta": "Una figura usa $3,5,7,9,\\ldots$ fichas. La quinta usa:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.13",
+        "nombre": "Sucesiones de figuras"
+      },
+      "respuestas_posibles": {
+        "A": "$11$",
+        "B": "$10$",
+        "C": "$12$",
+        "D": "$13$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "sucesiones de figuras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-13-02",
+      "pregunta": "Una sucesión de figuras tiene $1,4,9,16,\\ldots$ puntos. La figura $n$ tiene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.13",
+        "nombre": "Sucesiones de figuras"
+      },
+      "respuestas_posibles": {
+        "A": "$2n+1$ puntos",
+        "B": "$n^3$ puntos",
+        "C": "$3n$ puntos",
+        "D": "$n^2$ puntos"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "sucesiones de figuras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-13-03",
+      "pregunta": "Una escalera de $n$ niveles usa $1+2+\\cdots+n$ bloques. Para $n=5$ usa:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.13",
+        "nombre": "Sucesiones de figuras"
+      },
+      "respuestas_posibles": {
+        "A": "$20$",
+        "B": "$25$",
+        "C": "$15$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "sucesiones de figuras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-13-04",
+      "pregunta": "Una figura duplica su número de cuadrados: $2,4,8,16,\\ldots$. La sexta tiene:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.13",
+        "nombre": "Sucesiones de figuras"
+      },
+      "respuestas_posibles": {
+        "A": "$128$",
+        "B": "$64$",
+        "C": "$32$",
+        "D": "$48$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "sucesiones de figuras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-13-05",
+      "pregunta": "Si el número de piezas aumenta siempre en $4$, el patrón es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.13",
+        "nombre": "Sucesiones de figuras"
+      },
+      "respuestas_posibles": {
+        "A": "Aritmético",
+        "B": "Geométrico",
+        "C": "Constante",
+        "D": "Aleatorio"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "sucesiones de figuras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-13-06",
+      "pregunta": "Si cada figura triplica las piezas de la anterior, el patrón es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.13",
+        "nombre": "Sucesiones de figuras"
+      },
+      "respuestas_posibles": {
+        "A": "Aritmético",
+        "B": "Cuadrático siempre",
+        "C": "Constante",
+        "D": "Geométrico"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "sucesiones de figuras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-13-07",
+      "pregunta": "La secuencia $1,3,6,10,15,\\ldots$ corresponde a:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.13",
+        "nombre": "Sucesiones de figuras"
+      },
+      "respuestas_posibles": {
+        "A": "Potencias de dos",
+        "B": "Números primos",
+        "C": "Números triangulares",
+        "D": "Cuadrados perfectos"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "alta",
+      "habilidad": "sucesiones de figuras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-13-08",
+      "pregunta": "La figura $n$ de un patrón con $a_n=2n^2+1$ contiene para $n=3$:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.13",
+        "nombre": "Sucesiones de figuras"
+      },
+      "respuestas_posibles": {
+        "A": "$21$",
+        "B": "$19$ piezas",
+        "C": "$13$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "alta",
+      "habilidad": "sucesiones de figuras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-13-09",
+      "pregunta": "Para inferir una regla visual conviene comparar:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.13",
+        "nombre": "Sucesiones de figuras"
+      },
+      "respuestas_posibles": {
+        "A": "Qué elementos se agregan o multiplican de una figura a la siguiente",
+        "B": "Solo el color",
+        "C": "Solo la orientación",
+        "D": "El nombre de la figura"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "alta",
+      "habilidad": "sucesiones de figuras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-50-13-10",
+      "pregunta": "Un patrón tiene $4,7,10,13,\\ldots$ segmentos. La regla es:",
+      "tema": {
+        "codigo": "50",
+        "nombre": "Razonamiento espacial",
+        "bloque": "Geometría y razonamiento espacial"
+      },
+      "subtema": {
+        "codigo": "50.13",
+        "nombre": "Sucesiones de figuras"
+      },
+      "respuestas_posibles": {
+        "A": "$a_n=4n-1$",
+        "B": "$a_n=3n+4$",
+        "C": "$a_n=n^2+3$",
+        "D": "$a_n=3n+1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "alta",
+      "habilidad": "sucesiones de figuras",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_inspirado_en_guia_y_reactivos_CENEVAL",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}

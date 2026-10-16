@@ -1,0 +1,1339 @@
+{
+  "metadata": {
+    "capitulo": "2",
+    "titulo": "Operaciones básicas con números reales",
+    "version": "4.0.0",
+    "idioma": "es-MX",
+    "total_secciones": 5,
+    "reactivos_por_seccion": 10,
+    "total_reactivos": 50,
+    "secciones_incluidas": [
+      {
+        "codigo": "2.1",
+        "nombre": "La recta numérica y el valor absoluto"
+      },
+      {
+        "codigo": "2.2",
+        "nombre": "Suma y resta"
+      },
+      {
+        "codigo": "2.3",
+        "nombre": "Multiplicación y división"
+      },
+      {
+        "codigo": "2.4",
+        "nombre": "Jerarquía de las operaciones"
+      },
+      {
+        "codigo": "2.5",
+        "nombre": "Signos de agrupación"
+      }
+    ],
+    "criterio_de_inclusion": "Solo secciones temáticas; se omiten ejemplos integradores y ejercicios propuestos.",
+    "formato_matematico": "LaTeX con delimitadores $...$",
+    "usa_imagenes": false,
+    "estado": "reconstruido_y_revisado_matematicamente"
+  },
+  "reactivos": [
+    {
+      "id": "MOCK-2-1-01",
+      "pregunta": "Calcule $|-9|$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "La recta numérica y el valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$9$",
+        "B": "$-9$",
+        "C": "$0$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "recta numérica y valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-1-02",
+      "pregunta": "Calcule $|5-12|$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "La recta numérica y el valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$-7$",
+        "B": "$17$",
+        "C": "$60$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "recta numérica y valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-1-03",
+      "pregunta": "¿Cuál es la distancia entre $-6$ y $2$?",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "La recta numérica y el valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$-8$",
+        "B": "$12$",
+        "C": "$8$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "recta numérica y valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-1-04",
+      "pregunta": "Resuelva $|x|=7$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "La recta numérica y el valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$x=0$",
+        "B": "$x=7$ o $x=-7$",
+        "C": "$x=7$ solamente",
+        "D": "$x=-7$ solamente"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "recta numérica y valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-1-05",
+      "pregunta": "¿Cuál tiene mayor valor absoluto?",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "La recta numérica y el valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$-11$",
+        "B": "$8$",
+        "C": "$-9$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "recta numérica y valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-1-06",
+      "pregunta": "Si $|x-3|=0$, entonces:",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "La recta numérica y el valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$x=-3$",
+        "B": "$x=0$",
+        "C": "$x=6$",
+        "D": "$x=3$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "recta numérica y valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-1-07",
+      "pregunta": "Halle el punto medio entre $-5$ y $9$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "La recta numérica y el valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$7$",
+        "B": "$14$",
+        "C": "$2$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "recta numérica y valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-1-08",
+      "pregunta": "¿Qué desigualdad expresa $|x|<4$?",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "La recta numérica y el valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$x<-4$ o $x>4$",
+        "B": "$-4<x<4$",
+        "C": "$x<-4$",
+        "D": "$x>4$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "recta numérica y valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-1-09",
+      "pregunta": "Simplifique $-|-8|+|3|$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "La recta numérica y el valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$-5$",
+        "B": "$-11$",
+        "C": "$5$",
+        "D": "$11$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "recta numérica y valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-1-10",
+      "pregunta": "Un punto está $6$ unidades a la izquierda de $2$. ¿Cuál es?",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.1",
+        "nombre": "La recta numérica y el valor absoluto"
+      },
+      "respuestas_posibles": {
+        "A": "$-8$",
+        "B": "$4$",
+        "C": "$8$",
+        "D": "$-4$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "recta numérica y valor absoluto",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-2-01",
+      "pregunta": "Calcule $-8+(15)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$23$",
+        "B": "$-7$",
+        "C": "$7$",
+        "D": "$-23$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "suma y resta con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-2-02",
+      "pregunta": "Calcule $12+(-19)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{distractor 3}$",
+        "B": "$-7$",
+        "C": "$31$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "suma y resta con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-2-03",
+      "pregunta": "Calcule $-14+(-6)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$-20$",
+        "B": "$-8$",
+        "C": "$20$",
+        "D": "$\\text{distractor 3}$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "suma y resta con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-2-04",
+      "pregunta": "Calcule $25+(-37)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$62$",
+        "B": "$12$",
+        "C": "$\\text{distractor 3}$",
+        "D": "$-12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "suma y resta con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-2-05",
+      "pregunta": "Calcule $-3+(18)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$21$",
+        "B": "$-15$",
+        "C": "$15$",
+        "D": "$-21$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "suma y resta con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-2-06",
+      "pregunta": "Calcule $7+(-22)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{distractor 3}$",
+        "B": "$-15$",
+        "C": "$29$",
+        "D": "$15$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "suma y resta con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-2-07",
+      "pregunta": "Calcule $-45+(16)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$-29$",
+        "B": "$-61$",
+        "C": "$61$",
+        "D": "$29$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "suma y resta con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-2-08",
+      "pregunta": "Calcule $31+(-12)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$43$",
+        "B": "$-19$",
+        "C": "$\\text{distractor 3}$",
+        "D": "$19$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "suma y resta con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-2-09",
+      "pregunta": "Calcule $-9+(-13)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$22$",
+        "B": "$\\text{distractor 3}$",
+        "C": "$-22$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "suma y resta con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-2-10",
+      "pregunta": "Calcule $50+(-68)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.2",
+        "nombre": "Suma y resta"
+      },
+      "respuestas_posibles": {
+        "A": "$\\text{distractor 3}$",
+        "B": "$-18$",
+        "C": "$118$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "suma y resta con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-3-01",
+      "pregunta": "Calcule $(-6)(7)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$-42$",
+        "B": "$1$",
+        "C": "$42$",
+        "D": "$13$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "multiplicación y división con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-3-02",
+      "pregunta": "Calcule $(-8)(-5)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$-13$",
+        "B": "$-40$",
+        "C": "$3$",
+        "D": "$40$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "multiplicación y división con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-3-03",
+      "pregunta": "Calcule $(54)(-9)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$486$",
+        "B": "$63$",
+        "C": "$-486$",
+        "D": "$45$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "multiplicación y división con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-3-04",
+      "pregunta": "Calcule $-72\\div(-8)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$80$",
+        "B": "$9$",
+        "C": "$576$",
+        "D": "$-9$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "multiplicación y división con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-3-05",
+      "pregunta": "Calcule $(-2)(12)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$-24$",
+        "B": "$10$",
+        "C": "$24$",
+        "D": "$14$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "multiplicación y división con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-3-06",
+      "pregunta": "Calcule $15\\div(-3)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$-45$",
+        "B": "$5$",
+        "C": "$18$",
+        "D": "$-5$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "multiplicación y división con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-3-07",
+      "pregunta": "Calcule $(-9)(4)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$36$",
+        "B": "$13$",
+        "C": "$-36$",
+        "D": "$-5$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "multiplicación y división con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-3-08",
+      "pregunta": "Calcule $63\\div(-7)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$70$",
+        "B": "$-9$",
+        "C": "$-441$",
+        "D": "$9$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "multiplicación y división con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-3-09",
+      "pregunta": "Calcule $(-11)(-6)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$66$",
+        "B": "$-17$",
+        "C": "$-66$",
+        "D": "$5$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "multiplicación y división con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-3-10",
+      "pregunta": "Calcule $96\\div(-12)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.3",
+        "nombre": "Multiplicación y división"
+      },
+      "respuestas_posibles": {
+        "A": "$-1152$",
+        "B": "$8$",
+        "C": "$108$",
+        "D": "$-8$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "multiplicación y división con signo",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-4-01",
+      "pregunta": "Calcule $6+3(4)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Jerarquía de las operaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$36$",
+        "B": "$48$",
+        "C": "$18$",
+        "D": "$24$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "jerarquía de operaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-4-02",
+      "pregunta": "Calcule $20-12\\div3$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Jerarquía de las operaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$2$",
+        "B": "$16$",
+        "C": "$4$",
+        "D": "$8$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "jerarquía de operaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-4-03",
+      "pregunta": "Calcule $2+3^2(4)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Jerarquía de las operaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$38$",
+        "B": "$20$",
+        "C": "$36$",
+        "D": "$100$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "jerarquía de operaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-4-04",
+      "pregunta": "Calcule $18\\div3+2(5)-4$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Jerarquía de las operaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$16$",
+        "C": "$26$",
+        "D": "$12$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "jerarquía de operaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-4-05",
+      "pregunta": "Calcule $-3^2+10$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Jerarquía de las operaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$-19$",
+        "B": "$-1$",
+        "C": "$1$",
+        "D": "$19$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "jerarquía de operaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-4-06",
+      "pregunta": "Calcule $(-3)^2+10$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Jerarquía de las operaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$-19$",
+        "B": "$19$",
+        "C": "$1$",
+        "D": "$13$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "jerarquía de operaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-4-07",
+      "pregunta": "Calcule $24\\div6\\cdot2$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Jerarquía de las operaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$8$",
+        "B": "$2$",
+        "C": "$12$",
+        "D": "$48$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "jerarquía de operaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-4-08",
+      "pregunta": "Calcule $5+2(7-4)^2$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Jerarquía de las operaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$11$",
+        "B": "$18$",
+        "C": "$49$",
+        "D": "$23$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "jerarquía de operaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-4-09",
+      "pregunta": "Calcule $40-3[4+2(5)]$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Jerarquía de las operaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$28$",
+        "B": "$82$",
+        "C": "$-2$",
+        "D": "$2$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "jerarquía de operaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-4-10",
+      "pregunta": "Calcule $8-2(3+5)^2\\div4$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.4",
+        "nombre": "Jerarquía de las operaciones"
+      },
+      "respuestas_posibles": {
+        "A": "$4$",
+        "B": "$-24$",
+        "C": "$24$",
+        "D": "$-56$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "jerarquía de operaciones",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-5-01",
+      "pregunta": "Simplifique $3[5-(2+1)]$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.5",
+        "nombre": "Signos de agrupación"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$9$",
+        "C": "$12$",
+        "D": "$18$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "signos de agrupación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-5-02",
+      "pregunta": "Simplifique $-[4-(7-2)]$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.5",
+        "nombre": "Signos de agrupación"
+      },
+      "respuestas_posibles": {
+        "A": "$-9$",
+        "B": "$-1$",
+        "C": "$9$",
+        "D": "$1$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "signos de agrupación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-5-03",
+      "pregunta": "Simplifique $2\\{3-[4-(6-1)]\\}$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.5",
+        "nombre": "Signos de agrupación"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$16$",
+        "C": "$8$",
+        "D": "$4$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "signos de agrupación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-5-04",
+      "pregunta": "Simplifique $5-[2-(3-7)]$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.5",
+        "nombre": "Signos de agrupación"
+      },
+      "respuestas_posibles": {
+        "A": "$11$",
+        "B": "$-1$",
+        "C": "$1$",
+        "D": "$7$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "signos de agrupación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-5-05",
+      "pregunta": "Simplifique $-(x-4)$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.5",
+        "nombre": "Signos de agrupación"
+      },
+      "respuestas_posibles": {
+        "A": "$-x+4$",
+        "B": "$-x-4$",
+        "C": "$x-4$",
+        "D": "$x+4$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "signos de agrupación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-5-06",
+      "pregunta": "Simplifique $3-[2x-(x-5)]$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.5",
+        "nombre": "Signos de agrupación"
+      },
+      "respuestas_posibles": {
+        "A": "$-x+8$",
+        "B": "$x-2$",
+        "C": "$x+8$",
+        "D": "$-x-2$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "signos de agrupación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-5-07",
+      "pregunta": "Simplifique $-2[-3+(5-8)]$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.5",
+        "nombre": "Signos de agrupación"
+      },
+      "respuestas_posibles": {
+        "A": "$0$",
+        "B": "$6$",
+        "C": "$12$",
+        "D": "$-12$"
+      },
+      "respuesta_correcta": "C",
+      "dificultad": "media",
+      "habilidad": "signos de agrupación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-5-08",
+      "pregunta": "Simplifique $\\{8-[3+(2-5)]\\}$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.5",
+        "nombre": "Signos de agrupación"
+      },
+      "respuestas_posibles": {
+        "A": "$12$",
+        "B": "$8$",
+        "C": "$2$",
+        "D": "$10$"
+      },
+      "respuesta_correcta": "B",
+      "dificultad": "media",
+      "habilidad": "signos de agrupación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-5-09",
+      "pregunta": "Simplifique $4(a-2)-[2a-(3-a)]$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.5",
+        "nombre": "Signos de agrupación"
+      },
+      "respuestas_posibles": {
+        "A": "$a-5$",
+        "B": "$a+5$",
+        "C": "$3a-5$",
+        "D": "$7a-11$"
+      },
+      "respuesta_correcta": "A",
+      "dificultad": "media",
+      "habilidad": "signos de agrupación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    },
+    {
+      "id": "MOCK-2-5-10",
+      "pregunta": "Simplifique $-[2-(5-9)]$.",
+      "tema": {
+        "codigo": "2",
+        "nombre": "Operaciones básicas con números reales",
+        "bloque": "Aritmética"
+      },
+      "subtema": {
+        "codigo": "2.5",
+        "nombre": "Signos de agrupación"
+      },
+      "respuestas_posibles": {
+        "A": "$6$",
+        "B": "$-2$",
+        "C": "$2$",
+        "D": "$-6$"
+      },
+      "respuesta_correcta": "D",
+      "dificultad": "media",
+      "habilidad": "signos de agrupación",
+      "requiere_imagen": false,
+      "formato_matematico": "latex_inline_dolar",
+      "origen": "reactivo_original_mockup",
+      "estado": "revisado_matematicamente_y_editorialmente"
+    }
+  ]
+}
