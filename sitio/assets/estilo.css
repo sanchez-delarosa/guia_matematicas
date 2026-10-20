@@ -33,6 +33,10 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+/* El atributo hidden siempre gana sobre display:flex/grid de los componentes
+   (necesario para que el buscador oculte tarjetas y subtemas sin coincidencias). */
+[hidden] { display: none !important; }
+
 html {
   scroll-padding-top: calc(var(--alto-barra) + 1rem);
   -webkit-text-size-adjust: 100%;
