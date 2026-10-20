@@ -1826,7 +1826,482 @@ blockquote { margin: 1rem 0; padding-left: 1rem; border-left: 3px solid var(--cr
 }
 
 @media print {
-  .barra, .indice-lateral, .nav-capitulos, .progreso { display: none; }
+  .barra, .indice-lateral, .nav-capitulos, .progreso, .pie-institucional, .btn-flotante-wa { display: none !important; }
   .disposicion { display: block; }
   details.solucion { display: none; }
 }
+
+/* ==========================================================================
+   BLOQUE COMERCIAL E INSTITUCIONAL (CENTRO DE ESTUDIOS JESÚS REYES HEROLES)
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.modo-cursos-enlace {
+  background: rgba(232, 180, 0, 0.18);
+  border: 1px solid rgba(232, 180, 0, 0.5);
+  color: #fff6d9 !important;
+}
+
+.modo-cursos-enlace:hover {
+  background: var(--ambar) !important;
+  color: var(--marino) !important;
+}
+
+.badge-beca-nav {
+  background: var(--ambar);
+  color: var(--marino);
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.modo-cursos-enlace:hover .badge-beca-nav {
+  background: var(--marino);
+  color: #ffffff;
+}
+
+.barra-cta-cursos {
+  margin-left: 0.75rem;
+  background: var(--ambar-pastel);
+  color: var(--marino);
+  border: 1px solid var(--ambar-borde);
+  font-family: var(--fuente-ui);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.barra-cta-cursos:hover {
+  background: var(--ambar);
+  transform: translateY(-1px);
+}
+
+.pie-institucional {
+  background: linear-gradient(180deg, #182644 0%, #0f182c 100%);
+  color: #eef2f9;
+  font-family: var(--fuente-ui);
+  padding: 3.5rem 1.25rem 5rem;
+  border-top: 4px solid var(--ambar);
+  margin-top: 3rem;
+}
+
+.pie-contenedor {
+  max-width: 74rem;
+  margin: 0 auto;
+}
+
+.pie-cabecera {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 2.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  margin-bottom: 2.25rem;
+}
+
+.pie-logo {
+  width: 82px;
+  height: auto;
+  flex-shrink: 0;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.35));
+}
+
+.pie-convenio {
+  display: inline-block;
+  background: rgba(232, 180, 0, 0.18);
+  color: #ffda66;
+  border: 1px solid rgba(232, 180, 0, 0.4);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 0.45rem;
+}
+
+.pie-centro-titulo {
+  margin: 0 0 0.4rem;
+  font-family: var(--fuente-texto);
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.pie-lema {
+  margin: 0;
+  font-size: 0.96rem;
+  color: #cbd5e8;
+  max-width: 52rem;
+  line-height: 1.5;
+}
+
+/* Grid de cursos con jerarquía: 1° Facultad (mayor peso visual), 2° Preparatoria */
+.pie-cursos-grid {
+  display: grid;
+  grid-template-columns: 1.28fr 1fr;
+  gap: 1.5rem;
+  align-items: stretch;
+  margin-bottom: 1.75rem;
+}
+
+.curso-card {
+  border-radius: 18px;
+  padding: 1.6rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.curso-card-principal {
+  background: linear-gradient(165deg, #21355e 0%, #172645 100%);
+  border: 2px solid var(--ambar);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28), 0 0 0 1px rgba(232, 180, 0, 0.15);
+  position: relative;
+}
+
+.curso-card-secundario {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(143, 163, 196, 0.32);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.curso-card-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+}
+
+.curso-badge {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.curso-badge-oro {
+  background: var(--ambar);
+  color: #141f36;
+}
+
+.curso-badge-azul {
+  background: rgba(143, 163, 196, 0.22);
+  color: #dbe7ff;
+  border: 1px solid rgba(143, 163, 196, 0.4);
+}
+
+.curso-badge-beca {
+  background: rgba(37, 211, 102, 0.16);
+  color: #6ee798;
+  border: 1px solid rgba(37, 211, 102, 0.4);
+}
+
+.curso-titulo {
+  margin: 0 0 0.6rem;
+  font-family: var(--fuente-texto);
+  font-size: 1.38rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.25;
+}
+
+.curso-card-principal .curso-titulo {
+  font-size: 1.5rem;
+  color: #fff8e1;
+}
+
+.curso-desc {
+  margin: 0 0 0.9rem;
+  font-size: 0.92rem;
+  color: #d0daec;
+  line-height: 1.5;
+}
+
+.curso-universidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.uni-pill {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+}
+
+.curso-beneficios {
+  margin: 0 0 1.15rem;
+  padding-left: 1.15rem;
+  font-size: 0.88rem;
+  color: #dce4f2;
+  line-height: 1.5;
+}
+
+.curso-beneficios li {
+  margin-bottom: 0.45rem;
+}
+
+.curso-beneficios strong {
+  color: #ffdf75;
+}
+
+.curso-horarios {
+  background: rgba(10, 17, 32, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 0.75rem 0.9rem;
+  margin-bottom: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.horario-bloque {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.82rem;
+}
+
+.horario-etiqueta {
+  font-weight: 700;
+  color: #ffda66;
+}
+
+.horario-detalle {
+  color: #cbd5e8;
+}
+
+.curso-acciones {
+  margin-top: auto;
+}
+
+.btn-curso-wa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-curso-wa-principal {
+  background: var(--ambar);
+  color: #141f36;
+  box-shadow: 0 4px 14px rgba(232, 180, 0, 0.35);
+}
+
+.btn-curso-wa-principal:hover {
+  filter: brightness(1.06);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(232, 180, 0, 0.45);
+}
+
+.btn-curso-wa-secundario {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-curso-wa-secundario:hover {
+  background: rgba(255, 255, 255, 0.22);
+  transform: translateY(-2px);
+}
+
+/* Cintillo de otros servicios e inscripción */
+.pie-cintillo-servicios {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  padding: 1.15rem 1.35rem;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 1.25rem;
+  align-items: center;
+  margin-bottom: 1.75rem;
+}
+
+.cintillo-etiqueta {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #ffda66;
+  margin-bottom: 0.45rem;
+}
+
+.cintillo-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.servicio-pill {
+  background: rgba(255, 255, 255, 0.08);
+  color: #eef2f9;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.cintillo-texto {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #cbd5e8;
+  line-height: 1.5;
+}
+
+/* Planteles y contacto */
+.pie-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.pie-info-col {
+  background: rgba(10, 17, 32, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1rem 1.15rem;
+}
+
+.pie-info-titulo {
+  margin: 0 0 0.45rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffda66;
+}
+
+.pie-info-texto,
+.pie-info-contacto,
+.pie-info-redes {
+  margin: 0 0 0.35rem;
+  font-size: 0.84rem;
+  color: #d0daec;
+  line-height: 1.45;
+}
+
+.pie-info-contacto a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.pie-info-contacto a:hover {
+  color: #ffda66;
+}
+
+.pie-legal {
+  padding-top: 1.25rem;
+  text-align: center;
+  font-size: 0.82rem;
+  color: #94a3b8;
+}
+
+.pie-legal p {
+  margin: 0;
+}
+
+/* Botón Flotante de WhatsApp */
+.btn-flotante-wa {
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  z-index: 45;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  background: #1fa855;
+  color: #ffffff;
+  font-family: var(--fuente-ui);
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 0.7rem 1.1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(15, 24, 44, 0.35), 0 0 0 2px rgba(255, 255, 255, 0.85);
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-flotante-wa:hover {
+  background: #178d45;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(15, 24, 44, 0.45), 0 0 0 2px #ffffff;
+}
+
+.icono-wa {
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .pie-cursos-grid {
+    grid-template-columns: 1fr;
+  }
+  .pie-cintillo-servicios {
+    grid-template-columns: 1fr;
+  }
+  .pie-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .pie-cabecera {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  .pie-centro-titulo {
+    font-size: 1.35rem;
+  }
+  .curso-card {
+    padding: 1.25rem 1.1rem;
+  }
+  .curso-card-principal .curso-titulo,
+  .curso-titulo {
+    font-size: 1.22rem;
+  }
+  .btn-flotante-wa {
+    bottom: 0.9rem;
+    right: 0.9rem;
+    padding: 0.6rem 0.95rem;
+    font-size: 0.8rem;
+  }
+  .barra-cta-cursos {
+    display: none;
+  }
+}
+
