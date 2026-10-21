@@ -18,12 +18,18 @@
     <p class="portada-sobre">Centro de Estudios Jesús Reyes Heroles A.C. · Guía de estudio</p>
     <h1>Guía de Matemáticas</h1>
     <p class="portada-sub">Examen de admisión · UNAM · IPN · CENEVAL</p>
-    <p class="portada-marcas">
-      <span class="marca marca-unam">UAEMéx</span>
-      <span class="marca marca-unam">UNAM</span>
-      <span class="marca marca-ipn">IPN</span>
-      <span class="marca marca-ceneval">CENEVAL · EXANI</span>
-    </p>
+    <div class="portada-filtros-wrap">
+      <div class="portada-marcas" role="group" aria-label="Filtrar capítulos por universidad o examen">
+        <button type="button" class="marca marca-todos btn-filtro-marca activo" data-examen="TODOS" data-etiqueta="Todos los exámenes" aria-pressed="true">Todos</button>
+        <button type="button" class="marca marca-unam btn-filtro-marca" data-examen="CENEVAL" data-etiqueta="UAEMéx (EXANI-II)" aria-pressed="false">UAEMéx</button>
+        <button type="button" class="marca marca-unam btn-filtro-marca" data-examen="UNAM" data-etiqueta="UNAM" aria-pressed="false">UNAM</button>
+        <button type="button" class="marca marca-ipn btn-filtro-marca" data-examen="IPN" data-etiqueta="IPN" aria-pressed="false">IPN</button>
+        <button type="button" class="marca marca-ceneval btn-filtro-marca" data-examen="CENEVAL" data-etiqueta="CENEVAL · EXANI" aria-pressed="false">CENEVAL · EXANI</button>
+      </div>
+      <p class="portada-filtro-info" id="portada-filtro-info" aria-live="polite">
+        Selecciona una universidad o examen para filtrar los capítulos
+      </p>
+    </div>
     <nav class="nav-modos" aria-label="Cambiar de modo">
       <span class="btn-modo activo" aria-current="page">📖 Guía de Estudio</span>
       <a href="practica.html" class="btn-modo modo-practica-enlace">
@@ -42,7 +48,7 @@
   </header>
 
   <main class="indice-general">
-<section class="tarjeta-parte">
+<section class="tarjeta-parte" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-banner">
     <div class="tarjeta-ilustracion" aria-hidden="true">
       <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +75,10 @@
     </div>
   </div>
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta">Parte I</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta">Parte I</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h2 class="tarjeta-titulo">Aritmética</h2>
     <p class="tarjeta-subtitulo">5 capítulos</p>
   </div>
@@ -82,12 +91,12 @@
   <div class="tarjeta-colapsable">
     <div class="tarjeta-colapsable-interior">
       <ol class="tarjeta-lista">
-        <li><a href="capitulos/01-numeros-reales.html"><span class="num">1</span><div class="cap-info">  <span class="titulo-cap">Números reales</span>  <span class="secciones-cap">Clasificación de los números · Propiedades de los números reales · Propiedades de orden</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/02-operaciones-basicas.html"><span class="num">2</span><div class="cap-info">  <span class="titulo-cap">Operaciones básicas con números reales</span>  <span class="secciones-cap">La recta numérica y el valor absoluto · Suma y resta · Multiplicación y división</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/03-fracciones-decimales.html"><span class="num">3</span><div class="cap-info">  <span class="titulo-cap">Fracciones y decimales</span>  <span class="secciones-cap">Concepto de fracción · Fracciones equivalentes y simplificación · Suma y resta de fracciones</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/04-potencias-raices.html"><span class="num">4</span><div class="cap-info">  <span class="titulo-cap">Potencias y raíces</span>  <span class="secciones-cap">Definición de potencia · Leyes de los exponentes · Exponentes racionales</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/05-razones-proporciones.html"><span class="num">5</span><div class="cap-info">  <span class="titulo-cap">Razones, proporciones y porcentajes</span>  <span class="secciones-cap">Razones · Proporciones · Proporcionalidad directa</span></div><span class="flecha">→</span></a></li>
+        <li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/01-numeros-reales.html"><span class="num">1</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Números reales</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Clasificación de los números · Propiedades de los números reales · Propiedades de orden</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/02-operaciones-basicas.html"><span class="num">2</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Operaciones básicas con números reales</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">La recta numérica y el valor absoluto · Suma y resta · Multiplicación y división</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/03-fracciones-decimales.html"><span class="num">3</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Fracciones y decimales</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Concepto de fracción · Fracciones equivalentes y simplificación · Suma y resta de fracciones</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/04-potencias-raices.html"><span class="num">4</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Potencias y raíces</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Definición de potencia · Leyes de los exponentes · Exponentes racionales</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/05-razones-proporciones.html"><span class="num">5</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Razones, proporciones y porcentajes</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Razones · Proporciones · Proporcionalidad directa</span></div><span class="flecha">→</span></a></li>
       </ol>
     </div>
   </div>
 </section>
-<section class="tarjeta-parte">
+<section class="tarjeta-parte" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-banner">
     <div class="tarjeta-ilustracion" aria-hidden="true">
       <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -113,7 +122,10 @@
     </div>
   </div>
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta">Parte II</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta">Parte II</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h2 class="tarjeta-titulo">Álgebra</h2>
     <p class="tarjeta-subtitulo">9 capítulos</p>
   </div>
@@ -126,12 +138,12 @@
   <div class="tarjeta-colapsable">
     <div class="tarjeta-colapsable-interior">
       <ol class="tarjeta-lista">
-        <li><a href="capitulos/06-expresiones-algebraicas.html"><span class="num">6</span><div class="cap-info">  <span class="titulo-cap">Expresiones algebraicas</span>  <span class="secciones-cap">Términos algebraicos · Lenguaje algebraico · Términos semejantes</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/07-productos-notables.html"><span class="num">7</span><div class="cap-info">  <span class="titulo-cap">Productos notables</span>  <span class="secciones-cap">Binomio al cuadrado · Binomios conjugados · Binomios con término común</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/08-factorizacion.html"><span class="num">8</span><div class="cap-info">  <span class="titulo-cap">Factorización</span>  <span class="secciones-cap">Factor común · Diferencia de cuadrados · Trinomio cuadrado perfecto</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/09-fracciones-algebraicas.html"><span class="num">9</span><div class="cap-info">  <span class="titulo-cap">Fracciones algebraicas</span>  <span class="secciones-cap">Concepto y dominio · Simplificación · Suma y resta</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/10-ecuaciones-primer-grado.html"><span class="num">10</span><div class="cap-info">  <span class="titulo-cap">Ecuaciones de primer grado</span>  <span class="secciones-cap">Conceptos básicos · Despejes · Ecuaciones de primer grado</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/11-ecuaciones-segundo-grado.html"><span class="num">11</span><div class="cap-info">  <span class="titulo-cap">Ecuaciones de segundo grado</span>  <span class="secciones-cap">Forma general y clasificación · Fórmula general · Solución por factorización</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/12-desigualdades.html"><span class="num">12</span><div class="cap-info">  <span class="titulo-cap">Desigualdades</span>  <span class="secciones-cap">Concepto de desigualdad · Propiedades de las desigualdades · Intervalos</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/13-sistemas-ecuaciones.html"><span class="num">13</span><div class="cap-info">  <span class="titulo-cap">Sistemas de ecuaciones</span>  <span class="secciones-cap">Sistemas de dos ecuaciones con dos incógnitas · Interpretación geométrica · Método de eliminación</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/14-numeros-complejos.html"><span class="num">14</span><div class="cap-info">  <span class="titulo-cap">Números complejos</span>  <span class="secciones-cap">Unidad imaginaria · Potencias de la unidad imaginaria · Números imaginarios puros</span></div><span class="flecha">→</span></a></li>
+        <li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/06-expresiones-algebraicas.html"><span class="num">6</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Expresiones algebraicas</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Términos algebraicos · Lenguaje algebraico · Términos semejantes</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/07-productos-notables.html"><span class="num">7</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Productos notables</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Binomio al cuadrado · Binomios conjugados · Binomios con término común</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/08-factorizacion.html"><span class="num">8</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Factorización</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Factor común · Diferencia de cuadrados · Trinomio cuadrado perfecto</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/09-fracciones-algebraicas.html"><span class="num">9</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Fracciones algebraicas</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Concepto y dominio · Simplificación · Suma y resta</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/10-ecuaciones-primer-grado.html"><span class="num">10</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Ecuaciones de primer grado</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Conceptos básicos · Despejes · Ecuaciones de primer grado</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/11-ecuaciones-segundo-grado.html"><span class="num">11</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Ecuaciones de segundo grado</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Forma general y clasificación · Fórmula general · Solución por factorización</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/12-desigualdades.html"><span class="num">12</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Desigualdades</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Concepto de desigualdad · Propiedades de las desigualdades · Intervalos</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/13-sistemas-ecuaciones.html"><span class="num">13</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Sistemas de ecuaciones</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Sistemas de dos ecuaciones con dos incógnitas · Interpretación geométrica · Método de eliminación</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM"><a href="capitulos/14-numeros-complejos.html"><span class="num">14</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Números complejos</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span></span>  </div>  <span class="secciones-cap">Unidad imaginaria · Potencias de la unidad imaginaria · Números imaginarios puros</span></div><span class="flecha">→</span></a></li>
       </ol>
     </div>
   </div>
 </section>
-<section class="tarjeta-parte">
+<section class="tarjeta-parte" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-banner">
     <div class="tarjeta-ilustracion" aria-hidden="true">
       <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -153,7 +165,10 @@
     </div>
   </div>
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta">Parte III</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta">Parte III</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h2 class="tarjeta-titulo">Funciones</h2>
     <p class="tarjeta-subtitulo">4 capítulos</p>
   </div>
@@ -166,12 +181,12 @@
   <div class="tarjeta-colapsable">
     <div class="tarjeta-colapsable-interior">
       <ol class="tarjeta-lista">
-        <li><a href="capitulos/15-concepto-funcion.html"><span class="num">15</span><div class="cap-info">  <span class="titulo-cap">Concepto de función</span>  <span class="secciones-cap">Definición de función · Representación mediante un diagrama de correspondencia · Regla de correspondencia y notación</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/16-tipos-funciones.html"><span class="num">16</span><div class="cap-info">  <span class="titulo-cap">Tipos de funciones</span>  <span class="secciones-cap">Función constante · Función afín · Función cuadrática</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/17-algebra-funciones.html"><span class="num">17</span><div class="cap-info">  <span class="titulo-cap">Álgebra de funciones</span>  <span class="secciones-cap">Suma y resta de funciones · Multiplicación de funciones · División de funciones</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/18-exponenciales-logaritmicas.html"><span class="num">18</span><div class="cap-info">  <span class="titulo-cap">Funciones exponenciales y logarítmicas</span>  <span class="secciones-cap">Función exponencial · Ecuaciones exponenciales · Función logarítmica</span></div><span class="flecha">→</span></a></li>
+        <li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/15-concepto-funcion.html"><span class="num">15</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Concepto de función</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Definición de función · Representación mediante un diagrama de correspondencia · Regla de correspondencia y notación</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/16-tipos-funciones.html"><span class="num">16</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Tipos de funciones</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Función constante · Función afín · Función cuadrática</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN"><a href="capitulos/17-algebra-funciones.html"><span class="num">17</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Álgebra de funciones</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Suma y resta de funciones · Multiplicación de funciones · División de funciones</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/18-exponenciales-logaritmicas.html"><span class="num">18</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Funciones exponenciales y logarítmicas</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Función exponencial · Ecuaciones exponenciales · Función logarítmica</span></div><span class="flecha">→</span></a></li>
       </ol>
     </div>
   </div>
 </section>
-<section class="tarjeta-parte">
+<section class="tarjeta-parte" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-banner">
     <div class="tarjeta-ilustracion" aria-hidden="true">
       <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -192,7 +207,10 @@
     </div>
   </div>
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta">Parte IV</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta">Parte IV</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h2 class="tarjeta-titulo">Geometría euclidiana</h2>
     <p class="tarjeta-subtitulo">5 capítulos</p>
   </div>
@@ -205,12 +223,12 @@
   <div class="tarjeta-colapsable">
     <div class="tarjeta-colapsable-interior">
       <ol class="tarjeta-lista">
-        <li><a href="capitulos/19-elementos-basicos.html"><span class="num">19</span><div class="cap-info">  <span class="titulo-cap">Elementos básicos de geometría</span>  <span class="secciones-cap">Punto, recta y plano · Ángulos · Relaciones entre ángulos</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/20-triangulos.html"><span class="num">20</span><div class="cap-info">  <span class="titulo-cap">Triángulos</span>  <span class="secciones-cap">Definición y notación · Clasificación de los triángulos · Propiedades angulares</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/21-cuadrilateros-poligonos.html"><span class="num">21</span><div class="cap-info">  <span class="titulo-cap">Cuadriláteros y polígonos</span>  <span class="secciones-cap">Cuadriláteros · Clasificación de los cuadriláteros · Propiedades de los paralelogramos</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/22-circunferencia-circulo.html"><span class="num">22</span><div class="cap-info">  <span class="titulo-cap">Circunferencia y círculo</span>  <span class="secciones-cap">Circunferencia y círculo · Elementos de una circunferencia · Longitud de la circunferencia y área del círculo</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/23-perimetros-areas-volumenes.html"><span class="num">23</span><div class="cap-info">  <span class="titulo-cap">Perímetros, áreas y volúmenes</span>  <span class="secciones-cap">Perímetro y área · Triángulo · Cuadrado y rectángulo</span></div><span class="flecha">→</span></a></li>
+        <li data-examenes="IPN,CENEVAL"><a href="capitulos/19-elementos-basicos.html"><span class="num">19</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Elementos básicos de geometría</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Punto, recta y plano · Ángulos · Relaciones entre ángulos</span></div><span class="flecha">→</span></a></li><li data-examenes="IPN,CENEVAL"><a href="capitulos/20-triangulos.html"><span class="num">20</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Triángulos</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Definición y notación · Clasificación de los triángulos · Propiedades angulares</span></div><span class="flecha">→</span></a></li><li data-examenes="IPN,CENEVAL"><a href="capitulos/21-cuadrilateros-poligonos.html"><span class="num">21</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Cuadriláteros y polígonos</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Cuadriláteros · Clasificación de los cuadriláteros · Propiedades de los paralelogramos</span></div><span class="flecha">→</span></a></li><li data-examenes="IPN,CENEVAL"><a href="capitulos/22-circunferencia-circulo.html"><span class="num">22</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Circunferencia y círculo</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Circunferencia y círculo · Elementos de una circunferencia · Longitud de la circunferencia y área del círculo</span></div><span class="flecha">→</span></a></li><li data-examenes="IPN,CENEVAL"><a href="capitulos/23-perimetros-areas-volumenes.html"><span class="num">23</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Perímetros, áreas y volúmenes</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Perímetro y área · Triángulo · Cuadrado y rectángulo</span></div><span class="flecha">→</span></a></li>
       </ol>
     </div>
   </div>
 </section>
-<section class="tarjeta-parte">
+<section class="tarjeta-parte" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-banner">
     <div class="tarjeta-ilustracion" aria-hidden="true">
       <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -235,7 +253,10 @@
     </div>
   </div>
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta">Parte V</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta">Parte V</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h2 class="tarjeta-titulo">Trigonometría</h2>
     <p class="tarjeta-subtitulo">6 capítulos</p>
   </div>
@@ -248,12 +269,12 @@
   <div class="tarjeta-colapsable">
     <div class="tarjeta-colapsable-interior">
       <ol class="tarjeta-lista">
-        <li><a href="capitulos/24-medida-angulos.html"><span class="num">24</span><div class="cap-info">  <span class="titulo-cap">Medida de ángulos</span>  <span class="secciones-cap">Concepto de ángulo · Sistema sexagesimal · Grados decimales y grados, minutos y segundos</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/25-razones-trigonometricas.html"><span class="num">25</span><div class="cap-info">  <span class="titulo-cap">Razones trigonométricas</span>  <span class="secciones-cap">Triángulo rectángulo · Lados relativos a un ángulo · Definición de las razones trigonométricas</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/26-ley-senos-cosenos.html"><span class="num">26</span><div class="cap-info">  <span class="titulo-cap">Ley de senos y ley de cosenos</span>  <span class="secciones-cap">Triángulos oblicuángulos · Notación de los elementos de un triángulo · Resolver un triángulo</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/27-circulo-trigonometrico.html"><span class="num">27</span><div class="cap-info">  <span class="titulo-cap">Círculo trigonométrico</span>  <span class="secciones-cap">Definición del círculo trigonométrico · Las seis funciones en el círculo trigonométrico · Signos por cuadrante</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/28-identidades-trigonometricas.html"><span class="num">28</span><div class="cap-info">  <span class="titulo-cap">Identidades trigonométricas</span>  <span class="secciones-cap">Identidades y ecuaciones trigonométricas · Identidades recíprocas · Identidades de cociente</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/29-funciones-trigonometricas.html"><span class="num">29</span><div class="cap-info">  <span class="titulo-cap">Funciones trigonométricas</span>  <span class="secciones-cap">Funciones periódicas · Función seno · Función coseno</span></div><span class="flecha">→</span></a></li>
+        <li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/24-medida-angulos.html"><span class="num">24</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Medida de ángulos</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Concepto de ángulo · Sistema sexagesimal · Grados decimales y grados, minutos y segundos</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/25-razones-trigonometricas.html"><span class="num">25</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Razones trigonométricas</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Triángulo rectángulo · Lados relativos a un ángulo · Definición de las razones trigonométricas</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN"><a href="capitulos/26-ley-senos-cosenos.html"><span class="num">26</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Ley de senos y ley de cosenos</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Triángulos oblicuángulos · Notación de los elementos de un triángulo · Resolver un triángulo</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/27-circulo-trigonometrico.html"><span class="num">27</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Círculo trigonométrico</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Definición del círculo trigonométrico · Las seis funciones en el círculo trigonométrico · Signos por cuadrante</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN"><a href="capitulos/28-identidades-trigonometricas.html"><span class="num">28</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Identidades trigonométricas</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Identidades y ecuaciones trigonométricas · Identidades recíprocas · Identidades de cociente</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN"><a href="capitulos/29-funciones-trigonometricas.html"><span class="num">29</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Funciones trigonométricas</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Funciones periódicas · Función seno · Función coseno</span></div><span class="flecha">→</span></a></li>
       </ol>
     </div>
   </div>
 </section>
-<section class="tarjeta-parte">
+<section class="tarjeta-parte" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-banner">
     <div class="tarjeta-ilustracion" aria-hidden="true">
       <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -274,7 +295,10 @@
     </div>
   </div>
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta">Parte VI</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta">Parte VI</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h2 class="tarjeta-titulo">Geometría analítica</h2>
     <p class="tarjeta-subtitulo">9 capítulos</p>
   </div>
@@ -287,12 +311,12 @@
   <div class="tarjeta-colapsable">
     <div class="tarjeta-colapsable-interior">
       <ol class="tarjeta-lista">
-        <li><a href="capitulos/30-conceptos-basicos.html"><span class="num">30</span><div class="cap-info">  <span class="titulo-cap">Conceptos básicos de geometría analítica</span>  <span class="secciones-cap">Plano cartesiano · Distancia entre dos puntos · Punto medio</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/31-la-recta.html"><span class="num">31</span><div class="cap-info">  <span class="titulo-cap">La recta</span>  <span class="secciones-cap">Elementos de una recta · Formas de la ecuación de la recta · Determinación de la ecuación de una recta</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/32-aplicaciones-de-la-linea-recta.html"><span class="num">32</span><div class="cap-info">  <span class="titulo-cap">Aplicaciones de la línea recta</span>  <span class="secciones-cap">Modelo lineal · Construcción de un modelo lineal · Interpretación de la pendiente</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/33-circunferencia.html"><span class="num">33</span><div class="cap-info">  <span class="titulo-cap">Circunferencia</span>  <span class="secciones-cap">Definición y elementos · Deducción de la ecuación de la circunferencia · Circunferencia con centro en el origen</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/34-parabola.html"><span class="num">34</span><div class="cap-info">  <span class="titulo-cap">Parábola</span>  <span class="secciones-cap">Definición y elementos · Formas ordinarias · Vértice en el origen</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/35-elipse.html"><span class="num">35</span><div class="cap-info">  <span class="titulo-cap">Elipse</span>  <span class="secciones-cap">Definición y elementos · Formas ordinarias · Centro en el origen</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/36-hiperbola.html"><span class="num">36</span><div class="cap-info">  <span class="titulo-cap">Hipérbola</span>  <span class="secciones-cap">Definición y elementos · Formas ordinarias · Centro en el origen</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/37-ecuacion-general-segundo-grado.html"><span class="num">37</span><div class="cap-info">  <span class="titulo-cap">Ecuación general de segundo grado</span>  <span class="secciones-cap">La ecuación general de segundo grado · El discriminante y la identificación de cónicas · Traslación de ejes</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/38-coordenadas-polares.html"><span class="num">38</span><div class="cap-info">  <span class="titulo-cap">Coordenadas polares</span>  <span class="secciones-cap">Sistema de coordenadas polares · Representaciones equivalentes · Conversión entre coordenadas</span></div><span class="flecha">→</span></a></li>
+        <li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/30-conceptos-basicos.html"><span class="num">30</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Conceptos básicos de geometría analítica</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Plano cartesiano · Distancia entre dos puntos · Punto medio</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/31-la-recta.html"><span class="num">31</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">La recta</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Elementos de una recta · Formas de la ecuación de la recta · Determinación de la ecuación de una recta</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN"><a href="capitulos/32-aplicaciones-de-la-linea-recta.html"><span class="num">32</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Aplicaciones de la línea recta</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Modelo lineal · Construcción de un modelo lineal · Interpretación de la pendiente</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/33-circunferencia.html"><span class="num">33</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Circunferencia</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Definición y elementos · Deducción de la ecuación de la circunferencia · Circunferencia con centro en el origen</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN,CENEVAL"><a href="capitulos/34-parabola.html"><span class="num">34</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Parábola</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Definición y elementos · Formas ordinarias · Vértice en el origen</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN"><a href="capitulos/35-elipse.html"><span class="num">35</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Elipse</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Definición y elementos · Formas ordinarias · Centro en el origen</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN"><a href="capitulos/36-hiperbola.html"><span class="num">36</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Hipérbola</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Definición y elementos · Formas ordinarias · Centro en el origen</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM"><a href="capitulos/37-ecuacion-general-segundo-grado.html"><span class="num">37</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Ecuación general de segundo grado</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span></span>  </div>  <span class="secciones-cap">La ecuación general de segundo grado · El discriminante y la identificación de cónicas · Traslación de ejes</span></div><span class="flecha">→</span></a></li><li data-examenes="IPN"><a href="capitulos/38-coordenadas-polares.html"><span class="num">38</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Coordenadas polares</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Sistema de coordenadas polares · Representaciones equivalentes · Conversión entre coordenadas</span></div><span class="flecha">→</span></a></li>
       </ol>
     </div>
   </div>
 </section>
-<section class="tarjeta-parte">
+<section class="tarjeta-parte" data-examenes="UNAM,IPN">
   <div class="tarjeta-banner">
     <div class="tarjeta-ilustracion" aria-hidden="true">
       <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -313,7 +337,10 @@
     </div>
   </div>
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta">Parte VII</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta">Parte VII</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h2 class="tarjeta-titulo">Cálculo diferencial</h2>
     <p class="tarjeta-subtitulo">3 capítulos</p>
   </div>
@@ -326,12 +353,12 @@
   <div class="tarjeta-colapsable">
     <div class="tarjeta-colapsable-interior">
       <ol class="tarjeta-lista">
-        <li><a href="capitulos/39-limites.html"><span class="num">39</span><div class="cap-info">  <span class="titulo-cap">Límites</span>  <span class="secciones-cap">Concepto de límite · Límite y valor de la función · Límites laterales</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/40-la-derivada.html"><span class="num">40</span><div class="cap-info">  <span class="titulo-cap">La derivada</span>  <span class="secciones-cap">Concepto de derivada · Interpretación del signo · Reglas básicas de derivación</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/41-aplicaciones-derivada.html"><span class="num">41</span><div class="cap-info">  <span class="titulo-cap">Aplicaciones de la derivada</span>  <span class="secciones-cap">Recta tangente y recta normal · Velocidad y aceleración · Crecimiento y decrecimiento</span></div><span class="flecha">→</span></a></li>
+        <li data-examenes="UNAM,IPN"><a href="capitulos/39-limites.html"><span class="num">39</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Límites</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Concepto de límite · Límite y valor de la función · Límites laterales</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN"><a href="capitulos/40-la-derivada.html"><span class="num">40</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">La derivada</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Concepto de derivada · Interpretación del signo · Reglas básicas de derivación</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN"><a href="capitulos/41-aplicaciones-derivada.html"><span class="num">41</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Aplicaciones de la derivada</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Recta tangente y recta normal · Velocidad y aceleración · Crecimiento y decrecimiento</span></div><span class="flecha">→</span></a></li>
       </ol>
     </div>
   </div>
 </section>
-<section class="tarjeta-parte">
+<section class="tarjeta-parte" data-examenes="UNAM,IPN">
   <div class="tarjeta-banner">
     <div class="tarjeta-ilustracion" aria-hidden="true">
       <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -352,7 +379,10 @@
     </div>
   </div>
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta">Parte VIII</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta">Parte VIII</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h2 class="tarjeta-titulo">Cálculo integral</h2>
     <p class="tarjeta-subtitulo">3 capítulos</p>
   </div>
@@ -365,12 +395,12 @@
   <div class="tarjeta-colapsable">
     <div class="tarjeta-colapsable-interior">
       <ol class="tarjeta-lista">
-        <li><a href="capitulos/42-la-integral.html"><span class="num">42</span><div class="cap-info">  <span class="titulo-cap">La integral</span>  <span class="secciones-cap">Antiderivada o primitiva · Derivación e integración · Propiedades de la integral indefinida</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/43-metodos-integracion.html"><span class="num">43</span><div class="cap-info">  <span class="titulo-cap">Métodos de integración</span>  <span class="secciones-cap">¿Qué método conviene utilizar? · Integración por sustitución · Integración por partes</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/44-integral-definida.html"><span class="num">44</span><div class="cap-info">  <span class="titulo-cap">Integral definida y aplicaciones</span>  <span class="secciones-cap">Integral definida · Propiedades básicas · Teorema Fundamental del Cálculo</span></div><span class="flecha">→</span></a></li>
+        <li data-examenes="UNAM,IPN"><a href="capitulos/42-la-integral.html"><span class="num">42</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">La integral</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Antiderivada o primitiva · Derivación e integración · Propiedades de la integral indefinida</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN"><a href="capitulos/43-metodos-integracion.html"><span class="num">43</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Métodos de integración</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">¿Qué método conviene utilizar? · Integración por sustitución · Integración por partes</span></div><span class="flecha">→</span></a></li><li data-examenes="UNAM,IPN"><a href="capitulos/44-integral-definida.html"><span class="num">44</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Integral definida y aplicaciones</span>    <span class="cap-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>  </div>  <span class="secciones-cap">Integral definida · Propiedades básicas · Teorema Fundamental del Cálculo</span></div><span class="flecha">→</span></a></li>
       </ol>
     </div>
   </div>
 </section>
-<section class="tarjeta-parte">
+<section class="tarjeta-parte" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-banner">
     <div class="tarjeta-ilustracion" aria-hidden="true">
       <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -392,7 +422,10 @@
     </div>
   </div>
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta">Parte IX</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta">Parte IX</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h2 class="tarjeta-titulo">Probabilidad y estadística</h2>
     <p class="tarjeta-subtitulo">4 capítulos</p>
   </div>
@@ -405,12 +438,12 @@
   <div class="tarjeta-colapsable">
     <div class="tarjeta-colapsable-interior">
       <ol class="tarjeta-lista">
-        <li><a href="capitulos/45-estadistica-descriptiva.html"><span class="num">45</span><div class="cap-info">  <span class="titulo-cap">Estadística descriptiva</span>  <span class="secciones-cap">Población y muestra · Parámetro y estadístico · Variables estadísticas</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/46-medidas-estadisticas.html"><span class="num">46</span><div class="cap-info">  <span class="titulo-cap">Medidas estadísticas</span>  <span class="secciones-cap">Medidas de tendencia central · Media, mediana y valores extremos · Media ponderada</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/47-probabilidad-basica.html"><span class="num">47</span><div class="cap-info">  <span class="titulo-cap">Probabilidad básica</span>  <span class="secciones-cap">Experimentos aleatorios · Eventos · Eventos mutuamente excluyentes</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/48-tecnicas-conteo.html"><span class="num">48</span><div class="cap-info">  <span class="titulo-cap">Técnicas de conteo y probabilidad avanzada</span>  <span class="secciones-cap">¿Qué técnica conviene utilizar? · Principios de conteo · Representación mediante un árbol</span></div><span class="flecha">→</span></a></li>
+        <li data-examenes="IPN,CENEVAL"><a href="capitulos/45-estadistica-descriptiva.html"><span class="num">45</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Estadística descriptiva</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Población y muestra · Parámetro y estadístico · Variables estadísticas</span></div><span class="flecha">→</span></a></li><li data-examenes="IPN,CENEVAL"><a href="capitulos/46-medidas-estadisticas.html"><span class="num">46</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Medidas estadísticas</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Medidas de tendencia central · Media, mediana y valores extremos · Media ponderada</span></div><span class="flecha">→</span></a></li><li data-examenes="IPN,CENEVAL"><a href="capitulos/47-probabilidad-basica.html"><span class="num">47</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Probabilidad básica</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Experimentos aleatorios · Eventos · Eventos mutuamente excluyentes</span></div><span class="flecha">→</span></a></li><li data-examenes="IPN,CENEVAL"><a href="capitulos/48-tecnicas-conteo.html"><span class="num">48</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Técnicas de conteo y probabilidad avanzada</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">¿Qué técnica conviene utilizar? · Principios de conteo · Representación mediante un árbol</span></div><span class="flecha">→</span></a></li>
       </ol>
     </div>
   </div>
 </section>
-<section class="tarjeta-parte">
+<section class="tarjeta-parte" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-banner">
     <div class="tarjeta-ilustracion" aria-hidden="true">
       <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -429,7 +462,10 @@
     </div>
   </div>
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta">Parte X</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta">Parte X</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h2 class="tarjeta-titulo">Razonamiento matemático</h2>
     <p class="tarjeta-subtitulo">2 capítulos</p>
   </div>
@@ -442,12 +478,12 @@
   <div class="tarjeta-colapsable">
     <div class="tarjeta-colapsable-interior">
       <ol class="tarjeta-lista">
-        <li><a href="capitulos/49-sucesiones-series.html"><span class="num">49</span><div class="cap-info">  <span class="titulo-cap">Sucesiones y series</span>  <span class="secciones-cap">Sucesiones · Sucesiones recursivas · Sucesiones aritméticas</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/50-razonamiento-espacial.html"><span class="num">50</span><div class="cap-info">  <span class="titulo-cap">Razonamiento espacial</span>  <span class="secciones-cap">Transformaciones geométricas · Simetría axial · Simetría central</span></div><span class="flecha">→</span></a></li>
+        <li data-examenes="IPN,CENEVAL"><a href="capitulos/49-sucesiones-series.html"><span class="num">49</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Sucesiones y series</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Sucesiones · Sucesiones recursivas · Sucesiones aritméticas</span></div><span class="flecha">→</span></a></li><li data-examenes="IPN,CENEVAL"><a href="capitulos/50-razonamiento-espacial.html"><span class="num">50</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Razonamiento espacial</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Transformaciones geométricas · Simetría axial · Simetría central</span></div><span class="flecha">→</span></a></li>
       </ol>
     </div>
   </div>
 </section>
-<section class="tarjeta-parte">
+<section class="tarjeta-parte" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-banner">
     <div class="tarjeta-ilustracion" aria-hidden="true">
       <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -469,7 +505,10 @@
     </div>
   </div>
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta">Parte XI</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta">Parte XI</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h2 class="tarjeta-titulo">Matemáticas financieras</h2>
     <p class="tarjeta-subtitulo">2 capítulos</p>
   </div>
@@ -482,7 +521,7 @@
   <div class="tarjeta-colapsable">
     <div class="tarjeta-colapsable-interior">
       <ol class="tarjeta-lista">
-        <li><a href="capitulos/51-elementos-financieros.html"><span class="num">51</span><div class="cap-info">  <span class="titulo-cap">Elementos financieros básicos</span>  <span class="secciones-cap">Conceptos fundamentales · Porcentajes y factores multiplicativos · Aumentos y descuentos</span></div><span class="flecha">→</span></a></li><li><a href="capitulos/52-interes-simple.html"><span class="num">52</span><div class="cap-info">  <span class="titulo-cap">Interés simple</span>  <span class="secciones-cap">Elementos del interés simple · Fórmula del interés simple · Despejes de la fórmula</span></div><span class="flecha">→</span></a></li>
+        <li data-examenes="IPN,CENEVAL"><a href="capitulos/51-elementos-financieros.html"><span class="num">51</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Elementos financieros básicos</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Conceptos fundamentales · Porcentajes y factores multiplicativos · Aumentos y descuentos</span></div><span class="flecha">→</span></a></li><li data-examenes="IPN,CENEVAL"><a href="capitulos/52-interes-simple.html"><span class="num">52</span><div class="cap-info">  <div class="cap-titulo-fila">    <span class="titulo-cap">Interés simple</span>    <span class="cap-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>  </div>  <span class="secciones-cap">Elementos del interés simple · Fórmula del interés simple · Despejes de la fórmula</span></div><span class="flecha">→</span></a></li>
       </ol>
     </div>
   </div>
@@ -653,37 +692,91 @@
       }
     }
 
-    // Filtro rápido de capítulos por título
+    // Filtro combinado por universidad/examen y por texto de búsqueda
+    let examenActivo = 'TODOS';
+    let etiquetaActiva = 'Todos los exámenes';
+
     const filtro = document.getElementById('filtro');
+    const infoFiltro = document.getElementById('portada-filtro-info');
+    const botonesMarca = document.querySelectorAll('.btn-filtro-marca');
     const normalizar = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-    filtro.addEventListener('input', () => {
-      const q = normalizar(filtro.value.trim());
+
+    function aplicarFiltros() {
+      const q = normalizar(filtro ? filtro.value.trim() : '');
+      let totalCapitulosVisibles = 0;
+
       document.querySelectorAll('.tarjeta-parte').forEach((parte) => {
         let visibles = 0;
         parte.querySelectorAll('.tarjeta-lista li').forEach((li) => {
-          const ok = !q || normalizar(li.textContent).includes(q);
+          const examenesLi = (li.dataset.examenes || '').split(',');
+          const okExamen = (examenActivo === 'TODOS') || examenesLi.includes(examenActivo);
+          const okTexto = !q || normalizar(li.textContent).includes(q);
+          const ok = okExamen && okTexto;
           li.hidden = !ok;
-          if (ok) visibles++;
+          if (ok) {
+            visibles++;
+            totalCapitulosVisibles++;
+          }
         });
+
         parte.hidden = (visibles === 0);
 
-        // Auto-expandir tarjeta si coincide con la búsqueda
+        const sub = parte.querySelector('.tarjeta-subtitulo');
+        if (sub) {
+          sub.textContent = `${visibles} capítulo${visibles !== 1 ? 's' : ''}`;
+        }
+
         const drawer = parte.querySelector('.tarjeta-colapsable');
         const btn = parte.querySelector('.btn-toggle-tarjeta');
         if (drawer && btn) {
-          const count = btn.dataset.count;
+          btn.dataset.count = visibles;
           if (q && visibles > 0) {
             drawer.classList.add('abierto');
             btn.setAttribute('aria-expanded', 'true');
             btn.querySelector('.btn-texto').textContent = 'Ocultar capítulos';
           } else if (!q) {
-            drawer.classList.remove('abierto');
-            btn.setAttribute('aria-expanded', 'false');
-            btn.querySelector('.btn-texto').textContent = `Ver capítulos (${count})`;
+            const abierta = drawer.classList.contains('abierto');
+            btn.querySelector('.btn-texto').textContent = abierta
+              ? 'Ocultar capítulos'
+              : `Ver capítulos (${visibles})`;
           }
         }
       });
+
+      if (infoFiltro) {
+        if (examenActivo === 'TODOS') {
+          infoFiltro.textContent = 'Selecciona una universidad o examen para filtrar los capítulos';
+          infoFiltro.classList.remove('filtro-activo');
+        } else {
+          infoFiltro.innerHTML = `Mostrando <strong>${totalCapitulosVisibles} capítulos</strong> evaluados en <strong>${etiquetaActiva}</strong> · <button type="button" class="btn-limpiar-filtro" onclick="seleccionarFiltroMarca(document.querySelector('.btn-filtro-marca[data-examen=&quot;TODOS&quot;]'))">Ver todos</button>`;
+          infoFiltro.classList.add('filtro-activo');
+        }
+      }
+    }
+
+    function seleccionarFiltroMarca(btn) {
+      if (!btn) return;
+      const yaActivo = btn.classList.contains('activo') && btn.dataset.examen !== 'TODOS';
+      const targetBtn = yaActivo
+        ? document.querySelector('.btn-filtro-marca[data-examen="TODOS"]')
+        : btn;
+
+      botonesMarca.forEach((b) => {
+        const esEste = (b === targetBtn);
+        b.classList.toggle('activo', esEste);
+        b.setAttribute('aria-pressed', esEste ? 'true' : 'false');
+      });
+
+      examenActivo = targetBtn.dataset.examen || 'TODOS';
+      etiquetaActiva = targetBtn.dataset.etiqueta || targetBtn.textContent.trim();
+      aplicarFiltros();
+    }
+
+    botonesMarca.forEach((btn) => {
+      btn.addEventListener('click', () => seleccionarFiltroMarca(btn));
     });
+
+    filtro?.addEventListener('input', aplicarFiltros);
   </script>
 </body>
 </html>

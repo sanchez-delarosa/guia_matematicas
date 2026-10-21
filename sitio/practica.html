@@ -22,12 +22,18 @@
     <p class="portada-sobre">Centro de Estudios Jesús Reyes Heroles A.C. · Simulador de reactivos</p>
     <h1>Zona de Práctica</h1>
     <p class="portada-sub">4480 reactivos de opción múltiple en 52 temas oficiales</p>
-    <p class="portada-marcas">
-      <span class="marca marca-unam">UAEMéx</span>
-      <span class="marca marca-unam">UNAM</span>
-      <span class="marca marca-ipn">IPN</span>
-      <span class="marca marca-ceneval">CENEVAL · EXANI</span>
-    </p>
+    <div class="portada-filtros-wrap">
+      <div class="portada-marcas" role="group" aria-label="Filtrar temas por universidad o examen">
+        <button type="button" class="marca marca-todos btn-filtro-marca activo" data-examen="TODOS" data-etiqueta="Todos los exámenes" aria-pressed="true">Todos</button>
+        <button type="button" class="marca marca-unam btn-filtro-marca" data-examen="CENEVAL" data-etiqueta="UAEMéx (EXANI-II)" aria-pressed="false">UAEMéx</button>
+        <button type="button" class="marca marca-unam btn-filtro-marca" data-examen="UNAM" data-etiqueta="UNAM" aria-pressed="false">UNAM</button>
+        <button type="button" class="marca marca-ipn btn-filtro-marca" data-examen="IPN" data-etiqueta="IPN" aria-pressed="false">IPN</button>
+        <button type="button" class="marca marca-ceneval btn-filtro-marca" data-examen="CENEVAL" data-etiqueta="CENEVAL · EXANI" aria-pressed="false">CENEVAL · EXANI</button>
+      </div>
+      <p class="portada-filtro-info" id="portada-filtro-info" aria-live="polite">
+        Selecciona una universidad o examen para filtrar los temas de práctica
+      </p>
+    </div>
 
     <!-- Switch de navegación entre Estudio y Práctica -->
     <nav class="nav-modos" aria-label="Cambiar de modo">
@@ -99,9 +105,12 @@
   <div class="seccion-practica-colapsable">
     <div class="seccion-practica-colapsable-interior">
       <div class="seccion-practica-grid">
-        <article class="tarjeta-parte tarjeta-practica" data-tema="1">
+        <article class="tarjeta-parte tarjeta-practica" data-tema="1" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 1</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 1</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Números reales</h3>
     <p class="tarjeta-subtitulo">3 subtemas · 30 reactivos</p>
   </div>
@@ -145,9 +154,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="2">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="2" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 2</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 2</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Operaciones básicas con números reales</h3>
     <p class="tarjeta-subtitulo">5 subtemas · 50 reactivos</p>
   </div>
@@ -207,9 +219,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="3">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="3" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 3</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 3</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Fracciones y decimales</h3>
     <p class="tarjeta-subtitulo">7 subtemas · 70 reactivos</p>
   </div>
@@ -285,9 +300,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="4">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="4" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 4</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 4</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Potencias y raíces</h3>
     <p class="tarjeta-subtitulo">8 subtemas · 80 reactivos</p>
   </div>
@@ -371,9 +389,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="5">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="5" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 5</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 5</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Razones, proporciones y porcentajes</h3>
     <p class="tarjeta-subtitulo">7 subtemas · 70 reactivos</p>
   </div>
@@ -495,9 +516,12 @@
   <div class="seccion-practica-colapsable">
     <div class="seccion-practica-colapsable-interior">
       <div class="seccion-practica-grid">
-        <article class="tarjeta-parte tarjeta-practica" data-tema="6">
+        <article class="tarjeta-parte tarjeta-practica" data-tema="6" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 6</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 6</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Expresiones algebraicas</h3>
     <p class="tarjeta-subtitulo">8 subtemas · 80 reactivos</p>
   </div>
@@ -581,9 +605,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="7">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="7" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 7</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 7</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Productos notables y binomio de Newton</h3>
     <p class="tarjeta-subtitulo">5 subtemas · 50 reactivos</p>
   </div>
@@ -643,9 +670,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="8">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="8" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 8</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 8</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Factorización</h3>
     <p class="tarjeta-subtitulo">8 subtemas · 80 reactivos</p>
   </div>
@@ -729,9 +759,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="9">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="9" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 9</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 9</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Fracciones algebraicas</h3>
     <p class="tarjeta-subtitulo">6 subtemas · 60 reactivos</p>
   </div>
@@ -799,9 +832,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="10">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="10" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 10</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 10</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Ecuaciones de primer grado</h3>
     <p class="tarjeta-subtitulo">6 subtemas · 60 reactivos</p>
   </div>
@@ -869,9 +905,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="11">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="11" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 11</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 11</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Ecuaciones de segundo grado</h3>
     <p class="tarjeta-subtitulo">7 subtemas · 70 reactivos</p>
   </div>
@@ -947,9 +986,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="12">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="12" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 12</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 12</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Desigualdades</h3>
     <p class="tarjeta-subtitulo">6 subtemas · 60 reactivos</p>
   </div>
@@ -1017,9 +1059,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="13">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="13" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 13</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 13</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Sistemas de ecuaciones</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -1111,9 +1156,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="14">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="14" data-examenes="UNAM">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 14</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 14</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Números complejos</h3>
     <p class="tarjeta-subtitulo">11 subtemas · 110 reactivos</p>
   </div>
@@ -1263,9 +1311,12 @@
   <div class="seccion-practica-colapsable">
     <div class="seccion-practica-colapsable-interior">
       <div class="seccion-practica-grid">
-        <article class="tarjeta-parte tarjeta-practica" data-tema="15">
+        <article class="tarjeta-parte tarjeta-practica" data-tema="15" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 15</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 15</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Concepto de función</h3>
     <p class="tarjeta-subtitulo">7 subtemas · 70 reactivos</p>
   </div>
@@ -1341,9 +1392,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="16">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="16" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 16</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 16</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Tipos de funciones</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -1435,9 +1489,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="17">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="17" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 17</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 17</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Álgebra de funciones</h3>
     <p class="tarjeta-subtitulo">6 subtemas · 60 reactivos</p>
   </div>
@@ -1505,9 +1562,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="18">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="18" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 18</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 18</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Funciones exponenciales y logarítmicas</h3>
     <p class="tarjeta-subtitulo">7 subtemas · 70 reactivos</p>
   </div>
@@ -1624,9 +1684,12 @@
   <div class="seccion-practica-colapsable">
     <div class="seccion-practica-colapsable-interior">
       <div class="seccion-practica-grid">
-        <article class="tarjeta-parte tarjeta-practica" data-tema="19">
+        <article class="tarjeta-parte tarjeta-practica" data-tema="19" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 19</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 19</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Elementos básicos de geometría</h3>
     <p class="tarjeta-subtitulo">5 subtemas · 50 reactivos</p>
   </div>
@@ -1686,9 +1749,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="20">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="20" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 20</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 20</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Triángulos</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -1780,9 +1846,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="21">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="21" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 21</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 21</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Cuadriláteros y polígonos</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -1874,9 +1943,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="22">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="22" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 22</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 22</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Circunferencia y círculo</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -1968,9 +2040,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="23">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="23" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 23</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 23</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Perímetros, áreas y volúmenes</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -2107,9 +2182,12 @@
   <div class="seccion-practica-colapsable">
     <div class="seccion-practica-colapsable-interior">
       <div class="seccion-practica-grid">
-        <article class="tarjeta-parte tarjeta-practica" data-tema="24">
+        <article class="tarjeta-parte tarjeta-practica" data-tema="24" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 24</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 24</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Medida de ángulos</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -2201,9 +2279,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="25">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="25" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 25</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 25</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Razones trigonométricas</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -2295,9 +2376,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="26">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="26" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 26</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 26</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Ley de senos y ley de cosenos</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -2389,9 +2473,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="27">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="27" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 27</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 27</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Círculo trigonométrico</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -2483,9 +2570,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="28">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="28" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 28</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 28</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Identidades trigonométricas</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -2577,9 +2667,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="29">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="29" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 29</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 29</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Funciones trigonométricas</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -2712,9 +2805,12 @@
   <div class="seccion-practica-colapsable">
     <div class="seccion-practica-colapsable-interior">
       <div class="seccion-practica-grid">
-        <article class="tarjeta-parte tarjeta-practica" data-tema="30">
+        <article class="tarjeta-parte tarjeta-practica" data-tema="30" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 30</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 30</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Conceptos básicos de geometría analítica</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -2806,9 +2902,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="31">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="31" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 31</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 31</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">La recta</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -2900,9 +2999,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="32">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="32" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 32</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 32</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Aplicaciones de la línea recta</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -2994,9 +3096,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="33">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="33" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 33</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 33</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Circunferencia</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -3088,9 +3193,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="34">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="34" data-examenes="UNAM,IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 34</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 34</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Parábola</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -3182,9 +3290,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="35">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="35" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 35</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 35</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Elipse</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -3276,9 +3387,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="36">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="36" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 36</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 36</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Hipérbola</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -3370,9 +3484,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="37">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="37" data-examenes="UNAM">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 37</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 37</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Ecuación general de segundo grado</h3>
     <p class="tarjeta-subtitulo">4 subtemas · 40 reactivos</p>
   </div>
@@ -3424,9 +3541,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="38">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="38" data-examenes="IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 38</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 38</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Coordenadas polares</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -3559,9 +3679,12 @@
   <div class="seccion-practica-colapsable">
     <div class="seccion-practica-colapsable-interior">
       <div class="seccion-practica-grid">
-        <article class="tarjeta-parte tarjeta-practica" data-tema="39">
+        <article class="tarjeta-parte tarjeta-practica" data-tema="39" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 39</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 39</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Límites</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -3653,9 +3776,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="40">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="40" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 40</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 40</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">La derivada</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -3747,9 +3873,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="41">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="41" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 41</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 41</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Aplicaciones de la derivada</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -3882,9 +4011,12 @@
   <div class="seccion-practica-colapsable">
     <div class="seccion-practica-colapsable-interior">
       <div class="seccion-practica-grid">
-        <article class="tarjeta-parte tarjeta-practica" data-tema="42">
+        <article class="tarjeta-parte tarjeta-practica" data-tema="42" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 42</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 42</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">La integral</h3>
     <p class="tarjeta-subtitulo">15 subtemas · 150 reactivos</p>
   </div>
@@ -4024,9 +4156,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="43">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="43" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 43</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 43</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Métodos de integración</h3>
     <p class="tarjeta-subtitulo">7 subtemas · 70 reactivos</p>
   </div>
@@ -4102,9 +4237,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="44">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="44" data-examenes="UNAM,IPN">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 44</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 44</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-unam">UNAM</span><span class="marca-mini marca-ipn">IPN</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Integral definida y aplicaciones</h3>
     <p class="tarjeta-subtitulo">9 subtemas · 90 reactivos</p>
   </div>
@@ -4238,9 +4376,12 @@
   <div class="seccion-practica-colapsable">
     <div class="seccion-practica-colapsable-interior">
       <div class="seccion-practica-grid">
-        <article class="tarjeta-parte tarjeta-practica" data-tema="45">
+        <article class="tarjeta-parte tarjeta-practica" data-tema="45" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 45</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 45</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Estadística descriptiva</h3>
     <p class="tarjeta-subtitulo">7 subtemas · 70 reactivos</p>
   </div>
@@ -4316,9 +4457,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="46">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="46" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 46</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 46</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Medidas estadísticas</h3>
     <p class="tarjeta-subtitulo">11 subtemas · 110 reactivos</p>
   </div>
@@ -4426,9 +4570,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="47">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="47" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 47</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 47</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Probabilidad básica</h3>
     <p class="tarjeta-subtitulo">11 subtemas · 110 reactivos</p>
   </div>
@@ -4536,9 +4683,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="48">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="48" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 48</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 48</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Técnicas de conteo y probabilidad avanzada</h3>
     <p class="tarjeta-subtitulo">13 subtemas · 130 reactivos</p>
   </div>
@@ -4701,9 +4851,12 @@
   <div class="seccion-practica-colapsable">
     <div class="seccion-practica-colapsable-interior">
       <div class="seccion-practica-grid">
-        <article class="tarjeta-parte tarjeta-practica" data-tema="49">
+        <article class="tarjeta-parte tarjeta-practica" data-tema="49" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 49</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 49</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Sucesiones y series</h3>
     <p class="tarjeta-subtitulo">11 subtemas · 110 reactivos</p>
   </div>
@@ -4811,9 +4964,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="50">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="50" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 50</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 50</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Razonamiento espacial</h3>
     <p class="tarjeta-subtitulo">13 subtemas · 130 reactivos</p>
   </div>
@@ -4979,9 +5135,12 @@
   <div class="seccion-practica-colapsable">
     <div class="seccion-practica-colapsable-interior">
       <div class="seccion-practica-grid">
-        <article class="tarjeta-parte tarjeta-practica" data-tema="51">
+        <article class="tarjeta-parte tarjeta-practica" data-tema="51" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 51</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 51</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Elementos financieros básicos</h3>
     <p class="tarjeta-subtitulo">13 subtemas · 130 reactivos</p>
   </div>
@@ -5105,9 +5264,12 @@
       </ol>
     </div>
   </div>
-</article><article class="tarjeta-parte tarjeta-practica" data-tema="52">
+</article><article class="tarjeta-parte tarjeta-practica" data-tema="52" data-examenes="IPN,CENEVAL">
   <div class="tarjeta-cuerpo">
-    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 52</span>
+    <div class="tarjeta-meta-top">
+      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema 52</span>
+      <span class="tarjeta-marcas"><span class="marca-mini marca-ipn">IPN</span><span class="marca-mini marca-ceneval">CENEVAL</span></span>
+    </div>
     <h3 class="tarjeta-titulo">Interés simple</h3>
     <p class="tarjeta-subtitulo">15 subtemas · 150 reactivos</p>
   </div>
@@ -5510,80 +5672,129 @@
       }
     }
 
-    // Filtro en vivo de secciones, temas y subtemas
+    // Filtro en vivo de secciones, temas y subtemas + filtro por universidad/examen
+    let examenActivoPractica = 'TODOS';
+    let etiquetaActivaPractica = 'Todos los exámenes';
     const filtroInput = document.getElementById('filtro-practica');
-    if (filtroInput) {
-      const normalizar = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-      filtroInput.addEventListener('input', () => {
-        const q = normalizar(filtroInput.value.trim());
+    const infoFiltroPractica = document.getElementById('portada-filtro-info');
+    const botonesMarcaPractica = document.querySelectorAll('.btn-filtro-marca');
+    const normalizar = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
-        document.querySelectorAll('.seccion-practica').forEach((seccion) => {
-          const tituloSec = normalizar(seccion.querySelector('.seccion-practica-titulo')?.textContent || '');
-          const etiquetaSec = normalizar(seccion.querySelector('.seccion-practica-etiqueta')?.textContent || '');
-          const coincideSeccion = q && (tituloSec.includes(q) || etiquetaSec.includes(q));
+    function aplicarFiltrosPractica() {
+      const q = normalizar(filtroInput ? filtroInput.value.trim() : '');
+      let totalTemasVisibles = 0;
 
-          let tarjetasVisibles = 0;
+      document.querySelectorAll('.seccion-practica').forEach((seccion) => {
+        const tituloSec = normalizar(seccion.querySelector('.seccion-practica-titulo')?.textContent || '');
+        const etiquetaSec = normalizar(seccion.querySelector('.seccion-practica-etiqueta')?.textContent || '');
+        const coincideSeccion = q && (tituloSec.includes(q) || etiquetaSec.includes(q));
 
-          seccion.querySelectorAll('.tarjeta-practica').forEach((tarjeta) => {
-            let subtemasVisibles = 0;
-            tarjeta.querySelectorAll('.tarjeta-lista li').forEach((li) => {
-              const ok = !q || coincideSeccion || normalizar(li.textContent).includes(q);
-              li.hidden = !ok;
-              if (ok) subtemasVisibles++;
-            });
+        let tarjetasVisibles = 0;
 
-            const tituloTarjeta = normalizar(tarjeta.querySelector('.tarjeta-titulo')?.textContent || '');
-            const etiquetaTarjeta = normalizar(tarjeta.querySelector('.tarjeta-etiqueta')?.textContent || '');
-            const coincideTituloTarjeta = !q || coincideSeccion || tituloTarjeta.includes(q) || etiquetaTarjeta.includes(q);
+        seccion.querySelectorAll('.tarjeta-practica').forEach((tarjeta) => {
+          const examenesTarjeta = (tarjeta.dataset.examenes || '').split(',');
+          const okExamen = (examenActivoPractica === 'TODOS') || examenesTarjeta.includes(examenActivoPractica);
 
-            if (coincideTituloTarjeta) {
-              tarjeta.hidden = false;
-              tarjeta.querySelectorAll('.tarjeta-lista li').forEach(li => li.hidden = false);
-              tarjetasVisibles++;
-            } else if (subtemasVisibles > 0) {
-              tarjeta.hidden = false;
-              tarjetasVisibles++;
-            } else {
-              tarjeta.hidden = true;
-            }
+          if (!okExamen) {
+            tarjeta.hidden = true;
+            return;
+          }
 
-            const drawerTarjeta = tarjeta.querySelector('.tarjeta-colapsable');
-            const btnTarjeta = tarjeta.querySelector('.btn-toggle-tarjeta');
-            if (drawerTarjeta && btnTarjeta) {
-              const countSub = btnTarjeta.dataset.count;
-              if (q && !coincideTituloTarjeta && subtemasVisibles > 0) {
-                drawerTarjeta.classList.add('abierto');
-                btnTarjeta.setAttribute('aria-expanded', 'true');
-                btnTarjeta.querySelector('.btn-texto').textContent = 'Ocultar subtemas';
-              } else if (!q || coincideSeccion) {
-                drawerTarjeta.classList.remove('abierto');
-                btnTarjeta.setAttribute('aria-expanded', 'false');
-                btnTarjeta.querySelector('.btn-texto').textContent = `Ver subtemas (${countSub})`;
-              }
-            }
+          let subtemasVisibles = 0;
+          tarjeta.querySelectorAll('.tarjeta-lista li').forEach((li) => {
+            const ok = !q || coincideSeccion || normalizar(li.textContent).includes(q);
+            li.hidden = !ok;
+            if (ok) subtemasVisibles++;
           });
 
-          seccion.hidden = (tarjetasVisibles === 0);
+          const tituloTarjeta = normalizar(tarjeta.querySelector('.tarjeta-titulo')?.textContent || '');
+          const etiquetaTarjeta = normalizar(tarjeta.querySelector('.tarjeta-etiqueta')?.textContent || '');
+          const coincideTituloTarjeta = !q || coincideSeccion || tituloTarjeta.includes(q) || etiquetaTarjeta.includes(q);
 
-          const drawerSec = seccion.querySelector('.seccion-practica-colapsable');
-          const cabeceraSec = seccion.querySelector('.seccion-practica-cabecera');
-          if (drawerSec && cabeceraSec) {
-            const countSec = cabeceraSec.dataset.count;
-            if (q && tarjetasVisibles > 0) {
-              drawerSec.classList.add('abierto');
-              cabeceraSec.setAttribute('aria-expanded', 'true');
-              cabeceraSec.querySelector('.btn-texto-seccion').textContent = 'Ocultar temas';
-            } else if (!q) {
-              drawerSec.classList.remove('abierto');
-              cabeceraSec.setAttribute('aria-expanded', 'false');
-              cabeceraSec.querySelector('.btn-texto-seccion').textContent = `Ver temas (${countSec})`;
+          if (coincideTituloTarjeta) {
+            tarjeta.hidden = false;
+            tarjeta.querySelectorAll('.tarjeta-lista li').forEach(li => li.hidden = false);
+            tarjetasVisibles++;
+            totalTemasVisibles++;
+          } else if (subtemasVisibles > 0) {
+            tarjeta.hidden = false;
+            tarjetasVisibles++;
+            totalTemasVisibles++;
+          } else {
+            tarjeta.hidden = true;
+          }
+
+          const drawerTarjeta = tarjeta.querySelector('.tarjeta-colapsable');
+          const btnTarjeta = tarjeta.querySelector('.btn-toggle-tarjeta');
+          if (drawerTarjeta && btnTarjeta) {
+            const countSub = btnTarjeta.dataset.count;
+            if (q && !coincideTituloTarjeta && subtemasVisibles > 0) {
+              drawerTarjeta.classList.add('abierto');
+              btnTarjeta.setAttribute('aria-expanded', 'true');
+              btnTarjeta.querySelector('.btn-texto').textContent = 'Ocultar subtemas';
+            } else if (!q || coincideSeccion) {
+              drawerTarjeta.classList.remove('abierto');
+              btnTarjeta.setAttribute('aria-expanded', 'false');
+              btnTarjeta.querySelector('.btn-texto').textContent = `Ver subtemas (${countSub})`;
             }
           }
         });
 
-        actualizarBotonToggleTodas();
+        seccion.hidden = (tarjetasVisibles === 0);
+
+        const drawerSec = seccion.querySelector('.seccion-practica-colapsable');
+        const cabeceraSec = seccion.querySelector('.seccion-practica-cabecera');
+        if (drawerSec && cabeceraSec) {
+          cabeceraSec.dataset.count = tarjetasVisibles;
+          if (q && tarjetasVisibles > 0) {
+            drawerSec.classList.add('abierto');
+            cabeceraSec.setAttribute('aria-expanded', 'true');
+            cabeceraSec.querySelector('.btn-texto-seccion').textContent = 'Ocultar temas';
+          } else if (!q) {
+            const abierta = drawerSec.classList.contains('abierto');
+            cabeceraSec.querySelector('.btn-texto-seccion').textContent = abierta
+              ? 'Ocultar temas'
+              : `Ver temas (${tarjetasVisibles})`;
+          }
+        }
       });
+
+      if (infoFiltroPractica) {
+        if (examenActivoPractica === 'TODOS') {
+          infoFiltroPractica.textContent = 'Selecciona una universidad o examen para filtrar los temas de práctica';
+          infoFiltroPractica.classList.remove('filtro-activo');
+        } else {
+          infoFiltroPractica.innerHTML = `Mostrando <strong>${totalTemasVisibles} temas</strong> evaluados en <strong>${etiquetaActivaPractica}</strong> · <button type="button" class="btn-limpiar-filtro" onclick="seleccionarFiltroMarcaPractica(document.querySelector('.btn-filtro-marca[data-examen=&quot;TODOS&quot;]'))">Ver todos</button>`;
+          infoFiltroPractica.classList.add('filtro-activo');
+        }
+      }
+
+      actualizarBotonToggleTodas();
     }
+
+    function seleccionarFiltroMarcaPractica(btn) {
+      if (!btn) return;
+      const yaActivo = btn.classList.contains('activo') && btn.dataset.examen !== 'TODOS';
+      const targetBtn = yaActivo
+        ? document.querySelector('.btn-filtro-marca[data-examen="TODOS"]')
+        : btn;
+
+      botonesMarcaPractica.forEach((b) => {
+        const esEste = (b === targetBtn);
+        b.classList.toggle('activo', esEste);
+        b.setAttribute('aria-pressed', esEste ? 'true' : 'false');
+      });
+
+      examenActivoPractica = targetBtn.dataset.examen || 'TODOS';
+      etiquetaActivaPractica = targetBtn.dataset.etiqueta || targetBtn.textContent.trim();
+      aplicarFiltrosPractica();
+    }
+
+    botonesMarcaPractica.forEach((btn) => {
+      btn.addEventListener('click', () => seleccionarFiltroMarcaPractica(btn));
+    });
+
+    filtroInput?.addEventListener('input', aplicarFiltrosPractica);
   </script>
 </body>
 </html>

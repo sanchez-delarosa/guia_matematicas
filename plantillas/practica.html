@@ -22,12 +22,18 @@
     <p class="portada-sobre">Centro de Estudios Jesús Reyes Heroles A.C. · Simulador de reactivos</p>
     <h1>Zona de Práctica</h1>
     <p class="portada-sub">{{total_reactivos}} reactivos de opción múltiple en {{total_temas}} temas oficiales</p>
-    <p class="portada-marcas">
-      <span class="marca marca-unam">UAEMéx</span>
-      <span class="marca marca-unam">UNAM</span>
-      <span class="marca marca-ipn">IPN</span>
-      <span class="marca marca-ceneval">CENEVAL · EXANI</span>
-    </p>
+    <div class="portada-filtros-wrap">
+      <div class="portada-marcas" role="group" aria-label="Filtrar temas por universidad o examen">
+        <button type="button" class="marca marca-todos btn-filtro-marca activo" data-examen="TODOS" data-etiqueta="Todos los exámenes" aria-pressed="true">Todos</button>
+        <button type="button" class="marca marca-unam btn-filtro-marca" data-examen="CENEVAL" data-etiqueta="UAEMéx (EXANI-II)" aria-pressed="false">UAEMéx</button>
+        <button type="button" class="marca marca-unam btn-filtro-marca" data-examen="UNAM" data-etiqueta="UNAM" aria-pressed="false">UNAM</button>
+        <button type="button" class="marca marca-ipn btn-filtro-marca" data-examen="IPN" data-etiqueta="IPN" aria-pressed="false">IPN</button>
+        <button type="button" class="marca marca-ceneval btn-filtro-marca" data-examen="CENEVAL" data-etiqueta="CENEVAL · EXANI" aria-pressed="false">CENEVAL · EXANI</button>
+      </div>
+      <p class="portada-filtro-info" id="portada-filtro-info" aria-live="polite">
+        Selecciona una universidad o examen para filtrar los temas de práctica
+      </p>
+    </div>
 
     <!-- Switch de navegación entre Estudio y Práctica -->
     <nav class="nav-modos" aria-label="Cambiar de modo">
@@ -316,80 +322,129 @@
       }
     }
 
-    // Filtro en vivo de secciones, temas y subtemas
+    // Filtro en vivo de secciones, temas y subtemas + filtro por universidad/examen
+    let examenActivoPractica = 'TODOS';
+    let etiquetaActivaPractica = 'Todos los exámenes';
     const filtroInput = document.getElementById('filtro-practica');
-    if (filtroInput) {
-      const normalizar = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-      filtroInput.addEventListener('input', () => {
-        const q = normalizar(filtroInput.value.trim());
+    const infoFiltroPractica = document.getElementById('portada-filtro-info');
+    const botonesMarcaPractica = document.querySelectorAll('.btn-filtro-marca');
+    const normalizar = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
-        document.querySelectorAll('.seccion-practica').forEach((seccion) => {
-          const tituloSec = normalizar(seccion.querySelector('.seccion-practica-titulo')?.textContent || '');
-          const etiquetaSec = normalizar(seccion.querySelector('.seccion-practica-etiqueta')?.textContent || '');
-          const coincideSeccion = q && (tituloSec.includes(q) || etiquetaSec.includes(q));
+    function aplicarFiltrosPractica() {
+      const q = normalizar(filtroInput ? filtroInput.value.trim() : '');
+      let totalTemasVisibles = 0;
 
-          let tarjetasVisibles = 0;
+      document.querySelectorAll('.seccion-practica').forEach((seccion) => {
+        const tituloSec = normalizar(seccion.querySelector('.seccion-practica-titulo')?.textContent || '');
+        const etiquetaSec = normalizar(seccion.querySelector('.seccion-practica-etiqueta')?.textContent || '');
+        const coincideSeccion = q && (tituloSec.includes(q) || etiquetaSec.includes(q));
 
-          seccion.querySelectorAll('.tarjeta-practica').forEach((tarjeta) => {
-            let subtemasVisibles = 0;
-            tarjeta.querySelectorAll('.tarjeta-lista li').forEach((li) => {
-              const ok = !q || coincideSeccion || normalizar(li.textContent).includes(q);
-              li.hidden = !ok;
-              if (ok) subtemasVisibles++;
-            });
+        let tarjetasVisibles = 0;
 
-            const tituloTarjeta = normalizar(tarjeta.querySelector('.tarjeta-titulo')?.textContent || '');
-            const etiquetaTarjeta = normalizar(tarjeta.querySelector('.tarjeta-etiqueta')?.textContent || '');
-            const coincideTituloTarjeta = !q || coincideSeccion || tituloTarjeta.includes(q) || etiquetaTarjeta.includes(q);
+        seccion.querySelectorAll('.tarjeta-practica').forEach((tarjeta) => {
+          const examenesTarjeta = (tarjeta.dataset.examenes || '').split(',');
+          const okExamen = (examenActivoPractica === 'TODOS') || examenesTarjeta.includes(examenActivoPractica);
 
-            if (coincideTituloTarjeta) {
-              tarjeta.hidden = false;
-              tarjeta.querySelectorAll('.tarjeta-lista li').forEach(li => li.hidden = false);
-              tarjetasVisibles++;
-            } else if (subtemasVisibles > 0) {
-              tarjeta.hidden = false;
-              tarjetasVisibles++;
-            } else {
-              tarjeta.hidden = true;
-            }
+          if (!okExamen) {
+            tarjeta.hidden = true;
+            return;
+          }
 
-            const drawerTarjeta = tarjeta.querySelector('.tarjeta-colapsable');
-            const btnTarjeta = tarjeta.querySelector('.btn-toggle-tarjeta');
-            if (drawerTarjeta && btnTarjeta) {
-              const countSub = btnTarjeta.dataset.count;
-              if (q && !coincideTituloTarjeta && subtemasVisibles > 0) {
-                drawerTarjeta.classList.add('abierto');
-                btnTarjeta.setAttribute('aria-expanded', 'true');
-                btnTarjeta.querySelector('.btn-texto').textContent = 'Ocultar subtemas';
-              } else if (!q || coincideSeccion) {
-                drawerTarjeta.classList.remove('abierto');
-                btnTarjeta.setAttribute('aria-expanded', 'false');
-                btnTarjeta.querySelector('.btn-texto').textContent = `Ver subtemas (${countSub})`;
-              }
-            }
+          let subtemasVisibles = 0;
+          tarjeta.querySelectorAll('.tarjeta-lista li').forEach((li) => {
+            const ok = !q || coincideSeccion || normalizar(li.textContent).includes(q);
+            li.hidden = !ok;
+            if (ok) subtemasVisibles++;
           });
 
-          seccion.hidden = (tarjetasVisibles === 0);
+          const tituloTarjeta = normalizar(tarjeta.querySelector('.tarjeta-titulo')?.textContent || '');
+          const etiquetaTarjeta = normalizar(tarjeta.querySelector('.tarjeta-etiqueta')?.textContent || '');
+          const coincideTituloTarjeta = !q || coincideSeccion || tituloTarjeta.includes(q) || etiquetaTarjeta.includes(q);
 
-          const drawerSec = seccion.querySelector('.seccion-practica-colapsable');
-          const cabeceraSec = seccion.querySelector('.seccion-practica-cabecera');
-          if (drawerSec && cabeceraSec) {
-            const countSec = cabeceraSec.dataset.count;
-            if (q && tarjetasVisibles > 0) {
-              drawerSec.classList.add('abierto');
-              cabeceraSec.setAttribute('aria-expanded', 'true');
-              cabeceraSec.querySelector('.btn-texto-seccion').textContent = 'Ocultar temas';
-            } else if (!q) {
-              drawerSec.classList.remove('abierto');
-              cabeceraSec.setAttribute('aria-expanded', 'false');
-              cabeceraSec.querySelector('.btn-texto-seccion').textContent = `Ver temas (${countSec})`;
+          if (coincideTituloTarjeta) {
+            tarjeta.hidden = false;
+            tarjeta.querySelectorAll('.tarjeta-lista li').forEach(li => li.hidden = false);
+            tarjetasVisibles++;
+            totalTemasVisibles++;
+          } else if (subtemasVisibles > 0) {
+            tarjeta.hidden = false;
+            tarjetasVisibles++;
+            totalTemasVisibles++;
+          } else {
+            tarjeta.hidden = true;
+          }
+
+          const drawerTarjeta = tarjeta.querySelector('.tarjeta-colapsable');
+          const btnTarjeta = tarjeta.querySelector('.btn-toggle-tarjeta');
+          if (drawerTarjeta && btnTarjeta) {
+            const countSub = btnTarjeta.dataset.count;
+            if (q && !coincideTituloTarjeta && subtemasVisibles > 0) {
+              drawerTarjeta.classList.add('abierto');
+              btnTarjeta.setAttribute('aria-expanded', 'true');
+              btnTarjeta.querySelector('.btn-texto').textContent = 'Ocultar subtemas';
+            } else if (!q || coincideSeccion) {
+              drawerTarjeta.classList.remove('abierto');
+              btnTarjeta.setAttribute('aria-expanded', 'false');
+              btnTarjeta.querySelector('.btn-texto').textContent = `Ver subtemas (${countSub})`;
             }
           }
         });
 
-        actualizarBotonToggleTodas();
+        seccion.hidden = (tarjetasVisibles === 0);
+
+        const drawerSec = seccion.querySelector('.seccion-practica-colapsable');
+        const cabeceraSec = seccion.querySelector('.seccion-practica-cabecera');
+        if (drawerSec && cabeceraSec) {
+          cabeceraSec.dataset.count = tarjetasVisibles;
+          if (q && tarjetasVisibles > 0) {
+            drawerSec.classList.add('abierto');
+            cabeceraSec.setAttribute('aria-expanded', 'true');
+            cabeceraSec.querySelector('.btn-texto-seccion').textContent = 'Ocultar temas';
+          } else if (!q) {
+            const abierta = drawerSec.classList.contains('abierto');
+            cabeceraSec.querySelector('.btn-texto-seccion').textContent = abierta
+              ? 'Ocultar temas'
+              : `Ver temas (${tarjetasVisibles})`;
+          }
+        }
       });
+
+      if (infoFiltroPractica) {
+        if (examenActivoPractica === 'TODOS') {
+          infoFiltroPractica.textContent = 'Selecciona una universidad o examen para filtrar los temas de práctica';
+          infoFiltroPractica.classList.remove('filtro-activo');
+        } else {
+          infoFiltroPractica.innerHTML = `Mostrando <strong>${totalTemasVisibles} temas</strong> evaluados en <strong>${etiquetaActivaPractica}</strong> · <button type="button" class="btn-limpiar-filtro" onclick="seleccionarFiltroMarcaPractica(document.querySelector('.btn-filtro-marca[data-examen=&quot;TODOS&quot;]'))">Ver todos</button>`;
+          infoFiltroPractica.classList.add('filtro-activo');
+        }
+      }
+
+      actualizarBotonToggleTodas();
     }
+
+    function seleccionarFiltroMarcaPractica(btn) {
+      if (!btn) return;
+      const yaActivo = btn.classList.contains('activo') && btn.dataset.examen !== 'TODOS';
+      const targetBtn = yaActivo
+        ? document.querySelector('.btn-filtro-marca[data-examen="TODOS"]')
+        : btn;
+
+      botonesMarcaPractica.forEach((b) => {
+        const esEste = (b === targetBtn);
+        b.classList.toggle('activo', esEste);
+        b.setAttribute('aria-pressed', esEste ? 'true' : 'false');
+      });
+
+      examenActivoPractica = targetBtn.dataset.examen || 'TODOS';
+      etiquetaActivaPractica = targetBtn.dataset.etiqueta || targetBtn.textContent.trim();
+      aplicarFiltrosPractica();
+    }
+
+    botonesMarcaPractica.forEach((btn) => {
+      btn.addEventListener('click', () => seleccionarFiltroMarcaPractica(btn));
+    });
+
+    filtroInput?.addEventListener('input', aplicarFiltrosPractica);
   </script>
 </body>
 </html>

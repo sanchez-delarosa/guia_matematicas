@@ -18,12 +18,18 @@
     <p class="portada-sobre">Centro de Estudios Jesús Reyes Heroles A.C. · Guía de estudio</p>
     <h1>{{titulo_sitio}}</h1>
     <p class="portada-sub">{{subtitulo}}</p>
-    <p class="portada-marcas">
-      <span class="marca marca-unam">UAEMéx</span>
-      <span class="marca marca-unam">UNAM</span>
-      <span class="marca marca-ipn">IPN</span>
-      <span class="marca marca-ceneval">CENEVAL · EXANI</span>
-    </p>
+    <div class="portada-filtros-wrap">
+      <div class="portada-marcas" role="group" aria-label="Filtrar capítulos por universidad o examen">
+        <button type="button" class="marca marca-todos btn-filtro-marca activo" data-examen="TODOS" data-etiqueta="Todos los exámenes" aria-pressed="true">Todos</button>
+        <button type="button" class="marca marca-unam btn-filtro-marca" data-examen="CENEVAL" data-etiqueta="UAEMéx (EXANI-II)" aria-pressed="false">UAEMéx</button>
+        <button type="button" class="marca marca-unam btn-filtro-marca" data-examen="UNAM" data-etiqueta="UNAM" aria-pressed="false">UNAM</button>
+        <button type="button" class="marca marca-ipn btn-filtro-marca" data-examen="IPN" data-etiqueta="IPN" aria-pressed="false">IPN</button>
+        <button type="button" class="marca marca-ceneval btn-filtro-marca" data-examen="CENEVAL" data-etiqueta="CENEVAL · EXANI" aria-pressed="false">CENEVAL · EXANI</button>
+      </div>
+      <p class="portada-filtro-info" id="portada-filtro-info" aria-live="polite">
+        Selecciona una universidad o examen para filtrar los capítulos
+      </p>
+    </div>
     <nav class="nav-modos" aria-label="Cambiar de modo">
       <span class="btn-modo activo" aria-current="page">📖 Guía de Estudio</span>
       <a href="practica.html" class="btn-modo modo-practica-enlace">
@@ -209,37 +215,91 @@
       }
     }
 
-    // Filtro rápido de capítulos por título
+    // Filtro combinado por universidad/examen y por texto de búsqueda
+    let examenActivo = 'TODOS';
+    let etiquetaActiva = 'Todos los exámenes';
+
     const filtro = document.getElementById('filtro');
+    const infoFiltro = document.getElementById('portada-filtro-info');
+    const botonesMarca = document.querySelectorAll('.btn-filtro-marca');
     const normalizar = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-    filtro.addEventListener('input', () => {
-      const q = normalizar(filtro.value.trim());
+
+    function aplicarFiltros() {
+      const q = normalizar(filtro ? filtro.value.trim() : '');
+      let totalCapitulosVisibles = 0;
+
       document.querySelectorAll('.tarjeta-parte').forEach((parte) => {
         let visibles = 0;
         parte.querySelectorAll('.tarjeta-lista li').forEach((li) => {
-          const ok = !q || normalizar(li.textContent).includes(q);
+          const examenesLi = (li.dataset.examenes || '').split(',');
+          const okExamen = (examenActivo === 'TODOS') || examenesLi.includes(examenActivo);
+          const okTexto = !q || normalizar(li.textContent).includes(q);
+          const ok = okExamen && okTexto;
           li.hidden = !ok;
-          if (ok) visibles++;
+          if (ok) {
+            visibles++;
+            totalCapitulosVisibles++;
+          }
         });
+
         parte.hidden = (visibles === 0);
 
-        // Auto-expandir tarjeta si coincide con la búsqueda
+        const sub = parte.querySelector('.tarjeta-subtitulo');
+        if (sub) {
+          sub.textContent = `${visibles} capítulo${visibles !== 1 ? 's' : ''}`;
+        }
+
         const drawer = parte.querySelector('.tarjeta-colapsable');
         const btn = parte.querySelector('.btn-toggle-tarjeta');
         if (drawer && btn) {
-          const count = btn.dataset.count;
+          btn.dataset.count = visibles;
           if (q && visibles > 0) {
             drawer.classList.add('abierto');
             btn.setAttribute('aria-expanded', 'true');
             btn.querySelector('.btn-texto').textContent = 'Ocultar capítulos';
           } else if (!q) {
-            drawer.classList.remove('abierto');
-            btn.setAttribute('aria-expanded', 'false');
-            btn.querySelector('.btn-texto').textContent = `Ver capítulos (${count})`;
+            const abierta = drawer.classList.contains('abierto');
+            btn.querySelector('.btn-texto').textContent = abierta
+              ? 'Ocultar capítulos'
+              : `Ver capítulos (${visibles})`;
           }
         }
       });
+
+      if (infoFiltro) {
+        if (examenActivo === 'TODOS') {
+          infoFiltro.textContent = 'Selecciona una universidad o examen para filtrar los capítulos';
+          infoFiltro.classList.remove('filtro-activo');
+        } else {
+          infoFiltro.innerHTML = `Mostrando <strong>${totalCapitulosVisibles} capítulos</strong> evaluados en <strong>${etiquetaActiva}</strong> · <button type="button" class="btn-limpiar-filtro" onclick="seleccionarFiltroMarca(document.querySelector('.btn-filtro-marca[data-examen=&quot;TODOS&quot;]'))">Ver todos</button>`;
+          infoFiltro.classList.add('filtro-activo');
+        }
+      }
+    }
+
+    function seleccionarFiltroMarca(btn) {
+      if (!btn) return;
+      const yaActivo = btn.classList.contains('activo') && btn.dataset.examen !== 'TODOS';
+      const targetBtn = yaActivo
+        ? document.querySelector('.btn-filtro-marca[data-examen="TODOS"]')
+        : btn;
+
+      botonesMarca.forEach((b) => {
+        const esEste = (b === targetBtn);
+        b.classList.toggle('activo', esEste);
+        b.setAttribute('aria-pressed', esEste ? 'true' : 'false');
+      });
+
+      examenActivo = targetBtn.dataset.examen || 'TODOS';
+      etiquetaActiva = targetBtn.dataset.etiqueta || targetBtn.textContent.trim();
+      aplicarFiltros();
+    }
+
+    botonesMarca.forEach((btn) => {
+      btn.addEventListener('click', () => seleccionarFiltroMarca(btn));
     });
+
+    filtro?.addEventListener('input', aplicarFiltros);
   </script>
 </body>
 </html>

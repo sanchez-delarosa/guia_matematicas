@@ -44,6 +44,37 @@ class InfoCapitulo:
     ruta: str          # p. ej. unidades/06-geometria-analitica/02-la-recta
     titulo: str
     archivo_html: str  # p. ej. 31-la-recta.html
+    examenes: list[str]
+
+
+def extraer_examenes(ruta_tex: Path) -> list[str]:
+    """Extrae las marcas de examen (UNAM, IPN, CENEVAL) del encabezado del capítulo."""
+    orden = ["UNAM", "IPN", "CENEVAL"]
+    if not ruta_tex.exists():
+        return orden
+    try:
+        tex = quitar_comentarios(ruta_tex.read_text(encoding="utf-8"))
+        encabezado = tex.split(r"\section")[0]
+        hallados = re.findall(r"\\marca(Todos|UNAM|IPN|CENEVAL)\b", encabezado)
+        if not hallados:
+            hallados = re.findall(r"\\marca(Todos|UNAM|IPN|CENEVAL)\b", tex)
+        examenes_set = set()
+        for m in hallados:
+            if m == "Todos":
+                examenes_set.update(orden)
+            else:
+                examenes_set.add(m)
+        return [e for e in orden if e in examenes_set] or orden
+    except Exception:
+        return orden
+
+
+def html_marcas_mini(examenes: list[str], clase_contenedor: str = "cap-marcas") -> str:
+    spans = "".join(
+        f'<span class="marca-mini marca-{e.lower()}">{e}</span>'
+        for e in examenes
+    )
+    return f'<span class="{clase_contenedor}">{spans}</span>'
 
 
 # ----------------------------------------------------------------------
@@ -61,7 +92,7 @@ def leer_estructura() -> list[InfoCapitulo]:
             break
         if not en_main:
             continue
-        m = re.match(r"\s*%\s*-+\s*(Parte [^:]+:\s*.+?)\s*-+\s*$", linea)
+        m = re.match(r"\s*%\s*-+\s*(Parte [^:]+:\s*.+?)\s*-+\s$", linea) or re.match(r"\s*%\s*-+\s*(Parte [^:]+:\s*.+?)\s*-+\s*$", linea)
         if m:
             parte = m.group(1)
             continue
@@ -69,11 +100,13 @@ def leer_estructura() -> list[InfoCapitulo]:
         if m:
             n += 1
             ruta = m.group(1)
-            tex = (FUENTE / f"{ruta}.tex").read_text(encoding="utf-8")
+            ruta_tex = FUENTE / f"{ruta}.tex"
+            tex = ruta_tex.read_text(encoding="utf-8")
             t = re.search(r"\\chapter\*?\{(.+?)\}\s*$", quitar_comentarios(tex), re.M)
             titulo = t.group(1) if t else Path(ruta).name
             nombre = Path(ruta).name.split("-", 1)[1]
-            capitulos.append(InfoCapitulo(n, parte, ruta, titulo, f"{n:02d}-{nombre}.html"))
+            examenes = extraer_examenes(ruta_tex)
+            capitulos.append(InfoCapitulo(n, parte, ruta, titulo, f"{n:02d}-{nombre}.html", examenes))
     return capitulos
 
 
@@ -207,8 +240,12 @@ def construir(numeros: list[int] | None) -> None:
 
     # Página principal
     partes_dict: dict[str, list[InfoCapitulo]] = {}
+    cap_por_num: dict[str, InfoCapitulo] = {}
     for c in estructura:
         partes_dict.setdefault(c.parte, []).append(c)
+        cap_por_num[str(c.numero)] = c
+
+    orden_examenes = ["UNAM", "IPN", "CENEVAL"]
 
     bloques = []
     for parte, caps in partes_dict.items():
@@ -219,27 +256,40 @@ def construir(numeros: list[int] | None) -> None:
             etiqueta, nombre = "Materia", parte.strip()
 
         svg_icono = obtener_icono_parte(parte)
+        examenes_parte_set = set()
+        for c in caps:
+            examenes_parte_set.update(c.examenes)
+        examenes_parte = [e for e in orden_examenes if e in examenes_parte_set]
+        marcas_parte_html = html_marcas_mini(examenes_parte, "tarjeta-marcas")
 
         items_html = []
         for c in caps:
             subtemas = extraer_subtemas(FUENTE / f"{c.ruta}.tex")
             subtemas_html = f'<span class="secciones-cap">{html.escape(subtemas)}</span>' if subtemas else ""
+            marcas_cap_html = html_marcas_mini(c.examenes, "cap-marcas")
+            data_ex = ",".join(c.examenes)
             if c.numero in construidos:
                 items_html.append(
-                    f'<li><a href="capitulos/{c.archivo_html}">'
+                    f'<li data-examenes="{data_ex}"><a href="capitulos/{c.archivo_html}">'
                     f'<span class="num">{c.numero}</span>'
                     f'<div class="cap-info">'
-                    f'  <span class="titulo-cap">{html.escape(c.titulo)}</span>'
+                    f'  <div class="cap-titulo-fila">'
+                    f'    <span class="titulo-cap">{html.escape(c.titulo)}</span>'
+                    f'    {marcas_cap_html}'
+                    f'  </div>'
                     f'  {subtemas_html}'
                     f'</div>'
                     f'<span class="flecha">→</span></a></li>'
                 )
             else:
                 items_html.append(
-                    f'<li class="pendiente">'
+                    f'<li class="pendiente" data-examenes="{data_ex}">'
                     f'<span class="num">{c.numero}</span>'
                     f'<div class="cap-info">'
-                    f'  <span class="titulo-cap">{html.escape(c.titulo)}</span>'
+                    f'  <div class="cap-titulo-fila">'
+                    f'    <span class="titulo-cap">{html.escape(c.titulo)}</span>'
+                    f'    {marcas_cap_html}'
+                    f'  </div>'
                     f'  {subtemas_html}'
                     f'</div>'
                     f'<span class="etiqueta-pendiente">Próximamente</span></li>'
@@ -247,16 +297,20 @@ def construir(numeros: list[int] | None) -> None:
 
         cant_caps = len(caps)
         subtitulo_parte = f"{cant_caps} capítulo{'s' if cant_caps != 1 else ''}"
+        data_ex_parte = ",".join(examenes_parte)
 
         bloques.append(
-            f'<section class="tarjeta-parte">\n'
+            f'<section class="tarjeta-parte" data-examenes="{data_ex_parte}">\n'
             f'  <div class="tarjeta-banner">\n'
             f'    <div class="tarjeta-ilustracion" aria-hidden="true">\n'
             f'      {svg_icono}\n'
             f'    </div>\n'
             f'  </div>\n'
             f'  <div class="tarjeta-cuerpo">\n'
-            f'    <span class="tarjeta-etiqueta">{html.escape(etiqueta)}</span>\n'
+            f'    <div class="tarjeta-meta-top">\n'
+            f'      <span class="tarjeta-etiqueta">{html.escape(etiqueta)}</span>\n'
+            f'      {marcas_parte_html}\n'
+            f'    </div>\n'
             f'    <h2 class="tarjeta-titulo">{html.escape(nombre)}</h2>\n'
             f'    <p class="tarjeta-subtitulo">{subtitulo_parte}</p>\n'
             f'  </div>\n'
@@ -354,11 +408,18 @@ def construir(numeros: list[int] | None) -> None:
             cant_sub = len(t_data["subtemas"])
             cant_reactivos = t_data["total"]
             subtitulo_tema = f"{cant_sub} subtema{'s' if cant_sub != 1 else ''} · {cant_reactivos} reactivos"
+            cap_obj = cap_por_num.get(t_cod)
+            examenes_tema = cap_obj.examenes if cap_obj else orden_examenes
+            data_ex_tema = ",".join(examenes_tema)
+            marcas_tema_html = html_marcas_mini(examenes_tema, "tarjeta-marcas")
 
             return (
-                f'<article class="tarjeta-parte tarjeta-practica" data-tema="{t_cod}">\n'
+                f'<article class="tarjeta-parte tarjeta-practica" data-tema="{t_cod}" data-examenes="{data_ex_tema}">\n'
                 f'  <div class="tarjeta-cuerpo">\n'
-                f'    <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema {t_cod}</span>\n'
+                f'    <div class="tarjeta-meta-top">\n'
+                f'      <span class="tarjeta-etiqueta tarjeta-etiqueta-practica">Tema {t_cod}</span>\n'
+                f'      {marcas_tema_html}\n'
+                f'    </div>\n'
                 f'    <h3 class="tarjeta-titulo">{html.escape(t_data["nombre"])}</h3>\n'
                 f'    <p class="tarjeta-subtitulo">{subtitulo_tema}</p>\n'
                 f'  </div>\n'
